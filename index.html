@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>专升本单词记忆</title>
+  <meta name="theme-color" content="#126b67">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="专升本单词">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Spaced Word Lab</p>
+        <h1>专升本单词记忆</h1>
+      </div>
+      <div class="topbar-actions">
+        <button class="icon-button secondary" id="importButton" title="导入词库" aria-label="导入词库">↥</button>
+        <button class="icon-button secondary" id="exportButton" title="导出词库" aria-label="导出词库">↧</button>
+        <button class="secondary-button" id="startNewButton"><span aria-hidden="true">▶</span> 新词连背</button>
+        <button class="secondary-button" id="batchLearnButton"><span aria-hidden="true">✓</span> 一键记完新词</button>
+        <button class="primary-button" id="focusDueButton"><span aria-hidden="true">◎</span> 开始复习</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="stats-grid" aria-label="记忆统计">
+        <article class="metric">
+          <span>词条总数</span>
+          <strong id="totalCount">0</strong>
+        </article>
+        <article class="metric accent">
+          <span>现在到期</span>
+          <strong id="dueCount">0</strong>
+        </article>
+        <article class="metric warm">
+          <span>今日安排</span>
+          <strong id="todayCount">0</strong>
+        </article>
+        <article class="metric calm">
+          <span>已完成</span>
+          <strong id="doneTodayCount">0</strong>
+        </article>
+      </section>
+
+      <section class="prep-dashboard" aria-label="专升本今日任务">
+        <article class="countdown-panel">
+          <div>
+            <p class="eyebrow">Exam</p>
+            <h2>专升本倒计时</h2>
+          </div>
+          <div class="countdown-number"><strong id="examDays">--</strong><span>天</span></div>
+          <label class="compact-field">
+            <span>考试日期</span>
+            <input id="examDateInput" type="date">
+          </label>
+        </article>
+        <article class="task-panel">
+          <span>今日新词</span>
+          <strong id="todayNewTarget">0</strong>
+          <p id="todayNewHint">先完成新词，再等系统复习</p>
+        </article>
+        <article class="task-panel accent">
+          <span>今日复习</span>
+          <strong id="todayReviewTarget">0</strong>
+          <p id="todayReviewHint">按页面显示的具体时间背</p>
+        </article>
+        <article class="task-panel warm">
+          <span>重点词</span>
+          <strong id="importantCount">0</strong>
+          <p>忘了的词会自动进入这里</p>
+        </article>
+        <article class="task-panel calm">
+          <span>预计用时</span>
+          <strong id="estimateMinutes">0</strong>
+          <p>分钟，拆开做也可以</p>
+        </article>
+      </section>
+
+      <section class="hero-workbench">
+        <div class="study-area">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Now</p>
+              <h2>记忆卡片</h2>
+            </div>
+            <div class="clock-chip" id="clockNow">--:--</div>
+          </div>
+
+          <div class="mode-tabs" role="tablist" aria-label="学习模式">
+            <button class="tab-button active" id="dueModeButton" type="button">到期复习</button>
+            <button class="tab-button" id="newModeButton" type="button">新词记忆</button>
+            <button class="tab-button" id="allModeButton" type="button">全部抽查</button>
+          </div>
+
+          <div class="practice-switch" aria-label="练习方式">
+            <button class="practice-button active" data-practice-mode="card" type="button">卡片</button>
+            <button class="practice-button" data-practice-mode="enToZh" type="button">英译中</button>
+            <button class="practice-button" data-practice-mode="zhToEn" type="button">中译英</button>
+            <button class="practice-button" data-practice-mode="phrase" type="button">搭配填空</button>
+            <button class="practice-button" data-practice-mode="spell" type="button">拼写</button>
+            <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
+          </div>
+
+          <div class="dictation-tools" aria-label="听写设置">
+            <label class="compact-select">
+              <span>听写顺序</span>
+              <select id="dictationOrderSelect">
+                <option value="due">到期优先</option>
+                <option value="important">重点错词优先</option>
+                <option value="random">随机乱序</option>
+                <option value="az">A-Z 顺序</option>
+              </select>
+            </label>
+          </div>
+
+          <article class="word-card" id="activeCard"></article>
+        </div>
+
+        <aside class="schedule-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Plan</p>
+              <h2>今日几点背</h2>
+            </div>
+            <button class="text-button" id="copyPlanButton" type="button">复制计划</button>
+          </div>
+          <div class="time-ladder" id="todayTimeline"></div>
+        </aside>
+      </section>
+
+      <section class="groups-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Groups</p>
+            <h2>Word List 进度</h2>
+          </div>
+        </div>
+        <div class="group-grid" id="groupProgress"></div>
+      </section>
+
+      <section class="entry-grid">
+        <form class="entry-form" id="wordForm">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Add</p>
+              <h2>添加单词</h2>
+            </div>
+          </div>
+          <div class="form-grid">
+            <label>
+              <span>单词/短语</span>
+              <input id="termInput" required maxlength="80" placeholder="carry out">
+            </label>
+            <label>
+              <span>中文</span>
+              <input id="meaningInput" maxlength="120" placeholder="执行，实施">
+            </label>
+            <label>
+              <span>搭配/例句</span>
+              <input id="phraseInput" maxlength="180" placeholder="carry out a plan">
+            </label>
+            <label>
+              <span>标签</span>
+              <input id="tagInput" maxlength="60" placeholder="阅读 / 作文 / 高频">
+            </label>
+          </div>
+          <label>
+            <span>备注</span>
+            <textarea id="noteInput" rows="2" placeholder="易混词、词根、发音提醒"></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="secondary-button" id="clearFormButton" type="button">清空</button>
+            <button class="primary-button" type="submit"><span aria-hidden="true">＋</span> 加入词库</button>
+          </div>
+        </form>
+
+        <section class="bulk-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Paste</p>
+              <h2>批量加入</h2>
+            </div>
+          </div>
+          <textarea id="bulkInput" rows="8" placeholder="abandon | 放弃 | abandon the plan&#10;carry out | 执行 | carry out a task"></textarea>
+          <div class="form-actions">
+            <button class="secondary-button" id="clearBulkButton" type="button">清空</button>
+            <button class="primary-button" id="bulkAddButton" type="button"><span aria-hidden="true">＋</span> 批量加入</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="library-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Library</p>
+            <h2>词库</h2>
+          </div>
+          <div class="library-tools">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="searchInput" type="search" placeholder="搜索单词、中文、短语">
+            </label>
+            <select id="statusFilter" aria-label="状态筛选">
+              <option value="all">全部</option>
+              <option value="due">到期</option>
+              <option value="new">新词</option>
+              <option value="learning">学习中</option>
+              <option value="mature">稳定</option>
+              <option value="important">重点词</option>
+            </select>
+          </div>
+        </div>
+        <div class="word-list" id="wordList"></div>
+      </section>
+    </main>
+  </div>
+
+  <input id="importInput" type="file" accept="application/json,.json" hidden>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js").catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
