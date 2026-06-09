@@ -1,4 +1,4 @@
-const CACHE_NAME = "word-memory-pwa-v20260609-1";
+const CACHE_NAME = "word-memory-pwa-v20260609-3";
 const APP_ASSETS = [
   "./",
   "./index.html",

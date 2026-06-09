@@ -25,6 +25,7 @@
         <button class="icon-button secondary" id="exportButton" title="导出词库" aria-label="导出词库">↧</button>
         <button class="secondary-button" id="startNewButton"><span aria-hidden="true">▶</span> 新词连背</button>
         <button class="secondary-button" id="batchLearnButton"><span aria-hidden="true">✓</span> 一键记完新词</button>
+        <button class="secondary-button" id="sprintButton"><span aria-hidden="true">◷</span> 15分钟冲刺</button>
         <button class="primary-button" id="focusDueButton"><span aria-hidden="true">◎</span> 开始复习</button>
       </div>
     </header>
@@ -83,6 +84,8 @@
         </article>
       </section>
 
+      <section class="daily-report" id="dailyReport" aria-label="今日战报"></section>
+
       <section class="hero-workbench">
         <div class="study-area">
           <div class="panel-heading">
@@ -90,7 +93,10 @@
               <p class="eyebrow">Now</p>
               <h2>记忆卡片</h2>
             </div>
-            <div class="clock-chip" id="clockNow">--:--</div>
+            <div class="session-tools">
+              <div class="sprint-chip" id="sprintStatus">未开始</div>
+              <div class="clock-chip" id="clockNow">--:--</div>
+            </div>
           </div>
 
           <div class="mode-tabs" role="tablist" aria-label="学习模式">
@@ -106,6 +112,7 @@
             <button class="practice-button" data-practice-mode="phrase" type="button">搭配填空</button>
             <button class="practice-button" data-practice-mode="spell" type="button">拼写</button>
             <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
+            <button class="practice-button" data-practice-mode="forms" type="button">变形</button>
           </div>
 
           <div class="dictation-tools" aria-label="听写设置">
@@ -171,6 +178,20 @@
               <input id="tagInput" maxlength="60" placeholder="阅读 / 作文 / 高频">
             </label>
           </div>
+          <div class="verb-forms-grid">
+            <label>
+              <span>三单</span>
+              <input id="thirdPersonInput" maxlength="80" placeholder="studies">
+            </label>
+            <label>
+              <span>过去式</span>
+              <input id="pastTenseInput" maxlength="80" placeholder="studied">
+            </label>
+            <label>
+              <span>过去分词</span>
+              <input id="pastParticipleInput" maxlength="80" placeholder="studied">
+            </label>
+          </div>
           <label>
             <span>备注</span>
             <textarea id="noteInput" rows="2" placeholder="易混词、词根、发音提醒"></textarea>
@@ -188,7 +209,7 @@
               <h2>批量加入</h2>
             </div>
           </div>
-          <textarea id="bulkInput" rows="8" placeholder="abandon | 放弃 | abandon the plan&#10;carry out | 执行 | carry out a task"></textarea>
+          <textarea id="bulkInput" rows="8" placeholder="study | 学习 | study English | studies | studied | studied&#10;carry out | 执行 | carry out a task"></textarea>
           <div class="form-actions">
             <button class="secondary-button" id="clearBulkButton" type="button">清空</button>
             <button class="primary-button" id="bulkAddButton" type="button"><span aria-hidden="true">＋</span> 批量加入</button>

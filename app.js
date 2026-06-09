@@ -2414,6 +2414,8 @@ const els = {
   importantCount: document.querySelector("#importantCount"),
   estimateMinutes: document.querySelector("#estimateMinutes"),
   clockNow: document.querySelector("#clockNow"),
+  sprintStatus: document.querySelector("#sprintStatus"),
+  dailyReport: document.querySelector("#dailyReport"),
   activeCard: document.querySelector("#activeCard"),
   todayTimeline: document.querySelector("#todayTimeline"),
   groupProgress: document.querySelector("#groupProgress"),
@@ -2423,6 +2425,9 @@ const els = {
   meaningInput: document.querySelector("#meaningInput"),
   phraseInput: document.querySelector("#phraseInput"),
   tagInput: document.querySelector("#tagInput"),
+  thirdPersonInput: document.querySelector("#thirdPersonInput"),
+  pastTenseInput: document.querySelector("#pastTenseInput"),
+  pastParticipleInput: document.querySelector("#pastParticipleInput"),
   noteInput: document.querySelector("#noteInput"),
   clearFormButton: document.querySelector("#clearFormButton"),
   bulkInput: document.querySelector("#bulkInput"),
@@ -2435,6 +2440,7 @@ const els = {
   importInput: document.querySelector("#importInput"),
   startNewButton: document.querySelector("#startNewButton"),
   batchLearnButton: document.querySelector("#batchLearnButton"),
+  sprintButton: document.querySelector("#sprintButton"),
   focusDueButton: document.querySelector("#focusDueButton"),
   dictationOrderSelect: document.querySelector("#dictationOrderSelect"),
   copyPlanButton: document.querySelector("#copyPlanButton"),
@@ -2450,10 +2456,23 @@ const state = {
   mode: "due",
   practiceMode: "card",
   dictationOrder: "due",
+  activeGroup: "all",
+  sprint: {
+    active: false,
+    startedAt: "",
+    endsAt: "",
+    completed: 0,
+  },
   activeId: null,
   answerVisible: false,
   spellingDraft: "",
   spellingResult: null,
+  formDrafts: {
+    third: "",
+    past: "",
+    participle: "",
+  },
+  formResult: null,
   lastAutoSpokenId: null,
   query: "",
   filter: "all",
@@ -2519,6 +2538,130 @@ function normalizeSpelling(value) {
 
 function isSpellingCorrect(input, word) {
   return normalizeSpelling(input) === normalizeSpelling(word.term);
+}
+
+const IRREGULAR_VERB_FORMS = {
+  be: { third: "is", past: "was", participle: "been" },
+  have: { third: "has", past: "had", participle: "had" },
+  do: { third: "does", past: "did", participle: "done" },
+  go: { third: "goes", past: "went", participle: "gone" },
+  buy: { past: "bought", participle: "bought" },
+  sell: { past: "sold", participle: "sold" },
+  take: { past: "took", participle: "taken" },
+  know: { past: "knew", participle: "known" },
+  see: { past: "saw", participle: "seen" },
+  feel: { past: "felt", participle: "felt" },
+  hear: { past: "heard", participle: "heard" },
+  speak: { past: "spoke", participle: "spoken" },
+  tell: { past: "told", participle: "told" },
+  read: { past: "read", participle: "read" },
+  say: { third: "says", past: "said", participle: "said" },
+  give: { past: "gave", participle: "given" },
+  make: { past: "made", participle: "made" },
+  write: { past: "wrote", participle: "written" },
+  come: { past: "came", participle: "come" },
+  run: { past: "ran", participle: "run" },
+  eat: { past: "ate", participle: "eaten" },
+  drink: { past: "drank", participle: "drunk" },
+  begin: { past: "began", participle: "begun" },
+  swim: { past: "swam", participle: "swum" },
+  lend: { past: "lent", participle: "lent" },
+  spend: { past: "spent", participle: "spent" },
+  cost: { past: "cost", participle: "cost" },
+  pay: { third: "pays", past: "paid", participle: "paid" },
+  bring: { past: "brought", participle: "brought" },
+  think: { past: "thought", participle: "thought" },
+  teach: { past: "taught", participle: "taught" },
+  catch: { past: "caught", participle: "caught" },
+  keep: { past: "kept", participle: "kept" },
+  sleep: { past: "slept", participle: "slept" },
+  leave: { past: "left", participle: "left" },
+  meet: { past: "met", participle: "met" },
+  get: { past: "got", participle: "gotten" },
+  forget: { past: "forgot", participle: "forgotten" },
+  understand: { past: "understood", participle: "understood" },
+  stand: { past: "stood", participle: "stood" },
+  choose: { past: "chose", participle: "chosen" },
+  break: { past: "broke", participle: "broken" },
+  drive: { past: "drove", participle: "driven" },
+  ride: { past: "rode", participle: "ridden" },
+  build: { past: "built", participle: "built" },
+  send: { past: "sent", participle: "sent" },
+  sit: { past: "sat", participle: "sat" },
+  cut: { past: "cut", participle: "cut" },
+  put: { past: "put", participle: "put" },
+  let: { past: "let", participle: "let" },
+};
+
+function emptyVerbForms() {
+  return { third: "", past: "", participle: "" };
+}
+
+function canInferVerbForms(term) {
+  return /^[a-z]+$/i.test(normalizeText(term));
+}
+
+function thirdPersonForm(base) {
+  if (/(ch|sh|s|x|z|o)$/i.test(base)) {
+    return `${base}es`;
+  }
+  if (/[^aeiou]y$/i.test(base)) {
+    return `${base.slice(0, -1)}ies`;
+  }
+  return `${base}s`;
+}
+
+function regularPastForm(base) {
+  if (/e$/i.test(base)) {
+    return `${base}d`;
+  }
+  if (/[^aeiou]y$/i.test(base)) {
+    return `${base.slice(0, -1)}ied`;
+  }
+  if (/[^aeiou][aeiou][^aeiouwxy]$/i.test(base) && base.length <= 6) {
+    return `${base}${base.slice(-1)}ed`;
+  }
+  return `${base}ed`;
+}
+
+function inferVerbForms(term) {
+  const base = normalizeText(term).toLowerCase();
+  if (!canInferVerbForms(base)) {
+    return emptyVerbForms();
+  }
+  const irregular = IRREGULAR_VERB_FORMS[base] || {};
+  const past = irregular.past || regularPastForm(base);
+  return {
+    third: irregular.third || thirdPersonForm(base),
+    past,
+    participle: irregular.participle || past,
+  };
+}
+
+function verbForms(word) {
+  const inferred = inferVerbForms(word.term);
+  const saved = word.forms || {};
+  return {
+    third: normalizeText(saved.third || saved.thirdPerson || word.thirdPerson || inferred.third),
+    past: normalizeText(saved.past || saved.pastTense || word.pastTense || inferred.past),
+    participle: normalizeText(saved.participle || saved.pastParticiple || word.pastParticiple || inferred.participle),
+  };
+}
+
+function hasVerbForms(word) {
+  const forms = verbForms(word);
+  return Boolean(forms.third || forms.past || forms.participle);
+}
+
+function isVerbFormsCorrect(drafts, word) {
+  const forms = verbForms(word);
+  const keys = ["third", "past", "participle"].filter((key) => forms[key]);
+  return keys.length > 0 && keys.every((key) => normalizeSpelling(drafts[key]) === normalizeSpelling(forms[key]));
+}
+
+function verbFormsAnswerText(word) {
+  const forms = verbForms(word);
+  return `三单：${forms.third || "-"}  过去式：${forms.past || "-"}  过去分词：${forms.participle || "-"}`;
 }
 
 function speechSupported() {
@@ -2608,6 +2751,11 @@ function applyBuiltinWords(words) {
       existing.meaning = mergeStudyText(existing.meaning, builtin.meaning);
       existing.phrase = mergeStudyText(existing.phrase, builtin.phrase);
       existing.note = mergeStudyText(existing.note, builtin.note);
+      existing.forms = {
+        third: normalizeText(existing.forms?.third) || normalizeText(builtin.forms?.third),
+        past: normalizeText(existing.forms?.past) || normalizeText(builtin.forms?.past),
+        participle: normalizeText(existing.forms?.participle) || normalizeText(builtin.forms?.participle),
+      };
       existing.tag = normalizeText(existing.tag) || builtin.tag;
       if (JSON.stringify(existing) !== previous) {
         shouldPersistBuiltinWords = true;
@@ -2664,6 +2812,11 @@ function normalizeWord(word) {
     phrase: word.phrase || "",
     note: word.note || "",
     tag: word.tag || "",
+    forms: {
+      third: normalizeText(word.forms?.third || word.forms?.thirdPerson || word.thirdPerson || ""),
+      past: normalizeText(word.forms?.past || word.forms?.pastTense || word.pastTense || ""),
+      participle: normalizeText(word.forms?.participle || word.forms?.pastParticiple || word.pastParticiple || ""),
+    },
     important: Boolean(word.important),
     status: word.status || "new",
     stage: Number.isInteger(word.stage) ? word.stage : -1,
@@ -2716,6 +2869,29 @@ function isTodayReview(word) {
 
 function learnedToday(word) {
   return word.history.some((entry) => todayKey(new Date(entry.time)) === todayKey());
+}
+
+function wordGroupName(word) {
+  const tag = normalizeText(word.tag);
+  if (!tag) {
+    return "未分组";
+  }
+  return tag.split("/")[0].trim() || tag;
+}
+
+function wordMatchesActiveGroup(word) {
+  return state.activeGroup === "all" || wordGroupName(word) === state.activeGroup;
+}
+
+function practiceEligibleWords(words) {
+  return state.practiceMode === "forms" ? words.filter(hasVerbForms) : words;
+}
+
+function resetTypingState() {
+  state.spellingDraft = "";
+  state.spellingResult = null;
+  state.formDrafts = emptyVerbForms();
+  state.formResult = null;
 }
 
 function statusOf(word) {
@@ -2786,7 +2962,11 @@ function scheduleNext(word, result, options = {}) {
 }
 
 function getQueue() {
-  const sorted = getOrderedStudyWords(state.words);
+  const scopedWords = practiceEligibleWords(state.words.filter(wordMatchesActiveGroup));
+  if (state.sprint.active) {
+    return sprintQueue(scopedWords);
+  }
+  const sorted = getOrderedStudyWords(scopedWords);
 
   if (state.mode === "new") {
     return sorted.filter((word) => statusOf(word) === "new");
@@ -2795,6 +2975,30 @@ function getQueue() {
     return sorted;
   }
   return sorted.filter((word) => isDue(word));
+}
+
+function sprintQueue(words = state.words.filter(wordMatchesActiveGroup)) {
+  const rank = (word) => {
+    if (isDue(word)) {
+      return 0;
+    }
+    if (word.important) {
+      return 1;
+    }
+    if (statusOf(word) === "new") {
+      return 2;
+    }
+    return 3;
+  };
+  return [...words].sort((a, b) => {
+    const rankDiff = rank(a) - rank(b);
+    if (rankDiff) {
+      return rankDiff;
+    }
+    const aTime = a.nextReviewAt || "9999-12-31";
+    const bTime = b.nextReviewAt || "9999-12-31";
+    return aTime.localeCompare(bTime) || a.term.localeCompare(b.term, "en", { sensitivity: "base" });
+  });
 }
 
 function stableRandomRank(word) {
@@ -2849,8 +3053,7 @@ function chooseActiveWord(forceFirst = false) {
   if (forceFirst || !activeStillValid) {
     state.activeId = queue[0].id;
     state.answerVisible = false;
-    state.spellingDraft = "";
-    state.spellingResult = null;
+    resetTypingState();
     state.lastAutoSpokenId = null;
   }
 }
@@ -2863,7 +3066,9 @@ function render() {
   chooseActiveWord();
   renderStats();
   renderDashboard();
+  renderDailyReport();
   renderClock();
+  renderSprintStatus();
   renderModeButtons();
   renderPracticeButtons();
   renderDictationTools();
@@ -2882,6 +3087,96 @@ function renderStats() {
 
 function renderClock() {
   els.clockNow.textContent = nowDate().toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" });
+}
+
+function formatDuration(ms) {
+  const safeMs = Math.max(0, ms);
+  const minutes = Math.floor(safeMs / 60000);
+  const seconds = Math.floor((safeMs % 60000) / 1000);
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function endSprint() {
+  if (!state.sprint.active) {
+    return;
+  }
+  state.sprint.active = false;
+  state.sprint.endsAt = "";
+  state.sprint.startedAt = "";
+  showToast(`15分钟冲刺结束，完成 ${state.sprint.completed} 个`);
+}
+
+function renderSprintStatus() {
+  if (!els.sprintStatus) {
+    return;
+  }
+  if (!state.sprint.active) {
+    els.sprintStatus.textContent = "15分钟未开始";
+    els.sprintStatus.classList.remove("active");
+    return;
+  }
+  const remaining = new Date(state.sprint.endsAt) - nowDate();
+  if (remaining <= 0) {
+    endSprint();
+    els.sprintStatus.textContent = `本轮完成 ${state.sprint.completed} 个`;
+    els.sprintStatus.classList.remove("active");
+    return;
+  }
+  els.sprintStatus.classList.add("active");
+  els.sprintStatus.textContent = `冲刺 ${formatDuration(remaining)} · ${state.sprint.completed} 个`;
+}
+
+function todayHistoryEntries() {
+  const today = todayKey();
+  return state.words.flatMap((word) => word.history
+    .filter((entry) => todayKey(new Date(entry.time)) === today)
+    .map((entry) => ({ ...entry, word })));
+}
+
+function dailyReportStats() {
+  const entries = todayHistoryEntries();
+  const studiedWords = new Set(entries.map((entry) => entry.word.id));
+  const reviewEntries = entries.filter((entry) => ["new", "remember", "fuzzy", "forgot"].includes(entry.result));
+  const spellingEntries = entries.filter((entry) => ["spell-correct", "spell-wrong", "forms-correct", "forms-wrong"].includes(entry.result));
+  const spellingCorrect = spellingEntries.filter((entry) => ["spell-correct", "forms-correct"].includes(entry.result)).length;
+  const forgotten = entries.filter((entry) => ["forgot", "spell-wrong", "forms-wrong"].includes(entry.result)).length;
+  const importantNow = state.words.filter((word) => word.important).length;
+  const nextReview = state.words
+    .filter((word) => word.nextReviewAt)
+    .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt))[0]?.nextReviewAt || "";
+  return {
+    studied: studiedWords.size,
+    reviews: reviewEntries.length,
+    spellingTotal: spellingEntries.length,
+    spellingCorrect,
+    spellingRate: spellingEntries.length ? Math.round((spellingCorrect / spellingEntries.length) * 100) : 0,
+    forgotten,
+    importantNow,
+    nextReview,
+  };
+}
+
+function renderDailyReport() {
+  if (!els.dailyReport) {
+    return;
+  }
+  const report = dailyReportStats();
+  els.dailyReport.innerHTML = `
+    <div class="panel-heading">
+      <div>
+        <p class="eyebrow">Report</p>
+        <h2>今日战报</h2>
+      </div>
+      <span class="status-pill">${todayKey()}</span>
+    </div>
+    <div class="report-grid">
+      <article><span>今日学习</span><strong>${report.studied}</strong><p>个词有记录</p></article>
+      <article><span>复习动作</span><strong>${report.reviews}</strong><p>记完/会了/模糊/忘了</p></article>
+      <article><span>拼写正确率</span><strong>${report.spellingTotal ? `${report.spellingRate}%` : "--"}</strong><p>${report.spellingCorrect}/${report.spellingTotal}</p></article>
+      <article><span>忘记/拼错</span><strong>${report.forgotten}</strong><p>自动进入重点复盘</p></article>
+      <article><span>重点词</span><strong>${report.importantNow}</strong><p>当前重点词本</p></article>
+      <article><span>下次提醒</span><strong>${report.nextReview ? formatDateTime(report.nextReview) : "--"}</strong><p>按间隔复习生成</p></article>
+    </div>`;
 }
 
 function renderModeButtons() {
@@ -2934,14 +3229,6 @@ function renderDashboard() {
   els.todayReviewHint.textContent = reviewTarget ? `现在到期 ${dueNow} 个，今日已排 ${todayReview} 个` : "暂无到期复习，等系统提醒";
 }
 
-function wordGroupName(word) {
-  const tag = normalizeText(word.tag);
-  if (!tag) {
-    return "未分组";
-  }
-  return tag.split("/")[0].trim() || tag;
-}
-
 function renderGroupProgress() {
   const groups = new Map();
   state.words.forEach((word) => {
@@ -2957,16 +3244,25 @@ function renderGroupProgress() {
     return;
   }
 
-  els.groupProgress.innerHTML = [...groups.entries()].map(([name, words]) => {
+  const allCard = `
+      <article class="group-card${state.activeGroup === "all" ? " active" : ""}" data-group-action="study" data-group="all">
+        <strong>全部 Word List</strong>
+        <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
+        <p>总计 ${state.words.length} 个 · 点击恢复全量抽查</p>
+      </article>`;
+
+  els.groupProgress.innerHTML = allCard + [...groups.entries()].map(([name, words]) => {
     const learned = words.filter((word) => word.stage >= 0).length;
     const mature = words.filter((word) => statusOf(word) === "mature").length;
     const due = words.filter((word) => isDue(word)).length;
+    const important = words.filter((word) => word.important).length;
     const percent = Math.round((learned / words.length) * 100);
     return `
-      <article class="group-card">
+      <article class="group-card${state.activeGroup === name ? " active" : ""}" data-group-action="study" data-group="${escapeHTML(name)}">
         <strong>${escapeHTML(name)}</strong>
         <div class="progress-bar"><div class="progress-fill" style="width:${percent}%"></div></div>
-        <p>${learned}/${words.length} 已进入复习 · 稳定 ${mature} · 到期 ${due}</p>
+        <p>${learned}/${words.length} 已学 · 到期 ${due} · 重点 ${important} · 稳定 ${mature}</p>
+        <button class="text-button" type="button">只背本组</button>
       </article>`;
   }).join("");
 }
@@ -2975,6 +3271,16 @@ function practiceView(word) {
   const safeMeaning = word.meaning || "未填中文";
   const safeTerm = word.term || "未命名";
   const phrase = word.phrase || "";
+
+  if (state.practiceMode === "forms") {
+    return {
+      prompt: "动词变形拼写",
+      target: safeTerm,
+      hidden: "三单 / 过去式 / 过去分词已盖住",
+      answer: verbFormsAnswerText(word),
+      extra: safeMeaning,
+    };
+  }
 
   if (state.practiceMode === "spell") {
     const pattern = new RegExp(escapeRegExp(safeTerm), "ig");
@@ -3039,6 +3345,43 @@ function practiceView(word) {
   };
 }
 
+function renderVerbFormsBox(word) {
+  if (state.practiceMode !== "forms") {
+    return "";
+  }
+  const forms = verbForms(word);
+  const drafts = state.formDrafts;
+  const result = state.formResult;
+  const answer = result ? `
+    <div class="forms-summary ${result.correct ? "is-correct" : "is-wrong"}">
+      ${result.correct ? "三个变形都拼对了" : `正确答案：${escapeHTML(verbFormsAnswerText(word))}`}
+    </div>` : "";
+  return `
+    <div class="spell-box verb-forms-box">
+      <div class="form-result-grid">
+        <label>
+          <span>三单</span>
+          <input data-form-input="third" type="text" value="${escapeHTML(drafts.third)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${escapeHTML(forms.third || "三单")}">
+        </label>
+        <label>
+          <span>过去式</span>
+          <input data-form-input="past" type="text" value="${escapeHTML(drafts.past)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${escapeHTML(forms.past || "过去式")}">
+        </label>
+        <label>
+          <span>过去分词</span>
+          <input data-form-input="participle" type="text" value="${escapeHTML(drafts.participle)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${escapeHTML(forms.participle || "过去分词")}">
+        </label>
+      </div>
+      <div class="spell-actions">
+        <button class="primary-button" data-card-action="check-forms" type="button">检查变形</button>
+        <button class="secondary-button" data-card-action="clear-spelling" type="button">重写</button>
+        <button class="secondary-button audio-button" data-card-action="speak" type="button">播放原词</button>
+      </div>
+      <p>三个都填对才算通过；不规则词可以在添加单词时手动填准。</p>
+      ${answer}
+    </div>`;
+}
+
 function renderSpellingBox(word) {
   if (!["spell", "dictation"].includes(state.practiceMode)) {
     return "";
@@ -3071,8 +3414,8 @@ function renderSpellingBox(word) {
 function renderActiveCard() {
   const word = activeWord();
   if (!word) {
-    const message = state.words.length ? "现在没有到期词" : "先加入第一批单词";
-    const detail = state.words.length ? "切到“新词记忆”或“全部抽查”继续" : "把你发来的单词和短语放进词库";
+    const message = state.practiceMode === "forms" && state.words.length ? "当前没有可练的动词变形" : (state.words.length ? "现在没有到期词" : "先加入第一批单词");
+    const detail = state.practiceMode === "forms" && state.words.length ? "短语不会进入变形练习；可以切换 Word List 或添加单个动词" : (state.words.length ? "切到“新词记忆”或“全部抽查”继续" : "把你发来的单词和短语放进词库");
     els.activeCard.innerHTML = `
       <div class="empty-card">
         <div>
@@ -3085,15 +3428,17 @@ function renderActiveCard() {
   }
 
   const status = statusOf(word);
-  const typingMode = ["spell", "dictation"].includes(state.practiceMode);
+  const typingMode = ["spell", "dictation", "forms"].includes(state.practiceMode);
   const letters = typingMode ? [] : word.term.replace(/[^a-zA-Z]/g, "").slice(0, 9).split("");
-  const ribbon = typingMode ? "<span>S</span><span>P</span><span>E</span><span>L</span><span>L</span>" : (letters.length ? letters.map((letter) => `<span>${escapeHTML(letter)}</span>`).join("") : "<span>W</span><span>O</span><span>R</span><span>D</span>");
+  const ribbon = typingMode
+    ? (state.practiceMode === "forms" ? "<span>F</span><span>O</span><span>R</span><span>M</span>" : "<span>S</span><span>P</span><span>E</span><span>L</span><span>L</span>")
+    : (letters.length ? letters.map((letter) => `<span>${escapeHTML(letter)}</span>`).join("") : "<span>W</span><span>O</span><span>R</span><span>D</span>");
   const view = practiceView(word);
   const answer = state.answerVisible ? `<p class="word-meaning">${escapeHTML(view.answer)}</p>` : `<div class="answer-mask">${escapeHTML(view.hidden)}</div>`;
   const extra = state.answerVisible && view.extra ? `<p class="word-phrase">${escapeHTML(view.extra)}</p>` : "";
   const note = state.answerVisible && word.note ? `<p class="word-note">备注：${escapeHTML(word.note)}</p>` : "";
   const important = word.important ? `<p class="important-line">重点词</p>` : "";
-  const spellingBox = renderSpellingBox(word);
+  const spellingBox = state.practiceMode === "forms" ? renderVerbFormsBox(word) : renderSpellingBox(word);
 
   els.activeCard.innerHTML = `
     <div class="card-top">
@@ -3128,6 +3473,7 @@ function renderActiveCard() {
 function renderTimeline() {
   const todayWords = state.words
     .filter(isTodayReview)
+    .filter(wordMatchesActiveGroup)
     .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt));
 
   if (!todayWords.length) {
@@ -3149,11 +3495,12 @@ function filteredWords() {
   const query = state.query.toLowerCase();
   return state.words
     .filter((word) => {
-      const text = [word.term, word.meaning, word.phrase, word.note, word.tag].join(" ").toLowerCase();
+      const forms = verbForms(word);
+      const text = [word.term, word.meaning, word.phrase, word.note, word.tag, forms.third, forms.past, forms.participle].join(" ").toLowerCase();
       const matchesQuery = !query || text.includes(query);
       const status = statusOf(word);
       const matchesFilter = state.filter === "all" || status === state.filter || (state.filter === "important" && word.important);
-      return matchesQuery && matchesFilter;
+      return matchesQuery && matchesFilter && wordMatchesActiveGroup(word);
     })
     .sort((a, b) => {
       const statusDiff = Number(isDue(b)) - Number(isDue(a));
@@ -3211,6 +3558,11 @@ function wordFromForm() {
     phrase: normalizeText(els.phraseInput.value),
     tag: normalizeText(els.tagInput.value),
     note: normalizeText(els.noteInput.value),
+    forms: {
+      third: normalizeText(els.thirdPersonInput.value),
+      past: normalizeText(els.pastTenseInput.value),
+      participle: normalizeText(els.pastParticipleInput.value),
+    },
     status: "new",
     stage: -1,
     createdAt: now,
@@ -3250,11 +3602,17 @@ function splitImportLine(line) {
     parts = trimmed.split(/[,，；;]/);
   }
   parts = parts.map(normalizeText).filter(Boolean);
+  const hasForms = parts.length >= 6;
   return {
     term: parts[0] || trimmed,
     meaning: parts[1] || "",
     phrase: parts[2] || "",
-    note: parts.slice(3).join("；"),
+    forms: hasForms ? {
+      third: parts[3] || "",
+      past: parts[4] || "",
+      participle: parts[5] || "",
+    } : emptyVerbForms(),
+    note: (hasForms ? parts.slice(6) : parts.slice(3)).join("；"),
   };
 }
 
@@ -3273,6 +3631,7 @@ function bulkAdd() {
       term: item.term,
       meaning: item.meaning,
       phrase: item.phrase,
+      forms: item.forms,
       note: item.note,
       tag: "导入",
       status: "new",
@@ -3305,20 +3664,44 @@ function handleCardAction(action) {
   }
   if (action === "check-spelling") {
     const correct = isSpellingCorrect(state.spellingDraft, word);
+    const completedAt = new Date().toISOString();
     state.spellingResult = { correct };
     state.answerVisible = true;
+    word.history.push({
+      time: completedAt,
+      result: correct ? "spell-correct" : "spell-wrong",
+      nextReviewAt: word.nextReviewAt || "",
+    });
     if (!correct) {
       word.important = true;
-      word.updatedAt = new Date().toISOString();
-      saveWords();
     }
+    word.updatedAt = completedAt;
+    saveWords();
     render();
     showToast(correct ? "拼对了" : "已标为重点，等会儿再听写");
     return;
   }
+  if (action === "check-forms") {
+    const correct = isVerbFormsCorrect(state.formDrafts, word);
+    const completedAt = new Date().toISOString();
+    state.formResult = { correct };
+    state.answerVisible = true;
+    word.history.push({
+      time: completedAt,
+      result: correct ? "forms-correct" : "forms-wrong",
+      nextReviewAt: word.nextReviewAt || "",
+    });
+    if (!correct) {
+      word.important = true;
+    }
+    word.updatedAt = completedAt;
+    saveWords();
+    render();
+    showToast(correct ? "变形拼对了" : "变形有错，已放进重点复盘");
+    return;
+  }
   if (action === "clear-spelling") {
-    state.spellingDraft = "";
-    state.spellingResult = null;
+    resetTypingState();
     state.answerVisible = false;
     renderActiveCard();
     return;
@@ -3338,10 +3721,12 @@ function handleCardAction(action) {
   }
   if (["remember", "fuzzy", "forgot"].includes(action)) {
     scheduleNext(word, word.stage < 0 && action === "remember" ? "new" : action);
+    if (state.sprint.active) {
+      state.sprint.completed += 1;
+    }
     saveWords();
     state.answerVisible = false;
-    state.spellingDraft = "";
-    state.spellingResult = null;
+    resetTypingState();
     chooseActiveWord(true);
     render();
   }
@@ -3351,14 +3736,35 @@ function setMode(mode) {
   state.mode = mode;
   state.activeId = null;
   state.answerVisible = false;
-  state.spellingDraft = "";
-  state.spellingResult = null;
+  resetTypingState();
   state.lastAutoSpokenId = null;
   render();
 }
 
+function startSprint() {
+  if (state.sprint.active) {
+    endSprint();
+    render();
+    return;
+  }
+  const now = nowDate();
+  state.sprint = {
+    active: true,
+    startedAt: now.toISOString(),
+    endsAt: new Date(now.getTime() + 15 * 60 * 1000).toISOString(),
+    completed: 0,
+  };
+  state.mode = "all";
+  state.activeId = null;
+  state.answerVisible = false;
+  resetTypingState();
+  state.lastAutoSpokenId = null;
+  render();
+  showToast("15分钟冲刺开始：到期 → 重点 → 新词");
+}
+
 function startNewWords() {
-  const newWords = state.words.filter((word) => statusOf(word) === "new");
+  const newWords = state.words.filter((word) => statusOf(word) === "new" && wordMatchesActiveGroup(word));
   if (!newWords.length) {
     showToast("没有新词了");
     return;
@@ -3368,7 +3774,7 @@ function startNewWords() {
 
 function batchLearnNewWords() {
   const visibleNew = filteredWords().filter((word) => statusOf(word) === "new");
-  const words = visibleNew.length ? visibleNew : state.words.filter((word) => statusOf(word) === "new");
+  const words = visibleNew.length ? visibleNew : state.words.filter((word) => statusOf(word) === "new" && wordMatchesActiveGroup(word));
   if (!words.length) {
     showToast("没有新词需要安排");
     return;
@@ -3456,6 +3862,7 @@ async function importWords(event) {
 
 function planText() {
   const items = state.words
+    .filter(wordMatchesActiveGroup)
     .filter(isTodayReview)
     .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt));
   if (!items.length) {
@@ -3493,11 +3900,19 @@ function wireEvents() {
       state.spellingDraft = event.target.value;
       state.spellingResult = null;
     }
+    if (event.target.matches("[data-form-input]")) {
+      state.formDrafts[event.target.dataset.formInput] = event.target.value;
+      state.formResult = null;
+    }
   });
   els.activeCard.addEventListener("keydown", (event) => {
     if (event.target.matches("[data-spell-input]") && event.key === "Enter") {
       event.preventDefault();
       handleCardAction("check-spelling");
+    }
+    if (event.target.matches("[data-form-input]") && event.key === "Enter") {
+      event.preventDefault();
+      handleCardAction("check-forms");
     }
   });
   els.wordList.addEventListener("click", (event) => {
@@ -3513,8 +3928,7 @@ function wireEvents() {
       state.mode = "all";
       state.activeId = row.dataset.id;
       state.answerVisible = false;
-      state.spellingDraft = "";
-      state.spellingResult = null;
+      resetTypingState();
       state.lastAutoSpokenId = null;
       render();
     }
@@ -3530,6 +3944,19 @@ function wireEvents() {
     if (button.dataset.rowAction === "delete") {
       deleteWord(row.dataset.id);
     }
+  });
+  els.groupProgress.addEventListener("click", (event) => {
+    const card = event.target.closest('[data-group-action="study"]');
+    if (!card) {
+      return;
+    }
+    state.activeGroup = card.dataset.group || "all";
+    state.activeId = null;
+    state.answerVisible = false;
+    resetTypingState();
+    state.lastAutoSpokenId = null;
+    render();
+    showToast(state.activeGroup === "all" ? "已切回全部 Word List" : `只背 ${state.activeGroup}`);
   });
   els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
@@ -3552,8 +3979,7 @@ function wireEvents() {
     state.dictationOrder = event.target.value;
     state.activeId = null;
     state.answerVisible = false;
-    state.spellingDraft = "";
-    state.spellingResult = null;
+    resetTypingState();
     state.lastAutoSpokenId = null;
     render();
   });
@@ -3561,14 +3987,14 @@ function wireEvents() {
     button.addEventListener("click", () => {
       state.practiceMode = button.dataset.practiceMode;
       state.answerVisible = false;
-      state.spellingDraft = "";
-      state.spellingResult = null;
+      resetTypingState();
       state.lastAutoSpokenId = null;
       render();
     });
   });
   els.startNewButton.addEventListener("click", startNewWords);
   els.batchLearnButton.addEventListener("click", batchLearnNewWords);
+  els.sprintButton.addEventListener("click", startSprint);
   els.focusDueButton.addEventListener("click", () => setMode("due"));
   els.dueModeButton.addEventListener("click", () => setMode("due"));
   els.newModeButton.addEventListener("click", () => setMode("new"));
@@ -3584,4 +4010,6 @@ setInterval(() => {
   renderDashboard();
   renderTimeline();
   renderGroupProgress();
+  renderSprintStatus();
+  renderDailyReport();
 }, 30 * 1000);
