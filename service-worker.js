@@ -1,4 +1,4 @@
-const CACHE_NAME = "word-memory-pwa-v20260609-3";
+const CACHE_NAME = "word-memory-pwa-v20260611-1";
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -10,7 +10,9 @@ const APP_ASSETS = [
   "./icons/icon-512.png",
   "./专升本英语词库_WordList1.json",
   "./专升本英语词库_WordList2.json",
-  "./专升本英语词库_WordList3.json"
+  "./专升本英语词库_WordList3.json",
+  "./专升本英语词库_WordList4.json",
+  "./专升本英语词库_WordList5.json"
 ];
 
 self.addEventListener("install", (event) => {
