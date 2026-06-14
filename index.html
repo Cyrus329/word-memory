@@ -4,13 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <meta name="theme-color" content="#126b67">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="专升本单词">
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="apple-touch-icon" href="./icons/icon-180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -312,7 +305,7 @@
       </div>
       <p class="cloud-status" id="cloudStatus" role="status" aria-live="polite"></p>
       <div class="cloud-actions">
-        <button class="secondary-button" type="button" id="loadCloudButton">从云端加载</button>
+        <button class="secondary-button" type="button" id="loadCloudButton">连接并加载云端</button>
         <button class="secondary-button" type="button" id="cancelCloudButton">取消</button>
         <button class="primary-button" type="submit">保存并开启同步</button>
       </div>
@@ -320,12 +313,5 @@
   </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="./app.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./service-worker.js").catch(() => {});
-      });
-    }
-  </script>
 </body>
 </html>

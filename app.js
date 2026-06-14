@@ -4567,6 +4567,14 @@ function normalizeCloudSlug(value) {
     .slice(0, 32);
 }
 
+function toWordMemoryCloudSlug(value) {
+  const slug = normalizeCloudSlug(value).slice(0, 29);
+  if (!slug) {
+    return "";
+  }
+  return `wm-${slug}`;
+}
+
 function loadCloudConfig() {
   try {
     const parsed = JSON.parse(localStorage.getItem(CLOUD_CONFIG_KEY) || "{}");
@@ -4768,10 +4776,10 @@ async function saveCloudNow(options = {}) {
     if (!silent) {
       setCloudStatus("正在保存到云端……");
     }
-    const result = await cloudRequest("save_word_memory_cloud", {
-      p_slug: config.slug,
+    const result = await cloudRequest("save_study_cloud", {
+      p_slug: toWordMemoryCloudSlug(config.slug),
       p_pin: config.pin,
-      p_words: cloudWordsPayload(),
+      p_records: cloudWordsPayload(),
       p_display_name: config.displayName || "专升本单词记忆",
       p_is_public: config.isPublic !== false,
     });
@@ -4803,8 +4811,8 @@ async function loadCloudToLocal(options = {}) {
     if (!options.silent) {
       setCloudStatus("正在从云端加载……");
     }
-    const data = await cloudRequest("load_word_memory_cloud", {
-      p_slug: slug,
+    const data = await cloudRequest("load_study_cloud", {
+      p_slug: toWordMemoryCloudSlug(slug),
       p_pin: pin || null,
     });
     const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
@@ -4818,6 +4826,7 @@ async function loadCloudToLocal(options = {}) {
         pin,
         displayName: data?.display_name || state.cloud.config.displayName || "专升本单词记忆",
         isPublic: data?.is_public !== false,
+        autoSync: true,
       };
       saveCloudConfig(state.cloud.config);
     }
@@ -4826,8 +4835,8 @@ async function loadCloudToLocal(options = {}) {
     resetTypingState();
     render();
     if (!options.silent) {
-      setCloudStatus(`已加载 ${state.words.length} 个词条。`, "ok");
-      showToast("云端数据已加载");
+      setCloudStatus(`已连接并加载 ${state.words.length} 个词条，自动同步已开启。`, "ok");
+      showToast("已连接云端并开启同步");
     }
     return true;
   } catch (error) {
@@ -4901,8 +4910,8 @@ async function connectSharedEditCloud() {
   }
   try {
     setCloudStatus("正在验证编辑密码……");
-    await cloudRequest("verify_word_memory_cloud_pin", {
-      p_slug: config.slug,
+    await cloudRequest("verify_study_cloud_pin", {
+      p_slug: toWordMemoryCloudSlug(config.slug),
       p_pin: config.pin,
     });
     state.cloud.canEdit = true;
