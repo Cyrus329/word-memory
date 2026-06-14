@@ -1,7 +1,8 @@
-const CACHE_NAME = "word-memory-pwa-v20260614-2";
+const CACHE_NAME = "word-memory-pwa-v20260614-3";
 const APP_ASSETS = [
   "./",
   "./index.html",
+  "./supplemental-words.js",
   "./app.js",
   "./styles.css",
   "./supabase-setup.sql",

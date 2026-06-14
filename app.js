@@ -36,7 +36,7 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-1-2-3-4-5:v5";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-1-2-3-4-5:v6";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -3924,6 +3924,10 @@ const BUILTIN_WORDS = [
     "history": []
   }
 ];
+const ALL_BUILTIN_WORDS = [
+  ...BUILTIN_WORDS,
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS) ? window.SUPPLEMENTAL_WORDS : []),
+];
 let shouldPersistBuiltinWords = false;
 
 const els = {
@@ -4127,6 +4131,31 @@ function normalizeText(value) {
 function normalizeWordSource(value) {
   const source = normalizeText(value);
   return WORD_SOURCES.includes(source) ? source : "全方位";
+}
+
+function normalizeWordSources(word = {}) {
+  const rawSources = [
+    ...(Array.isArray(word.sources) ? word.sources : []),
+    word.source,
+    word.category,
+    word.book,
+  ].filter(Boolean);
+  const sources = [...new Set(rawSources.map(normalizeWordSource))];
+  return sources.length ? sources : ["全方位"];
+}
+
+function wordSources(word) {
+  const sources = normalizeWordSources(word);
+  word.sources = sources;
+  word.source = sources[0];
+  return sources;
+}
+
+function mergeWordSources(existing, incoming) {
+  return [...new Set([
+    ...normalizeWordSources(existing),
+    ...normalizeWordSources(incoming),
+  ])];
 }
 
 function sourceOptionsHTML(selected = "全方位", includeAll = false) {
@@ -4388,7 +4417,7 @@ function cloneBuiltinWord(word) {
 }
 
 function cloneBuiltinWords() {
-  return BUILTIN_WORDS.map(cloneBuiltinWord);
+  return ALL_BUILTIN_WORDS.map(cloneBuiltinWord);
 }
 
 function createEmptyProgress(source = {}) {
@@ -4449,7 +4478,7 @@ function applyBuiltinWords(words) {
   }
 
   const byTerm = new Map(words.map((word) => [word.term.toLowerCase(), word]));
-  BUILTIN_WORDS.forEach((sourceWord) => {
+  ALL_BUILTIN_WORDS.forEach((sourceWord) => {
     const builtin = cloneBuiltinWord(sourceWord);
     const existing = byTerm.get(builtin.term.toLowerCase());
     if (existing) {
@@ -4463,6 +4492,8 @@ function applyBuiltinWords(words) {
         participle: normalizeText(existing.forms?.participle) || normalizeText(builtin.forms?.participle),
       };
       existing.tag = normalizeText(existing.tag) || builtin.tag;
+      existing.sources = mergeWordSources(existing, builtin);
+      existing.source = existing.sources[0];
       if (JSON.stringify(existing) !== previous) {
         shouldPersistBuiltinWords = true;
       }
@@ -4511,6 +4542,7 @@ function persistBuiltinWordsIfNeeded() {
 }
 
 function normalizeWord(word) {
+  const sources = normalizeWordSources(word);
   return {
     id: word.id || createId(),
     term: word.term || "",
@@ -4518,7 +4550,8 @@ function normalizeWord(word) {
     phrase: word.phrase || "",
     note: word.note || "",
     tag: word.tag || "",
-    source: normalizeWordSource(word.source || word.category || word.book || "全方位"),
+    source: sources[0],
+    sources,
     forms: {
       third: normalizeText(word.forms?.third || word.forms?.thirdPerson || word.thirdPerson || ""),
       past: normalizeText(word.forms?.past || word.forms?.pastTense || word.pastTense || ""),
@@ -5633,11 +5666,11 @@ function filteredWords() {
   return state.words
     .filter((word) => {
       const forms = verbForms(word);
-      const text = [word.term, word.meaning, word.phrase, word.note, word.tag, word.source, forms.third, forms.past, forms.participle].join(" ").toLowerCase();
+      const text = [word.term, word.meaning, word.phrase, word.note, word.tag, ...wordSources(word), forms.third, forms.past, forms.participle].join(" ").toLowerCase();
       const matchesQuery = !query || text.includes(query);
       const status = statusOf(word);
       const matchesFilter = state.filter === "all" || status === state.filter || (state.filter === "important" && word.important);
-      const matchesSource = state.librarySourceFilter === "all" || word.source === state.librarySourceFilter;
+      const matchesSource = state.librarySourceFilter === "all" || wordSources(word).includes(state.librarySourceFilter);
       return matchesQuery && matchesFilter && matchesSource && wordMatchesActiveGroup(word);
     })
     .sort((a, b) => {
@@ -5663,7 +5696,7 @@ function renderWordList() {
       <article class="word-row" data-id="${escapeHTML(word.id)}">
         <div>
           <strong>${maskedText(word.term, "english")}</strong>
-          <span class="source-pill">${escapeHTML(word.source)}</span>
+          ${wordSources(word).map((source) => `<span class="source-pill">${escapeHTML(source)}</span>`).join("")}
           <p>${escapeHTML(word.tag || "未标记")}</p>
         </div>
         <div>
