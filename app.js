@@ -5488,15 +5488,15 @@ function renderVerbFormsBox(word) {
       <div class="form-result-grid">
         <label>
           <span>三单</span>
-          <input data-form-input="third" type="text" value="${escapeHTML(drafts.third)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${escapeHTML(forms.third || "三单")}">
+          <input data-form-input="third" type="text" value="${escapeHTML(drafts.third)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="请输入三单">
         </label>
         <label>
           <span>过去式</span>
-          <input data-form-input="past" type="text" value="${escapeHTML(drafts.past)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${escapeHTML(forms.past || "过去式")}">
+          <input data-form-input="past" type="text" value="${escapeHTML(drafts.past)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="请输入过去式">
         </label>
         <label>
           <span>过去分词</span>
-          <input data-form-input="participle" type="text" value="${escapeHTML(drafts.participle)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${escapeHTML(forms.participle || "过去分词")}">
+          <input data-form-input="participle" type="text" value="${escapeHTML(drafts.participle)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="请输入过去分词">
         </label>
       </div>
       <div class="spell-actions">
