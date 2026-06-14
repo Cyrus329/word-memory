@@ -23,12 +23,14 @@
       <div class="topbar-actions">
         <button class="icon-button secondary" id="importButton" title="导入词库" aria-label="导入词库">↥</button>
         <button class="icon-button secondary" id="exportButton" title="导出词库" aria-label="导出词库">↧</button>
+        <button class="secondary-button" id="cloudSyncButton"><span aria-hidden="true">☁</span> 云同步</button>
         <button class="secondary-button" id="startNewButton"><span aria-hidden="true">▶</span> 新词连背</button>
         <button class="secondary-button" id="batchLearnButton"><span aria-hidden="true">✓</span> 一键记完新词</button>
         <button class="secondary-button" id="sprintButton"><span aria-hidden="true">◷</span> 15分钟冲刺</button>
         <button class="primary-button" id="focusDueButton"><span aria-hidden="true">◎</span> 开始复习</button>
       </div>
     </header>
+    <div class="readonly-banner" id="readonlyBanner" hidden></div>
 
     <main class="workspace">
       <section class="stats-grid" aria-label="记忆统计">
@@ -114,6 +116,7 @@
             <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
             <button class="practice-button" data-practice-mode="forms" type="button">变形</button>
           </div>
+          <p class="mode-progress-note">各模式独立进度：卡片、拼写、听写、变形互不影响。</p>
 
           <div class="dictation-tools" aria-label="听写设置">
             <label class="compact-select">
@@ -177,6 +180,14 @@
               <span>标签</span>
               <input id="tagInput" maxlength="60" placeholder="阅读 / 作文 / 高频">
             </label>
+            <label>
+              <span>词库分类</span>
+              <select id="sourceInput">
+                <option value="全方位">全方位</option>
+                <option value="四级">四级</option>
+                <option value="蓝色森林">蓝色森林</option>
+              </select>
+            </label>
           </div>
           <div class="verb-forms-grid">
             <label>
@@ -209,6 +220,14 @@
               <h2>批量加入</h2>
             </div>
           </div>
+          <label class="bulk-source-select">
+            <span>归到</span>
+            <select id="bulkSourceInput">
+              <option value="全方位">全方位</option>
+              <option value="四级">四级</option>
+              <option value="蓝色森林">蓝色森林</option>
+            </select>
+          </label>
           <textarea id="bulkInput" rows="8" placeholder="study | 学习 | study English | studies | studied | studied&#10;carry out | 执行 | carry out a task"></textarea>
           <div class="form-actions">
             <button class="secondary-button" id="clearBulkButton" type="button">清空</button>
@@ -236,6 +255,17 @@
               <option value="mature">稳定</option>
               <option value="important">重点词</option>
             </select>
+            <select id="librarySourceFilter" aria-label="词库分类筛选">
+              <option value="all">全部分类</option>
+              <option value="全方位">全方位</option>
+              <option value="四级">四级</option>
+              <option value="蓝色森林">蓝色森林</option>
+            </select>
+            <select id="listMaskMode" aria-label="列表遮挡">
+              <option value="show">显示全部</option>
+              <option value="hideEnglish">遮英文</option>
+              <option value="hideChinese">遮中文</option>
+            </select>
           </div>
         </div>
         <div class="word-list" id="wordList"></div>
@@ -244,6 +274,50 @@
   </div>
 
   <input id="importInput" type="file" accept="application/json,.json" hidden>
+  <dialog class="cloud-dialog" id="cloudDialog" aria-labelledby="cloudDialogTitle">
+    <form class="cloud-panel" id="cloudForm" method="dialog">
+      <div class="cloud-heading">
+        <div>
+          <p class="eyebrow">Supabase Cloud</p>
+          <h2 id="cloudDialogTitle">云同步</h2>
+        </div>
+        <button class="icon-button secondary" type="button" id="closeCloudButton" aria-label="关闭">×</button>
+      </div>
+      <p class="cloud-intro">本机仍会保存数据；开启后，新增、复习、删除和导入都会自动同步到同一份云端词库。</p>
+      <div class="cloud-grid">
+        <label>
+          <span>公开编号</span>
+          <input id="cloudSlugInput" type="text" inputmode="latin" autocomplete="off" placeholder="cyrus329" maxlength="32">
+        </label>
+        <label>
+          <span>显示名称</span>
+          <input id="cloudNameInput" type="text" autocomplete="off" placeholder="专升本单词记忆">
+        </label>
+        <label>
+          <span>编辑密码</span>
+          <input id="cloudPinInput" type="password" autocomplete="current-password" placeholder="至少 4 位">
+        </label>
+        <label class="toggle-line">
+          <input id="cloudPublicInput" type="checkbox" checked>
+          <span>允许公开链接查看</span>
+        </label>
+        <label class="wide">
+          <span>网页地址</span>
+          <input id="shareBaseUrlInput" type="url" autocomplete="url" placeholder="https://你的用户名.github.io/word-memory/">
+        </label>
+      </div>
+      <div class="share-row">
+        <button class="secondary-button" type="button" id="copyPublicLinkButton">复制公开链接</button>
+        <button class="secondary-button" type="button" id="copyEditLinkButton">复制协作链接</button>
+      </div>
+      <p class="cloud-status" id="cloudStatus" role="status" aria-live="polite"></p>
+      <div class="cloud-actions">
+        <button class="secondary-button" type="button" id="loadCloudButton">从云端加载</button>
+        <button class="secondary-button" type="button" id="cancelCloudButton">取消</button>
+        <button class="primary-button" type="submit">保存并开启同步</button>
+      </div>
+    </form>
+  </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="./app.js"></script>
   <script>

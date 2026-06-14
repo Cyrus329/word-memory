@@ -9,6 +9,32 @@ const REVIEW_STEPS = [
   { label: "6天", ms: 6 * 24 * 60 * 60 * 1000 },
   { label: "31天", ms: 31 * 24 * 60 * 60 * 1000 },
 ];
+const PROGRESS_MODES = ["card", "enToZh", "zhToEn", "phrase", "spell", "dictation", "forms"];
+const PROGRESS_MODE_LABELS = {
+  card: "卡片",
+  enToZh: "英译中",
+  zhToEn: "中译英",
+  phrase: "搭配填空",
+  spell: "拼写",
+  dictation: "听写",
+  forms: "变形",
+};
+const MODE_PROGRESS_HINT = "各模式独立进度";
+const WORD_SOURCES = ["全方位", "四级", "蓝色森林"];
+const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
+const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
+const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
+const CLOUD_REQUEST_TIMEOUT_MS = 15000;
+const SUPABASE_URL = "https://fsizdxkwrxzopkoouipr.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BfWyJfb6c4GrV0JYLXejUg_QnkuhPvw";
+const DEFAULT_SHARE_BASE_URL = "https://your-name.github.io/word-memory/";
+const CLOUD_URL_PARAMS = typeof URLSearchParams !== "undefined"
+  ? new URLSearchParams(window.location?.search || "")
+  : { get: () => "" };
+const PUBLIC_VIEWER_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("public") || "");
+const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
+let suppressCloudSync = false;
+let cloudSyncTimer = null;
 
 const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-1-2-3-4-5:v5";
 const BUILTIN_WORDS = [
@@ -3925,6 +3951,7 @@ const els = {
   meaningInput: document.querySelector("#meaningInput"),
   phraseInput: document.querySelector("#phraseInput"),
   tagInput: document.querySelector("#tagInput"),
+  sourceInput: document.querySelector("#sourceInput"),
   thirdPersonInput: document.querySelector("#thirdPersonInput"),
   pastTenseInput: document.querySelector("#pastTenseInput"),
   pastParticipleInput: document.querySelector("#pastParticipleInput"),
@@ -3935,26 +3962,55 @@ const els = {
   clearBulkButton: document.querySelector("#clearBulkButton"),
   searchInput: document.querySelector("#searchInput"),
   statusFilter: document.querySelector("#statusFilter"),
+  librarySourceFilter: document.querySelector("#librarySourceFilter"),
+  listMaskMode: document.querySelector("#listMaskMode"),
+  bulkSourceInput: document.querySelector("#bulkSourceInput"),
   importButton: document.querySelector("#importButton"),
   exportButton: document.querySelector("#exportButton"),
   importInput: document.querySelector("#importInput"),
   startNewButton: document.querySelector("#startNewButton"),
   batchLearnButton: document.querySelector("#batchLearnButton"),
   sprintButton: document.querySelector("#sprintButton"),
+  cloudSyncButton: document.querySelector("#cloudSyncButton"),
   focusDueButton: document.querySelector("#focusDueButton"),
   dictationOrderSelect: document.querySelector("#dictationOrderSelect"),
   copyPlanButton: document.querySelector("#copyPlanButton"),
   dueModeButton: document.querySelector("#dueModeButton"),
   newModeButton: document.querySelector("#newModeButton"),
   allModeButton: document.querySelector("#allModeButton"),
+  readonlyBanner: document.querySelector("#readonlyBanner"),
+  cloudDialog: document.querySelector("#cloudDialog"),
+  cloudForm: document.querySelector("#cloudForm"),
+  closeCloudButton: document.querySelector("#closeCloudButton"),
+  cancelCloudButton: document.querySelector("#cancelCloudButton"),
+  loadCloudButton: document.querySelector("#loadCloudButton"),
+  copyPublicLinkButton: document.querySelector("#copyPublicLinkButton"),
+  copyEditLinkButton: document.querySelector("#copyEditLinkButton"),
+  cloudSlugInput: document.querySelector("#cloudSlugInput"),
+  cloudNameInput: document.querySelector("#cloudNameInput"),
+  cloudPinInput: document.querySelector("#cloudPinInput"),
+  cloudPublicInput: document.querySelector("#cloudPublicInput"),
+  shareBaseUrlInput: document.querySelector("#shareBaseUrlInput"),
+  cloudStatus: document.querySelector("#cloudStatus"),
   toast: document.querySelector("#toast"),
 };
+
+function createPracticeSessions(initialMode = "due") {
+  return PROGRESS_MODES.reduce((sessions, mode) => {
+    sessions[mode] = {
+      mode: initialMode,
+      activeId: null,
+    };
+    return sessions;
+  }, {});
+}
 
 const state = {
   words: loadWords(),
   settings: loadSettings(),
   mode: "due",
   practiceMode: "card",
+  practiceSessions: createPracticeSessions(),
   dictationOrder: "due",
   activeGroup: "all",
   sprint: {
@@ -3976,7 +4032,64 @@ const state = {
   lastAutoSpokenId: null,
   query: "",
   filter: "all",
+  librarySourceFilter: "all",
+  listMaskMode: "show",
+  cloud: {
+    config: loadCloudConfig(),
+    canEdit: !PUBLIC_VIEWER_SLUG && !EDITOR_VIEW_SLUG,
+  },
 };
+
+function ensurePracticeSession(mode = state.practiceMode) {
+  if (!state.practiceSessions || typeof state.practiceSessions !== "object") {
+    state.practiceSessions = createPracticeSessions(state.mode || "due");
+  }
+  if (!state.practiceSessions[mode]) {
+    state.practiceSessions[mode] = {
+      mode: state.mode || "due",
+      activeId: null,
+    };
+  }
+  return state.practiceSessions[mode];
+}
+
+function savePracticeSession() {
+  const session = ensurePracticeSession();
+  session.mode = state.mode;
+  session.activeId = state.activeId;
+}
+
+function restorePracticeSession(mode, fallbackMode = state.mode) {
+  const session = ensurePracticeSession(mode);
+  state.mode = session.mode || fallbackMode || "due";
+  state.activeId = session.activeId || null;
+}
+
+function setActiveId(id) {
+  state.activeId = id || null;
+  ensurePracticeSession().activeId = state.activeId;
+}
+
+function setStudyMode(mode) {
+  state.mode = mode;
+  const session = ensurePracticeSession();
+  session.mode = mode;
+  session.activeId = null;
+  state.activeId = null;
+}
+
+function switchPracticeMode(mode) {
+  if (!PROGRESS_MODES.includes(mode) || mode === state.practiceMode) {
+    return;
+  }
+  savePracticeSession();
+  state.practiceMode = mode;
+  restorePracticeSession(mode, state.mode);
+  state.answerVisible = false;
+  resetTypingState();
+  state.lastAutoSpokenId = null;
+  render();
+}
 
 function createId() {
   if (crypto.randomUUID) {
@@ -4009,6 +4122,50 @@ function defaultExamDate() {
 
 function normalizeText(value) {
   return String(value || "").trim();
+}
+
+function normalizeWordSource(value) {
+  const source = normalizeText(value);
+  return WORD_SOURCES.includes(source) ? source : "全方位";
+}
+
+function sourceOptionsHTML(selected = "全方位", includeAll = false) {
+  const options = includeAll ? [{ value: "all", label: "全部分类" }] : [];
+  WORD_SOURCES.forEach((source) => options.push({ value: source, label: source }));
+  return options.map((option) => `
+    <option value="${escapeHTML(option.value)}"${option.value === selected ? " selected" : ""}>${escapeHTML(option.label)}</option>`).join("");
+}
+
+function maskedText(value, type) {
+  const text = normalizeText(value);
+  if (type === "english" && state.listMaskMode === "hideEnglish") {
+    return `<span class="masked-value">英文已遮住</span>`;
+  }
+  if (type === "chinese" && state.listMaskMode === "hideChinese") {
+    return `<span class="masked-value">中文已遮住</span>`;
+  }
+  return escapeHTML(text);
+}
+
+function renderLibrarySourceFilters() {
+  if (els.sourceInput && !els.sourceInput.dataset.ready) {
+    els.sourceInput.innerHTML = sourceOptionsHTML("全方位");
+    els.sourceInput.dataset.ready = "1";
+  }
+  if (els.bulkSourceInput && !els.bulkSourceInput.dataset.ready) {
+    els.bulkSourceInput.innerHTML = sourceOptionsHTML("全方位");
+    els.bulkSourceInput.dataset.ready = "1";
+  }
+  if (els.librarySourceFilter && !els.librarySourceFilter.dataset.ready) {
+    els.librarySourceFilter.innerHTML = sourceOptionsHTML(state.librarySourceFilter, true);
+    els.librarySourceFilter.dataset.ready = "1";
+  }
+  if (els.librarySourceFilter && els.librarySourceFilter.value !== state.librarySourceFilter) {
+    els.librarySourceFilter.value = state.librarySourceFilter;
+  }
+  if (els.listMaskMode && els.listMaskMode.value !== state.listMaskMode) {
+    els.listMaskMode.value = state.listMaskMode;
+  }
 }
 
 function mergeStudyText(current, incoming) {
@@ -4234,6 +4391,55 @@ function cloneBuiltinWords() {
   return BUILTIN_WORDS.map(cloneBuiltinWord);
 }
 
+function createEmptyProgress(source = {}) {
+  const stage = Number.isInteger(source.stage) ? source.stage : -1;
+  const history = Array.isArray(source.history) ? source.history : [];
+  return {
+    status: source.status || "new",
+    stage,
+    nextReviewAt: source.nextReviewAt || "",
+    lastStudiedAt: source.lastStudiedAt || "",
+    history,
+  };
+}
+
+function normalizeModeProgress(word) {
+  const existing = word.progress && typeof word.progress === "object" ? word.progress : {};
+  const legacyProgress = createEmptyProgress(word);
+  return PROGRESS_MODES.reduce((progressByMode, mode) => {
+    const source = existing[mode] || (mode === "card" ? legacyProgress : {});
+    progressByMode[mode] = createEmptyProgress(source);
+    return progressByMode;
+  }, {});
+}
+
+function modeProgress(word, mode = state.practiceMode) {
+  if (!word.progress || typeof word.progress !== "object") {
+    word.progress = normalizeModeProgress(word);
+  }
+  if (!PROGRESS_MODES.includes(mode)) {
+    mode = "card";
+  }
+  if (!word.progress[mode]) {
+    word.progress[mode] = createEmptyProgress();
+  }
+  return word.progress[mode];
+}
+
+function activeModeProgress(word) {
+  return modeProgress(word, state.practiceMode);
+}
+
+function recordModeHistory(word, entry, mode = state.practiceMode) {
+  const progress = modeProgress(word, mode);
+  const historyEntry = { ...entry, mode };
+  progress.history.push(historyEntry);
+  if (!Array.isArray(word.history)) {
+    word.history = [];
+  }
+  word.history.push(historyEntry);
+}
+
 function applyBuiltinWords(words) {
   let packageAlreadyApplied = false;
   try {
@@ -4312,6 +4518,7 @@ function normalizeWord(word) {
     phrase: word.phrase || "",
     note: word.note || "",
     tag: word.tag || "",
+    source: normalizeWordSource(word.source || word.category || word.book || "全方位"),
     forms: {
       third: normalizeText(word.forms?.third || word.forms?.thirdPerson || word.thirdPerson || ""),
       past: normalizeText(word.forms?.past || word.forms?.pastTense || word.pastTense || ""),
@@ -4325,12 +4532,19 @@ function normalizeWord(word) {
     createdAt: word.createdAt || new Date().toISOString(),
     updatedAt: word.updatedAt || new Date().toISOString(),
     history: Array.isArray(word.history) ? word.history : [],
+    progress: normalizeModeProgress(word),
   };
 }
 
-function saveWords() {
+function saveWords(options = {}) {
+  if (PUBLIC_VIEWER_SLUG) {
+    return true;
+  }
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.words));
+    if (!options.skipCloud) {
+      autoSaveCloudSoon();
+    }
     return true;
   } catch {
     showToast("保存失败，可能是浏览器空间不足");
@@ -4343,6 +4557,410 @@ function showToast(message) {
   els.toast.classList.add("show");
   window.clearTimeout(showToast.timer);
   showToast.timer = window.setTimeout(() => els.toast.classList.remove("show"), 2200);
+}
+
+function normalizeCloudSlug(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, "")
+    .slice(0, 32);
+}
+
+function loadCloudConfig() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(CLOUD_CONFIG_KEY) || "{}");
+    return {
+      slug: normalizeCloudSlug(parsed.slug || ""),
+      displayName: normalizeText(parsed.displayName || "专升本单词记忆"),
+      pin: String(parsed.pin || ""),
+      isPublic: parsed.isPublic !== false,
+      autoSync: Boolean(parsed.autoSync),
+    };
+  } catch {
+    return {
+      slug: "",
+      displayName: "专升本单词记忆",
+      pin: "",
+      isPublic: true,
+      autoSync: false,
+    };
+  }
+}
+
+function saveCloudConfig(config) {
+  if (PUBLIC_VIEWER_SLUG) {
+    return;
+  }
+  try {
+    localStorage.setItem(CLOUD_CONFIG_KEY, JSON.stringify(config));
+  } catch {
+    showToast("云同步设置保存失败");
+  }
+}
+
+function isCloudReadOnly() {
+  return Boolean(PUBLIC_VIEWER_SLUG || (EDITOR_VIEW_SLUG && !state.cloud.canEdit));
+}
+
+function guardEditable() {
+  if (PUBLIC_VIEWER_SLUG) {
+    showToast("公开链接只能查看，不能修改");
+    return false;
+  }
+  if (EDITOR_VIEW_SLUG && !state.cloud.canEdit) {
+    openCloudDialog();
+    setCloudStatus("这是协作链接，先输入编辑密码才能修改。", "warn");
+    return false;
+  }
+  return true;
+}
+
+function setCloudStatus(message, tone = "") {
+  if (!els.cloudStatus) {
+    return;
+  }
+  els.cloudStatus.textContent = message || "";
+  els.cloudStatus.dataset.tone = tone;
+}
+
+function defaultShareBaseUrl() {
+  if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+    const url = new URL(window.location.href);
+    url.search = "";
+    url.hash = "";
+    return url.href;
+  }
+  try {
+    const saved = localStorage.getItem(SHARE_BASE_URL_KEY);
+    return saved && !saved.startsWith("file:") ? saved : DEFAULT_SHARE_BASE_URL;
+  } catch {
+    return DEFAULT_SHARE_BASE_URL;
+  }
+}
+
+function normalizeShareBaseUrl(value) {
+  const candidate = normalizeText(value) || defaultShareBaseUrl();
+  try {
+    const url = new URL(candidate);
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+      return DEFAULT_SHARE_BASE_URL;
+    }
+    url.search = "";
+    url.hash = "";
+    return url.href;
+  } catch {
+    return DEFAULT_SHARE_BASE_URL;
+  }
+}
+
+function hydrateCloudDialog() {
+  if (!els.cloudDialog) {
+    return;
+  }
+  const config = state.cloud.config;
+  if (els.cloudSlugInput) {
+    els.cloudSlugInput.value = EDITOR_VIEW_SLUG || PUBLIC_VIEWER_SLUG || config.slug || "";
+    els.cloudSlugInput.readOnly = Boolean(EDITOR_VIEW_SLUG || PUBLIC_VIEWER_SLUG);
+  }
+  if (els.cloudNameInput) {
+    els.cloudNameInput.value = config.displayName || "专升本单词记忆";
+  }
+  if (els.cloudPinInput) {
+    els.cloudPinInput.value = PUBLIC_VIEWER_SLUG ? "" : config.pin || "";
+  }
+  if (els.cloudPublicInput) {
+    els.cloudPublicInput.checked = config.isPublic !== false;
+    els.cloudPublicInput.disabled = Boolean(PUBLIC_VIEWER_SLUG);
+  }
+  if (els.shareBaseUrlInput) {
+    els.shareBaseUrlInput.value = normalizeShareBaseUrl(els.shareBaseUrlInput.value || defaultShareBaseUrl());
+  }
+  if (els.loadCloudButton) {
+    els.loadCloudButton.disabled = Boolean(PUBLIC_VIEWER_SLUG);
+  }
+}
+
+function openCloudDialog() {
+  hydrateCloudDialog();
+  if (!els.cloudDialog) {
+    return;
+  }
+  if (typeof els.cloudDialog.showModal === "function" && !els.cloudDialog.open) {
+    els.cloudDialog.showModal();
+  } else {
+    els.cloudDialog.setAttribute("open", "");
+  }
+}
+
+function closeCloudDialog() {
+  if (!els.cloudDialog) {
+    return;
+  }
+  if (typeof els.cloudDialog.close === "function") {
+    els.cloudDialog.close();
+  } else {
+    els.cloudDialog.removeAttribute("open");
+  }
+}
+
+function readCloudFormConfig() {
+  const slug = normalizeCloudSlug(els.cloudSlugInput?.value || state.cloud.config.slug);
+  const config = {
+    slug,
+    displayName: normalizeText(els.cloudNameInput?.value || state.cloud.config.displayName || "专升本单词记忆"),
+    pin: String(els.cloudPinInput?.value || state.cloud.config.pin || ""),
+    isPublic: els.cloudPublicInput ? els.cloudPublicInput.checked : state.cloud.config.isPublic !== false,
+    autoSync: state.cloud.config.autoSync,
+  };
+  state.cloud.config = config;
+  return config;
+}
+
+async function cloudRequest(functionName, payload) {
+  const controller = new AbortController();
+  const timer = window.setTimeout(() => controller.abort(), CLOUD_REQUEST_TIMEOUT_MS);
+  try {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/rpc/${functionName}`, {
+      method: "POST",
+      headers: {
+        apikey: SUPABASE_PUBLISHABLE_KEY,
+        Authorization: `Bearer ${SUPABASE_PUBLISHABLE_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+    });
+    const text = await response.text();
+    const data = text ? JSON.parse(text) : null;
+    if (!response.ok) {
+      throw new Error(data?.message || data?.hint || "云端请求失败");
+    }
+    return data;
+  } catch (error) {
+    if (error.name === "AbortError") {
+      throw new Error("云端连接超过 15 秒，请检查网络后再试");
+    }
+    throw error;
+  } finally {
+    window.clearTimeout(timer);
+  }
+}
+
+function cloudWordsPayload() {
+  return state.words.map((word) => normalizeWord(word));
+}
+
+async function saveCloudNow(options = {}) {
+  const silent = Boolean(options.silent);
+  if (PUBLIC_VIEWER_SLUG || (EDITOR_VIEW_SLUG && !state.cloud.canEdit)) {
+    return false;
+  }
+  const config = options.config || state.cloud.config;
+  if (!config.slug || config.pin.length < 4) {
+    if (!silent) {
+      setCloudStatus("请填写公开编号，并设置至少 4 位编辑密码。", "warn");
+      showToast("云同步需要公开编号和编辑密码");
+    }
+    return false;
+  }
+  try {
+    if (!silent) {
+      setCloudStatus("正在保存到云端……");
+    }
+    const result = await cloudRequest("save_word_memory_cloud", {
+      p_slug: config.slug,
+      p_pin: config.pin,
+      p_words: cloudWordsPayload(),
+      p_display_name: config.displayName || "专升本单词记忆",
+      p_is_public: config.isPublic !== false,
+    });
+    state.cloud.config = { ...config, autoSync: true };
+    saveCloudConfig(state.cloud.config);
+    if (!silent) {
+      setCloudStatus(`已保存到云端：${state.cloud.config.slug}`, "ok");
+      showToast("已保存并开启云同步");
+    }
+    return result;
+  } catch (error) {
+    if (!silent) {
+      setCloudStatus(error.message || "云同步失败", "warn");
+      showToast(error.message || "云同步失败");
+    }
+    return false;
+  }
+}
+
+async function loadCloudToLocal(options = {}) {
+  const slug = normalizeCloudSlug(options.slug || state.cloud.config.slug || PUBLIC_VIEWER_SLUG || EDITOR_VIEW_SLUG);
+  const pin = options.pin ?? state.cloud.config.pin ?? "";
+  const publicView = Boolean(options.publicView || PUBLIC_VIEWER_SLUG);
+  if (!slug) {
+    setCloudStatus("请先填写公开编号。", "warn");
+    return false;
+  }
+  try {
+    if (!options.silent) {
+      setCloudStatus("正在从云端加载……");
+    }
+    const data = await cloudRequest("load_word_memory_cloud", {
+      p_slug: slug,
+      p_pin: pin || null,
+    });
+    const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
+    state.words = incoming.map(normalizeWord);
+    suppressCloudSync = true;
+    if (!publicView) {
+      saveWords({ skipCloud: true });
+      state.cloud.config = {
+        ...state.cloud.config,
+        slug,
+        pin,
+        displayName: data?.display_name || state.cloud.config.displayName || "专升本单词记忆",
+        isPublic: data?.is_public !== false,
+      };
+      saveCloudConfig(state.cloud.config);
+    }
+    suppressCloudSync = false;
+    setActiveId(null);
+    resetTypingState();
+    render();
+    if (!options.silent) {
+      setCloudStatus(`已加载 ${state.words.length} 个词条。`, "ok");
+      showToast("云端数据已加载");
+    }
+    return true;
+  } catch (error) {
+    suppressCloudSync = false;
+    setCloudStatus(error.message || "从云端加载失败", "warn");
+    showToast(error.message || "从云端加载失败");
+    return false;
+  }
+}
+
+function autoSaveCloudSoon() {
+  if (suppressCloudSync || PUBLIC_VIEWER_SLUG || (EDITOR_VIEW_SLUG && !state.cloud.canEdit)) {
+    return;
+  }
+  const config = state.cloud.config;
+  if (!config.autoSync || !config.slug || !config.pin) {
+    return;
+  }
+  window.clearTimeout(cloudSyncTimer);
+  cloudSyncTimer = window.setTimeout(() => {
+    saveCloudNow({ silent: true });
+  }, 1000);
+}
+
+function makeShareLink(kind) {
+  const config = readCloudFormConfig();
+  const base = normalizeShareBaseUrl(els.shareBaseUrlInput?.value || defaultShareBaseUrl());
+  try {
+    localStorage.setItem(SHARE_BASE_URL_KEY, base);
+  } catch {
+    // Link generation can continue without saving the address.
+  }
+  const url = new URL(base);
+  url.search = kind === "edit" ? `?edit=${config.slug}` : `?public=${config.slug}`;
+  return url.href;
+}
+
+async function copyText(text, successMessage) {
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast(successMessage);
+  } catch {
+    showToast(text);
+  }
+}
+
+function copyPublicLink() {
+  const config = readCloudFormConfig();
+  if (!config.slug) {
+    setCloudStatus("请先填写公开编号。", "warn");
+    return;
+  }
+  copyText(makeShareLink("public"), "公开链接已复制");
+}
+
+function copyEditLink() {
+  const config = readCloudFormConfig();
+  if (!config.slug) {
+    setCloudStatus("请先填写公开编号。", "warn");
+    return;
+  }
+  copyText(makeShareLink("edit"), "协作链接已复制");
+}
+
+async function connectSharedEditCloud() {
+  const config = readCloudFormConfig();
+  config.slug = EDITOR_VIEW_SLUG || config.slug;
+  if (!config.slug || config.pin.length < 4) {
+    setCloudStatus("协作编辑需要公开编号和编辑密码。", "warn");
+    return false;
+  }
+  try {
+    setCloudStatus("正在验证编辑密码……");
+    await cloudRequest("verify_word_memory_cloud_pin", {
+      p_slug: config.slug,
+      p_pin: config.pin,
+    });
+    state.cloud.canEdit = true;
+    state.cloud.config = { ...config, autoSync: true };
+    saveCloudConfig(state.cloud.config);
+    await loadCloudToLocal({ slug: config.slug, pin: config.pin, silent: true });
+    setCloudStatus("协作编辑已开启，之后的修改会自动同步。", "ok");
+    showToast("协作编辑已开启");
+    closeCloudDialog();
+    return true;
+  } catch (error) {
+    setCloudStatus(error.message || "编辑密码不正确", "warn");
+    showToast(error.message || "编辑密码不正确");
+    return false;
+  }
+}
+
+function renderCloudAccessState() {
+  const readonly = isCloudReadOnly();
+  document.body?.classList?.toggle("is-readonly-cloud", readonly);
+  if (!els.readonlyBanner) {
+    return;
+  }
+  if (PUBLIC_VIEWER_SLUG) {
+    els.readonlyBanner.hidden = false;
+    els.readonlyBanner.textContent = `正在查看公开词库：${PUBLIC_VIEWER_SLUG}，这里只能查看，不能编辑。`;
+    return;
+  }
+  if (EDITOR_VIEW_SLUG && !state.cloud.canEdit) {
+    els.readonlyBanner.hidden = false;
+    els.readonlyBanner.textContent = `协作词库：${EDITOR_VIEW_SLUG}。输入编辑密码后才能修改并同步。`;
+    return;
+  }
+  els.readonlyBanner.hidden = true;
+}
+
+function initializeCloudFromUrl() {
+  if (PUBLIC_VIEWER_SLUG) {
+    state.cloud.canEdit = false;
+    state.words = [];
+    setActiveId(null);
+    render();
+    loadCloudToLocal({ slug: PUBLIC_VIEWER_SLUG, publicView: true, silent: true }).then((ok) => {
+      if (ok) {
+        showToast("已打开公开词库，只能查看");
+      }
+    });
+    return;
+  }
+  if (EDITOR_VIEW_SLUG) {
+    state.cloud.canEdit = false;
+    state.cloud.config = { ...state.cloud.config, slug: EDITOR_VIEW_SLUG, autoSync: false };
+    state.words = [];
+    setActiveId(null);
+    render();
+    openCloudDialog();
+    setCloudStatus("这是协作链接，输入编辑密码后可以修改同一份云端数据。", "warn");
+  }
 }
 
 function formatDateTime(value) {
@@ -4359,16 +4977,19 @@ function formatTime(value) {
   return new Date(value).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" });
 }
 
-function isDue(word, date = nowDate()) {
-  return Boolean(word.nextReviewAt && new Date(word.nextReviewAt) <= date);
+function isDue(word, date = nowDate(), mode = state.practiceMode) {
+  const progress = modeProgress(word, mode);
+  return Boolean(progress.nextReviewAt && new Date(progress.nextReviewAt) <= date);
 }
 
-function isTodayReview(word) {
-  return Boolean(word.nextReviewAt && todayKey(new Date(word.nextReviewAt)) === todayKey());
+function isTodayReview(word, mode = state.practiceMode) {
+  const progress = modeProgress(word, mode);
+  return Boolean(progress.nextReviewAt && todayKey(new Date(progress.nextReviewAt)) === todayKey());
 }
 
-function learnedToday(word) {
-  return word.history.some((entry) => todayKey(new Date(entry.time)) === todayKey());
+function learnedToday(word, mode = state.practiceMode) {
+  const progress = modeProgress(word, mode);
+  return progress.history.some((entry) => todayKey(new Date(entry.time)) === todayKey());
 }
 
 function wordGroupName(word) {
@@ -4394,14 +5015,15 @@ function resetTypingState() {
   state.formResult = null;
 }
 
-function statusOf(word) {
-  if (isDue(word)) {
+function statusOf(word, mode = state.practiceMode) {
+  const progress = modeProgress(word, mode);
+  if (isDue(word, nowDate(), mode)) {
     return "due";
   }
-  if (word.status === "new" || (word.stage < 0 && !word.nextReviewAt)) {
+  if (progress.status === "new" || (progress.stage < 0 && !progress.nextReviewAt)) {
     return "new";
   }
-  if (word.stage >= REVIEW_STEPS.length - 1) {
+  if (progress.stage >= REVIEW_STEPS.length - 1) {
     return "mature";
   }
   return "learning";
@@ -4418,14 +5040,15 @@ function statusLabel(status) {
 }
 
 function scheduleNext(word, result, options = {}) {
+  const progress = modeProgress(word);
   const completedAt = options.completedAt || nowDate();
   let nextStep = 0;
   let delay = REVIEW_STEPS[0].ms;
   let label = REVIEW_STEPS[0].label;
 
   if (result === "new" || result === "remember") {
-    nextStep = Math.min(word.stage + 1, REVIEW_STEPS.length - 1);
-    if (word.stage < 0) {
+    nextStep = Math.min(progress.stage + 1, REVIEW_STEPS.length - 1);
+    if (progress.stage < 0) {
       nextStep = 0;
     }
     delay = REVIEW_STEPS[nextStep].ms;
@@ -4433,7 +5056,7 @@ function scheduleNext(word, result, options = {}) {
   }
 
   if (result === "fuzzy") {
-    nextStep = Math.max(0, word.stage);
+    nextStep = Math.max(0, progress.stage);
     delay = REVIEW_STEPS[0].ms;
     label = REVIEW_STEPS[0].label;
   }
@@ -4446,18 +5069,18 @@ function scheduleNext(word, result, options = {}) {
   }
 
   const nextDate = new Date(completedAt.getTime() + delay);
-  word.stage = nextStep;
-  word.status = nextStep >= REVIEW_STEPS.length - 1 ? "mature" : "learning";
-  word.nextReviewAt = nextDate.toISOString();
-  word.lastStudiedAt = completedAt.toISOString();
+  progress.stage = nextStep;
+  progress.status = nextStep >= REVIEW_STEPS.length - 1 ? "mature" : "learning";
+  progress.nextReviewAt = nextDate.toISOString();
+  progress.lastStudiedAt = completedAt.toISOString();
   word.updatedAt = completedAt.toISOString();
-  word.history.push({
+  recordModeHistory(word, {
     time: completedAt.toISOString(),
     result,
-    nextReviewAt: word.nextReviewAt,
+    nextReviewAt: progress.nextReviewAt,
   });
   if (!options.silent) {
-    showToast(`下次：${formatDateTime(word.nextReviewAt)}（${label}后）`);
+    showToast(`下次：${formatDateTime(progress.nextReviewAt)}（${label}后）`);
   }
 }
 
@@ -4495,8 +5118,8 @@ function sprintQueue(words = state.words.filter(wordMatchesActiveGroup)) {
     if (rankDiff) {
       return rankDiff;
     }
-    const aTime = a.nextReviewAt || "9999-12-31";
-    const bTime = b.nextReviewAt || "9999-12-31";
+    const aTime = activeModeProgress(a).nextReviewAt || "9999-12-31";
+    const bTime = activeModeProgress(b).nextReviewAt || "9999-12-31";
     return aTime.localeCompare(bTime) || a.term.localeCompare(b.term, "en", { sensitivity: "base" });
   });
 }
@@ -4512,8 +5135,8 @@ function stableRandomRank(word) {
 
 function getOrderedStudyWords(words, order = state.dictationOrder) {
   const sortedByDue = [...words].sort((a, b) => {
-    const ad = a.nextReviewAt || "9999-12-31";
-    const bd = b.nextReviewAt || "9999-12-31";
+    const ad = activeModeProgress(a).nextReviewAt || "9999-12-31";
+    const bd = activeModeProgress(b).nextReviewAt || "9999-12-31";
     return ad.localeCompare(bd);
   });
 
@@ -4535,8 +5158,8 @@ function getOrderedStudyWords(words, order = state.dictationOrder) {
         if (dueDiff) {
           return dueDiff;
         }
-        const aTime = a.nextReviewAt || "9999-12-31";
-        const bTime = b.nextReviewAt || "9999-12-31";
+        const aTime = activeModeProgress(a).nextReviewAt || "9999-12-31";
+        const bTime = activeModeProgress(b).nextReviewAt || "9999-12-31";
         return aTime.localeCompare(bTime);
       });
   }
@@ -4545,13 +5168,13 @@ function getOrderedStudyWords(words, order = state.dictationOrder) {
 function chooseActiveWord(forceFirst = false) {
   const queue = getQueue();
   if (!queue.length) {
-    state.activeId = null;
+    setActiveId(null);
     state.answerVisible = false;
     return;
   }
   const activeStillValid = queue.some((word) => word.id === state.activeId);
   if (forceFirst || !activeStillValid) {
-    state.activeId = queue[0].id;
+    setActiveId(queue[0].id);
     state.answerVisible = false;
     resetTypingState();
     state.lastAutoSpokenId = null;
@@ -4563,6 +5186,7 @@ function activeWord() {
 }
 
 function render() {
+  renderCloudAccessState();
   chooseActiveWord();
   renderStats();
   renderDashboard();
@@ -4572,6 +5196,7 @@ function render() {
   renderModeButtons();
   renderPracticeButtons();
   renderDictationTools();
+  renderLibrarySourceFilters();
   renderActiveCard();
   renderTimeline();
   renderGroupProgress();
@@ -4626,9 +5251,9 @@ function renderSprintStatus() {
   els.sprintStatus.textContent = `冲刺 ${formatDuration(remaining)} · ${state.sprint.completed} 个`;
 }
 
-function todayHistoryEntries() {
+function todayHistoryEntries(mode = state.practiceMode) {
   const today = todayKey();
-  return state.words.flatMap((word) => word.history
+  return state.words.flatMap((word) => modeProgress(word, mode).history
     .filter((entry) => todayKey(new Date(entry.time)) === today)
     .map((entry) => ({ ...entry, word })));
 }
@@ -4642,7 +5267,8 @@ function dailyReportStats() {
   const forgotten = entries.filter((entry) => ["forgot", "spell-wrong", "forms-wrong"].includes(entry.result)).length;
   const importantNow = state.words.filter((word) => word.important).length;
   const nextReview = state.words
-    .filter((word) => word.nextReviewAt)
+    .map((word) => modeProgress(word))
+    .filter((progress) => progress.nextReviewAt)
     .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt))[0]?.nextReviewAt || "";
   return {
     studied: studiedWords.size,
@@ -4744,15 +5370,16 @@ function renderGroupProgress() {
     return;
   }
 
+  const modeName = PROGRESS_MODE_LABELS[state.practiceMode] || "当前模式";
   const allCard = `
       <article class="group-card${state.activeGroup === "all" ? " active" : ""}" data-group-action="study" data-group="all">
         <strong>全部 Word List</strong>
         <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
-        <p>总计 ${state.words.length} 个 · 点击恢复全量抽查</p>
+        <p>${modeName}独立进度 · 总计 ${state.words.length} 个</p>
       </article>`;
 
   els.groupProgress.innerHTML = allCard + [...groups.entries()].map(([name, words]) => {
-    const learned = words.filter((word) => word.stage >= 0).length;
+    const learned = words.filter((word) => modeProgress(word).stage >= 0).length;
     const mature = words.filter((word) => statusOf(word) === "mature").length;
     const due = words.filter((word) => isDue(word)).length;
     const important = words.filter((word) => word.important).length;
@@ -4927,6 +5554,7 @@ function renderActiveCard() {
     return;
   }
 
+  const progress = activeModeProgress(word);
   const status = statusOf(word);
   const typingMode = ["spell", "dictation", "forms"].includes(state.practiceMode);
   const letters = typingMode ? [] : word.term.replace(/[^a-zA-Z]/g, "").slice(0, 9).split("");
@@ -4950,15 +5578,15 @@ function renderActiveCard() {
       ${extra}
       ${note}
       ${important}
-      <p class="next-line">下次：${formatDateTime(word.nextReviewAt)} · ${statusLabel(status)}</p>
+      <p class="next-line">下次：${formatDateTime(progress.nextReviewAt)} · ${statusLabel(status)}</p>
     </div>
     <div class="card-bottom">
-      <div class="stage-track">${REVIEW_STEPS.map((_, index) => `<span class="stage-dot${index <= word.stage ? " active" : ""}"></span>`).join("")}</div>
+      <div class="stage-track">${REVIEW_STEPS.map((_, index) => `<span class="stage-dot${index <= progress.stage ? " active" : ""}"></span>`).join("")}</div>
       <div class="card-actions">
         <button class="secondary-button audio-button" data-card-action="speak">读音</button>
         <button class="secondary-button" data-card-action="show">${state.answerVisible ? "隐藏释义" : "显示释义"}</button>
         <button class="secondary-button" data-card-action="toggle-important">${word.important ? "取消重点" : "标重点"}</button>
-        <button class="primary-button" data-card-action="remember">${word.stage < 0 ? "记完" : "会了"}</button>
+        <button class="primary-button" data-card-action="remember">${progress.stage < 0 ? "记完" : "会了"}</button>
         <button class="secondary-button" data-card-action="fuzzy">模糊</button>
         <button class="danger-button" data-card-action="forgot">忘了</button>
       </div>
@@ -4974,7 +5602,7 @@ function renderTimeline() {
   const todayWords = state.words
     .filter(isTodayReview)
     .filter(wordMatchesActiveGroup)
-    .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt));
+    .sort((a, b) => activeModeProgress(a).nextReviewAt.localeCompare(activeModeProgress(b).nextReviewAt));
 
   if (!todayWords.length) {
     els.todayTimeline.innerHTML = `<div class="time-slot"><strong>今天</strong><div><span>暂无安排</span></div></div>`;
@@ -4983,7 +5611,7 @@ function renderTimeline() {
 
   els.todayTimeline.innerHTML = todayWords.slice(0, 18).map((word) => `
     <div class="time-slot">
-      <strong>${formatTime(word.nextReviewAt)}</strong>
+      <strong>${formatTime(activeModeProgress(word).nextReviewAt)}</strong>
       <div>
         <span>${escapeHTML(word.term)}</span>
         <span>${escapeHTML(word.meaning || word.phrase || "未填释义")}</span>
@@ -4996,18 +5624,19 @@ function filteredWords() {
   return state.words
     .filter((word) => {
       const forms = verbForms(word);
-      const text = [word.term, word.meaning, word.phrase, word.note, word.tag, forms.third, forms.past, forms.participle].join(" ").toLowerCase();
+      const text = [word.term, word.meaning, word.phrase, word.note, word.tag, word.source, forms.third, forms.past, forms.participle].join(" ").toLowerCase();
       const matchesQuery = !query || text.includes(query);
       const status = statusOf(word);
       const matchesFilter = state.filter === "all" || status === state.filter || (state.filter === "important" && word.important);
-      return matchesQuery && matchesFilter && wordMatchesActiveGroup(word);
+      const matchesSource = state.librarySourceFilter === "all" || word.source === state.librarySourceFilter;
+      return matchesQuery && matchesFilter && matchesSource && wordMatchesActiveGroup(word);
     })
     .sort((a, b) => {
       const statusDiff = Number(isDue(b)) - Number(isDue(a));
       if (statusDiff) {
         return statusDiff;
       }
-      return (a.nextReviewAt || "9999").localeCompare(b.nextReviewAt || "9999");
+      return (activeModeProgress(a).nextReviewAt || "9999").localeCompare(activeModeProgress(b).nextReviewAt || "9999");
     });
 }
 
@@ -5020,20 +5649,22 @@ function renderWordList() {
 
   els.wordList.innerHTML = words.map((word) => {
     const status = statusOf(word);
+    const progress = activeModeProgress(word);
     return `
       <article class="word-row" data-id="${escapeHTML(word.id)}">
         <div>
-          <strong>${escapeHTML(word.term)}</strong>
+          <strong>${maskedText(word.term, "english")}</strong>
+          <span class="source-pill">${escapeHTML(word.source)}</span>
           <p>${escapeHTML(word.tag || "未标记")}</p>
         </div>
         <div>
-          <p>${escapeHTML(word.meaning || "未填中文")}</p>
+          <p>${maskedText(word.meaning || "未填中文", "chinese")}</p>
           <p>${escapeHTML(word.phrase || "")}</p>
         </div>
         <div>
           <span class="status-pill status-${status}">${statusLabel(status)}</span>
           ${word.important ? `<span class="status-pill status-important">重点</span>` : ""}
-          <p>${formatDateTime(word.nextReviewAt)}</p>
+          <p>${formatDateTime(progress.nextReviewAt)}</p>
         </div>
         <div class="mini-actions">
           <button class="secondary-button" data-row-action="study">打开</button>
@@ -5057,6 +5688,7 @@ function wordFromForm() {
     meaning: normalizeText(els.meaningInput.value),
     phrase: normalizeText(els.phraseInput.value),
     tag: normalizeText(els.tagInput.value),
+    source: els.sourceInput.value,
     note: normalizeText(els.noteInput.value),
     forms: {
       third: normalizeText(els.thirdPersonInput.value),
@@ -5072,6 +5704,9 @@ function wordFromForm() {
 
 function addWord(event) {
   event.preventDefault();
+  if (!guardEditable()) {
+    return;
+  }
   const word = wordFromForm();
   if (!word.term) {
     return;
@@ -5079,8 +5714,8 @@ function addWord(event) {
   state.words.unshift(word);
   saveWords();
   clearForm();
-  state.mode = "new";
-  state.activeId = word.id;
+  setStudyMode("new");
+  setActiveId(word.id);
   state.answerVisible = false;
   render();
   showToast("已加入词库");
@@ -5117,6 +5752,9 @@ function splitImportLine(line) {
 }
 
 function bulkAdd() {
+  if (!guardEditable()) {
+    return;
+  }
   const lines = els.bulkInput.value.split(/\r?\n/).map(splitImportLine).filter(Boolean);
   if (!lines.length) {
     showToast("没有识别到单词");
@@ -5131,6 +5769,7 @@ function bulkAdd() {
       term: item.term,
       meaning: item.meaning,
       phrase: item.phrase,
+      source: els.bulkSourceInput.value,
       forms: item.forms,
       note: item.note,
       tag: "导入",
@@ -5142,8 +5781,8 @@ function bulkAdd() {
   state.words = [...created, ...state.words];
   saveWords();
   els.bulkInput.value = "";
-  state.mode = "new";
-  state.activeId = created[0]?.id || state.activeId;
+  setStudyMode("new");
+  setActiveId(created[0]?.id || state.activeId);
   state.answerVisible = false;
   render();
   showToast(`已加入 ${created.length} 个词条`);
@@ -5162,15 +5801,18 @@ function handleCardAction(action) {
     speakTerm(word.term);
     return;
   }
+  if (["check-spelling", "check-forms", "toggle-important", "remember", "fuzzy", "forgot"].includes(action) && !guardEditable()) {
+    return;
+  }
   if (action === "check-spelling") {
     const correct = isSpellingCorrect(state.spellingDraft, word);
     const completedAt = new Date().toISOString();
     state.spellingResult = { correct };
     state.answerVisible = true;
-    word.history.push({
+    recordModeHistory(word, {
       time: completedAt,
       result: correct ? "spell-correct" : "spell-wrong",
-      nextReviewAt: word.nextReviewAt || "",
+      nextReviewAt: modeProgress(word).nextReviewAt || "",
     });
     if (!correct) {
       word.important = true;
@@ -5186,10 +5828,10 @@ function handleCardAction(action) {
     const completedAt = new Date().toISOString();
     state.formResult = { correct };
     state.answerVisible = true;
-    word.history.push({
+    recordModeHistory(word, {
       time: completedAt,
       result: correct ? "forms-correct" : "forms-wrong",
-      nextReviewAt: word.nextReviewAt || "",
+      nextReviewAt: modeProgress(word).nextReviewAt || "",
     });
     if (!correct) {
       word.important = true;
@@ -5220,7 +5862,8 @@ function handleCardAction(action) {
     return;
   }
   if (["remember", "fuzzy", "forgot"].includes(action)) {
-    scheduleNext(word, word.stage < 0 && action === "remember" ? "new" : action);
+    const progress = activeModeProgress(word);
+    scheduleNext(word, progress.stage < 0 && action === "remember" ? "new" : action);
     if (state.sprint.active) {
       state.sprint.completed += 1;
     }
@@ -5233,8 +5876,7 @@ function handleCardAction(action) {
 }
 
 function setMode(mode) {
-  state.mode = mode;
-  state.activeId = null;
+  setStudyMode(mode);
   state.answerVisible = false;
   resetTypingState();
   state.lastAutoSpokenId = null;
@@ -5254,8 +5896,7 @@ function startSprint() {
     endsAt: new Date(now.getTime() + 15 * 60 * 1000).toISOString(),
     completed: 0,
   };
-  state.mode = "all";
-  state.activeId = null;
+  setStudyMode("all");
   state.answerVisible = false;
   resetTypingState();
   state.lastAutoSpokenId = null;
@@ -5273,6 +5914,9 @@ function startNewWords() {
 }
 
 function batchLearnNewWords() {
+  if (!guardEditable()) {
+    return;
+  }
   const visibleNew = filteredWords().filter((word) => statusOf(word) === "new");
   const words = visibleNew.length ? visibleNew : state.words.filter((word) => statusOf(word) === "new" && wordMatchesActiveGroup(word));
   if (!words.length) {
@@ -5288,14 +5932,16 @@ function batchLearnNewWords() {
   const completedAt = nowDate();
   words.forEach((word) => scheduleNext(word, "new", { completedAt, silent: true }));
   saveWords();
-  state.mode = "due";
-  state.activeId = null;
+  setStudyMode("due");
   state.answerVisible = false;
   render();
-  showToast(`已安排 ${words.length} 个新词：${formatDateTime(words[0].nextReviewAt)} 复习`);
+  showToast(`已安排 ${words.length} 个新词：${formatDateTime(activeModeProgress(words[0]).nextReviewAt)} 复习`);
 }
 
 function deleteWord(id) {
+  if (!guardEditable()) {
+    return;
+  }
   const word = state.words.find((item) => item.id === id);
   if (!word) {
     return;
@@ -5306,7 +5952,7 @@ function deleteWord(id) {
   state.words = state.words.filter((item) => item.id !== id);
   saveWords();
   if (state.activeId === id) {
-    state.activeId = null;
+    setActiveId(null);
   }
   render();
   showToast("已删除");
@@ -5330,6 +5976,10 @@ function exportWords() {
 }
 
 async function importWords(event) {
+  if (!guardEditable()) {
+    event.target.value = "";
+    return;
+  }
   const file = event.target.files[0];
   if (!file) {
     return;
@@ -5350,7 +6000,7 @@ async function importWords(event) {
       state.words = [...records.filter((word) => !ids.has(word.id)), ...state.words];
     }
     saveWords();
-    state.activeId = null;
+    setActiveId(null);
     render();
     showToast("导入完成");
   } catch {
@@ -5364,11 +6014,11 @@ function planText() {
   const items = state.words
     .filter(wordMatchesActiveGroup)
     .filter(isTodayReview)
-    .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt));
+    .sort((a, b) => activeModeProgress(a).nextReviewAt.localeCompare(activeModeProgress(b).nextReviewAt));
   if (!items.length) {
     return "今天暂无单词复习安排。";
   }
-  return items.map((word) => `${formatTime(word.nextReviewAt)}  ${word.term}  ${word.meaning || word.phrase || ""}`).join("\n");
+  return items.map((word) => `${formatTime(activeModeProgress(word).nextReviewAt)}  ${word.term}  ${word.meaning || word.phrase || ""}`).join("\n");
 }
 
 async function copyPlan() {
@@ -5425,14 +6075,17 @@ function wireEvents() {
       return;
     }
     if (button.dataset.rowAction === "study") {
-      state.mode = "all";
-      state.activeId = row.dataset.id;
+      setStudyMode("all");
+      setActiveId(row.dataset.id);
       state.answerVisible = false;
       resetTypingState();
       state.lastAutoSpokenId = null;
       render();
     }
     if (button.dataset.rowAction === "important") {
+      if (!guardEditable()) {
+        return;
+      }
       const word = state.words.find((item) => item.id === row.dataset.id);
       if (word) {
         word.important = !word.important;
@@ -5451,7 +6104,7 @@ function wireEvents() {
       return;
     }
     state.activeGroup = card.dataset.group || "all";
-    state.activeId = null;
+    setActiveId(null);
     state.answerVisible = false;
     resetTypingState();
     state.lastAutoSpokenId = null;
@@ -5466,6 +6119,45 @@ function wireEvents() {
     state.filter = event.target.value;
     renderWordList();
   });
+  els.librarySourceFilter.addEventListener("change", (event) => {
+    state.librarySourceFilter = event.target.value;
+    renderWordList();
+  });
+  els.listMaskMode.addEventListener("change", (event) => {
+    state.listMaskMode = LIST_MASK_MODES.includes(event.target.value) ? event.target.value : "show";
+    renderWordList();
+  });
+  els.cloudSyncButton?.addEventListener("click", openCloudDialog);
+  els.closeCloudButton?.addEventListener("click", closeCloudDialog);
+  els.cancelCloudButton?.addEventListener("click", closeCloudDialog);
+  els.cloudSlugInput?.addEventListener("blur", () => {
+    els.cloudSlugInput.value = normalizeCloudSlug(els.cloudSlugInput.value);
+  });
+  els.shareBaseUrlInput?.addEventListener("blur", () => {
+    els.shareBaseUrlInput.value = normalizeShareBaseUrl(els.shareBaseUrlInput.value);
+    try {
+      localStorage.setItem(SHARE_BASE_URL_KEY, els.shareBaseUrlInput.value);
+    } catch {
+      // The link can still be copied even if the browser refuses storage.
+    }
+  });
+  els.cloudForm?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const config = readCloudFormConfig();
+    if (EDITOR_VIEW_SLUG && !state.cloud.canEdit) {
+      await connectSharedEditCloud();
+      return;
+    }
+    state.cloud.config = { ...config, autoSync: true };
+    saveCloudConfig(state.cloud.config);
+    await saveCloudNow({ config: state.cloud.config });
+  });
+  els.loadCloudButton?.addEventListener("click", async () => {
+    const config = readCloudFormConfig();
+    await loadCloudToLocal({ slug: config.slug, pin: config.pin });
+  });
+  els.copyPublicLinkButton?.addEventListener("click", copyPublicLink);
+  els.copyEditLinkButton?.addEventListener("click", copyEditLink);
   els.importButton.addEventListener("click", () => els.importInput.click());
   els.importInput.addEventListener("change", importWords);
   els.exportButton.addEventListener("click", exportWords);
@@ -5477,7 +6169,7 @@ function wireEvents() {
   });
   els.dictationOrderSelect?.addEventListener("change", (event) => {
     state.dictationOrder = event.target.value;
-    state.activeId = null;
+    setActiveId(null);
     state.answerVisible = false;
     resetTypingState();
     state.lastAutoSpokenId = null;
@@ -5485,11 +6177,7 @@ function wireEvents() {
   });
   document.querySelectorAll("[data-practice-mode]").forEach((button) => {
     button.addEventListener("click", () => {
-      state.practiceMode = button.dataset.practiceMode;
-      state.answerVisible = false;
-      resetTypingState();
-      state.lastAutoSpokenId = null;
-      render();
+      switchPracticeMode(button.dataset.practiceMode);
     });
   });
   els.startNewButton.addEventListener("click", startNewWords);
@@ -5504,6 +6192,7 @@ function wireEvents() {
 wireEvents();
 render();
 persistBuiltinWordsIfNeeded();
+initializeCloudFromUrl();
 setInterval(() => {
   renderClock();
   renderStats();
