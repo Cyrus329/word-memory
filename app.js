@@ -36,7 +36,7 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-1-2-3-4-5:v6";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-1-2-3-4-5:v7";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -3927,6 +3927,7 @@ const BUILTIN_WORDS = [
 const ALL_BUILTIN_WORDS = [
   ...BUILTIN_WORDS,
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS) ? window.SUPPLEMENTAL_WORDS : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH2) ? window.SUPPLEMENTAL_WORDS_BATCH2 : []),
 ];
 let shouldPersistBuiltinWords = false;
 
