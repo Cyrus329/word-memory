@@ -36,7 +36,7 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-1-2-3-4-5:v7";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-fullway-prefix:v9";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -3928,6 +3928,7 @@ const ALL_BUILTIN_WORDS = [
   ...BUILTIN_WORDS,
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS) ? window.SUPPLEMENTAL_WORDS : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH2) ? window.SUPPLEMENTAL_WORDS_BATCH2 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH3) ? window.SUPPLEMENTAL_WORDS_BATCH3 : []),
 ];
 let shouldPersistBuiltinWords = false;
 
@@ -4039,6 +4040,7 @@ const state = {
   filter: "all",
   librarySourceFilter: "all",
   listMaskMode: "show",
+  wordListLimit: 40,
   cloud: {
     config: loadCloudConfig(),
     canEdit: !PUBLIC_VIEWER_SLUG && !EDITOR_VIEW_SLUG,
@@ -5686,11 +5688,21 @@ function filteredWords() {
 function renderWordList() {
   const words = filteredWords();
   if (!words.length) {
-    els.wordList.innerHTML = `<div class="empty-card"><div><h3>词库是空的</h3><p>加入单词后会出现在这里</p></div></div>`;
+    els.wordList.innerHTML = `<div class="empty-card"><div><h3>没有匹配的单词</h3><p>换一个分组、状态或搜索词再看</p></div></div>`;
     return;
   }
 
-  els.wordList.innerHTML = words.map((word) => {
+  const limit = Math.max(20, state.wordListLimit || 40);
+  const visibleWords = words.slice(0, limit);
+  const hiddenCount = Math.max(0, words.length - visibleWords.length);
+
+  const summary = `
+    <div class="light-list-summary">
+      <strong>当前只显示 ${visibleWords.length} / ${words.length} 个</strong>
+      <span>为了手机不卡，列表不会一次性渲染全部单词。想找具体单词请用搜索。</span>
+    </div>`;
+
+  const rows = visibleWords.map((word) => {
     const status = statusOf(word);
     const progress = activeModeProgress(word);
     return `
@@ -5716,6 +5728,14 @@ function renderWordList() {
         </div>
       </article>`;
   }).join("");
+
+  const more = hiddenCount ? `
+    <div class="light-load-more">
+      <button class="secondary-button" data-row-action="load-more" type="button">再显示 40 个</button>
+      <p>还有 ${hiddenCount} 个未显示。搜索结果仍然会从全部词库里找，不会漏。</p>
+    </div>` : "";
+
+  els.wordList.innerHTML = summary + rows + more;
 }
 
 function clearForm() {
@@ -6113,6 +6133,11 @@ function wireEvents() {
     if (!button) {
       return;
     }
+    if (button.dataset.rowAction === "load-more") {
+      state.wordListLimit = Math.min((state.wordListLimit || 40) + 40, filteredWords().length);
+      renderWordList();
+      return;
+    }
     const row = button.closest("[data-id]");
     if (!row) {
       return;
@@ -6147,6 +6172,7 @@ function wireEvents() {
       return;
     }
     state.activeGroup = card.dataset.group || "all";
+    state.wordListLimit = 40;
     setActiveId(null);
     state.answerVisible = false;
     resetTypingState();
@@ -6156,14 +6182,17 @@ function wireEvents() {
   });
   els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
+    state.wordListLimit = 40;
     renderWordList();
   });
   els.statusFilter.addEventListener("change", (event) => {
     state.filter = event.target.value;
+    state.wordListLimit = 40;
     renderWordList();
   });
   els.librarySourceFilter.addEventListener("change", (event) => {
     state.librarySourceFilter = event.target.value;
+    state.wordListLimit = 40;
     renderWordList();
   });
   els.listMaskMode.addEventListener("change", (event) => {
