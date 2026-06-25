@@ -1980,3 +1980,236 @@ textarea:focus {
   .folder-word-phrase-line { font-size: 12px; }
   .folder-pron-actions { justify-content:flex-end !important; }
 }
+
+/* v21 folder cards: clean, compact, colored Chinese meaning, no example lines */
+.folder-lite-home-v21 {
+  padding: 10px 12px !important;
+  margin-bottom: 10px !important;
+  border-radius: 16px !important;
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+}
+.folder-lite-home-v21 p { margin: 2px 0 0 !important; font-size: 12px !important; color:#64748b !important; }
+.folder-word-grid-v21 { gap: 8px !important; }
+.folder-word-card-compact-v21 {
+  padding: 10px 11px !important;
+  border-radius: 14px !important;
+  background: #fff !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 3px 10px rgba(15,23,42,.045) !important;
+}
+.folder-word-card-compact-v21:hover { transform:none !important; box-shadow:0 4px 12px rgba(15,23,42,.06) !important; }
+.folder-word-topline-v21 { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:7px; }
+.folder-word-main-v21 { min-width:0; display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+.folder-word-card-compact-v21 .folder-word-term { font-size:18px !important; line-height:1.15 !important; font-weight:850 !important; color:#0f172a !important; }
+.folder-word-card-compact-v21 .folder-word-chip { font-size:11px !important; padding:3px 7px !important; border-radius:999px !important; background:#f1f5f9 !important; color:#64748b !important; font-weight:800 !important; }
+.folder-word-card-compact-v21 .folder-pron-actions { display:flex; gap:5px; flex-shrink:0; }
+.folder-word-card-compact-v21 .folder-pron-btn { width:31px !important; height:31px !important; padding:0 !important; border-radius:999px !important; font-size:13px !important; font-weight:850 !important; }
+.folder-word-one-line-v21 {
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  font-size:15px;
+  line-height:1.5;
+}
+.folder-word-card-compact-v21 .folder-word-pos {
+  flex:0 0 auto;
+  max-width:70px;
+  padding:4px 8px !important;
+  border-radius:10px !important;
+  background:#f8fafc !important;
+  border:1px solid #e5e7eb !important;
+  color:#475569 !important;
+  font-weight:850 !important;
+  font-size:13px !important;
+  text-align:center;
+}
+.folder-word-card-compact-v21 .folder-word-meaning-text {
+  color:#0f766e !important;
+  font-weight:750 !important;
+  background:#ecfdf5 !important;
+  border:1px solid #d1fae5 !important;
+  border-radius:10px !important;
+  padding:4px 8px !important;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.folder-word-card-compact-v21 .folder-word-phrase-line { display:none !important; }
+.folder-batch-actions {
+  display:flex;
+  gap:8px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:12px 0 4px;
+}
+.primary-mini-button {
+  border:0;
+  border-radius:12px;
+  padding:9px 14px;
+  background:#0f766e;
+  color:white;
+  font-weight:900;
+  cursor:pointer;
+}
+.primary-mini-button:hover { background:#115e59; }
+.folder-batch-actions .secondary-button { padding:9px 12px; border-radius:12px; }
+@media(max-width:560px){
+  .folder-content { padding:8px !important; }
+  .folder-word-grid-v21 { gap:7px !important; }
+  .folder-word-card-compact-v21 { padding:9px 10px !important; border-radius:13px !important; }
+  .folder-word-card-compact-v21 .folder-word-term { font-size:18px !important; }
+  .folder-word-one-line-v21 { font-size:14px !important; gap:7px; }
+  .folder-word-card-compact-v21 .folder-word-pos { max-width:58px; padding:3px 6px !important; font-size:12px !important; }
+  .folder-word-card-compact-v21 .folder-word-meaning-text { padding:3px 7px !important; }
+}
+
+
+/* v22：资料夹只让中文释义变绿，不再整块绿色背景；底部改为直接切换分组 */
+.folder-word-card-compact-v21 .folder-word-meaning-text {
+  color: #047857 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-weight: 750 !important;
+}
+.folder-word-one-line-v21 {
+  align-items: baseline !important;
+}
+.folder-word-card-compact-v21 .folder-word-pos {
+  background: #f8fafc !important;
+  color: #475569 !important;
+  border: 1px solid #e2e8f0 !important;
+}
+.folder-bottom-switch {
+  margin: 12px 0 4px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #fff;
+}
+.folder-bottom-title {
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 850;
+  margin-bottom: 8px;
+}
+.folder-bottom-group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+}
+.folder-bottom-sub {
+  border: 1px solid #dbe3f0;
+  background: #f8fafc;
+  color: #0f172a;
+  border-radius: 12px;
+  padding: 9px 10px;
+  text-align: left;
+  font-weight: 850;
+  cursor: pointer;
+}
+.folder-bottom-sub span {
+  display: block;
+  margin-top: 2px;
+  font-size: 11px;
+  color: #64748b;
+  font-weight: 700;
+}
+.folder-bottom-sub.active {
+  border-color: #2563eb;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+.folder-more-current {
+  width: 100%;
+  border: 0;
+  background: #0f766e;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-weight: 900;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.folder-more-current:hover { background: #115e59; }
+.folder-batch-actions { display:none !important; }
+@media(max-width:560px){
+  .folder-bottom-switch{ padding: 10px; border-radius: 14px; }
+  .folder-bottom-group-grid{ grid-template-columns: repeat(2, minmax(0,1fr)); gap:7px; }
+  .folder-bottom-sub{ padding: 8px; border-radius: 11px; }
+}
+
+
+/* v23: 大模块分区切换。电脑和手机都只看当前模块，避免一直下滑。 */
+.module-switcher{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: repeat(5,minmax(0,1fr));
+  gap: 10px;
+  margin: 0 0 18px;
+  padding: 10px;
+  border: 1px solid #dbe3f0;
+  border-radius: 22px;
+  background: rgba(248,250,252,.94);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 12px 28px rgba(15,23,42,.06);
+}
+.module-button{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:62px;
+  padding: 10px 12px;
+  border: 1px solid #dbe3f0;
+  border-radius: 18px;
+  background:#fff;
+  color:#0f172a;
+  cursor:pointer;
+  text-align:left;
+  transition: transform .15s ease,border-color .15s ease,background .15s ease,box-shadow .15s ease;
+}
+.module-button:hover{transform:translateY(-1px);box-shadow:0 10px 22px rgba(15,23,42,.08)}
+.module-button.active{border-color:#0f766e;background:#ecfeff;box-shadow:0 0 0 2px rgba(15,118,110,.10) inset}
+.module-button span{font-size:22px;line-height:1}
+.module-button strong{display:block;font-size:15px;line-height:1.2;white-space:nowrap}
+.module-button small{display:block;margin-top:2px;color:#64748b;font-size:11px;line-height:1.25}
+.module-section{display:none !important;}
+.module-section.active{display:block !important;}
+.stats-grid.module-section.active,.prep-dashboard.module-section.active,.entry-grid.module-section.active{display:grid !important;}
+.hero-workbench.module-section.active{display:grid !important;}
+.daily-report.module-section.active:empty{display:none !important;}
+.folder-library-panel.module-section.active,.smart-vocab-panel.module-section.active,.groups-panel.module-section.active,.library-panel.module-section.active{display:block !important;}
+
+@media (max-width: 920px){
+  .module-switcher{
+    display:flex;
+    overflow-x:auto;
+    gap:8px;
+    margin:0 -2px 14px;
+    padding:8px;
+    border-radius:18px;
+    scrollbar-width:none;
+  }
+  .module-switcher::-webkit-scrollbar{display:none}
+  .module-button{
+    flex:0 0 auto;
+    min-width:132px;
+    min-height:54px;
+    padding:9px 10px;
+    border-radius:16px;
+  }
+  .module-button span{font-size:18px}
+  .module-button strong{font-size:14px}
+  .module-button small{display:none}
+}
+@media (max-width: 520px){
+  .module-switcher{position:sticky;top:0;margin-bottom:10px;background:rgba(248,250,252,.97)}
+  .module-button{min-width:108px;gap:6px;min-height:48px}
+  .module-button strong{font-size:13px}
+}

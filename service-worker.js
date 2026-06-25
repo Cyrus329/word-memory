@@ -1,4 +1,4 @@
-const CACHE_NAME = "word-memory-folder-pwa-v20260625-wordlist6-10-v20-compact";
+const CACHE_NAME = "word-memory-folder-pwa-v20260625-folder-v23-module-switch";
 const APP_ASSETS = [
   "./",
   "./index.html",

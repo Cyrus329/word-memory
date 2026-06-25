@@ -26,7 +26,15 @@
     <div class="readonly-banner" id="readonlyBanner" hidden></div>
 
     <main class="workspace">
-      <section class="stats-grid" aria-label="记忆统计">
+      <nav class="module-switcher" aria-label="大模块切换">
+        <button class="module-button active" type="button" data-module-target="folder"><span>📁</span><strong>英语资料夹</strong><small>蓝色森林 / Word List / 四级 / 全方位</small></button>
+        <button class="module-button" type="button" data-module-target="study"><span>🧠</span><strong>记忆训练</strong><small>复习 / 新词 / 听写 / 拼写</small></button>
+        <button class="module-button" type="button" data-module-target="smart"><span>🔎</span><strong>构词归类</strong><small>词根 / 形近 / 同义</small></button>
+        <button class="module-button" type="button" data-module-target="progress"><span>📊</span><strong>学习进度</strong><small>Word List 与分组统计</small></button>
+        <button class="module-button" type="button" data-module-target="manage"><span>＋</span><strong>管理词库</strong><small>添加 / 筛选 / 总词库</small></button>
+      </nav>
+
+      <section class="stats-grid module-section" data-module-section="study" aria-label="记忆统计">
         <article class="metric">
           <span>词条总数</span>
           <strong id="totalCount">0</strong>
@@ -45,7 +53,7 @@
         </article>
       </section>
 
-      <section class="prep-dashboard" aria-label="专升本今日任务">
+      <section class="prep-dashboard module-section" data-module-section="study" aria-label="专升本今日任务">
         <article class="countdown-panel">
           <div>
             <p class="eyebrow">Exam</p>
@@ -79,9 +87,9 @@
         </article>
       </section>
 
-      <section class="daily-report" id="dailyReport" aria-label="今日战报"></section>
+      <section class="daily-report module-section" data-module-section="study" id="dailyReport" aria-label="今日战报"></section>
 
-      <section class="hero-workbench">
+      <section class="hero-workbench module-section" data-module-section="study">
         <div class="study-area">
           <div class="panel-heading">
             <div>
@@ -141,7 +149,7 @@
       </section>
 
 
-      <section class="folder-library-panel" id="folderLibraryPanel" aria-label="英语资料文件夹">
+      <section class="folder-library-panel module-section" data-module-section="folder" id="folderLibraryPanel" aria-label="英语资料文件夹">
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Folders</p>
@@ -155,7 +163,7 @@
         </div>
       </section>
 
-      <section class="smart-vocab-panel" id="smartVocabPanel" aria-label="智能归类与辨析">
+      <section class="smart-vocab-panel module-section" data-module-section="smart" id="smartVocabPanel" aria-label="智能归类与辨析">
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Smart</p>
@@ -172,7 +180,7 @@
       </section>
 
 
-      <section class="groups-panel">
+      <section class="groups-panel module-section" data-module-section="progress">
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Groups</p>
@@ -182,7 +190,7 @@
         <div class="group-grid" id="groupProgress"></div>
       </section>
 
-      <section class="entry-grid">
+      <section class="entry-grid module-section" data-module-section="manage">
         <form class="entry-form" id="wordForm">
           <div class="panel-heading">
             <div>
@@ -263,7 +271,7 @@
         </section>
       </section>
 
-      <section class="library-panel">
+      <section class="library-panel module-section" data-module-section="manage">
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Library</p>
@@ -356,5 +364,28 @@
   <script src="./app.js"></script>
   <script src="./folder-view.js"></script>
   <script src="./smart-vocab.js"></script>
+  <script>
+    (function(){
+      const buttons = Array.from(document.querySelectorAll('[data-module-target]'));
+      const sections = Array.from(document.querySelectorAll('[data-module-section]'));
+      if (!buttons.length || !sections.length) return;
+      const titleMap = {folder: '英语资料夹', study: '记忆训练', smart: '构词归类', progress: '学习进度', manage: '管理词库'};
+      function activate(name, keepHash){
+        const target = titleMap[name] ? name : 'folder';
+        buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.moduleTarget === target));
+        sections.forEach(sec => sec.classList.toggle('active', sec.dataset.moduleSection === target));
+        if (!keepHash) {
+          try { history.replaceState(null, '', '#' + target); } catch (e) {}
+        }
+        const main = document.querySelector('.workspace');
+        if (main) main.dataset.activeModule = target;
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      }
+      buttons.forEach(btn => btn.addEventListener('click', () => activate(btn.dataset.moduleTarget)));
+      const initial = (location.hash || '').replace('#','');
+      activate(titleMap[initial] ? initial : 'folder', true);
+      window.addEventListener('hashchange', () => activate((location.hash || '').replace('#',''), true));
+    })();
+  </script>
 </body>
 </html>
