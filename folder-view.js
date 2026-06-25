@@ -49,9 +49,9 @@
     const phrase = String(w.phrase || '').trim();
     const hasPhrase = Boolean(phrase || note);
     const tag = w.sub || w.tag || (w.folder === 'Word List' ? 'Word List' : w.folder);
-    return `<article class="folder-word-card folder-word-card-minimal folder-word-card-v19">
-      <div class="folder-word-head">
-        <div class="folder-word-titlebox">
+    return `<article class="folder-word-card folder-word-card-compact-v20">
+      <div class="folder-word-topline">
+        <div class="folder-word-main">
           <div class="folder-word-term">${esc(w.term)}</div>
           <div class="folder-word-chip">${esc(tag)}</div>
         </div>
@@ -60,11 +60,11 @@
           <button class="folder-pron-btn" data-pron-term="${esc(w.term)}" data-pron-accent="uk" type="button">英</button>
         </div>
       </div>
-      <div class="folder-word-table">
-        ${parsed.pos?`<div class="folder-word-row"><span>词性</span><p>${esc(parsed.pos)}</p></div>`:''}
-        <div class="folder-word-row"><span>释义</span><p>${esc(parsed.meaning)}</p></div>
-        ${hasPhrase?`<div class="folder-word-row folder-word-row-extra"><span>搭配</span><p>${phrase?esc(phrase):''}${phrase&&note?'；':''}${note?esc(note):''}</p></div>`:''}
+      <div class="folder-word-one-line">
+        ${parsed.pos?`<span class="folder-word-pos">${esc(parsed.pos)}</span>`:''}
+        <span class="folder-word-meaning-text">${esc(parsed.meaning)}</span>
       </div>
+      ${hasPhrase?`<div class="folder-word-phrase-line">${phrase?esc(phrase):''}${phrase&&note?'；':''}${note?esc(note):''}</div>`:''}
     </article>`;
   }
   function renderContent(){
@@ -77,7 +77,7 @@
       <div class="folder-search-row"><input id="folderSearchInput" value="${esc(query)}" placeholder="搜索单词 / 中文 / 搭配"><span>${words.length} 条</span></div>
       <div class="folder-subgrid">${f.children.map((s,i)=>`<button class="folder-sub-btn ${s.name===currentSub?'active':''}" data-folder-sub="${esc(s.name)}"><b>${esc(s.name)}</b><span>${s.count} 条</span></button>`).join('')}</div>
       <div class="folder-lite-home folder-lite-home-v18">
-        <div><strong>${esc(query ? '搜索结果' : selected.name)}</strong><p>默认只显示前 30 个，不卡；往下点“再显示 30 个”。</p></div>
+        <div><strong>${esc(query ? '搜索结果' : selected.name)}</strong><p>紧凑显示前 30 个；往下点“再显示 30 个”。</p></div>
         <span class="folder-count-pill">${visible.length}/${words.length}</span>
       </div>
       ${words.length ? `<div class="folder-word-grid folder-word-grid-lite">${visible.map((w,i)=>card(w,i)).join('')}</div>` : '<div class="folder-empty">没有匹配内容</div>'}
