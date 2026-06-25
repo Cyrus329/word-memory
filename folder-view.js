@@ -1,4 +1,3 @@
-
 (function(){
   const data = window.ENGLISH_FOLDER_LIBRARY || [];
   const sourceBox = document.querySelector('#folderSourceList');
@@ -7,13 +6,21 @@
   let currentFolder = data[0].name;
   let currentSub = data[0].children[0]?.name || '';
   let query = '';
-  let opened = false;
   let visibleLimit = 30;
   function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
   function folder(){return data.find(x=>x.name===currentFolder)||data[0];}
   function sub(){const f=folder();return f.children.find(x=>x.name===currentSub)||f.children[0];}
   function allWords(){return data.flatMap(f=>f.children.flatMap(s=>s.words.map(w=>({...w,folder:f.name,sub:s.name}))));}
-  function renderSources(){sourceBox.innerHTML=data.map(f=>`<button class="folder-source-btn ${f.name===currentFolder?'active':''}" data-folder-source="${esc(f.name)}"><span class="folder-icon">📁</span><span><strong>${esc(f.name)}</strong><span>${f.children.length} 组 · ${f.count} 条</span></span></button>`).join('');}
+  function cleanNote(note){
+    const n = String(note || '').trim();
+    if(!n) return '';
+    if(/^来源[:：]/.test(n)) return '';
+    if(n.includes('按 “构词法/前缀” 背')) return '';
+    return n;
+  }
+  function renderSources(){
+    sourceBox.innerHTML=data.map(f=>`<button class="folder-source-btn ${f.name===currentFolder?'active':''}" data-folder-source="${esc(f.name)}"><span class="folder-icon">📁</span><span><strong>${esc(f.name)}</strong><span>${f.children.length} 组 · ${f.count} 条</span></span></button>`).join('');
+  }
   function getWords(){
     const f=folder();
     if(!f) return [];
@@ -23,36 +30,77 @@
     if(query){const q=query.toLowerCase(); words=words.filter(w=>[w.term,w.meaning,w.phrase,w.note,w.tag,w.folder,w.sub].join(' ').toLowerCase().includes(q));}
     return words;
   }
+  function splitMeaning(text){
+    const raw = String(text || '').trim();
+    const posRe = /\b(n|v|adj|adv|prep|pron|conj|num|art|aux|modal)\.\s*/gi;
+    const found = [];
+    let match;
+    while((match = posRe.exec(raw))){
+      const value = match[0].trim();
+      if(!found.some(x => x.toLowerCase() === value.toLowerCase())) found.push(value);
+    }
+    let meaning = raw.replace(posRe, '').replace(/\s+/g,' ').trim();
+    meaning = meaning.replace(/^[:：;；,.，。\s]+/, '').trim();
+    return { pos: found.join(' / '), meaning: meaning || raw };
+  }
+  function card(w, idx){
+    const note = cleanNote(w.note);
+    const parsed = splitMeaning(w.meaning);
+    const phrase = String(w.phrase || '').trim();
+    const hasPhrase = Boolean(phrase || note);
+    const tag = w.sub || w.tag || (w.folder === 'Word List' ? 'Word List' : w.folder);
+    return `<article class="folder-word-card folder-word-card-minimal folder-word-card-v19">
+      <div class="folder-word-head">
+        <div class="folder-word-titlebox">
+          <div class="folder-word-term">${esc(w.term)}</div>
+          <div class="folder-word-chip">${esc(tag)}</div>
+        </div>
+        <div class="folder-pron-actions">
+          <button class="folder-pron-btn" data-pron-term="${esc(w.term)}" data-pron-accent="us" type="button">美</button>
+          <button class="folder-pron-btn" data-pron-term="${esc(w.term)}" data-pron-accent="uk" type="button">英</button>
+        </div>
+      </div>
+      <div class="folder-word-table">
+        ${parsed.pos?`<div class="folder-word-row"><span>词性</span><p>${esc(parsed.pos)}</p></div>`:''}
+        <div class="folder-word-row"><span>释义</span><p>${esc(parsed.meaning)}</p></div>
+        ${hasPhrase?`<div class="folder-word-row folder-word-row-extra"><span>搭配</span><p>${phrase?esc(phrase):''}${phrase&&note?'；':''}${note?esc(note):''}</p></div>`:''}
+      </div>
+    </article>`;
+  }
   function renderContent(){
     const f=folder(); if(!f)return;
     if(!currentSub || !f.children.some(s=>s.name===currentSub)) currentSub=f.children[0]?.name||'';
     const words=getWords();
-    const visible=opened ? words.slice(0, visibleLimit) : [];
+    const visible=words.slice(0, visibleLimit);
     const selected=sub();
     contentBox.innerHTML=`
-      <div class="folder-search-row"><input id="folderSearchInput" value="${esc(query)}" placeholder="搜索后只显示匹配结果"><span>${words.length} 条</span></div>
-      <div class="folder-subgrid">${f.children.map((s,i)=>`<button class="folder-sub-btn ${s.name===currentSub?'active':''}" data-folder-sub="${esc(s.name)}"><b>${esc(s.name)}</b><span>第 ${i+1} 组 · ${s.count} 条</span></button>`).join('')}</div>
-      <div class="folder-lite-home">
-        <strong>${esc(query ? '搜索结果' : selected.name)}</strong>
-        <p>${words.length} 条单词。为了手机不卡，默认不一次性展开；点下面按钮只看前 30 个。</p>
-        <button class="primary-button" data-folder-action="open-list" type="button">${opened ? '刷新当前列表' : '打开本组单词'}</button>
+      <div class="folder-search-row"><input id="folderSearchInput" value="${esc(query)}" placeholder="搜索单词 / 中文 / 搭配"><span>${words.length} 条</span></div>
+      <div class="folder-subgrid">${f.children.map((s,i)=>`<button class="folder-sub-btn ${s.name===currentSub?'active':''}" data-folder-sub="${esc(s.name)}"><b>${esc(s.name)}</b><span>${s.count} 条</span></button>`).join('')}</div>
+      <div class="folder-lite-home folder-lite-home-v18">
+        <div><strong>${esc(query ? '搜索结果' : selected.name)}</strong><p>默认只显示前 30 个，不卡；往下点“再显示 30 个”。</p></div>
+        <span class="folder-count-pill">${visible.length}/${words.length}</span>
       </div>
-      ${opened && words.length ? `<div class="folder-word-grid folder-word-grid-lite">${visible.map(w=>`<article class="folder-word-card"><div class="folder-word-term">${esc(w.term)}</div><div class="folder-word-meaning">${esc(w.meaning)}</div>${w.phrase?`<div class="folder-word-meta">短语：${esc(w.phrase)}</div>`:''}${w.note?`<div class="folder-word-meta">备注：${esc(w.note)}</div>`:''}<div class="folder-word-meta">${esc(w.folder)} / ${esc(w.sub)} · ${esc(w.tag||'')}</div></article>`).join('')}</div>`:''}
-      ${opened && words.length > visible.length ? `<div class="light-load-more"><button class="secondary-button" data-folder-action="more" type="button">再显示 30 个</button><p>已显示 ${visible.length} / ${words.length} 个。找具体单词建议直接搜索。</p></div>`:''}
-      ${opened && !words.length ? '<div class="folder-empty">没有匹配内容</div>' : ''}`;
+      ${words.length ? `<div class="folder-word-grid folder-word-grid-lite">${visible.map((w,i)=>card(w,i)).join('')}</div>` : '<div class="folder-empty">没有匹配内容</div>'}
+      ${words.length > visible.length ? `<div class="light-load-more"><button class="secondary-button" data-folder-action="more" type="button">再显示 30 个</button><p>已显示 ${visible.length} / ${words.length} 个。找具体单词建议直接搜索。</p></div>`:''}`;
   }
   function render(){renderSources();renderContent();}
   document.addEventListener('click',e=>{
+    const p=e.target.closest('[data-pron-term]');
+    if(p){
+      if (typeof window.speakTerm === 'function') {
+        window.speakTerm(p.dataset.pronTerm, { accent: p.dataset.pronAccent || 'us' });
+      }
+      return;
+    }
     const f=e.target.closest('[data-folder-source]');
-    if(f){currentFolder=f.dataset.folderSource;currentSub='';query='';opened=false;visibleLimit=30;render();return;}
+    if(f){currentFolder=f.dataset.folderSource;currentSub='';query='';visibleLimit=30;render();return;}
     const s=e.target.closest('[data-folder-sub]');
-    if(s){currentSub=s.dataset.folderSub;query='';opened=false;visibleLimit=30;renderContent();return;}
+    if(s){currentSub=s.dataset.folderSub;query='';visibleLimit=30;renderContent();return;}
     const a=e.target.closest('[data-folder-action]');
     if(a){
-      if(a.dataset.folderAction==='open-list'){opened=true;visibleLimit=30;renderContent();return;}
-      if(a.dataset.folderAction==='more'){opened=true;visibleLimit += 30;renderContent();return;}
+      if(a.dataset.folderAction==='more'){visibleLimit += 30;renderContent();return;}
     }
   });
-  document.addEventListener('input',e=>{if(e.target.id==='folderSearchInput'){query=e.target.value;opened=Boolean(query);visibleLimit=30;renderContent();}});
+  document.addEventListener('input',e=>{if(e.target.id==='folderSearchInput'){query=e.target.value;visibleLimit=30;renderContent();}});
   render();
 })();

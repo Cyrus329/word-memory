@@ -9,18 +9,20 @@ const REVIEW_STEPS = [
   { label: "6天", ms: 6 * 24 * 60 * 60 * 1000 },
   { label: "31天", ms: 31 * 24 * 60 * 60 * 1000 },
 ];
-const PROGRESS_MODES = ["card", "enToZh", "zhToEn", "phrase", "spell", "dictation", "forms"];
+const PROGRESS_MODES = ["card", "threeStep", "enToZh", "zhToEn", "choiceZhToEn", "phrase", "spell", "dictation", "forms"];
 const PROGRESS_MODE_LABELS = {
   card: "卡片",
+  threeStep: "三步背诵",
   enToZh: "英译中",
   zhToEn: "中译英",
+  choiceZhToEn: "中文选英文",
   phrase: "搭配填空",
   spell: "拼写",
   dictation: "听写",
   forms: "变形",
 };
 const MODE_PROGRESS_HINT = "各模式独立进度";
-const WORD_SOURCES = ["全方位", "四级", "蓝色森林"];
+const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
 const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
@@ -36,7 +38,7 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:word-list-fullway-prefix:v9";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-6-10-pron-features:v16";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -3929,6 +3931,9 @@ const ALL_BUILTIN_WORDS = [
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS) ? window.SUPPLEMENTAL_WORDS : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH2) ? window.SUPPLEMENTAL_WORDS_BATCH2 : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH3) ? window.SUPPLEMENTAL_WORDS_BATCH3 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH4) ? window.SUPPLEMENTAL_WORDS_BATCH4 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH5) ? window.SUPPLEMENTAL_WORDS_BATCH5 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH6) ? window.SUPPLEMENTAL_WORDS_BATCH6 : []),
 ];
 let shouldPersistBuiltinWords = false;
 
@@ -4035,6 +4040,8 @@ const state = {
     participle: "",
   },
   formResult: null,
+  revealStep: 0,
+  choiceResult: null,
   lastAutoSpokenId: null,
   query: "",
   filter: "all",
@@ -4361,11 +4368,21 @@ function speechSupported() {
   );
 }
 
-function speakTerm(term, options = {}) {
-  const text = normalizeText(term);
-  if (!text) {
-    return false;
-  }
+function cleanPronunciationText(term) {
+  const raw = normalizeText(term)
+    .replace(/（[^）]*）/g, " ")
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/[：:：].*$/g, " ")
+    .replace(/\b(sth|sb)\.?\b/gi, "")
+    .replace(/\+/g, " ")
+    .replace(/…|\.\.\./g, " ")
+    .replace(/[^a-zA-Z'\-\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return raw || normalizeText(term).replace(/[^a-zA-Z'\-\s]/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function useSpeechFallback(text, accent = "us", options = {}) {
   if (!speechSupported()) {
     if (!options.silent) {
       showToast("当前浏览器不支持自动读音");
@@ -4374,11 +4391,85 @@ function speakTerm(term, options = {}) {
   }
   window.speechSynthesis.cancel();
   const utterance = new window.SpeechSynthesisUtterance(text);
-  utterance.lang = "en-US";
+  utterance.lang = accent === "uk" ? "en-GB" : "en-US";
   utterance.rate = 0.82;
   utterance.pitch = 1;
+  const voices = window.speechSynthesis.getVoices?.() || [];
+  const preferred = voices.find((v) => v.lang === utterance.lang && /Google|Microsoft|Natural|Daniel|Samantha|Alex|Serena/i.test(v.name))
+    || voices.find((v) => v.lang === utterance.lang)
+    || voices.find((v) => /^en[-_]/i.test(v.lang));
+  if (preferred) {
+    utterance.voice = preferred;
+  }
   window.speechSynthesis.speak(utterance);
   return true;
+}
+
+function pronunciationAudioUrls(text, accent = "us") {
+  const q = encodeURIComponent(text.toLowerCase());
+  const type = accent === "uk" ? 1 : 2;
+  const dashed = text.toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-+|-+$/g, "");
+  const urls = [];
+  if (q) {
+    // 在线词典标准音频优先；失败后自动走浏览器英/美音兜底。
+    urls.push(`https://dict.youdao.com/dictvoice?type=${type}&audio=${q}`);
+  }
+  if (dashed && !dashed.includes("-")) {
+    urls.push(`https://ssl.gstatic.com/dictionary/static/sounds/oxford/${dashed}--_${accent === "uk" ? "gb" : "us"}_1.mp3`);
+  }
+  return urls;
+}
+
+function playAudioUrl(url) {
+  return new Promise((resolve, reject) => {
+    const audio = new Audio(url);
+    audio.preload = "auto";
+    audio.crossOrigin = "anonymous";
+    const cleanup = () => {
+      audio.oncanplaythrough = null;
+      audio.onerror = null;
+      audio.onended = null;
+    };
+    audio.oncanplaythrough = () => {
+      audio.play().then(() => {
+        cleanup();
+        resolve(true);
+      }).catch((err) => {
+        cleanup();
+        reject(err);
+      });
+    };
+    audio.onerror = () => {
+      cleanup();
+      reject(new Error("audio failed"));
+    };
+    audio.load();
+    window.setTimeout(() => {
+      if (audio.readyState < 2) {
+        cleanup();
+        reject(new Error("audio timeout"));
+      }
+    }, 2600);
+  });
+}
+
+async function speakTerm(term, options = {}) {
+  const text = cleanPronunciationText(term);
+  const accent = options.accent === "uk" ? "uk" : "us";
+  if (!text) {
+    if (!options.silent) showToast("这个词条没有可朗读的英文");
+    return false;
+  }
+  const urls = pronunciationAudioUrls(text, accent);
+  for (const url of urls) {
+    try {
+      await playAudioUrl(url);
+      return true;
+    } catch (err) {
+      // 继续尝试下一个音频源
+    }
+  }
+  return useSpeechFallback(text, accent, options);
 }
 
 function escapeHTML(value) {
@@ -4555,6 +4646,7 @@ function normalizeWord(word) {
     tag: word.tag || "",
     source: sources[0],
     sources,
+    mastery: normalizeText(word.mastery || "未学"),
     forms: {
       third: normalizeText(word.forms?.third || word.forms?.thirdPerson || word.thirdPerson || ""),
       past: normalizeText(word.forms?.past || word.forms?.pastTense || word.pastTense || ""),
@@ -5058,6 +5150,8 @@ function resetTypingState() {
   state.spellingResult = null;
   state.formDrafts = emptyVerbForms();
   state.formResult = null;
+  state.revealStep = 0;
+  state.choiceResult = null;
 }
 
 function statusOf(word, mode = state.practiceMode) {
@@ -5439,10 +5533,90 @@ function renderGroupProgress() {
   }).join("");
 }
 
+
+const MASTERY_LEVELS = ["未学", "认识", "熟悉", "掌握", "稳定"];
+
+function masteryIndex(level) {
+  const index = MASTERY_LEVELS.indexOf(normalizeText(level));
+  return index >= 0 ? index : 0;
+}
+
+function masteryClass(level) {
+  return `mastery-${masteryIndex(level)}`;
+}
+
+function setMastery(word, level) {
+  if (!MASTERY_LEVELS.includes(level)) {
+    return;
+  }
+  word.mastery = level;
+  if (level === "稳定") {
+    word.status = "mature";
+  }
+  word.updatedAt = new Date().toISOString();
+  saveWords();
+  render();
+  showToast(`已设为：${level}`);
+}
+
+function choiceOptionsFor(word) {
+  const seed = normalizeText(word.term).split("").reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  const candidates = state.words
+    .filter((item) => item.id !== word.id && normalizeText(item.term))
+    .map((item, index) => ({ item, score: Math.abs((index * 37 + seed) % 997) }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, 3)
+    .map((entry) => entry.item);
+  const options = [word, ...candidates].slice(0, 4);
+  return options
+    .map((item, index) => ({ item, sortKey: (seed + index * 113) % 389 }))
+    .sort((a, b) => a.sortKey - b.sortKey)
+    .map((entry) => entry.item);
+}
+
+function answerChoice(word, selectedTerm) {
+  const correct = normalizeSpelling(selectedTerm) === normalizeSpelling(word.term);
+  state.choiceResult = { selectedTerm, correct };
+  state.answerVisible = true;
+  if (!correct) {
+    word.important = true;
+  }
+  recordModeHistory(word, {
+    time: new Date().toISOString(),
+    result: correct ? "choice-correct" : "choice-wrong",
+    nextReviewAt: modeProgress(word).nextReviewAt || "",
+  }, "choiceZhToEn");
+  word.updatedAt = new Date().toISOString();
+  saveWords();
+  renderActiveCard();
+  showToast(correct ? "选对了" : "已加入重点词");
+}
+
 function practiceView(word) {
   const safeMeaning = word.meaning || "未填中文";
   const safeTerm = word.term || "未命名";
   const phrase = word.phrase || "";
+
+
+  if (state.practiceMode === "threeStep") {
+    return {
+      prompt: "三步背诵",
+      target: safeTerm,
+      hidden: "先看英文，再点开中文和例句",
+      answer: safeMeaning,
+      extra: phrase ? `例句 / 搭配：${phrase}` : (word.note ? `备注：${word.note}` : ""),
+    };
+  }
+
+  if (state.practiceMode === "choiceZhToEn") {
+    return {
+      prompt: "中文选英文",
+      target: safeMeaning,
+      hidden: "先选答案，再查看结果",
+      answer: safeTerm,
+      extra: phrase ? `搭配：${phrase}` : "",
+    };
+  }
 
   if (state.practiceMode === "forms") {
     return {
@@ -5583,6 +5757,52 @@ function renderSpellingBox(word) {
     </div>`;
 }
 
+
+function renderThreeStepBox(word, view) {
+  const step = Number(state.revealStep || 0);
+  const meaning = step >= 1 ? `<div class="three-step-reveal"><b>中文释义</b><p>${escapeHTML(view.answer)}</p></div>` : `<div class="answer-mask">第2步：中文已盖住</div>`;
+  const examples = step >= 2 ? `<div class="three-step-reveal"><b>例句 / 搭配 / 备注</b><p>${escapeHTML(view.extra || word.note || "暂无例句，后续可继续补")}</p></div>` : `<div class="answer-mask">第3步：例句和备注已盖住</div>`;
+  return `
+    <div class="three-step-box">
+      <div class="three-step-head"><span class="step-dot active">1</span><span class="step-dot ${step >= 1 ? "active" : ""}">2</span><span class="step-dot ${step >= 2 ? "active" : ""}">3</span></div>
+      ${meaning}
+      ${examples}
+      <div class="spell-actions">
+        <button class="primary-button" data-card-action="next-reveal" type="button">${step < 1 ? "显示中文" : (step < 2 ? "显示例句" : "已全部显示")}</button>
+        <button class="secondary-button" data-card-action="reset-reveal" type="button">重新盖住</button>
+      </div>
+    </div>`;
+}
+
+function renderChoiceBox(word) {
+  const options = choiceOptionsFor(word);
+  const result = state.choiceResult;
+  return `
+    <div class="choice-box">
+      <p class="choice-tip">根据中文释义选出正确英文。</p>
+      <div class="choice-grid">
+        ${options.map((option, index) => {
+          const selected = result && normalizeSpelling(result.selectedTerm) === normalizeSpelling(option.term);
+          const correct = normalizeSpelling(option.term) === normalizeSpelling(word.term);
+          const klass = result ? (correct ? "is-correct" : (selected ? "is-wrong" : "")) : "";
+          return `<button class="choice-option ${klass}" data-card-action="choice:${encodeURIComponent(option.term)}" type="button"><span>${String.fromCharCode(65 + index)}.</span>${escapeHTML(option.term)}</button>`;
+        }).join("")}
+      </div>
+      ${result ? `<div class="choice-result ${result.correct ? "is-correct" : "is-wrong"}">${result.correct ? "选对了" : `选错了，正确答案：${escapeHTML(word.term)}`}</div>` : ""}
+    </div>`;
+}
+
+function renderMasteryBox(word) {
+  const level = normalizeText(word.mastery || "未学");
+  return `
+    <div class="mastery-box ${masteryClass(level)}">
+      <div class="mastery-title"><span>掌握等级</span><b>${escapeHTML(level)}</b></div>
+      <div class="mastery-buttons">
+        ${MASTERY_LEVELS.map((item) => `<button class="mini-pill ${item === level ? "active" : ""}" data-card-action="set-mastery:${escapeHTML(item)}" type="button">${escapeHTML(item)}</button>`).join("")}
+      </div>
+    </div>`;
+}
+
 function renderActiveCard() {
   const word = activeWord();
   if (!word) {
@@ -5607,10 +5827,13 @@ function renderActiveCard() {
     ? (state.practiceMode === "forms" ? "<span>F</span><span>O</span><span>R</span><span>M</span>" : "<span>S</span><span>P</span><span>E</span><span>L</span><span>L</span>")
     : (letters.length ? letters.map((letter) => `<span>${escapeHTML(letter)}</span>`).join("") : "<span>W</span><span>O</span><span>R</span><span>D</span>");
   const view = practiceView(word);
-  const answer = state.answerVisible ? `<p class="word-meaning">${escapeHTML(view.answer)}</p>` : `<div class="answer-mask">${escapeHTML(view.hidden)}</div>`;
-  const extra = state.answerVisible && view.extra ? `<p class="word-phrase">${escapeHTML(view.extra)}</p>` : "";
-  const note = state.answerVisible && word.note ? `<p class="word-note">备注：${escapeHTML(word.note)}</p>` : "";
+  const choiceBox = state.practiceMode === "choiceZhToEn" ? renderChoiceBox(word) : "";
+  const threeStepBox = state.practiceMode === "threeStep" ? renderThreeStepBox(word, view) : "";
+  const answer = state.practiceMode === "threeStep" ? "" : (state.answerVisible ? `<p class="word-meaning">${escapeHTML(view.answer)}</p>` : `<div class="answer-mask">${escapeHTML(view.hidden)}</div>`);
+  const extra = state.practiceMode === "threeStep" ? "" : (state.answerVisible && view.extra ? `<p class="word-phrase">${escapeHTML(view.extra)}</p>` : "");
+  const note = state.practiceMode === "threeStep" ? "" : (state.answerVisible && word.note ? `<p class="word-note">备注：${escapeHTML(word.note)}</p>` : "");
   const important = word.important ? `<p class="important-line">重点词</p>` : "";
+  const masteryBox = renderMasteryBox(word);
   const spellingBox = state.practiceMode === "forms" ? renderVerbFormsBox(word) : renderSpellingBox(word);
 
   els.activeCard.innerHTML = `
@@ -5619,16 +5842,20 @@ function renderActiveCard() {
       <p class="quiz-prompt">${escapeHTML(view.prompt)}</p>
       <h3 class="${state.practiceMode === "card" || state.practiceMode === "enToZh" ? "word-term" : "quiz-target"}">${escapeHTML(view.target)}</h3>
       ${spellingBox}
+      ${choiceBox}
+      ${threeStepBox}
       ${answer}
       ${extra}
       ${note}
       ${important}
+      ${masteryBox}
       <p class="next-line">下次：${formatDateTime(progress.nextReviewAt)} · ${statusLabel(status)}</p>
     </div>
     <div class="card-bottom">
       <div class="stage-track">${REVIEW_STEPS.map((_, index) => `<span class="stage-dot${index <= progress.stage ? " active" : ""}"></span>`).join("")}</div>
       <div class="card-actions">
-        <button class="secondary-button audio-button" data-card-action="speak">读音</button>
+        <button class="secondary-button audio-button" data-card-action="speak">美音</button>
+        <button class="secondary-button audio-button" data-card-action="speak-uk">英音</button>
         <button class="secondary-button" data-card-action="show">${state.answerVisible ? "隐藏释义" : "显示释义"}</button>
         <button class="secondary-button" data-card-action="toggle-important">${word.important ? "取消重点" : "标重点"}</button>
         <button class="primary-button" data-card-action="remember">${progress.stage < 0 ? "记完" : "会了"}</button>
@@ -5639,7 +5866,7 @@ function renderActiveCard() {
 
   if (state.practiceMode === "dictation" && state.lastAutoSpokenId !== word.id) {
     state.lastAutoSpokenId = word.id;
-    window.setTimeout(() => speakTerm(word.term, { silent: true }), 120);
+    window.setTimeout(() => speakTerm(word.term, { silent: true, accent: "us" }), 120);
   }
 }
 
@@ -5861,7 +6088,36 @@ function handleCardAction(action) {
     return;
   }
   if (action === "speak") {
-    speakTerm(word.term);
+    speakTerm(word.term, { accent: "us" });
+    return;
+  }
+  if (action === "next-reveal") {
+    state.revealStep = Math.min(2, Number(state.revealStep || 0) + 1);
+    renderActiveCard();
+    return;
+  }
+  if (action === "reset-reveal") {
+    state.revealStep = 0;
+    state.answerVisible = false;
+    renderActiveCard();
+    return;
+  }
+  if (action.startsWith("set-mastery:")) {
+    if (!guardEditable()) {
+      return;
+    }
+    setMastery(word, action.slice("set-mastery:".length));
+    return;
+  }
+  if (action.startsWith("choice:")) {
+    if (!guardEditable()) {
+      return;
+    }
+    answerChoice(word, decodeURIComponent(action.slice("choice:".length)));
+    return;
+  }
+  if (action === "speak-uk") {
+    speakTerm(word.term, { accent: "uk" });
     return;
   }
   if (["check-spelling", "check-forms", "toggle-important", "remember", "fuzzy", "forgot"].includes(action) && !guardEditable()) {

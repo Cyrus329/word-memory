@@ -1,13 +1,17 @@
-const CACHE_NAME = "word-memory-folder-pwa-v20260618-fullway-1";
+const CACHE_NAME = "word-memory-folder-pwa-v20260625-wordlist6-10-v19-minimal-rows";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./supplemental-words.js",
   "./supplemental-words-batch2.js",
   "./supplemental-words-batch3.js",
+  "./supplemental-words-batch4.js",
+  "./supplemental-words-batch5.js",
+  "./supplemental-words-batch6.js",
   "./app.js",
   "./library-folder-data.js",
   "./folder-view.js",
+  "./smart-vocab.js",
   "./styles.css",
   "./supabase-setup.sql",
   "./manifest.webmanifest",

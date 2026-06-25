@@ -102,8 +102,10 @@
 
           <div class="practice-switch" aria-label="练习方式">
             <button class="practice-button active" data-practice-mode="card" type="button">卡片</button>
+            <button class="practice-button" data-practice-mode="threeStep" type="button">三步背诵</button>
             <button class="practice-button" data-practice-mode="enToZh" type="button">英译中</button>
             <button class="practice-button" data-practice-mode="zhToEn" type="button">中译英</button>
+            <button class="practice-button" data-practice-mode="choiceZhToEn" type="button">中文选英文</button>
             <button class="practice-button" data-practice-mode="phrase" type="button">搭配填空</button>
             <button class="practice-button" data-practice-mode="spell" type="button">拼写</button>
             <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
@@ -152,6 +154,23 @@
           <div class="folder-content" id="folderContent"></div>
         </div>
       </section>
+
+      <section class="smart-vocab-panel" id="smartVocabPanel" aria-label="智能归类与辨析">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Smart</p>
+            <h2>构词 / 形近 / 同义归类</h2>
+          </div>
+          <p class="folder-hint">先选类型，再点开看单词；不一次性铺开，手机不卡。</p>
+        </div>
+        <div class="smart-tabs">
+          <button class="smart-tab active" data-smart-tab="affix" type="button">前缀后缀词根</button>
+          <button class="smart-tab" data-smart-tab="similar" type="button">形近词对比</button>
+          <button class="smart-tab" data-smart-tab="synonym" type="button">同义词辨析</button>
+        </div>
+        <div id="smartVocabContent" class="smart-vocab-content"></div>
+      </section>
+
 
       <section class="groups-panel">
         <div class="panel-heading">
@@ -330,8 +349,12 @@
   <script src="./supplemental-words.js"></script>
   <script src="./supplemental-words-batch2.js"></script>
   <script src="./supplemental-words-batch3.js"></script>
+  <script src="./supplemental-words-batch4.js"></script>
+  <script src="./supplemental-words-batch5.js"></script>
+  <script src="./supplemental-words-batch6.js"></script>
   <script src="./library-folder-data.js"></script>
   <script src="./app.js"></script>
   <script src="./folder-view.js"></script>
+  <script src="./smart-vocab.js"></script>
 </body>
 </html>

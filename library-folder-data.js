@@ -1,11 +1,11 @@
 window.ENGLISH_FOLDER_LIBRARY = [
   {
     "name": "全方位",
-    "count": 156,
+    "count": 343,
     "children": [
       {
         "name": "全方位 1",
-        "count": 42,
+        "count": 102,
         "words": [
           {
             "id": "fullway-2026-prefix-001",
@@ -384,12 +384,552 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-001",
+            "term": "bus stop",
+            "meaning": "公交车站；stop 作名词时表示“车站/停靠点”。",
+            "phrase": "The nearest bus stop is two blocks away.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-002",
+            "term": "train station",
+            "meaning": "火车站；station 表示车站、站点。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-003",
+            "term": "show interest in",
+            "meaning": "对……感兴趣；interest 作名词。",
+            "phrase": "show interest in English",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-004",
+            "term": "be interested in",
+            "meaning": "对……感兴趣；注意 interested 常与 in 搭配。",
+            "phrase": "be interested in doing sth.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-005",
+            "term": "attract",
+            "meaning": "吸引；和 interest 的“引起关注”意思接近。",
+            "phrase": "The story attracted me.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-006",
+            "term": "It is a waste of time doing sth.",
+            "meaning": "做某事是浪费时间；waste 作名词。",
+            "phrase": "It is a waste of time playing all day.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-007",
+            "term": "sth. cost sb. money",
+            "meaning": "某物花某人多少钱；主语通常是物。",
+            "phrase": "This book cost me 10 dollars.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-008",
+            "term": "spend time/money on sth.",
+            "meaning": "在某事上花时间/钱；主语通常是人。",
+            "phrase": "I spent two days on the book.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-009",
+            "term": "spend time/money doing sth.",
+            "meaning": "花时间/钱做某事；spend 后可接 doing。",
+            "phrase": "I spent two days reading the book.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-010",
+            "term": "It takes sb. time to do sth.",
+            "meaning": "做某事花费某人多少时间；it 作形式主语。",
+            "phrase": "It took me two days to read the book.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-011",
+            "term": "washing machine",
+            "meaning": "洗衣机；machine 是“机器”。",
+            "phrase": "The washing machine doesn't work.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-012",
+            "term": "have a drink",
+            "meaning": "喝一杯；drink 作名词时表示饮料/酒。",
+            "phrase": "Let's have a drink.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-013",
+            "term": "empty the box",
+            "meaning": "把盒子清空；empty 作动词。",
+            "phrase": "Please empty the box.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-014",
+            "term": "slow down",
+            "meaning": "减速；slow 作动词短语。",
+            "phrase": "Don't slow down.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-015",
+            "term": "give sb. a hand",
+            "meaning": "帮某人一把；hand 作名词。",
+            "phrase": "Could you give me a hand?",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-016",
+            "term": "face to face",
+            "meaning": "面对面。",
+            "phrase": "talk face to face",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-017",
+            "term": "be faced with",
+            "meaning": "面对；面临。",
+            "phrase": "be faced with difficulties",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-018",
+            "term": "face up to",
+            "meaning": "勇敢面对。",
+            "phrase": "face up to the problem",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-019",
+            "term": "lose face",
+            "meaning": "丢脸；失面子。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-020",
+            "term": "climb",
+            "meaning": "爬；攀登。",
+            "phrase": "climb the mountain",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-021",
+            "term": "tomb",
+            "meaning": "坟墓；mb 中 b 通常不发音。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-022",
+            "term": "China Daily",
+            "meaning": "《中国日报》。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-023",
+            "term": "record",
+            "meaning": "记录；作名词可指纪录，作动词可指录音/记录。",
+            "phrase": "hold the world record / record the meeting",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-024",
+            "term": "race",
+            "meaning": "赛跑；比赛。",
+            "phrase": "the 100-meter race",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-025",
+            "term": "pace",
+            "meaning": "步速；节奏。",
+            "phrase": "a slow pace",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-026",
+            "term": "speed",
+            "meaning": "速度。",
+            "phrase": "a slow speed",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-027",
+            "term": "mask",
+            "meaning": "面具；掩饰。",
+            "phrase": "wear a mask / mask sadness",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-028",
+            "term": "sadness",
+            "meaning": "悲伤。",
+            "phrase": "mask his sadness",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-029",
+            "term": "smile",
+            "meaning": "微笑。",
+            "phrase": "with a smile",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-030",
+            "term": "block",
+            "meaning": "街区。",
+            "phrase": "two blocks away",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-031",
+            "term": "energy",
+            "meaning": "精力；能量。",
+            "phrase": "cost a lot of energy",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-032",
+            "term": "total",
+            "meaning": "总共的；总计。",
+            "phrase": "the total cost",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-033",
+            "term": "trip",
+            "meaning": "旅行。",
+            "phrase": "the cost of the trip",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-034",
+            "term": "flower",
+            "meaning": "花。",
+            "phrase": "water the flowers",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-035",
+            "term": "garden",
+            "meaning": "花园。",
+            "phrase": "in the garden",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-036",
+            "term": "iron",
+            "meaning": "铁；熨烫。",
+            "phrase": "be made of iron / iron shirts",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-037",
+            "term": "shirt",
+            "meaning": "衬衫。",
+            "phrase": "iron her shirts",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-038",
+            "term": "park",
+            "meaning": "公园；停车。",
+            "phrase": "park the car",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-039",
+            "term": "place",
+            "meaning": "地方；位置。",
+            "phrase": "find a safe place",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-040",
+            "term": "safe",
+            "meaning": "安全的。",
+            "phrase": "a safe place",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-041",
+            "term": "enter",
+            "meaning": "进入。",
+            "phrase": "enter the supermarket",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-042",
+            "term": "supermarket",
+            "meaning": "超市。",
+            "phrase": "enter the supermarket",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-043",
+            "term": "match",
+            "meaning": "搭配；匹配。",
+            "phrase": "The shoes don't match her dress.",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-044",
+            "term": "dress",
+            "meaning": "连衣裙；衣服。",
+            "phrase": "match her dress",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-045",
+            "term": "function",
+            "meaning": "功能。",
+            "phrase": "many functions",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-046",
+            "term": "smart phone",
+            "meaning": "智能手机。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-047",
+            "term": "smart watch",
+            "meaning": "智能手表。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-048",
+            "term": "bride",
+            "meaning": "新娘。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-049",
+            "term": "maid",
+            "meaning": "女仆；少女；在 bridesmaid 中指伴娘构词成分。",
+            "phrase": "",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-050",
+            "term": "type",
+            "meaning": "打字；类型。",
+            "phrase": "typewriter",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-051",
+            "term": "duty",
+            "meaning": "责任；义务；关税；值班。",
+            "phrase": "duty-free",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-052",
+            "term": "capital",
+            "meaning": "资本；首都；大写字母。",
+            "phrase": "state-owned capital",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-053",
+            "term": "medical equipment",
+            "meaning": "医疗设备。",
+            "phrase": "advanced medical equipment",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-054",
+            "term": "perfume",
+            "meaning": "香水。",
+            "phrase": "duty-free perfume",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-055",
+            "term": "play an important role in",
+            "meaning": "在……中起重要作用。",
+            "phrase": "play an important role in the economy",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-056",
+            "term": "economy",
+            "meaning": "经济。",
+            "phrase": "state-owned company plays an important role in the economy",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-057",
+            "term": "participate in",
+            "meaning": "参加；参与。",
+            "phrase": "participate in any war",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-058",
+            "term": "decade",
+            "meaning": "十年。",
+            "phrase": "for decades",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-059",
+            "term": "technology",
+            "meaning": "科技；技术。",
+            "phrase": "fast-developing technology",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-060",
+            "term": "launch",
+            "meaning": "发布；发射。",
+            "phrase": "launch a new product",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 1 / 单词课补全",
+            "source": "全方位"
           }
         ]
       },
       {
         "name": "全方位 2",
-        "count": 57,
+        "count": 125,
         "words": [
           {
             "id": "fullway-2026-prefix-043",
@@ -903,12 +1443,624 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "note": "来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 2 / 全方位单词课",
             "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-061",
+            "term": "-able",
+            "meaning": "常见形容词后缀，表示“可……的；有……性质的”。",
+            "phrase": "predictable / valuable",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-062",
+            "term": "humorous",
+            "meaning": "幽默的；由 humor 加 -ous 构成。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-063",
+            "term": "value",
+            "meaning": "价值；重视。",
+            "phrase": "value / valuable",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-064",
+            "term": "happiness",
+            "meaning": "快乐；幸福；happy 加 -ness 构成名词。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-065",
+            "term": "pay for",
+            "meaning": "支付；为……付款。",
+            "phrase": "pay for the rent",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-066",
+            "term": "pay off",
+            "meaning": "偿清；取得成功。",
+            "phrase": "pay off debts",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-067",
+            "term": "move in",
+            "meaning": "搬进去；入住。",
+            "phrase": "before moving in",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-068",
+            "term": "for rent",
+            "meaning": "出租。",
+            "phrase": "For Rent",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-069",
+            "term": "view",
+            "meaning": "看；观点；景色。",
+            "phrase": "preview = pre + view",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-070",
+            "term": "trust",
+            "meaning": "信任。",
+            "phrase": "mutual trust",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-071",
+            "term": "friendship",
+            "meaning": "友谊。",
+            "phrase": "a good friendship",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-072",
+            "term": "abroad",
+            "meaning": "在国外；到国外。",
+            "phrase": "work abroad",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-073",
+            "term": "excite",
+            "meaning": "使兴奋。",
+            "phrase": "The prospect excites her.",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-074",
+            "term": "project",
+            "meaning": "项目。",
+            "phrase": "The project is making progress.",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-075",
+            "term": "make progress",
+            "meaning": "取得进步。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-076",
+            "term": "wipe",
+            "meaning": "擦除；擦拭。",
+            "phrase": "wipe the sweat",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-077",
+            "term": "sweat",
+            "meaning": "汗水。",
+            "phrase": "No sweat, no sweet.",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-078",
+            "term": "No pain, no gain.",
+            "meaning": "不劳无获。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-079",
+            "term": "apartment",
+            "meaning": "公寓。",
+            "phrase": "move into the apartment",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-080",
+            "term": "department",
+            "meaning": "系；部门；百货商店。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-081",
+            "term": "product launch",
+            "meaning": "产品发布。",
+            "phrase": "due to the new product launch",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-082",
+            "term": "approaching hurricane",
+            "meaning": "逼近的飓风。",
+            "phrase": "the approaching hurricane",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-083",
+            "term": "political",
+            "meaning": "政治的。",
+            "phrase": "political experience",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-084",
+            "term": "recovery",
+            "meaning": "恢复。",
+            "phrase": "patient's recovery",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-085",
+            "term": "discovery",
+            "meaning": "发现。",
+            "phrase": "discover / discovery",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-086",
+            "term": "faulty",
+            "meaning": "有故障的。",
+            "phrase": "faulty phones / faulty engine",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-087",
+            "term": "decide to do sth.",
+            "meaning": "决定做某事。",
+            "phrase": "decide to recall",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-088",
+            "term": "rude behavior",
+            "meaning": "粗鲁行为。",
+            "phrase": "react to rude behavior",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-089",
+            "term": "be satisfied with",
+            "meaning": "对……感到满意。",
+            "phrase": "be satisfied with the product",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-090",
+            "term": "product",
+            "meaning": "产品。",
+            "phrase": "be satisfied with the product",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-091",
+            "term": "full refund",
+            "meaning": "全额退款。",
+            "phrase": "a full refund",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-092",
+            "term": "earthquake",
+            "meaning": "地震。",
+            "phrase": "rebuild after the earthquake",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-093",
+            "term": "marriage",
+            "meaning": "婚姻。",
+            "phrase": "rebuild their marriage",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-094",
+            "term": "argument",
+            "meaning": "争吵；争论。",
+            "phrase": "after the argument",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-095",
+            "term": "flight",
+            "meaning": "航班。",
+            "phrase": "cancel the flight",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-096",
+            "term": "church",
+            "meaning": "教堂。",
+            "phrase": "the old church",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-097",
+            "term": "immediately",
+            "meaning": "立刻。",
+            "phrase": "react immediately",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-098",
+            "term": "relative",
+            "meaning": "亲属。",
+            "phrase": "reunite with relatives",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-099",
+            "term": "holiday",
+            "meaning": "假期。",
+            "phrase": "summer holiday",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-100",
+            "term": "paper",
+            "meaning": "纸；论文。",
+            "phrase": "recycle paper",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-101",
+            "term": "plastic",
+            "meaning": "塑料。",
+            "phrase": "recycle plastic bottles",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-102",
+            "term": "protect the environment",
+            "meaning": "保护环境。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-103",
+            "term": "environment",
+            "meaning": "环境。",
+            "phrase": "protect the environment",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-104",
+            "term": "quit",
+            "meaning": "辞职；放弃。",
+            "phrase": "quit the job",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-105",
+            "term": "boss",
+            "meaning": "老板。",
+            "phrase": "his boss offered a higher salary",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-106",
+            "term": "salary",
+            "meaning": "薪水。",
+            "phrase": "a higher salary",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-107",
+            "term": "reflect on",
+            "meaning": "反思。",
+            "phrase": "reflect on what went wrong",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-108",
+            "term": "go wrong",
+            "meaning": "出问题。",
+            "phrase": "what went wrong",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-109",
+            "term": "electronic product",
+            "meaning": "电子产品。",
+            "phrase": "electronic products",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-110",
+            "term": "Asian country",
+            "meaning": "亚洲国家。",
+            "phrase": "Asian countries",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-111",
+            "term": "emergency",
+            "meaning": "紧急情况。",
+            "phrase": "emergency use",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-112",
+            "term": "honest",
+            "meaning": "诚实的。",
+            "phrase": "honest and hardworking",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-113",
+            "term": "hardworking",
+            "meaning": "努力工作的。",
+            "phrase": "honest and hardworking",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-114",
+            "term": "market",
+            "meaning": "市场。",
+            "phrase": "expand its market",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-115",
+            "term": "South America",
+            "meaning": "南美洲。",
+            "phrase": "",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-116",
+            "term": "athlete",
+            "meaning": "运动员。",
+            "phrase": "the athlete's performance",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-117",
+            "term": "previous record",
+            "meaning": "之前的记录。",
+            "phrase": "exceeded all previous records",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-118",
+            "term": "competition",
+            "meaning": "比赛；竞争。",
+            "phrase": "in the competition",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-119",
+            "term": "identity",
+            "meaning": "身份。",
+            "phrase": "ID = identity",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-120",
+            "term": "bacteria",
+            "meaning": "细菌。",
+            "phrase": "food exposed to bacteria",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-121",
+            "term": "cause",
+            "meaning": "导致；引起。",
+            "phrase": "cause it to go bad",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-122",
+            "term": "go bad",
+            "meaning": "变坏；变质。",
+            "phrase": "food goes bad",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-123",
+            "term": "password",
+            "meaning": "密码。",
+            "phrase": "expose your password",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-124",
+            "term": "stranger",
+            "meaning": "陌生人。",
+            "phrase": "strangers online",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-125",
+            "term": "vote",
+            "meaning": "投票。",
+            "phrase": "from voting",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-126",
+            "term": "policy",
+            "meaning": "政策。",
+            "phrase": "the new policy",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-127",
+            "term": "under 18",
+            "meaning": "18岁以下。",
+            "phrase": "people under 18",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-128",
+            "term": "exhale",
+            "meaning": "呼出。",
+            "phrase": "exhale = breathe out",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 2 / 单词课补全",
+            "source": "全方位"
           }
         ]
       },
       {
         "name": "全方位 3",
-        "count": 57,
+        "count": 116,
         "words": [
           {
             "id": "fullway-2026-prefix-100",
@@ -1422,6 +2574,537 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 3 / 全方位单词课",
             "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-129",
+            "term": "import sth. from sp.",
+            "meaning": "从某地进口某物。",
+            "phrase": "import oil from the Middle East",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-130",
+            "term": "export sth. to sp.",
+            "meaning": "把某物出口到某地。",
+            "phrase": "export products to Asian countries",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-131",
+            "term": "Middle East",
+            "meaning": "中东。",
+            "phrase": "",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-132",
+            "term": "oil",
+            "meaning": "石油；油。",
+            "phrase": "import oil",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-133",
+            "term": "customs officer",
+            "meaning": "海关官员。",
+            "phrase": "Customs officers inspected our luggage.",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-134",
+            "term": "luggage",
+            "meaning": "行李。",
+            "phrase": "inspect our luggage",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-135",
+            "term": "airport",
+            "meaning": "机场。",
+            "phrase": "at the airport",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-136",
+            "term": "service fee",
+            "meaning": "服务费。",
+            "phrase": "tax and service fee",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-137",
+            "term": "tax",
+            "meaning": "税；税收。",
+            "phrase": "tax and service fee",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-138",
+            "term": "vaccine",
+            "meaning": "疫苗。",
+            "phrase": "inject the vaccine",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-139",
+            "term": "education system",
+            "meaning": "教育系统。",
+            "phrase": "inject funds into the education system",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-140",
+            "term": "be involved in",
+            "meaning": "参加；参与；被卷入。",
+            "phrase": "be involved in outdoor activities",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-141",
+            "term": "outdoor activity",
+            "meaning": "户外活动。",
+            "phrase": "outdoor activities",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-142",
+            "term": "encourage sb. to do sth.",
+            "meaning": "鼓励某人做某事。",
+            "phrase": "inspire sb. to do sth. = encourage sb. to do sth.",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-143",
+            "term": "Romans",
+            "meaning": "罗马人。",
+            "phrase": "The Romans invaded Britain.",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-144",
+            "term": "Britain",
+            "meaning": "英国；不列颠。",
+            "phrase": "",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-145",
+            "term": "AD",
+            "meaning": "公元。",
+            "phrase": "43 AD",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-146",
+            "term": "BC",
+            "meaning": "公元前。",
+            "phrase": "",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-147",
+            "term": "computer system",
+            "meaning": "计算机系统。",
+            "phrase": "invaded my computer system",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-148",
+            "term": "public transport",
+            "meaning": "公共交通。",
+            "phrase": "invest in public transport",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-149",
+            "term": "heavily",
+            "meaning": "大量地；沉重地。",
+            "phrase": "invest heavily",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-150",
+            "term": "police",
+            "meaning": "警察。",
+            "phrase": "The police decided to investigate.",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-151",
+            "term": "further",
+            "meaning": "进一步；更远。",
+            "phrase": "investigate further",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-152",
+            "term": "farther",
+            "meaning": "更远；通常指距离更远。",
+            "phrase": "far / farther / further",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-153",
+            "term": "law",
+            "meaning": "法律。",
+            "phrase": "break the law",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-154",
+            "term": "cigarette",
+            "meaning": "香烟。",
+            "phrase": "taxes on cigarettes",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-155",
+            "term": "lab mouse",
+            "meaning": "实验鼠。",
+            "phrase": "lab mice",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-156",
+            "term": "test case",
+            "meaning": "测试用例；测试案例。",
+            "phrase": "200 test cases",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-157",
+            "term": "hacker",
+            "meaning": "黑客。",
+            "phrase": "Hackers invaded computer systems",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-158",
+            "term": "charity event",
+            "meaning": "慈善活动。",
+            "phrase": "organizing the charity event",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-159",
+            "term": "local culture",
+            "meaning": "当地文化。",
+            "phrase": "immerse yourself in local culture",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-160",
+            "term": "operate",
+            "meaning": "操作；运转。",
+            "phrase": "operate / cooperate",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-161",
+            "term": "operation",
+            "meaning": "操作；运转；手术。",
+            "phrase": "",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-162",
+            "term": "peacefully",
+            "meaning": "和平地。",
+            "phrase": "coexist peacefully",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-163",
+            "term": "help sb. do sth.",
+            "meaning": "帮助某人做某事。",
+            "phrase": "help me solve the problem",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-164",
+            "term": "help sb. with sth.",
+            "meaning": "在某事上帮助某人。",
+            "phrase": "",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-165",
+            "term": "with the help of sb.",
+            "meaning": "在某人的帮助下。",
+            "phrase": "",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-166",
+            "term": "bridge",
+            "meaning": "桥。",
+            "phrase": "The bridge connects the two cities.",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-167",
+            "term": "city",
+            "meaning": "城市。",
+            "phrase": "two cities",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-168",
+            "term": "member",
+            "meaning": "成员。",
+            "phrase": "five members",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-169",
+            "term": "musician",
+            "meaning": "音乐家。",
+            "phrase": "The musician composed a song.",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-170",
+            "term": "song",
+            "meaning": "歌曲。",
+            "phrase": "compose a song",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-171",
+            "term": "daughter",
+            "meaning": "女儿。",
+            "phrase": "for his daughter's birthday",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-172",
+            "term": "birthday",
+            "meaning": "生日。",
+            "phrase": "birthday song",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-173",
+            "term": "parent",
+            "meaning": "父母；家长。",
+            "phrase": "Parents should communicate...",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-174",
+            "term": "regularly",
+            "meaning": "定期地；频繁地。",
+            "phrase": "communicate regularly",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-175",
+            "term": "need",
+            "meaning": "需要；需求。",
+            "phrase": "understand their needs",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-176",
+            "term": "hobby",
+            "meaning": "爱好。",
+            "phrase": "collect stamps as a hobby",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-177",
+            "term": "author",
+            "meaning": "作者。",
+            "phrase": "two authors collaborated",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-178",
+            "term": "novel",
+            "meaning": "小说。",
+            "phrase": "a new novel",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-179",
+            "term": "human",
+            "meaning": "人类。",
+            "phrase": "Humans and nature",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-180",
+            "term": "nature",
+            "meaning": "自然。",
+            "phrase": "Humans and nature",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-181",
+            "term": "harmoniously",
+            "meaning": "和谐地。",
+            "phrase": "coexist harmoniously",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-182",
+            "term": "air pollution",
+            "meaning": "空气污染。",
+            "phrase": "combat air pollution",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-183",
+            "term": "thought",
+            "meaning": "想法；思想。",
+            "phrase": "communicate their thoughts",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-184",
+            "term": "openly",
+            "meaning": "公开地；坦率地。",
+            "phrase": "speak openly",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-185",
+            "term": "cooperate to do sth.",
+            "meaning": "合作做某事。",
+            "phrase": "cooperate to finish the project",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-186",
+            "term": "combine A with B",
+            "meaning": "把A和B结合起来。",
+            "phrase": "combine theory with practice",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
+          },
+          {
+            "id": "fullway-complete-extra-187",
+            "term": "communicate with sb.",
+            "meaning": "与某人交流。",
+            "phrase": "communicate with their children",
+            "note": "来源：全方位 3 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "全方位 3 / 单词课补全",
+            "source": "全方位"
           }
         ]
       }
@@ -1429,7 +3112,7 @@ window.ENGLISH_FOLDER_LIBRARY = [
   },
   {
     "name": "蓝色森林",
-    "count": 136,
+    "count": 314,
     "children": [
       {
         "name": "蓝色森林 1",
@@ -2666,12 +4349,1632 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "蓝色森林"
           }
         ]
+      },
+      {
+        "name": "蓝色森林 3",
+        "count": 51,
+        "words": [
+          {
+            "id": "lansen-white-20260624-001",
+            "term": "afternoon",
+            "meaning": "n. 下午",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-002",
+            "term": "husband",
+            "meaning": "n. 丈夫",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-003",
+            "term": "attic",
+            "meaning": "n. 阁楼；顶楼",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-004",
+            "term": "daughter",
+            "meaning": "n. 女儿；某地或某文化的产物",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-005",
+            "term": "voice",
+            "meaning": "n. 声音；嗓音；意见；v. 表达",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-006",
+            "term": "advise",
+            "meaning": "v. 建议；劝告；通知",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-007",
+            "term": "bamboo",
+            "meaning": "n. 竹子；竹材",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-008",
+            "term": "disable",
+            "meaning": "v. 使失去能力；使残废；使无效；禁用",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-009",
+            "term": "airport",
+            "meaning": "n. 机场；航空站",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-010",
+            "term": "breakdown",
+            "meaning": "n. 故障；崩溃；分类；明细",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-011",
+            "term": "behalf",
+            "meaning": "n. 代表；利益；方面",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-012",
+            "term": "countryside",
+            "meaning": "n. 乡村；农村地区",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-013",
+            "term": "definite",
+            "meaning": "adj. 明确的；确定的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-014",
+            "term": "classroom",
+            "meaning": "n. 教室；课堂",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-015",
+            "term": "allow",
+            "meaning": "v. 允许；准许；承认；留出",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-016",
+            "term": "basket",
+            "meaning": "n. 篮；篮筐",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-017",
+            "term": "person",
+            "meaning": "n. 人；个人",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-018",
+            "term": "miss",
+            "meaning": "v. 想念；错过；未击中；n. 小姐",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-019",
+            "term": "alone",
+            "meaning": "adj./adv. 独自的；单独地",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-020",
+            "term": "emit",
+            "meaning": "v. 发出；放射；排放",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-021",
+            "term": "fee",
+            "meaning": "n. 费用；报酬",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-022",
+            "term": "and",
+            "meaning": "conj. 和；并且；然后",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-023",
+            "term": "behind",
+            "meaning": "prep./adv. 在……后面；落后",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-024",
+            "term": "ink",
+            "meaning": "n. 墨水；油墨",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-025",
+            "term": "beer",
+            "meaning": "n. 啤酒",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-026",
+            "term": "among",
+            "meaning": "prep. 在……之中",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-027",
+            "term": "apple",
+            "meaning": "n. 苹果",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-028",
+            "term": "arrive",
+            "meaning": "v. 到达；抵达",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-029",
+            "term": "her",
+            "meaning": "pron. 她；她的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-030",
+            "term": "jump",
+            "meaning": "v./n. 跳；跳跃；猛增",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-031",
+            "term": "mail",
+            "meaning": "n. 邮件；邮政；v. 邮寄",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-032",
+            "term": "night",
+            "meaning": "n. 夜晚；夜间",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-033",
+            "term": "lavatory",
+            "meaning": "n. 厕所；盥洗室",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-034",
+            "term": "forty",
+            "meaning": "num. 四十",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-035",
+            "term": "music",
+            "meaning": "n. 音乐；乐曲",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-036",
+            "term": "beyond",
+            "meaning": "prep./adv. 超过；在……之外",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-037",
+            "term": "hundred",
+            "meaning": "num. 百；一百",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-038",
+            "term": "comment",
+            "meaning": "n./v. 评论；意见",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-039",
+            "term": "body",
+            "meaning": "n. 身体；主体；尸体；机构",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-040",
+            "term": "hunger",
+            "meaning": "n. 饥饿；渴望；v. 渴望",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-041",
+            "term": "middle",
+            "meaning": "n./adj. 中间；中部的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-042",
+            "term": "boy",
+            "meaning": "n. 男孩；小伙子",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-043",
+            "term": "anything",
+            "meaning": "pron. 任何事物；无论什么",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-044",
+            "term": "late",
+            "meaning": "adj. 晚的；迟的；已故的；adv. 晚；迟",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-045",
+            "term": "money",
+            "meaning": "n. 钱；货币",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-046",
+            "term": "morning",
+            "meaning": "n. 早晨；上午",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-047",
+            "term": "borrow",
+            "meaning": "v. 借入；借用",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-048",
+            "term": "parent",
+            "meaning": "n. 父母；母公司",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-049",
+            "term": "taxi",
+            "meaning": "n. 出租车；v. 乘出租车",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-050",
+            "term": "lesson",
+            "meaning": "n. 课；教训",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-white-20260624-051",
+            "term": "library",
+            "meaning": "n. 图书馆；资料库",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林"
+          }
+        ]
+      },
+      {
+        "name": "蓝色森林 4",
+        "count": 65,
+        "words": [
+          {
+            "id": "lansen-pdf-a-20260624-001",
+            "term": "audience",
+            "meaning": "n. 观众；听众",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-002",
+            "term": "information",
+            "meaning": "n. 信息；消息；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-003",
+            "term": "advice",
+            "meaning": "n. 建议；忠告；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-004",
+            "term": "suggestion",
+            "meaning": "n. 建议；可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-005",
+            "term": "progress",
+            "meaning": "n. 进步；进展；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-006",
+            "term": "wealth",
+            "meaning": "n. 财富；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-007",
+            "term": "courage",
+            "meaning": "n. 勇气；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-008",
+            "term": "success",
+            "meaning": "n. 成功；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-009",
+            "term": "succeed",
+            "meaning": "vi. 成功；继任",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-010",
+            "term": "successful",
+            "meaning": "adj. 成功的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-011",
+            "term": "failure",
+            "meaning": "n. 失败；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-012",
+            "term": "fail",
+            "meaning": "v. 失败；不及格",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-013",
+            "term": "fail to do sth.",
+            "meaning": "未能做成某事",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-014",
+            "term": "a number of",
+            "meaning": "许多；大量",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-015",
+            "term": "the number of",
+            "meaning": "……的数量",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-016",
+            "term": "many a",
+            "meaning": "许多（后接单数名词）",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-017",
+            "term": "more than one",
+            "meaning": "不止一个",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-018",
+            "term": "a large amount of",
+            "meaning": "许多；大量；修饰不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-019",
+            "term": "large amounts of",
+            "meaning": "许多；大量；修饰不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-020",
+            "term": "a large quantity of",
+            "meaning": "许多；大量",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-021",
+            "term": "large quantities of",
+            "meaning": "许多；大量",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-022",
+            "term": "mild",
+            "meaning": "adj. 温和的；文雅的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-023",
+            "term": "take part in",
+            "meaning": "参加活动",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-024",
+            "term": "participate in",
+            "meaning": "参加；参与",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-025",
+            "term": "join in",
+            "meaning": "参加活动",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-026",
+            "term": "join",
+            "meaning": "加入组织、团体或队伍",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-027",
+            "term": "late",
+            "meaning": "adj./adv. 晚；迟；已故的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-028",
+            "term": "later",
+            "meaning": "adj./adv. 较晚的；后来",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-029",
+            "term": "latter",
+            "meaning": "adj. 后者的；n. 后者",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-030",
+            "term": "latest",
+            "meaning": "adj. 最新的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-031",
+            "term": "lately",
+            "meaning": "adv. 最近；近来",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-032",
+            "term": "power cut",
+            "meaning": "停电；断电",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-033",
+            "term": "make progress",
+            "meaning": "取得进步",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-034",
+            "term": "equipment",
+            "meaning": "n. 设备；装备",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-035",
+            "term": "improve",
+            "meaning": "v. 改善；提高；增进",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-036",
+            "term": "improvement",
+            "meaning": "n. 增加；改进",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-037",
+            "term": "produce",
+            "meaning": "v. 生产；制造；产生",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-038",
+            "term": "production",
+            "meaning": "n. 生产；制作；产量",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-039",
+            "term": "product",
+            "meaning": "n. 产品",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-040",
+            "term": "metropolitan",
+            "meaning": "adj. 大都市的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-041",
+            "term": "the cost of living",
+            "meaning": "生活成本",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-042",
+            "term": "try to do",
+            "meaning": "尽力做；努力做；设法做某事",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-043",
+            "term": "try one's best to do",
+            "meaning": "竭尽全力做；尽最大努力做",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-044",
+            "term": "settle",
+            "meaning": "vi. 定居；vt. 解决",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-045",
+            "term": "settle down",
+            "meaning": "定居；安定下来",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-046",
+            "term": "settle the quarrel",
+            "meaning": "解决争端",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-047",
+            "term": "material",
+            "meaning": "n. 材料；资料；adj. 物质的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-048",
+            "term": "raw material(s)",
+            "meaning": "原材料",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-049",
+            "term": "matter",
+            "meaning": "n. 物质；内容；事情；麻烦；vi. 有关系",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-050",
+            "term": "It doesn't matter.",
+            "meaning": "没关系；不要紧",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-051",
+            "term": "substance",
+            "meaning": "n. 物质；实质；要旨",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-052",
+            "term": "element",
+            "meaning": "n. 元素；要素",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-053",
+            "term": "a shortage of",
+            "meaning": "短缺；不足",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-054",
+            "term": "lack of",
+            "meaning": "缺乏；缺少",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-055",
+            "term": "affect",
+            "meaning": "vt. 影响；vi. 倾向；喜欢；n. 情感",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-056",
+            "term": "affection",
+            "meaning": "n. 情感；喜爱",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-057",
+            "term": "effect",
+            "meaning": "n. 影响；效果；作用",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-058",
+            "term": "effective",
+            "meaning": "adj. 有效的；生效的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-059",
+            "term": "come into effect",
+            "meaning": "生效；开始实施",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-060",
+            "term": "bring into effect",
+            "meaning": "实施；使生效",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-061",
+            "term": "take effect",
+            "meaning": "生效；起作用",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-062",
+            "term": "have an effect on",
+            "meaning": "对……有影响",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-063",
+            "term": "side effect",
+            "meaning": "副作用",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-064",
+            "term": "introduce",
+            "meaning": "v. 介绍；推出；引进",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-a-20260624-065",
+            "term": "fitness",
+            "meaning": "n. 健康；适当",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 4 / 第一章词汇短语",
+            "source": "蓝色森林"
+          }
+        ]
+      },
+      {
+        "name": "蓝色森林 5",
+        "count": 62,
+        "words": [
+          {
+            "id": "lansen-pdf-b-20260624-001",
+            "term": "condition",
+            "meaning": "n. 条件；状况；健康状况；状态",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-002",
+            "term": "living condition",
+            "meaning": "生活条件",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-003",
+            "term": "physical condition",
+            "meaning": "身体状况",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-004",
+            "term": "in good condition",
+            "meaning": "状态良好",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-005",
+            "term": "cut down",
+            "meaning": "砍倒；削减",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-006",
+            "term": "for the sake of",
+            "meaning": "为了……的利益",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-007",
+            "term": "no longer",
+            "meaning": "不再",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-008",
+            "term": "taboo",
+            "meaning": "n. 禁忌；adj. 禁忌的；v. 禁忌",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-009",
+            "term": "human well-being",
+            "meaning": "人类福祉；民生安康",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-010",
+            "term": "state",
+            "meaning": "n. 情况；州；v. 陈述；声明；adj. 国家的；州的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-011",
+            "term": "overall",
+            "meaning": "adj. 总体的；全面的；adv. 大体上",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-012",
+            "term": "private",
+            "meaning": "adj. 私人的；私有的；n. 二等兵",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-013",
+            "term": "polite",
+            "meaning": "adj. 有礼貌的；客气的；上流的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-014",
+            "term": "impolite",
+            "meaning": "adj. 不礼貌的；失礼的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-015",
+            "term": "personal",
+            "meaning": "adj. 个人的；亲自的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-016",
+            "term": "individual",
+            "meaning": "adj. 单独的；个人的；n. 个人",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-017",
+            "term": "support",
+            "meaning": "n./v. 支持",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-018",
+            "term": "like doing sth.",
+            "meaning": "喜欢做某事",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-019",
+            "term": "likely",
+            "meaning": "adj. 可能的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-020",
+            "term": "be likely to do sth.",
+            "meaning": "可能做某事",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-021",
+            "term": "be unlikely to do sth.",
+            "meaning": "不太可能做某事",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-022",
+            "term": "luggage",
+            "meaning": "n. 行李",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-023",
+            "term": "receive from",
+            "meaning": "从……收到（物品、信件、钱款）",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-024",
+            "term": "hear from",
+            "meaning": "收到……的来信/消息",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-025",
+            "term": "hear of",
+            "meaning": "听说",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-026",
+            "term": "confidence",
+            "meaning": "n. 自信；信心；不可数名词",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-027",
+            "term": "safeguard",
+            "meaning": "n. 防护/安全设施；vt. 保护；保卫",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-028",
+            "term": "interest",
+            "meaning": "n. 兴趣；利息；利益；v. 使感兴趣",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-029",
+            "term": "interested",
+            "meaning": "adj. 感兴趣的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-030",
+            "term": "interesting",
+            "meaning": "adj. 令人有趣的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-031",
+            "term": "be interested in (doing) sth.",
+            "meaning": "对……感兴趣",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-032",
+            "term": "collect",
+            "meaning": "v. 收集；采集；征收",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-033",
+            "term": "collective",
+            "meaning": "adj. 集体的；共同的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-034",
+            "term": "relate to",
+            "meaning": "与……相关；涉及",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-035",
+            "term": "concern",
+            "meaning": "v. 涉及；关乎",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-036",
+            "term": "concerning",
+            "meaning": "prep. 关于；有关",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-037",
+            "term": "be concerned about",
+            "meaning": "担心；关心",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-038",
+            "term": "be concerned with",
+            "meaning": "与……有关",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-039",
+            "term": "as far as ... be concerned",
+            "meaning": "就……而言",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-040",
+            "term": "belong to/with",
+            "meaning": "属于",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-041",
+            "term": "resident",
+            "meaning": "n. 居民；adj. 定居的；常驻的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-042",
+            "term": "resource",
+            "meaning": "n. 资源",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-043",
+            "term": "natural resources",
+            "meaning": "自然资源",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-044",
+            "term": "tolerance",
+            "meaning": "n. 宽容；容忍",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-045",
+            "term": "tolerant",
+            "meaning": "adj. 容忍的；宽容的；忍耐的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-046",
+            "term": "mutual",
+            "meaning": "adj. 相互的；彼此的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-047",
+            "term": "ordinary",
+            "meaning": "adj. 普通的；平常的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-048",
+            "term": "play a role in doing",
+            "meaning": "在……中扮演角色",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-049",
+            "term": "play an important role in doing",
+            "meaning": "在……中扮演重要角色",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-050",
+            "term": "education",
+            "meaning": "n. 教育",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-051",
+            "term": "ability",
+            "meaning": "n. 能力；本领",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-052",
+            "term": "have the ability to do sth.",
+            "meaning": "有做某事的能力",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-053",
+            "term": "able",
+            "meaning": "adj. 能够的；有能力的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-054",
+            "term": "be able to do",
+            "meaning": "能够做某事",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-055",
+            "term": "root",
+            "meaning": "n. 根；根源；根基；v. 生根；根除",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-056",
+            "term": "nation",
+            "meaning": "n. 国家；民族",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-057",
+            "term": "national",
+            "meaning": "adj. 国家的；国民的；民族的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-058",
+            "term": "nationality",
+            "meaning": "n. 国籍",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-059",
+            "term": "international",
+            "meaning": "adj. 国际的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-060",
+            "term": "preserve",
+            "meaning": "v. 保存；保护；n. 禁猎区；保护区",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-061",
+            "term": "preservation",
+            "meaning": "n. 保护；保存",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "lansen-pdf-b-20260624-062",
+            "term": "preservative",
+            "meaning": "n. 防腐剂",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Word List",
-    "count": 259,
+    "count": 511,
     "children": [
       {
         "name": "Word List 1",
@@ -5033,12 +8336,2310 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "Word List"
           }
         ]
+      },
+      {
+        "name": "Word List 6",
+        "count": 54,
+        "words": [
+          {
+            "id": "word-list-6-001",
+            "term": "doubt",
+            "meaning": "v. 不能肯定；怀疑；n. 不确定；疑惑；怀疑",
+            "phrase": "There is no doubt that... 毫无疑问；out of question 毫无疑问；out of the question 不可能，不允许",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-002",
+            "term": "doubtful",
+            "meaning": "adj. 怀疑的；不确定的",
+            "phrase": "be doubtful about 对……感到怀疑",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-003",
+            "term": "affair",
+            "meaning": "n. 公共事务；政治事务；事情；事件",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-004",
+            "term": "event",
+            "meaning": "n. 事情；事件",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-005",
+            "term": "issue",
+            "meaning": "n. 问题；议题；争论点",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-006",
+            "term": "distribute",
+            "meaning": "v. 提供；分配；分发",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-007",
+            "term": "dispute",
+            "meaning": "v./n. 争论；辩论",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-008",
+            "term": "problem",
+            "meaning": "n. 问题；难题",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-009",
+            "term": "question",
+            "meaning": "n. 问题；疑问；怀疑；v. 提问；怀疑",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-010",
+            "term": "answer",
+            "meaning": "n. 回答；回复；应答；v. 回答；答复",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-011",
+            "term": "trouble",
+            "meaning": "n. 困难；难题；麻烦；烦恼；v. 使烦恼",
+            "phrase": "in trouble 处于困境中",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-012",
+            "term": "troublesome",
+            "meaning": "adj. 困难的；麻烦的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-013",
+            "term": "suspect",
+            "meaning": "v. 怀疑；察觉；推测；猜想；n. 犯罪嫌疑人",
+            "phrase": "suspect sb. of doing sth. 怀疑某人做某事",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-014",
+            "term": "suspicion",
+            "meaning": "n. 怀疑；嫌疑；感觉",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-015",
+            "term": "suspicious",
+            "meaning": "adj. 感觉可疑的；怀疑的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-016",
+            "term": "extreme",
+            "meaning": "adj. 极度的；极其的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-017",
+            "term": "extremely",
+            "meaning": "adv. 非常；极其",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-018",
+            "term": "important",
+            "meaning": "adj. 重要的；有重大影响的",
+            "phrase": "play an important part/part in 在……中起重要作用",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-019",
+            "term": "importance",
+            "meaning": "n. 重要性",
+            "phrase": "attach importance to 重视",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-020",
+            "term": "essential",
+            "meaning": "adj. 必不可少的；基本的；n. 必需品；本质；要素",
+            "phrase": "It is essential that...(should) do sth.",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-021",
+            "term": "imperative",
+            "meaning": "adj. 紧急的；极其重要的；必要的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-022",
+            "term": "vital",
+            "meaning": "adj. 必不可少的；极其重要的；必要的",
+            "phrase": "be vital to 对……极为重要",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-023",
+            "term": "necessary",
+            "meaning": "adj. 必要的；必需的",
+            "phrase": "necessary 后接 that 从句常用虚拟语气",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-024",
+            "term": "necessity",
+            "meaning": "n. 必要；必需品；必然性",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-025",
+            "term": "unnecessary",
+            "meaning": "adj. 不必要的；多余的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-026",
+            "term": "difficult",
+            "meaning": "adj. 困难的；艰难的",
+            "phrase": "have difficulty (in) doing sth. 做某事有困难",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-027",
+            "term": "difficulty",
+            "meaning": "n. 困难；困境；难题",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-028",
+            "term": "easy",
+            "meaning": "adj. 容易的；轻松地",
+            "phrase": "take it easy 放松",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-029",
+            "term": "uneasy",
+            "meaning": "adj. 心神不安的；不安地",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-030",
+            "term": "easily",
+            "meaning": "adv. 容易地；轻松地",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-031",
+            "term": "disease",
+            "meaning": "n. 病；疾病；弊端",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-032",
+            "term": "simple",
+            "meaning": "adj. 简明的；简易的；简单的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-033",
+            "term": "simply",
+            "meaning": "adv. 直接地；简单地；仅仅",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-034",
+            "term": "complex",
+            "meaning": "adj. 复杂的；复合的；n. 综合大楼；建筑群；复合体",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-035",
+            "term": "complexity",
+            "meaning": "n. 复杂性",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-036",
+            "term": "differ",
+            "meaning": "v. 不同；相异",
+            "phrase": "differ from 不同于；differ in 在……方面有差异",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-037",
+            "term": "different",
+            "meaning": "adj. 不同的",
+            "phrase": "be different from 与……不同",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-038",
+            "term": "difference",
+            "meaning": "n. 差异；不同之处；分歧",
+            "phrase": "make a difference 有影响；有关系",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-039",
+            "term": "same",
+            "meaning": "adj. 相同的；同一的；adv. 同样",
+            "phrase": "at the same time 同时；the same as 与……一样",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-040",
+            "term": "party",
+            "meaning": "n. 政党；党派；聚会",
+            "phrase": "Communist Party of China 中国共产党；the Red Army 红军",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-041",
+            "term": "join",
+            "meaning": "v. 加入；参加；连接",
+            "phrase": "join in 参加；join the party 入党；join the army 参军",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-042",
+            "term": "attend",
+            "meaning": "v. 出席；参加；处理；照料",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-043",
+            "term": "attendant",
+            "meaning": "n. 服务人员；助理；adj. 伴随的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-044",
+            "term": "attendance",
+            "meaning": "n. 出席人数；出席；出勤",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-045",
+            "term": "participate",
+            "meaning": "v. 参与；参加",
+            "phrase": "participate in 参加",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-046",
+            "term": "participant",
+            "meaning": "n. 参与者；参加者",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-047",
+            "term": "participation",
+            "meaning": "n. 参加；参与",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-048",
+            "term": "invite",
+            "meaning": "v. 邀请；征求",
+            "phrase": "invite sb. to do sth. 邀请某人做某事",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-049",
+            "term": "invitation",
+            "meaning": "n. 邀请；请柬",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-050",
+            "term": "present",
+            "meaning": "adj. 在场的；出席的；现在的；n. 礼物；v. 赠送；展示",
+            "phrase": "at present 当前；be present at 出席",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-051",
+            "term": "presence",
+            "meaning": "n. 出席；存在",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-052",
+            "term": "absent",
+            "meaning": "adj. 不在的；缺席的；心不在焉的",
+            "phrase": "be absent from 缺席",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-053",
+            "term": "absence",
+            "meaning": "n. 缺乏；缺席；不在",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-6-054",
+            "term": "absent-minded",
+            "meaning": "adj. 心不在焉的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 7",
+        "count": 54,
+        "words": [
+          {
+            "id": "word-list-7-001",
+            "term": "person",
+            "meaning": "n. 人",
+            "phrase": "in person 亲自",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-002",
+            "term": "personal",
+            "meaning": "adj. 个人的；私人的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-003",
+            "term": "personnel",
+            "meaning": "n. 员工；人事部门",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-004",
+            "term": "hero",
+            "meaning": "n. 英雄；豪杰；男主人公",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-005",
+            "term": "heroic",
+            "meaning": "adj. 英雄的；英勇的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-006",
+            "term": "manly",
+            "meaning": "adj. 有男子汉气概的；强壮的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-007",
+            "term": "manual",
+            "meaning": "adj. 手工的；用手的；手册的；n. 手册",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-008",
+            "term": "mankind",
+            "meaning": "n. 人类；男人",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-009",
+            "term": "human",
+            "meaning": "n. 人；人类；adj. 人的；有人情味的",
+            "phrase": "human being 人类；human nature 人性；human resources 人力资源",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-010",
+            "term": "woman",
+            "meaning": "n. 妇女；女子",
+            "phrase": "woman doctor 女医生；women doctors 女医生们",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-011",
+            "term": "man",
+            "meaning": "n. 男人；人类",
+            "phrase": "man doctor 男医生；men doctors 男医生们",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-012",
+            "term": "gender",
+            "meaning": "n. 性；性别",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-013",
+            "term": "sex",
+            "meaning": "n. 性；性别",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-014",
+            "term": "male",
+            "meaning": "adj. 男性的；雄性的；n. 男性",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-015",
+            "term": "female",
+            "meaning": "adj. 女性的；雌性的；n. 女性",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-016",
+            "term": "gentle",
+            "meaning": "adj. 温和的；和蔼可亲的；温柔的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-017",
+            "term": "gently",
+            "meaning": "adv. 温柔地；轻轻地",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-018",
+            "term": "gentleman",
+            "meaning": "n. 绅士；有教养的人",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-019",
+            "term": "polite",
+            "meaning": "adj. 有礼貌的；客气的",
+            "phrase": "be polite to 对……有礼貌",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-020",
+            "term": "friendly",
+            "meaning": "adj. 友好的；亲切的；有利的",
+            "phrase": "be friendly to 对……友善",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-021",
+            "term": "rude",
+            "meaning": "adj. 无礼的；粗鲁的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-022",
+            "term": "wait",
+            "meaning": "v. 等候；等待；推迟；n. 等待；等候",
+            "phrase": "can’t wait to do 迫不及待做某事",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-023",
+            "term": "waiter",
+            "meaning": "n. 男侍者；服务员",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-024",
+            "term": "waitress",
+            "meaning": "n. 女侍者；女服务员",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-025",
+            "term": "sleep",
+            "meaning": "n. 睡眠；v. 睡觉",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-026",
+            "term": "sleepy",
+            "meaning": "adj. 瞌睡的；困倦的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-027",
+            "term": "yawn",
+            "meaning": "v./n. 打哈欠",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-028",
+            "term": "asleep",
+            "meaning": "adj. 睡着的；睡熟的",
+            "phrase": "fall asleep 入睡；睡着了",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-029",
+            "term": "wake",
+            "meaning": "v. 醒；醒来；唤醒",
+            "phrase": "wake up 醒来；叫醒",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-030",
+            "term": "awake",
+            "meaning": "v. 醒；睡醒；唤醒；adj. 醒着的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-031",
+            "term": "health",
+            "meaning": "n. 健康；保健；卫生",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-032",
+            "term": "healthy",
+            "meaning": "adj. 健康的；良好的",
+            "phrase": "keep healthy 保持健康；healthy diet 健康饮食",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-033",
+            "term": "diet",
+            "meaning": "n. 饮食；日常食物；v. 节食",
+            "phrase": "balanced diet 均衡饮食；on a diet 在节食",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-034",
+            "term": "breath",
+            "meaning": "n. 气息；呼吸",
+            "phrase": "out of breath 喘不过气来",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-035",
+            "term": "breathe",
+            "meaning": "v. 呼吸；生存；活着",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-036",
+            "term": "smoke",
+            "meaning": "n. 烟；大城市；v. 冒烟；抽烟",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-037",
+            "term": "tobacco",
+            "meaning": "n. 烟草制品；烟草",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-038",
+            "term": "fog",
+            "meaning": "n. 雾；烟雾；尘雾",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-039",
+            "term": "foggy",
+            "meaning": "adj. 有雾的；模糊的；朦胧的",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-040",
+            "term": "teach",
+            "meaning": "v. 教；教课；讲授",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-041",
+            "term": "teacher",
+            "meaning": "n. 教师",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-042",
+            "term": "teach oneself",
+            "meaning": "v. 自学",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-043",
+            "term": "tutor",
+            "meaning": "n. 家庭教师；私人教师；导师",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-044",
+            "term": "study",
+            "meaning": "v. 学习；研究；调查；n. 学习；研究",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-045",
+            "term": "learn",
+            "meaning": "v. 学习；得知；获悉；熟记",
+            "phrase": "learn about 了解；learn to do sth. 学会做；学习做",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-046",
+            "term": "paint",
+            "meaning": "n. 油漆；涂料；v. 油漆；涂饰；描绘",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-047",
+            "term": "painting",
+            "meaning": "n. 绘画；绘画艺术",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-048",
+            "term": "draw",
+            "meaning": "v. 画；吸引；抽奖；平局",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-049",
+            "term": "picture",
+            "meaning": "n. 画；图画；照片",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-050",
+            "term": "portrait",
+            "meaning": "n. 肖像；画像；描写",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-051",
+            "term": "copy",
+            "meaning": "n. 复印品；副本；v. 复制；复印",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-052",
+            "term": "photograph",
+            "meaning": "n. 照片；相片；v. 给……拍照",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-053",
+            "term": "photocopy",
+            "meaning": "n. 照相复制品；复印件；v. 复印",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-7-054",
+            "term": "handwriting",
+            "meaning": "n. 书写；笔迹",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 8",
+        "count": 54,
+        "words": [
+          {
+            "id": "word-list-8-001",
+            "term": "mean",
+            "meaning": "v. 意思是；表示……的意思；adj. 吝啬的；小气的",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-002",
+            "term": "meaning",
+            "meaning": "n. 意义；意思",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-003",
+            "term": "real",
+            "meaning": "adj. 真实的；实际的；adv. 真正地；确实地",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-004",
+            "term": "really",
+            "meaning": "adv. 真正地；的确；事实上",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-005",
+            "term": "realist",
+            "meaning": "n. 现实主义者；实际家",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-006",
+            "term": "realize",
+            "meaning": "v. 意识到；实现",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-007",
+            "term": "in reality",
+            "meaning": "事实上",
+            "phrase": "in reality = in fact = in truth = actually = as a matter of fact = in deed",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-008",
+            "term": "fact",
+            "meaning": "n. 事实；现实",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-009",
+            "term": "true",
+            "meaning": "adj. 真实的；正确的；adv. 真实地；准确地",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-010",
+            "term": "truth",
+            "meaning": "n. 事实；真相；真实性",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-011",
+            "term": "truly",
+            "meaning": "adv. 真实地；如实地；完全地",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-012",
+            "term": "in truth",
+            "meaning": "真正地；事实上",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-013",
+            "term": "to tell you the truth",
+            "meaning": "说实话",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-014",
+            "term": "correct",
+            "meaning": "adj. 正确的；v. 改正；纠正",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-015",
+            "term": "correction",
+            "meaning": "n. 改正；修正",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-016",
+            "term": "right",
+            "meaning": "adj. 正确的；恰当的；右边的；n. 权利；公正；正义；adv. 立刻；正好",
+            "phrase": "right now 立刻；现在",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-017",
+            "term": "left",
+            "meaning": "adj. 左面的；左边的；adv. 在左面；向左",
+            "phrase": "on the left 在左边；turn left 左转",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-018",
+            "term": "wrong",
+            "meaning": "adj. 错误的；不合适的；adv. 错误地",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-019",
+            "term": "indeed",
+            "meaning": "adv. 确实；实在；真正地；而且",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-020",
+            "term": "fortune",
+            "meaning": "n. 运气；命运；财富",
+            "phrase": "make a fortune 发财；发迹",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-021",
+            "term": "fortunate",
+            "meaning": "adj. 幸运的；侥幸的",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-022",
+            "term": "fortunately",
+            "meaning": "adv. 幸运地",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-023",
+            "term": "unfortunately",
+            "meaning": "adv. 不幸的是",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-024",
+            "term": "luck",
+            "meaning": "n. 运气；命运",
+            "phrase": "good luck 祝你好运",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-025",
+            "term": "lucky",
+            "meaning": "adj. 幸运的",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-026",
+            "term": "luckily",
+            "meaning": "adv. 幸运地；幸好",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-027",
+            "term": "sport",
+            "meaning": "n. 运动；体育运动",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-028",
+            "term": "ground",
+            "meaning": "n. 地；地面；场地；adj. 地面的",
+            "phrase": "on the ground 当场；在现场",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-029",
+            "term": "playground",
+            "meaning": "n. 运动场；操场",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-030",
+            "term": "game",
+            "meaning": "n. 体育比赛；运动会；游戏",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-031",
+            "term": "meeting",
+            "meaning": "n. 会议；集会；会面",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-032",
+            "term": "conference",
+            "meaning": "n. 会议；学术会议",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-033",
+            "term": "session",
+            "meaning": "n. 会议；课堂；一段时间",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-034",
+            "term": "marry",
+            "meaning": "v. 结婚；嫁；娶",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-035",
+            "term": "married",
+            "meaning": "adj. 已婚的",
+            "phrase": "get married 结婚",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-036",
+            "term": "marriage",
+            "meaning": "n. 结婚；婚姻",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-037",
+            "term": "divorce",
+            "meaning": "v./n. 离婚；分离；分开",
+            "phrase": "divorce from 与……离婚；从……脱离",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-038",
+            "term": "single",
+            "meaning": "adj. 单一的；单个的；未婚的",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-039",
+            "term": "college",
+            "meaning": "n. 学院；大学",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-040",
+            "term": "university",
+            "meaning": "n. 综合性大学；高等学府",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-041",
+            "term": "academy",
+            "meaning": "n. 专科院校；研究院；学会",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-042",
+            "term": "academic",
+            "meaning": "adj. 学术的；教学的",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-043",
+            "term": "pupil",
+            "meaning": "n. 学童；学生",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-044",
+            "term": "graduate",
+            "meaning": "n. 毕业生；本科生；v. 毕业",
+            "phrase": "graduate from 毕业于",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-045",
+            "term": "major",
+            "meaning": "adj. 主要的；重大的；n. 主修科目",
+            "phrase": "major in 专业；主修",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-046",
+            "term": "majority",
+            "meaning": "n. 大多数",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-047",
+            "term": "minor",
+            "meaning": "adj. 较小的；次要的；较轻微的；n. 未成年人；辅修课程",
+            "phrase": "minor in 辅修",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-048",
+            "term": "minority",
+            "meaning": "n. 少数；少数民族",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-049",
+            "term": "bachelor",
+            "meaning": "n. 单身汉；学士",
+            "phrase": "bachelor’s degree 学士学位",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-050",
+            "term": "master",
+            "meaning": "n. 主人；硕士；大师；adj. 熟练的；精通的",
+            "phrase": "master’s degree 硕士学位",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-051",
+            "term": "doctor",
+            "meaning": "n. 博士；医生；大夫",
+            "phrase": "doctor’s degree 博士学位",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-052",
+            "term": "pass",
+            "meaning": "v. 通过；走过；及格",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-053",
+            "term": "score",
+            "meaning": "n. 得分；刻痕；v. 得分；比分",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-8-054",
+            "term": "test",
+            "meaning": "n. 测验；考查；检查",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 9",
+        "count": 42,
+        "words": [
+          {
+            "id": "word-list-9-001",
+            "term": "exam",
+            "meaning": "n. 考试；试卷",
+            "phrase": "mid-term exam 期中考试；final exam 期末考试；make-up exam 补考；take an exam 参加考试",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-002",
+            "term": "examine",
+            "meaning": "v. 检查；调查",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-003",
+            "term": "examination",
+            "meaning": "n. 检查；考试",
+            "phrase": "college entrance examination 高考",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-004",
+            "term": "example",
+            "meaning": "n. 例子；榜样；典型",
+            "phrase": "for example 例如",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-005",
+            "term": "instance",
+            "meaning": "n. 例子；事例",
+            "phrase": "for instance 例如；in the first instance 第一；首先",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-006",
+            "term": "order",
+            "meaning": "n. 顺序；条理；规矩；v. 命令；指挥；订购",
+            "phrase": "in order to 为了；out of order 发生故障的；乱序的",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-007",
+            "term": "orderly",
+            "meaning": "adj. 有秩序的；整洁的；adv. 依次地；有规则地",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-008",
+            "term": "menu",
+            "meaning": "n. 菜单；菜谱",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-009",
+            "term": "restaurant",
+            "meaning": "n. 餐厅；饭馆",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-010",
+            "term": "cook",
+            "meaning": "v. 烹调；煮；烧；n. 厨师",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-011",
+            "term": "cafeteria",
+            "meaning": "n. 自助餐厅；自助食堂",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-012",
+            "term": "steak",
+            "meaning": "n. 牛排；肉排；鱼排；牛肉",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-013",
+            "term": "juice",
+            "meaning": "n. 果汁；菜汁；水果或蔬菜的汁液",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-014",
+            "term": "hotel",
+            "meaning": "n. 酒店；旅社",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-015",
+            "term": "inn",
+            "meaning": "n. 酒馆；客栈；旅馆",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-016",
+            "term": "address",
+            "meaning": "n. 地址；演讲；演说；v. 演说；解决",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-017",
+            "term": "market",
+            "meaning": "n. 集市；市场；v. 推销；促销",
+            "phrase": "local market 当地市场；market research 市场调查",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-018",
+            "term": "marketing",
+            "meaning": "n. 市场营销；促销；营销",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-019",
+            "term": "supermarket",
+            "meaning": "n. 超级市场",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-020",
+            "term": "hall",
+            "meaning": "n. 门厅；礼堂；大厅",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-021",
+            "term": "visit",
+            "meaning": "v./n. 参观；访问；游览",
+            "phrase": "pay/have a visit 参观；访问",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-022",
+            "term": "visitor",
+            "meaning": "n. 访问者；参观者",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-023",
+            "term": "provide",
+            "meaning": "v. 提供；供应；给予；规定",
+            "phrase": "provide sth. for sb. = provide sb. with sth.; provided/providing that 假如",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-024",
+            "term": "provision",
+            "meaning": "n. 供应；提供；准备",
+            "phrase": "make provision for 为……做好准备",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-025",
+            "term": "offer",
+            "meaning": "v. 提供；给予；n. 提议",
+            "phrase": "offer sb. sth. = offer sth. to sb.; offer to do sth. 主动提出做某事",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-026",
+            "term": "supply",
+            "meaning": "n./v. 供给；提供；供应",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-027",
+            "term": "supplement",
+            "meaning": "n. 增补；补充；营养补品",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-028",
+            "term": "abandon",
+            "meaning": "v. 不再养育；遗弃；放弃",
+            "phrase": "abandon oneself to 纵情于；沉溺于",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-029",
+            "term": "abundant",
+            "meaning": "adj. 大量的；充裕的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-030",
+            "term": "enough",
+            "meaning": "adj./pron./adv. 足够；充足；充分",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-031",
+            "term": "sufficient",
+            "meaning": "adj. 足够的；充分的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-032",
+            "term": "insufficient",
+            "meaning": "adj. 不足的；不够的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-033",
+            "term": "plenty",
+            "meaning": "pron. 大量；众多；n. 富足；充裕",
+            "phrase": "plenty of 大量；许多",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-034",
+            "term": "plentiful",
+            "meaning": "adj. 大量的；丰富的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-035",
+            "term": "mass",
+            "meaning": "n. 团；块；堆；群；群众；adj. 大量的；大批的",
+            "phrase": "a mass of 一堆；一群",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-036",
+            "term": "massive",
+            "meaning": "adj. 大量的；巨大的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-037",
+            "term": "vast",
+            "meaning": "adj. 广阔的；大量的；巨大的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-038",
+            "term": "immense",
+            "meaning": "adj. 广大的；巨大的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-039",
+            "term": "tremendous",
+            "meaning": "adj. 极大的；巨大的；可怕的；出色的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-040",
+            "term": "number",
+            "meaning": "n. 数字；数量；编号；序数；v. 标号；编号",
+            "phrase": "the number of ……的数量；a number of 许多",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-041",
+            "term": "numerous",
+            "meaning": "adj. 很多的；众多的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-9-042",
+            "term": "slight",
+            "meaning": "adj. 少量的；轻微的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 9 / 图片导入",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 10",
+        "count": 48,
+        "words": [
+          {
+            "id": "word-list-10-001",
+            "term": "hope",
+            "meaning": "n./v. 希望；盼望",
+            "phrase": "hope to do sth. 希望做某事",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-002",
+            "term": "hopeful",
+            "meaning": "adj. 有希望的；抱有希望的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-003",
+            "term": "hopeless",
+            "meaning": "adj. 无望的；绝望的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-004",
+            "term": "wish",
+            "meaning": "n./v. 希望；愿望；祝愿",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-005",
+            "term": "member",
+            "meaning": "n. 会员；成员",
+            "phrase": "membership card 会员卡",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-006",
+            "term": "card",
+            "meaning": "n. 卡片；纸牌",
+            "phrase": "credit card 信用卡",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-007",
+            "term": "ticket",
+            "meaning": "n. 票；券；车票",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-008",
+            "term": "honor",
+            "meaning": "n. 荣誉；尊敬；荣耀；v. 尊敬",
+            "phrase": "in honor of 为了纪念",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-009",
+            "term": "honour",
+            "meaning": "n. 荣誉；尊敬；荣耀；v. 尊敬",
+            "phrase": "honour 为英式英语中 honor 的写法",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-010",
+            "term": "honorable",
+            "meaning": "adj. 荣誉的；光荣的；受尊敬的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-011",
+            "term": "memory",
+            "meaning": "n. 记忆力；回忆；存储器",
+            "phrase": "in memory of 为纪念",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-012",
+            "term": "memorize",
+            "meaning": "v. 记住；熟记",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-013",
+            "term": "memorial",
+            "meaning": "n. 纪念碑；纪念物；adj. 纪念的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-014",
+            "term": "report",
+            "meaning": "v. 汇报；报告；n. 报道；报告",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-015",
+            "term": "reporter",
+            "meaning": "n. 报告人；记者",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-016",
+            "term": "even",
+            "meaning": "adv. 即使；甚至；仍然",
+            "phrase": "even if/though 即使；虽然",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-017",
+            "term": "fun",
+            "meaning": "n. 乐趣；快乐",
+            "phrase": "have fun 开心；玩得高兴 = enjoy oneself；make fun of 取笑",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-018",
+            "term": "joke",
+            "meaning": "n. 笑话；v. 开玩笑",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-019",
+            "term": "funny",
+            "meaning": "adj. 滑稽的；有趣的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-020",
+            "term": "interesting",
+            "meaning": "adj. 有趣的；令人感兴趣的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-021",
+            "term": "interested",
+            "meaning": "adj. 感兴趣的；关心的",
+            "phrase": "be interested in 对……感兴趣",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-022",
+            "term": "excite",
+            "meaning": "v. 使激动；使兴奋；刺激",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-023",
+            "term": "excited",
+            "meaning": "adj. 激动的；兴奋的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-024",
+            "term": "exciting",
+            "meaning": "adj. 令人激动的；令人兴奋的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-025",
+            "term": "thrill",
+            "meaning": "n. 震颤感；兴奋；v. 使激动",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-026",
+            "term": "frighten",
+            "meaning": "v. 使惊吓；使恐惧",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-027",
+            "term": "horror",
+            "meaning": "n. 惊骇；恐怖；恐惧",
+            "phrase": "in horror 惊恐地",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-028",
+            "term": "horrible",
+            "meaning": "adj. 可怕的；恐怖的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-029",
+            "term": "fear",
+            "meaning": "n./v. 害怕；担忧",
+            "phrase": "for fear of 生怕；以免；for fear that 生怕；以免",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-030",
+            "term": "lest",
+            "meaning": "conj. 以免；免得",
+            "phrase": "lest 引导的从句常用虚拟式：(should)+动词原形",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-031",
+            "term": "shock",
+            "meaning": "n. 擅击；振动；冲击；休克；v. 使惊讶",
+            "phrase": "culture shock 文化冲击",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-032",
+            "term": "surprise",
+            "meaning": "n. 意想不到的事；惊奇；v. 使惊奇",
+            "phrase": "to one’s surprise 令某人惊讶的是",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-033",
+            "term": "surprised",
+            "meaning": "adj. 感到惊讶的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-034",
+            "term": "surprising",
+            "meaning": "adj. 惊人的；令人惊讶的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-035",
+            "term": "surprisingly",
+            "meaning": "adv. 惊人地；出人意料地",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-036",
+            "term": "astonishment",
+            "meaning": "n. 惊讶；惊愕",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-037",
+            "term": "astonish",
+            "meaning": "v. 使惊讶",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-038",
+            "term": "add up to",
+            "meaning": "总计；合计；等于",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-039",
+            "term": "sum",
+            "meaning": "n. 金额；款项；总数；v. 求……的和",
+            "phrase": "sum up 总结来说；概括来说",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-040",
+            "term": "accumulate",
+            "meaning": "v. 积累；堆积",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-041",
+            "term": "extra",
+            "meaning": "adj. 额外的；分外的；adv. 非常；特别地",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-042",
+            "term": "subtract",
+            "meaning": "v. 减去；减少；删减",
+            "phrase": "subtract from 从……减去；删减",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-043",
+            "term": "collect",
+            "meaning": "v. 收集；聚集",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-044",
+            "term": "collection",
+            "meaning": "n. 聚集；积聚；集中；收藏品",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-045",
+            "term": "collective",
+            "meaning": "n. 集体企业；集体；adj. 集体的；共同的",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-046",
+            "term": "room",
+            "meaning": "n. 空间；房间；室",
+            "phrase": "make room for 腾出地方；留出空间",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-047",
+            "term": "space",
+            "meaning": "n. 空间；空地；空隙",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          },
+          {
+            "id": "word-list-10-048",
+            "term": "cell",
+            "meaning": "n. 细胞；单元",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "Word List 10 / 图片导入",
+            "source": "Word List"
+          }
+        ]
       }
     ]
   },
   {
     "name": "四级",
-    "count": 100,
+    "count": 148,
     "children": [
       {
         "name": "四级 1",
@@ -5948,6 +11549,444 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "phrase": "",
             "note": "",
             "tag": "四级 / 词族导入",
+            "source": "四级"
+          }
+        ]
+      },
+      {
+        "name": "四级 3",
+        "count": 48,
+        "words": [
+          {
+            "id": "cet-black-20260624-001",
+            "term": "coastal",
+            "meaning": "adj. 近海的；沿海的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-002",
+            "term": "toast",
+            "meaning": "n. 烤面包片；祝酒；vt. 为……举杯祝酒；烤",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-003",
+            "term": "roast",
+            "meaning": "v. 烘烤；焙炒；n. 烤肉；adj. 烤的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-004",
+            "term": "sail",
+            "meaning": "v. 航行；驾驶船只；n. 帆；乘船航行",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-005",
+            "term": "sailing",
+            "meaning": "n. 帆船运动；航行",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-006",
+            "term": "sailor",
+            "meaning": "n. 水手；船员；海员",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-007",
+            "term": "shore",
+            "meaning": "n. 海岸；河岸；vi. 支撑；支持",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-008",
+            "term": "island",
+            "meaning": "n. 岛",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-009",
+            "term": "inland",
+            "meaning": "adv. 向内陆；adj. 内地的；内陆的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-010",
+            "term": "beach",
+            "meaning": "n. 海滩；湖滨；v. 上岸；搁浅",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-011",
+            "term": "bench",
+            "meaning": "n. 长椅；法官席；替补席；工作台",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-012",
+            "term": "harbor",
+            "meaning": "n. 海港；港口；避难所；v. 庇护；怀有",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-013",
+            "term": "embrace",
+            "meaning": "v. 拥抱；欣然接受；包括；n. 拥抱",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-014",
+            "term": "bay",
+            "meaning": "n. 海湾；湾；隔间；月桂",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-015",
+            "term": "shelter",
+            "meaning": "n. 遮蔽处；住处；庇护；v. 保护；躲避",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-016",
+            "term": "shade",
+            "meaning": "n. 阴凉处；色度；影子；v. 遮蔽",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-017",
+            "term": "shady",
+            "meaning": "adj. 阴凉的；成荫的；可疑的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-018",
+            "term": "shave",
+            "meaning": "v. 剃；刮；削减；n. 剃须",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-019",
+            "term": "shaver",
+            "meaning": "n. 剃须刀；刮胡子的人",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-020",
+            "term": "belt",
+            "meaning": "n. 腰带；地带；传送带",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-021",
+            "term": "bond",
+            "meaning": "n. 纽带；债券；结合；v. 使结合",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-022",
+            "term": "bondage",
+            "meaning": "n. 奴役；束缚",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-023",
+            "term": "blind",
+            "meaning": "adj. 失明的；盲目的；v. 使失明",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-024",
+            "term": "dead",
+            "meaning": "adj. 死的；无生命的；adv. 完全地",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-025",
+            "term": "bend",
+            "meaning": "v. 弯曲；屈身；n. 弯曲处",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-026",
+            "term": "twist",
+            "meaning": "v. 扭曲；旋转；n. 扭曲；转折",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-027",
+            "term": "blend",
+            "meaning": "v. 混合；融合；n. 混合物",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-028",
+            "term": "mix",
+            "meaning": "v. 混合；交往；n. 混合物",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-029",
+            "term": "mixture",
+            "meaning": "n. 混合物；混合",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-030",
+            "term": "mixer",
+            "meaning": "n. 搅拌器；调音台；善交际的人",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-031",
+            "term": "stir",
+            "meaning": "v. 搅拌；激起；n. 搅动；轰动",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-032",
+            "term": "mountain",
+            "meaning": "n. 山；大量",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-033",
+            "term": "mountainous",
+            "meaning": "adj. 多山的；像山一样的",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-034",
+            "term": "fountain",
+            "meaning": "n. 喷泉；源泉",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-035",
+            "term": "base",
+            "meaning": "n. 基础；基地；底部；v. 以……为基础",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-036",
+            "term": "foundation",
+            "meaning": "n. 基础；地基；基金会",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-037",
+            "term": "basement",
+            "meaning": "n. 地下室；底层",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-038",
+            "term": "basis",
+            "meaning": "n. 基础；根据；基准",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-039",
+            "term": "basically",
+            "meaning": "adv. 基本上；大体上",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-040",
+            "term": "mount",
+            "meaning": "v. 登上；增加；安装；n. 山；支架",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-041",
+            "term": "mounting",
+            "meaning": "adj. 逐渐增加的；n. 安装；底座",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-042",
+            "term": "amount",
+            "meaning": "n. 数量；金额；v. 合计；等于",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-043",
+            "term": "soar",
+            "meaning": "v. 猛增；高飞；翱翔",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-044",
+            "term": "ascend",
+            "meaning": "v. 上升；攀登",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-045",
+            "term": "descend",
+            "meaning": "v. 下降；下来；遗传",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-046",
+            "term": "descent",
+            "meaning": "n. 下降；血统；斜坡",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-047",
+            "term": "decline",
+            "meaning": "v. 下降；拒绝；n. 衰退；减少",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          },
+          {
+            "id": "cet-black-20260624-048",
+            "term": "incline",
+            "meaning": "v. 倾向于；使倾斜；n. 斜坡",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "四级 3 / 黑背景新导入",
             "source": "四级"
           }
         ]
