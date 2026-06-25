@@ -2213,3 +2213,35 @@ textarea:focus {
   .module-button{min-width:108px;gap:6px;min-height:48px}
   .module-button strong{font-size:13px}
 }
+
+
+/* v24 mobile folder card correction: only Chinese text green; no green box, no example/phrase blocks */
+.folder-word-card-compact-v21 .folder-word-meaning-text,
+.folder-word-card-compact-v20 .folder-word-meaning-text,
+.folder-word-card-v19 .folder-word-row p {
+  color: #059669 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-weight: 760 !important;
+}
+.folder-word-card-compact-v21 .folder-word-phrase-line,
+.folder-word-card-compact-v20 .folder-word-phrase-line,
+.folder-word-extra,
+.folder-word-note,
+.folder-word-phrase {
+  display: none !important;
+}
+.folder-word-card-compact-v21 {
+  box-shadow: 0 2px 8px rgba(15,23,42,.04) !important;
+}
+@media(max-width:560px){
+  .folder-word-card-compact-v21 { padding: 9px 10px !important; border-radius: 13px !important; }
+  .folder-word-topline-v21 { margin-bottom: 6px !important; }
+  .folder-word-card-compact-v21 .folder-word-term { font-size: 18px !important; }
+  .folder-word-card-compact-v21 .folder-word-chip { font-size: 11px !important; padding: 2px 7px !important; }
+  .folder-word-card-compact-v21 .folder-pron-btn { width: 30px !important; height: 30px !important; }
+  .folder-word-one-line-v21 { font-size: 15px !important; line-height: 1.42 !important; gap: 8px !important; }
+  .folder-word-card-compact-v21 .folder-word-pos { font-size: 13px !important; padding: 3px 7px !important; }
+}
