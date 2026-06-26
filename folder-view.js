@@ -129,7 +129,14 @@
   document.addEventListener('click',e=>{
     const p=e.target.closest('[data-pron-term]');
     if(p){
-      if (typeof window.speakTerm === 'function') window.speakTerm(p.dataset.pronTerm, { accent: p.dataset.pronAccent || 'us' });
+      e.preventDefault();
+      p.classList.add('is-playing');
+      if (typeof window.speakTerm === 'function') {
+        window.speakTerm(p.dataset.pronTerm, { accent: p.dataset.pronAccent || 'us' });
+      } else {
+        alert('发音模块还没加载出来，请刷新页面后再试');
+      }
+      setTimeout(()=>p.classList.remove('is-playing'), 700);
       return;
     }
     const f=e.target.closest('[data-folder-source]');

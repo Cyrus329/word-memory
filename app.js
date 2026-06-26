@@ -38,7 +38,7 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-6-10-pron-features:v16";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-6-10-pron-features:v26";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -4382,6 +4382,23 @@ function cleanPronunciationText(term) {
   return raw || normalizeText(term).replace(/[^a-zA-Z'\-\s]/g, " ").replace(/\s+/g, " ").trim();
 }
 
+function isMobilePronunciationContext() {
+  if (typeof navigator === "undefined") return false;
+  const ua = navigator.userAgent || "";
+  const platform = navigator.platform || "";
+  const touchMac = platform === "MacIntel" && navigator.maxTouchPoints > 1;
+  return /iPhone|iPad|iPod|Android|Mobile|Mobi/i.test(ua) || touchMac;
+}
+
+function primeSpeechVoices() {
+  if (!speechSupported()) return;
+  try {
+    window.speechSynthesis.getVoices?.();
+  } catch (err) {
+    // 忽略语音列表预热失败
+  }
+}
+
 function useSpeechFallback(text, accent = "us", options = {}) {
   if (!speechSupported()) {
     if (!options.silent) {
@@ -4422,34 +4439,38 @@ function pronunciationAudioUrls(text, accent = "us") {
 
 function playAudioUrl(url) {
   return new Promise((resolve, reject) => {
-    const audio = new Audio(url);
+    const audio = new Audio();
     audio.preload = "auto";
-    audio.crossOrigin = "anonymous";
+    audio.src = url;
+    let settled = false;
     const cleanup = () => {
-      audio.oncanplaythrough = null;
+      audio.oncanplay = null;
       audio.onerror = null;
       audio.onended = null;
     };
-    audio.oncanplaythrough = () => {
-      audio.play().then(() => {
-        cleanup();
-        resolve(true);
-      }).catch((err) => {
-        cleanup();
-        reject(err);
-      });
-    };
-    audio.onerror = () => {
+    const finish = (ok, err) => {
+      if (settled) return;
+      settled = true;
       cleanup();
-      reject(new Error("audio failed"));
+      ok ? resolve(true) : reject(err || new Error("audio failed"));
     };
-    audio.load();
-    window.setTimeout(() => {
-      if (audio.readyState < 2) {
-        cleanup();
-        reject(new Error("audio timeout"));
+    audio.oncanplay = () => {
+      audio.play().then(() => finish(true)).catch((err) => finish(false, err));
+    };
+    audio.onerror = () => finish(false, new Error("audio failed"));
+    try {
+      const playPromise = audio.play();
+      if (playPromise && typeof playPromise.then === "function") {
+        playPromise.then(() => finish(true)).catch(() => {
+          try { audio.load(); } catch (err) { finish(false, err); }
+        });
+      } else {
+        audio.load();
       }
-    }, 2600);
+    } catch (err) {
+      try { audio.load(); } catch (loadErr) { finish(false, loadErr); }
+    }
+    window.setTimeout(() => finish(false, new Error("audio timeout")), 2800);
   });
 }
 
@@ -4460,6 +4481,15 @@ async function speakTerm(term, options = {}) {
     if (!options.silent) showToast("这个词条没有可朗读的英文");
     return false;
   }
+
+  // 手机端优先用系统英/美音。iPhone/部分安卓会拦截异步在线音频，
+  // 必须在用户点击按钮的同一轮事件里立即触发 speechSynthesis，
+  // 否则就会出现“电脑有声，手机没声”。
+  if (isMobilePronunciationContext()) {
+    const spoken = useSpeechFallback(text, accent, options);
+    if (spoken) return true;
+  }
+
   const urls = pronunciationAudioUrls(text, accent);
   for (const url of urls) {
     try {
@@ -4470,6 +4500,11 @@ async function speakTerm(term, options = {}) {
     }
   }
   return useSpeechFallback(text, accent, options);
+}
+
+if (typeof window !== "undefined") {
+  window.speakTerm = speakTerm;
+  window.addEventListener("DOMContentLoaded", primeSpeechVoices, { once: true });
 }
 
 function escapeHTML(value) {
@@ -4607,6 +4642,127 @@ function applyBuiltinWords(words) {
   return words;
 }
 
+
+function compactProgress(progress = {}) {
+  const out = {};
+  PROGRESS_MODES.forEach((mode) => {
+    const item = progress && progress[mode] ? progress[mode] : null;
+    if (!item) return;
+    const history = Array.isArray(item.history) ? item.history.slice(-8) : [];
+    const hasData = item.status || Number.isInteger(item.stage) || item.nextReviewAt || item.lastStudiedAt || history.length;
+    if (!hasData) return;
+    out[mode] = {
+      status: item.status || "new",
+      stage: Number.isInteger(item.stage) ? item.stage : -1,
+      nextReviewAt: item.nextReviewAt || "",
+      lastStudiedAt: item.lastStudiedAt || "",
+      history,
+    };
+  });
+  return out;
+}
+
+function applyCompactProgress(word, compact = {}) {
+  if (!word || !compact) return word;
+  if (compact.mastery) word.mastery = compact.mastery;
+  if (typeof compact.important === "boolean") word.important = compact.important;
+  if (compact.status) word.status = compact.status;
+  if (Number.isInteger(compact.stage)) word.stage = compact.stage;
+  if (compact.nextReviewAt) word.nextReviewAt = compact.nextReviewAt;
+  if (compact.lastStudiedAt) word.lastStudiedAt = compact.lastStudiedAt;
+  if (compact.updatedAt) word.updatedAt = compact.updatedAt;
+  if (compact.progress && typeof compact.progress === "object") {
+    word.progress = normalizeModeProgress({ ...word, progress: compact.progress });
+  }
+  return normalizeWord(word);
+}
+
+function compactWordRecord(word) {
+  const record = {
+    id: word.id,
+    term: word.term,
+    mastery: word.mastery || "未学",
+    important: Boolean(word.important),
+    status: word.status || "new",
+    stage: Number.isInteger(word.stage) ? word.stage : -1,
+    nextReviewAt: word.nextReviewAt || "",
+    lastStudiedAt: word.lastStudiedAt || "",
+    updatedAt: word.updatedAt || "",
+    progress: compactProgress(word.progress),
+  };
+  return record;
+}
+
+function compactPayloadForStorage(words) {
+  const builtinIds = new Set(ALL_BUILTIN_WORDS.map((word) => word.id));
+  const builtinTerms = new Set(ALL_BUILTIN_WORDS.map((word) => normalizeText(word.term).toLowerCase()));
+  const progress = [];
+  const customWords = [];
+  words.forEach((word) => {
+    const normalized = normalizeWord(word);
+    const isBuiltin = builtinIds.has(normalized.id) || builtinTerms.has(normalizeText(normalized.term).toLowerCase());
+    if (isBuiltin) {
+      progress.push(compactWordRecord(normalized));
+    } else {
+      const custom = normalizeWord({ ...normalized, history: Array.isArray(normalized.history) ? normalized.history.slice(-8) : [] });
+      custom.progress = compactProgress(custom.progress);
+      customWords.push(custom);
+    }
+  });
+  return {
+    app: "专升本单词记忆",
+    version: 26,
+    compact: true,
+    savedAt: new Date().toISOString(),
+    progress,
+    customWords,
+  };
+}
+
+function loadCompactWords(parsed) {
+  const words = cloneBuiltinWords();
+  const byId = new Map(words.map((word) => [word.id, word]));
+  const byTerm = new Map(words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
+  (Array.isArray(parsed.progress) ? parsed.progress : []).forEach((item) => {
+    const key = normalizeText(item.term).toLowerCase();
+    const target = byId.get(item.id) || byTerm.get(key);
+    if (target) applyCompactProgress(target, item);
+  });
+  (Array.isArray(parsed.customWords) ? parsed.customWords : []).forEach((item) => {
+    const word = normalizeWord(item);
+    const key = normalizeText(word.term).toLowerCase();
+    if (!byId.has(word.id) && !byTerm.has(key)) {
+      words.push(word);
+      byId.set(word.id, word);
+      byTerm.set(key, word);
+    }
+  });
+  return applyBuiltinWords(words);
+}
+
+function cleanupStorageForWordSave() {
+  try {
+    Object.keys(localStorage).forEach((key) => {
+      if (key.startsWith("word-memory-trainer:wordlist-") && key !== BUILTIN_PACKAGE_KEY) {
+        localStorage.removeItem(key);
+      }
+    });
+  } catch {
+    // ignore
+  }
+}
+
+function shrinkHistoriesForEmergency() {
+  state.words.forEach((word) => {
+    if (Array.isArray(word.history)) word.history = word.history.slice(-4);
+    if (word.progress && typeof word.progress === "object") {
+      Object.values(word.progress).forEach((item) => {
+        if (item && Array.isArray(item.history)) item.history = item.history.slice(-4);
+      });
+    }
+  });
+}
+
 function loadWords() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -4615,7 +4771,10 @@ function loadWords() {
       return cloneBuiltinWords();
     }
     const parsed = JSON.parse(raw);
-    const words = Array.isArray(parsed) ? parsed.map(normalizeWord) : [];
+    if (parsed && parsed.compact) {
+      return loadCompactWords(parsed);
+    }
+    const words = Array.isArray(parsed) ? parsed.map(normalizeWord) : (Array.isArray(parsed.words) ? parsed.words.map(normalizeWord) : []);
     return applyBuiltinWords(words);
   } catch {
     shouldPersistBuiltinWords = true;
@@ -4668,15 +4827,28 @@ function saveWords(options = {}) {
   if (PUBLIC_VIEWER_SLUG) {
     return true;
   }
+  const persist = () => localStorage.setItem(STORAGE_KEY, JSON.stringify(compactPayloadForStorage(state.words)));
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.words));
+    cleanupStorageForWordSave();
+    persist();
     if (!options.skipCloud) {
       autoSaveCloudSoon();
     }
     return true;
   } catch {
-    showToast("保存失败，可能是浏览器空间不足");
-    return false;
+    try {
+      shrinkHistoriesForEmergency();
+      cleanupStorageForWordSave();
+      persist();
+      if (!options.skipCloud) {
+        autoSaveCloudSoon();
+      }
+      showToast("已用省空间模式保存");
+      return true;
+    } catch {
+      showToast("保存失败：请先导出备份，再清理浏览器网站数据");
+      return false;
+    }
   }
 }
 
@@ -5835,12 +6007,19 @@ function renderActiveCard() {
   const important = word.important ? `<p class="important-line">重点词</p>` : "";
   const masteryBox = renderMasteryBox(word);
   const spellingBox = state.practiceMode === "forms" ? renderVerbFormsBox(word) : renderSpellingBox(word);
+  const quickActions = `
+    <div class="quick-review-actions">
+      <button class="primary-button" data-card-action="remember">${progress.stage < 0 ? "记完" : "会了"}</button>
+      <button class="secondary-button" data-card-action="fuzzy">模糊</button>
+      <button class="danger-button" data-card-action="forgot">忘了</button>
+    </div>`;
 
   els.activeCard.innerHTML = `
     <div class="card-top">
       <div class="letter-ribbon">${ribbon}</div>
       <p class="quiz-prompt">${escapeHTML(view.prompt)}</p>
       <h3 class="${state.practiceMode === "card" || state.practiceMode === "enToZh" ? "word-term" : "quiz-target"}">${escapeHTML(view.target)}</h3>
+      ${quickActions}
       ${spellingBox}
       ${choiceBox}
       ${threeStepBox}
@@ -5858,9 +6037,6 @@ function renderActiveCard() {
         <button class="secondary-button audio-button" data-card-action="speak-uk">英音</button>
         <button class="secondary-button" data-card-action="show">${state.answerVisible ? "隐藏释义" : "显示释义"}</button>
         <button class="secondary-button" data-card-action="toggle-important">${word.important ? "取消重点" : "标重点"}</button>
-        <button class="primary-button" data-card-action="remember">${progress.stage < 0 ? "记完" : "会了"}</button>
-        <button class="secondary-button" data-card-action="fuzzy">模糊</button>
-        <button class="danger-button" data-card-action="forgot">忘了</button>
       </div>
     </div>`;
 

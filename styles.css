@@ -2245,3 +2245,40 @@ textarea:focus {
   .folder-word-one-line-v21 { font-size: 15px !important; line-height: 1.42 !important; gap: 8px !important; }
   .folder-word-card-compact-v21 .folder-word-pos { font-size: 13px !important; padding: 3px 7px !important; }
 }
+
+
+/* v25: mobile pronunciation feedback */
+.folder-pron-btn.is-playing, .audio-button.is-playing { background:#0f766e !important; color:#fff !important; border-color:#0f766e !important; }
+
+/* v26: 手机复习按钮上移，避免翻到最底部才能点 */
+.quick-review-actions {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 10px;
+  margin: 18px 0 8px;
+}
+.quick-review-actions button {
+  min-height: 52px;
+  font-size: 18px;
+  font-weight: 900;
+}
+@media (max-width: 640px) {
+  .quick-review-actions {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    background: rgba(250, 248, 243, .94);
+    backdrop-filter: blur(8px);
+    padding: 8px 0;
+    margin: 12px 0 8px;
+  }
+  .quick-review-actions button {
+    width: 100%;
+    min-height: 46px;
+    font-size: 16px;
+    padding: 10px 8px;
+  }
+  .card-bottom .card-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
