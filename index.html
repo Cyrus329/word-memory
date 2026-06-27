@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=35">
 </head>
 <body>
   <div class="app-shell">
@@ -38,6 +38,11 @@
         <article class="metric">
           <span>词条总数</span>
           <strong id="totalCount">0</strong>
+        </article>
+        <article class="metric time">
+          <span>总学习时长</span>
+          <strong id="totalStudyTime">0分</strong>
+          <small id="todayStudyTime">今日 0分</small>
         </article>
         <article class="metric accent">
           <span>现在到期</span>
@@ -155,7 +160,7 @@
             <p class="eyebrow">Folders</p>
             <h2>英语资料夹</h2>
           </div>
-          <p class="folder-hint">按 蓝色森林 / Word List / 四级 分开，再按 1、2、3 顺序查看。</p>
+          <p class="folder-hint">按 蓝色森林 / Word List / 四级 / 全方位 分开；Word List 已含 11-15。</p>
         </div>
         <div class="folder-library-layout">
           <div class="folder-source-list" id="folderSourceList"></div>
@@ -354,16 +359,19 @@
     </form>
   </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./supplemental-words.js"></script>
-  <script src="./supplemental-words-batch2.js"></script>
-  <script src="./supplemental-words-batch3.js"></script>
-  <script src="./supplemental-words-batch4.js"></script>
-  <script src="./supplemental-words-batch5.js"></script>
-  <script src="./supplemental-words-batch6.js"></script>
-  <script src="./library-folder-data.js"></script>
-  <script src="./app.js"></script>
-  <script src="./folder-view.js"></script>
-  <script src="./smart-vocab.js"></script>
+  <script src="./supplemental-words.js?v=35"></script>
+  <script src="./supplemental-words-batch2.js?v=35"></script>
+  <script src="./supplemental-words-batch3.js?v=35"></script>
+  <script src="./supplemental-words-batch4.js?v=35"></script>
+  <script src="./supplemental-words-batch5.js?v=35"></script>
+  <script src="./supplemental-words-batch6.js?v=35"></script>
+  <script src="./supplemental-words-batch7.js?v=35"></script>
+  <script src="./supplemental-words-batch8.js?v=35"></script>
+  <script src="./supplemental-words-batch9.js?v=35"></script>
+  <script src="./library-folder-data.js?v=35"></script>
+  <script src="./app.js?v=35"></script>
+  <script src="./folder-view.js?v=35"></script>
+  <script src="./smart-vocab.js?v=35"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));

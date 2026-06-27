@@ -97,7 +97,7 @@ button {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 12px;
 }
 
@@ -122,6 +122,12 @@ button {
   line-height: 1;
 }
 
+.metric small {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .metric.accent {
   background: var(--teal-soft);
   border-color: #c1dedb;
@@ -135,6 +141,11 @@ button {
 .metric.calm {
   background: var(--green-soft);
   border-color: #c2ddba;
+}
+
+.metric.time {
+  background: #eef6ff;
+  border-color: #c8dcf5;
 }
 
 .prep-dashboard {
@@ -2281,4 +2292,35 @@ textarea:focus {
   .card-bottom .card-actions {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+
+/* v29 学习进度大类分区 */
+.progress-folder-tabs{
+  grid-column: 1 / -1;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:0 0 4px;
+}
+.progress-folder-tab{
+  border:1px solid var(--line, #dbe3ef);
+  background:#fff;
+  color:#415266;
+  border-radius:999px;
+  padding:10px 16px;
+  font-weight:800;
+  cursor:pointer;
+}
+.progress-folder-tab.active{
+  background:var(--accent, #10796f);
+  color:#fff;
+  border-color:var(--accent, #10796f);
+}
+.progress-summary-card{
+  background:linear-gradient(180deg, #f0faf8, #ffffff);
+}
+@media (max-width: 720px){
+  .progress-folder-tabs{flex-wrap:nowrap; overflow-x:auto; padding-bottom:4px;}
+  .progress-folder-tab{white-space:nowrap; padding:9px 14px;}
 }

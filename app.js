@@ -1,5 +1,6 @@
 const STORAGE_KEY = "word-memory-trainer:v1";
 const SETTINGS_KEY = "word-memory-trainer:settings:v1";
+const STUDY_TIME_KEY = "word-memory-trainer:study-time:v1";
 const REVIEW_STEPS = [
   { label: "20分钟", ms: 20 * 60 * 1000 },
   { label: "1小时", ms: 60 * 60 * 1000 },
@@ -38,7 +39,7 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-6-10-pron-features:v26";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v35";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -3934,11 +3935,16 @@ const ALL_BUILTIN_WORDS = [
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH4) ? window.SUPPLEMENTAL_WORDS_BATCH4 : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH5) ? window.SUPPLEMENTAL_WORDS_BATCH5 : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH6) ? window.SUPPLEMENTAL_WORDS_BATCH6 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH7) ? window.SUPPLEMENTAL_WORDS_BATCH7 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH8) ? window.SUPPLEMENTAL_WORDS_BATCH8 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH9) ? window.SUPPLEMENTAL_WORDS_BATCH9 : []),
 ];
 let shouldPersistBuiltinWords = false;
 
 const els = {
   totalCount: document.querySelector("#totalCount"),
+  totalStudyTime: document.querySelector("#totalStudyTime"),
+  todayStudyTime: document.querySelector("#todayStudyTime"),
   dueCount: document.querySelector("#dueCount"),
   todayCount: document.querySelector("#todayCount"),
   doneTodayCount: document.querySelector("#doneTodayCount"),
@@ -4019,6 +4025,7 @@ function createPracticeSessions(initialMode = "due") {
 const state = {
   words: loadWords(),
   settings: loadSettings(),
+  studyTime: loadStudyTime(),
   mode: "due",
   practiceMode: "card",
   practiceSessions: createPracticeSessions(),
@@ -4539,6 +4546,122 @@ function saveSettings() {
   }
 }
 
+function normalizeStudyTime(raw = {}) {
+  const today = todayKey();
+  const totalSeconds = Math.max(0, Math.floor(Number(raw.totalSeconds || 0)));
+  const savedToday = raw.today === today ? Math.max(0, Math.floor(Number(raw.todaySeconds || 0))) : 0;
+  return {
+    totalSeconds,
+    todaySeconds: savedToday,
+    today,
+    updatedAt: raw.updatedAt || "",
+  };
+}
+
+function loadStudyTime() {
+  try {
+    return normalizeStudyTime(JSON.parse(localStorage.getItem(STUDY_TIME_KEY) || "{}"));
+  } catch {
+    return normalizeStudyTime({});
+  }
+}
+
+function saveStudyTime() {
+  try {
+    localStorage.setItem(STUDY_TIME_KEY, JSON.stringify({
+      totalSeconds: Math.floor(state.studyTime.totalSeconds || 0),
+      todaySeconds: Math.floor(state.studyTime.todaySeconds || 0),
+      today: state.studyTime.today || todayKey(),
+      updatedAt: new Date().toISOString(),
+    }));
+    return true;
+  } catch {
+    // 学习时长只保存一个很小的对象；如果这里失败，说明浏览器存储确实满了。
+    return false;
+  }
+}
+
+function syncStudyTimeDay() {
+  const today = todayKey();
+  if (!state.studyTime || typeof state.studyTime !== "object") {
+    state.studyTime = normalizeStudyTime({});
+  }
+  if (state.studyTime.today !== today) {
+    state.studyTime.today = today;
+    state.studyTime.todaySeconds = 0;
+    saveStudyTime();
+  }
+}
+
+function formatStudyTime(seconds) {
+  const safeSeconds = Math.max(0, Math.floor(Number(seconds || 0)));
+  const hours = Math.floor(safeSeconds / 3600);
+  const minutes = Math.floor((safeSeconds % 3600) / 60);
+  if (hours >= 100) {
+    return `${hours}小时`;
+  }
+  if (hours > 0) {
+    return `${hours}小时${minutes}分`;
+  }
+  return `${minutes}分`;
+}
+
+function renderStudyTime() {
+  if (!els.totalStudyTime || !els.todayStudyTime) {
+    return;
+  }
+  syncStudyTimeDay();
+  els.totalStudyTime.textContent = formatStudyTime(state.studyTime.totalSeconds);
+  els.todayStudyTime.textContent = `今日 ${formatStudyTime(state.studyTime.todaySeconds)}`;
+}
+
+const studyTimeTracker = {
+  lastTickAt: Date.now(),
+  lastActivityAt: Date.now(),
+  dirtySeconds: 0,
+};
+
+function markStudyActivity() {
+  studyTimeTracker.lastActivityAt = Date.now();
+}
+
+function tickStudyTime(forceSave = false) {
+  if (!state.studyTime) {
+    state.studyTime = normalizeStudyTime({});
+  }
+  const now = Date.now();
+  const elapsedSeconds = Math.max(0, Math.min(30, Math.floor((now - studyTimeTracker.lastTickAt) / 1000)));
+  studyTimeTracker.lastTickAt = now;
+  const isVisible = document.visibilityState !== "hidden";
+  const recentlyActive = now - studyTimeTracker.lastActivityAt <= 5 * 60 * 1000;
+  if (elapsedSeconds && isVisible && recentlyActive) {
+    syncStudyTimeDay();
+    state.studyTime.totalSeconds += elapsedSeconds;
+    state.studyTime.todaySeconds += elapsedSeconds;
+    studyTimeTracker.dirtySeconds += elapsedSeconds;
+    renderStudyTime();
+  }
+  if (forceSave || studyTimeTracker.dirtySeconds >= 30) {
+    saveStudyTime();
+    studyTimeTracker.dirtySeconds = 0;
+  }
+}
+
+function installStudyTimeTracker() {
+  ["click", "keydown", "touchstart", "input"].forEach((eventName) => {
+    document.addEventListener(eventName, markStudyActivity, { passive: true });
+  });
+  document.addEventListener("visibilitychange", () => {
+    tickStudyTime(true);
+    studyTimeTracker.lastTickAt = Date.now();
+    if (document.visibilityState !== "hidden") {
+      markStudyActivity();
+    }
+  });
+  window.addEventListener("pagehide", () => tickStudyTime(true));
+  window.addEventListener("beforeunload", () => tickStudyTime(true));
+}
+
 
 /* builtin word package */
 function cloneBuiltinWord(word) {
@@ -4598,7 +4721,21 @@ function recordModeHistory(word, entry, mode = state.practiceMode) {
   word.history.push(historyEntry);
 }
 
+
+function cleanupLegacyWordListMisimports(words) {
+  if (!Array.isArray(words)) return [];
+  return words.filter((word) => {
+    const tag = normalizeText(word?.tag || "");
+    const id = normalizeText(word?.id || "");
+    if (tag.includes("第一章第三节") || tag.includes("冠词与数词")) return false;
+    if (/^fullway-20260627-v29-0\d\d$/.test(id)) return false;
+    if (/^fullway-20260627-v29-1[0-3]\d$/.test(id)) return false;
+    return true;
+  });
+}
+
 function applyBuiltinWords(words) {
+  words = cleanupLegacyWordListMisimports(words);
   let packageAlreadyApplied = false;
   try {
     packageAlreadyApplied = localStorage.getItem(BUILTIN_PACKAGE_KEY) === "1";
@@ -4620,9 +4757,16 @@ function applyBuiltinWords(words) {
         past: normalizeText(existing.forms?.past) || normalizeText(builtin.forms?.past),
         participle: normalizeText(existing.forms?.participle) || normalizeText(builtin.forms?.participle),
       };
-      existing.tag = normalizeText(existing.tag) || builtin.tag;
-      existing.sources = mergeWordSources(existing, builtin);
-      existing.source = existing.sources[0];
+      const shouldMoveV29FullwayToWordList = /^(fullway-20260627-v29-|wordlist-20260627-v31-|wordlist-20260627-v35-|wordlist-20260627-v35-)/.test(builtin.id || "");
+      if (shouldMoveV29FullwayToWordList) {
+        existing.tag = builtin.tag;
+        existing.source = builtin.source || "Word List";
+        existing.sources = [existing.source];
+      } else {
+        existing.tag = normalizeText(existing.tag) || builtin.tag;
+        existing.sources = mergeWordSources(existing, builtin);
+        existing.source = existing.sources[0];
+      }
       if (JSON.stringify(existing) !== previous) {
         shouldPersistBuiltinWords = true;
       }
@@ -4711,7 +4855,7 @@ function compactPayloadForStorage(words) {
   });
   return {
     app: "专升本单词记忆",
-    version: 26,
+    version: 28,
     compact: true,
     savedAt: new Date().toISOString(),
     progress,
@@ -5310,7 +5454,13 @@ function wordGroupName(word) {
 }
 
 function wordMatchesActiveGroup(word) {
-  return state.activeGroup === "all" || wordGroupName(word) === state.activeGroup;
+  if (state.activeGroup === "all") return true;
+  const groupName = wordGroupName(word);
+  if (groupName === state.activeGroup) return true;
+  if (["全方位", "蓝色森林", "Word List", "四级"].includes(state.activeGroup)) {
+    return progressRootName(groupName) === state.activeGroup;
+  }
+  return false;
 }
 
 function practiceEligibleWords(words) {
@@ -5519,6 +5669,7 @@ function renderStats() {
   els.dueCount.textContent = state.words.filter((word) => isDue(word)).length;
   els.todayCount.textContent = state.words.filter(isTodayReview).length;
   els.doneTodayCount.textContent = state.words.filter(learnedToday).length;
+  renderStudyTime();
 }
 
 function renderClock() {
@@ -5581,6 +5732,7 @@ function dailyReportStats() {
     .map((word) => modeProgress(word))
     .filter((progress) => progress.nextReviewAt)
     .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt))[0]?.nextReviewAt || "";
+  syncStudyTimeDay();
   return {
     studied: studiedWords.size,
     reviews: reviewEntries.length,
@@ -5590,6 +5742,8 @@ function dailyReportStats() {
     forgotten,
     importantNow,
     nextReview,
+    todayStudyTime: state.studyTime?.todaySeconds || 0,
+    totalStudyTime: state.studyTime?.totalSeconds || 0,
   };
 }
 
@@ -5608,6 +5762,7 @@ function renderDailyReport() {
     </div>
     <div class="report-grid">
       <article><span>今日学习</span><strong>${report.studied}</strong><p>个词有记录</p></article>
+      <article><span>今日时长</span><strong>${formatStudyTime(report.todayStudyTime)}</strong><p>总计 ${formatStudyTime(report.totalStudyTime)}</p></article>
       <article><span>复习动作</span><strong>${report.reviews}</strong><p>记完/会了/模糊/忘了</p></article>
       <article><span>拼写正确率</span><strong>${report.spellingTotal ? `${report.spellingRate}%` : "--"}</strong><p>${report.spellingCorrect}/${report.spellingTotal}</p></article>
       <article><span>忘记/拼错</span><strong>${report.forgotten}</strong><p>自动进入重点复盘</p></article>
@@ -5666,6 +5821,17 @@ function renderDashboard() {
   els.todayReviewHint.textContent = reviewTarget ? `现在到期 ${dueNow} 个，今日已排 ${todayReview} 个` : "暂无到期复习，等系统提醒";
 }
 
+function progressRootName(groupName = "") {
+  const name = normalizeText(groupName);
+  if (/^全方位/.test(name)) return "全方位";
+  if (/^蓝色森林/.test(name)) return "蓝色森林";
+  if (/^Word List/.test(name)) return "Word List";
+  if (/^四级/.test(name)) return "四级";
+  return "其他";
+}
+
+let progressGroupFilter = "全部";
+
 function renderGroupProgress() {
   const groups = new Map();
   state.words.forEach((word) => {
@@ -5682,14 +5848,27 @@ function renderGroupProgress() {
   }
 
   const modeName = PROGRESS_MODE_LABELS[state.practiceMode] || "当前模式";
+  const rootNames = ["全部", ...Array.from(new Set([...groups.keys()].map(progressRootName))).filter(Boolean)];
+  if (!rootNames.includes(progressGroupFilter)) progressGroupFilter = "全部";
+  const shownEntries = [...groups.entries()].filter(([name]) => progressGroupFilter === "全部" || progressRootName(name) === progressGroupFilter);
+  const shownWords = progressGroupFilter === "全部" ? state.words : shownEntries.flatMap(([, words]) => words);
+  const learnedAll = shownWords.filter((word) => modeProgress(word).stage >= 0).length;
+  const matureAll = shownWords.filter((word) => statusOf(word) === "mature").length;
+  const dueAll = shownWords.filter((word) => isDue(word)).length;
+  const importantAll = shownWords.filter((word) => word.important).length;
+  const allPercent = shownWords.length ? Math.round((learnedAll / shownWords.length) * 100) : 0;
+
+  const tabs = `<div class="progress-folder-tabs">${rootNames.map((name) => `<button class="progress-folder-tab ${name === progressGroupFilter ? "active" : ""}" data-progress-filter="${escapeHTML(name)}" type="button">${escapeHTML(name)}</button>`).join("")}</div>`;
+  const allGroupName = progressGroupFilter === "全部" ? "all" : `__root__${progressGroupFilter}`;
   const allCard = `
-      <article class="group-card${state.activeGroup === "all" ? " active" : ""}" data-group-action="study" data-group="all">
-        <strong>全部 Word List</strong>
-        <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
-        <p>${modeName}独立进度 · 总计 ${state.words.length} 个</p>
+      <article class="group-card progress-summary-card${state.activeGroup === allGroupName ? " active" : ""}" data-group-action="study" data-group="${escapeHTML(allGroupName)}" data-root-group="${escapeHTML(progressGroupFilter)}">
+        <strong>${escapeHTML(progressGroupFilter === "全部" ? "全部词库" : progressGroupFilter + " 总进度")}</strong>
+        <div class="progress-bar"><div class="progress-fill" style="width:${allPercent}%"></div></div>
+        <p>${learnedAll}/${shownWords.length} 已学 · 到期 ${dueAll} · 重点 ${importantAll} · 稳定 ${matureAll}</p>
+        <button class="text-button" type="button">只背这一大类</button>
       </article>`;
 
-  els.groupProgress.innerHTML = allCard + [...groups.entries()].map(([name, words]) => {
+  const cards = shownEntries.map(([name, words]) => {
     const learned = words.filter((word) => modeProgress(word).stage >= 0).length;
     const mature = words.filter((word) => statusOf(word) === "mature").length;
     const due = words.filter((word) => isDue(word)).length;
@@ -5703,6 +5882,8 @@ function renderGroupProgress() {
         <button class="text-button" type="button">只背本组</button>
       </article>`;
   }).join("");
+
+  els.groupProgress.innerHTML = tabs + allCard + cards;
 }
 
 
@@ -6459,6 +6640,7 @@ function exportWords() {
     version: 1,
     reviewSteps: REVIEW_STEPS.map((step) => step.label),
     exportedAt: new Date().toISOString(),
+    studyTime: state.studyTime,
     words: state.words,
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
@@ -6495,6 +6677,10 @@ async function importWords(event) {
       state.words = [...records.filter((word) => !ids.has(word.id)), ...state.words];
     }
     saveWords();
+    if (parsed.studyTime) {
+      state.studyTime = normalizeStudyTime(parsed.studyTime);
+      saveStudyTime();
+    }
     setActiveId(null);
     render();
     showToast("导入完成");
@@ -6599,18 +6785,29 @@ function wireEvents() {
     }
   });
   els.groupProgress.addEventListener("click", (event) => {
+    const filterBtn = event.target.closest('[data-progress-filter]');
+    if (filterBtn) {
+      progressGroupFilter = filterBtn.dataset.progressFilter || "全部";
+      renderGroupProgress();
+      return;
+    }
     const card = event.target.closest('[data-group-action="study"]');
     if (!card) {
       return;
     }
-    state.activeGroup = card.dataset.group || "all";
+    const picked = card.dataset.group || "all";
+    if (picked.startsWith("__root__")) {
+      state.activeGroup = picked.replace("__root__", "");
+    } else {
+      state.activeGroup = picked;
+    }
     state.wordListLimit = 40;
     setActiveId(null);
     state.answerVisible = false;
     resetTypingState();
     state.lastAutoSpokenId = null;
     render();
-    showToast(state.activeGroup === "all" ? "已切回全部 Word List" : `只背 ${state.activeGroup}`);
+    showToast(state.activeGroup === "all" ? "已切回全部词库" : `只背 ${state.activeGroup}`);
   });
   els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value.trim();
@@ -6694,10 +6891,12 @@ function wireEvents() {
 }
 
 wireEvents();
+installStudyTimeTracker();
 render();
 persistBuiltinWordsIfNeeded();
 initializeCloudFromUrl();
 setInterval(() => {
+  tickStudyTime();
   renderClock();
   renderStats();
   renderDashboard();

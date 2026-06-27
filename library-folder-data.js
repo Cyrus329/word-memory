@@ -1,11 +1,11 @@
 window.ENGLISH_FOLDER_LIBRARY = [
   {
     "name": "全方位",
-    "count": 343,
+    "count": 372,
     "children": [
       {
         "name": "全方位 1",
-        "count": 102,
+        "count": 131,
         "words": [
           {
             "id": "fullway-2026-prefix-001",
@@ -37,36 +37,36 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-004",
             "term": "stop",
-            "meaning": "v. 停止；n. 车站。bus stop 公交车站。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 停止，停下来；n. 车站。",
+            "phrase": "bus stop 公交车站；train station 火车站",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-005",
             "term": "interest",
-            "meaning": "n. 兴趣；利益；利息；v. 引起关注，吸引。show interest in / be interested in。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 兴趣；利益；利息；v. 引起……的关注，吸引。",
+            "phrase": "show interest in 对……感兴趣；be interested in 对……感兴趣；attract v. 吸引",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-006",
             "term": "waste",
-            "meaning": "v. 浪费；n. 浪费，废物。It is a waste of time doing sth. 做某事浪费时间。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 浪费；n. 浪费，废物。",
+            "phrase": "It is a waste of time doing sth. 做某事浪费时间",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-007",
             "term": "cost",
-            "meaning": "v. 花费；n. 花费，代价。sth. cost sb. money。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 花费；n. 花费，费用，成本。cost-cost-cost。",
+            "phrase": "sth. cost sb. money 某物花某人多少钱",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
@@ -82,99 +82,99 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-009",
             "term": "take",
-            "meaning": "v. 花费；拿；乘坐。It takes/took sb. time to do sth.。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 花费；拿；乘坐。take-took-taken。",
+            "phrase": "It took/will take sb. time to do sth. 做某事花费某人时间",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-010",
             "term": "work",
-            "meaning": "v. 工作，运转；n. 工作，不可数；works 作品，可数。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 工作，运转；n. 工作，不可数；作品，可数。",
+            "phrase": "The washing machine doesn’t work. 洗衣机不运转",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-011",
             "term": "drink",
-            "meaning": "v. 喝；n. 饮料，酒。have a drink 喝一杯。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 喝；n. 饮料，酒。",
+            "phrase": "have a drink 喝一杯",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-012",
             "term": "study",
-            "meaning": "v. 学习，研究；n. 学习，研究，书房。He studies in his study.。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 学习，研究；n. 学习，研究，书房。",
+            "phrase": "He studies in his study. 他在书房学习",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-013",
             "term": "empty",
-            "meaning": "adj. 空的；v. 清空。empty the box 清空盒子。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 空的；v. 腾空，清空。",
+            "phrase": "empty the box 清空盒子",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-014",
             "term": "slow",
-            "meaning": "adj. 缓慢的；v. 放慢，减速。slow down 减速。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 缓慢的；v. 减速，放慢。",
+            "phrase": "slow down 减速",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-015",
             "term": "cheat",
-            "meaning": "v. 欺骗，作弊；n. 骗子，作弊行为。注意 cheap 是便宜的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "v. 欺骗；n. 欺骗行为，骗子。",
+            "phrase": "cheap adj. 便宜的",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-016",
             "term": "hand",
-            "meaning": "n. 手；v. 递给。give sb. a hand = help sb.; hand in 上交；hand over 移交。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 手；v. 递给。",
+            "phrase": "give sb. a hand 帮某人；hand in 上交；hand over 移交",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-017",
             "term": "face",
-            "meaning": "n. 面部；v. 面对。face to face 面对面；be faced with 面临；lose face 丢脸。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 面部；v. 面对。",
+            "phrase": "face to face 面对面；lose face 丢脸；be faced with 面临；face up to 面对",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-018",
             "term": "comb",
-            "meaning": "n. 梳子；v. 梳理。注意 b 不发音，类似 climb、tomb。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 梳子；v. 梳理，梳头发。",
+            "phrase": "mb 中 b 不发音：comb / climb / tomb",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-019",
             "term": "daily",
-            "meaning": "adj. 日常的；n. 日报。China Daily 中国日报。区分 diary 日记。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 日常的；n. 日报。",
+            "phrase": "China Daily 《中国日报》；diary 日记",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
@@ -190,18 +190,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-021",
             "term": "book",
-            "meaning": "n. 书；v. 预订。book a table 订桌。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 书；v. 预订。",
+            "phrase": "book a table 预订餐桌",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-022",
             "term": "bridesmaid",
-            "meaning": "n. 伴娘。bride 新娘 + maid 女仆/少女。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 伴娘。bride 新娘 + maid 少女/女仆。",
+            "phrase": "bridegroom 新郎",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
@@ -217,9 +217,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-024",
             "term": "toothache",
-            "meaning": "n. 牙痛。tooth + ache。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "n. 牙痛。",
+            "phrase": "headache 头痛；stomachache 胃痛；backache 背痛",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
@@ -253,9 +253,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-028",
             "term": "typewriter",
-            "meaning": "n. 打字机。type 打字 + writer 书写者/机器。",
+            "meaning": "n. 打字机。type v. 打字 + writer。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
@@ -264,124 +264,124 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "term": "wildlife",
             "meaning": "n. 野生动植物。wild 野外的 + life 生命。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-030",
             "term": "six-year-old",
-            "meaning": "adj. 六岁的。作定语时 year 不加 s：a six-year-old girl。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 六岁的。作定语时 year 不加 s。",
+            "phrase": "a six-year-old girl 一个六岁的女孩",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-031",
             "term": "duty-free",
-            "meaning": "adj. 免税的。duty 税/责任 + free 无……的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 免税的。duty n. 责任，义务，值班，关税。",
+            "phrase": "duty-free perfume 免税香水",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-032",
             "term": "absent-minded",
-            "meaning": "adj. 心不在焉的。absent 缺席的 + minded 有……头脑的。",
+            "meaning": "adj. 心不在焉的。absent 缺席的 + mind 思想。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-033",
             "term": "newly-built",
-            "meaning": "adj. 新建的。built 是过去分词，表示被建成的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 新建的。built 表示被建成的。",
+            "phrase": "a newly-built library 一座新建图书馆",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-034",
             "term": "state-owned",
-            "meaning": "adj. 国有的。state 国家/州 + owned 拥有的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 国有的。state n. 州，国家；own v. 拥有。",
+            "phrase": "state-owned capital 国有资本；state-owned company 国有企业",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-035",
             "term": "slow-moving",
-            "meaning": "adj. 缓慢移动的。slow + moving。",
+            "meaning": "adj. 缓慢移动的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-036",
             "term": "peace-loving",
-            "meaning": "adj. 爱好和平的。peace + loving。",
+            "meaning": "adj. 热爱和平的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-037",
             "term": "fast-developing",
-            "meaning": "adj. 快速发展的。fast + developing。",
+            "meaning": "adj. 快速发展的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-038",
             "term": "heart-broken",
-            "meaning": "adj. 心碎的。heart + broken。",
+            "meaning": "adj. 心碎的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-039",
             "term": "world-famous",
-            "meaning": "adj. 世界闻名的。world + famous。",
+            "meaning": "adj. 举世闻名的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-040",
             "term": "part-time",
-            "meaning": "adj. 兼职的，部分时间的。part + time。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "meaning": "adj. 兼职的，部分时间的。",
+            "phrase": "part-time job 兼职工作",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-041",
             "term": "hand-made",
-            "meaning": "adj. 手工制作的。hand + made。",
+            "meaning": "adj. 手工的，手工制作的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-2026-prefix-042",
             "term": "long-term",
-            "meaning": "adj. 长期的。long + term。",
+            "meaning": "adj. 长期的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
@@ -586,10 +586,10 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-023",
             "term": "record",
-            "meaning": "记录；作名词可指纪录，作动词可指录音/记录。",
-            "phrase": "hold the world record / record the meeting",
-            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
-            "tag": "全方位 1 / 单词课补全",
+            "meaning": "v. 记录，记载；n. 记录，唱片。",
+            "phrase": "hold the world record 保持世界纪录；record the meeting 记录会议",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
@@ -622,10 +622,10 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-027",
             "term": "mask",
-            "meaning": "面具；掩饰。",
-            "phrase": "wear a mask / mask sadness",
-            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
-            "tag": "全方位 1 / 单词课补全",
+            "meaning": "n. 面罩，面具；v. 掩饰，掩盖。",
+            "phrase": "mask his sadness 掩饰悲伤",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
@@ -703,10 +703,10 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-036",
             "term": "iron",
-            "meaning": "铁；熨烫。",
-            "phrase": "be made of iron / iron shirts",
-            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
-            "tag": "全方位 1 / 单词课补全",
+            "meaning": "n. 铁，熨斗；v. 熨烫。",
+            "phrase": "iron shirts 熨衬衫",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
@@ -721,19 +721,19 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-038",
             "term": "park",
-            "meaning": "公园；停车。",
-            "phrase": "park the car",
-            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
-            "tag": "全方位 1 / 单词课补全",
+            "meaning": "n. 公园，停车场；v. 停车。",
+            "phrase": "park the car 停车",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
             "id": "fullway-complete-extra-039",
             "term": "place",
-            "meaning": "地方；位置。",
-            "phrase": "find a safe place",
-            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
-            "tag": "全方位 1 / 单词课补全",
+            "meaning": "n. 地点，场所；v. 放置。",
+            "phrase": "find a safe place 找一个安全的地方",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
@@ -766,10 +766,10 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-043",
             "term": "match",
-            "meaning": "搭配；匹配。",
-            "phrase": "The shoes don't match her dress.",
-            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
-            "tag": "全方位 1 / 单词课补全",
+            "meaning": "n. 比赛；火柴；v. 匹配。",
+            "phrase": "match her dress 与她的裙子搭配",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
           },
           {
@@ -924,6 +924,470 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
             "source": "全方位"
+          },
+          {
+            "id": "fullway-1-v32-103",
+            "term": "water",
+            "meaning": "n. 水；v. 浇水。",
+            "phrase": "water the flowers 浇花",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-104",
+            "term": "watch",
+            "meaning": "v. 观看；n. 手表。",
+            "phrase": "watch the news 看新闻；a smart watch 智能手表",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-105",
+            "term": "warm",
+            "meaning": "adj. 温暖的；v. 使温暖。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-106",
+            "term": "shelter",
+            "meaning": "n. 避难所，庇护所；v. 庇护，避难。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-107",
+            "term": "try",
+            "meaning": "v. 尝试，努力；n. 尝试，努力。",
+            "phrase": "try to do 努力做某事；try doing 尝试做",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-108",
+            "term": "talk",
+            "meaning": "v. 交谈，谈话；n. 谈话。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-109",
+            "term": "bookstore",
+            "meaning": "n. 书店。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-110",
+            "term": "greenhouse",
+            "meaning": "n. 温室。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-111",
+            "term": "snowfall",
+            "meaning": "n. 降雪。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-112",
+            "term": "doorbell",
+            "meaning": "n. 门铃。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-113",
+            "term": "sunglasses",
+            "meaning": "n. 太阳眼镜，墨镜。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-114",
+            "term": "sunflower",
+            "meaning": "n. 向日葵。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-115",
+            "term": "housework",
+            "meaning": "n. 家务。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-116",
+            "term": "homework",
+            "meaning": "n. 家庭作业。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-117",
+            "term": "handwriting",
+            "meaning": "n. 手写，书写，笔迹。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-118",
+            "term": "grown-up",
+            "meaning": "n. 成年人。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-119",
+            "term": "well-being",
+            "meaning": "n. 幸福，安康。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-120",
+            "term": "second-hand",
+            "meaning": "adj. 二手的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-121",
+            "term": "mother-in-law",
+            "meaning": "n. 婆婆，岳母。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-122",
+            "term": "well-known",
+            "meaning": "adj. 众所周知的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-123",
+            "term": "first-class",
+            "meaning": "adj. 一流的。class n. 班级，等级。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-124",
+            "term": "short-term",
+            "meaning": "adj. 短期的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-125",
+            "term": "full-time",
+            "meaning": "adj. 全职的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-126",
+            "term": "good-looking",
+            "meaning": "adj. 好看的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-127",
+            "term": "color-blind",
+            "meaning": "adj. 色盲的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-128",
+            "term": "cold-blooded",
+            "meaning": "adj. 冷血的，冷酷无情的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-129",
+            "term": "left-handed",
+            "meaning": "adj. 左撇子的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-130",
+            "term": "man-made",
+            "meaning": "adj. 人造的。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
+          },
+          {
+            "id": "fullway-1-v32-131",
+            "term": "forget-me-not",
+            "meaning": "n. 勿忘我。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按原讲义补全构词法词表。",
+            "tag": "全方位 1 / 全方位单词课",
+            "source": "全方位",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:32:00+08:00",
+            "updatedAt": "2026-06-27T15:32:00+08:00",
+            "history": []
           }
         ]
       },
@@ -3112,7 +3576,7 @@ window.ENGLISH_FOLDER_LIBRARY = [
   },
   {
     "name": "蓝色森林",
-    "count": 314,
+    "count": 506,
     "children": [
       {
         "name": "蓝色森林 1",
@@ -5969,12 +6433,1752 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "蓝色森林"
           }
         ]
+      },
+      {
+        "name": "蓝色森林 6",
+        "count": 51,
+        "words": [
+          {
+            "id": "blueforest-20260627-06-001",
+            "term": "tennis",
+            "meaning": "n. 网球运动",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-002",
+            "term": "bride",
+            "meaning": "n. 新娘；即将结婚的女子",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-003",
+            "term": "war",
+            "meaning": "n. 战争；冲突；斗争；v. 作战；斗争",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-004",
+            "term": "live",
+            "meaning": "v. 居住；活着；生活；经历；adj. 活的；现场直播的；通电的",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-005",
+            "term": "nor",
+            "meaning": "conj. 也不（用于否定句）；adv. 也不（用于加强否定）",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-006",
+            "term": "buck",
+            "meaning": "n. 雄鹿；美元；责任；v. 猛然弓背跃起；反对；振作",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-007",
+            "term": "calorie",
+            "meaning": "n. 卡路里（热量单位）；食物能量单位",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-008",
+            "term": "busy",
+            "meaning": "adj. 忙碌的；繁忙的；热闹的；v. 使忙于；忙于做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-009",
+            "term": "butter",
+            "meaning": "n. 黄油；黄油状物质；v. 涂黄油于",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-010",
+            "term": "anniversary",
+            "meaning": "n. 周年纪念日；周年纪念",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-011",
+            "term": "captain",
+            "meaning": "n. 船长；机长；队长；上尉；v. 担任……的队长；指挥",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-012",
+            "term": "honest",
+            "meaning": "adj. 诚实的；坦率的；正直的",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-013",
+            "term": "part",
+            "meaning": "n. 部分；角色；零件；地区；v. 分开；分离；分手",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-014",
+            "term": "mean",
+            "meaning": "v. 意思是；打算；意味着；adj. 吝啬的；卑鄙的；平均的",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-015",
+            "term": "disturb",
+            "meaning": "v. 打扰；扰乱；使不安；打扰（较少单独使用）",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-016",
+            "term": "supermarket",
+            "meaning": "n. 超级市场；自助式大型零售商店",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-017",
+            "term": "playground",
+            "meaning": "n. 操场；游乐场；活动场所",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-018",
+            "term": "cheer",
+            "meaning": "v. 欢呼；喝彩；鼓励；n. 欢呼；喝彩；愉快的情绪",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-019",
+            "term": "cash",
+            "meaning": "n. 现金；钱；v. 兑现；兑换成现金",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-020",
+            "term": "chemistry",
+            "meaning": "n. 化学（学科）；物质组成与变化；（人际间的）化学反应，默契",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-021",
+            "term": "clothes",
+            "meaning": "n. 衣服；服装（总称）",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-022",
+            "term": "ceiling",
+            "meaning": "n. 天花板；（价格、工资等的）上限",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-023",
+            "term": "choice",
+            "meaning": "n. 选择；选项；精选品；adj. 优质的；精选的",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-024",
+            "term": "ceremony",
+            "meaning": "n. 典礼；仪式；礼节",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-025",
+            "term": "pear",
+            "meaning": "n. 梨；梨树",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-026",
+            "term": "ugly",
+            "meaning": "adj. 丑陋的；难看的；令人不快的",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-027",
+            "term": "choose",
+            "meaning": "v. 选择；挑选；决定；做出抉择",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-028",
+            "term": "chess",
+            "meaning": "n. 国际象棋；棋类游戏",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-029",
+            "term": "city",
+            "meaning": "n. 城市；都市；全体市民",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-030",
+            "term": "new",
+            "meaning": "adj. 新的；新鲜的；新近的；adv. 新近地（多用于复合词）",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-031",
+            "term": "clap",
+            "meaning": "v. 拍手；鼓掌；轻拍；n. 拍手声；掌声；霹雳声",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-032",
+            "term": "meet",
+            "meaning": "v. 遇见；满足；迎接；会面；集合；接触",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-033",
+            "term": "sunshine",
+            "meaning": "n. 阳光；快乐的人（事物）",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-034",
+            "term": "circumstance",
+            "meaning": "n. 环境；情况；经济状况",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-035",
+            "term": "sit",
+            "meaning": "v. 坐下；位于；担任职务；使就坐；可容纳",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-036",
+            "term": "minute",
+            "meaning": "n. 分钟；片刻；会议记录；adj. 微小的；详细的",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-037",
+            "term": "common",
+            "meaning": "adj. 常见的；共有的；普通的；n. 公共用地；普通法",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-038",
+            "term": "most",
+            "meaning": "adj. 最多的；最大程度的；adv. 最；极其",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-039",
+            "term": "norm",
+            "meaning": "n. 标准；规范；常态",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-040",
+            "term": "barrier",
+            "meaning": "n. 障碍物；屏障；障碍",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-041",
+            "term": "mouth",
+            "meaning": "n. 嘴；开口处；需要供养的人；v. 不出声地说；装腔作势地说",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-042",
+            "term": "near",
+            "meaning": "prep. 在……附近；接近；adv. 附近；几乎",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-043",
+            "term": "cup",
+            "meaning": "n. 杯子；奖杯；一杯的量；v. 使成杯状；捧起",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-044",
+            "term": "offer",
+            "meaning": "v. 提供；提议；出价；n. 提议；报价；特价",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-045",
+            "term": "potato",
+            "meaning": "n. 马铃薯；土豆；土豆植株",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-046",
+            "term": "expertise",
+            "meaning": "n. 专门知识；专长",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-047",
+            "term": "good",
+            "meaning": "adj. 好的；令人满意的；有益的；n. 好处；善行；优点",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-048",
+            "term": "badly",
+            "meaning": "adv. 严重地；拙劣地；迫切地",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-049",
+            "term": "whale",
+            "meaning": "n. 鲸；庞然大物；v. 猛烈攻击；捕鲸",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-050",
+            "term": "company",
+            "meaning": "n. 公司；陪伴；一群人；剧团；v. 陪伴（古用法/少用）",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-06-051",
+            "term": "companion",
+            "meaning": "n. 同伴；伴侣；配套物",
+            "phrase": "",
+            "note": "来源：2026-06-27 词表截图导入",
+            "tag": "蓝色森林 6 / 蓝色森林",
+            "source": "蓝色森林"
+          }
+        ]
+      },
+      {
+        "name": "蓝色森林 7",
+        "count": 141,
+        "words": [
+          {
+            "id": "blueforest-20260627-07-001",
+            "term": "have a rest",
+            "meaning": "休息",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-002",
+            "term": "in a hurry",
+            "meaning": "匆忙",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-003",
+            "term": "in a word",
+            "meaning": "总之",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-004",
+            "term": "as a result",
+            "meaning": "结果；因此",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-005",
+            "term": "in an emergency",
+            "meaning": "在紧急情况下",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-006",
+            "term": "at an early age",
+            "meaning": "在年少时",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-007",
+            "term": "pollute",
+            "meaning": "v. 污染；玷污",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-008",
+            "term": "pollution",
+            "meaning": "n. 污染（不可数）",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-009",
+            "term": "polluted",
+            "meaning": "adj. 被污染的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-010",
+            "term": "pollutant",
+            "meaning": "n. 污染物",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-011",
+            "term": "by the way",
+            "meaning": "顺便说一下；顺带一提",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-012",
+            "term": "at the same time",
+            "meaning": "同时；与此同时",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-013",
+            "term": "all the time",
+            "meaning": "一直；始终",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-014",
+            "term": "at the beginning",
+            "meaning": "起初；开始",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-015",
+            "term": "geography",
+            "meaning": "n. 地理",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-016",
+            "term": "on time",
+            "meaning": "准时",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-017",
+            "term": "in time",
+            "meaning": "及时",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-018",
+            "term": "timely",
+            "meaning": "adj. 及时的；适时的；adv. 及时地；早",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-019",
+            "term": "face to face",
+            "meaning": "面对面",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-020",
+            "term": "face-to-face communication",
+            "meaning": "面对面交流",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-021",
+            "term": "day and night",
+            "meaning": "日以继夜；日日夜夜",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-022",
+            "term": "in the bed",
+            "meaning": "在床上",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-023",
+            "term": "in bed",
+            "meaning": "卧床；在床上",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-024",
+            "term": "hundreds of",
+            "meaning": "成百上千；数以百计",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-025",
+            "term": "thousands of",
+            "meaning": "成千上万；数以千计",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-026",
+            "term": "long-term",
+            "meaning": "adj. 长期的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-027",
+            "term": "short-term",
+            "meaning": "adj. 短期的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-028",
+            "term": "operate",
+            "meaning": "v. 运转；经营；起作用；操作；做手术",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-029",
+            "term": "operation",
+            "meaning": "n. 操作；运转；运营；手术",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-030",
+            "term": "operate on sb.",
+            "meaning": "给某人做手术",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-031",
+            "term": "cooperate",
+            "meaning": "v. 合作",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-032",
+            "term": "cooperation",
+            "meaning": "n. 合作",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-033",
+            "term": "cooperate with sb.",
+            "meaning": "和某人合作",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-034",
+            "term": "reasonable",
+            "meaning": "adj. 合理的；公道的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-035",
+            "term": "unreasonable",
+            "meaning": "adj. 不合理的；过分的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-036",
+            "term": "compete",
+            "meaning": "v. 竞争；竞赛",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-037",
+            "term": "competition",
+            "meaning": "n. 比赛；竞争",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-038",
+            "term": "competitive",
+            "meaning": "adj. 竞争激烈的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-039",
+            "term": "competitor",
+            "meaning": "n. 参赛者；对手",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-040",
+            "term": "solve",
+            "meaning": "v. 解决",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-041",
+            "term": "resolve",
+            "meaning": "v. 解决",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-042",
+            "term": "settle",
+            "meaning": "v. 解决；定居",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-043",
+            "term": "deal with",
+            "meaning": "处理；应对",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-044",
+            "term": "work out",
+            "meaning": "解决；算出；锻炼；成功发展",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-045",
+            "term": "challenge",
+            "meaning": "n. 挑战；v. 向……挑战",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-046",
+            "term": "challenging",
+            "meaning": "adj. 有挑战性的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-047",
+            "term": "broaden one’s horizon(s)",
+            "meaning": "拓宽眼界",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-048",
+            "term": "form/develop a/the habit of doing",
+            "meaning": "养成……的习惯",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-049",
+            "term": "get out of the habit of doing",
+            "meaning": "改掉……的习惯",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-050",
+            "term": "keep the habit of doing",
+            "meaning": "保持……的习惯",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-051",
+            "term": "get a ride",
+            "meaning": "搭便车；顺路乘车",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-052",
+            "term": "give sb. a ride",
+            "meaning": "载某人一程",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-053",
+            "term": "rural",
+            "meaning": "adj. 乡村的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-054",
+            "term": "rural area(s)",
+            "meaning": "农村地区",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-055",
+            "term": "urban",
+            "meaning": "adj. 城市的；都市的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-056",
+            "term": "come from",
+            "meaning": "来自",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-057",
+            "term": "lose heart",
+            "meaning": "丧失信心；灰心",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-058",
+            "term": "meet with",
+            "meaning": "遭遇；经受",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-059",
+            "term": "witness",
+            "meaning": "v. 见证；目睹；n. 目击者；证人",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-060",
+            "term": "follow",
+            "meaning": "v. 跟随；遵循",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-061",
+            "term": "follower",
+            "meaning": "n. 跟随者",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-062",
+            "term": "following",
+            "meaning": "adj. 接下来的；prep. 在……之后",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-063",
+            "term": "follow rules",
+            "meaning": "遵守规则",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-064",
+            "term": "as follows",
+            "meaning": "如下",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-065",
+            "term": "it takes/took sb. time/money to do",
+            "meaning": "做某事花费某人多少时间/金钱",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-066",
+            "term": "sb. spends time/money (in) doing",
+            "meaning": "某人花费多少时间/金钱做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-067",
+            "term": "spend time/money on sth.",
+            "meaning": "在……上花费时间/金钱",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-068",
+            "term": "unique",
+            "meaning": "adj. 独一无二的；独特的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-069",
+            "term": "common",
+            "meaning": "adj. 常见的；共同的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-070",
+            "term": "common sense",
+            "meaning": "常识",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-071",
+            "term": "in common",
+            "meaning": "共同；相同",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-072",
+            "term": "have sth. in common",
+            "meaning": "有共同之处",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-073",
+            "term": "have nothing in common",
+            "meaning": "毫无共同之处",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-074",
+            "term": "have much/a lot in common",
+            "meaning": "有不少共同点",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-075",
+            "term": "get along",
+            "meaning": "相处",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-076",
+            "term": "get along (well) with sb.",
+            "meaning": "与某人相处（很好）",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-077",
+            "term": "graduate",
+            "meaning": "v. 毕业；adj. 毕业了的；n. 大学毕业生",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-078",
+            "term": "graduation",
+            "meaning": "n. 毕业",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-079",
+            "term": "graduate from",
+            "meaning": "从……毕业",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-080",
+            "term": "undergraduate",
+            "meaning": "n. 未毕业大学生",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-081",
+            "term": "command",
+            "meaning": "v. 掌握；命令；n. 命令；掌握",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-082",
+            "term": "have a good command of",
+            "meaning": "精通",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-083",
+            "term": "communicate",
+            "meaning": "v. 交流；表达",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-084",
+            "term": "communication",
+            "meaning": "n. 沟通；交流",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-085",
+            "term": "communicative",
+            "meaning": "adj. 善于交际的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-086",
+            "term": "communicate with sb.",
+            "meaning": "与某人交流",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-087",
+            "term": "foreign",
+            "meaning": "adj. 国外的；外来的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-088",
+            "term": "foreigner",
+            "meaning": "n. 外国人",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-089",
+            "term": "cause",
+            "meaning": "n. 原因；事业；v. 引起；造成",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-090",
+            "term": "heated",
+            "meaning": "adj. 热的；激烈的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-091",
+            "term": "cause/arouse a heated discussion",
+            "meaning": "引发/激起热烈讨论；热议",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-092",
+            "term": "arouse",
+            "meaning": "v. 激起；唤起；引起",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-093",
+            "term": "rise",
+            "meaning": "v. 上升；升起",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-094",
+            "term": "arise",
+            "meaning": "v. 出现；产生",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-095",
+            "term": "raise",
+            "meaning": "v. 筹集；举起；养育",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-096",
+            "term": "raise money",
+            "meaning": "筹钱",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-097",
+            "term": "worldwide",
+            "meaning": "adj. 世界范围的；全世界的；adv. 遍及全世界地",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-098",
+            "term": "meaningful",
+            "meaning": "adj. 有意义的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-099",
+            "term": "satellite",
+            "meaning": "n. 卫星",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-100",
+            "term": "famous",
+            "meaning": "adj. 有名的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-101",
+            "term": "be famous/known for",
+            "meaning": "因……出名",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-102",
+            "term": "be famous/known as",
+            "meaning": "作为……出名",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-103",
+            "term": "most",
+            "meaning": "adj. 大多数的；adv. 非常；很",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-104",
+            "term": "the most",
+            "meaning": "最……",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-105",
+            "term": "more than",
+            "meaning": "多于；超过；不仅仅",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-106",
+            "term": "less than",
+            "meaning": "少于；不足",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-107",
+            "term": "no more than",
+            "meaning": "仅仅；只不过",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-108",
+            "term": "organize",
+            "meaning": "v. 组织；成立组织",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-109",
+            "term": "organization",
+            "meaning": "n. 组织；机构；团体",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-110",
+            "term": "maintain",
+            "meaning": "v. 保持；保养",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-111",
+            "term": "maintenance",
+            "meaning": "n. 维持；维护；保养；维修；赡养费",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-112",
+            "term": "supply",
+            "meaning": "v. 供给；补给；n. 供给；补给品",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-113",
+            "term": "supply sb. with sth.",
+            "meaning": "给某人提供某物",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-114",
+            "term": "supply sth. to sb.",
+            "meaning": "向某人供应某物",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-115",
+            "term": "put into use",
+            "meaning": "放入；投入使用",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-116",
+            "term": "to be honest",
+            "meaning": "坦白来说",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-117",
+            "term": "difference",
+            "meaning": "n. 差别；差异",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-118",
+            "term": "make a difference (to)",
+            "meaning": "对……产生影响；有作用",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-119",
+            "term": "different",
+            "meaning": "adj. 不同的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-120",
+            "term": "be different from",
+            "meaning": "和……不同",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-121",
+            "term": "economy",
+            "meaning": "n. 经济",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-122",
+            "term": "national economy",
+            "meaning": "国民经济",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-123",
+            "term": "economic",
+            "meaning": "adj. 经济的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-124",
+            "term": "economic development",
+            "meaning": "经济发展",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-125",
+            "term": "economic growth",
+            "meaning": "经济增长",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-126",
+            "term": "economical",
+            "meaning": "adj. 节俭的；实惠的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-127",
+            "term": "economist",
+            "meaning": "n. 经济学家",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-128",
+            "term": "prefer",
+            "meaning": "v. 宁愿；更喜欢",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-129",
+            "term": "prefer A to B",
+            "meaning": "相比B更喜欢A",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-130",
+            "term": "prefer doing A to doing B",
+            "meaning": "相比做B更喜欢做A",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-131",
+            "term": "prefer (sb.) to do",
+            "meaning": "宁愿（某人）做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-132",
+            "term": "prefer to do A rather than do B",
+            "meaning": "宁愿做A也不愿做B",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-133",
+            "term": "society",
+            "meaning": "n. 社会",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-134",
+            "term": "social",
+            "meaning": "adj. 社会的；社交的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-135",
+            "term": "sociable",
+            "meaning": "adj. 善于交际的",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-136",
+            "term": "social media",
+            "meaning": "社交媒体",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-137",
+            "term": "platform",
+            "meaning": "n. 平台",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-138",
+            "term": "import",
+            "meaning": "v. 进口；n. 进口商品",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-139",
+            "term": "export",
+            "meaning": "v. 出口；n. 出口商品",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-140",
+            "term": "discover",
+            "meaning": "v. 发现",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260627-07-141",
+            "term": "discovery",
+            "meaning": "n. 发现",
+            "phrase": "",
+            "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+            "tag": "蓝色森林 7 / 蓝色森林",
+            "source": "蓝色森林"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Word List",
-    "count": 511,
+    "count": 775,
     "children": [
       {
         "name": "Word List 1",
@@ -10634,12 +12838,2418 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "Word List"
           }
         ]
+      },
+      {
+        "name": "Word List 11",
+        "count": 53,
+        "words": [
+          {
+            "id": "wordlist-20260627-v35-wordlist11-001",
+            "term": "hundred",
+            "meaning": "num. 一百；一百个",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-002",
+            "term": "thousand",
+            "meaning": "num. 一千",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-003",
+            "term": "million",
+            "meaning": "num. 一百万；n. 百万元",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-004",
+            "term": "million & millions of",
+            "meaning": "数以百万计；大量的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-005",
+            "term": "billion",
+            "meaning": "num. 十亿；旧用万亿；n. 十亿；亿万；大量",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-006",
+            "term": "several",
+            "meaning": "pron. 几个；数个；adj. 各自的；分别的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-007",
+            "term": "science",
+            "meaning": "n. 科学；学科",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-008",
+            "term": "scientist",
+            "meaning": "n. 科学家",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-009",
+            "term": "scientific",
+            "meaning": "adj. 科学的；有关科学的；可说明的；有根据的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-010",
+            "term": "significance",
+            "meaning": "n. 重要性；意义",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-011",
+            "term": "thank",
+            "meaning": "v. 谢谢；感谢",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-012",
+            "term": "thank sb. for doing sth.",
+            "meaning": "因某事而感谢某人",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-013",
+            "term": "thanks to",
+            "meaning": "幸亏；由于",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-014",
+            "term": "appreciate",
+            "meaning": "v. 感激；欣赏",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-015",
+            "term": "appreciate doing sth.",
+            "meaning": "感激做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-016",
+            "term": "appreciation",
+            "meaning": "n. 感谢；欣赏",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-017",
+            "term": "grateful",
+            "meaning": "adj. 感激的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-018",
+            "term": "be grateful for",
+            "meaning": "感激；对……感恩",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-019",
+            "term": "bless",
+            "meaning": "v. 为……祈祷；感谢；感激",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-020",
+            "term": "interact",
+            "meaning": "v. 互相作用；互动",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-021",
+            "term": "interact with",
+            "meaning": "与……互动",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-022",
+            "term": "interactive",
+            "meaning": "adj. 相互影响的；互动的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-023",
+            "term": "hundreds of",
+            "meaning": "成百上千的；大量的；很多的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-024",
+            "term": "thousands of",
+            "meaning": "成千上万的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-025",
+            "term": "significant",
+            "meaning": "adj. 可观的；相当大的；重要的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-026",
+            "term": "gratitude",
+            "meaning": "n. 感激；感谢",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-027",
+            "term": "act",
+            "meaning": "v. 行动；行为；担任；n. 行为；假装",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-028",
+            "term": "active",
+            "meaning": "adj. 积极的；活跃的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-029",
+            "term": "activity",
+            "meaning": "n. 活动",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-030",
+            "term": "action",
+            "meaning": "n. 行动；行为",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-031",
+            "term": "actions speak louder than words",
+            "meaning": "事实胜于雄辩",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-032",
+            "term": "take action",
+            "meaning": "采取行动做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-033",
+            "term": "actual",
+            "meaning": "adj. 实际存在的；实际上的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-034",
+            "term": "actually",
+            "meaning": "adv. 事实上；实际上",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-035",
+            "term": "physical activity",
+            "meaning": "体育活动",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-036",
+            "term": "react",
+            "meaning": "v. 反应；回应",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-037",
+            "term": "reaction",
+            "meaning": "n. 反应",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-038",
+            "term": "gather",
+            "meaning": "v. 集合；聚集；收集",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-039",
+            "term": "together",
+            "meaning": "adv. 在一起；共同",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-040",
+            "term": "altogether",
+            "meaning": "adv. 彻底地；完全地；整个地",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-041",
+            "term": "among",
+            "meaning": "prep. 在……之中；在……中间",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-042",
+            "term": "between",
+            "meaning": "prep. 之间；在……中间",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-043",
+            "term": "middle",
+            "meaning": "n. 中部；中间；adj. 中部的；中间的；中等的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-044",
+            "term": "at the age of",
+            "meaning": "在……岁时",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-045",
+            "term": "ask",
+            "meaning": "v. 问；询问；要求",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-046",
+            "term": "ask sb. for help",
+            "meaning": "寻找某人的帮助",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-047",
+            "term": "believe",
+            "meaning": "v. 相信；认为",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-048",
+            "term": "believe in",
+            "meaning": "相信；信赖",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-049",
+            "term": "belief",
+            "meaning": "n. 相信；信念",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-050",
+            "term": "faith",
+            "meaning": "n. 信任；信赖；信心",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-051",
+            "term": "faithful",
+            "meaning": "adj. 忠实的；忠诚的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-052",
+            "term": "actor",
+            "meaning": "n. 男演员",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist11-053",
+            "term": "actress",
+            "meaning": "n. 女演员",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 11",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 12",
+        "count": 41,
+        "words": [
+          {
+            "id": "wordlist-20260627-v35-wordlist12-001",
+            "term": "stay",
+            "meaning": "v. 停留；保持；待；n. 停留；逗留",
+            "phrase": "",
+            "source": "Word List",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-002",
+            "term": "keep",
+            "meaning": "v. 保持；保留",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-003",
+            "term": "keep on",
+            "meaning": "继续；保持",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-004",
+            "term": "stay up",
+            "meaning": "熬夜",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-005",
+            "term": "keep up with",
+            "meaning": "跟上；赶上",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-006",
+            "term": "keep...from...",
+            "meaning": "阻止；避开",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-007",
+            "term": "enter",
+            "meaning": "v. 进入；参与；写入；输入",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-008",
+            "term": "remain",
+            "meaning": "v. 保持；留下；遗留",
+            "phrase": "",
+            "source": "Word List",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-009",
+            "term": "entry",
+            "meaning": "n. 进入；入口",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-010",
+            "term": "fee",
+            "meaning": "n. 服务费；咨询费；学费",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-011",
+            "term": "fare",
+            "meaning": "n. 公共交通费；车费",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-012",
+            "term": "fine",
+            "meaning": "adj. 优质的；高品质的；n. 罚款；罚金；adv. 令人满意地；很好",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-013",
+            "term": "flag",
+            "meaning": "n. 旗；旗帜；国旗；v. 挥旗指示",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-014",
+            "term": "just",
+            "meaning": "adv. 只是；正好；仅仅；adj. 公正的；正当的；合理的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-015",
+            "term": "just now",
+            "meaning": "刚才",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-016",
+            "term": "just then",
+            "meaning": "那时；就在那时",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-017",
+            "term": "unjust",
+            "meaning": "adj. 非正义的；不公平的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-018",
+            "term": "justify",
+            "meaning": "v. 证明正当；证明合理",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-019",
+            "term": "justice",
+            "meaning": "n. 正义；公正；公平",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-020",
+            "term": "own",
+            "meaning": "v. 拥有；adj. 自己的；本人的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-021",
+            "term": "on one’s own",
+            "meaning": "靠自己",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-022",
+            "term": "owe",
+            "meaning": "v. 欠；应归功于",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-023",
+            "term": "owner",
+            "meaning": "n. 物主；所有人",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-024",
+            "term": "owing to",
+            "meaning": "由于；因为；幸亏；归因于",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-025",
+            "term": "owe...to...",
+            "meaning": "归功于……",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-026",
+            "term": "due",
+            "meaning": "adj. 到期的；预期的；预定的；应得的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-027",
+            "term": "due to",
+            "meaning": "由于……导致的；应归功于",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-028",
+            "term": "overdue",
+            "meaning": "adj. 到期未付的；未还的；未能准时的；延误的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-029",
+            "term": "without",
+            "meaning": "prep. 没有；缺乏；adv. 没有；缺乏；conj. 如果没有",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-030",
+            "term": "otherwise",
+            "meaning": "adv. 不然；否则",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-031",
+            "term": "computer",
+            "meaning": "n. 计算机；电脑",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-032",
+            "term": "program",
+            "meaning": "n. 程序；编码指令；节目；v. 编写程序",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-033",
+            "term": "experience",
+            "meaning": "n. 经验；经历；v. 体验；经历",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-034",
+            "term": "plan",
+            "meaning": "n. 计划；打算；v. 精心安排；计划",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-035",
+            "term": "plant",
+            "meaning": "n. 植物；工厂；v. 栽种；播种",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-036",
+            "term": "plantation",
+            "meaning": "n. 种植园",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-037",
+            "term": "planet",
+            "meaning": "n. 行星；地球",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-038",
+            "term": "plane",
+            "meaning": "n. 飞机；平面；adj. 平的；平坦的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-039",
+            "term": "airplane",
+            "meaning": "n. 飞机",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-040",
+            "term": "aircraft",
+            "meaning": "n. 飞机；直升机",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist12-041",
+            "term": "helicopter",
+            "meaning": "n. 直升机",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 12",
+            "tag": "Word List 12 / Word List",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 13",
+        "count": 54,
+        "words": [
+          {
+            "id": "wordlist-20260627-v35-wordlist13-001",
+            "term": "inform",
+            "meaning": "v. 告诉；通知",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-002",
+            "term": "inform sb. of sth.",
+            "meaning": "通知某人某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-003",
+            "term": "keep sb. informed",
+            "meaning": "使某人被告知",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-004",
+            "term": "information",
+            "meaning": "n. 信息；消息",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-005",
+            "term": "form",
+            "meaning": "n. 类型；种类；形式；表格；v. 形成；出现",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-006",
+            "term": "formation",
+            "meaning": "n. 形成；构成",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-007",
+            "term": "reform",
+            "meaning": "v./n. 改革；改进；改良",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-008",
+            "term": "reform and opening policy",
+            "meaning": "改革开放政策",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-009",
+            "term": "deform",
+            "meaning": "v. 使畸形；使变形；使变丑",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-010",
+            "term": "conform",
+            "meaning": "v. 遵守；符合；顺从",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-011",
+            "term": "confirm",
+            "meaning": "v. 证实；确定",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-012",
+            "term": "verify",
+            "meaning": "v. 证实；证明；核实",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-013",
+            "term": "become",
+            "meaning": "v. 成为；变成",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-014",
+            "term": "fashion",
+            "meaning": "n. 时尚；流行款式",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-015",
+            "term": "in fashion",
+            "meaning": "流行的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-016",
+            "term": "out of fashion",
+            "meaning": "过时的；不时髦的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-017",
+            "term": "fashionable",
+            "meaning": "adj. 时尚的；流行的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-018",
+            "term": "popular",
+            "meaning": "adj. 受喜爱的；受欢迎的；流行的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-019",
+            "term": "be popular with",
+            "meaning": "受欢迎；流行于",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-020",
+            "term": "popularity",
+            "meaning": "n. 流行；受欢迎",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-021",
+            "term": "fame",
+            "meaning": "n. 名声；声誉；名气",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-022",
+            "term": "famous",
+            "meaning": "adj. 著名的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-023",
+            "term": "be famous for",
+            "meaning": "闻名；因……而出名",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-024",
+            "term": "reputation",
+            "meaning": "n. 名誉；名声",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-025",
+            "term": "fate",
+            "meaning": "n. 天数；命运；结局",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-026",
+            "term": "celebrity",
+            "meaning": "n. 名人；名流；著名",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-027",
+            "term": "oral",
+            "meaning": "adj. 口头的；口语的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-028",
+            "term": "language",
+            "meaning": "n. 语言",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-029",
+            "term": "foreign language",
+            "meaning": "外语",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-030",
+            "term": "spoken language",
+            "meaning": "口语；等于 oral language",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-031",
+            "term": "body language",
+            "meaning": "肢体语言",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-032",
+            "term": "first language",
+            "meaning": "第一语言；母语；等于 native language",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-033",
+            "term": "native language",
+            "meaning": "母语",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-034",
+            "term": "tongue",
+            "meaning": "n. 舌；舌头；语言；方言；说话方式",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-035",
+            "term": "mother tongue",
+            "meaning": "母语",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-036",
+            "term": "foreign",
+            "meaning": "adj. 外国的；外交的；涉外的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-037",
+            "term": "foreigner",
+            "meaning": "n. 外国人",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-038",
+            "term": "exotic",
+            "meaning": "adj. 异国的；外来的；异国情调的；n. 外来事物",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-039",
+            "term": "overseas",
+            "meaning": "adv. 在海外；到海外；adj. 国外的；海外的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-040",
+            "term": "native",
+            "meaning": "n. 当地人；土著；adj. 土生土长的；天然的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-041",
+            "term": "native speaker",
+            "meaning": "说母语的人；说本族语的人",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-042",
+            "term": "local",
+            "meaning": "adj. 地方的；当地的；本地的；n. 当地人；本地人",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-043",
+            "term": "set",
+            "meaning": "v. 设置；放；n. 一组；一套",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-044",
+            "term": "set up",
+            "meaning": "建立；创立",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-045",
+            "term": "set out",
+            "meaning": "动身；出发；打算",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-046",
+            "term": "set off",
+            "meaning": "引起；导致；启程",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-047",
+            "term": "set aside",
+            "meaning": "留出；驳回；不顾",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-048",
+            "term": "establish",
+            "meaning": "v. 设立；建立；制定；确立",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-049",
+            "term": "found",
+            "meaning": "v. 创办；成立；建造；兴建",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-050",
+            "term": "foundation",
+            "meaning": "n. 地基；基础；基金会",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-051",
+            "term": "fundamental",
+            "meaning": "adj. 基本的；基础的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-052",
+            "term": "find",
+            "meaning": "v. 发现；找到；查明",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-053",
+            "term": "find out",
+            "meaning": "找出；查明",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist13-054",
+            "term": "fund",
+            "meaning": "n. 基金；资金",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 13",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 14",
+        "count": 68,
+        "words": [
+          {
+            "id": "wordlist-20260627-v35-wordlist14-001",
+            "term": "push",
+            "meaning": "v./n. 推；推动；敦促",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-002",
+            "term": "push sb. to do sth.",
+            "meaning": "督促某人做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-003",
+            "term": "pull",
+            "meaning": "v. 拉；拖；吸引",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-004",
+            "term": "build",
+            "meaning": "v. 建造；创建；开发；逐渐增强；n. 体形；身材",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-005",
+            "term": "build up",
+            "meaning": "增进；增强",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-006",
+            "term": "building",
+            "meaning": "n. 建筑物；营造物",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-007",
+            "term": "construct",
+            "meaning": "v. 建筑；建造；构成",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-008",
+            "term": "constructive",
+            "meaning": "adj. 建设性的；有用的；有益的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-009",
+            "term": "reconstruction",
+            "meaning": "n. 重建；重构",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-010",
+            "term": "bridge",
+            "meaning": "n. 桥；桥梁",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-011",
+            "term": "stone",
+            "meaning": "n. 石头；石块",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-012",
+            "term": "think",
+            "meaning": "v. 认为；想；思考",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-013",
+            "term": "thought",
+            "meaning": "n. 想；思想",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-014",
+            "term": "think back",
+            "meaning": "回忆；回想",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-015",
+            "term": "think over",
+            "meaning": "仔细考虑；认真思考",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-016",
+            "term": "thoughtful",
+            "meaning": "adj. 沉思的；思考的；体贴的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-017",
+            "term": "greet",
+            "meaning": "v. 迎接；招呼；问候",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-018",
+            "term": "greeting",
+            "meaning": "n. 迎接；招呼；问候",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-019",
+            "term": "welcome",
+            "meaning": "n. 欢迎；迎接；接受；v. 欢迎；迎接；迎新；adj. 受欢迎的；欢迎的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-020",
+            "term": "social",
+            "meaning": "adj. 社会的；群居的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-021",
+            "term": "social media",
+            "meaning": "社会化媒体",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-022",
+            "term": "social capital",
+            "meaning": "社会资本",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-023",
+            "term": "socialism",
+            "meaning": "n. 社会主义",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-024",
+            "term": "society",
+            "meaning": "n. 社会",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-025",
+            "term": "socialist",
+            "meaning": "n. 社会主义者",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-026",
+            "term": "communist",
+            "meaning": "n. 共产主义者；共产党员；adj. 共产主义的；共产党的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-027",
+            "term": "leave",
+            "meaning": "v. 离开；遗弃；丢弃；忘了带；遗留；n. 休假；假期",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-028",
+            "term": "leave behind",
+            "meaning": "抛下；留下；超过",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-029",
+            "term": "leave off",
+            "meaning": "删除；排除；中断",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-030",
+            "term": "arrive",
+            "meaning": "v. 到达；得出结论",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-031",
+            "term": "arrival",
+            "meaning": "n. 到达；到来；出现",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-032",
+            "term": "face",
+            "meaning": "v. 面对；面向；正对；n. 脸；面孔",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-033",
+            "term": "face to face",
+            "meaning": "面对面",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-034",
+            "term": "lose face",
+            "meaning": "丢脸；失面子",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-035",
+            "term": "be faced with",
+            "meaning": "面对",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-036",
+            "term": "preface",
+            "meaning": "n. 前言；开端",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-037",
+            "term": "surface",
+            "meaning": "n. 表面；面；平面；adj. 在上面的；外部的；v. 浮出水面；显露",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-038",
+            "term": "superficial",
+            "meaning": "adj. 浅薄的；肤浅的；表面的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-039",
+            "term": "born",
+            "meaning": "adj. 出生的；产生的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-040",
+            "term": "birth",
+            "meaning": "n. 出生；诞生；产生",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-041",
+            "term": "give birth to",
+            "meaning": "生育；产生",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-042",
+            "term": "birthday",
+            "meaning": "n. 生日",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-043",
+            "term": "habit",
+            "meaning": "n. 习惯",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-044",
+            "term": "form the habit of",
+            "meaning": "养成……的习惯",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-045",
+            "term": "hobby",
+            "meaning": "n. 业余爱好",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-046",
+            "term": "alone",
+            "meaning": "adj. 单独的；独自的；adv. 只；仅仅；单独地",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-047",
+            "term": "let alone",
+            "meaning": "更不必说",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-048",
+            "term": "lonely",
+            "meaning": "adj. 寂寞的；孤单的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-049",
+            "term": "favorite",
+            "meaning": "adj. 最受喜爱的；n. 特别受欢迎的人",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-050",
+            "term": "calm",
+            "meaning": "adj. 镇静的；冷静的；安静的；n. 平静；无风；镇静；沉着；v. 使平静；使镇静；安慰",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-051",
+            "term": "calm down",
+            "meaning": "冷静下来",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-052",
+            "term": "certain",
+            "meaning": "adj. 肯定的；某种的；pron. 某些；某几个",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-053",
+            "term": "for certain",
+            "meaning": "肯定地",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-054",
+            "term": "certainly",
+            "meaning": "adv. 无疑；确定",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-055",
+            "term": "uncertainty",
+            "meaning": "n. 不确定性",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-056",
+            "term": "sure",
+            "meaning": "adj. 确信的；有把握的；adv. 肯定；无疑",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-057",
+            "term": "make sure",
+            "meaning": "核实；确保",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-058",
+            "term": "for sure",
+            "meaning": "绝对；毫无疑问",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-059",
+            "term": "surely",
+            "meaning": "adv. 确定无疑；确定",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-060",
+            "term": "assure",
+            "meaning": "v. 向……保证；肯定地说",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-061",
+            "term": "assure sb. of sth.",
+            "meaning": "向某人保证某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-062",
+            "term": "ensure",
+            "meaning": "v. 确保",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-063",
+            "term": "insure",
+            "meaning": "v. 给……投保；给……保险",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-064",
+            "term": "insurance",
+            "meaning": "n. 保险；保险业；保险费；保险金",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-065",
+            "term": "social insurance",
+            "meaning": "社会保险",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-066",
+            "term": "life insurance",
+            "meaning": "人寿保险",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-067",
+            "term": "medical insurance",
+            "meaning": "医疗保险",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist14-068",
+            "term": "medical",
+            "meaning": "adj. 医学的；医疗的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 14",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List"
+          }
+        ]
+      },
+      {
+        "name": "Word List 15",
+        "count": 48,
+        "words": [
+          {
+            "id": "wordlist-20260627-v35-wordlist15-001",
+            "term": "place",
+            "meaning": "n. 位置；地点；名次；v. 放置；安放；排名次",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-002",
+            "term": "in the first place",
+            "meaning": "第一；首先",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-003",
+            "term": "in place",
+            "meaning": "在正确位置；准备妥当",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-004",
+            "term": "out of place",
+            "meaning": "位置不当",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-005",
+            "term": "palace",
+            "meaning": "n. 王宫；宫殿",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-006",
+            "term": "name",
+            "meaning": "v. 命名；给……取名；任命；n. 名字；名称",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-007",
+            "term": "surname",
+            "meaning": "n. 姓；绰号；v. 冠姓",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-008",
+            "term": "play",
+            "meaning": "v. 玩耍；吹奏；扮演",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-009",
+            "term": "play football",
+            "meaning": "踢足球",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-010",
+            "term": "play the guitar",
+            "meaning": "弹吉他",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-011",
+            "term": "player",
+            "meaning": "n. 运动员；演奏者",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-012",
+            "term": "wonder",
+            "meaning": "v. 想知道；想弄明白；n. 惊讶；惊异",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-013",
+            "term": "wander",
+            "meaning": "v./n. 漫步；徘徊；游荡；流浪",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-014",
+            "term": "word",
+            "meaning": "n. 单词；字；话语；消息",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-015",
+            "term": "in other words",
+            "meaning": "换句话说",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-016",
+            "term": "in a word",
+            "meaning": "简言之",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-017",
+            "term": "allow",
+            "meaning": "v. 允许；准许",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-018",
+            "term": "allow sb. to do",
+            "meaning": "允许某人做……",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-019",
+            "term": "allow doing sth.",
+            "meaning": "允许做某事",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-020",
+            "term": "allowance",
+            "meaning": "n. 津贴；补贴；补助；限额；v. 给……发津贴",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-021",
+            "term": "permit",
+            "meaning": "n. 许可证；特许证；v. 允许；准许",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-022",
+            "term": "permission",
+            "meaning": "n. 同意；准许",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-023",
+            "term": "matter",
+            "meaning": "n. 问题；事情；麻烦；v. 要紧；有关系",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-024",
+            "term": "as a matter of fact",
+            "meaning": "事实上；其实",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-025",
+            "term": "follow",
+            "meaning": "v. 跟随；跟着；理解",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-026",
+            "term": "as follows",
+            "meaning": "如下",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-027",
+            "term": "family",
+            "meaning": "n. 家庭；家族；家；亲属",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-028",
+            "term": "spirit",
+            "meaning": "n. 精神；魂魄；心灵",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-029",
+            "term": "soul",
+            "meaning": "n. 灵魂；精神",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-030",
+            "term": "wear",
+            "meaning": "v. 穿着；戴着",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-031",
+            "term": "wearable",
+            "meaning": "adj. 可穿用的；可穿戴的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-032",
+            "term": "clothes",
+            "meaning": "n. 衣服；服装",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-033",
+            "term": "cloth",
+            "meaning": "n. 布；织物",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-034",
+            "term": "swear",
+            "meaning": "v. 发誓；保证；诅咒；咒骂",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-035",
+            "term": "glass",
+            "meaning": "n. 玻璃；玻璃制品",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-036",
+            "term": "lens",
+            "meaning": "n. 透镜；镜片",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-037",
+            "term": "gas",
+            "meaning": "n. 气；气体",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-038",
+            "term": "oil",
+            "meaning": "n. 汽油；石油；油",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-039",
+            "term": "gasoline",
+            "meaning": "n. 汽油",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-040",
+            "term": "petrol",
+            "meaning": "n. 汽油",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-041",
+            "term": "petroleum",
+            "meaning": "n. 石油；原油",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-042",
+            "term": "mineral",
+            "meaning": "n. 矿；矿物；adj. 矿物的",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-043",
+            "term": "steam",
+            "meaning": "n. 蒸汽；水蒸气；动力；v. 冒出蒸汽；蒸煮；生气",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-044",
+            "term": "steamer",
+            "meaning": "n. 汽船；蒸锅；蒸笼",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-045",
+            "term": "stream",
+            "meaning": "n. 小河；小溪；流；v. 流；淌",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-046",
+            "term": "mainstream",
+            "meaning": "n. 主流",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-047",
+            "term": "boat",
+            "meaning": "n. 舟；小船；帆船；v. 荡舟；乘船游乐",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          },
+          {
+            "id": "wordlist-20260627-v35-wordlist15-048",
+            "term": "dragon boat",
+            "meaning": "龙舟",
+            "phrase": "",
+            "note": "来源：2026-06-27 Word List截图重整；Word List 15",
+            "tag": "Word List 15 / Word List",
+            "source": "Word List"
+          }
+        ]
       }
     ]
   },
   {
     "name": "四级",
-    "count": 148,
+    "count": 198,
     "children": [
       {
         "name": "四级 1",
@@ -11987,6 +16597,462 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "phrase": "",
             "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
             "tag": "四级 3 / 黑背景新导入",
+            "source": "四级"
+          }
+        ]
+      },
+      {
+        "name": "四级 4",
+        "count": 50,
+        "words": [
+          {
+            "id": "cet4-20260627-04-001",
+            "term": "inclination",
+            "meaning": "n. 意向；倾向；斜坡；斜度；点头",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-002",
+            "term": "inclined",
+            "meaning": "adj. 愿意……的；倾向于……的；倾斜的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-003",
+            "term": "ancestor",
+            "meaning": "n. 祖先；（动物）原种；原型",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-004",
+            "term": "ancestry",
+            "meaning": "n. 祖先；祖宗；世系；血统",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-005",
+            "term": "ancient",
+            "meaning": "adj. 古代的；古老的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-006",
+            "term": "consensus",
+            "meaning": "n. 一致看法；共识",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-007",
+            "term": "proceed",
+            "meaning": "v. 继续做；接着做；行进；前往",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-008",
+            "term": "proceeding",
+            "meaning": "n. 诉讼；一系列行动；（会议）记录",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-009",
+            "term": "procession",
+            "meaning": "n. 队伍；行列；游行；一连串",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-010",
+            "term": "troop",
+            "meaning": "n. 军队；部队；一群人；v. 成群结队而行；adj. 军队的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-011",
+            "term": "process",
+            "meaning": "n. 过程；流程；工序；v. 加工；处理；审阅；审核",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-012",
+            "term": "processor",
+            "meaning": "n. 处理器；加工者；加工机器",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-013",
+            "term": "procedure",
+            "meaning": "n. 步骤；程序；手术；治疗",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-014",
+            "term": "access",
+            "meaning": "n. 进入权；通道；使用权；v. 访问；存取；进入",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-015",
+            "term": "accessible",
+            "meaning": "adj. 易到达的；易得到的；易理解的；易相处的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-016",
+            "term": "assess",
+            "meaning": "v. 评估；估算",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-017",
+            "term": "assessment",
+            "meaning": "n. 评估；评价；估价",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-018",
+            "term": "exceed",
+            "meaning": "v. 超出（数量等）；超越（规定等）",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-019",
+            "term": "exceedingly",
+            "meaning": "adv. 极其；非常",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-020",
+            "term": "beyond",
+            "meaning": "prep. 在更远处；超出；晚于；无法……；adv. 在或往更远处",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-021",
+            "term": "surplus",
+            "meaning": "n. 过剩；过剩量；盈余；顺差；adj. 过剩的；剩余的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-022",
+            "term": "extra",
+            "meaning": "adj. 额外的；附加的；adv. 额外；另外；特别；格外；n. 另外收费的事物；临时演员",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-023",
+            "term": "excess",
+            "meaning": "n. 过多；过量；超过的部分；adj. 过多的；过量的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-024",
+            "term": "excessive",
+            "meaning": "adj. 过分的；过多的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-025",
+            "term": "success",
+            "meaning": "n. 成功；胜利；成功的人或事物",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-026",
+            "term": "successful",
+            "meaning": "adj. 成功的；有成效的；有成就的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-027",
+            "term": "succeed",
+            "meaning": "v. 成功；接替；继任；继承；随后出现",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-028",
+            "term": "succession",
+            "meaning": "n. 一连串；继承；继承权",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-029",
+            "term": "successive",
+            "meaning": "adj. 连续的；接连的；相继的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-030",
+            "term": "successor",
+            "meaning": "n. 接任者；继承者",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-031",
+            "term": "excel",
+            "meaning": "v. 突出；擅长；胜过（他人）；胜过平时",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-032",
+            "term": "excellent",
+            "meaning": "adj. 极好的；优秀的；棒极了",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-033",
+            "term": "excellence",
+            "meaning": "n. 优秀；卓越；杰出",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-034",
+            "term": "stride",
+            "meaning": "v. 大步走；阔步行走；n. 大步；进展；进步；步伐",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-035",
+            "term": "wander",
+            "meaning": "v. 闲逛；游荡；偏离（正道）；走失；走神；n. 闲逛；游荡",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-036",
+            "term": "crawl",
+            "meaning": "v. 爬；爬行；缓慢行进；巴结；n. 缓慢的速度；自由泳",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-037",
+            "term": "climb",
+            "meaning": "v. 爬；攀登；爬升；上升；增长；n. 攀登；增值",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-038",
+            "term": "progress",
+            "meaning": "n. 进步；进展；前进；v. 取得进步；前进；（时间）流逝",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-039",
+            "term": "progressive",
+            "meaning": "adj. 进步的；逐步发生的；进行式的；n. 进步人士；开明人士",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-040",
+            "term": "progression",
+            "meaning": "n. 进展；发展；演变",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-041",
+            "term": "congress",
+            "meaning": "n. 代表大会；国会",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-042",
+            "term": "congressional",
+            "meaning": "adj. 代表大会的；国会的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-043",
+            "term": "aggressive",
+            "meaning": "adj. 好斗的；有侵略性的；进取的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-044",
+            "term": "aggression",
+            "meaning": "n. 侵犯；侵略；好斗；攻击性",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-045",
+            "term": "move",
+            "meaning": "v. （使）移动；搬家；搬迁；改变；前进；进展；采取行动；使感动；n. 行动；移动；搬家；改变",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-046",
+            "term": "movement",
+            "meaning": "n. 动作；移动；运动；行踪；转变",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-047",
+            "term": "motion",
+            "meaning": "n. 运动；移动；动作；提议；v. 做动作；示意",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-048",
+            "term": "mobile",
+            "meaning": "adj. 可移动的；行动方便的；流动的；n. 手机；风铃；悬挂饰物",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-049",
+            "term": "static",
+            "meaning": "adj. 静止的；停滞的；静电的；n. 静电干扰；静电；指责；抱怨",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260627-04-050",
+            "term": "motive",
+            "meaning": "n. （行动的）动机；缘由；adj. 引起运动的；提供动力的",
+            "phrase": "",
+            "note": "来源：2026-06-27 四级词表截图导入",
+            "tag": "四级 4 / 四级",
             "source": "四级"
           }
         ]
