@@ -38,8 +38,9 @@ const PUBLIC_VIEWER_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("public") || 
 const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
+const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v35";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v36-study-time-cloud";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -4566,6 +4567,21 @@ function loadStudyTime() {
   }
 }
 
+function mergeStudyTimeForCloud(localValue, cloudValue) {
+  const local = normalizeStudyTime(localValue || {});
+  const cloud = normalizeStudyTime(cloudValue || {});
+  const today = todayKey();
+  return {
+    totalSeconds: Math.max(local.totalSeconds || 0, cloud.totalSeconds || 0),
+    todaySeconds: Math.max(
+      local.today === today ? local.todaySeconds || 0 : 0,
+      cloud.today === today ? cloud.todaySeconds || 0 : 0
+    ),
+    today,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
 function saveStudyTime() {
   try {
     localStorage.setItem(STUDY_TIME_KEY, JSON.stringify({
@@ -4642,7 +4658,11 @@ function tickStudyTime(forceSave = false) {
     renderStudyTime();
   }
   if (forceSave || studyTimeTracker.dirtySeconds >= 30) {
+    const hadDirtyStudyTime = studyTimeTracker.dirtySeconds > 0;
     saveStudyTime();
+    if (hadDirtyStudyTime && state.cloud?.config?.autoSync) {
+      autoSaveCloudSoon();
+    }
     studyTimeTracker.dirtySeconds = 0;
   }
 }
@@ -5200,7 +5220,18 @@ async function cloudRequest(functionName, payload) {
 }
 
 function cloudWordsPayload() {
-  return state.words.map((word) => normalizeWord(word));
+  tickStudyTime(true);
+  const studyMeta = {
+    id: CLOUD_STUDY_TIME_META_ID,
+    type: "study-time-meta",
+    term: "__学习时长同步数据__",
+    meaning: "系统数据：不要手动删除",
+    source: "Word List",
+    sources: ["Word List"],
+    studyTime: normalizeStudyTime(state.studyTime || {}),
+    updatedAt: new Date().toISOString(),
+  };
+  return [studyMeta, ...state.words.map((word) => normalizeWord(word))];
 }
 
 async function saveCloudNow(options = {}) {
@@ -5260,7 +5291,13 @@ async function loadCloudToLocal(options = {}) {
       p_pin: pin || null,
     });
     const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
-    state.words = incoming.map(normalizeWord);
+    const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
+    const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
+    state.words = wordRecords.map(normalizeWord);
+    if (studyMeta?.studyTime) {
+      state.studyTime = mergeStudyTimeForCloud(state.studyTime, studyMeta.studyTime);
+      saveStudyTime();
+    }
     suppressCloudSync = true;
     if (!publicView) {
       saveWords({ skipCloud: true });
