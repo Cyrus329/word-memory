@@ -39,8 +39,9 @@ const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
+const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v37-cloud-timeout-60s";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v38-cloud-rpc-compact";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -5221,17 +5222,17 @@ async function cloudRequest(functionName, payload) {
 
 function cloudWordsPayload() {
   tickStudyTime(true);
-  const studyMeta = {
-    id: CLOUD_STUDY_TIME_META_ID,
-    type: "study-time-meta",
-    term: "__学习时长同步数据__",
-    meaning: "系统数据：不要手动删除",
-    source: "Word List",
-    sources: ["Word List"],
+  // v38：云端只保存一个压缩包，避免 1800+ 单词逐条插入导致超时。
+  // 内置词条正文仍由网页自带；云端只同步掌握状态、重点、复习进度、自定义词和学习时长。
+  return [{
+    id: CLOUD_COMPACT_PAYLOAD_ID,
+    type: "word-memory-compact-cloud",
+    app: "专升本单词记忆",
+    version: 38,
     studyTime: normalizeStudyTime(state.studyTime || {}),
+    data: compactPayloadForStorage(state.words),
     updatedAt: new Date().toISOString(),
-  };
-  return [studyMeta, ...state.words.map((word) => normalizeWord(word))];
+  }];
 }
 
 async function saveCloudNow(options = {}) {
@@ -5251,10 +5252,10 @@ async function saveCloudNow(options = {}) {
     if (!silent) {
       setCloudStatus("正在保存到云端……");
     }
-    const result = await cloudRequest("save_study_cloud", {
+    const result = await cloudRequest("save_word_memory_cloud", {
       p_slug: toWordMemoryCloudSlug(config.slug),
       p_pin: config.pin,
-      p_records: cloudWordsPayload(),
+      p_words: cloudWordsPayload(),
       p_display_name: config.displayName || "专升本单词记忆",
       p_is_public: config.isPublic !== false,
     });
@@ -5286,17 +5287,26 @@ async function loadCloudToLocal(options = {}) {
     if (!options.silent) {
       setCloudStatus("正在从云端加载……");
     }
-    const data = await cloudRequest("load_study_cloud", {
+    const data = await cloudRequest("load_word_memory_cloud", {
       p_slug: toWordMemoryCloudSlug(slug),
       p_pin: pin || null,
     });
     const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
-    const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
-    const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
-    state.words = wordRecords.map(normalizeWord);
-    if (studyMeta?.studyTime) {
-      state.studyTime = mergeStudyTimeForCloud(state.studyTime, studyMeta.studyTime);
-      saveStudyTime();
+    const compactCloud = incoming.find((item) => item && item.id === CLOUD_COMPACT_PAYLOAD_ID && item.data?.compact);
+    if (compactCloud) {
+      state.words = loadCompactWords(compactCloud.data);
+      if (compactCloud.studyTime) {
+        state.studyTime = mergeStudyTimeForCloud(state.studyTime, compactCloud.studyTime);
+        saveStudyTime();
+      }
+    } else {
+      const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
+      const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
+      state.words = wordRecords.map(normalizeWord);
+      if (studyMeta?.studyTime) {
+        state.studyTime = mergeStudyTimeForCloud(state.studyTime, studyMeta.studyTime);
+        saveStudyTime();
+      }
     }
     suppressCloudSync = true;
     if (!publicView) {
@@ -5391,7 +5401,7 @@ async function connectSharedEditCloud() {
   }
   try {
     setCloudStatus("正在验证编辑密码……");
-    await cloudRequest("verify_study_cloud_pin", {
+    await cloudRequest("verify_word_memory_cloud_pin", {
       p_slug: toWordMemoryCloudSlug(config.slug),
       p_pin: config.pin,
     });
