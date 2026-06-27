@@ -27,7 +27,7 @@ const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
 const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
-const CLOUD_REQUEST_TIMEOUT_MS = 15000;
+const CLOUD_REQUEST_TIMEOUT_MS = 60000;
 const SUPABASE_URL = "https://fsizdxkwrxzopkoouipr.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BfWyJfb6c4GrV0JYLXejUg_QnkuhPvw";
 const DEFAULT_SHARE_BASE_URL = "https://your-name.github.io/word-memory/";
@@ -40,7 +40,7 @@ let suppressCloudSync = false;
 let cloudSyncTimer = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v36-study-time-cloud";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v37-cloud-timeout-60s";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -5211,7 +5211,7 @@ async function cloudRequest(functionName, payload) {
     return data;
   } catch (error) {
     if (error.name === "AbortError") {
-      throw new Error("云端连接超过 15 秒，请检查网络后再试");
+      throw new Error("云端连接超过 60 秒，请检查网络后再试；词库较大时建议换 Wi-Fi 再保存");
     }
     throw error;
   } finally {
