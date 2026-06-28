@@ -27,9 +27,10 @@ const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
 const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
+const SUPABASE_SETTINGS_KEY = "word-memory-trainer:supabase-settings:v1";
 const CLOUD_REQUEST_TIMEOUT_MS = 60000;
-const SUPABASE_URL = "https://fsizdxkwrxzopkoouipr.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BfWyJfb6c4GrV0JYLXejUg_QnkuhPvw";
+const DEFAULT_SUPABASE_URL = "https://fsizdxkwrxzopkoouipr.supabase.co";
+const DEFAULT_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BfWyJfb6c4GrV0JYLXejUg_QnkuhPvw";
 const DEFAULT_SHARE_BASE_URL = "https://your-name.github.io/word-memory/";
 const CLOUD_URL_PARAMS = typeof URLSearchParams !== "undefined"
   ? new URLSearchParams(window.location?.search || "")
@@ -40,11 +41,8 @@ let suppressCloudSync = false;
 let cloudSyncTimer = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
-const CLOUD_SCHEMA_VERSION = 2;
-const CLOUD_ITEM_CHUNK_SIZE = 180;
-const CLOUD_PROGRESS_CHUNK_SIZE = 360;
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v40-three-table-cloud";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v38-cloud-rpc-compact";
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -4012,6 +4010,8 @@ const els = {
   cloudNameInput: document.querySelector("#cloudNameInput"),
   cloudPinInput: document.querySelector("#cloudPinInput"),
   cloudPublicInput: document.querySelector("#cloudPublicInput"),
+  supabaseUrlInput: document.querySelector("#supabaseUrlInput"),
+  supabaseKeyInput: document.querySelector("#supabaseKeyInput"),
   shareBaseUrlInput: document.querySelector("#shareBaseUrlInput"),
   cloudStatus: document.querySelector("#cloudStatus"),
   toast: document.querySelector("#toast"),
@@ -4693,7 +4693,7 @@ function cloneBuiltinWord(word) {
 }
 
 function cloneBuiltinWords() {
-  return cleanupLegacyWordListMisimports(ALL_BUILTIN_WORDS.map(cloneBuiltinWord));
+  return ALL_BUILTIN_WORDS.map(cloneBuiltinWord);
 }
 
 function createEmptyProgress(source = {}) {
@@ -4879,7 +4879,7 @@ function compactPayloadForStorage(words) {
   });
   return {
     app: "专升本单词记忆",
-    version: 40,
+    version: 28,
     compact: true,
     savedAt: new Date().toISOString(),
     progress,
@@ -5130,6 +5130,56 @@ function normalizeShareBaseUrl(value) {
   }
 }
 
+function normalizeSupabaseUrl(value) {
+  const candidate = normalizeText(value);
+  if (!candidate) {
+    return "";
+  }
+  try {
+    const url = new URL(candidate);
+    if (url.protocol !== "https:" || !url.hostname.endsWith(".supabase.co")) {
+      return "";
+    }
+    url.pathname = "";
+    url.search = "";
+    url.hash = "";
+    return url.href.replace(/\/$/, "");
+  } catch {
+    return "";
+  }
+}
+
+function currentSupabaseSettings() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(SUPABASE_SETTINGS_KEY) || "{}");
+    const url = normalizeSupabaseUrl(saved.url) || DEFAULT_SUPABASE_URL;
+    const key = normalizeText(saved.key) || DEFAULT_SUPABASE_PUBLISHABLE_KEY;
+    return { url, key };
+  } catch {
+    return { url: DEFAULT_SUPABASE_URL, key: DEFAULT_SUPABASE_PUBLISHABLE_KEY };
+  }
+}
+
+function saveSupabaseSettingsFromDialog() {
+  const url = normalizeSupabaseUrl(els.supabaseUrlInput?.value || "");
+  const key = normalizeText(els.supabaseKeyInput?.value || "");
+  if (!url || !key) {
+    return { ok: false, message: "请填写 Supabase 项目地址和 anon public key" };
+  }
+  try {
+    localStorage.setItem(SUPABASE_SETTINGS_KEY, JSON.stringify({ url, key }));
+  } catch {
+    return { ok: false, message: "浏览器无法保存 Supabase 配置" };
+  }
+  if (els.supabaseUrlInput) {
+    els.supabaseUrlInput.value = url;
+  }
+  if (els.supabaseKeyInput) {
+    els.supabaseKeyInput.value = key;
+  }
+  return { ok: true, url, key };
+}
+
 function hydrateCloudDialog() {
   if (!els.cloudDialog) {
     return;
@@ -5148,6 +5198,13 @@ function hydrateCloudDialog() {
   if (els.cloudPublicInput) {
     els.cloudPublicInput.checked = config.isPublic !== false;
     els.cloudPublicInput.disabled = Boolean(PUBLIC_VIEWER_SLUG);
+  }
+  const supabaseSettings = currentSupabaseSettings();
+  if (els.supabaseUrlInput) {
+    els.supabaseUrlInput.value = supabaseSettings.url;
+  }
+  if (els.supabaseKeyInput) {
+    els.supabaseKeyInput.value = supabaseSettings.key;
   }
   if (els.shareBaseUrlInput) {
     els.shareBaseUrlInput.value = normalizeShareBaseUrl(els.shareBaseUrlInput.value || defaultShareBaseUrl());
@@ -5181,6 +5238,10 @@ function closeCloudDialog() {
 }
 
 function readCloudFormConfig() {
+  const supabaseSaved = saveSupabaseSettingsFromDialog();
+  if (!supabaseSaved.ok) {
+    setCloudStatus(supabaseSaved.message, "warn");
+  }
   const slug = normalizeCloudSlug(els.cloudSlugInput?.value || state.cloud.config.slug);
   const config = {
     slug,
@@ -5197,11 +5258,15 @@ async function cloudRequest(functionName, payload) {
   const controller = new AbortController();
   const timer = window.setTimeout(() => controller.abort(), CLOUD_REQUEST_TIMEOUT_MS);
   try {
-    const response = await fetch(`${SUPABASE_URL}/rest/v1/rpc/${functionName}`, {
+    const supabase = currentSupabaseSettings();
+    if (!supabase.url || !supabase.key) {
+      throw new Error("请先填写 Supabase 项目地址和 anon public key");
+    }
+    const response = await fetch(`${supabase.url}/rest/v1/rpc/${functionName}`, {
       method: "POST",
       headers: {
-        apikey: SUPABASE_PUBLISHABLE_KEY,
-        Authorization: `Bearer ${SUPABASE_PUBLISHABLE_KEY}`,
+        apikey: supabase.key,
+        Authorization: `Bearer ${supabase.key}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(payload),
@@ -5223,163 +5288,19 @@ async function cloudRequest(functionName, payload) {
   }
 }
 
-function compactPayloadForCloud(words) {
-  const builtinIds = new Set(ALL_BUILTIN_WORDS.map((word) => word.id));
-  const builtinTerms = new Set(ALL_BUILTIN_WORDS.map((word) => normalizeText(word.term).toLowerCase()));
-  const progress = [];
-  const customWords = [];
-  words.forEach((word) => {
-    const normalized = normalizeWord(word);
-    const isBuiltin = builtinIds.has(normalized.id) || builtinTerms.has(normalizeText(normalized.term).toLowerCase());
-    if (!isBuiltin) {
-      const custom = normalizeWord({ ...normalized, history: Array.isArray(normalized.history) ? normalized.history.slice(-3) : [] });
-      custom.progress = compactProgress(custom.progress);
-      customWords.push(custom);
-      return;
-    }
-    const record = compactWordRecord(normalized);
-    const hasMeaningfulProgress =
-      record.important ||
-      record.mastery !== "未学" ||
-      record.status !== "new" ||
-      record.stage !== -1 ||
-      Boolean(record.nextReviewAt) ||
-      Boolean(record.lastStudiedAt) ||
-      Object.keys(record.progress || {}).some((mode) => {
-        const item = record.progress[mode] || {};
-        return item.status !== "new" || item.stage !== -1 || item.nextReviewAt || item.lastStudiedAt;
-      });
-    if (hasMeaningfulProgress) {
-      progress.push(record);
-    }
-  });
-  return {
-    app: "专升本单词记忆",
-    version: 40,
-    compact: true,
-    cloudLite: true,
-    savedAt: new Date().toISOString(),
-    progress,
-    customWords,
-  };
-}
-
 function cloudWordsPayload() {
   tickStudyTime(true);
+  // v38：云端只保存一个压缩包，避免 1800+ 单词逐条插入导致超时。
+  // 内置词条正文仍由网页自带；云端只同步掌握状态、重点、复习进度、自定义词和学习时长。
   return [{
     id: CLOUD_COMPACT_PAYLOAD_ID,
     type: "word-memory-compact-cloud",
     app: "专升本单词记忆",
-    version: 40,
+    version: 39,
     studyTime: normalizeStudyTime(state.studyTime || {}),
-    data: compactPayloadForCloud(state.words),
+    data: compactPayloadForStorage(state.words),
     updatedAt: new Date().toISOString(),
   }];
-}
-
-function chunkArray(items, size) {
-  const chunks = [];
-  for (let i = 0; i < items.length; i += size) {
-    chunks.push(items.slice(i, i + size));
-  }
-  return chunks;
-}
-
-function cloudWordBody(word) {
-  const normalized = normalizeWord(word);
-  return {
-    id: normalized.id,
-    term: normalized.term,
-    meaning: normalized.meaning,
-    phrase: normalized.phrase,
-    note: normalized.note,
-    tag: normalized.tag,
-    source: normalized.source,
-    sources: Array.isArray(normalized.sources) ? normalized.sources : [],
-    forms: normalized.forms || {},
-    createdAt: normalized.createdAt || "",
-    updatedAt: normalized.updatedAt || "",
-  };
-}
-
-function cloudItemPayload(words) {
-  return words.map((word, index) => {
-    const body = cloudWordBody(word);
-    return {
-      item_id: body.id,
-      id: body.id,
-      term: body.term,
-      phonetic: body.note || "",
-      meaning: body.meaning || "",
-      phrase: body.phrase || "",
-      note: body.note || "",
-      tag: body.tag || "",
-      source: body.source || "",
-      sources: body.sources || [],
-      forms: body.forms || {},
-      sort_order: index + 1,
-      updated_at: body.updatedAt || new Date().toISOString(),
-      word: body,
-    };
-  });
-}
-
-function cloudProgressPayload(words) {
-  return words.map((word) => {
-    const normalized = normalizeWord(word);
-    return {
-      item_id: normalized.id,
-      id: normalized.id,
-      term: normalized.term,
-      ...compactWordRecord(normalized),
-    };
-  });
-}
-
-function cloudStudyTimePayload() {
-  tickStudyTime(true);
-  return normalizeStudyTime(state.studyTime || {});
-}
-
-function localCloudV2WordsFromData(data) {
-  const words = cloneBuiltinWords();
-  const byId = new Map(words.map((word) => [word.id, word]));
-  const byTerm = new Map(words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
-  const items = Array.isArray(data?.items) ? data.items : [];
-  items.forEach((item) => {
-    const raw = item?.word && typeof item.word === "object" ? item.word : item;
-    const word = normalizeWord({
-      ...raw,
-      id: raw.id || item.item_id || item.id,
-      term: raw.term || item.term || "",
-      meaning: raw.meaning || item.meaning || "",
-      phrase: raw.phrase || item.phrase || "",
-      note: raw.note || item.note || item.phonetic || "",
-      tag: raw.tag || item.tag || "",
-      source: raw.source || item.source || "Word List",
-      sources: raw.sources || item.sources || undefined,
-      forms: raw.forms || item.forms || undefined,
-    });
-    const key = normalizeText(word.term).toLowerCase();
-    const existing = byId.get(word.id) || byTerm.get(key);
-    if (existing) {
-      Object.assign(existing, cloudWordBody(word));
-      existing.source = word.source;
-      existing.sources = word.sources;
-      existing.forms = word.forms;
-    } else {
-      words.push(word);
-      byId.set(word.id, word);
-      byTerm.set(key, word);
-    }
-  });
-  const progressRows = Array.isArray(data?.progress) ? data.progress : [];
-  progressRows.forEach((item) => {
-    const key = normalizeText(item.term).toLowerCase();
-    const target = byId.get(item.item_id || item.id) || byTerm.get(key);
-    if (target) applyCompactProgress(target, item);
-  });
-  return applyBuiltinWords(words);
 }
 
 async function saveCloudNow(options = {}) {
@@ -5399,45 +5320,20 @@ async function saveCloudNow(options = {}) {
     if (!silent) {
       setCloudStatus("正在保存到云端……");
     }
-    await cloudRequest("save_word_cloud_deck", {
+    const result = await cloudRequest("save_word_memory_cloud", {
       p_slug: toWordMemoryCloudSlug(config.slug),
       p_pin: config.pin,
+      p_words: cloudWordsPayload(),
       p_display_name: config.displayName || "专升本单词记忆",
       p_is_public: config.isPublic !== false,
-      p_schema_version: CLOUD_SCHEMA_VERSION,
     });
-
-    const progressOnly = Boolean(options.progressOnly);
-    if (!progressOnly) {
-      const itemChunks = chunkArray(cloudItemPayload(state.words), CLOUD_ITEM_CHUNK_SIZE);
-      for (let i = 0; i < itemChunks.length; i += 1) {
-        if (!silent) setCloudStatus(`正在上传词库正文 ${i + 1}/${itemChunks.length}……`);
-        await cloudRequest("save_word_cloud_items", {
-          p_slug: toWordMemoryCloudSlug(config.slug),
-          p_pin: config.pin,
-          p_items: itemChunks[i],
-        });
-      }
-    }
-
-    const progressChunks = chunkArray(cloudProgressPayload(state.words), CLOUD_PROGRESS_CHUNK_SIZE);
-    for (let i = 0; i < progressChunks.length; i += 1) {
-      if (!silent) setCloudStatus(`正在同步学习进度 ${i + 1}/${progressChunks.length}……`);
-      await cloudRequest("save_word_cloud_progress", {
-        p_slug: toWordMemoryCloudSlug(config.slug),
-        p_pin: config.pin,
-        p_progress: progressChunks[i],
-        p_study_time: i === 0 ? cloudStudyTimePayload() : null,
-      });
-    }
-
     state.cloud.config = { ...config, autoSync: true };
     saveCloudConfig(state.cloud.config);
     if (!silent) {
-      setCloudStatus(`已保存到云端：${state.cloud.config.slug}。词库、单词、进度已分表保存。`, "ok");
+      setCloudStatus(`已保存到云端：${state.cloud.config.slug}`, "ok");
       showToast("已保存并开启云同步");
     }
-    return true;
+    return result;
   } catch (error) {
     if (!silent) {
       setCloudStatus(error.message || "云同步失败", "warn");
@@ -5463,29 +5359,21 @@ async function loadCloudToLocal(options = {}) {
       p_slug: toWordMemoryCloudSlug(slug),
       p_pin: pin || null,
     });
-    if (data?.cloud_v2) {
-      state.words = localCloudV2WordsFromData(data);
-      if (data?.study_time) {
-        state.studyTime = mergeStudyTimeForCloud(state.studyTime, data.study_time);
+    const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
+    const compactCloud = incoming.find((item) => item && item.id === CLOUD_COMPACT_PAYLOAD_ID && item.data?.compact);
+    if (compactCloud) {
+      state.words = loadCompactWords(compactCloud.data);
+      if (compactCloud.studyTime) {
+        state.studyTime = mergeStudyTimeForCloud(state.studyTime, compactCloud.studyTime);
         saveStudyTime();
       }
     } else {
-      const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
-      const compactCloud = incoming.find((item) => item && item.id === CLOUD_COMPACT_PAYLOAD_ID && item.data?.compact);
-      if (compactCloud) {
-        state.words = loadCompactWords(compactCloud.data);
-        if (compactCloud.studyTime) {
-          state.studyTime = mergeStudyTimeForCloud(state.studyTime, compactCloud.studyTime);
-          saveStudyTime();
-        }
-      } else {
-        const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
-        const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
-        state.words = wordRecords.map(normalizeWord);
-        if (studyMeta?.studyTime) {
-          state.studyTime = mergeStudyTimeForCloud(state.studyTime, studyMeta.studyTime);
-          saveStudyTime();
-        }
+      const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
+      const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
+      state.words = wordRecords.map(normalizeWord);
+      if (studyMeta?.studyTime) {
+        state.studyTime = mergeStudyTimeForCloud(state.studyTime, studyMeta.studyTime);
+        saveStudyTime();
       }
     }
     suppressCloudSync = true;
@@ -5528,7 +5416,7 @@ function autoSaveCloudSoon() {
   }
   window.clearTimeout(cloudSyncTimer);
   cloudSyncTimer = window.setTimeout(() => {
-    saveCloudNow({ silent: true, progressOnly: true });
+    saveCloudNow({ silent: true });
   }, 1000);
 }
 
@@ -6861,75 +6749,6 @@ function deleteWord(id) {
   showToast("已删除");
 }
 
-function importPayloadWords(parsed) {
-  if (Array.isArray(parsed)) {
-    return parsed;
-  }
-  if (Array.isArray(parsed?.words)) {
-    return parsed.words;
-  }
-  if (parsed && parsed.compact) {
-    return loadCompactWords(parsed);
-  }
-  if (parsed?.data && parsed.data.compact) {
-    return loadCompactWords(parsed.data);
-  }
-  return null;
-}
-
-function copyLearningState(target, existing) {
-  if (!target || !existing) return target;
-  target.mastery = existing.mastery || target.mastery || "未学";
-  target.important = Boolean(existing.important);
-  target.status = existing.status || target.status || "new";
-  target.stage = Number.isInteger(existing.stage) ? existing.stage : target.stage;
-  target.nextReviewAt = existing.nextReviewAt || target.nextReviewAt || "";
-  target.lastStudiedAt = existing.lastStudiedAt || target.lastStudiedAt || "";
-  target.history = Array.isArray(existing.history) ? existing.history.slice(-8) : [];
-  target.progress = normalizeModeProgress(existing);
-  target.updatedAt = existing.updatedAt || target.updatedAt || new Date().toISOString();
-  return normalizeWord(target);
-}
-
-function importAsFullUpdate(records, parsed = {}) {
-  const currentById = new Map(state.words.map((word) => [word.id, word]));
-  const currentByTerm = new Map(state.words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
-  const importedIds = new Set();
-  const importedTerms = new Set();
-  const merged = [];
-  records.map(normalizeWord).forEach((word) => {
-    if (!word.term) return;
-    const key = normalizeText(word.term).toLowerCase();
-    const existing = currentById.get(word.id) || currentByTerm.get(key);
-    const next = parsed.preserveProgress === false ? word : copyLearningState(word, existing);
-    importedIds.add(next.id);
-    importedTerms.add(key);
-    merged.push(next);
-  });
-  if (parsed.keepCustomWords !== false) {
-    state.words.forEach((word) => {
-      const key = normalizeText(word.term).toLowerCase();
-      if (!importedIds.has(word.id) && !importedTerms.has(key)) {
-        merged.push(normalizeWord(word));
-      }
-    });
-  }
-  state.words = cleanupLegacyWordListMisimports(merged);
-  if (parsed.studyTime) {
-    state.studyTime = mergeStudyTimeForCloud(state.studyTime, parsed.studyTime);
-    saveStudyTime();
-  }
-  try {
-    localStorage.setItem(BUILTIN_PACKAGE_KEY, "1");
-  } catch {
-    // ignore
-  }
-  saveWords();
-  setActiveId(null);
-  resetTypingState();
-  render();
-}
-
 function exportWords() {
   const payload = {
     app: "专升本单词记忆",
@@ -6960,30 +6779,21 @@ async function importWords(event) {
   try {
     const text = await file.text();
     const parsed = JSON.parse(text);
-    const incoming = importPayloadWords(parsed);
+    const incoming = Array.isArray(parsed) ? parsed : parsed.words;
     if (!Array.isArray(incoming)) {
       throw new Error("Invalid file");
     }
     const records = incoming.map(normalizeWord);
-    if (parsed.importMode === "full-update-preserve-progress") {
-      importAsFullUpdate(records, parsed);
-      showToast(`整体更新完成：${state.words.length} 个词条`);
-      return;
-    }
     const replace = confirm("确定替换当前词库？取消则合并导入。");
     if (replace) {
-      state.words = cleanupLegacyWordListMisimports(records);
+      state.words = records;
     } else {
       const ids = new Set(state.words.map((word) => word.id));
-      const terms = new Set(state.words.map((word) => normalizeText(word.term).toLowerCase()));
-      state.words = cleanupLegacyWordListMisimports([
-        ...records.filter((word) => !ids.has(word.id) && !terms.has(normalizeText(word.term).toLowerCase())),
-        ...state.words,
-      ]);
+      state.words = [...records.filter((word) => !ids.has(word.id)), ...state.words];
     }
     saveWords();
     if (parsed.studyTime) {
-      state.studyTime = mergeStudyTimeForCloud(state.studyTime, parsed.studyTime);
+      state.studyTime = normalizeStudyTime(parsed.studyTime);
       saveStudyTime();
     }
     setActiveId(null);
@@ -7138,6 +6948,17 @@ function wireEvents() {
   els.cancelCloudButton?.addEventListener("click", closeCloudDialog);
   els.cloudSlugInput?.addEventListener("blur", () => {
     els.cloudSlugInput.value = normalizeCloudSlug(els.cloudSlugInput.value);
+  });
+  els.supabaseUrlInput?.addEventListener("blur", () => {
+    const normalized = normalizeSupabaseUrl(els.supabaseUrlInput.value);
+    if (normalized) {
+      els.supabaseUrlInput.value = normalized;
+    }
+    saveSupabaseSettingsFromDialog();
+  });
+  els.supabaseKeyInput?.addEventListener("blur", () => {
+    els.supabaseKeyInput.value = normalizeText(els.supabaseKeyInput.value);
+    saveSupabaseSettingsFromDialog();
   });
   els.shareBaseUrlInput?.addEventListener("blur", () => {
     els.shareBaseUrlInput.value = normalizeShareBaseUrl(els.shareBaseUrlInput.value);

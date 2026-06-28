@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=40">
+  <link rel="stylesheet" href="./styles.css?v=38">
 </head>
 <body>
   <div class="app-shell">
@@ -323,7 +323,7 @@
         </div>
         <button class="icon-button secondary" type="button" id="closeCloudButton" aria-label="关闭">×</button>
       </div>
-      <p class="cloud-intro">本机仍会保存数据；开启后，词库信息、单词正文、学习进度会分成 3 张表同步，后续复习只同步进度和时长。</p>
+      <p class="cloud-intro">本机仍会保存数据；开启后，新增、复习、删除和导入都会自动同步到同一份云端词库。</p>
       <div class="cloud-grid">
         <label>
           <span>公开编号</span>
@@ -340,6 +340,14 @@
         <label class="toggle-line">
           <input id="cloudPublicInput" type="checkbox" checked>
           <span>允许公开链接查看</span>
+        </label>
+        <label class="wide">
+          <span>Supabase 项目地址</span>
+          <input id="supabaseUrlInput" type="url" autocomplete="url" placeholder="https://xxxx.supabase.co">
+        </label>
+        <label class="wide">
+          <span>Supabase anon public key</span>
+          <input id="supabaseKeyInput" type="text" autocomplete="off" placeholder="sb_publishable_... 或 eyJ...">
         </label>
         <label class="wide">
           <span>网页地址</span>
@@ -359,19 +367,19 @@
     </form>
   </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./supplemental-words.js?v=40"></script>
-  <script src="./supplemental-words-batch2.js?v=40"></script>
-  <script src="./supplemental-words-batch3.js?v=40"></script>
-  <script src="./supplemental-words-batch4.js?v=40"></script>
-  <script src="./supplemental-words-batch5.js?v=40"></script>
-  <script src="./supplemental-words-batch6.js?v=40"></script>
-  <script src="./supplemental-words-batch7.js?v=40"></script>
-  <script src="./supplemental-words-batch8.js?v=40"></script>
-  <script src="./supplemental-words-batch9.js?v=40"></script>
-  <script src="./library-folder-data.js?v=40"></script>
-  <script src="./app.js?v=40"></script>
-  <script src="./folder-view.js?v=40"></script>
-  <script src="./smart-vocab.js?v=40"></script>
+  <script src="./supplemental-words.js?v=38"></script>
+  <script src="./supplemental-words-batch2.js?v=38"></script>
+  <script src="./supplemental-words-batch3.js?v=38"></script>
+  <script src="./supplemental-words-batch4.js?v=38"></script>
+  <script src="./supplemental-words-batch5.js?v=38"></script>
+  <script src="./supplemental-words-batch6.js?v=38"></script>
+  <script src="./supplemental-words-batch7.js?v=38"></script>
+  <script src="./supplemental-words-batch8.js?v=38"></script>
+  <script src="./supplemental-words-batch9.js?v=38"></script>
+  <script src="./library-folder-data.js?v=38"></script>
+  <script src="./app.js?v=38"></script>
+  <script src="./folder-view.js?v=38"></script>
+  <script src="./smart-vocab.js?v=38"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));
