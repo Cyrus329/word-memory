@@ -4081,11 +4081,18 @@ const state = {
   gazeControl: {
     enabled: false,
     starting: false,
+    mode: "",
     lastZone: "center",
     lastTargetKey: "",
     zoneStartedAt: 0,
     cooldownUntil: 0,
     dwellMs: 1000,
+    fallbackStream: null,
+    fallbackVideo: null,
+    fallbackCanvas: null,
+    fallbackTimer: null,
+    fallbackBaseline: null,
+    fallbackSamples: [],
   },
   reviewUndo: null,
   query: "",
@@ -5813,35 +5820,101 @@ function updateGazeGuidePosition() {
   els.gazeGuide.style.setProperty("--gaze-center-top", `${Math.round(centerTop)}px`);
 }
 
-function loadExternalScript(src) {
+function loadExternalScript(src, timeoutMs = 12000) {
   return new Promise((resolve, reject) => {
-    if (document.querySelector(`script[data-dynamic-src="${src}"]`)) {
+    if (window.webgazer && typeof window.webgazer.setGazeListener === "function") {
       resolve();
       return;
     }
+    const existing = document.querySelector(`script[data-dynamic-src="${src}"]`);
+    if (existing) existing.remove();
     const script = document.createElement("script");
+    let done = false;
+    const timer = window.setTimeout(() => {
+      if (done) return;
+      done = true;
+      script.remove();
+      reject(new Error(`脚本加载超时：${src}`));
+    }, timeoutMs);
     script.src = src;
     script.async = true;
+    script.crossOrigin = "anonymous";
     script.dataset.dynamicSrc = src;
-    script.onload = () => resolve();
-    script.onerror = () => reject(new Error("脚本加载失败"));
+    script.onload = () => {
+      if (done) return;
+      done = true;
+      window.clearTimeout(timer);
+      resolve();
+    };
+    script.onerror = () => {
+      if (done) return;
+      done = true;
+      window.clearTimeout(timer);
+      script.remove();
+      reject(new Error(`脚本加载失败：${src}`));
+    };
     document.head.appendChild(script);
   });
+}
+
+function isCameraSecureContext() {
+  return window.isSecureContext || location.protocol === "https:" || location.hostname === "localhost" || location.hostname === "127.0.0.1";
+}
+
+async function requestGazeCameraStream() {
+  if (!isCameraSecureContext()) {
+    throw new Error("摄像头只能在 HTTPS 网页或本机 localhost 使用，不能直接用 D 盘文件稳定开启");
+  }
+  if (!navigator.mediaDevices || typeof navigator.mediaDevices.getUserMedia !== "function") {
+    throw new Error("当前浏览器不支持摄像头权限接口");
+  }
+  try {
+    return await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: "user", width: { ideal: 320 }, height: { ideal: 240 } },
+      audio: false,
+    });
+  } catch (error) {
+    const name = error && error.name ? error.name : "";
+    if (name === "NotAllowedError" || name === "PermissionDeniedError") {
+      throw new Error("浏览器拒绝了摄像头权限：点地址栏左边小锁/网站设置，把摄像头改成允许");
+    }
+    if (name === "NotFoundError" || name === "DevicesNotFoundError") {
+      throw new Error("没有检测到可用摄像头");
+    }
+    if (name === "NotReadableError" || name === "TrackStartError") {
+      throw new Error("摄像头正在被其他软件占用，先关闭微信/钉钉/相机/会议软件再试");
+    }
+    throw new Error(error?.message || "摄像头开启失败");
+  }
+}
+
+function stopMediaStream(stream) {
+  try {
+    stream?.getTracks?.().forEach((track) => track.stop());
+  } catch (error) {}
 }
 
 async function ensureWebGazer() {
   if (window.webgazer && typeof window.webgazer.setGazeListener === "function") {
     return window.webgazer;
   }
-  try {
-    await loadExternalScript("https://webgazer.cs.brown.edu/webgazer.js");
-  } catch (firstError) {
-    await loadExternalScript("https://cdn.jsdelivr.net/npm/webgazer@2.1.1/dist/webgazer.min.js");
+  const sources = [
+    "https://webgazer.cs.brown.edu/webgazer.js",
+    "https://cdn.jsdelivr.net/npm/webgazer@2.1.1/dist/webgazer.min.js",
+    "https://unpkg.com/webgazer@2.1.1/dist/webgazer.min.js",
+    "https://cdn.jsdelivr.net/npm/webgazer/dist/webgazer.min.js",
+  ];
+  const errors = [];
+  for (const src of sources) {
+    try {
+      await loadExternalScript(src);
+      if (window.webgazer && typeof window.webgazer.setGazeListener === "function") return window.webgazer;
+      errors.push(`${src} 未生成 webgazer`);
+    } catch (error) {
+      errors.push(error?.message || String(error));
+    }
   }
-  if (!window.webgazer || typeof window.webgazer.setGazeListener !== "function") {
-    throw new Error("当前浏览器不支持眼神识别库");
-  }
-  return window.webgazer;
+  throw new Error(`眼神识别库加载失败，已切换备用模式。${errors.slice(0, 2).join("；")}`);
 }
 
 function readableGazeActionLabel(button) {
@@ -5894,22 +5967,38 @@ function stopGazeControl(message = "已关闭眼神翻词") {
   const control = state.gazeControl;
   control.enabled = false;
   control.starting = false;
+  control.mode = "";
   control.lastZone = "center";
   control.lastTargetKey = "";
   control.zoneStartedAt = 0;
   control.cooldownUntil = 0;
+  control.fallbackBaseline = null;
+  control.fallbackSamples = [];
+  if (control.fallbackTimer) {
+    window.cancelAnimationFrame(control.fallbackTimer);
+    control.fallbackTimer = null;
+  }
+  stopMediaStream(control.fallbackStream);
+  control.fallbackStream = null;
+  if (control.fallbackVideo) {
+    try { control.fallbackVideo.pause?.(); } catch (error) {}
+    control.fallbackVideo.srcObject = null;
+    control.fallbackVideo.remove();
+    control.fallbackVideo = null;
+  }
+  if (control.fallbackCanvas) {
+    control.fallbackCanvas.remove();
+    control.fallbackCanvas = null;
+  }
   if (window.webgazer) {
     try { window.webgazer.clearGazeListener?.(); } catch (error) {}
     try { window.webgazer.pause?.(); } catch (error) {}
     try { window.webgazer.showVideoPreview?.(false); } catch (error) {}
     try { window.webgazer.showPredictionPoints?.(false); } catch (error) {}
   }
-  if (els.gazePanel) {
-    els.gazePanel.hidden = true;
-  }
-  if (els.gazeGuide) {
-    els.gazeGuide.hidden = true;
-  }
+  if (els.gazePanel) els.gazePanel.hidden = true;
+  if (els.gazeGuide) els.gazeGuide.hidden = true;
+  clearGazeHover();
   updateGazeButton();
   if (message) showToast(message);
 }
@@ -5926,17 +6015,16 @@ function clearGazeHover() {
   document.querySelectorAll(".gaze-hover").forEach((node) => node.classList.remove("gaze-hover"));
 }
 
-function handleGazePoint(data) {
+function handleResolvedGazeTarget(target, emptyMessage = "看准按钮 1 秒：记完、模糊、忘了、撤回、释义、发音都能直接触发。") {
   const control = state.gazeControl;
   if (!control.enabled) return;
   const now = Date.now();
   if (now < control.cooldownUntil) return;
-  const target = gazeTargetFromPoint(data);
   if (!target) {
     clearGazeHover();
     control.lastTargetKey = "";
     control.zoneStartedAt = now;
-    setGazeStatus("看准按钮 1 秒：记完、模糊、忘了、撤回、释义、发音都能直接触发。", "");
+    setGazeStatus(emptyMessage, "");
     return;
   }
   const key = `${target.action}:${target.label}`;
@@ -5958,6 +6046,115 @@ function handleGazePoint(data) {
   }
 }
 
+function handleGazePoint(data) {
+  handleResolvedGazeTarget(gazeTargetFromPoint(data));
+}
+
+function buttonTargetByAction(action) {
+  const button = els.activeCard?.querySelector(`[data-card-action="${action}"]`);
+  if (!button || button.disabled || button.offsetParent === null) return null;
+  return { action, label: readableGazeActionLabel(button), button };
+}
+
+function fallbackTargetFromDirection(dx, dy) {
+  const neutralX = Math.abs(dx) < 0.028;
+  const neutralY = Math.abs(dy) < 0.032;
+  if (neutralX && neutralY) return null;
+  const col = dx < -0.028 ? 0 : (dx > 0.028 ? 2 : 1);
+  const row = dy > 0.038 ? 1 : 0;
+  const actions = row === 0 ? ["remember", "fuzzy", "forgot"] : ["undo-review", "speak", "speak-uk"];
+  return buttonTargetByAction(actions[col]);
+}
+
+function estimateEyeDirectionFromVideo(video, canvas, control) {
+  const width = 160;
+  const height = 120;
+  canvas.width = width;
+  canvas.height = height;
+  const ctx = canvas.getContext("2d", { willReadFrequently: true });
+  if (!ctx || video.readyState < 2) return null;
+  try { ctx.drawImage(video, 0, 0, width, height); } catch (error) { return null; }
+  const rx = Math.round(width * 0.22);
+  const ry = Math.round(height * 0.22);
+  const rw = Math.round(width * 0.56);
+  const rh = Math.round(height * 0.34);
+  const image = ctx.getImageData(rx, ry, rw, rh);
+  const data = image.data;
+  const grays = [];
+  for (let i = 0; i < data.length; i += 4) {
+    grays.push(data[i] * 0.299 + data[i + 1] * 0.587 + data[i + 2] * 0.114);
+  }
+  if (!grays.length) return null;
+  const sorted = grays.slice().sort((a, b) => a - b);
+  const threshold = sorted[Math.floor(sorted.length * 0.22)] + 10;
+  let total = 0, sx = 0, sy = 0, p = 0;
+  for (let y = 0; y < rh; y += 1) {
+    for (let x = 0; x < rw; x += 1) {
+      const gray = grays[p++];
+      if (gray <= threshold) {
+        const weight = Math.max(1, threshold - gray);
+        total += weight;
+        sx += x * weight;
+        sy += y * weight;
+      }
+    }
+  }
+  if (total < 80) return null;
+  const nx = sx / total / rw;
+  const ny = sy / total / rh;
+  if (!control.fallbackBaseline) {
+    control.fallbackSamples.push({ nx, ny });
+    if (control.fallbackSamples.length < 12) {
+      setGazeStatus(`备用眼控校准中 ${control.fallbackSamples.length}/12：正视单词，不要动`, "");
+      return null;
+    }
+    const sum = control.fallbackSamples.reduce((acc, item) => ({ x: acc.x + item.nx, y: acc.y + item.ny }), { x: 0, y: 0 });
+    control.fallbackBaseline = { x: sum.x / control.fallbackSamples.length, y: sum.y / control.fallbackSamples.length };
+    setGazeStatus("备用眼控已开启：看上排触发记完/模糊/忘了，看下排触发撤回/美音/英音。", "ok");
+    return null;
+  }
+  return { dx: nx - control.fallbackBaseline.x, dy: ny - control.fallbackBaseline.y };
+}
+
+async function startLocalGazeFallback(reason = "标准眼神识别不可用") {
+  const control = state.gazeControl;
+  const stream = await requestGazeCameraStream();
+  const video = document.createElement("video");
+  video.muted = true;
+  video.playsInline = true;
+  video.autoplay = true;
+  video.srcObject = stream;
+  video.style.position = "fixed";
+  video.style.left = "-9999px";
+  video.style.width = "1px";
+  video.style.height = "1px";
+  const canvas = document.createElement("canvas");
+  canvas.hidden = true;
+  document.body.append(video, canvas);
+  await video.play().catch(() => {});
+  control.fallbackStream = stream;
+  control.fallbackVideo = video;
+  control.fallbackCanvas = canvas;
+  control.fallbackBaseline = null;
+  control.fallbackSamples = [];
+  control.mode = "fallback";
+  control.enabled = true;
+  control.starting = false;
+  control.cooldownUntil = Date.now() + 1200;
+  setGazeStatus(`${reason}，已启用本机备用眼控。先正视单词 1 秒校准。`, "warn");
+  const tick = () => {
+    if (!control.enabled || control.mode !== "fallback") return;
+    const estimate = estimateEyeDirectionFromVideo(video, canvas, control);
+    if (estimate) {
+      handleResolvedGazeTarget(fallbackTargetFromDirection(estimate.dx, estimate.dy), "备用眼控：正视不操作；看左/中/右和上/下两排按钮区域 1 秒触发。");
+    }
+    control.fallbackTimer = window.requestAnimationFrame(tick);
+  };
+  tick();
+  updateGazeButton();
+  showToast("已启用备用眼控模式");
+}
+
 async function startGazeControl() {
   const control = state.gazeControl;
   if (control.enabled || control.starting) {
@@ -5965,12 +6162,16 @@ async function startGazeControl() {
     return;
   }
   control.starting = true;
+  control.mode = "starting";
   updateGazeButton();
-  if (els.gazePanel) {
-    els.gazePanel.hidden = false;
-  }
-  setGazeStatus("正在请求摄像头权限。首次使用需要允许摄像头。", "");
+  if (els.gazePanel) els.gazePanel.hidden = false;
+  setGazeStatus("正在检查摄像头权限。首次使用请点允许。", "");
+  let permissionStream = null;
   try {
+    permissionStream = await requestGazeCameraStream();
+    stopMediaStream(permissionStream);
+    permissionStream = null;
+    setGazeStatus("摄像头已允许，正在加载眼神识别库。", "");
     const webgazer = await ensureWebGazer();
     try { webgazer.showVideoPreview?.(false); } catch (error) {}
     try { webgazer.showPredictionPoints?.(false); } catch (error) {}
@@ -5978,11 +6179,10 @@ async function startGazeControl() {
     try { webgazer.showFaceFeedbackBox?.(false); } catch (error) {}
     webgazer.setGazeListener((data) => handleGazePoint(data));
     const result = webgazer.begin();
-    if (result && typeof result.then === "function") {
-      await result;
-    }
+    if (result && typeof result.then === "function") await result;
     control.enabled = true;
     control.starting = false;
+    control.mode = "webgazer";
     control.lastZone = "center";
     control.lastTargetKey = "";
     control.zoneStartedAt = Date.now();
@@ -5990,12 +6190,20 @@ async function startGazeControl() {
     setGazeStatus("已开启：直接盯住卡片里的按钮 1 秒即可触发。", "ok");
     showToast("眼神翻词已开启");
   } catch (error) {
-    control.enabled = false;
-    control.starting = false;
-    if (els.gazePanel) els.gazePanel.hidden = true;
-    if (els.gazeGuide) els.gazeGuide.hidden = true;
-    setGazeStatus("开启失败：请确认正在使用 https 网页、浏览器已允许摄像头；若仍失败，多半是眼神识别库加载失败。", "warn");
-    showToast("眼神翻词开启失败：摄像头权限/浏览器/CDN库任一项失败都会这样，先不影响背词");
+    stopMediaStream(permissionStream);
+    try {
+      await startLocalGazeFallback(error?.message || "标准眼神识别不可用");
+      return;
+    } catch (fallbackError) {
+      control.enabled = false;
+      control.starting = false;
+      control.mode = "";
+      if (els.gazePanel) els.gazePanel.hidden = false;
+      if (els.gazeGuide) els.gazeGuide.hidden = true;
+      const message = fallbackError?.message || error?.message || "眼神翻词开启失败";
+      setGazeStatus(`开启失败：${message}`, "warn");
+      showToast(`眼神翻词开启失败：${message}`);
+    }
   }
   updateGazeButton();
 }
