@@ -4086,9 +4086,9 @@ const state = {
     lastTargetKey: "",
     zoneStartedAt: 0,
     cooldownUntil: 0,
-    dwellMs: 1800,
-    safeDwellMs: 1300,
-    confirmDwellMs: 1100,
+    dwellMs: 2400,
+    safeDwellMs: 2000,
+    confirmDwellMs: 1600,
     pendingTargetKey: "",
     pendingTargetLabel: "",
     pendingUntil: 0,
@@ -4098,6 +4098,16 @@ const state = {
     fallbackTimer: null,
     fallbackBaseline: null,
     fallbackSamples: [],
+  },
+  fingerControl: {
+    enabled: false,
+    pointerId: null,
+    startX: 0,
+    startY: 0,
+    startedAt: 0,
+    pendingAction: "",
+    pendingLabel: "",
+    pendingUntil: 0,
   },
   reviewUndo: null,
   query: "",
@@ -5780,8 +5790,8 @@ function rememberReviewUndo(word, action) {
 }
 
 
-const GAZE_PROTECTED_ACTIONS = new Set(["remember", "fuzzy", "forgot", "undo-review"]);
-const GAZE_SAFE_ACTIONS = new Set(["show", "speak", "speak-uk"]);
+const GAZE_PROTECTED_ACTIONS = new Set(["remember", "fuzzy", "forgot", "undo-review", "show", "speak", "speak-uk"]);
+const GAZE_SAFE_ACTIONS = new Set([]);
 
 function isProtectedGazeAction(action) {
   return GAZE_PROTECTED_ACTIONS.has(action);
@@ -5806,10 +5816,11 @@ function setGazeStatus(message, tone = "") {
 
 function updateGazeButton() {
   if (!els.gazeControlButton) return;
-  const active = Boolean(state.gazeControl?.enabled || state.gazeControl?.starting);
+  const active = Boolean(state.fingerControl?.enabled);
   els.gazeControlButton.classList.toggle("active", active);
-  document.body.classList.toggle("gaze-active", active);
-  els.gazeControlButton.innerHTML = active ? '<span aria-hidden="true">👁</span> 关闭眼神' : '<span aria-hidden="true">👁</span> 眼神翻词';
+  document.body.classList.toggle("finger-active", active);
+  document.body.classList.remove("gaze-active");
+  els.gazeControlButton.innerHTML = active ? '<span aria-hidden="true">☝</span> 关闭手指' : '<span aria-hidden="true">☝</span> 手指已关闭';
 }
 
 function clampNumber(value, min, max) {
@@ -5840,7 +5851,7 @@ function updateGazeGuidePosition() {
   els.gazeGuide.style.setProperty("--gaze-center-top", `${Math.round(centerTop)}px`);
 }
 
-function loadExternalScript(src, timeoutMs = 12000) {
+function loadExternalScript(src, timeoutMs = 4500) {
   return new Promise((resolve, reject) => {
     if (window.webgazer && typeof window.webgazer.setGazeListener === "function") {
       resolve();
@@ -6053,7 +6064,7 @@ function markGazePending(target) {
   target.button?.classList.add("gaze-armed");
 }
 
-function handleResolvedGazeTarget(target, emptyMessage = "保护模式：发音/释义盯住即可；记完/模糊/忘了/撤回要先锁定，再看一次确认。") {
+function handleResolvedGazeTarget(target, emptyMessage = "保护模式：所有按钮都要先锁定，再看同一个按钮确认。") {
   const control = state.gazeControl;
   if (!control.enabled) return;
   const now = Date.now();
@@ -6126,20 +6137,25 @@ function buttonTargetByAction(action) {
 }
 
 function fallbackTargetFromDirection(dx, dy) {
-  // v58: 备用眼控改成更保守。方向不明显时一律不触发，防止乱跳。
-  const neutralX = Math.abs(dx) < 0.065;
-  const neutralY = Math.abs(dy) < 0.075;
-  if (neutralX && neutralY) return null;
+  // v59: 备用眼控更保守，方向不明显时一律不触发。布局按三列三行：
+  // 记完 / 模糊 / 显示释义；撤回 / 美音 / 忘了；空 / 英音 / 空。
+  if (Math.abs(dx) < 0.095 && Math.abs(dy) < 0.095) return null;
   let col = 1;
-  if (dx < -0.10) col = 0;
-  else if (dx > 0.10) col = 2;
-  else if (Math.abs(dx) > 0.065) col = 1;
+  if (dx < -0.16) col = 0;
+  else if (dx > 0.16) col = 2;
+  else if (Math.abs(dx) > 0.095) col = 1;
   let row = null;
-  if (dy > 0.105) row = 1;
-  else if (dy < -0.055) row = 0;
+  if (dy < -0.12) row = 0;
+  else if (dy > 0.22) row = 2;
+  else if (dy > 0.105) row = 1;
   if (row === null) return null;
-  const actions = row === 0 ? ["remember", "fuzzy", "forgot"] : ["undo-review", "speak", "speak-uk"];
-  return buttonTargetByAction(actions[col]);
+  const actionRows = [
+    ["remember", "fuzzy", "show"],
+    ["undo-review", "speak", "forgot"],
+    ["", "speak-uk", ""],
+  ];
+  const action = actionRows[row]?.[col] || "";
+  return action ? buttonTargetByAction(action) : null;
 }
 
 function estimateEyeDirectionFromVideo(video, canvas, control) {
@@ -6186,7 +6202,7 @@ function estimateEyeDirectionFromVideo(video, canvas, control) {
     }
     const sum = control.fallbackSamples.reduce((acc, item) => ({ x: acc.x + item.nx, y: acc.y + item.ny }), { x: 0, y: 0 });
     control.fallbackBaseline = { x: sum.x / control.fallbackSamples.length, y: sum.y / control.fallbackSamples.length };
-    setGazeStatus("备用眼控已开启：保护模式开启。记完/模糊/忘了/撤回需要二次确认。", "ok");
+    setGazeStatus("备用眼控已开启：保护模式开启。所有按钮都需要二次确认。", "ok");
     return null;
   }
   return { dx: nx - control.fallbackBaseline.x, dy: ny - control.fallbackBaseline.y };
@@ -6222,7 +6238,7 @@ async function startLocalGazeFallback(reason = "标准眼神识别不可用") {
     if (!control.enabled || control.mode !== "fallback") return;
     const estimate = estimateEyeDirectionFromVideo(video, canvas, control);
     if (estimate) {
-      handleResolvedGazeTarget(fallbackTargetFromDirection(estimate.dx, estimate.dy), "备用眼控保护模式：方向明显才识别；记完/模糊/忘了/撤回需要二次确认。");
+      handleResolvedGazeTarget(fallbackTargetFromDirection(estimate.dx, estimate.dy), "备用眼控保护模式：方向明显才识别；所有按钮都需要二次确认。");
     }
     control.fallbackTimer = window.requestAnimationFrame(tick);
   };
@@ -6247,8 +6263,11 @@ async function startGazeControl() {
     permissionStream = await requestGazeCameraStream();
     stopMediaStream(permissionStream);
     permissionStream = null;
-    setGazeStatus("摄像头已允许，正在加载眼神识别库。", "");
-    const webgazer = await ensureWebGazer();
+    setGazeStatus("摄像头已允许，最多等待 6 秒加载标准眼神识别库；失败会自动切换备用模式。", "");
+    const webgazer = await Promise.race([
+      ensureWebGazer(),
+      new Promise((_, reject) => window.setTimeout(() => reject(new Error("标准眼神识别库加载超过 6 秒，已改用备用模式")), 6000))
+    ]);
     try { webgazer.showVideoPreview?.(false); } catch (error) {}
     try { webgazer.showPredictionPoints?.(false); } catch (error) {}
     try { webgazer.showFaceOverlay?.(false); } catch (error) {}
@@ -6263,7 +6282,7 @@ async function startGazeControl() {
     control.lastTargetKey = "";
     control.zoneStartedAt = Date.now();
     control.cooldownUntil = Date.now() + 1000;
-    setGazeStatus("已开启保护模式：发音/释义可直接看；记完/模糊/忘了/撤回要先锁定，再看一次确认。", "ok");
+    setGazeStatus("已开启保护模式：所有按钮都需要先锁定，再看同一个按钮确认。", "ok");
     showToast("眼神翻词已开启");
   } catch (error) {
     stopMediaStream(permissionStream);
@@ -7090,13 +7109,16 @@ function renderActiveCard() {
   const spellingBox = state.practiceMode === "forms" ? renderVerbFormsBox(word) : renderSpellingBox(word);
   const undoDisabled = state.reviewUndo ? "" : "disabled";
   const quickActions = `
-    <div class="quick-review-actions action-grid-v55">
+    <div class="quick-review-actions action-grid-v59 action-grid-v61">
       <button class="primary-button" data-card-action="remember">${progress.stage < 0 ? "记完" : "会了"}</button>
       <button class="secondary-button" data-card-action="fuzzy">模糊</button>
-      <button class="danger-button" data-card-action="forgot">忘了</button>
+      <button class="secondary-button meaning-button" data-card-action="show">${state.answerVisible ? "隐藏词义" : "显示词义"}</button>
       <button class="secondary-button" data-card-action="undo-review" ${undoDisabled}>撤回上一个</button>
       ${renderAudioButton("美音", "speak", phonetic)}
+      <button class="danger-button" data-card-action="forgot">忘了</button>
+      <span class="action-spacer" aria-hidden="true"></span>
       ${renderAudioButton("英音", "speak-uk", phonetic)}
+      <span class="action-spacer" aria-hidden="true"></span>
     </div>`;
 
   els.activeCard.innerHTML = `
@@ -7119,7 +7141,6 @@ function renderActiveCard() {
     <div class="card-bottom">
       <div class="stage-track">${REVIEW_STEPS.map((_, index) => `<span class="stage-dot${index <= progress.stage ? " active" : ""}"></span>`).join("")}</div>
       <div class="card-actions">
-        <button class="secondary-button" data-card-action="show">${state.answerVisible ? "隐藏释义" : "显示释义"}</button>
         <button class="secondary-button" data-card-action="toggle-important">${word.important ? "取消重点" : "标重点"}</button>
       </div>
     </div>`;
@@ -7622,6 +7643,142 @@ async function copyPlan() {
   }
 }
 
+
+function fingerActionLabel(action) {
+  const labels = {
+    remember: "记完",
+    fuzzy: "模糊",
+    forgot: "忘了",
+    "undo-review": "撤回上一个",
+    show: state.answerVisible ? "隐藏释义" : "显示释义",
+  };
+  return labels[action] || action;
+}
+
+function setFingerStatus(message, tone = "") {
+  if (els.gazeStatus) els.gazeStatus.textContent = message;
+  if (els.gazePanel) els.gazePanel.dataset.tone = tone;
+}
+
+function startFingerControl() {
+  showToast("手指翻词已关闭：当前版本优先保证按钮稳定和显示词义。");
+  return;
+  const control = state.fingerControl;
+  if (control.enabled) {
+    stopFingerControl();
+    return;
+  }
+  try { stopGazeControl(""); } catch (error) {}
+  control.enabled = true;
+  control.pointerId = null;
+  control.pendingAction = "";
+  control.pendingLabel = "";
+  control.pendingUntil = 0;
+  if (els.gazePanel) els.gazePanel.hidden = false;
+  if (els.gazeGuide) els.gazeGuide.hidden = true;
+  setFingerStatus("手指翻词已开启：轻点卡片空白处显示释义；右滑两次记完，左滑两次忘了，上滑两次模糊，下滑两次撤回。", "ok");
+  updateGazeButton();
+  showToast("手指翻词已开启，不需要摄像头");
+}
+
+function stopFingerControl(message = "已关闭手指翻词") {
+  const control = state.fingerControl;
+  if (!control) return;
+  control.enabled = false;
+  control.pointerId = null;
+  control.pendingAction = "";
+  control.pendingLabel = "";
+  control.pendingUntil = 0;
+  document.querySelectorAll(".finger-armed").forEach((node) => node.classList.remove("finger-armed"));
+  if (els.gazePanel) els.gazePanel.hidden = true;
+  updateGazeButton();
+  if (message) showToast(message);
+}
+
+function isFingerIgnoredTarget(target) {
+  return Boolean(target?.closest?.("button, input, textarea, select, a, [contenteditable='true'], [data-card-action], [data-row-action]"));
+}
+
+function clearFingerArmed() {
+  document.querySelectorAll(".finger-armed").forEach((node) => node.classList.remove("finger-armed"));
+}
+
+function armFingerAction(action, label, directionText) {
+  const control = state.fingerControl;
+  const now = Date.now();
+  const samePending = control.pendingAction === action && now < control.pendingUntil;
+  const button = els.activeCard?.querySelector(`[data-card-action="${action}"]`);
+  clearFingerArmed();
+  if (samePending) {
+    control.pendingAction = "";
+    control.pendingLabel = "";
+    control.pendingUntil = 0;
+    handleCardAction(action);
+    setFingerStatus(`已执行：${label}`, "ok");
+    return;
+  }
+  control.pendingAction = action;
+  control.pendingLabel = label;
+  control.pendingUntil = now + 3800;
+  button?.classList.add("finger-armed");
+  setFingerStatus(`${directionText}已锁定：${label}。3.8 秒内再滑一次同方向才执行。`, "warn");
+  showToast(`再${directionText}一次确认：${label}`);
+}
+
+function handleFingerGesture(action, directionText) {
+  if (!action) return;
+  if (action === "show") {
+    handleCardAction("show");
+    setFingerStatus(`${fingerActionLabel("show")}已执行。`, "ok");
+    return;
+  }
+  armFingerAction(action, fingerActionLabel(action), directionText);
+}
+
+function onFingerPointerDown(event) {
+  const control = state.fingerControl;
+  if (!control?.enabled || !els.activeCard?.contains(event.target)) return;
+  if (event.pointerType === "mouse" && event.button !== 0) return;
+  if (isFingerIgnoredTarget(event.target)) return;
+  control.pointerId = event.pointerId;
+  control.startX = event.clientX;
+  control.startY = event.clientY;
+  control.startedAt = Date.now();
+}
+
+function onFingerPointerUp(event) {
+  const control = state.fingerControl;
+  if (!control?.enabled || control.pointerId !== event.pointerId) return;
+  const dx = event.clientX - control.startX;
+  const dy = event.clientY - control.startY;
+  const elapsed = Date.now() - control.startedAt;
+  control.pointerId = null;
+  if (elapsed > 1600) return;
+  const absX = Math.abs(dx);
+  const absY = Math.abs(dy);
+  const minSwipe = 72;
+  if (Math.max(absX, absY) < 28) {
+    handleFingerGesture("show", "轻点");
+    return;
+  }
+  if (Math.max(absX, absY) < minSwipe) return;
+  if (absX > absY * 1.25) {
+    if (dx > 0) handleFingerGesture("remember", "右滑");
+    else handleFingerGesture("forgot", "左滑");
+    return;
+  }
+  if (absY > absX * 1.25) {
+    if (dy < 0) handleFingerGesture("fuzzy", "上滑");
+    else handleFingerGesture("undo-review", "下滑");
+  }
+}
+
+function onFingerPointerCancel(event) {
+  const control = state.fingerControl;
+  if (!control?.enabled) return;
+  if (control.pointerId === event.pointerId) control.pointerId = null;
+}
+
 function wireEvents() {
   els.wordForm.addEventListener("submit", addWord);
   els.clearFormButton.addEventListener("click", clearForm);
@@ -7630,12 +7787,16 @@ function wireEvents() {
     els.bulkInput.value = "";
     els.bulkInput.focus();
   });
-  els.gazeControlButton?.addEventListener("click", startGazeControl);
-  els.gazeStopButton?.addEventListener("click", () => stopGazeControl());
+  els.gazeControlButton?.addEventListener("click", startFingerControl);
+  els.gazeStopButton?.addEventListener("click", () => stopFingerControl());
   window.addEventListener("resize", () => updateGazeGuidePosition());
   window.addEventListener("scroll", () => {
     if (state.gazeControl?.enabled || state.gazeControl?.starting) updateGazeGuidePosition();
   }, { passive: true });
+  els.activeCard.addEventListener("pointerdown", onFingerPointerDown, { passive: true });
+  els.activeCard.addEventListener("pointerup", onFingerPointerUp, { passive: true });
+  els.activeCard.addEventListener("pointercancel", onFingerPointerCancel, { passive: true });
+  els.activeCard.addEventListener("pointerleave", onFingerPointerCancel, { passive: true });
   els.activeCard.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-action]");
     if (button) {

@@ -2707,3 +2707,117 @@ textarea:focus {
     row-gap: 12px;
   }
 }
+
+
+/* v59: 三行三列按钮区，显示释义放在“忘了”上方，按钮间距加大 */
+.quick-review-actions.action-grid-v59 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 34px;
+  row-gap: 22px;
+  margin: 24px 0 22px;
+  align-items: stretch;
+}
+.quick-review-actions.action-grid-v59 button,
+.quick-review-actions.action-grid-v59 .action-spacer {
+  width: 100%;
+  min-height: 70px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.quick-review-actions.action-grid-v59 .action-spacer {
+  display: block;
+  pointer-events: none;
+  opacity: 0;
+}
+.quick-review-actions.action-grid-v59 .meaning-button {
+  border-color: rgba(15, 118, 110, .35);
+  color: var(--teal-dark);
+}
+.quick-review-actions.action-grid-v59 .audio-button.phonetic-audio {
+  min-height: 70px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 10px;
+}
+.quick-review-actions.action-grid-v59 .audio-button.phonetic-audio span {
+  font-size: 18px;
+  line-height: 1.05;
+}
+.quick-review-actions.action-grid-v59 .audio-button.phonetic-audio small {
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gaze-active #activeCard [data-card-action].gaze-hover {
+  outline: 5px solid rgba(15, 118, 110, 0.22);
+  outline-offset: 7px;
+}
+.gaze-active #activeCard [data-card-action].gaze-armed {
+  outline: 6px solid rgba(245, 158, 11, 0.58);
+  outline-offset: 8px;
+  box-shadow: 0 0 0 8px rgba(245, 158, 11, 0.13), 0 16px 34px rgba(15, 23, 42, 0.12);
+}
+@media (max-width: 640px) {
+  .quick-review-actions.action-grid-v59 {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 14px;
+    row-gap: 14px;
+    background: rgba(250, 248, 243, .94);
+    backdrop-filter: blur(8px);
+    padding: 10px 0;
+    margin: 14px 0 12px;
+  }
+  .quick-review-actions.action-grid-v59 button,
+  .quick-review-actions.action-grid-v59 .action-spacer {
+    min-height: 58px;
+    font-size: 15px;
+    padding: 8px 6px;
+    border-radius: 10px;
+  }
+  .quick-review-actions.action-grid-v59 .audio-button.phonetic-audio {
+    min-height: 58px;
+    padding: 6px 5px;
+  }
+  .quick-review-actions.action-grid-v59 .audio-button.phonetic-audio span { font-size: 15px; }
+  .quick-review-actions.action-grid-v59 .audio-button.phonetic-audio small {
+    font-size: 10px;
+    max-width: 86px;
+  }
+}
+
+
+/* v61：恢复显示词义按钮，关闭手指翻词，保证核心按钮稳定 */
+.quick-review-actions.action-grid-v61 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 18px 22px;
+  align-items: stretch;
+}
+.quick-review-actions.action-grid-v61 button,
+.quick-review-actions.action-grid-v61 .action-spacer {
+  min-height: 64px;
+}
+.quick-review-actions.action-grid-v61 .meaning-button {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  border-color: rgba(21, 123, 115, .35);
+}
+@media (max-width: 720px) {
+  .quick-review-actions.action-grid-v61 {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .quick-review-actions.action-grid-v61 .action-spacer { display: none; }
+}

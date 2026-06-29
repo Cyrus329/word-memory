@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=58">
+  <link rel="stylesheet" href="./styles.css?v=61">
 </head>
 <body>
   <div class="app-shell">
@@ -20,7 +20,6 @@
         <button class="secondary-button" id="startNewButton"><span aria-hidden="true">▶</span> 新词连背</button>
         <button class="secondary-button" id="batchLearnButton"><span aria-hidden="true">✓</span> 一键记完新词</button>
         <button class="secondary-button" id="sprintButton"><span aria-hidden="true">◷</span> 15分钟冲刺</button>
-        <button class="secondary-button" id="gazeControlButton" type="button"><span aria-hidden="true">👁</span> 眼神翻词</button>
         <button class="primary-button" id="focusDueButton"><span aria-hidden="true">◎</span> 开始复习</button>
       </div>
     </header>
@@ -372,30 +371,30 @@
   </dialog>
   <div class="gaze-panel" id="gazePanel" hidden aria-live="polite">
     <div class="gaze-panel-head">
-      <strong>眼神翻词</strong>
+      <strong>实验翻词已关闭</strong>
       <button class="text-button" id="gazeStopButton" type="button">关闭</button>
     </div>
-    <p id="gazeStatus">未开启</p>
-    <div class="gaze-zones"><span>保护已开</span><span>记完/模糊/忘了/撤回需二次确认</span><span>发音/释义可直接触发</span></div>
+    <p id="gazeStatus">已关闭。当前版本恢复稳定按钮操作，避免乱识别。</p>
+    <div class="gaze-zones"><span>已移除手指翻词</span><span>显示词义按钮已恢复</span><span>优先保证记忆记录稳定</span></div>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./supplemental-words.js?v=58"></script>
-  <script src="./supplemental-words-batch2.js?v=58"></script>
-  <script src="./supplemental-words-batch3.js?v=58"></script>
-  <script src="./supplemental-words-batch4.js?v=58"></script>
-  <script src="./supplemental-words-batch5.js?v=58"></script>
-  <script src="./supplemental-words-batch6.js?v=58"></script>
-  <script src="./supplemental-words-batch7.js?v=58"></script>
-  <script src="./supplemental-words-batch8.js?v=58"></script>
-  <script src="./supplemental-words-batch9.js?v=58"></script>
-  <script src="./supplemental-words-batch10.js?v=58"></script>
-  <script src="./supplemental-words-batch11.js?v=58"></script>
-  <script src="./supplemental-words-batch12.js?v=58"></script>
-  <script src="./supplemental-words-batch13.js?v=58"></script>
-  <script src="./library-folder-data.js?v=58"></script>
-  <script src="./app.js?v=58"></script>
-  <script src="./folder-view.js?v=58"></script>
-  <script src="./smart-vocab.js?v=58"></script>
+  <script src="./supplemental-words.js?v=61"></script>
+  <script src="./supplemental-words-batch2.js?v=61"></script>
+  <script src="./supplemental-words-batch3.js?v=61"></script>
+  <script src="./supplemental-words-batch4.js?v=61"></script>
+  <script src="./supplemental-words-batch5.js?v=61"></script>
+  <script src="./supplemental-words-batch6.js?v=61"></script>
+  <script src="./supplemental-words-batch7.js?v=61"></script>
+  <script src="./supplemental-words-batch8.js?v=61"></script>
+  <script src="./supplemental-words-batch9.js?v=61"></script>
+  <script src="./supplemental-words-batch10.js?v=61"></script>
+  <script src="./supplemental-words-batch11.js?v=61"></script>
+  <script src="./supplemental-words-batch12.js?v=61"></script>
+  <script src="./supplemental-words-batch13.js?v=61"></script>
+  <script src="./library-folder-data.js?v=61"></script>
+  <script src="./app.js?v=61"></script>
+  <script src="./folder-view.js?v=61"></script>
+  <script src="./smart-vocab.js?v=61"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));
