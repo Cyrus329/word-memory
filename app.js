@@ -5994,8 +5994,8 @@ async function startGazeControl() {
     control.starting = false;
     if (els.gazePanel) els.gazePanel.hidden = true;
     if (els.gazeGuide) els.gazeGuide.hidden = true;
-    setGazeStatus("开启失败：浏览器不支持或摄像头权限被拒绝", "warn");
-    showToast("眼神翻词开启失败，可以换手机浏览器或允许摄像头");
+    setGazeStatus("开启失败：请确认正在使用 https 网页、浏览器已允许摄像头；若仍失败，多半是眼神识别库加载失败。", "warn");
+    showToast("眼神翻词开启失败：摄像头权限/浏览器/CDN库任一项失败都会这样，先不影响背词");
   }
   updateGazeButton();
 }
@@ -7273,7 +7273,7 @@ function exportWords() {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = `专升本单词词库-${todayKey()}.json`;
+  link.download = `专升本单词本机备份-${todayKey()}.json`;
   link.click();
   URL.revokeObjectURL(url);
 }
@@ -7309,7 +7309,7 @@ async function importWords(event) {
     }
     setActiveId(null);
     render();
-    showToast("导入完成");
+    showToast("导入完成：数据已进入当前网址的本机记录");
   } catch {
     showToast("导入失败，请选择正确的词库文件");
   } finally {
