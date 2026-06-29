@@ -1,6 +1,6 @@
--- 专升本单词记忆：Supabase 云同步独立修复脚本
--- 只处理 word-memory，不包含错题本或背诵软件。
--- 请在 Supabase SQL Editor 新建查询，复制本文件全部内容后运行一次。
+-- 专升本单词记忆：云同步 Supabase 强制修复脚本 v49
+-- 用法：打开 Supabase -> SQL Editor -> New query -> 粘贴本文件全部内容 -> Run。
+-- 运行成功后等 30 秒，再回网页点“保存并开启云同步”。
 
 begin;
 
@@ -25,16 +25,18 @@ create table if not exists public.word_memory_cloud_words (
 alter table public.word_memory_cloud_profiles enable row level security;
 alter table public.word_memory_cloud_words enable row level security;
 
+drop policy if exists word_memory_public_profiles_read on public.word_memory_cloud_profiles;
+drop policy if exists word_memory_public_words_read on public.word_memory_cloud_words;
 drop policy if exists "word_memory_public_profiles_read" on public.word_memory_cloud_profiles;
 drop policy if exists "word_memory_public_words_read" on public.word_memory_cloud_words;
 
-create policy "word_memory_public_profiles_read"
+create policy word_memory_public_profiles_read
 on public.word_memory_cloud_profiles
 for select
 to anon, authenticated
 using (is_public = true);
 
-create policy "word_memory_public_words_read"
+create policy word_memory_public_words_read
 on public.word_memory_cloud_words
 for select
 to anon, authenticated
@@ -46,6 +48,15 @@ using (
       and p.is_public = true
   )
 );
+
+-- 清掉可能存在的旧函数签名，避免 PostgREST 找到旧缓存。
+drop function if exists public.save_word_memory_cloud(text, text, jsonb, text, boolean);
+drop function if exists public.save_word_memory_cloud(text, text, json, text, boolean);
+drop function if exists public.save_word_memory_cloud(text, text, jsonb);
+drop function if exists public.save_word_memory_cloud(text, text, json);
+drop function if exists public.verify_word_memory_cloud_pin(text, text);
+drop function if exists public.load_word_memory_cloud(text, text);
+drop function if exists public.load_word_memory_cloud(text);
 
 create or replace function public.save_word_memory_cloud(
   p_slug text,
@@ -210,19 +221,17 @@ end;
 $$;
 
 grant usage on schema public to anon, authenticated;
-grant execute on function public.save_word_memory_cloud(text, text, jsonb, text, boolean)
-  to anon, authenticated;
-grant execute on function public.verify_word_memory_cloud_pin(text, text)
-  to anon, authenticated;
-grant execute on function public.load_word_memory_cloud(text, text)
-  to anon, authenticated;
+grant execute on function public.save_word_memory_cloud(text, text, jsonb, text, boolean) to anon, authenticated;
+grant execute on function public.verify_word_memory_cloud_pin(text, text) to anon, authenticated;
+grant execute on function public.load_word_memory_cloud(text, text) to anon, authenticated;
 
 commit;
 
--- 让 Supabase REST 接口立即重新读取刚创建的函数。
+-- 强制让 Supabase REST 接口刷新函数缓存。没有这句就容易出现 schema cache 报错。
 notify pgrst, 'reload schema';
+select pg_notify('pgrst', 'reload schema');
 
--- 运行成功后，结果区应显示下面 3 个函数。
+-- 运行结果必须能看到下面 3 个函数。
 select
   p.proname as function_name,
   pg_get_function_identity_arguments(p.oid) as arguments

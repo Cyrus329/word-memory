@@ -483,6 +483,37 @@ button {
   text-transform: uppercase;
 }
 
+
+.previous-word-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: fit-content;
+  max-width: 100%;
+  margin: -6px 0 14px;
+  padding: 8px 10px;
+  border: 1px solid rgba(18, 107, 103, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.previous-word-hint b {
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.previous-word-label {
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(18, 107, 103, 0.12);
+  color: var(--green);
+  font-weight: 900;
+}
+
 .word-term {
   margin: 0;
   font-size: 52px;
@@ -1244,7 +1275,38 @@ textarea:focus {
     min-height: 84px;
   }
 
-  .word-term {
+  
+.previous-word-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: fit-content;
+  max-width: 100%;
+  margin: -6px 0 14px;
+  padding: 8px 10px;
+  border: 1px solid rgba(18, 107, 103, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.previous-word-hint b {
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.previous-word-label {
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(18, 107, 103, 0.12);
+  color: var(--green);
+  font-weight: 900;
+}
+
+.word-term {
     font-size: 36px;
   }
 
@@ -2323,4 +2385,293 @@ textarea:focus {
 @media (max-width: 720px){
   .progress-folder-tabs{flex-wrap:nowrap; overflow-x:auto; padding-bottom:4px;}
   .progress-folder-tab{white-space:nowrap; padding:9px 14px;}
+}
+
+/* v51 眼神翻词 */
+.secondary-button.active#gazeControlButton,
+#gazeControlButton.active {
+  border-color: #0f766e;
+  background: #e0f2f1;
+  color: #0f3f3b;
+}
+.audio-button.phonetic-audio {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 64px;
+  line-height: 1.1;
+}
+.audio-button.phonetic-audio small {
+  display: block;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 800;
+}
+.gaze-active #activeCard [data-card-action] {
+  position: relative;
+}
+.gaze-active #activeCard [data-card-action]::after {
+  content: "眼神可点";
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 10px;
+  color: rgba(15, 118, 110, 0.72);
+  font-weight: 900;
+  pointer-events: none;
+}
+.gaze-active #activeCard [data-card-action]:hover,
+.gaze-active #activeCard [data-card-action].gaze-hover {
+  outline: 3px solid rgba(15, 118, 110, 0.28);
+  outline-offset: 3px;
+}
+@media (max-width: 720px) {
+  .audio-button.phonetic-audio small { font-size: 12px; max-width: 126px; }
+  .gaze-active #activeCard [data-card-action]::after { display: none; }
+}
+
+
+.gaze-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 86px;
+  z-index: 60;
+  width: min(360px, calc(100vw - 32px));
+  padding: 14px 16px;
+  border: 1px solid rgba(15, 118, 110, 0.28);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 16px 46px rgba(15, 23, 42, 0.16);
+  backdrop-filter: blur(12px);
+}
+
+.gaze-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.gaze-panel p {
+  margin: 8px 0 10px;
+  color: #475569;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.gaze-panel[data-tone="ok"] p {
+  color: #0f766e;
+}
+
+.gaze-panel[data-tone="warn"] p {
+  color: #b45309;
+}
+
+.gaze-zones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.gaze-zones span {
+  padding: 7px 8px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .gaze-panel {
+    right: 12px;
+    left: 12px;
+    bottom: 74px;
+    width: auto;
+  }
+}
+
+
+/* v54 眼神直接看按钮：隐藏旧标志 */
+.gaze-guide {
+  display: none !important;
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  pointer-events: none;
+  --gaze-left-x: 18px;
+  --gaze-right-x: calc(100vw - 154px);
+  --gaze-center-x: 50vw;
+  --gaze-side-top: 50vh;
+  --gaze-center-top: 18px;
+}
+
+.gaze-guide[hidden] {
+  display: none !important;
+}
+
+.gaze-guide-marker {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 136px;
+  min-height: 78px;
+  padding: 10px 12px;
+  border: 2px solid rgba(15, 118, 110, 0.42);
+  border-radius: 18px;
+  background: rgba(236, 253, 245, 0.94);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.16);
+  color: #0f3f3b;
+  font-weight: 900;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.gaze-guide-marker strong {
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.gaze-guide-marker em {
+  font-style: normal;
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.2;
+}
+
+.gaze-guide-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #0f766e;
+  box-shadow: 0 0 0 8px rgba(15, 118, 110, 0.16);
+  margin-bottom: 4px;
+}
+
+.gaze-guide-left {
+  left: var(--gaze-left-x);
+  top: var(--gaze-side-top);
+  transform: translateY(-50%);
+}
+
+.gaze-guide-center {
+  left: var(--gaze-center-x);
+  top: var(--gaze-center-top);
+  transform: translateX(-50%);
+  background: rgba(248, 250, 252, 0.94);
+  border-color: rgba(100, 116, 139, 0.35);
+}
+
+.gaze-guide-center .gaze-guide-dot {
+  background: #64748b;
+  box-shadow: 0 0 0 8px rgba(100, 116, 139, 0.15);
+}
+
+.gaze-guide-right {
+  left: var(--gaze-right-x);
+  top: var(--gaze-side-top);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 720px) {
+  .gaze-guide-marker {
+    width: 106px;
+    min-height: 64px;
+    padding: 8px 9px;
+    border-radius: 15px;
+  }
+  .gaze-guide-marker strong { font-size: 12px; }
+  .gaze-guide-marker em { font-size: 10px; }
+  .gaze-guide-dot {
+    width: 12px;
+    height: 12px;
+    box-shadow: 0 0 0 6px rgba(15, 118, 110, 0.16);
+  }
+}
+
+
+/* v55: 按用户要求改为两排三列：记完/模糊/忘了，撤回/美音/英音 */
+.quick-review-actions.action-grid-v55 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0 14px;
+  align-items: stretch;
+}
+.quick-review-actions.action-grid-v55 button {
+  width: 100%;
+  min-height: 62px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.quick-review-actions.action-grid-v55 .audio-button.phonetic-audio {
+  min-height: 62px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 10px;
+}
+.quick-review-actions.action-grid-v55 .audio-button.phonetic-audio span {
+  font-size: 18px;
+  line-height: 1.05;
+}
+.quick-review-actions.action-grid-v55 .audio-button.phonetic-audio small {
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gaze-active #activeCard [data-card-action]::after {
+  display: none !important;
+  content: none !important;
+}
+.gaze-panel .gaze-zones {
+  display: none !important;
+}
+.card-bottom .card-actions {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 640px) {
+  .quick-review-actions.action-grid-v55 {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    background: rgba(250, 248, 243, .94);
+    backdrop-filter: blur(8px);
+    padding: 8px 0;
+    margin: 12px 0 10px;
+  }
+  .quick-review-actions.action-grid-v55 button {
+    min-height: 52px;
+    font-size: 15px;
+    padding: 8px 6px;
+    border-radius: 9px;
+  }
+  .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio {
+    min-height: 52px;
+    padding: 6px 5px;
+  }
+  .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio span {
+    font-size: 15px;
+  }
+  .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio small {
+    font-size: 10px;
+    max-width: 86px;
+  }
 }

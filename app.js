@@ -28,7 +28,7 @@ const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
 const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
 const SUPABASE_SETTINGS_KEY = "word-memory-trainer:supabase-settings:v1";
-const CLOUD_REQUEST_TIMEOUT_MS = 60000;
+const CLOUD_REQUEST_TIMEOUT_MS = 12000;
 const DEFAULT_SUPABASE_URL = "https://fsizdxkwrxzopkoouipr.supabase.co";
 const DEFAULT_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_BfWyJfb6c4GrV0JYLXejUg_QnkuhPvw";
 const DEFAULT_SHARE_BASE_URL = "https://your-name.github.io/word-memory/";
@@ -39,10 +39,22 @@ const PUBLIC_VIEWER_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("public") || 
 const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
+let lastSpeechKey = "";
+let lastSpeechAt = 0;
+let activeAudioElement = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260627:v38-cloud-rpc-compact";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:wordlist-blueforest-cet4-20260629:v50-merge-blueforest10";
+const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = [
+  "cet4-20260628-v40-",
+  "blueforest-20260628-table-",
+  "blueforest-20260628-adjadv-",
+  "wordlist-20260628-v42-",
+  "cet4-20260629-v43-",
+  "blueforest-20260629-v43-",
+  "blueforest-20260629-v44-missing-",
+];
 const BUILTIN_WORDS = [
   {
     "id": "word-list-1-001",
@@ -3941,6 +3953,10 @@ const ALL_BUILTIN_WORDS = [
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH7) ? window.SUPPLEMENTAL_WORDS_BATCH7 : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH8) ? window.SUPPLEMENTAL_WORDS_BATCH8 : []),
   ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH9) ? window.SUPPLEMENTAL_WORDS_BATCH9 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH10) ? window.SUPPLEMENTAL_WORDS_BATCH10 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH11) ? window.SUPPLEMENTAL_WORDS_BATCH11 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH12) ? window.SUPPLEMENTAL_WORDS_BATCH12 : []),
+  ...(Array.isArray(window.SUPPLEMENTAL_WORDS_BATCH13) ? window.SUPPLEMENTAL_WORDS_BATCH13 : []),
 ];
 let shouldPersistBuiltinWords = false;
 
@@ -3991,6 +4007,11 @@ const els = {
   startNewButton: document.querySelector("#startNewButton"),
   batchLearnButton: document.querySelector("#batchLearnButton"),
   sprintButton: document.querySelector("#sprintButton"),
+  gazeControlButton: document.querySelector("#gazeControlButton"),
+  gazePanel: document.querySelector("#gazePanel"),
+  gazeStatus: document.querySelector("#gazeStatus"),
+  gazeGuide: document.querySelector("#gazeGuide"),
+  gazeStopButton: document.querySelector("#gazeStopButton"),
   cloudSyncButton: document.querySelector("#cloudSyncButton"),
   focusDueButton: document.querySelector("#focusDueButton"),
   dictationOrderSelect: document.querySelector("#dictationOrderSelect"),
@@ -4004,6 +4025,8 @@ const els = {
   closeCloudButton: document.querySelector("#closeCloudButton"),
   cancelCloudButton: document.querySelector("#cancelCloudButton"),
   loadCloudButton: document.querySelector("#loadCloudButton"),
+  tryCloudSaveButton: document.querySelector("#tryCloudSaveButton"),
+  localSaveButton: document.querySelector("#localSaveButton"),
   copyPublicLinkButton: document.querySelector("#copyPublicLinkButton"),
   copyEditLinkButton: document.querySelector("#copyEditLinkButton"),
   cloudSlugInput: document.querySelector("#cloudSlugInput"),
@@ -4055,6 +4078,16 @@ const state = {
   revealStep: 0,
   choiceResult: null,
   lastAutoSpokenId: null,
+  gazeControl: {
+    enabled: false,
+    starting: false,
+    lastZone: "center",
+    lastTargetKey: "",
+    zoneStartedAt: 0,
+    cooldownUntil: 0,
+    dwellMs: 1000,
+  },
+  reviewUndo: null,
   query: "",
   filter: "all",
   librarySourceFilter: "all",
@@ -4411,6 +4444,26 @@ function primeSpeechVoices() {
   }
 }
 
+function stopCurrentPronunciation() {
+  try {
+    if (activeAudioElement) {
+      activeAudioElement.pause();
+      activeAudioElement.src = "";
+      activeAudioElement.load?.();
+    }
+  } catch {
+    // 忽略停止在线音频失败
+  }
+  activeAudioElement = null;
+  try {
+    if (speechSupported()) {
+      window.speechSynthesis.cancel();
+    }
+  } catch {
+    // 忽略停止系统朗读失败
+  }
+}
+
 function useSpeechFallback(text, accent = "us", options = {}) {
   if (!speechSupported()) {
     if (!options.silent) {
@@ -4418,10 +4471,18 @@ function useSpeechFallback(text, accent = "us", options = {}) {
     }
     return false;
   }
-  window.speechSynthesis.cancel();
-  const utterance = new window.SpeechSynthesisUtterance(text);
+  const normalized = normalizeText(text);
+  const speechKey = `${accent}:${normalized.toLowerCase()}`;
+  const now = Date.now();
+  if (speechKey === lastSpeechKey && now - lastSpeechAt < 550) {
+    return true;
+  }
+  lastSpeechKey = speechKey;
+  lastSpeechAt = now;
+  stopCurrentPronunciation();
+  const utterance = new window.SpeechSynthesisUtterance(normalized);
   utterance.lang = accent === "uk" ? "en-GB" : "en-US";
-  utterance.rate = 0.82;
+  utterance.rate = 0.9;
   utterance.pitch = 1;
   const voices = window.speechSynthesis.getVoices?.() || [];
   const preferred = voices.find((v) => v.lang === utterance.lang && /Google|Microsoft|Natural|Daniel|Samantha|Alex|Serena/i.test(v.name))
@@ -4430,8 +4491,23 @@ function useSpeechFallback(text, accent = "us", options = {}) {
   if (preferred) {
     utterance.voice = preferred;
   }
-  window.speechSynthesis.speak(utterance);
-  return true;
+  utterance.onerror = () => {
+    if (!options.silent) {
+      showToast("读音被浏览器拦截，重新点一次即可");
+    }
+  };
+  try {
+    window.speechSynthesis.speak(utterance);
+    window.setTimeout(() => {
+      try { window.speechSynthesis.resume?.(); } catch {}
+    }, 80);
+    return true;
+  } catch {
+    if (!options.silent) {
+      showToast("当前浏览器读音失败");
+    }
+    return false;
+  }
 }
 
 function pronunciationAudioUrls(text, accent = "us") {
@@ -4451,11 +4527,14 @@ function pronunciationAudioUrls(text, accent = "us") {
 
 function playAudioUrl(url) {
   return new Promise((resolve, reject) => {
+    stopCurrentPronunciation();
     const audio = new Audio();
+    activeAudioElement = audio;
     audio.preload = "auto";
     audio.src = url;
     let settled = false;
     const cleanup = () => {
+      if (activeAudioElement === audio) activeAudioElement = null;
       audio.oncanplay = null;
       audio.onerror = null;
       audio.onended = null;
@@ -4494,23 +4573,8 @@ async function speakTerm(term, options = {}) {
     return false;
   }
 
-  // 手机端优先用系统英/美音。iPhone/部分安卓会拦截异步在线音频，
-  // 必须在用户点击按钮的同一轮事件里立即触发 speechSynthesis，
-  // 否则就会出现“电脑有声，手机没声”。
-  if (isMobilePronunciationContext()) {
-    const spoken = useSpeechFallback(text, accent, options);
-    if (spoken) return true;
-  }
-
-  const urls = pronunciationAudioUrls(text, accent);
-  for (const url of urls) {
-    try {
-      await playAudioUrl(url);
-      return true;
-    } catch (err) {
-      // 继续尝试下一个音频源
-    }
-  }
+  // v45：读音改为优先使用浏览器/手机系统语音，避免在线音频请求等待、连点排队、一次性爆音。
+  // 每次播放前都会停止上一次读音；550ms 内重复点击同一个词会直接忽略。
   return useSpeechFallback(text, accent, options);
 }
 
@@ -4767,10 +4831,22 @@ function applyBuiltinWords(words) {
     packageAlreadyApplied = false;
   }
 
-  const byTerm = new Map(words.map((word) => [word.term.toLowerCase(), word]));
+  const byId = new Map(words.map((word) => [normalizeText(word.id), word]));
+  const byTerm = new Map(words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
   ALL_BUILTIN_WORDS.forEach((sourceWord) => {
     const builtin = cloneBuiltinWord(sourceWord);
-    const existing = byTerm.get(builtin.term.toLowerCase());
+    const builtinId = normalizeText(builtin.id);
+    const termKey = normalizeText(builtin.term).toLowerCase();
+    const existingById = byId.get(builtinId);
+    const forceSeparate = FORCE_SEPARATE_BUILTIN_ID_PREFIXES.some((prefix) => builtinId.startsWith(prefix));
+    if (!existingById && forceSeparate && !packageAlreadyApplied) {
+      words.push(builtin);
+      byId.set(builtinId, builtin);
+      if (!byTerm.has(termKey)) byTerm.set(termKey, builtin);
+      shouldPersistBuiltinWords = true;
+      return;
+    }
+    const existing = existingById || byTerm.get(termKey);
     if (existing) {
       const previous = JSON.stringify(existing);
       existing.meaning = mergeStudyText(existing.meaning, builtin.meaning);
@@ -4799,7 +4875,8 @@ function applyBuiltinWords(words) {
 
     if (!packageAlreadyApplied) {
       words.push(builtin);
-      byTerm.set(builtin.term.toLowerCase(), builtin);
+      byId.set(builtinId, builtin);
+      byTerm.set(termKey, builtin);
       shouldPersistBuiltinWords = true;
     }
   });
@@ -5254,6 +5331,35 @@ function readCloudFormConfig() {
   return config;
 }
 
+function safeParseCloudResponse(text) {
+  if (!text) return null;
+  try {
+    return JSON.parse(text);
+  } catch {
+    const shortText = text.replace(/\s+/g, " ").trim().slice(0, 90);
+    const detail = shortText ? `返回内容：${shortText}` : "返回内容为空";
+    throw new Error(`云端接口没有返回 JSON，通常是 Supabase 服务未部署、接口被拦截或网络异常。${detail}`);
+  }
+}
+
+function readableCloudError(error) {
+  const message = normalizeText(error?.message || String(error || ""));
+  if (!message) return "云同步失败，但本机学习记录已经保存。";
+  if (/Unexpected token|not valid JSON|JSON/i.test(message)) {
+    return "云同步失败：云端返回内容不是 JSON。大概率是 Supabase 接口没部署好或网络拦截。本机学习记录已经保存。";
+  }
+  if (/Failed to fetch|NetworkError|Load failed|fetch/i.test(message)) {
+    return "云同步失败：网络连不上 Supabase。本机学习记录已经保存。";
+  }
+  if (/schema cache|PGRST202|Could not query|function|rpc|procedure/i.test(message)) {
+    return "云同步失败：Supabase 云端表和函数还没建好。请先运行压缩包里的 supabase-word-memory-repair.sql，运行成功后等 30 秒再点保存。";
+  }
+  if (/upstream|connect error|connection|reset|timeout|503|502|504/i.test(message)) {
+    return "云同步失败：Supabase 上游连接异常。本机学习记录已经保存，晚点再试即可。";
+  }
+  return message;
+}
+
 async function cloudRequest(functionName, payload) {
   const controller = new AbortController();
   const timer = window.setTimeout(() => controller.abort(), CLOUD_REQUEST_TIMEOUT_MS);
@@ -5268,21 +5374,27 @@ async function cloudRequest(functionName, payload) {
         apikey: supabase.key,
         Authorization: `Bearer ${supabase.key}`,
         "Content-Type": "application/json",
+        Accept: "application/json",
       },
       body: JSON.stringify(payload),
       signal: controller.signal,
     });
     const text = await response.text();
-    const data = text ? JSON.parse(text) : null;
+    let data = null;
+    try {
+      data = safeParseCloudResponse(text);
+    } catch (parseError) {
+      throw parseError;
+    }
     if (!response.ok) {
-      throw new Error(data?.message || data?.hint || "云端请求失败");
+      throw new Error(data?.message || data?.hint || data?.details || "云端请求失败");
     }
     return data;
   } catch (error) {
     if (error.name === "AbortError") {
-      throw new Error("云端连接超过 60 秒，请检查网络后再试；词库较大时建议换 Wi-Fi 再保存");
+      throw new Error("云端连接超过 12 秒。本机学习记录已先保存；请检查 Supabase 网络或稍后重试。");
     }
-    throw error;
+    throw new Error(readableCloudError(error));
   } finally {
     window.clearTimeout(timer);
   }
@@ -5296,11 +5408,31 @@ function cloudWordsPayload() {
     id: CLOUD_COMPACT_PAYLOAD_ID,
     type: "word-memory-compact-cloud",
     app: "专升本单词记忆",
-    version: 39,
+    version: 49,
     studyTime: normalizeStudyTime(state.studyTime || {}),
     data: compactPayloadForStorage(state.words),
     updatedAt: new Date().toISOString(),
   }];
+}
+
+function saveLocalCloudSettingsOnly(config, options = {}) {
+  if (PUBLIC_VIEWER_SLUG) {
+    showToast("公开链接只能查看，不能保存");
+    return false;
+  }
+  tickStudyTime(true);
+  state.cloud.config = { ...state.cloud.config, ...config, autoSync: false };
+  saveCloudConfig(state.cloud.config);
+  saveWords({ skipCloud: true });
+  saveStudyTime();
+  if (!options.silent) {
+    setCloudStatus("已保存到本机。没有上传到云端。", "ok");
+    showToast("已保存到本机");
+  }
+  if (options.closeDialog !== false) {
+    closeCloudDialog();
+  }
+  return true;
 }
 
 async function saveCloudNow(options = {}) {
@@ -5331,13 +5463,16 @@ async function saveCloudNow(options = {}) {
     saveCloudConfig(state.cloud.config);
     if (!silent) {
       setCloudStatus(`已保存到云端：${state.cloud.config.slug}`, "ok");
-      showToast("已保存并开启云同步");
+      showToast("已保存到云端并开启自动同步");
     }
     return result;
   } catch (error) {
+    state.cloud.config = { ...state.cloud.config, ...config, autoSync: false };
+    saveCloudConfig(state.cloud.config);
+    const message = error.message || "云同步失败，但本机学习记录已经保存。";
     if (!silent) {
-      setCloudStatus(error.message || "云同步失败", "warn");
-      showToast(error.message || "云同步失败");
+      setCloudStatus(`${message} 已关闭自动云同步，避免反复卡顿。`, "warn");
+      showToast("云同步失败，本机已保存");
     }
     return false;
   }
@@ -5615,6 +5750,289 @@ function statusLabel(status) {
   }[status] || "新词";
 }
 
+function cloneWordForUndo(word) {
+  return JSON.parse(JSON.stringify(word));
+}
+
+function rememberReviewUndo(word, action) {
+  state.reviewUndo = {
+    wordId: word.id,
+    word: cloneWordForUndo(word),
+    action,
+    practiceMode: state.practiceMode,
+    mode: state.mode,
+    activeGroup: state.activeGroup,
+    sprintWasActive: Boolean(state.sprint.active),
+    createdAt: new Date().toISOString(),
+  };
+}
+
+
+function setGazeStatus(message, tone = "") {
+  if (els.gazeStatus) {
+    els.gazeStatus.textContent = message;
+  }
+  if (els.gazePanel) {
+    els.gazePanel.dataset.tone = tone;
+  }
+}
+
+function updateGazeButton() {
+  if (!els.gazeControlButton) return;
+  const active = Boolean(state.gazeControl?.enabled || state.gazeControl?.starting);
+  els.gazeControlButton.classList.toggle("active", active);
+  document.body.classList.toggle("gaze-active", active);
+  els.gazeControlButton.innerHTML = active ? '<span aria-hidden="true">👁</span> 关闭眼神' : '<span aria-hidden="true">👁</span> 眼神翻词';
+}
+
+function clampNumber(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
+
+function updateGazeGuidePosition() {
+  if (!els.gazeGuide || !els.activeCard) return;
+  const rect = els.activeCard.getBoundingClientRect();
+  if (!rect.width || !rect.height) return;
+  const viewportWidth = Math.max(320, window.innerWidth || document.documentElement.clientWidth || 320);
+  const viewportHeight = Math.max(420, window.innerHeight || document.documentElement.clientHeight || 420);
+  const markerWidth = viewportWidth <= 720 ? 106 : 136;
+  const safePad = viewportWidth <= 720 ? 6 : 12;
+  const sideTop = clampNumber(
+    rect.top + Math.min(Math.max(rect.height * 0.46, 145), rect.height - 110),
+    78,
+    viewportHeight - 118
+  );
+  const centerTop = clampNumber(rect.top + 12, 78, viewportHeight - 102);
+  const leftX = clampNumber(rect.left + 18, safePad, viewportWidth - markerWidth - safePad);
+  const rightX = clampNumber(rect.right - markerWidth - 18, safePad, viewportWidth - markerWidth - safePad);
+  const centerX = clampNumber(rect.left + rect.width / 2, markerWidth / 2 + safePad, viewportWidth - markerWidth / 2 - safePad);
+  els.gazeGuide.style.setProperty("--gaze-left-x", `${Math.round(leftX)}px`);
+  els.gazeGuide.style.setProperty("--gaze-right-x", `${Math.round(rightX)}px`);
+  els.gazeGuide.style.setProperty("--gaze-center-x", `${Math.round(centerX)}px`);
+  els.gazeGuide.style.setProperty("--gaze-side-top", `${Math.round(sideTop)}px`);
+  els.gazeGuide.style.setProperty("--gaze-center-top", `${Math.round(centerTop)}px`);
+}
+
+function loadExternalScript(src) {
+  return new Promise((resolve, reject) => {
+    if (document.querySelector(`script[data-dynamic-src="${src}"]`)) {
+      resolve();
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = src;
+    script.async = true;
+    script.dataset.dynamicSrc = src;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("脚本加载失败"));
+    document.head.appendChild(script);
+  });
+}
+
+async function ensureWebGazer() {
+  if (window.webgazer && typeof window.webgazer.setGazeListener === "function") {
+    return window.webgazer;
+  }
+  try {
+    await loadExternalScript("https://webgazer.cs.brown.edu/webgazer.js");
+  } catch (firstError) {
+    await loadExternalScript("https://cdn.jsdelivr.net/npm/webgazer@2.1.1/dist/webgazer.min.js");
+  }
+  if (!window.webgazer || typeof window.webgazer.setGazeListener !== "function") {
+    throw new Error("当前浏览器不支持眼神识别库");
+  }
+  return window.webgazer;
+}
+
+function readableGazeActionLabel(button) {
+  const action = button?.dataset?.cardAction || "";
+  const text = (button?.textContent || "").replace(/\s+/g, " ").trim();
+  if (text) return text.length > 16 ? `${text.slice(0, 16)}…` : text;
+  const labels = {
+    remember: "记完",
+    fuzzy: "模糊",
+    forgot: "忘了",
+    "undo-review": "撤回上一个",
+    show: "显示释义",
+    speak: "美音",
+    "speak-uk": "英音",
+    "toggle-important": "标重点",
+  };
+  return labels[action] || action || "按钮";
+}
+
+function gazeTargetFromPoint(data) {
+  if (!data || !Number.isFinite(data.x) || !Number.isFinite(data.y) || !els.activeCard) return null;
+  const x = data.x;
+  const y = data.y;
+  const buttons = Array.from(els.activeCard.querySelectorAll("[data-card-action]"))
+    .filter((button) => !button.disabled && button.offsetParent !== null);
+  let nearest = null;
+  let nearestDistance = Infinity;
+  for (const button of buttons) {
+    const rect = button.getBoundingClientRect();
+    if (!rect.width || !rect.height) continue;
+    const pad = 18;
+    const inside = x >= rect.left - pad && x <= rect.right + pad && y >= rect.top - pad && y <= rect.bottom + pad;
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    const distance = Math.hypot(x - cx, y - cy);
+    if (inside && distance < nearestDistance) {
+      nearestDistance = distance;
+      nearest = button;
+    }
+  }
+  if (!nearest) return null;
+  return {
+    action: nearest.dataset.cardAction,
+    label: readableGazeActionLabel(nearest),
+    button: nearest,
+  };
+}
+
+function stopGazeControl(message = "已关闭眼神翻词") {
+  const control = state.gazeControl;
+  control.enabled = false;
+  control.starting = false;
+  control.lastZone = "center";
+  control.lastTargetKey = "";
+  control.zoneStartedAt = 0;
+  control.cooldownUntil = 0;
+  if (window.webgazer) {
+    try { window.webgazer.clearGazeListener?.(); } catch (error) {}
+    try { window.webgazer.pause?.(); } catch (error) {}
+    try { window.webgazer.showVideoPreview?.(false); } catch (error) {}
+    try { window.webgazer.showPredictionPoints?.(false); } catch (error) {}
+  }
+  if (els.gazePanel) {
+    els.gazePanel.hidden = true;
+  }
+  if (els.gazeGuide) {
+    els.gazeGuide.hidden = true;
+  }
+  updateGazeButton();
+  if (message) showToast(message);
+}
+
+function runGazeAction(target) {
+  const word = activeWord();
+  if (!word || !target?.action) return;
+  const action = target.action;
+  handleCardAction(action);
+  setGazeStatus(`已触发：${target.label}`, "ok");
+}
+
+function clearGazeHover() {
+  document.querySelectorAll(".gaze-hover").forEach((node) => node.classList.remove("gaze-hover"));
+}
+
+function handleGazePoint(data) {
+  const control = state.gazeControl;
+  if (!control.enabled) return;
+  const now = Date.now();
+  if (now < control.cooldownUntil) return;
+  const target = gazeTargetFromPoint(data);
+  if (!target) {
+    clearGazeHover();
+    control.lastTargetKey = "";
+    control.zoneStartedAt = now;
+    setGazeStatus("看准按钮 1 秒：记完、模糊、忘了、撤回、释义、发音都能直接触发。", "");
+    return;
+  }
+  const key = `${target.action}:${target.label}`;
+  if (key !== control.lastTargetKey) {
+    clearGazeHover();
+    target.button?.classList.add("gaze-hover");
+    control.lastTargetKey = key;
+    control.zoneStartedAt = now;
+  }
+  const dwell = now - (control.zoneStartedAt || now);
+  const pct = Math.min(100, Math.round((dwell / control.dwellMs) * 100));
+  setGazeStatus(`看着“${target.label}” ${pct}%`, "");
+  if (dwell >= control.dwellMs) {
+    control.cooldownUntil = now + 1300;
+    control.lastTargetKey = "";
+    control.zoneStartedAt = 0;
+    clearGazeHover();
+    runGazeAction(target);
+  }
+}
+
+async function startGazeControl() {
+  const control = state.gazeControl;
+  if (control.enabled || control.starting) {
+    stopGazeControl();
+    return;
+  }
+  control.starting = true;
+  updateGazeButton();
+  if (els.gazePanel) {
+    els.gazePanel.hidden = false;
+  }
+  setGazeStatus("正在请求摄像头权限。首次使用需要允许摄像头。", "");
+  try {
+    const webgazer = await ensureWebGazer();
+    try { webgazer.showVideoPreview?.(false); } catch (error) {}
+    try { webgazer.showPredictionPoints?.(false); } catch (error) {}
+    try { webgazer.showFaceOverlay?.(false); } catch (error) {}
+    try { webgazer.showFaceFeedbackBox?.(false); } catch (error) {}
+    webgazer.setGazeListener((data) => handleGazePoint(data));
+    const result = webgazer.begin();
+    if (result && typeof result.then === "function") {
+      await result;
+    }
+    control.enabled = true;
+    control.starting = false;
+    control.lastZone = "center";
+    control.lastTargetKey = "";
+    control.zoneStartedAt = Date.now();
+    control.cooldownUntil = Date.now() + 1000;
+    setGazeStatus("已开启：直接盯住卡片里的按钮 1 秒即可触发。", "ok");
+    showToast("眼神翻词已开启");
+  } catch (error) {
+    control.enabled = false;
+    control.starting = false;
+    if (els.gazePanel) els.gazePanel.hidden = true;
+    if (els.gazeGuide) els.gazeGuide.hidden = true;
+    setGazeStatus("开启失败：浏览器不支持或摄像头权限被拒绝", "warn");
+    showToast("眼神翻词开启失败，可以换手机浏览器或允许摄像头");
+  }
+  updateGazeButton();
+}
+
+function undoLastReview() {
+  if (!state.reviewUndo) {
+    showToast("没有可撤回的上一步");
+    return;
+  }
+  if (!guardEditable()) {
+    return;
+  }
+  const snapshot = state.reviewUndo;
+  const index = state.words.findIndex((item) => item.id === snapshot.wordId);
+  if (index < 0) {
+    state.reviewUndo = null;
+    showToast("上一个词已经不存在，不能撤回");
+    renderActiveCard();
+    return;
+  }
+  state.words[index] = normalizeWord(snapshot.word);
+  state.practiceMode = PROGRESS_MODES.includes(snapshot.practiceMode) ? snapshot.practiceMode : state.practiceMode;
+  state.mode = ["due", "new", "all"].includes(snapshot.mode) ? snapshot.mode : state.mode;
+  state.activeGroup = snapshot.activeGroup || state.activeGroup;
+  setActiveId(snapshot.wordId);
+  state.answerVisible = true;
+  resetTypingState();
+  state.lastAutoSpokenId = null;
+  if (snapshot.sprintWasActive && state.sprint.active) {
+    state.sprint.completed = Math.max(0, Number(state.sprint.completed || 0) - 1);
+  }
+  state.reviewUndo = null;
+  saveWords();
+  render();
+  showToast("已撤回上一步，回到上一个词");
+}
+
 function scheduleNext(word, result, options = {}) {
   const progress = modeProgress(word);
   const completedAt = options.completedAt || nowDate();
@@ -5769,6 +6187,7 @@ function render() {
   renderDailyReport();
   renderClock();
   renderSprintStatus();
+  updateGazeButton();
   renderModeButtons();
   renderPracticeButtons();
   renderDictationTools();
@@ -6271,6 +6690,86 @@ function renderMasteryBox(word) {
     </div>`;
 }
 
+
+function compactMeaningParts(word) {
+  const raw = normalizeText(word?.meaning || word?.phrase || word?.note || "");
+  if (!raw) return [];
+  const posRegex = /\b(?:exclamation|modal|aux|prep|pron|conj|det|num|adj|adv|vt|vi|n|v|int|art)\./gi;
+  const matches = [...raw.matchAll(posRegex)].map((match) => ({ label: match[0], index: match.index }));
+  const cleanDefinition = (text) => normalizeText(text)
+    .replace(/^[\s:：,，;；、.。/／-]+/, "")
+    .split(/[；;，,、。]/)
+    .map((item) => normalizeText(item).replace(/^\(?[^\u4e00-\u9fa5A-Za-z0-9]+/, ""))
+    .find(Boolean) || "";
+  const normalizeLabels = (labels) => {
+    const seen = new Set();
+    return labels
+      .map((label) => normalizeText(label).toLowerCase())
+      .filter((label) => {
+        if (!label || seen.has(label)) return false;
+        seen.add(label);
+        return true;
+      })
+      .join("/");
+  };
+  const parts = [];
+  if (!matches.length) {
+    const fallback = cleanDefinition(raw);
+    return fallback ? [{ label: "释义", text: fallback }] : [];
+  }
+  let pendingLabels = [];
+  for (let i = 0; i < matches.length; i += 1) {
+    const start = matches[i].index;
+    const end = i + 1 < matches.length ? matches[i + 1].index : raw.length;
+    const segment = raw.slice(start, end);
+    const labels = [...segment.matchAll(posRegex)].map((match) => match[0]);
+    const afterLabel = segment.replace(new RegExp(`^(?:\\s|/|／|、|,|，|;|；|和|及|or|and|${labels.map(escapeRegExp).join("|")})+`, "i"), "");
+    const definition = cleanDefinition(afterLabel);
+    if (!definition) {
+      pendingLabels.push(...labels);
+      continue;
+    }
+    const label = normalizeLabels([...pendingLabels, ...labels]) || "释义";
+    pendingLabels = [];
+    if (!parts.some((item) => item.label === label && item.text === definition)) {
+      parts.push({ label, text: definition });
+    }
+    if (parts.length >= 4) break;
+  }
+  return parts;
+}
+
+function renderPreviousWordHint() {
+  const previous = state.reviewUndo?.word;
+  if (!previous) return "";
+  const parts = compactMeaningParts(previous);
+  if (!parts.length) return "";
+  return `
+    <div class="previous-word-hint">
+      <span class="previous-word-label">上一个</span>
+      <b>${escapeHTML(previous.term || "上一词")}</b>
+      <span>${parts.map((part) => `${escapeHTML(part.label)} ${escapeHTML(part.text)}`).join(" · ")}</span>
+    </div>`;
+}
+
+function extractWordPhonetic(word) {
+  const candidates = [word?.phonetic, word?.ipa, word?.pronunciation, word?.note, word?.phrase]
+    .filter(Boolean)
+    .map((value) => String(value));
+  for (const value of candidates) {
+    const match = value.match(/\/[A-Za-zɑɒæʌɔəɜː:ɪiʊuɛeɡθðʃʒŋˈˌ\'`\.\-\s\(\)r]+\//);
+    if (match && match[0].length >= 4 && match[0].length <= 48) {
+      return match[0].replace(/\s+/g, "");
+    }
+  }
+  return "";
+}
+
+function renderAudioButton(label, action, phonetic) {
+  const phoneticText = phonetic ? `<small>${escapeHTML(phonetic)}</small>` : "";
+  return `<button class="secondary-button audio-button phonetic-audio" data-card-action="${escapeHTML(action)}" type="button"><span>${escapeHTML(label)}</span>${phoneticText}</button>`;
+}
+
 function renderActiveCard() {
   const word = activeWord();
   if (!word) {
@@ -6296,6 +6795,8 @@ function renderActiveCard() {
     : (letters.length ? letters.map((letter) => `<span>${escapeHTML(letter)}</span>`).join("") : "<span>W</span><span>O</span><span>R</span><span>D</span>");
   const view = practiceView(word);
   const choiceBox = state.practiceMode === "choiceZhToEn" ? renderChoiceBox(word) : "";
+  const previousHint = renderPreviousWordHint();
+  const phonetic = extractWordPhonetic(word);
   const threeStepBox = state.practiceMode === "threeStep" ? renderThreeStepBox(word, view) : "";
   const answer = state.practiceMode === "threeStep" ? "" : (state.answerVisible ? `<p class="word-meaning">${escapeHTML(view.answer)}</p>` : `<div class="answer-mask">${escapeHTML(view.hidden)}</div>`);
   const extra = state.practiceMode === "threeStep" ? "" : (state.answerVisible && view.extra ? `<p class="word-phrase">${escapeHTML(view.extra)}</p>` : "");
@@ -6303,16 +6804,21 @@ function renderActiveCard() {
   const important = word.important ? `<p class="important-line">重点词</p>` : "";
   const masteryBox = renderMasteryBox(word);
   const spellingBox = state.practiceMode === "forms" ? renderVerbFormsBox(word) : renderSpellingBox(word);
+  const undoDisabled = state.reviewUndo ? "" : "disabled";
   const quickActions = `
-    <div class="quick-review-actions">
+    <div class="quick-review-actions action-grid-v55">
       <button class="primary-button" data-card-action="remember">${progress.stage < 0 ? "记完" : "会了"}</button>
       <button class="secondary-button" data-card-action="fuzzy">模糊</button>
       <button class="danger-button" data-card-action="forgot">忘了</button>
+      <button class="secondary-button" data-card-action="undo-review" ${undoDisabled}>撤回上一个</button>
+      ${renderAudioButton("美音", "speak", phonetic)}
+      ${renderAudioButton("英音", "speak-uk", phonetic)}
     </div>`;
 
   els.activeCard.innerHTML = `
     <div class="card-top">
       <div class="letter-ribbon">${ribbon}</div>
+      ${previousHint}
       <p class="quiz-prompt">${escapeHTML(view.prompt)}</p>
       <h3 class="${state.practiceMode === "card" || state.practiceMode === "enToZh" ? "word-term" : "quiz-target"}">${escapeHTML(view.target)}</h3>
       ${quickActions}
@@ -6329,12 +6835,12 @@ function renderActiveCard() {
     <div class="card-bottom">
       <div class="stage-track">${REVIEW_STEPS.map((_, index) => `<span class="stage-dot${index <= progress.stage ? " active" : ""}"></span>`).join("")}</div>
       <div class="card-actions">
-        <button class="secondary-button audio-button" data-card-action="speak">美音</button>
-        <button class="secondary-button audio-button" data-card-action="speak-uk">英音</button>
         <button class="secondary-button" data-card-action="show">${state.answerVisible ? "隐藏释义" : "显示释义"}</button>
         <button class="secondary-button" data-card-action="toggle-important">${word.important ? "取消重点" : "标重点"}</button>
       </div>
     </div>`;
+
+  updateGazeGuidePosition();
 
   if (state.practiceMode === "dictation" && state.lastAutoSpokenId !== word.id) {
     state.lastAutoSpokenId = word.id;
@@ -6555,6 +7061,10 @@ function handleCardAction(action) {
     setMode("new");
     return;
   }
+  if (action === "undo-review") {
+    undoLastReview();
+    return;
+  }
   const word = activeWord();
   if (!word) {
     return;
@@ -6654,6 +7164,7 @@ function handleCardAction(action) {
   }
   if (["remember", "fuzzy", "forgot"].includes(action)) {
     const progress = activeModeProgress(word);
+    rememberReviewUndo(word, action);
     scheduleNext(word, progress.stage < 0 && action === "remember" ? "new" : action);
     if (state.sprint.active) {
       state.sprint.completed += 1;
@@ -6835,6 +7346,12 @@ function wireEvents() {
     els.bulkInput.value = "";
     els.bulkInput.focus();
   });
+  els.gazeControlButton?.addEventListener("click", startGazeControl);
+  els.gazeStopButton?.addEventListener("click", () => stopGazeControl());
+  window.addEventListener("resize", () => updateGazeGuidePosition());
+  window.addEventListener("scroll", () => {
+    if (state.gazeControl?.enabled || state.gazeControl?.starting) updateGazeGuidePosition();
+  }, { passive: true });
   els.activeCard.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-action]");
     if (button) {
@@ -6975,9 +7492,25 @@ function wireEvents() {
       await connectSharedEditCloud();
       return;
     }
-    state.cloud.config = { ...config, autoSync: true };
-    saveCloudConfig(state.cloud.config);
-    await saveCloudNow({ config: state.cloud.config });
+    saveLocalCloudSettingsOnly(config, { silent: true, closeDialog: false });
+    setCloudStatus("正在保存到云端……本机记录已先保存。", "");
+    const ok = await saveCloudNow({ config: { ...config, autoSync: true } });
+    if (ok) {
+      closeCloudDialog();
+    }
+  });
+  els.localSaveButton?.addEventListener("click", () => {
+    const config = readCloudFormConfig();
+    saveLocalCloudSettingsOnly(config);
+  });
+  els.tryCloudSaveButton?.addEventListener("click", async () => {
+    const config = readCloudFormConfig();
+    saveLocalCloudSettingsOnly(config, { silent: true, closeDialog: false });
+    setCloudStatus("正在检查并保存到云端……本机记录已先保存。", "");
+    const ok = await saveCloudNow({ config: { ...config, autoSync: true } });
+    if (ok) {
+      closeCloudDialog();
+    }
   });
   els.loadCloudButton?.addEventListener("click", async () => {
     const config = readCloudFormConfig();

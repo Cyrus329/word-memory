@@ -1,5 +1,8 @@
--- 专升本单词记忆：Supabase 云存档初始化脚本
--- 使用方法：复制本文件全部内容，到 Supabase SQL Editor 里运行一次。
+-- 专升本单词记忆：云同步 Supabase 强制修复脚本 v49
+-- 用法：打开 Supabase -> SQL Editor -> New query -> 粘贴本文件全部内容 -> Run。
+-- 运行成功后等 30 秒，再回网页点“保存并开启云同步”。
+
+begin;
 
 create table if not exists public.word_memory_cloud_profiles (
   slug text primary key,
@@ -22,16 +25,18 @@ create table if not exists public.word_memory_cloud_words (
 alter table public.word_memory_cloud_profiles enable row level security;
 alter table public.word_memory_cloud_words enable row level security;
 
+drop policy if exists word_memory_public_profiles_read on public.word_memory_cloud_profiles;
+drop policy if exists word_memory_public_words_read on public.word_memory_cloud_words;
 drop policy if exists "word_memory_public_profiles_read" on public.word_memory_cloud_profiles;
 drop policy if exists "word_memory_public_words_read" on public.word_memory_cloud_words;
 
-create policy "word_memory_public_profiles_read"
+create policy word_memory_public_profiles_read
 on public.word_memory_cloud_profiles
 for select
 to anon, authenticated
 using (is_public = true);
 
-create policy "word_memory_public_words_read"
+create policy word_memory_public_words_read
 on public.word_memory_cloud_words
 for select
 to anon, authenticated
@@ -43,6 +48,15 @@ using (
       and p.is_public = true
   )
 );
+
+-- 清掉可能存在的旧函数签名，避免 PostgREST 找到旧缓存。
+drop function if exists public.save_word_memory_cloud(text, text, jsonb, text, boolean);
+drop function if exists public.save_word_memory_cloud(text, text, json, text, boolean);
+drop function if exists public.save_word_memory_cloud(text, text, jsonb);
+drop function if exists public.save_word_memory_cloud(text, text, json);
+drop function if exists public.verify_word_memory_cloud_pin(text, text);
+drop function if exists public.load_word_memory_cloud(text, text);
+drop function if exists public.load_word_memory_cloud(text);
 
 create or replace function public.save_word_memory_cloud(
   p_slug text,
@@ -83,10 +97,24 @@ begin
     raise exception '编辑密码不正确';
   end if;
 
-  insert into public.word_memory_cloud_profiles (slug, display_name, pin_hash, is_public, created_at, updated_at)
-  values (clean_slug, coalesce(p_display_name, clean_slug), md5(p_pin), coalesce(p_is_public, true), saved_at, saved_at)
+  insert into public.word_memory_cloud_profiles (
+    slug,
+    display_name,
+    pin_hash,
+    is_public,
+    created_at,
+    updated_at
+  )
+  values (
+    clean_slug,
+    coalesce(nullif(trim(p_display_name), ''), clean_slug),
+    md5(p_pin),
+    coalesce(p_is_public, true),
+    saved_at,
+    saved_at
+  )
   on conflict (slug) do update set
-    display_name = coalesce(excluded.display_name, public.word_memory_cloud_profiles.display_name),
+    display_name = excluded.display_name,
     pin_hash = excluded.pin_hash,
     is_public = excluded.is_public,
     updated_at = excluded.updated_at;
@@ -97,7 +125,13 @@ begin
   for item in select value from jsonb_array_elements(p_words)
   loop
     idx := idx + 1;
-    insert into public.word_memory_cloud_words (slug, record_id, record, sort_order, updated_at)
+    insert into public.word_memory_cloud_words (
+      slug,
+      record_id,
+      record,
+      sort_order,
+      updated_at
+    )
     values (
       clean_slug,
       coalesce(nullif(item->>'id', ''), 'word') || '-' || idx::text,
@@ -166,7 +200,8 @@ begin
     raise exception '没有找到这个云端词库';
   end if;
 
-  if profile.is_public is not true and (p_pin is null or profile.pin_hash <> md5(coalesce(p_pin, ''))) then
+  if profile.is_public is not true
+    and (p_pin is null or profile.pin_hash <> md5(coalesce(p_pin, ''))) then
     raise exception '这个词库需要正确编辑密码才能加载';
   end if;
 
@@ -185,6 +220,27 @@ begin
 end;
 $$;
 
+grant usage on schema public to anon, authenticated;
 grant execute on function public.save_word_memory_cloud(text, text, jsonb, text, boolean) to anon, authenticated;
 grant execute on function public.verify_word_memory_cloud_pin(text, text) to anon, authenticated;
 grant execute on function public.load_word_memory_cloud(text, text) to anon, authenticated;
+
+commit;
+
+-- 强制让 Supabase REST 接口刷新函数缓存。没有这句就容易出现 schema cache 报错。
+notify pgrst, 'reload schema';
+select pg_notify('pgrst', 'reload schema');
+
+-- 运行结果必须能看到下面 3 个函数。
+select
+  p.proname as function_name,
+  pg_get_function_identity_arguments(p.oid) as arguments
+from pg_proc p
+join pg_namespace n on n.oid = p.pronamespace
+where n.nspname = 'public'
+  and p.proname in (
+    'save_word_memory_cloud',
+    'verify_word_memory_cloud_pin',
+    'load_word_memory_cloud'
+  )
+order by p.proname;
