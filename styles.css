@@ -2599,23 +2599,24 @@ textarea:focus {
 }
 
 
-/* v55: 按用户要求改为两排三列：记完/模糊/忘了，撤回/美音/英音 */
+/* v55/v58: 两排三列 + 眼神保护模式 */
 .quick-review-actions.action-grid-v55 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 18px 0 14px;
+  column-gap: 24px;
+  row-gap: 18px;
+  margin: 22px 0 18px;
   align-items: stretch;
 }
 .quick-review-actions.action-grid-v55 button {
   width: 100%;
-  min-height: 62px;
+  min-height: 66px;
   border-radius: 10px;
   font-size: 18px;
   font-weight: 900;
 }
 .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio {
-  min-height: 62px;
+  min-height: 66px;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -2651,20 +2652,21 @@ textarea:focus {
     top: 0;
     z-index: 8;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 8px;
+    column-gap: 12px;
+    row-gap: 12px;
     background: rgba(250, 248, 243, .94);
     backdrop-filter: blur(8px);
     padding: 8px 0;
     margin: 12px 0 10px;
   }
   .quick-review-actions.action-grid-v55 button {
-    min-height: 52px;
+    min-height: 56px;
     font-size: 15px;
     padding: 8px 6px;
     border-radius: 9px;
   }
   .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio {
-    min-height: 52px;
+    min-height: 56px;
     padding: 6px 5px;
   }
   .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio span {
@@ -2673,5 +2675,35 @@ textarea:focus {
   .quick-review-actions.action-grid-v55 .audio-button.phonetic-audio small {
     font-size: 10px;
     max-width: 86px;
+  }
+}
+
+
+/* v58: 眼神按钮保护机制，防止乱识别误触 */
+.gaze-active #activeCard [data-card-action].gaze-hover {
+  outline: 4px solid rgba(15, 118, 110, 0.30);
+  outline-offset: 5px;
+}
+.gaze-active #activeCard [data-card-action].gaze-armed {
+  outline: 5px solid rgba(245, 158, 11, 0.48);
+  outline-offset: 6px;
+  box-shadow: 0 0 0 6px rgba(245, 158, 11, 0.12), 0 14px 30px rgba(15, 23, 42, 0.12);
+}
+.gaze-panel {
+  max-width: 430px;
+}
+.gaze-panel .gaze-zones {
+  display: grid !important;
+  grid-template-columns: 1fr;
+}
+.gaze-panel .gaze-zones span {
+  border-radius: 12px;
+  text-align: left;
+  line-height: 1.35;
+}
+@media (max-width: 640px) {
+  .quick-review-actions.action-grid-v55 {
+    column-gap: 10px;
+    row-gap: 12px;
   }
 }

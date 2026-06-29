@@ -4086,7 +4086,12 @@ const state = {
     lastTargetKey: "",
     zoneStartedAt: 0,
     cooldownUntil: 0,
-    dwellMs: 1000,
+    dwellMs: 1800,
+    safeDwellMs: 1300,
+    confirmDwellMs: 1100,
+    pendingTargetKey: "",
+    pendingTargetLabel: "",
+    pendingUntil: 0,
     fallbackStream: null,
     fallbackVideo: null,
     fallbackCanvas: null,
@@ -5775,6 +5780,21 @@ function rememberReviewUndo(word, action) {
 }
 
 
+const GAZE_PROTECTED_ACTIONS = new Set(["remember", "fuzzy", "forgot", "undo-review"]);
+const GAZE_SAFE_ACTIONS = new Set(["show", "speak", "speak-uk"]);
+
+function isProtectedGazeAction(action) {
+  return GAZE_PROTECTED_ACTIONS.has(action);
+}
+
+function clearGazePending() {
+  const control = state.gazeControl;
+  control.pendingTargetKey = "";
+  control.pendingTargetLabel = "";
+  control.pendingUntil = 0;
+  document.querySelectorAll(".gaze-armed").forEach((node) => node.classList.remove("gaze-armed"));
+}
+
 function setGazeStatus(message, tone = "") {
   if (els.gazeStatus) {
     els.gazeStatus.textContent = message;
@@ -5945,12 +5965,19 @@ function gazeTargetFromPoint(data) {
   for (const button of buttons) {
     const rect = button.getBoundingClientRect();
     if (!rect.width || !rect.height) continue;
-    const pad = 18;
-    const inside = x >= rect.left - pad && x <= rect.right + pad && y >= rect.top - pad && y <= rect.bottom + pad;
+    // v58: 只认按钮中间的安全区域，不再把按钮边缘也算进去，减少误触。
+    const insetX = Math.min(34, Math.max(14, rect.width * 0.18));
+    const insetY = Math.min(22, Math.max(10, rect.height * 0.20));
+    const innerLeft = rect.left + insetX;
+    const innerRight = rect.right - insetX;
+    const innerTop = rect.top + insetY;
+    const innerBottom = rect.bottom - insetY;
+    const inside = x >= innerLeft && x <= innerRight && y >= innerTop && y <= innerBottom;
+    if (!inside) continue;
     const cx = rect.left + rect.width / 2;
     const cy = rect.top + rect.height / 2;
     const distance = Math.hypot(x - cx, y - cy);
-    if (inside && distance < nearestDistance) {
+    if (distance < nearestDistance) {
       nearestDistance = distance;
       nearest = button;
     }
@@ -5972,6 +5999,7 @@ function stopGazeControl(message = "已关闭眼神翻词") {
   control.lastTargetKey = "";
   control.zoneStartedAt = 0;
   control.cooldownUntil = 0;
+  clearGazePending();
   control.fallbackBaseline = null;
   control.fallbackSamples = [];
   if (control.fallbackTimer) {
@@ -6015,35 +6043,76 @@ function clearGazeHover() {
   document.querySelectorAll(".gaze-hover").forEach((node) => node.classList.remove("gaze-hover"));
 }
 
-function handleResolvedGazeTarget(target, emptyMessage = "看准按钮 1 秒：记完、模糊、忘了、撤回、释义、发音都能直接触发。") {
+function markGazePending(target) {
+  clearGazePending();
+  const control = state.gazeControl;
+  const key = `${target.action}:${target.label}`;
+  control.pendingTargetKey = key;
+  control.pendingTargetLabel = target.label;
+  control.pendingUntil = Date.now() + 4500;
+  target.button?.classList.add("gaze-armed");
+}
+
+function handleResolvedGazeTarget(target, emptyMessage = "保护模式：发音/释义盯住即可；记完/模糊/忘了/撤回要先锁定，再看一次确认。") {
   const control = state.gazeControl;
   if (!control.enabled) return;
   const now = Date.now();
   if (now < control.cooldownUntil) return;
+
+  if (control.pendingTargetKey && now > control.pendingUntil) {
+    const oldLabel = control.pendingTargetLabel;
+    clearGazePending();
+    setGazeStatus(oldLabel ? `已取消“${oldLabel}”确认` : emptyMessage, "");
+  }
+
   if (!target) {
     clearGazeHover();
     control.lastTargetKey = "";
     control.zoneStartedAt = now;
-    setGazeStatus(emptyMessage, "");
+    setGazeStatus(control.pendingTargetKey ? `已锁定“${control.pendingTargetLabel}”，再看同一个按钮确认；4 秒后自动取消。` : emptyMessage, "");
     return;
   }
+
   const key = `${target.action}:${target.label}`;
+  if (control.pendingTargetKey && control.pendingTargetKey !== key) {
+    clearGazeHover();
+    target.button?.classList.add("gaze-hover");
+    setGazeStatus(`已锁定“${control.pendingTargetLabel}”。要执行就再看它；不想执行等 4 秒自动取消。`, "warn");
+    return;
+  }
+
   if (key !== control.lastTargetKey) {
     clearGazeHover();
     target.button?.classList.add("gaze-hover");
     control.lastTargetKey = key;
     control.zoneStartedAt = now;
   }
+
   const dwell = now - (control.zoneStartedAt || now);
-  const pct = Math.min(100, Math.round((dwell / control.dwellMs) * 100));
-  setGazeStatus(`看着“${target.label}” ${pct}%`, "");
-  if (dwell >= control.dwellMs) {
-    control.cooldownUntil = now + 1300;
+  const protectedAction = isProtectedGazeAction(target.action);
+  const isConfirming = control.pendingTargetKey === key;
+  const requiredMs = isConfirming ? control.confirmDwellMs : (protectedAction ? control.dwellMs : control.safeDwellMs);
+  const pct = Math.min(100, Math.round((dwell / requiredMs) * 100));
+  const prefix = isConfirming ? "确认" : (protectedAction ? "锁定" : "看着");
+  setGazeStatus(`${prefix}“${target.label}” ${pct}%`, protectedAction ? "warn" : "");
+
+  if (dwell < requiredMs) return;
+
+  if (protectedAction && !isConfirming) {
+    markGazePending(target);
+    control.cooldownUntil = now + 500;
     control.lastTargetKey = "";
     control.zoneStartedAt = 0;
-    clearGazeHover();
-    runGazeAction(target);
+    setGazeStatus(`已锁定“${target.label}”：4 秒内再看一次才会执行。`, "warn");
+    return;
   }
+
+  clearGazePending();
+  control.cooldownUntil = now + 1800;
+  control.lastTargetKey = "";
+  control.zoneStartedAt = 0;
+  clearGazeHover();
+  runGazeAction(target);
 }
 
 function handleGazePoint(data) {
@@ -6057,11 +6126,18 @@ function buttonTargetByAction(action) {
 }
 
 function fallbackTargetFromDirection(dx, dy) {
-  const neutralX = Math.abs(dx) < 0.028;
-  const neutralY = Math.abs(dy) < 0.032;
+  // v58: 备用眼控改成更保守。方向不明显时一律不触发，防止乱跳。
+  const neutralX = Math.abs(dx) < 0.065;
+  const neutralY = Math.abs(dy) < 0.075;
   if (neutralX && neutralY) return null;
-  const col = dx < -0.028 ? 0 : (dx > 0.028 ? 2 : 1);
-  const row = dy > 0.038 ? 1 : 0;
+  let col = 1;
+  if (dx < -0.10) col = 0;
+  else if (dx > 0.10) col = 2;
+  else if (Math.abs(dx) > 0.065) col = 1;
+  let row = null;
+  if (dy > 0.105) row = 1;
+  else if (dy < -0.055) row = 0;
+  if (row === null) return null;
   const actions = row === 0 ? ["remember", "fuzzy", "forgot"] : ["undo-review", "speak", "speak-uk"];
   return buttonTargetByAction(actions[col]);
 }
@@ -6110,7 +6186,7 @@ function estimateEyeDirectionFromVideo(video, canvas, control) {
     }
     const sum = control.fallbackSamples.reduce((acc, item) => ({ x: acc.x + item.nx, y: acc.y + item.ny }), { x: 0, y: 0 });
     control.fallbackBaseline = { x: sum.x / control.fallbackSamples.length, y: sum.y / control.fallbackSamples.length };
-    setGazeStatus("备用眼控已开启：看上排触发记完/模糊/忘了，看下排触发撤回/美音/英音。", "ok");
+    setGazeStatus("备用眼控已开启：保护模式开启。记完/模糊/忘了/撤回需要二次确认。", "ok");
     return null;
   }
   return { dx: nx - control.fallbackBaseline.x, dy: ny - control.fallbackBaseline.y };
@@ -6146,7 +6222,7 @@ async function startLocalGazeFallback(reason = "标准眼神识别不可用") {
     if (!control.enabled || control.mode !== "fallback") return;
     const estimate = estimateEyeDirectionFromVideo(video, canvas, control);
     if (estimate) {
-      handleResolvedGazeTarget(fallbackTargetFromDirection(estimate.dx, estimate.dy), "备用眼控：正视不操作；看左/中/右和上/下两排按钮区域 1 秒触发。");
+      handleResolvedGazeTarget(fallbackTargetFromDirection(estimate.dx, estimate.dy), "备用眼控保护模式：方向明显才识别；记完/模糊/忘了/撤回需要二次确认。");
     }
     control.fallbackTimer = window.requestAnimationFrame(tick);
   };
@@ -6187,7 +6263,7 @@ async function startGazeControl() {
     control.lastTargetKey = "";
     control.zoneStartedAt = Date.now();
     control.cooldownUntil = Date.now() + 1000;
-    setGazeStatus("已开启：直接盯住卡片里的按钮 1 秒即可触发。", "ok");
+    setGazeStatus("已开启保护模式：发音/释义可直接看；记完/模糊/忘了/撤回要先锁定，再看一次确认。", "ok");
     showToast("眼神翻词已开启");
   } catch (error) {
     stopMediaStream(permissionStream);
