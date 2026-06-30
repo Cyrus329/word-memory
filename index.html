@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=61">
+  <link rel="stylesheet" href="./styles.css?v=68">
 </head>
 <body>
   <div class="app-shell">
@@ -21,6 +21,7 @@
         <button class="secondary-button" id="batchLearnButton"><span aria-hidden="true">✓</span> 一键记完新词</button>
         <button class="secondary-button" id="sprintButton"><span aria-hidden="true">◷</span> 15分钟冲刺</button>
         <button class="primary-button" id="focusDueButton"><span aria-hidden="true">◎</span> 开始复习</button>
+        <button class="secondary-button" id="weakOnlyButton"><span aria-hidden="true">★</span> 只背不会的</button>
       </div>
     </header>
     <div class="readonly-banner" id="readonlyBanner" hidden></div>
@@ -113,18 +114,30 @@
             <button class="tab-button" id="allModeButton" type="button">全部抽查</button>
           </div>
 
-          <div class="practice-switch" aria-label="练习方式">
+          <div class="practice-switch main-practice-switch" aria-label="常用练习方式">
             <button class="practice-button active" data-practice-mode="card" type="button">卡片</button>
-            <button class="practice-button" data-practice-mode="threeStep" type="button">三步背诵</button>
-            <button class="practice-button" data-practice-mode="enToZh" type="button">英译中</button>
             <button class="practice-button" data-practice-mode="zhToEn" type="button">中译英</button>
             <button class="practice-button" data-practice-mode="choiceZhToEn" type="button">中文选英文</button>
-            <button class="practice-button" data-practice-mode="phrase" type="button">搭配填空</button>
             <button class="practice-button" data-practice-mode="spell" type="button">拼写</button>
             <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
             <button class="practice-button" data-practice-mode="forms" type="button">变形</button>
           </div>
-          <p class="mode-progress-note">各模式独立进度：卡片、拼写、听写、变形互不影响。</p>
+          <details class="special-practice-panel">
+            <summary>专项训练 / 旧模式</summary>
+            <div class="special-practice-note">默认不展开，避免主界面按钮重复。旧模式和新专项都保留进度，只是移到这里。</div>
+            <div class="practice-switch special-practice-switch" aria-label="专项训练和旧模式">
+              <button class="practice-button" data-practice-mode="plainList" type="button">纯文字速刷</button>
+              <button class="practice-button" data-practice-mode="multiMeaning" type="button">一词多义</button>
+              <button class="practice-button" data-practice-mode="rareMeaning" type="button">熟词僻义</button>
+              <button class="practice-button" data-practice-mode="fixedPhrase" type="button">固定搭配速记</button>
+              <button class="practice-button" data-practice-mode="spellingWeak" type="button">拼写易错</button>
+              <button class="practice-button" data-practice-mode="dictationWeak" type="button">听写错词</button>
+              <button class="practice-button old-mode" data-practice-mode="threeStep" type="button">三步背诵</button>
+              <button class="practice-button old-mode" data-practice-mode="enToZh" type="button">英译中</button>
+              <button class="practice-button old-mode" data-practice-mode="phrase" type="button">搭配填空</button>
+            </div>
+          </details>
+          <p class="mode-progress-note">默认进入卡片。重合功能已移到“专项训练 / 旧模式”，不再挤在主按钮区；所有历史存档仍保留。</p>
 
           <div class="dictation-tools" aria-label="听写设置">
             <label class="compact-select">
@@ -180,6 +193,9 @@
           <button class="smart-tab active" data-smart-tab="affix" type="button">前缀后缀词根</button>
           <button class="smart-tab" data-smart-tab="similar" type="button">形近词对比</button>
           <button class="smart-tab" data-smart-tab="synonym" type="button">同义词辨析</button>
+          <button class="smart-tab" data-smart-tab="family" type="button">词族归类</button>
+          <button class="smart-tab" data-smart-tab="polysemy" type="button">一词多义</button>
+          <button class="smart-tab" data-smart-tab="collocation" type="button">固定搭配</button>
         </div>
         <div id="smartVocabContent" class="smart-vocab-content"></div>
       </section>
@@ -378,23 +394,23 @@
     <div class="gaze-zones"><span>已移除手指翻词</span><span>显示词义按钮已恢复</span><span>优先保证记忆记录稳定</span></div>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./supplemental-words.js?v=61"></script>
-  <script src="./supplemental-words-batch2.js?v=61"></script>
-  <script src="./supplemental-words-batch3.js?v=61"></script>
-  <script src="./supplemental-words-batch4.js?v=61"></script>
-  <script src="./supplemental-words-batch5.js?v=61"></script>
-  <script src="./supplemental-words-batch6.js?v=61"></script>
-  <script src="./supplemental-words-batch7.js?v=61"></script>
-  <script src="./supplemental-words-batch8.js?v=61"></script>
-  <script src="./supplemental-words-batch9.js?v=61"></script>
-  <script src="./supplemental-words-batch10.js?v=61"></script>
-  <script src="./supplemental-words-batch11.js?v=61"></script>
-  <script src="./supplemental-words-batch12.js?v=61"></script>
-  <script src="./supplemental-words-batch13.js?v=61"></script>
-  <script src="./library-folder-data.js?v=61"></script>
-  <script src="./app.js?v=61"></script>
-  <script src="./folder-view.js?v=61"></script>
-  <script src="./smart-vocab.js?v=61"></script>
+  <script src="./supplemental-words.js?v=68"></script>
+  <script src="./supplemental-words-batch2.js?v=68"></script>
+  <script src="./supplemental-words-batch3.js?v=68"></script>
+  <script src="./supplemental-words-batch4.js?v=68"></script>
+  <script src="./supplemental-words-batch5.js?v=68"></script>
+  <script src="./supplemental-words-batch6.js?v=68"></script>
+  <script src="./supplemental-words-batch7.js?v=68"></script>
+  <script src="./supplemental-words-batch8.js?v=68"></script>
+  <script src="./supplemental-words-batch9.js?v=68"></script>
+  <script src="./supplemental-words-batch10.js?v=68"></script>
+  <script src="./supplemental-words-batch11.js?v=68"></script>
+  <script src="./supplemental-words-batch12.js?v=68"></script>
+  <script src="./supplemental-words-batch13.js?v=68"></script>
+  <script src="./library-folder-data.js?v=68"></script>
+  <script src="./app.js?v=68"></script>
+  <script src="./folder-view.js?v=68"></script>
+  <script src="./smart-vocab.js?v=68"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));

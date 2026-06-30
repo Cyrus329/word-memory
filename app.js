@@ -10,7 +10,10 @@ const REVIEW_STEPS = [
   { label: "6天", ms: 6 * 24 * 60 * 60 * 1000 },
   { label: "31天", ms: 31 * 24 * 60 * 60 * 1000 },
 ];
-const PROGRESS_MODES = ["card", "threeStep", "enToZh", "zhToEn", "choiceZhToEn", "phrase", "spell", "dictation", "forms"];
+const PROGRESS_MODES = [
+  "card", "threeStep", "enToZh", "zhToEn", "choiceZhToEn", "phrase", "spell", "dictation", "forms",
+  "plainList", "multiMeaning", "rareMeaning", "fixedPhrase", "spellingWeak", "dictationWeak"
+];
 const PROGRESS_MODE_LABELS = {
   card: "卡片",
   threeStep: "三步背诵",
@@ -21,8 +24,14 @@ const PROGRESS_MODE_LABELS = {
   spell: "拼写",
   dictation: "听写",
   forms: "变形",
+  plainList: "纯文字速刷",
+  multiMeaning: "一词多义",
+  rareMeaning: "熟词僻义",
+  fixedPhrase: "固定搭配",
+  spellingWeak: "拼写易错",
+  dictationWeak: "听写错词",
 };
-const MODE_PROGRESS_HINT = "各模式独立进度";
+const MODE_PROGRESS_HINT = "各模式独立进度；旧模式仍保留，新增模式只追加不删除";
 const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
@@ -4014,6 +4023,7 @@ const els = {
   gazeStopButton: document.querySelector("#gazeStopButton"),
   cloudSyncButton: document.querySelector("#cloudSyncButton"),
   focusDueButton: document.querySelector("#focusDueButton"),
+  weakOnlyButton: document.querySelector("#weakOnlyButton"),
   dictationOrderSelect: document.querySelector("#dictationOrderSelect"),
   copyPlanButton: document.querySelector("#copyPlanButton"),
   dueModeButton: document.querySelector("#dueModeButton"),
@@ -5735,8 +5745,89 @@ function wordMatchesActiveGroup(word) {
   return false;
 }
 
+function wordTextBlob(word) {
+  return [word.term, word.meaning, word.phrase, word.note, word.tag, ...(word.sources || [])].join(" ").toLowerCase();
+}
+
+function meaningSegments(text) {
+  const raw = normalizeText(text || "");
+  if (!raw) return [];
+  return raw
+    .split(/[；;。]|(?:\s+[/／]\s+)|(?:，(?=[^，]{1,18}(?:；|$)))/)
+    .map((item) => normalizeText(item).replace(/^[,，、:：\s]+/, ""))
+    .filter(Boolean)
+    .slice(0, 8);
+}
+
+function hasMultiMeaning(word) {
+  const parts = meaningSegments(word.meaning);
+  return parts.length >= 2 || /；|;|一词多义|多义|熟词僻义/.test(word.meaning || word.note || "");
+}
+
+function hasFixedPhrase(word) {
+  return Boolean(normalizeText(word.phrase)) || /搭配|短语|固定搭配|look forward to|be .* to|depend on|according to/i.test(wordTextBlob(word));
+}
+
+const RARE_MEANING_TERMS = new Set("case charge present park leave book match fair fine still light address rest mean right term course issue matter business raise lie bear sound spring capital subject object form figure deal".split(" "));
+function hasRareMeaning(word) {
+  const term = normalizeText(word.term).toLowerCase().replace(/[^a-z]/g, "");
+  const text = wordTextBlob(word);
+  return RARE_MEANING_TERMS.has(term) || /熟词僻义|僻义|考试义|多义|指控|充电|提出|出席|案件|期限|术语/.test(text);
+}
+
+function progressHasResult(word, matcher) {
+  const progress = word.progress && typeof word.progress === "object" ? word.progress : {};
+  return Object.values(progress).some((item) => Array.isArray(item?.history) && item.history.some((entry) => matcher(entry.result || "")))
+    || (Array.isArray(word.history) && word.history.some((entry) => matcher(entry.result || "")));
+}
+
+function isSpellingWeakWord(word) {
+  return word.important || progressHasResult(word, (result) => ["spell-wrong", "forms-wrong"].includes(result));
+}
+
+function isDictationWeakWord(word) {
+  return word.important || progressHasResult(word, (result) => ["dictation-wrong", "spell-wrong"].includes(result));
+}
+
+function weakScore(word) {
+  let score = 0;
+  if (word.important) score += 50;
+  if (isDue(word)) score += 30;
+  const progress = activeModeProgress(word);
+  if (progress.stage < 1) score += 16;
+  if (progress.status === "new") score += 8;
+  if (progressHasResult(word, (result) => ["forgot", "fuzzy", "spell-wrong", "forms-wrong", "choice-wrong"].includes(result))) score += 30;
+  return score;
+}
+
+function isWeakWord(word) {
+  return weakScore(word) > 0;
+}
+
+function priorityOf(word) {
+  if (word.priority) return word.priority;
+  if (word.important || /重点|高频|核心|必背|四级|蓝色森林/i.test(wordTextBlob(word))) return "A";
+  if (hasMultiMeaning(word) || hasFixedPhrase(word) || hasRareMeaning(word)) return "B";
+  return "C";
+}
+
 function practiceEligibleWords(words) {
-  return state.practiceMode === "forms" ? words.filter(hasVerbForms) : words;
+  switch (state.practiceMode) {
+    case "forms":
+      return words.filter(hasVerbForms);
+    case "multiMeaning":
+      return words.filter(hasMultiMeaning);
+    case "rareMeaning":
+      return words.filter(hasRareMeaning);
+    case "fixedPhrase":
+      return words.filter(hasFixedPhrase);
+    case "spellingWeak":
+      return words.filter(isSpellingWeakWord);
+    case "dictationWeak":
+      return words.filter(isDictationWeakWord);
+    default:
+      return words;
+  }
 }
 
 function resetTypingState() {
@@ -6321,7 +6412,7 @@ function undoLastReview() {
   }
   state.words[index] = normalizeWord(snapshot.word);
   state.practiceMode = PROGRESS_MODES.includes(snapshot.practiceMode) ? snapshot.practiceMode : state.practiceMode;
-  state.mode = ["due", "new", "all"].includes(snapshot.mode) ? snapshot.mode : state.mode;
+  state.mode = ["due", "new", "all", "weak"].includes(snapshot.mode) ? snapshot.mode : state.mode;
   state.activeGroup = snapshot.activeGroup || state.activeGroup;
   setActiveId(snapshot.wordId);
   state.answerVisible = true;
@@ -6354,14 +6445,15 @@ function scheduleNext(word, result, options = {}) {
 
   if (result === "fuzzy") {
     nextStep = Math.max(0, progress.stage);
-    delay = REVIEW_STEPS[0].ms;
-    label = REVIEW_STEPS[0].label;
+    delay = 8 * 60 * 1000;
+    label = "8分钟";
+    word.important = true;
   }
 
   if (result === "forgot") {
     nextStep = -1;
-    delay = 5 * 60 * 1000;
-    label = "5分钟";
+    delay = 2 * 60 * 1000;
+    label = "2分钟";
     word.important = true;
   }
 
@@ -6393,6 +6485,9 @@ function getQueue() {
   }
   if (state.mode === "all") {
     return sorted;
+  }
+  if (state.mode === "weak") {
+    return sorted.filter(isWeakWord).sort((a, b) => weakScore(b) - weakScore(a));
   }
   return sorted.filter((word) => isDue(word));
 }
@@ -6437,8 +6532,12 @@ function getOrderedStudyWords(words, order = state.dictationOrder) {
     return ad.localeCompare(bd);
   });
 
-  if (state.practiceMode !== "dictation") {
-    return sortedByDue;
+  if (!["dictation", "dictationWeak"].includes(state.practiceMode)) {
+    return sortedByDue.sort((a, b) => {
+      const pa = priorityOf(a) === "A" ? 0 : (priorityOf(a) === "B" ? 1 : 2);
+      const pb = priorityOf(b) === "A" ? 0 : (priorityOf(b) === "B" ? 1 : 2);
+      return (Number(b.important) - Number(a.important)) || pa - pb || ((activeModeProgress(a).nextReviewAt || "9999-12-31").localeCompare(activeModeProgress(b).nextReviewAt || "9999-12-31"));
+    });
   }
 
   switch (order) {
@@ -6563,7 +6662,7 @@ function dailyReportStats() {
   const reviewEntries = entries.filter((entry) => ["new", "remember", "fuzzy", "forgot"].includes(entry.result));
   const spellingEntries = entries.filter((entry) => ["spell-correct", "spell-wrong", "forms-correct", "forms-wrong"].includes(entry.result));
   const spellingCorrect = spellingEntries.filter((entry) => ["spell-correct", "forms-correct"].includes(entry.result)).length;
-  const forgotten = entries.filter((entry) => ["forgot", "spell-wrong", "forms-wrong"].includes(entry.result)).length;
+  const forgotten = entries.filter((entry) => ["forgot", "spell-wrong", "forms-wrong", "dictation-wrong", "choice-wrong"].includes(entry.result)).length;
   const importantNow = state.words.filter((word) => word.important).length;
   const nextReview = state.words
     .map((word) => modeProgress(word))
@@ -6613,7 +6712,8 @@ function renderModeButtons() {
     [els.dueModeButton, "due"],
     [els.newModeButton, "new"],
     [els.allModeButton, "all"],
-  ].forEach(([button, mode]) => button.classList.toggle("active", state.mode === mode));
+    [els.weakOnlyButton, "weak"],
+  ].forEach(([button, mode]) => button?.classList.toggle("active", state.mode === mode));
 }
 
 function renderPracticeButtons() {
@@ -6629,7 +6729,7 @@ function renderDictationTools() {
   if (els.dictationOrderSelect.value !== state.dictationOrder) {
     els.dictationOrderSelect.value = state.dictationOrder;
   }
-  const visible = state.practiceMode === "dictation";
+  const visible = ["dictation", "dictationWeak"].includes(state.practiceMode);
   els.dictationOrderSelect.closest(".dictation-tools")?.classList.toggle("is-visible", visible);
 }
 
@@ -6768,18 +6868,34 @@ function answerChoice(word, selectedTerm) {
   const correct = normalizeSpelling(selectedTerm) === normalizeSpelling(word.term);
   state.choiceResult = { selectedTerm, correct };
   state.answerVisible = true;
+  const completedAt = new Date();
   if (!correct) {
     word.important = true;
+    word.errorReason = word.errorReason || "忘记中文";
   }
   recordModeHistory(word, {
-    time: new Date().toISOString(),
+    time: completedAt.toISOString(),
     result: correct ? "choice-correct" : "choice-wrong",
     nextReviewAt: modeProgress(word).nextReviewAt || "",
   }, "choiceZhToEn");
-  word.updatedAt = new Date().toISOString();
+  if (correct) {
+    rememberReviewUndo(word, "remember");
+    scheduleNext(word, modeProgress(word, "choiceZhToEn").stage < 0 ? "new" : "remember", { completedAt, silent: true });
+  }
+  word.updatedAt = completedAt.toISOString();
   saveWords();
   renderActiveCard();
-  showToast(correct ? "选对了" : "已加入重点词");
+  showToast(correct ? "选对了，自动进入下一个" : "已加入重点词");
+  if (correct) {
+    window.setTimeout(() => {
+      if (state.choiceResult?.correct) {
+        state.answerVisible = false;
+        resetTypingState();
+        chooseActiveWord(true);
+        render();
+      }
+    }, 550);
+  }
 }
 
 function practiceView(word) {
@@ -6805,6 +6921,56 @@ function practiceView(word) {
       hidden: "先选答案，再查看结果",
       answer: safeTerm,
       extra: phrase ? `搭配：${phrase}` : "",
+    };
+  }
+
+  if (state.practiceMode === "multiMeaning") {
+    return {
+      prompt: "一词多义专项",
+      target: safeTerm,
+      hidden: "多义词释义已盖住",
+      answer: safeMeaning,
+      extra: phrase ? `常见搭配：${phrase}` : "重点看不同语境下的意思",
+    };
+  }
+
+  if (state.practiceMode === "rareMeaning") {
+    return {
+      prompt: "熟词僻义专项",
+      target: safeTerm,
+      hidden: "考试义 / 僻义已盖住",
+      answer: safeMeaning,
+      extra: word.note ? `备注：${word.note}` : (phrase ? `搭配：${phrase}` : "不要只记最常见意思"),
+    };
+  }
+
+  if (state.practiceMode === "fixedPhrase") {
+    return {
+      prompt: "固定搭配速记",
+      target: phrase || safeTerm,
+      hidden: "搭配含义已盖住",
+      answer: phrase ? `${safeTerm}：${safeMeaning}` : safeMeaning,
+      extra: phrase ? `固定搭配：${phrase}` : "暂无搭配，建议后续补充",
+    };
+  }
+
+  if (state.practiceMode === "spellingWeak") {
+    return {
+      prompt: "拼写易错专项",
+      target: safeMeaning,
+      hidden: "英文已盖住",
+      answer: safeTerm,
+      extra: phrase ? `搭配：${phrase}` : "只刷拼错、模糊、重点里的拼写弱项",
+    };
+  }
+
+  if (state.practiceMode === "dictationWeak") {
+    return {
+      prompt: "听写错词本",
+      target: "先听读音，再把易错词拼出来",
+      hidden: "答案已盖住",
+      answer: safeTerm,
+      extra: state.answerVisible ? safeMeaning : "",
     };
   }
 
@@ -6919,7 +7085,7 @@ function renderVerbFormsBox(word) {
 }
 
 function renderSpellingBox(word) {
-  if (!["spell", "dictation"].includes(state.practiceMode)) {
+  if (!["spell", "dictation", "spellingWeak", "dictationWeak"].includes(state.practiceMode)) {
     return "";
   }
   const result = state.spellingResult;
@@ -6928,13 +7094,14 @@ function renderSpellingBox(word) {
     <div class="spell-feedback ${result.correct ? "is-correct" : "is-wrong"}">
       ${result.correct ? "拼对了" : `差一点，正确答案：${escapeHTML(word.term)}`}
     </div>` : "";
-  const hint = state.practiceMode === "dictation"
-    ? "听不清可以点“再听一次”，不会就点显示答案。"
+  const isDictationMode = ["dictation", "dictationWeak"].includes(state.practiceMode);
+  const hint = isDictationMode
+    ? "听不清可以点“播放读音”，不会就点显示答案。"
     : "大小写不影响判断，短语里的空格也会自动整理。";
   return `
     <div class="spell-box">
       <label>
-        <span>${state.practiceMode === "dictation" ? "听写输入" : "拼写输入"}</span>
+        <span>${["dictation", "dictationWeak"].includes(state.practiceMode) ? "听写输入" : "拼写输入"}</span>
         <input data-spell-input type="text" value="${value}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="在这里输入英文">
       </label>
       <div class="spell-actions">
@@ -7073,6 +7240,38 @@ function renderAudioButton(label, action, phonetic) {
   return `<button class="secondary-button audio-button phonetic-audio" data-card-action="${escapeHTML(action)}" type="button"><span>${escapeHTML(label)}</span>${phoneticText}</button>`;
 }
 
+function renderLayeredMeaning(answerText) {
+  const parts = meaningSegments(answerText);
+  if (parts.length <= 1) {
+    return `<p class="word-meaning">${escapeHTML(answerText)}</p>`;
+  }
+  const labels = ["核心义", "常考义", "扩展义"];
+  return `<div class="meaning-layers">${parts.slice(0, 5).map((part, index) => `<p><b>${labels[index] || "补充义"}</b><span>${escapeHTML(part)}</span></p>`).join("")}</div>`;
+}
+
+function renderErrorReasonBox(word) {
+  if (!state.answerVisible && !word.important) return "";
+  const reasons = ["忘记中文", "拼写不熟", "相似词混了", "听音不熟", "一词多义", "搭配没记住"];
+  const current = normalizeText(word.errorReason || "");
+  return `<div class="error-reason-box"><span>错词原因</span>${reasons.map((reason) => `<button class="mini-pill ${current === reason ? "active" : ""}" data-card-action="set-error-reason:${escapeHTML(reason)}" type="button">${escapeHTML(reason)}</button>`).join("")}</div>`;
+}
+
+
+function renderPlainListCard() {
+  const queue = getQueue().slice(0, 14);
+  if (!queue.length) {
+    els.activeCard.innerHTML = `<div class="empty-card"><div><h3>纯文字速刷暂无单词</h3><p>切换到新词记忆、全部抽查或只背不会的继续。</p></div></div>`;
+    return;
+  }
+  els.activeCard.innerHTML = `
+    <div class="plain-speed-card">
+      <div class="plain-speed-head"><h3>纯文字速刷</h3><p>一屏多词，适合快速过重点和到期词。</p></div>
+      <div class="plain-speed-list">
+        ${queue.map((word) => `<article class="plain-speed-row" data-id="${escapeHTML(word.id)}"><b>${escapeHTML(word.term)}</b><span>${escapeHTML(meaningSegments(word.meaning)[0] || word.meaning || word.phrase || "未填释义")}</span><em>${priorityOf(word)}级</em><div><button data-card-action="studyword:${escapeHTML(word.id)}:remember" class="primary-button" type="button">记完</button><button data-card-action="studyword:${escapeHTML(word.id)}:fuzzy" class="secondary-button" type="button">模糊</button><button data-card-action="studyword:${escapeHTML(word.id)}:forgot" class="danger-button" type="button">忘了</button></div></article>`).join("")}
+      </div>
+    </div>`;
+}
+
 function renderActiveCard() {
   const word = activeWord();
   if (!word) {
@@ -7091,7 +7290,11 @@ function renderActiveCard() {
 
   const progress = activeModeProgress(word);
   const status = statusOf(word);
-  const typingMode = ["spell", "dictation", "forms"].includes(state.practiceMode);
+  if (state.practiceMode === "plainList") {
+    renderPlainListCard();
+    return;
+  }
+  const typingMode = ["spell", "dictation", "forms", "spellingWeak", "dictationWeak"].includes(state.practiceMode);
   const letters = typingMode ? [] : word.term.replace(/[^a-zA-Z]/g, "").slice(0, 9).split("");
   const ribbon = typingMode
     ? (state.practiceMode === "forms" ? "<span>F</span><span>O</span><span>R</span><span>M</span>" : "<span>S</span><span>P</span><span>E</span><span>L</span><span>L</span>")
@@ -7101,11 +7304,12 @@ function renderActiveCard() {
   const previousHint = renderPreviousWordHint();
   const phonetic = extractWordPhonetic(word);
   const threeStepBox = state.practiceMode === "threeStep" ? renderThreeStepBox(word, view) : "";
-  const answer = state.practiceMode === "threeStep" ? "" : (state.answerVisible ? `<p class="word-meaning">${escapeHTML(view.answer)}</p>` : `<div class="answer-mask">${escapeHTML(view.hidden)}</div>`);
+  const answer = state.practiceMode === "threeStep" ? "" : (state.answerVisible ? renderLayeredMeaning(view.answer) : `<div class="answer-mask">${escapeHTML(view.hidden)}</div>`);
   const extra = state.practiceMode === "threeStep" ? "" : (state.answerVisible && view.extra ? `<p class="word-phrase">${escapeHTML(view.extra)}</p>` : "");
   const note = state.practiceMode === "threeStep" ? "" : (state.answerVisible && word.note ? `<p class="word-note">备注：${escapeHTML(word.note)}</p>` : "");
   const important = word.important ? `<p class="important-line">重点词</p>` : "";
   const masteryBox = renderMasteryBox(word);
+  const errorReasonBox = renderErrorReasonBox(word);
   const spellingBox = state.practiceMode === "forms" ? renderVerbFormsBox(word) : renderSpellingBox(word);
   const undoDisabled = state.reviewUndo ? "" : "disabled";
   const quickActions = `
@@ -7135,6 +7339,7 @@ function renderActiveCard() {
       ${extra}
       ${note}
       ${important}
+      ${errorReasonBox}
       ${masteryBox}
       <p class="next-line">下次：${formatDateTime(progress.nextReviewAt)} · ${statusLabel(status)}</p>
     </div>
@@ -7147,7 +7352,7 @@ function renderActiveCard() {
 
   updateGazeGuidePosition();
 
-  if (state.practiceMode === "dictation" && state.lastAutoSpokenId !== word.id) {
+  if (["dictation", "dictationWeak"].includes(state.practiceMode) && state.lastAutoSpokenId !== word.id) {
     state.lastAutoSpokenId = word.id;
     window.setTimeout(() => speakTerm(word.term, { silent: true, accent: "us" }), 120);
   }
@@ -7370,6 +7575,21 @@ function handleCardAction(action) {
     undoLastReview();
     return;
   }
+  if (action.startsWith("studyword:")) {
+    if (!guardEditable()) return;
+    const [, id, result] = action.split(":");
+    const targetWord = state.words.find((item) => item.id === id);
+    if (!targetWord || !["remember", "fuzzy", "forgot"].includes(result)) return;
+    state.activeId = targetWord.id;
+    rememberReviewUndo(targetWord, result);
+    scheduleNext(targetWord, modeProgress(targetWord).stage < 0 && result === "remember" ? "new" : result, { silent: true });
+    saveWords();
+    state.answerVisible = false;
+    resetTypingState();
+    render();
+    showToast(result === "remember" ? "已记完" : (result === "fuzzy" ? "已加入模糊复习" : "已加入重点复习"));
+    return;
+  }
   const word = activeWord();
   if (!word) {
     return;
@@ -7387,6 +7607,16 @@ function handleCardAction(action) {
     state.revealStep = 0;
     state.answerVisible = false;
     renderActiveCard();
+    return;
+  }
+  if (action.startsWith("set-error-reason:")) {
+    if (!guardEditable()) return;
+    word.errorReason = action.slice("set-error-reason:".length);
+    word.important = true;
+    word.updatedAt = new Date().toISOString();
+    saveWords();
+    renderActiveCard();
+    showToast(`已标记原因：${word.errorReason}`);
     return;
   }
   if (action.startsWith("set-mastery:")) {
@@ -7417,7 +7647,7 @@ function handleCardAction(action) {
     state.answerVisible = true;
     recordModeHistory(word, {
       time: completedAt,
-      result: correct ? "spell-correct" : "spell-wrong",
+      result: correct ? (["dictation", "dictationWeak"].includes(state.practiceMode) ? "dictation-correct" : "spell-correct") : (["dictation", "dictationWeak"].includes(state.practiceMode) ? "dictation-wrong" : "spell-wrong"),
       nextReviewAt: modeProgress(word).nextReviewAt || "",
     });
     if (!correct) {
@@ -7599,13 +7829,48 @@ async function importWords(event) {
     if (!Array.isArray(incoming)) {
       throw new Error("Invalid file");
     }
-    const records = incoming.map(normalizeWord);
-    const replace = confirm("确定替换当前词库？取消则合并导入。");
+    const records = incoming.map(normalizeWord).filter((word) => word.term);
+    const existingTerms = new Set(state.words.map((word) => normalizeText(word.term).toLowerCase()).filter(Boolean));
+    const seenTerms = new Set();
+    let internalDuplicate = 0;
+    const uniqueRecords = [];
+    records.forEach((word) => {
+      const key = normalizeText(word.term).toLowerCase();
+      if (seenTerms.has(key)) {
+        internalDuplicate += 1;
+        return;
+      }
+      seenTerms.add(key);
+      uniqueRecords.push(word);
+    });
+    const duplicateExisting = uniqueRecords.filter((word) => existingTerms.has(normalizeText(word.term).toLowerCase())).length;
+    const newCount = uniqueRecords.length - duplicateExisting;
+    const replace = confirm(`导入前预览：
+文件词条：${incoming.length}
+有效词条：${records.length}
+文件内部重复：${internalDuplicate}
+和当前词库重复：${duplicateExisting}
+预计新增：${newCount}
+
+确定=替换当前词库；取消=合并导入并自动去重。`);
     if (replace) {
-      state.words = records;
+      state.words = uniqueRecords;
     } else {
-      const ids = new Set(state.words.map((word) => word.id));
-      state.words = [...records.filter((word) => !ids.has(word.id)), ...state.words];
+      const byTerm = new Map(state.words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
+      uniqueRecords.reverse().forEach((word) => {
+        const key = normalizeText(word.term).toLowerCase();
+        if (byTerm.has(key)) {
+          const old = byTerm.get(key);
+          old.meaning = old.meaning || word.meaning;
+          old.phrase = old.phrase || word.phrase;
+          old.note = old.note || word.note;
+          old.sources = Array.from(new Set([...(old.sources || []), ...(word.sources || []), word.source, old.source].filter(Boolean)));
+          old.updatedAt = new Date().toISOString();
+        } else {
+          state.words.unshift(word);
+          byTerm.set(key, word);
+        }
+      });
     }
     saveWords();
     if (parsed.studyTime) {
@@ -7988,11 +8253,16 @@ function wireEvents() {
   els.startNewButton.addEventListener("click", startNewWords);
   els.batchLearnButton.addEventListener("click", batchLearnNewWords);
   els.sprintButton.addEventListener("click", startSprint);
+  els.weakOnlyButton?.addEventListener("click", () => setMode("weak"));
   els.focusDueButton.addEventListener("click", () => setMode("due"));
   els.dueModeButton.addEventListener("click", () => setMode("due"));
   els.newModeButton.addEventListener("click", () => setMode("new"));
   els.allModeButton.addEventListener("click", () => setMode("all"));
 }
+
+// v68：打开页面默认回到卡片模式。不会删除其它模式的进度，只是避免刷新后停在专项/旧模式。
+state.practiceMode = "card";
+ensurePracticeSession("card");
 
 wireEvents();
 installStudyTimeTracker();

@@ -71,7 +71,38 @@
       words: uniqueByTerm(words.filter(w=>seed.keys.some(k=>`${w.term} ${w.meaning} ${w.phrase} ${w.note}`.toLowerCase().includes(String(k).toLowerCase()))))
     })).filter(g=>g.words.length>=2);
   }
-  function groups(){return active==='affix'?affixGroups():(active==='similar'?similarGroups():synonymGroups());}
+  const familyRoots = [
+    ['act', 'act / active / action 一组'], ['form', 'form / inform / perform 一组'], ['port', 'port / import / export 一组'],
+    ['press', 'press / express / pressure 一组'], ['spect', 'spect / inspect / respect 一组'], ['struct', 'struct / construct / instruction 一组'],
+    ['duce', 'duce / produce / reduce 一组'], ['sign', 'sign / signal / significant 一组'], ['dict', 'dict / predict / dictionary 一组']
+  ];
+  function familyGroups(){
+    return familyRoots.map(([root,name])=>({name, tip:'同一词根或同族词，放一起记更快', words:uniqueByTerm(words.filter(w=>norm(w.term).includes(root))) }))
+      .filter(g=>g.words.length>=2);
+  }
+  function polysemyGroups(){
+    const candidates = uniqueByTerm(words.filter(w=>/[；;]|一词多义|多义|熟词僻义/.test(`${w.meaning} ${w.note}`) || String(w.meaning||'').split(/[，,；;]/).filter(Boolean).length>=3));
+    return [{name:'一词多义集中刷', tip:'一个词多个常考意思，适合阅读和完形', words:candidates}].filter(g=>g.words.length);
+  }
+  function collocationGroups(){
+    const buckets = new Map();
+    uniqueByTerm(words.filter(w=>String(w.phrase||'').trim())).forEach(w=>{
+      const first = norm(w.phrase).split(/\s+/)[0] || '短语';
+      const key = ['be','look','take','make','give','come','go','get','put','according','because','in','on','at','for','to'].includes(first) ? `${first} 搭配` : '常见固定搭配';
+      if(!buckets.has(key)) buckets.set(key, []);
+      buckets.get(key).push(w);
+    });
+    return [...buckets.entries()].map(([name,list])=>({name, tip:'固定搭配只速记，不再做填空', words:list})).filter(g=>g.words.length).sort((a,b)=>b.words.length-a.words.length);
+  }
+  function groups(){
+    if(active==='affix') return affixGroups();
+    if(active==='similar') return similarGroups();
+    if(active==='synonym') return synonymGroups();
+    if(active==='family') return familyGroups();
+    if(active==='polysemy') return polysemyGroups();
+    if(active==='collocation') return collocationGroups();
+    return affixGroups();
+  }
   function render(){
     const gs=groups();
     if(!activeKey || !gs.some(g=>g.name===activeKey)) activeKey=gs[0]?.name||'';
