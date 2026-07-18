@@ -1,11 +1,12 @@
+// v68 2026-07-18：仅导入上传资料中缺失的新词，不改系列、功能或存档。
 window.ENGLISH_FOLDER_LIBRARY = [
   {
     "name": "全方位",
-    "count": 411,
+    "count": 372,
     "children": [
       {
         "name": "全方位 1",
-        "count": 170,
+        "count": 131,
         "words": [
           {
             "id": "fullway-2026-prefix-001",
@@ -37,38 +38,66 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-004",
             "term": "stop",
-            "meaning": "v. 停止；n. 车站。bus stop 公交车站。",
-            "phrase": "",
+            "meaning": "v. 停止；n. 车站。bus stop 公交车站。；v. 停止，停下来；n. 车站。",
+            "phrase": "bus stop 公交车站；train station 火车站",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-005",
             "term": "interest",
-            "meaning": "n. 兴趣；利益；利息；v. 引起关注，吸引。show interest in / be interested in。",
-            "phrase": "",
+            "meaning": "n. 兴趣；利益；利息；v. 引起关注，吸引。show interest in / be interested in。；v. 引起……的关注，吸引。",
+            "phrase": "show interest in 对……感兴趣；be interested in 对……感兴趣；attract v. 吸引",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-006",
             "term": "waste",
-            "meaning": "v. 浪费；n. 浪费，废物。It is a waste of time doing sth. 做某事浪费时间。",
-            "phrase": "",
+            "meaning": "v. 浪费；n. 浪费，废物。It is a waste of time doing sth. 做某事浪费时间。；n. 浪费，废物。",
+            "phrase": "It is a waste of time doing sth. 做某事浪费时间",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-007",
             "term": "cost",
-            "meaning": "v. 花费；n. 花费，代价。sth. cost sb. money。",
-            "phrase": "",
+            "meaning": "v. 花费；n. 花费，代价。sth. cost sb. money。；n. 花费，费用，成本。cost-cost-cost。",
+            "phrase": "sth. cost sb. money 某物花某人多少钱",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-008",
@@ -82,101 +111,178 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-009",
             "term": "take",
-            "meaning": "v. 花费；拿；乘坐。It takes/took sb. time to do sth.。",
-            "phrase": "",
+            "meaning": "v. 花费；拿；乘坐。It takes/took sb. time to do sth.。；乘坐。take-took-taken。",
+            "phrase": "It took/will take sb. time to do sth. 做某事花费某人时间",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-010",
             "term": "work",
-            "meaning": "v. 工作，运转；n. 工作，不可数；works 作品，可数。",
-            "phrase": "",
+            "meaning": "v. 工作，运转；n. 工作，不可数；works 作品，可数。；作品，可数。",
+            "phrase": "The washing machine doesn’t work. 洗衣机不运转",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-011",
             "term": "drink",
-            "meaning": "v. 喝；n. 饮料，酒。have a drink 喝一杯。",
-            "phrase": "",
+            "meaning": "v. 喝；n. 饮料，酒。have a drink 喝一杯。；n. 饮料，酒。",
+            "phrase": "have a drink 喝一杯",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-012",
             "term": "study",
-            "meaning": "v. 学习，研究；n. 学习，研究，书房。He studies in his study.。",
-            "phrase": "",
+            "meaning": "v. 学习，研究；n. 学习，研究，书房。He studies in his study.。；n. 学习，研究，书房。",
+            "phrase": "He studies in his study. 他在书房学习",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-013",
             "term": "empty",
-            "meaning": "adj. 空的；v. 清空。empty the box 清空盒子。",
-            "phrase": "",
+            "meaning": "adj. 空的；v. 清空。empty the box 清空盒子。；v. 腾空，清空。",
+            "phrase": "empty the box 清空盒子",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-014",
             "term": "slow",
-            "meaning": "adj. 缓慢的；v. 放慢，减速。slow down 减速。",
-            "phrase": "",
+            "meaning": "adj. 缓慢的；v. 放慢，减速。slow down 减速。；v. 减速，放慢。",
+            "phrase": "slow down 减速",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-015",
             "term": "cheat",
-            "meaning": "v. 欺骗，作弊；n. 骗子，作弊行为。注意 cheap 是便宜的。",
-            "phrase": "",
+            "meaning": "v. 欺骗，作弊；n. 骗子，作弊行为。注意 cheap 是便宜的。；v. 欺骗；n. 欺骗行为，骗子。",
+            "phrase": "cheap adj. 便宜的",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-016",
             "term": "hand",
-            "meaning": "n. 手；v. 递给。give sb. a hand = help sb.; hand in 上交；hand over 移交。",
-            "phrase": "",
+            "meaning": "n. 手；v. 递给。give sb. a hand = help sb.；hand in 上交；hand over 移交。；v. 递给。",
+            "phrase": "give sb. a hand 帮某人；hand in 上交；hand over 移交",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-017",
             "term": "face",
-            "meaning": "n. 面部；v. 面对。face to face 面对面；be faced with 面临；lose face 丢脸。",
-            "phrase": "",
+            "meaning": "n. 面部；v. 面对。face to face 面对面；be faced with 面临；lose face 丢脸。；v. 面对。",
+            "phrase": "face to face 面对面；lose face 丢脸；be faced with 面临；face up to 面对",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-018",
             "term": "comb",
-            "meaning": "n. 梳子；v. 梳理。注意 b 不发音，类似 climb、tomb。",
-            "phrase": "",
+            "meaning": "n. 梳子；v. 梳理。注意 b 不发音，类似 climb、tomb。；v. 梳理，梳头发。",
+            "phrase": "mb 中 b 不发音：comb / climb / tomb",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-019",
             "term": "daily",
-            "meaning": "adj. 日常的；n. 日报。China Daily 中国日报。区分 diary 日记。",
-            "phrase": "",
+            "meaning": "adj. 日常的；n. 日报。China Daily 中国日报。区分 diary 日记。；n. 日报。",
+            "phrase": "China Daily 《中国日报》；diary 日记",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-020",
@@ -190,20 +296,34 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-021",
             "term": "book",
-            "meaning": "n. 书；v. 预订。book a table 订桌。",
-            "phrase": "",
+            "meaning": "n. 书；v. 预订。book a table 订桌。；v. 预订。",
+            "phrase": "book a table 预订餐桌",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-022",
             "term": "bridesmaid",
-            "meaning": "n. 伴娘。bride 新娘 + maid 女仆/少女。",
-            "phrase": "",
+            "meaning": "n. 伴娘。bride 新娘 + maid 女仆/少女。；n. 伴娘。bride 新娘 + maid 少女/女仆。",
+            "phrase": "bridegroom 新郎",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-023",
@@ -217,11 +337,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-024",
             "term": "toothache",
-            "meaning": "n. 牙痛。tooth + ache。",
-            "phrase": "",
+            "meaning": "n. 牙痛。tooth + ache。；n. 牙痛。",
+            "phrase": "headache 头痛；stomachache 胃痛；backache 背痛",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-025",
@@ -253,11 +380,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-028",
             "term": "typewriter",
-            "meaning": "n. 打字机。type 打字 + writer 书写者/机器。",
+            "meaning": "n. 打字机。type 打字 + writer 书写者/机器。；n. 打字机。type v. 打字 + writer。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-029",
@@ -266,124 +400,222 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-030",
             "term": "six-year-old",
-            "meaning": "adj. 六岁的。作定语时 year 不加 s：a six-year-old girl。",
-            "phrase": "",
+            "meaning": "adj. 六岁的。作定语时 year 不加 s：a six-year-old girl。；adj. 六岁的。作定语时 year 不加 s。",
+            "phrase": "a six-year-old girl 一个六岁的女孩",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-031",
             "term": "duty-free",
-            "meaning": "adj. 免税的。duty 税/责任 + free 无……的。",
-            "phrase": "",
+            "meaning": "adj. 免税的。duty 税/责任 + free 无……的。；adj. 免税的。duty n. 责任，义务，值班，关税。",
+            "phrase": "duty-free perfume 免税香水",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-032",
             "term": "absent-minded",
-            "meaning": "adj. 心不在焉的。absent 缺席的 + minded 有……头脑的。",
+            "meaning": "adj. 心不在焉的。absent 缺席的 + minded 有……头脑的。；adj. 心不在焉的。absent 缺席的 + mind 思想。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-033",
             "term": "newly-built",
-            "meaning": "adj. 新建的。built 是过去分词，表示被建成的。",
-            "phrase": "",
+            "meaning": "adj. 新建的。built 是过去分词，表示被建成的。；adj. 新建的。built 表示被建成的。",
+            "phrase": "a newly-built library 一座新建图书馆",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-034",
             "term": "state-owned",
-            "meaning": "adj. 国有的。state 国家/州 + owned 拥有的。",
-            "phrase": "",
+            "meaning": "adj. 国有的。state 国家/州 + owned 拥有的。；adj. 国有的。state n. 州，国家；own v. 拥有。",
+            "phrase": "state-owned capital 国有资本；state-owned company 国有企业",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-035",
             "term": "slow-moving",
-            "meaning": "adj. 缓慢移动的。slow + moving。",
+            "meaning": "adj. 缓慢移动的。slow + moving。；adj. 缓慢移动的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-036",
             "term": "peace-loving",
-            "meaning": "adj. 爱好和平的。peace + loving。",
+            "meaning": "adj. 爱好和平的。peace + loving。；adj. 热爱和平的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-037",
             "term": "fast-developing",
-            "meaning": "adj. 快速发展的。fast + developing。",
+            "meaning": "adj. 快速发展的。fast + developing。；adj. 快速发展的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-038",
             "term": "heart-broken",
-            "meaning": "adj. 心碎的。heart + broken。",
+            "meaning": "adj. 心碎的。heart + broken。；adj. 心碎的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-039",
             "term": "world-famous",
-            "meaning": "adj. 世界闻名的。world + famous。",
+            "meaning": "adj. 世界闻名的。world + famous。；adj. 举世闻名的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-040",
             "term": "part-time",
-            "meaning": "adj. 兼职的，部分时间的。part + time。",
-            "phrase": "",
+            "meaning": "adj. 兼职的，部分时间的。part + time。；adj. 兼职的，部分时间的。",
+            "phrase": "part-time job 兼职工作",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-041",
             "term": "hand-made",
-            "meaning": "adj. 手工制作的。hand + made。",
+            "meaning": "adj. 手工制作的。hand + made。；adj. 手工的，手工制作的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-2026-prefix-042",
             "term": "long-term",
-            "meaning": "adj. 长期的。long + term。",
+            "meaning": "adj. 长期的。long + term。；adj. 长期的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
             "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-001",
@@ -586,11 +818,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-023",
             "term": "record",
-            "meaning": "记录；作名词可指纪录，作动词可指录音/记录。",
-            "phrase": "hold the world record / record the meeting",
+            "meaning": "记录；作名词可指纪录，作动词可指录音/记录。；v. 记录，记载；n. 记录，唱片。",
+            "phrase": "hold the world record / record the meeting；hold the world record 保持世界纪录；record the meeting 记录会议",
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-024",
@@ -622,11 +861,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-027",
             "term": "mask",
-            "meaning": "面具；掩饰。",
-            "phrase": "wear a mask / mask sadness",
+            "meaning": "面具；掩饰。；n. 面罩，面具；v. 掩饰，掩盖。",
+            "phrase": "wear a mask / mask sadness；mask his sadness 掩饰悲伤",
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-028",
@@ -703,11 +949,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-036",
             "term": "iron",
-            "meaning": "铁；熨烫。",
-            "phrase": "be made of iron / iron shirts",
+            "meaning": "铁；熨烫。；n. 铁，熨斗；v. 熨烫。",
+            "phrase": "be made of iron / iron shirts；iron shirts 熨衬衫",
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-037",
@@ -721,20 +974,34 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-038",
             "term": "park",
-            "meaning": "公园；停车。",
-            "phrase": "park the car",
+            "meaning": "公园；停车。；n. 公园，停车场；v. 停车。",
+            "phrase": "park the car；park the car 停车",
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-039",
             "term": "place",
-            "meaning": "地方；位置。",
-            "phrase": "find a safe place",
+            "meaning": "地方；位置。；n. 地点，场所；v. 放置。",
+            "phrase": "find a safe place；find a safe place 找一个安全的地方",
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-040",
@@ -766,11 +1033,18 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-complete-extra-043",
             "term": "match",
-            "meaning": "搭配；匹配。",
-            "phrase": "The shoes don't match her dress.",
+            "meaning": "搭配；匹配。；n. 比赛；火柴；v. 匹配。",
+            "phrase": "The shoes don't match her dress.；match her dress 与她的裙子搭配",
             "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
             "tag": "全方位 1 / 单词课补全",
-            "source": "全方位"
+            "source": "全方位",
+            "groups": [
+              "全方位 1"
+            ],
+            "sources": [
+              "全方位"
+            ],
+            "forms": {}
           },
           {
             "id": "fullway-complete-extra-044",
@@ -935,127 +1209,10 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-002",
-            "term": "stop",
-            "meaning": "v. 停止，停下来；n. 车站。",
-            "phrase": "bus stop 公交车站；train station 火车站",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-003",
-            "term": "interest",
-            "meaning": "n. 兴趣；利益；利息；v. 引起……的关注，吸引。",
-            "phrase": "show interest in 对……感兴趣；be interested in 对……感兴趣；attract v. 吸引",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-004",
-            "term": "park",
-            "meaning": "n. 公园，停车场；v. 停车。",
-            "phrase": "park the car 停车",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-005",
-            "term": "waste",
-            "meaning": "v. 浪费；n. 浪费，废物。",
-            "phrase": "It is a waste of time doing sth. 做某事浪费时间",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-006",
-            "term": "cost",
-            "meaning": "v. 花费；n. 花费，费用，成本。cost-cost-cost。",
-            "phrase": "sth. cost sb. money 某物花某人多少钱",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-007",
-            "term": "take",
-            "meaning": "v. 花费；拿；乘坐。take-took-taken。",
-            "phrase": "It took/will take sb. time to do sth. 做某事花费某人时间",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-008",
-            "term": "match",
-            "meaning": "n. 比赛；火柴；v. 匹配。",
-            "phrase": "match her dress 与她的裙子搭配",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-009",
             "term": "watch",
             "meaning": "v. 观看；n. 手表。",
             "phrase": "watch the news 看新闻；a smart watch 智能手表",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-010",
-            "term": "place",
-            "meaning": "n. 地点，场所；v. 放置。",
-            "phrase": "find a safe place 找一个安全的地方",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-011",
-            "term": "work",
-            "meaning": "v. 工作，运转；n. 工作，不可数；作品，可数。",
-            "phrase": "The washing machine doesn’t work. 洗衣机不运转",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-012",
-            "term": "drink",
-            "meaning": "v. 喝；n. 饮料，酒。",
-            "phrase": "have a drink 喝一杯",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-013",
-            "term": "study",
-            "meaning": "v. 学习，研究；n. 学习，研究，书房。",
-            "phrase": "He studies in his study. 他在书房学习",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-014",
-            "term": "record",
-            "meaning": "v. 记录，记载；n. 记录，唱片。",
-            "phrase": "hold the world record 保持世界纪录；record the meeting 记录会议",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-015",
-            "term": "mask",
-            "meaning": "n. 面罩，面具；v. 掩饰，掩盖。",
-            "phrase": "mask his sadness 掩饰悲伤",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
@@ -1079,51 +1236,6 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-018",
-            "term": "empty",
-            "meaning": "adj. 空的；v. 腾空，清空。",
-            "phrase": "empty the box 清空盒子",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-019",
-            "term": "slow",
-            "meaning": "adj. 缓慢的；v. 减速，放慢。",
-            "phrase": "slow down 减速",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-020",
-            "term": "cheat",
-            "meaning": "v. 欺骗；n. 欺骗行为，骗子。",
-            "phrase": "cheap adj. 便宜的",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-021",
-            "term": "hand",
-            "meaning": "n. 手；v. 递给。",
-            "phrase": "give sb. a hand 帮某人；hand in 上交；hand over 移交",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-022",
-            "term": "face",
-            "meaning": "n. 面部；v. 面对。",
-            "phrase": "face to face 面对面；lose face 丢脸；be faced with 面临；face up to 面对",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-023",
             "term": "try",
             "meaning": "v. 尝试，努力；n. 尝试，努力。",
@@ -1137,42 +1249,6 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "term": "talk",
             "meaning": "v. 交谈，谈话；n. 谈话。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-025",
-            "term": "comb",
-            "meaning": "n. 梳子；v. 梳理，梳头发。",
-            "phrase": "mb 中 b 不发音：comb / climb / tomb",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-026",
-            "term": "daily",
-            "meaning": "adj. 日常的；n. 日报。",
-            "phrase": "China Daily 《中国日报》；diary 日记",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-027",
-            "term": "iron",
-            "meaning": "n. 铁，熨斗；v. 熨烫。",
-            "phrase": "iron shirts 熨衬衫",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-028",
-            "term": "book",
-            "meaning": "n. 书；v. 预订。",
-            "phrase": "book a table 预订餐桌",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
@@ -1250,45 +1326,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-037",
-            "term": "bridesmaid",
-            "meaning": "n. 伴娘。bride 新娘 + maid 少女/女仆。",
-            "phrase": "bridegroom 新郎",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-038",
-            "term": "toothache",
-            "meaning": "n. 牙痛。",
-            "phrase": "headache 头痛；stomachache 胃痛；backache 背痛",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-039",
-            "term": "typewriter",
-            "meaning": "n. 打字机。type v. 打字 + writer。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-040",
             "term": "handwriting",
             "meaning": "n. 手写，书写，笔迹。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-041",
-            "term": "wildlife",
-            "meaning": "n. 野生动植物。wild 野外的 + life 生命。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
@@ -1322,36 +1362,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-045",
-            "term": "six-year-old",
-            "meaning": "adj. 六岁的。作定语时 year 不加 s。",
-            "phrase": "a six-year-old girl 一个六岁的女孩",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-046",
             "term": "mother-in-law",
             "meaning": "n. 婆婆，岳母。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-047",
-            "term": "duty-free",
-            "meaning": "adj. 免税的。duty n. 责任，义务，值班，关税。",
-            "phrase": "duty-free perfume 免税香水",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-048",
-            "term": "world-famous",
-            "meaning": "adj. 举世闻名的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
@@ -1367,45 +1380,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-050",
-            "term": "peace-loving",
-            "meaning": "adj. 热爱和平的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-051",
-            "term": "hand-made",
-            "meaning": "adj. 手工的，手工制作的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-052",
-            "term": "heart-broken",
-            "meaning": "adj. 心碎的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-053",
             "term": "first-class",
             "meaning": "adj. 一流的。class n. 班级，等级。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-054",
-            "term": "long-term",
-            "meaning": "adj. 长期的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
@@ -1421,27 +1398,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-056",
-            "term": "part-time",
-            "meaning": "adj. 兼职的，部分时间的。",
-            "phrase": "part-time job 兼职工作",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-057",
             "term": "full-time",
             "meaning": "adj. 全职的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-058",
-            "term": "fast-developing",
-            "meaning": "adj. 快速发展的。",
             "phrase": "",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
@@ -1484,46 +1443,10 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "全方位"
           },
           {
-            "id": "fullway1-v32-fix-063",
-            "term": "absent-minded",
-            "meaning": "adj. 心不在焉的。absent 缺席的 + mind 思想。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
             "id": "fullway1-v32-fix-064",
             "term": "man-made",
             "meaning": "adj. 人造的。",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-065",
-            "term": "newly-built",
-            "meaning": "adj. 新建的。built 表示被建成的。",
-            "phrase": "a newly-built library 一座新建图书馆",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-066",
-            "term": "slow-moving",
-            "meaning": "adj. 缓慢移动的。",
-            "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
-            "tag": "全方位 1 / 全方位单词课",
-            "source": "全方位"
-          },
-          {
-            "id": "fullway1-v32-fix-067",
-            "term": "state-owned",
-            "meaning": "adj. 国有的。state n. 州，国家；own v. 拥有。",
-            "phrase": "state-owned capital 国有资本；state-owned company 国有企业",
             "note": "来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
             "tag": "全方位 1 / 全方位单词课",
             "source": "全方位"
@@ -13228,7 +13151,7 @@ window.ENGLISH_FOLDER_LIBRARY = [
   },
   {
     "name": "四级",
-    "count": 298,
+    "count": 438,
     "children": [
       {
         "name": "四级",
@@ -15941,12 +15864,2414 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "四级"
           }
         ]
+      },
+      {
+        "name": "四级 7",
+        "count": 50,
+        "words": [
+          {
+            "id": "cet4-20260714-v68-001",
+            "term": "stale",
+            "meaning": "adj. 不新鲜的；没有新意的；厌倦的；v. （使）变得不新鲜",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-219",
+            "term": "fashion",
+            "meaning": "n. 时尚；流行款式",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "fullway-20260627-v29-222",
+            "term": "fashionable",
+            "meaning": "adj. 时尚的；流行的",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-002",
+            "term": "contemporary",
+            "meaning": "adj. 当代的，现代的；同时代的；n. 同时期的人，同年代的人",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-003",
+            "term": "temple",
+            "meaning": "n. 庙宇，寺院；太阳穴",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-004",
+            "term": "temporary",
+            "meaning": "adj. 暂时的，临时的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-005",
+            "term": "temporarily",
+            "meaning": "adv. 临时地，暂时地",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "word-list-9-029",
+            "term": "abundant",
+            "meaning": "adj. 大量的；充裕的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-006",
+            "term": "abundance",
+            "meaning": "n. 大量，充足",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-007",
+            "term": "ample",
+            "meaning": "adj. 大量的，足够的；丰满的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "word-list-9-035",
+            "term": "mass",
+            "meaning": "n. 团；块；堆；群；群众；adj. 大量的；大批的",
+            "phrase": "a mass of 一堆；一群",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "word-list-9-036",
+            "term": "massive",
+            "meaning": "adj. 大量的；巨大的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-008",
+            "term": "massage",
+            "meaning": "n. 按摩；vt. 按摩；篡改（事实）",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "word-list-9-041",
+            "term": "numerous",
+            "meaning": "adj. 很多的；众多的",
+            "phrase": "",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "word-list-9-040",
+            "term": "number",
+            "meaning": "n. 数字；数量；编号；序数；v. 标号；编号",
+            "phrase": "the number of ……的数量；a number of 许多",
+            "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-009",
+            "term": "multiply",
+            "meaning": "v. 乘；（使）大量增加；（使）繁殖",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-010",
+            "term": "multiple",
+            "meaning": "adj. 多个的，多种的；n. 倍数",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-011",
+            "term": "multiplication",
+            "meaning": "n. 乘法，乘法运算；增加，增多",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-012",
+            "term": "gang",
+            "meaning": "n. 一帮（罪犯、混混等）；一伙朋友",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-013",
+            "term": "band",
+            "meaning": "n. 乐队；一伙人；带，细绳；范围；v. 给……加彩条等；联手，团结",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-014",
+            "term": "bandage",
+            "meaning": "n. 绷带；vt. 用绷带包扎",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-015",
+            "term": "sort",
+            "meaning": "n. 种类，类别；分类，排序；vt. 分类，整理；妥善处理",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-016",
+            "term": "resort",
+            "meaning": "n. 度假胜地；采用的方法；vi. 诉诸，求助",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-017",
+            "term": "flock",
+            "meaning": "n. （动物）群；一大群人；vi. 蜂拥，群集，涌向",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-018",
+            "term": "crowd",
+            "meaning": "n. 人群，观众；一伙人；群众；vt. 挤满，塞满；挤，靠近",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-019",
+            "term": "crowded",
+            "meaning": "adj. 拥挤的，占满的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-020",
+            "term": "dozen",
+            "meaning": "det./n. 一打，十二个；十几个；许多",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-021",
+            "term": "population",
+            "meaning": "n. 人口；某地某类人或动物的总数",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-022",
+            "term": "populous",
+            "meaning": "adj. 人口众多的，人口稠密的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-023",
+            "term": "populate",
+            "meaning": "vt. 居住于，生活于",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-225",
+            "term": "popularity",
+            "meaning": "n. 流行；受欢迎",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "fullway-20260627-v29-223",
+            "term": "popular",
+            "meaning": "adj. 受喜爱的；受欢迎的；流行的",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-024",
+            "term": "prevail",
+            "meaning": "vi. 盛行；占优势，占上风",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-025",
+            "term": "prevalent",
+            "meaning": "adj. 流行的，盛行的，普遍的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-026",
+            "term": "prevalence",
+            "meaning": "n. 盛行，普遍",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-adjadv-013",
+            "term": "available",
+            "meaning": "adj. 可获得的，有空的，可用的",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-027",
+            "term": "availability",
+            "meaning": "n. 可得性，可用性；空闲，有空",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-028",
+            "term": "crew",
+            "meaning": "n. 全体船员，机组人员；专业团队；v. （在……）当船员",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-029",
+            "term": "screw",
+            "meaning": "n. 螺丝，螺丝钉；螺旋桨；狱警；v. 用螺丝固定；旋紧，拧紧；诈骗",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-135",
+            "term": "colleague",
+            "meaning": "n. 同事。同义 co-worker。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "word-list-7-003",
+            "term": "personnel",
+            "meaning": "n. 员工；人事部门",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260714-v68-030",
+            "term": "staff",
+            "meaning": "n. 全体职员；（学校）行政人员；v. 担当……职员，任职于",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-031",
+            "term": "stuff",
+            "meaning": "n. 东西，物品；特质，原料；v. 填满；把……塞进；制作动物标本",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-032",
+            "term": "stuffy",
+            "meaning": "adj. 闷热的；古板的；（鼻子）不通的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-033",
+            "term": "stuffing",
+            "meaning": "n. （食物内的）填料；填充物",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-034",
+            "term": "infant",
+            "meaning": "n. 婴儿；幼儿学校的学生；adj. 供婴幼儿用的；初期的，初创的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-035",
+            "term": "adolescent",
+            "meaning": "n. 青少年；adj. 青少年的；（成年人）幼稚的",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-036",
+            "term": "idle",
+            "meaning": "adj. 不工作的；漫无目的的；懒散的；vi. 闲荡，无所事事；（发动机）空转",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-037",
+            "term": "idly",
+            "meaning": "adv. 无所事事地，漫无目的地",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级",
+            "sources": [
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-14T16:30:00+08:00",
+            "updatedAt": "2026-07-14T16:30:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "四级 7"
+            ]
+          },
+          {
+            "id": "word-list-3-023",
+            "term": "youngster",
+            "meaning": "n. 青少年；年轻人",
+            "phrase": "",
+            "note": "/'jʌŋstə/；拓展词；来源：2026-07-14 英语四级截图；归入四级 7。",
+            "tag": "四级 7 / 英语四级截图完整50词",
+            "source": "四级"
+          }
+        ]
+      },
+      {
+        "name": "四级 8",
+        "count": 90,
+        "words": [
+          {
+            "id": "word-list-3-020",
+            "term": "elder",
+            "meaning": "adj. 年龄较大的；较老的",
+            "phrase": "",
+            "note": "/'eldər/；elder 是 old 的比较级。指家庭成员中年龄较长的，或指两人中年龄较长的。older 也是 old 的比较级，指年龄较大、较老，指物时意为“较旧的”。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 3",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-002",
+            "term": "elderly",
+            "meaning": "adj. 年长的；上年纪的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-122",
+            "term": "immigrate",
+            "meaning": "v. 移民，移居。immigrate to the US。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "全方位 3",
+              "四级 8"
+            ],
+            "sources": [
+              "全方位",
+              "四级"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-123",
+            "term": "immigrant",
+            "meaning": "n. 移民，移居者。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "全方位 3",
+              "四级 8"
+            ],
+            "sources": [
+              "全方位",
+              "四级"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-124",
+            "term": "immigration",
+            "meaning": "n. 移民，移居。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "全方位 3",
+              "四级 8"
+            ],
+            "sources": [
+              "全方位",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-006",
+            "term": "emigrate",
+            "meaning": "vi. 移居国外；移民",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-007",
+            "term": "emigrant",
+            "meaning": "n. 移居外国者",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-008",
+            "term": "migrate",
+            "meaning": "vi. 迁徙；移居；转移",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-009",
+            "term": "migration",
+            "meaning": "n. （人的）移居；（鸟或兽的）迁徙",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-010",
+            "term": "migrant",
+            "meaning": "n. 移居者；移民；候鸟；迁徙动物",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-334",
+            "term": "surname",
+            "meaning": "n. 姓；绰号；v. 冠姓",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 15",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-012",
+            "term": "namely",
+            "meaning": "adv. 即；也就是",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-013",
+            "term": "ambition",
+            "meaning": "n. 野心；抱负；理想",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-014",
+            "term": "ambitious",
+            "meaning": "adj. 有野心的；规模宏大的；艰巨的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-015",
+            "term": "accomplish",
+            "meaning": "vt. 完成；达成",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-016",
+            "term": "accomplishment",
+            "meaning": "n. 成就；成功；才艺；技能；完成",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-table-008",
+            "term": "achieve",
+            "meaning": "vt. （通过努力）实现；获得；达到；vi. 成功；达成预期结果；v. 实现；取得",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林词表截图补充导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "蓝色森林 8",
+              "Word List 17",
+              "四级 8"
+            ],
+            "sources": [
+              "蓝色森林",
+              "Word List",
+              "四级"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "wordlist-20260628-v42-103",
+            "term": "achievement",
+            "meaning": "n. 成功；成就",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 17",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-019",
+            "term": "fulfill",
+            "meaning": "vt. 实现；达到；履行；使有成就感",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-020",
+            "term": "fulfillment",
+            "meaning": "n. 满足感；成就感；实现；履行",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-adjadv-014",
+            "term": "full",
+            "meaning": "adj. 满的；饱的；全部的",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "蓝色森林 9",
+              "四级 8"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-022",
+            "term": "fill",
+            "meaning": "vt./vi. 充满；装满；填补；使充满；担任；使吃饱；n. 填满的量",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-023",
+            "term": "filling",
+            "meaning": "n. 填料；馅；adj. 令人感到饱足的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-024",
+            "term": "content",
+            "meaning": "n. 内容；目录；所含之物；含量；adj. 满足的；满意的；愿意的；vt. 使满意；使满足",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-025",
+            "term": "contented",
+            "meaning": "adj. 满足的；满意的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-026",
+            "term": "contentious",
+            "meaning": "adj. 有争议的；爱争论的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-027",
+            "term": "contention",
+            "meaning": "n. 争执；争论；看法；观点",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-table-050",
+            "term": "satisfy",
+            "meaning": "vt. 满足；使满意；符合（要求）；vi. 令人满意（较少单独使用）",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林词表截图补充导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "蓝色森林 8",
+              "四级 8"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-029",
+            "term": "satisfaction",
+            "meaning": "n. 满足；满意；妥善处理；补偿",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-030",
+            "term": "satisfactory",
+            "meaning": "adj. 令人满意的；够好的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-013",
+            "term": "empty",
+            "meaning": "adj. 空的；v. 清空。empty the box 清空盒子。；v. 腾空，清空。",
+            "phrase": "empty the box 清空盒子",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "全方位 1",
+              "四级 8"
+            ],
+            "sources": [
+              "全方位",
+              "四级"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "cet4-20260716-08-032",
+            "term": "emptiness",
+            "meaning": "n. 空虚感；空旷",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-033",
+            "term": "realistic",
+            "meaning": "adj. 现实的；能实现的；逼真的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-034",
+            "term": "realism",
+            "meaning": "n. 务实精神；现实主义；现实性",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "word-list-8-006",
+            "term": "realize",
+            "meaning": "v. 意识到；实现",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 8",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-036",
+            "term": "realization",
+            "meaning": "n. 认识；领悟；实现",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-037",
+            "term": "realm",
+            "meaning": "n. 领域；范围；王国",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-038",
+            "term": "stack",
+            "meaning": "n. （整齐的）一堆；大量；大烟囱；vt./vi. 使放成整齐的一叠",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-039",
+            "term": "pile",
+            "meaning": "n. 摞；堆；大量；许多；vt. 堆放；摞起；装入；vi. 蜂拥；涌入",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "word-list-10-040",
+            "term": "accumulate",
+            "meaning": "v. 积累；堆积",
+            "phrase": "",
+            "note": "Word List 10｜图片导入｜后续可继续校正音标",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 10",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-041",
+            "term": "accumulative",
+            "meaning": "adj. 积累而成的；累积的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-042",
+            "term": "calculate",
+            "meaning": "vt. 计算；核算；预测；推测",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-043",
+            "term": "calculation",
+            "meaning": "n. 计算；算计；盘算；估计",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-044",
+            "term": "calculator",
+            "meaning": "n. 计算器",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-045",
+            "term": "calculating",
+            "meaning": "adj. 有心计的；能算计的",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-046",
+            "term": "calendar",
+            "meaning": "n. 日历；日程表；历法",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-047",
+            "term": "deem",
+            "meaning": "vt. 认为；视为；相信",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-048",
+            "term": "assume",
+            "meaning": "vt. 假设；承担；取得；呈现出；假装",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-049",
+            "term": "assumption",
+            "meaning": "n. 假设；臆断；（责任的）承担",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-050",
+            "term": "resume",
+            "meaning": "vt./vi. 继续；重新开始；恢复（职位）；回到（座位）；n. 简历；履历；摘要；概述",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260716-08-051",
+            "term": "resumption",
+            "meaning": "n. 重新开始；恢复；继续",
+            "phrase": "",
+            "note": "来源：2026-07-16 英语四级截图继续导入",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ]
+          },
+          {
+            "id": "word-list-1-036",
+            "term": "consume",
+            "meaning": "v. 消费；用完；耗尽",
+            "phrase": "",
+            "note": "/kənˈsu:m/",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 1",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "word-list-1-038",
+            "term": "consumption",
+            "meaning": "n. 耗尽；消耗",
+            "phrase": "",
+            "note": "/kənˈsʌmpʃn/；拓展词",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 1",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "word-list-1-042",
+            "term": "custom",
+            "meaning": "n. 风俗；习俗；光顾；习惯",
+            "phrase": "",
+            "note": "/ˈkʌstəm/",
+            "tag": "四级 8 / 四级",
+            "source": "四级",
+            "groups": [
+              "Word List 1",
+              "四级 8"
+            ],
+            "sources": [
+              "Word List",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet4-20260718-docx-001",
+            "term": "dispatch",
+            "meaning": "vt. 派遣；派送；迅速处理；处决；n. 派遣；调遣；急件；快信；电讯",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-002",
+            "term": "resign",
+            "meaning": "vi./vt. 辞职；使顺从",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-003",
+            "term": "resignation",
+            "meaning": "n. 辞职信；辞职；屈从；顺从",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-004",
+            "term": "essence",
+            "meaning": "n. 本质；精髓；精油；香精",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-005",
+            "term": "signature",
+            "meaning": "n. 签名；署名；签署；鲜明特征",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-006",
+            "term": "signal",
+            "meaning": "n. 信号；标志；信号灯；v. 发信号；示意；标志；预示；表达；显示",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-007",
+            "term": "assign",
+            "meaning": "vt. 分配；分派；指派；为……设定",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-008",
+            "term": "assignment",
+            "meaning": "n. 作业；任务；分配",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-009",
+            "term": "design",
+            "meaning": "n. 设计；设计方案；花纹；意图；vt. 设计",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-010",
+            "term": "designer",
+            "meaning": "n. 设计师；设计者；adj. 由著名设计师设计的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-011",
+            "term": "anxious",
+            "meaning": "adj. 焦虑的；令人担忧的；渴望的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-012",
+            "term": "anxiety",
+            "meaning": "n. 忧虑；焦虑；渴望",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-013",
+            "term": "sign",
+            "meaning": "n. 迹象；征兆；标牌；标志；手势；v. 签名；签字；和……签约",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-014",
+            "term": "token",
+            "meaning": "n. 代币；象征；标志；代金券；（计算机）词元；adj. 象征性的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-015",
+            "term": "fright",
+            "meaning": "n. 惊骇；恐惧；惊吓；恐怖的体验",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-016",
+            "term": "panic",
+            "meaning": "n. 恐慌；惊慌失措；恐慌局面；v. （使）惊慌失措",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-017",
+            "term": "ease",
+            "meaning": "n. 容易；轻易；舒适；安逸；v. 使宽慰；缓解；缓缓移动；使容易些",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-018",
+            "term": "fearful",
+            "meaning": "adj. 害怕的；可怕的；极坏的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-019",
+            "term": "fierce",
+            "meaning": "adj. 凶猛的；激烈的；（天气）猛烈的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-020",
+            "term": "alarm",
+            "meaning": "n. 警报器；警报；闹钟；惊恐；v. 使惊恐；使忧虑；给……装警报器",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-021",
+            "term": "reside",
+            "meaning": "vi. 居住；定居；存在于；属于",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-022",
+            "term": "residence",
+            "meaning": "n. 住处；住宅；居住；居住权",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-023",
+            "term": "residential",
+            "meaning": "adj. 住宅区的；寄宿制的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-024",
+            "term": "agency",
+            "meaning": "n. 代理机构；政府专门机构",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-025",
+            "term": "deputy",
+            "meaning": "n. 副手；代理人；治安官助理",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-026",
+            "term": "inhabit",
+            "meaning": "vt. 居住于；栖居在",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-027",
+            "term": "inhabitant",
+            "meaning": "n. 居民；栖居的动物",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-028",
+            "term": "habitat",
+            "meaning": "n. 栖息地；生长地",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-029",
+            "term": "convention",
+            "meaning": "n. 习俗；惯例；大会；公约；协定",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-030",
+            "term": "conventional",
+            "meaning": "adj. 传统的；墨守成规的；非核的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-031",
+            "term": "client",
+            "meaning": "n. 客户；顾客；当事人；委托人",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-032",
+            "term": "agent",
+            "meaning": "n. 代理人；经纪人；特工；动因；剂",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-033",
+            "term": "customary",
+            "meaning": "adj. 习俗的；惯例的；习惯性的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-034",
+            "term": "accustom",
+            "meaning": "vt. 使习惯于；使适应",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-035",
+            "term": "accustomed",
+            "meaning": "adj. 习惯的；适应的；通常的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "cet4-20260718-docx-036",
+            "term": "customs",
+            "meaning": "n. 海关；进口关税",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入四级 8。",
+            "tag": "四级 8 / 四级",
+            "groups": [
+              "四级 8"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级"
+          }
+        ]
       }
     ]
   },
   {
     "name": "蓝色森林",
-    "count": 774,
+    "count": 1207,
     "children": [
       {
         "name": "蓝色森林",
@@ -22964,6 +25289,5418 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "phrase": "",
             "note": "来源：2026-06-29 图片补充导入 v44；归入蓝色森林 10。",
             "tag": "蓝色森林 10 / 词表截图补充",
+            "source": "蓝色森林"
+          }
+        ]
+      },
+      {
+        "name": "蓝色森林 11",
+        "count": 196,
+        "words": [
+          {
+            "id": "blueforest-20260714-v68-word-001",
+            "term": "meal",
+            "meaning": "n. 一餐，一顿饭；膳食",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-002",
+            "term": "whom",
+            "meaning": "pron. 谁，那个人（用作动词或介词的宾语）",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-003",
+            "term": "souvenir",
+            "meaning": "n. 纪念品；纪念物",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-004",
+            "term": "would",
+            "meaning": "modal. will 的过去式；愿意；表示习惯或反复动作；用于虚拟语气",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-005",
+            "term": "drive",
+            "meaning": "v. 驾驶；驱使；推动；n. 驱动力；驾驶；驱动器",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-006",
+            "term": "easy-going",
+            "meaning": "adj. 随和的；轻松的；不严厉的",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-007",
+            "term": "drop",
+            "meaning": "v. 使落下；放弃；降低；n. 水滴；微量；下降",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-008",
+            "term": "duck",
+            "meaning": "n. 鸭子；鸭肉；（板球）零分；vi. 迅速低头（或俯身）躲避",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-009",
+            "term": "steal",
+            "meaning": "v. 偷窃；偷偷移动；悄悄地做；n. 偷窃；便宜货",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-010",
+            "term": "else",
+            "meaning": "adv. 其他；另外；否则；adj. 其他的",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-011",
+            "term": "email",
+            "meaning": "n. 电子邮件；电子信件；vt. 给……发电子邮件",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-012",
+            "term": "step",
+            "meaning": "n. 脚步；步骤；台阶；舞步；v. 迈步；行走；踩",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-013",
+            "term": "opt",
+            "meaning": "vi. 选择，作出抉择",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-014",
+            "term": "metro",
+            "meaning": "n. 地铁；大都市交通系统",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-015",
+            "term": "crop",
+            "meaning": "n. 农作物；收成；一批（人/物）；短发式；vt. 收割；剪短；裁切",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-016",
+            "term": "announce",
+            "meaning": "vt. 宣布；通知；表明",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-017",
+            "term": "foot",
+            "meaning": "n. 脚；足部；底部；英尺；v. 支付（账单）；步行",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-018",
+            "term": "eyesight",
+            "meaning": "n. 视力；目力",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-019",
+            "term": "thunder",
+            "meaning": "n. 雷，雷声；轰隆声；vi. 打雷；发出轰隆声",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-020",
+            "term": "foresight",
+            "meaning": "n. 先见之明；预见；深谋远虑",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-021",
+            "term": "brand",
+            "meaning": "n. 品牌；商标；烙印；vt. 打烙印；铭刻；污蔑",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-022",
+            "term": "freight",
+            "meaning": "n. 货物；货运；运费；vt. 运输（货物）",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-023",
+            "term": "engineer",
+            "meaning": "n. 工程师；机械师；vt. 设计；策划；精心安排",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-024",
+            "term": "emerge",
+            "meaning": "v. 出现；浮现；暴露",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-025",
+            "term": "ethic",
+            "meaning": "n. 道德准则；伦理体系",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-026",
+            "term": "neck",
+            "meaning": "n. 脖子；衣领；物体的狭窄部分；v. 搂脖子亲吻；爱抚",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-027",
+            "term": "gym",
+            "meaning": "n. 健身房；体育馆；体育活动（尤指学校课程）",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-028",
+            "term": "office",
+            "meaning": "n. 办公室；职务；政府部门",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-029",
+            "term": "grocer",
+            "meaning": "n. 食品杂货商；杂货店店主",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-030",
+            "term": "fever",
+            "meaning": "n. 发烧；狂热；v. 使发烧；使狂热（极少使用）",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-031",
+            "term": "he",
+            "meaning": "pron. 他；（指雄性动物）它",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-032",
+            "term": "fix",
+            "meaning": "vt. 修理；安装；确定；n. 困境；解决方法；定位",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-033",
+            "term": "handbook",
+            "meaning": "n. 手册；指南",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-034",
+            "term": "tent",
+            "meaning": "n. 帐篷；帷幕；住所；v. 住帐篷；用帐篷遮盖",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-035",
+            "term": "onion",
+            "meaning": "n. 洋葱；洋葱头",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-word-036",
+            "term": "cough",
+            "meaning": "v. 咳嗽；咳出；n. 咳嗽；咳嗽声",
+            "phrase": "",
+            "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 词表截图继续导入",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-001",
+            "term": "instead of",
+            "meaning": "而不是",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-002",
+            "term": "rather than",
+            "meaning": "而不是",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-003",
+            "term": "including",
+            "meaning": "prep. 包括",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-004",
+            "term": "beside",
+            "meaning": "prep. 在……旁边",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-005",
+            "term": "besides",
+            "meaning": "prep. 除了；adv. 而且，还有",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-006",
+            "term": "through",
+            "meaning": "prep. 通过",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-007",
+            "term": "opposite",
+            "meaning": "prep. 在……正对面；adj. 相反的，对立面的；adv. 在对面",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-008",
+            "term": "opposition",
+            "meaning": "n. 反对，对立",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-009",
+            "term": "oppose",
+            "meaning": "v. 反对",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-010",
+            "term": "opponent",
+            "meaning": "n. 对手；反对者",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-011",
+            "term": "opposite to",
+            "meaning": "与……相反",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-012",
+            "term": "against",
+            "meaning": "prep. 反对；倚靠；防备",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-013",
+            "term": "fight against",
+            "meaning": "对抗",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-014",
+            "term": "lean against",
+            "meaning": "倚靠",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-015",
+            "term": "be against",
+            "meaning": "反对",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-016",
+            "term": "protect against",
+            "meaning": "防护；抵御",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-017",
+            "term": "vote against",
+            "meaning": "投票反对",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-018",
+            "term": "out of",
+            "meaning": "从……里面出来",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-019",
+            "term": "out of control",
+            "meaning": "失控",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-020",
+            "term": "out of order",
+            "meaning": "出故障；秩序混乱",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-021",
+            "term": "out of breath",
+            "meaning": "上气不接下气",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-022",
+            "term": "out of date",
+            "meaning": "过时",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-023",
+            "term": "out of sight",
+            "meaning": "看不见",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-024",
+            "term": "out of reach",
+            "meaning": "够不到",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-025",
+            "term": "out of danger",
+            "meaning": "脱离危险",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-026",
+            "term": "out of work",
+            "meaning": "失业",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-027",
+            "term": "out of curiosity",
+            "meaning": "出于好奇",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-028",
+            "term": "out of patience",
+            "meaning": "失去耐心",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-029",
+            "term": "from...to...",
+            "meaning": "从……到……",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-030",
+            "term": "from time to time",
+            "meaning": "时不时地",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-031",
+            "term": "from head to toe",
+            "meaning": "从头到脚",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-032",
+            "term": "tell from",
+            "meaning": "区分；辨别",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-033",
+            "term": "originate from",
+            "meaning": "起源于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-034",
+            "term": "be derived from",
+            "meaning": "源自于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-035",
+            "term": "from one's perspective",
+            "meaning": "从某人的角度看",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-036",
+            "term": "from sb's point of view",
+            "meaning": "在某人看来；依某人看",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-037",
+            "term": "judging from",
+            "meaning": "根据……判断",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-038",
+            "term": "recover from",
+            "meaning": "从……中恢复",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-039",
+            "term": "escape from",
+            "meaning": "从……逃脱",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-040",
+            "term": "suffer from",
+            "meaning": "遭受……痛苦",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-041",
+            "term": "vary from...to...",
+            "meaning": "因……而异；从……到……各不相同",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-042",
+            "term": "be made from",
+            "meaning": "由……制成（看不出原材料）",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-043",
+            "term": "be made of",
+            "meaning": "由……制成（看得出原材料）",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-044",
+            "term": "protect from/against doing",
+            "meaning": "保护……免受",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-045",
+            "term": "prevent/stop/keep from doing",
+            "meaning": "阻止……做",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-046",
+            "term": "within",
+            "meaning": "prep. 在……之内",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-047",
+            "term": "not...until...",
+            "meaning": "直到……才……",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-048",
+            "term": "because of",
+            "meaning": "因为，由于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-049",
+            "term": "on account of",
+            "meaning": "由于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-050",
+            "term": "regarding",
+            "meaning": "prep. 关于，有关",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-051",
+            "term": "in spite of",
+            "meaning": "即使，尽管",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-052",
+            "term": "even if/though",
+            "meaning": "即使，尽管",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-053",
+            "term": "contribute",
+            "meaning": "v. 贡献；捐赠；投稿",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-054",
+            "term": "contribution",
+            "meaning": "n. 捐献，捐赠，贡献",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-055",
+            "term": "make a contribution to n/doing",
+            "meaning": "对……做出贡献",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-056",
+            "term": "make contributions to n/doing",
+            "meaning": "对……做出贡献",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-057",
+            "term": "schedule",
+            "meaning": "n. 日程，安排表",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-058",
+            "term": "branch",
+            "meaning": "n. 分支；支流；分公司；树枝",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-059",
+            "term": "depend",
+            "meaning": "v. 依赖，取决于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-060",
+            "term": "dependence",
+            "meaning": "n. 依赖，依靠",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-061",
+            "term": "independence",
+            "meaning": "n. 独立，自主",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-062",
+            "term": "dependent",
+            "meaning": "adj. 依赖的，取决于的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-063",
+            "term": "independent",
+            "meaning": "adj. 独立的；不依赖的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-064",
+            "term": "depend on/upon n/doing",
+            "meaning": "依赖，依靠，取决于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-065",
+            "term": "be dependent on",
+            "meaning": "依赖",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-066",
+            "term": "rely on",
+            "meaning": "依靠",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-067",
+            "term": "count on",
+            "meaning": "指望，依靠",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-068",
+            "term": "rest on",
+            "meaning": "依赖于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-069",
+            "term": "manage",
+            "meaning": "v. 管理；设法做到；应付",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-070",
+            "term": "manager",
+            "meaning": "n. 管理者",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-071",
+            "term": "management",
+            "meaning": "n. 管理，经营层",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-072",
+            "term": "manageable",
+            "meaning": "adj. 可处理的，易管理的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-073",
+            "term": "unmanageable",
+            "meaning": "adj. 无法处理的，难控制的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-074",
+            "term": "public",
+            "meaning": "adj. 公众的，公用的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-075",
+            "term": "the public",
+            "meaning": "大众",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-076",
+            "term": "in public",
+            "meaning": "在公众场合",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-077",
+            "term": "outgoing",
+            "meaning": "adj. 外向的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-078",
+            "term": "delay",
+            "meaning": "v. 推迟，延迟",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-079",
+            "term": "postpone",
+            "meaning": "v. 推迟，延期",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-080",
+            "term": "put off",
+            "meaning": "推迟，延期",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-081",
+            "term": "defer",
+            "meaning": "v. 推迟，延期",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-082",
+            "term": "without delay",
+            "meaning": "毫不延迟地，立即",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-083",
+            "term": "force",
+            "meaning": "v. 强迫；n. 力量，武力，权力，部队",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-084",
+            "term": "force sb. to do sth.",
+            "meaning": "强迫某人做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-085",
+            "term": "save",
+            "meaning": "v. 节约，节省；储存；拯救",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-086",
+            "term": "personality",
+            "meaning": "n. 个性，性格",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-087",
+            "term": "personally",
+            "meaning": "adv. 亲自地，就个人而言",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-088",
+            "term": "personal information",
+            "meaning": "个人信息",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-089",
+            "term": "in person",
+            "meaning": "亲自地",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-090",
+            "term": "occur",
+            "meaning": "vi. 发生",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-091",
+            "term": "it occurs/occurred to sb that",
+            "meaning": "某人突然想到",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-092",
+            "term": "be wild with joy",
+            "meaning": "欣喜若狂",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-093",
+            "term": "cry with joy",
+            "meaning": "喜极而泣",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-094",
+            "term": "give/deliver a lecture (on)",
+            "meaning": "作（关于……的）讲座",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-095",
+            "term": "convincing",
+            "meaning": "adj. 令人信服的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-096",
+            "term": "convinced",
+            "meaning": "adj. 确信的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-097",
+            "term": "convince sb. of sth.",
+            "meaning": "使某人信服某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-098",
+            "term": "be convinced of",
+            "meaning": "坚信某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-099",
+            "term": "convince sb. to do sth.",
+            "meaning": "说服某人做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-100",
+            "term": "positive",
+            "meaning": "adj. 积极的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-101",
+            "term": "negative",
+            "meaning": "adj. 消极的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-102",
+            "term": "admire",
+            "meaning": "v. 钦佩，赞赏，仰慕",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-103",
+            "term": "admiration",
+            "meaning": "n. 钦佩",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-104",
+            "term": "admirable",
+            "meaning": "adj. 令人赞叹的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-105",
+            "term": "admire sb.",
+            "meaning": "钦佩某人",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-106",
+            "term": "admire sb. for sth.",
+            "meaning": "因某事敬佩某人",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-107",
+            "term": "be admired for",
+            "meaning": "因……受到敬佩",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-108",
+            "term": "artificial intelligence",
+            "meaning": "人工智能（AI）",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-109",
+            "term": "outstanding",
+            "meaning": "adj. 出色的，杰出的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-110",
+            "term": "in need",
+            "meaning": "急需；处于困境",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-111",
+            "term": "in need of sth.",
+            "meaning": "需要",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-112",
+            "term": "in trouble",
+            "meaning": "陷入麻烦、困境",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-113",
+            "term": "get into trouble",
+            "meaning": "惹上麻烦",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-114",
+            "term": "have trouble (in) doing",
+            "meaning": "做某事有困难",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-115",
+            "term": "out of trouble",
+            "meaning": "摆脱困境",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-116",
+            "term": "in terms of",
+            "meaning": "就……而言",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-117",
+            "term": "in sight of",
+            "meaning": "在视线内，看见",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-118",
+            "term": "committee",
+            "meaning": "n. 委员会",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-119",
+            "term": "consistent",
+            "meaning": "adj. 一致的；始终如一的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-120",
+            "term": "consistency",
+            "meaning": "n. 一致性",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-121",
+            "term": "consist in",
+            "meaning": "在于，存在于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-122",
+            "term": "be consistent with",
+            "meaning": "与……相符",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-123",
+            "term": "be made up of",
+            "meaning": "由……构成，组成",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-124",
+            "term": "vary",
+            "meaning": "v. 变化；改变",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-125",
+            "term": "variable",
+            "meaning": "adj. 可变的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-126",
+            "term": "various",
+            "meaning": "adj. 多种多样的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-127",
+            "term": "variety",
+            "meaning": "n. 种类，多样化",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-128",
+            "term": "a variety of",
+            "meaning": "各种各样的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-129",
+            "term": "varieties of",
+            "meaning": "各式各样的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-130",
+            "term": "necessarily",
+            "meaning": "adv. 必定；必然",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-131",
+            "term": "be necessary for",
+            "meaning": "对……必不可少",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-132",
+            "term": "it's necessary to do",
+            "meaning": "有必要做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-133",
+            "term": "be popular with/among",
+            "meaning": "在……中受欢迎；受……欢迎",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-134",
+            "term": "for the benefit of",
+            "meaning": "为了……的利益",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-135",
+            "term": "be good for",
+            "meaning": "对……有益，有利于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-136",
+            "term": "be bad for",
+            "meaning": "对……有害，不利于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-137",
+            "term": "be harmful to",
+            "meaning": "对……有害",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-138",
+            "term": "be good at doing",
+            "meaning": "擅长做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-139",
+            "term": "do well in doing",
+            "meaning": "擅长做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-140",
+            "term": "be expert at doing",
+            "meaning": "擅长做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-141",
+            "term": "concentrate on",
+            "meaning": "专心于",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-142",
+            "term": "precious",
+            "meaning": "adj. 珍贵的，宝贵的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-143",
+            "term": "learn from",
+            "meaning": "向……学习；借鉴",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-144",
+            "term": "learn about",
+            "meaning": "了解；得知",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-145",
+            "term": "learn to do sth.",
+            "meaning": "学习做某事",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-146",
+            "term": "learn a lesson",
+            "meaning": "吸取教训",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-147",
+            "term": "learn of",
+            "meaning": "听说；获悉",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-148",
+            "term": "accumulation",
+            "meaning": "n. 积累",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-149",
+            "term": "for free",
+            "meaning": "免费地，无偿",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-150",
+            "term": "responsibility",
+            "meaning": "n. 责任",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-151",
+            "term": "responsible",
+            "meaning": "adj. 负责的",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-152",
+            "term": "be responsible for",
+            "meaning": "负责",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-153",
+            "term": "take responsibility for",
+            "meaning": "负责",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-154",
+            "term": "not only...but also",
+            "meaning": "不仅……而且",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-155",
+            "term": "not...but",
+            "meaning": "不是……而是",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-156",
+            "term": "either...or",
+            "meaning": "要么……要么",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-157",
+            "term": "neither...nor",
+            "meaning": "既不……也不",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-158",
+            "term": "together with",
+            "meaning": "和，也，以及",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-159",
+            "term": "along with",
+            "meaning": "和，也，以及",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260714-v68-phrase-160",
+            "term": "as well as",
+            "meaning": "和，也，以及",
+            "phrase": "",
+            "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+            "tag": "蓝色森林 11 / 介词与短语资料",
+            "source": "蓝色森林"
+          }
+        ]
+      },
+      {
+        "name": "蓝色森林 12",
+        "count": 50,
+        "words": [
+          {
+            "id": "blueforest-20260716-12-001",
+            "term": "tuition",
+            "meaning": "n. 教学；指导；学费",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-3-018",
+            "term": "water",
+            "meaning": "n. 水；水域；v. 给……浇水；灌溉；v. 浇水。",
+            "phrase": "water the flowers 浇花",
+            "note": "/'wɔ:tər/；来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 3",
+              "全方位 1",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "全方位",
+              "蓝色森林"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260716-12-003",
+            "term": "invariably",
+            "meaning": "adv. 总是；始终如一地",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-004",
+            "term": "fox",
+            "meaning": "n. 狐狸；狡猾的人；vt. 使困惑；欺骗",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-005",
+            "term": "jungle",
+            "meaning": "n. （热带）丛林；危险复杂的环境",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-006",
+            "term": "till",
+            "meaning": "prep. 直到……为止；conj. 直到……时",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-007",
+            "term": "from",
+            "meaning": "prep. 从……（起点）；来自……；由于……；根据……",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-008",
+            "term": "toilet",
+            "meaning": "n. 厕所；马桶；梳洗",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-complete-extra-072",
+            "term": "abroad",
+            "meaning": "在国外；到国外。",
+            "phrase": "work abroad",
+            "note": "来源：全方位 2 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "全方位 2",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "全方位",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-010",
+            "term": "frog",
+            "meaning": "n. 青蛙；法式纽扣；马蹄铁防滑钉",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-011",
+            "term": "free",
+            "meaning": "adj. 自由的；免费的；空闲的；v. 释放；使自由；解除",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-012",
+            "term": "tomorrow",
+            "meaning": "n. 明天；未来；adv. 在明天",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-013",
+            "term": "solar",
+            "meaning": "adj. 太阳的；太阳能的；利用太阳光的",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-014",
+            "term": "his",
+            "meaning": "adj. 他的；属于他的；pron. 他的东西；他的家人或朋友",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-7-008",
+            "term": "mankind",
+            "meaning": "n. 人类；男人",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 7",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-016",
+            "term": "today",
+            "meaning": "adv. 在今天；现今；n. 今天；现在",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-017",
+            "term": "maybe",
+            "meaning": "adv. 可能；也许；大概",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-018",
+            "term": "mental",
+            "meaning": "adj. 精神的；心理的；智力的；疯狂的（非正式）",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-019",
+            "term": "mom",
+            "meaning": "n. 妈妈（非正式称呼）",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-020",
+            "term": "thick",
+            "meaning": "adj. 厚的；浓的；密集的；愚钝的；adv. 厚密地；强烈地",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-021",
+            "term": "train",
+            "meaning": "n. 火车；行列；一系列；v. 训练；培养；瞄准",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-complete-extra-035",
+            "term": "garden",
+            "meaning": "花园。",
+            "phrase": "in the garden",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "全方位 1",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "全方位",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-023",
+            "term": "gift",
+            "meaning": "n. 礼物；天赋；vt. 赠送；赋予",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-024",
+            "term": "donkey",
+            "meaning": "n. 驴；蠢人；顽固的人",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-025",
+            "term": "noon",
+            "meaning": "n. 正午；中午十二点",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-026",
+            "term": "bearing",
+            "meaning": "n. 举止；方位；轴承",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-027",
+            "term": "glad",
+            "meaning": "adj. 高兴的；乐意的；明媚的",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-362",
+            "term": "glass",
+            "meaning": "n. 玻璃；玻璃制品",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 15",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-029",
+            "term": "ore",
+            "meaning": "n. 矿石；含有金属的岩石",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-030",
+            "term": "how",
+            "meaning": "adv. 怎样；如何；多少；多么",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-031",
+            "term": "ought to",
+            "meaning": "modal verb 应当（表义务、建议或可能性）",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-032",
+            "term": "passenger",
+            "meaning": "n. 乘客；旅客；（团队中）拖后腿者",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-033",
+            "term": "partly",
+            "meaning": "adv. 部分地；在某种程度上",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "cet4-20260628-v40-013",
+            "term": "percent",
+            "meaning": "n. 百分之……；adv./adj. 每一百中",
+            "phrase": "",
+            "note": "/pəˈsent/；来源：2026-06-28 四级截图补充导入",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "四级 5",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "四级",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-035",
+            "term": "vitamin",
+            "meaning": "n. 维生素；维他命",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "cet4-20260714-v68-021",
+            "term": "population",
+            "meaning": "n. 人口；某地某类人或动物的总数",
+            "phrase": "",
+            "note": "来源：2026-07-14 图片继续导入；截图标题明确含“英语四级”，归入四级 7。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "四级 7",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "四级",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-115",
+            "term": "travel",
+            "meaning": "v. 长途行走；旅行；n. 旅行；旅游",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 18｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 18",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-082",
+            "term": "worry",
+            "meaning": "v. 不安；担心；操心；n. 担心；发愁；令人担忧的人/事",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-039",
+            "term": "pond",
+            "meaning": "n. 池塘；（非正式）大西洋",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-040",
+            "term": "aisle",
+            "meaning": "n. 过道；走廊；教堂侧廊；婚礼通道",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-041",
+            "term": "grape",
+            "meaning": "n. 葡萄；葡萄色；葡萄酒",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-3-015",
+            "term": "grass",
+            "meaning": "n. 草；草地；草坪；v. （向警方）告密；告发",
+            "phrase": "",
+            "note": "/grɑ:s/",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 3",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-043",
+            "term": "grade",
+            "meaning": "n. 等级；年级；成绩；vt. 评分；分级",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-044",
+            "term": "group",
+            "meaning": "n. 组；团体；类；群；v. 将……分组；归类",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-045",
+            "term": "pronounce",
+            "meaning": "vt. 发音；宣布；宣称",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-046",
+            "term": "grow",
+            "meaning": "vi. 生长；成长；逐渐变得；vt. 种植；栽培；蓄（须发）",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-047",
+            "term": "professor",
+            "meaning": "n. （大学）教授；教师",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-048",
+            "term": "guard",
+            "meaning": "n. 卫兵；防护装置；警戒状态；vt. 守卫；保护；监视",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-12-049",
+            "term": "railway",
+            "meaning": "n. 铁路；轨道；铁路系统",
+            "phrase": "",
+            "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-302",
+            "term": "habit",
+            "meaning": "n. 习惯",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 14｜按原页顺序重整 v33。",
+            "tag": "蓝色森林 12 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 14",
+              "蓝色森林 12"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "蓝色森林 13",
+        "count": 187,
+        "words": [
+          {
+            "id": "blueforest-20260716-13-001",
+            "term": "had better do sth.",
+            "meaning": "最好做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-002",
+            "term": "would rather do sth.",
+            "meaning": "宁愿做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-003",
+            "term": "might as well do sth.",
+            "meaning": "不妨做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-004",
+            "term": "can't help doing",
+            "meaning": "忍不住做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-005",
+            "term": "can't help but do",
+            "meaning": "忍不住做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-006",
+            "term": "can't wait to do",
+            "meaning": "迫不及待做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-007",
+            "term": "can't ... too",
+            "meaning": "再……也不为过；越……越好",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-008",
+            "term": "can do nothing but do",
+            "meaning": "只好做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-009",
+            "term": "have to",
+            "meaning": "不得不做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-010",
+            "term": "don't/doesn't have to",
+            "meaning": "不必做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-011",
+            "term": "must have done",
+            "meaning": "肯定做过某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-012",
+            "term": "can't/couldn't have done",
+            "meaning": "不可能做过某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-013",
+            "term": "could have done",
+            "meaning": "可能做过某事；本能做却没做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-014",
+            "term": "may/might have done",
+            "meaning": "也许做过某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-015",
+            "term": "should/ought to have done",
+            "meaning": "本应该做却没做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-016",
+            "term": "shouldn't/oughtn't to have done",
+            "meaning": "本不应该做却做了",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-017",
+            "term": "need have done",
+            "meaning": "本需要做却没做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-018",
+            "term": "needn't have done",
+            "meaning": "本不必做却做了",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-019",
+            "term": "might have done",
+            "meaning": "本可能做但没做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-020",
+            "term": "would have done",
+            "meaning": "本来会做却没做",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-021",
+            "term": "before doing sth.",
+            "meaning": "在做某事之前",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-022",
+            "term": "after doing sth.",
+            "meaning": "在做某事之后",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-023",
+            "term": "the other day",
+            "meaning": "几天前",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-024",
+            "term": "shout at sb.",
+            "meaning": "朝某人大吼大叫",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-6-042",
+            "term": "attend",
+            "meaning": "v. 出席；参加；处理；照料",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 6",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-6-044",
+            "term": "attendance",
+            "meaning": "n. 出席人数；出席；出勤",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 6",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-6-043",
+            "term": "attendant",
+            "meaning": "n. 服务人员；助理；adj. 伴随的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 6",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-028",
+            "term": "attend a/the meeting",
+            "meaning": "参加会议",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-6-016",
+            "term": "extreme",
+            "meaning": "adj. 极度的；极其的",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 6",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-6-017",
+            "term": "extremely",
+            "meaning": "adv. 非常；极其",
+            "phrase": "",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 6",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-031",
+            "term": "extreme weather",
+            "meaning": "极端天气",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-adjadv-016",
+            "term": "be full of",
+            "meaning": "充满",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 9",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-033",
+            "term": "be filled with",
+            "meaning": "充满",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-034",
+            "term": "adopt",
+            "meaning": "v. 采用；采纳；收养",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-035",
+            "term": "adoption",
+            "meaning": "n. 采纳；收养",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-036",
+            "term": "adapt",
+            "meaning": "v. 适应；改编",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-037",
+            "term": "adaptation",
+            "meaning": "n. 适应；改编",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-038",
+            "term": "adaptable",
+            "meaning": "adj. 适应性强的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-039",
+            "term": "adapt (oneself) to",
+            "meaning": "适应",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-040",
+            "term": "adapt for",
+            "meaning": "改编",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-041",
+            "term": "admit",
+            "meaning": "v. 承认；准许进入；接纳",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-042",
+            "term": "admission",
+            "meaning": "n. 承认；入场费；录取",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-043",
+            "term": "be admitted to",
+            "meaning": "被录取；获准加入",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-044",
+            "term": "afford",
+            "meaning": "v. 承担",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-105",
+            "term": "turn down",
+            "meaning": "拒绝；关小；调低",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-108",
+            "term": "turn up",
+            "meaning": "出现；发现；调高；找到",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-106",
+            "term": "turn on",
+            "meaning": "接通（煤气、水等）；打开",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-048",
+            "term": "turn off",
+            "meaning": "关闭",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-107",
+            "term": "turn out",
+            "meaning": "发生；结果是",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-050",
+            "term": "turn into",
+            "meaning": "变成",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-110",
+            "term": "turn over",
+            "meaning": "翻转；颠倒；仔细考虑",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 18｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 18",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-052",
+            "term": "turn around",
+            "meaning": "转身",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-348",
+            "term": "permit",
+            "meaning": "n. 许可证；特许证；v. 允许；准许",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 15",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-349",
+            "term": "permission",
+            "meaning": "n. 同意；准许",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 15",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-complete-extra-060",
+            "term": "launch",
+            "meaning": "发布；发射。",
+            "phrase": "launch a new product",
+            "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "全方位 1",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "全方位",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-056",
+            "term": "register",
+            "meaning": "v. 注册；登记",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-057",
+            "term": "claim",
+            "meaning": "v. 声称；索要；认领",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-071",
+            "term": "recall",
+            "meaning": "v. 召回，回想起。recall faulty phones 召回故障手机。",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "全方位 2",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "全方位",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-059",
+            "term": "clarify",
+            "meaning": "v. 澄清；阐明",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-060",
+            "term": "prepare",
+            "meaning": "v. 做准备",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-061",
+            "term": "prepare for",
+            "meaning": "为……做准备",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-062",
+            "term": "threat",
+            "meaning": "n. 威胁；恐吓",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-063",
+            "term": "threaten",
+            "meaning": "v. 威胁",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-064",
+            "term": "threatening",
+            "meaning": "adj. 危险的；吓人的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-065",
+            "term": "pose a threat",
+            "meaning": "构成威胁",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-066",
+            "term": "require/ask sb. to do",
+            "meaning": "要求某人做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-067",
+            "term": "use",
+            "meaning": "v./n. 使用",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-068",
+            "term": "user",
+            "meaning": "n. 用户；使用者",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-069",
+            "term": "useful",
+            "meaning": "adj. 有用的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-070",
+            "term": "useless",
+            "meaning": "adj. 无用的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-071",
+            "term": "official",
+            "meaning": "adj. 官方的；正式的；n. 官员",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-072",
+            "term": "officially",
+            "meaning": "adv. 正式地；官方地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-073",
+            "term": "detail",
+            "meaning": "n. 细节",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-074",
+            "term": "in detail",
+            "meaning": "详细地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-075",
+            "term": "phenomenon",
+            "meaning": "n. 现象",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-076",
+            "term": "phenomena",
+            "meaning": "n. 现象（复数）",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-077",
+            "term": "recognize",
+            "meaning": "v. 认出；识别出",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-078",
+            "term": "demonstrate",
+            "meaning": "v. 证明；显示；说明",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-079",
+            "term": "acknowledge",
+            "meaning": "v. 承认；致谢",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-249",
+            "term": "set up",
+            "meaning": "建立；创立",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 13",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-081",
+            "term": "put up",
+            "meaning": "张贴；举起",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-082",
+            "term": "take up",
+            "meaning": "占据；从事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-083",
+            "term": "make up",
+            "meaning": "组成；编造",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-084",
+            "term": "aim",
+            "meaning": "v. 瞄准；旨在；n. 目标",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-085",
+            "term": "aim to do",
+            "meaning": "力求做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-086",
+            "term": "aim at doing",
+            "meaning": "旨在；瞄准",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-087",
+            "term": "with the aim of",
+            "meaning": "以……为目的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-088",
+            "term": "aimless",
+            "meaning": "adj. 无目的的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-089",
+            "term": "aimlessly",
+            "meaning": "adv. 漫无目的地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-090",
+            "term": "ignore",
+            "meaning": "v. 忽视；不理睬",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-091",
+            "term": "ignorance",
+            "meaning": "n. 无知；愚昧",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-092",
+            "term": "ignorant",
+            "meaning": "adj. 无知的；不知情的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-084",
+            "term": "invent",
+            "meaning": "v. 发明；创造；编造",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-085",
+            "term": "invention",
+            "meaning": "n. 发明；创造；虚构；发明物",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-095",
+            "term": "detect",
+            "meaning": "v. 检测；察觉",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-096",
+            "term": "detective",
+            "meaning": "n. 侦探；adj. 侦探的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-097",
+            "term": "understand",
+            "meaning": "v. 理解；明白；领会",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-098",
+            "term": "casual",
+            "meaning": "adj. 不在意的；漫不经心的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-099",
+            "term": "casually",
+            "meaning": "adv. 随意地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-5-034",
+            "term": "wise",
+            "meaning": "adj. 有智慧的；睿智的",
+            "phrase": "wisdom 智慧；明智",
+            "note": "/waiz/",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 5",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "word-list-5-035",
+            "term": "wisdom",
+            "meaning": "n. 智慧；明智",
+            "phrase": "",
+            "note": "/'wizdəm/；拓展词",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 5",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-102",
+            "term": "wisely",
+            "meaning": "adv. 明智地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-103",
+            "term": "unwise",
+            "meaning": "adj. 不明智的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-078",
+            "term": "care",
+            "meaning": "n. 照顾；照料；担心",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-081",
+            "term": "careful",
+            "meaning": "adj. 小心的；谨慎的",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-106",
+            "term": "careless",
+            "meaning": "adj. 粗心的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-107",
+            "term": "carelessness",
+            "meaning": "n. 粗心",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-108",
+            "term": "carefully",
+            "meaning": "adv. 仔细地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-080",
+            "term": "care about",
+            "meaning": "在乎；关心；在意",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-079",
+            "term": "care for",
+            "meaning": "照顾；照料；护理",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "Word List 17",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-111",
+            "term": "take care",
+            "meaning": "当心",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-112",
+            "term": "take care of",
+            "meaning": "照料；负责",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-table-025",
+            "term": "effort",
+            "meaning": "n. 努力；艰难的尝试；成果",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林词表截图补充导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 8",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-114",
+            "term": "effortless",
+            "meaning": "adj. 毫不费力的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-115",
+            "term": "make efforts/an effort",
+            "meaning": "付出努力",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-116",
+            "term": "spare no effort",
+            "meaning": "不遗余力",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-117",
+            "term": "with effort",
+            "meaning": "费力地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-118",
+            "term": "by doing sth.",
+            "meaning": "通过做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-119",
+            "term": "remind",
+            "meaning": "v. 提醒；使想起",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-120",
+            "term": "remind sb of sth.",
+            "meaning": "使某人想起某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-121",
+            "term": "remind sb to do sth.",
+            "meaning": "提醒某人做某事",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-122",
+            "term": "critical",
+            "meaning": "adj. 关键的；批判的；危急的",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-123",
+            "term": "critic",
+            "meaning": "n. 评论家；批评者",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-124",
+            "term": "criticism",
+            "meaning": "n. 批评；评论",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-125",
+            "term": "critical moment",
+            "meaning": "关键时刻",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "cet-black-20260624-023",
+            "term": "blind",
+            "meaning": "adj. 失明的；盲目的；v. 使失明",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "四级 3",
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "四级",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-127",
+            "term": "blindly",
+            "meaning": "adv. 盲目地",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-128",
+            "term": "be blind to",
+            "meaning": "对……视而不见",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-129",
+            "term": "donate",
+            "meaning": "v. 捐赠",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-130",
+            "term": "donation",
+            "meaning": "n. 捐赠物；捐款",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-131",
+            "term": "donate money",
+            "meaning": "捐款",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-132",
+            "term": "donate sth. to sb./sth.",
+            "meaning": "向……捐赠某物",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-133",
+            "term": "the Student Union",
+            "meaning": "学生会",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-134",
+            "term": "the Students' Union",
+            "meaning": "学生会",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-135",
+            "term": "pay attention to",
+            "meaning": "重视",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-136",
+            "term": "give priority to",
+            "meaning": "优先考虑",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-137",
+            "term": "attach importance to",
+            "meaning": "重视",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-138",
+            "term": "place emphasis on",
+            "meaning": "强调；重视",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-139",
+            "term": "with the development of",
+            "meaning": "随着……的发展",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260716-13-140",
+            "term": "with the progress of",
+            "meaning": "随着……的进步",
+            "phrase": "",
+            "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "source": "蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260718-docx-001",
+            "term": "be afraid to do sth.",
+            "meaning": "不敢去做某事（缺乏勇气）",
+            "phrase": "She is afraid to speak in front of the class. 她不敢在全班面前讲话。",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-002",
+            "term": "be afraid of (doing) sth.",
+            "meaning": "害怕会发生某事；担心做某事的后果",
+            "phrase": "Don't be afraid of making mistakes when you speak English. 说英语时不要害怕犯错。",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-003",
+            "term": "hear well",
+            "meaning": "听力好；听得清楚",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-004",
+            "term": "ask sb a question",
+            "meaning": "问某人一个问题",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-005",
+            "term": "come closer",
+            "meaning": "走近一点；靠近一些",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-006",
+            "term": "go home",
+            "meaning": "回家",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-007",
+            "term": "stand by the wall",
+            "meaning": "靠墙站着",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-008",
+            "term": "move closer",
+            "meaning": "挪近一点；靠近一些",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-009",
+            "term": "do sth many times",
+            "meaning": "多次做某事",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-010",
+            "term": "tell sb sth",
+            "meaning": "告诉某人某事",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-011",
+            "term": "have dinner",
+            "meaning": "吃晚餐",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-012",
+            "term": "far away",
+            "meaning": "遥远；远处",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-013",
+            "term": "nineteen",
+            "meaning": "num. 十九",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-014",
+            "term": "sketch",
+            "meaning": "n. 草图；梗概；小品；v. 画草图；概述；即兴表演",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-015",
+            "term": "trousers",
+            "meaning": "n. 裤子（复数名词）",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-016",
+            "term": "triumph",
+            "meaning": "n. 胜利；巨大成功；喜悦；vi. 获胜；成功；欢庆胜利",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-017",
+            "term": "upon",
+            "meaning": "prep. 在……上；关于；依据；紧接着",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-018",
+            "term": "sleeve",
+            "meaning": "n. 袖子；封套",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-019",
+            "term": "sick",
+            "meaning": "adj. 生病的；恶心的；极好的（俚语）；v. 唆使（动物攻击）",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-020",
+            "term": "impossible",
+            "meaning": "adj. 不可能的；难以忍受的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-021",
+            "term": "tiny",
+            "meaning": "adj. 极小的；微小的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-022",
+            "term": "herself",
+            "meaning": "pron. 她自己；她本人",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-023",
+            "term": "home",
+            "meaning": "n. 家；住所；发源地；adj. 家庭的；家用的；本地的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-024",
+            "term": "dig",
+            "meaning": "v. 挖；掘；寻找；探究；喜欢；n. 挖掘；考古发掘；挖苦的话",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-025",
+            "term": "reveal",
+            "meaning": "vt. 揭示；透露；显示；揭露；启示",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-026",
+            "term": "hurt",
+            "meaning": "v. 使疼痛；使受伤；使伤心；adj. 受伤的；痛苦的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-027",
+            "term": "sometime",
+            "meaning": "adv. 在某个时候；过去某个时候；adj. 曾经的；以前的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-028",
+            "term": "statesman",
+            "meaning": "n. 政治家",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-029",
+            "term": "revise",
+            "meaning": "vt. 修订；修改；复习；vi. 复习；温习",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-030",
+            "term": "ice",
+            "meaning": "n. 冰；冰块；结冰状态；vt. 使结冰；给……裹糖霜",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-031",
+            "term": "hate",
+            "meaning": "v. 憎恨；厌恶；不愿；n. 仇恨；憎恶",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-032",
+            "term": "himself",
+            "meaning": "pron. 他自己；他本人",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-033",
+            "term": "electron",
+            "meaning": "n. 电子",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-034",
+            "term": "coach",
+            "meaning": "n. 教练；长途客车；火车车厢；v. 训练；辅导",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-035",
+            "term": "hill",
+            "meaning": "n. 小山；丘陵；斜坡；v. 堆成小丘；培土",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-036",
+            "term": "magnificent",
+            "meaning": "adj. 壮丽的；宏伟的；极好的",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-037",
+            "term": "sir",
+            "meaning": "n. 先生；爵士",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-038",
+            "term": "irrigate",
+            "meaning": "vt. 灌溉；冲洗（伤口）",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-039",
+            "term": "layout",
+            "meaning": "n. 布局；安排；设计",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-040",
+            "term": "isolate",
+            "meaning": "vt. 使隔离；使孤立；分离；n. 分离物；隔离个体",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-041",
+            "term": "jar",
+            "meaning": "n. 罐子；广口瓶；震动；冲突；v. 震动；冲突；使不安",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-042",
+            "term": "journalism",
+            "meaning": "n. 新闻业；新闻报道；新闻工作",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-043",
+            "term": "junk",
+            "meaning": "n. 废旧物品；垃圾；无价值的东西；vt. 丢弃；处理掉",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-044",
+            "term": "hospital",
+            "meaning": "n. 医院；慈善机构",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-045",
+            "term": "lunch",
+            "meaning": "n. 午餐；午宴；v. 吃午餐；请客吃午餐",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-046",
+            "term": "river",
+            "meaning": "n. 河流；江；水道",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "blueforest-20260718-docx-047",
+            "term": "basic",
+            "meaning": "adj. 基本的；基础的；初级的；n. 基础；基本要素",
+            "phrase": "",
+            "note": "来源：2026-07-18 上传词表截图；仅补充缺失新词；归入蓝色森林 13。",
+            "tag": "蓝色森林 13 / 蓝色森林",
+            "groups": [
+              "蓝色森林 13"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
             "source": "蓝色森林"
           }
         ]
