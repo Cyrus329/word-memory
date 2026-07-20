@@ -1,4 +1,4 @@
-// v68 2026-07-19：新增蓝色森林 14、四级 9；同词不重复建记录，只补充分组。
+// v68 2026-07-20：新增蓝色森林 15、四级 10；同词不重复建记录，只补充分组。
 window.WORD_MEMORY_WORDS = [
   {
     "id": "word-list-1-001",
@@ -2764,7 +2764,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "old",
     "meaning": "adj. 古老的；老的；n. 老年人；旧事物",
     "phrase": "",
-    "note": "/oʊld/",
+    "note": "/oʊld/；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 3 / 能力生活与自然",
     "status": "new",
     "stage": -1,
@@ -2774,10 +2774,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-09T14:56:23",
     "history": [],
     "groups": [
-      "Word List 3"
+      "Word List 3",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -3611,7 +3613,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "cancel",
     "meaning": "v. 取消；中止；v. 取消。= call off。",
     "phrase": "call off 取消",
-    "note": "/'kænsl/；近义词；来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+    "note": "/'kænsl/；近义词；来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 4 / 时间进程与方位",
     "status": "new",
     "stage": -1,
@@ -3622,11 +3624,13 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "Word List 4",
-      "全方位 2"
+      "全方位 2",
+      "四级 10"
     ],
     "sources": [
       "Word List",
-      "全方位"
+      "全方位",
+      "四级"
     ],
     "source": "Word List",
     "forms": {}
@@ -3658,7 +3662,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "cancellation",
     "meaning": "n. 取消；撤销",
     "phrase": "",
-    "note": "/,kænsə'leiʃn/；拓展词",
+    "note": "/,kænsə'leiʃn/；拓展词；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 4 / 时间进程与方位",
     "status": "new",
     "stage": -1,
@@ -3668,10 +3672,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-11T09:28:39",
     "history": [],
     "groups": [
-      "Word List 4"
+      "Word List 4",
+      "四级 10"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "source": "Word List"
   },
@@ -3881,7 +3887,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "outset",
     "meaning": "n. 起始；开始",
     "phrase": "",
-    "note": "/'aut,set/",
+    "note": "/'aut,set/；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 4 / 时间进程与方位",
     "status": "new",
     "stage": -1,
@@ -3891,10 +3897,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-11T09:28:39",
     "history": [],
     "groups": [
-      "Word List 4"
+      "Word List 4",
+      "四级 10"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "source": "Word List"
   },
@@ -4035,7 +4043,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "over",
     "meaning": "adv. 结束；prep. 在……上面；悬在……上面",
     "phrase": "over again 再；重新；all over 到处",
-    "note": "/'ouvər/",
+    "note": "/'ouvər/；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 4 / 时间进程与方位",
     "status": "new",
     "stage": -1,
@@ -4045,10 +4053,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-11T09:28:39",
     "history": [],
     "groups": [
-      "Word List 4"
+      "Word List 4",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -4280,7 +4290,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "now",
     "meaning": "adv. 现在；目前；conj. 既然；由于；adj. 现在的；现任的",
     "phrase": "right now 立刻；马上；just now 刚才；now that 既然；from now on 从现在开始",
-    "note": "/nau/",
+    "note": "/nau/；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 4 / 时间进程与方位",
     "status": "new",
     "stage": -1,
@@ -4290,10 +4300,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-11T09:28:39",
     "history": [],
     "groups": [
-      "Word List 4"
+      "Word List 4",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -5262,7 +5274,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "via",
     "meaning": "prep. 经由；经过",
     "phrase": "",
-    "note": "/vaiə/",
+    "note": "/vaiə/；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 5 / 方法智慧与网络",
     "status": "new",
     "stage": -1,
@@ -5272,10 +5284,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-11T09:28:39",
     "history": [],
     "groups": [
-      "Word List 5"
+      "Word List 5",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -5609,7 +5623,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "bright",
     "meaning": "adj. 明亮的；聪明的；欢快的；充满幸福的；adv. 明亮地；光辉地",
     "phrase": "brightness 亮度；聪明；愉快",
-    "note": "/brait/",
+    "note": "/brait/；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 5 / 方法智慧与网络",
     "status": "new",
     "stage": -1,
@@ -5619,10 +5633,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-11T09:28:39",
     "history": [],
     "groups": [
-      "Word List 5"
+      "Word List 5",
+      "四级 10"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "source": "Word List"
   },
@@ -6926,11 +6942,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "四级",
     "tag": "四级 / Part 1 Unit 1",
     "groups": [
-      "四级"
+      "四级",
+      "蓝色森林 15"
     ],
     "sources": [
-      "四级"
-    ]
+      "四级",
+      "蓝色森林"
+    ],
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "cet4-032",
@@ -7146,11 +7165,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "四级",
     "tag": "四级 / Part 1 Unit 1",
     "groups": [
-      "四级"
+      "四级",
+      "蓝色森林 15"
     ],
     "sources": [
-      "四级"
-    ]
+      "四级",
+      "蓝色森林"
+    ],
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "cet4-048",
@@ -7652,11 +7674,12 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "phrase": "",
-    "note": "Word List 9｜图片导入｜后续可继续校正音标",
+    "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "groups": [
       "蓝色森林",
       "Word List 9",
-      "四级 7"
+      "四级 7",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林",
@@ -8148,11 +8171,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "I like to talk with my friends after school. 我喜欢放学后和朋友交谈。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-068",
@@ -8161,11 +8187,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "I need to talk to my teacher about the homework. 我需要和老师谈谈家庭作业。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-069",
@@ -8174,11 +8203,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "Let's talk about our summer plans. 我们来谈谈暑假计划吧。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-070",
@@ -8207,11 +8239,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "The bird flew away when I got close. 当我靠近时，那只鸟飞走了。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-072",
@@ -8253,11 +8288,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "Don't give up on your dreams. 不要放弃你的梦想。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-075",
@@ -8266,11 +8304,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "Don't give away the answer. 别泄露答案。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-076",
@@ -8279,11 +8320,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "The teacher will give out the test papers now. 老师现在将分发试卷。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-077",
@@ -8292,11 +8336,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "My parents finally gave in and let me stay up late. 我父母最终让步了，允许我熬夜。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-078",
@@ -8305,11 +8352,14 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phrase": "The flowers give off a sweet smell. 这些花散发出甜美的香味。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
   },
   {
     "id": "blue-forest-b2-079",
@@ -9390,11 +9440,12 @@ window.WORD_MEMORY_WORDS = [
     "term": "hand",
     "meaning": "n. 手；v. 递给。give sb. a hand = help sb.；hand in 上交；hand over 移交。；v. 递给。",
     "phrase": "give sb. a hand 帮某人；hand in 上交；hand over 移交",
-    "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+    "note": "来源：2026届《大学英语》基础课程 - 全方位 1。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "全方位 1 / 全方位单词课",
     "source": "全方位",
     "sources": [
-      "全方位"
+      "全方位",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
@@ -9404,7 +9455,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-27T15:32:00+08:00",
     "history": [],
     "groups": [
-      "全方位 1"
+      "全方位 1",
+      "蓝色森林 15"
     ],
     "forms": {}
   },
@@ -17356,11 +17408,12 @@ window.WORD_MEMORY_WORDS = [
     "term": "mountain",
     "meaning": "n. 山；大量",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+    "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "四级 3 / 黑背景新导入",
     "source": "四级",
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
@@ -17370,7 +17423,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-24T00:00:00",
     "history": [],
     "groups": [
-      "四级 3"
+      "四级 3",
+      "蓝色森林 15"
     ]
   },
   {
@@ -18648,7 +18702,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "money",
     "meaning": "n. 钱；货币",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 3 / 新导入词表",
     "source": "蓝色森林",
     "sources": [
@@ -18662,7 +18716,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-24T00:00:00",
     "history": [],
     "groups": [
-      "蓝色森林 3"
+      "蓝色森林 3",
+      "蓝色森林 15"
     ]
   },
   {
@@ -20874,11 +20929,12 @@ window.WORD_MEMORY_WORDS = [
     "term": "tolerance",
     "meaning": "n. 宽容；容忍",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
@@ -20888,7 +20944,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-24T00:00:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
+      "蓝色森林 5",
+      "四级 10"
     ]
   },
   {
@@ -20896,11 +20953,12 @@ window.WORD_MEMORY_WORDS = [
     "term": "tolerant",
     "meaning": "adj. 容忍的；宽容的；忍耐的",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
@@ -20910,7 +20968,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-24T00:00:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
+      "蓝色森林 5",
+      "四级 10"
     ]
   },
   {
@@ -23232,7 +23291,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "paint",
     "meaning": "n. 油漆；涂料；v. 油漆；涂饰；描绘",
     "phrase": "",
-    "note": "Word List 7｜图片导入｜后续可继续校正音标",
+    "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 7 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -23243,10 +23302,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-25T12:20:00",
     "history": [],
     "groups": [
-      "Word List 7"
+      "Word List 7",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -23298,7 +23359,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "picture",
     "meaning": "n. 画；图画；照片",
     "phrase": "",
-    "note": "Word List 7｜图片导入｜后续可继续校正音标",
+    "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 7 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -23309,10 +23370,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-25T12:20:00",
     "history": [],
     "groups": [
-      "Word List 7"
+      "Word List 7",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -24900,7 +24963,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "address",
     "meaning": "n. 地址；演讲；演说；v. 演说；解决",
     "phrase": "",
-    "note": "Word List 9｜图片导入｜后续可继续校正音标",
+    "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 9 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -24911,10 +24974,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-25T12:20:00",
     "history": [],
     "groups": [
-      "Word List 9"
+      "Word List 9",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -25104,7 +25169,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "abandon",
     "meaning": "v. 不再养育；遗弃；放弃",
     "phrase": "abandon oneself to 纵情于；沉溺于",
-    "note": "Word List 9｜图片导入｜后续可继续校正音标",
+    "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 9 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -25115,10 +25180,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-25T12:20:00",
     "history": [],
     "groups": [
-      "Word List 9"
+      "Word List 9",
+      "蓝色森林 15"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -25380,7 +25447,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "number",
     "meaning": "n. 数字；数量；编号；序数；v. 标号；编号",
     "phrase": "the number of ……的数量；a number of 许多",
-    "note": "Word List 9｜图片导入｜后续可继续校正音标",
+    "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 9 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -25392,11 +25459,13 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "Word List 9",
-      "四级 7"
+      "四级 7",
+      "蓝色森林 15"
     ],
     "sources": [
       "Word List",
-      "四级"
+      "四级",
+      "蓝色森林"
     ]
   },
   {
@@ -25404,7 +25473,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "slight",
     "meaning": "adj. 少量的；轻微的",
     "phrase": "",
-    "note": "Word List 9｜图片导入｜后续可继续校正音标",
+    "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 9 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -25415,10 +25484,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-25T12:20:00",
     "history": [],
     "groups": [
-      "Word List 9"
+      "Word List 9",
+      "四级 10"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ]
   },
   {
@@ -31108,7 +31179,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "act",
     "meaning": "v. 行动；行为；担任；n. 行为；假装；法案；装样子；一幕；vi. 行动；表现得；充当；vt./vi. 扮演",
     "phrase": "",
-    "note": "/ækt/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "/ækt/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31120,13 +31191,15 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "sources": [
       "Word List",
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
       "Word List 11",
-      "四级 5"
+      "四级 5",
+      "蓝色森林 15"
     ],
     "forms": {}
   },
@@ -31362,7 +31435,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "actor",
     "meaning": "n. 男演员；n. 演员",
     "phrase": "",
-    "note": "/ˈæktə(r)/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "/ˈæktə(r)/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31374,13 +31447,15 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "sources": [
       "Word List",
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
       "Word List 11",
-      "四级 5"
+      "四级 5",
+      "蓝色森林 15"
     ],
     "forms": {}
   },
@@ -31416,7 +31491,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "actual",
     "meaning": "adj. 实际存在的；实际上的；adj. 真实的，实际的",
     "phrase": "",
-    "note": "/ˈæktʃuəl/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "/ˈæktʃuəl/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31428,13 +31503,15 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "sources": [
       "Word List",
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
       "Word List 11",
-      "四级 5"
+      "四级 5",
+      "蓝色森林 15"
     ],
     "forms": {}
   },
@@ -32616,7 +32693,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "aircraft",
     "meaning": "n. 飞机；直升机",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 12｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 12｜按原页顺序重整 v33。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 12 / Word List",
     "source": "Word List",
     "status": "new",
@@ -32627,12 +32704,14 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-27T15:30:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 12"
+      "Word List 12",
+      "蓝色森林 15"
     ]
   },
   {
@@ -40545,7 +40624,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "take medicine",
     "meaning": "吃药",
     "phrase": "",
-    "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+    "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
     "source": "蓝色森林",
     "status": "new",
@@ -40556,7 +40635,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-06-28T11:40:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 9"
+      "蓝色森林 9",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
@@ -41476,12 +41556,13 @@ window.WORD_MEMORY_WORDS = [
     "term": "light",
     "meaning": "n. 光；亮光；引火物；v. 照亮；点火；adj. 柔和的；轻的；浅色的；轻松的；易懂的",
     "phrase": "",
-    "note": "来源：蓝色森林词本｜Word List 16｜2026-06-28 图片导入 v42。",
+    "note": "来源：蓝色森林词本｜Word List 16｜2026-06-28 图片导入 v42。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 16 / 蓝色森林词本",
     "source": "Word List",
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
@@ -41493,7 +41574,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 16"
+      "Word List 16",
+      "四级 10"
     ]
   },
   {
@@ -42051,12 +42133,13 @@ window.WORD_MEMORY_WORDS = [
     "term": "highlight",
     "meaning": "n. 最显著的部分；强光部分；精彩片段；v. 使显著；使突出",
     "phrase": "",
-    "note": "来源：蓝色森林词本｜Word List 16｜2026-06-28 图片导入 v42。",
+    "note": "来源：蓝色森林词本｜Word List 16｜2026-06-28 图片导入 v42。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "Word List 16 / 蓝色森林词本",
     "source": "Word List",
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
@@ -42068,7 +42151,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 16"
+      "Word List 16",
+      "四级 10"
     ]
   },
   {
@@ -42651,7 +42735,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "cry",
     "meaning": "v. 哭；哭泣；喊叫；呼喊；n. 哭声；叫喊",
     "phrase": "",
-    "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+    "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 17 / 蓝色森林词本",
     "source": "Word List",
     "sources": [
@@ -42668,7 +42752,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 17"
+      "Word List 17",
+      "蓝色森林 15"
     ]
   },
   {
@@ -43158,7 +43243,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "get up",
     "meaning": "站起来；起床",
     "phrase": "",
-    "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+    "note": "来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "Word List 17 / 蓝色森林词本",
     "source": "Word List",
     "sources": [
@@ -43175,7 +43260,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 17"
+      "Word List 17",
+      "蓝色森林 15"
     ]
   },
   {
@@ -49856,11 +49942,12 @@ window.WORD_MEMORY_WORDS = [
     "term": "thunder",
     "meaning": "n. 雷，雷声；轰隆声；vi. 打雷；发出轰隆声",
     "phrase": "",
-    "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+    "note": "来源：2026-07-14 词表截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "蓝色森林 11 / 词表截图继续导入",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
@@ -49872,7 +49959,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
+      "蓝色森林 11",
+      "四级 10"
     ]
   },
   {
@@ -50552,7 +50640,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "against",
     "meaning": "prep. 反对；倚靠；防备",
     "phrase": "",
-    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
@@ -50568,7 +50656,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
+      "蓝色森林 11",
+      "蓝色森林 15"
     ]
   },
   {
@@ -52712,7 +52801,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "admire",
     "meaning": "v. 钦佩，赞赏，仰慕",
     "phrase": "",
-    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
@@ -52728,7 +52817,8 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
+      "蓝色森林 11",
+      "蓝色森林 15"
     ]
   },
   {
@@ -55218,7 +55308,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "solar",
     "meaning": "adj. 太阳的；太阳能的；利用太阳光的",
     "phrase": "",
-    "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）",
+    "note": "来源：2026-07-16 词表截图继续导入（无“四级”字样，按规则归入蓝色森林）；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "蓝色森林 12 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -55229,10 +55319,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-07-16T09:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 12"
+      "蓝色森林 12",
+      "四级 10"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ]
   },
   {
@@ -56498,7 +56590,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "adapt",
     "meaning": "v. 适应；改编",
     "phrase": "",
-    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入；来源：2026-07-19 上传资料；归入四级 9。",
+    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入；来源：2026-07-19 上传资料；归入四级 9。；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 13 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -56510,7 +56602,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 13",
-      "四级 9"
+      "四级 9",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林",
@@ -56612,7 +56705,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "admit",
     "meaning": "v. 承认；准许进入；接纳",
     "phrase": "",
-    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 13 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -56623,7 +56716,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-07-16T09:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 13"
+      "蓝色森林 13",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
@@ -57250,7 +57344,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "acknowledge",
     "meaning": "v. 承认；致谢",
     "phrase": "",
-    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入；来源：2026-07-20 上传资料；归入蓝色森林 15。",
     "tag": "蓝色森林 13 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -57261,7 +57355,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-07-16T09:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 13"
+      "蓝色森林 13",
+      "蓝色森林 15"
     ],
     "sources": [
       "蓝色森林"
@@ -60550,7 +60645,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "earnest",
     "meaning": "adj. 认真的；诚挚的；n. 认真；定金；保证",
     "phrase": "",
-    "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。",
+    "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "蓝色森林 14 / 蓝色森林",
     "status": "new",
     "stage": -1,
@@ -60560,10 +60655,12 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-07-19T00:00:00",
     "history": [],
     "groups": [
-      "蓝色森林 14"
+      "蓝色森林 14",
+      "四级 10"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "source": "蓝色森林"
   },
@@ -61254,7 +61351,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "moderate",
     "meaning": "adj. 适度的；温和的；v. 缓和；节制",
     "phrase": "",
-    "note": "来源：2026-07-19 上传资料；归入四级 9。",
+    "note": "来源：2026-07-19 上传资料；归入四级 9。；来源：2026-07-20 上传资料；归入四级 10。",
     "tag": "四级 9 / 四级",
     "status": "new",
     "stage": -1,
@@ -61264,7 +61361,8 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-07-19T00:00:00",
     "history": [],
     "groups": [
-      "四级 9"
+      "四级 9",
+      "四级 10"
     ],
     "sources": [
       "四级"
@@ -62018,347 +62116,2051 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级"
+  },
+  {
+    "id": "blueforest-20260720-15-001",
+    "term": "apply for sth.",
+    "meaning": "申请",
+    "phrase": "I want to apply for a library card. 我想申请一张借书证。",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-011",
+    "term": "live near",
+    "meaning": "住在……附近",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-012",
+    "term": "for + 时间段",
+    "meaning": "长达……时间",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-013",
+    "term": "a lot of",
+    "meaning": "许多；大量",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-014",
+    "term": "expensive things",
+    "meaning": "贵重物品",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-015",
+    "term": "do housework",
+    "meaning": "做家务",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-016",
+    "term": "by oneself",
+    "meaning": "独自；单独",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-018",
+    "term": "feel very bad",
+    "meaning": "感觉很不舒服",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-019",
+    "term": "after breakfast",
+    "meaning": "早饭后",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-021",
+    "term": "go to the hospital",
+    "meaning": "去医院",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-022",
+    "term": "stay in the hospital",
+    "meaning": "住院",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-023",
+    "term": "walk home",
+    "meaning": "步行回家",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-024",
+    "term": "answer the telephone",
+    "meaning": "接电话",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-025",
+    "term": "advantage",
+    "meaning": "n. 优势；有利条件；利益；v. 使处于有利地位；有利于",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-027",
+    "term": "fourteen",
+    "meaning": "num. 十四；14",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-029",
+    "term": "agriculture",
+    "meaning": "n. 农业；农艺；农学",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-030",
+    "term": "air",
+    "meaning": "n. 空气；天空；气氛；做作的姿态；v. 晾干；通风；公开发表",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-031",
+    "term": "agenda",
+    "meaning": "n. 议程；待办事项；隐秘目的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-035",
+    "term": "path",
+    "meaning": "n. 小路；路线；途径",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-037",
+    "term": "abstract",
+    "meaning": "adj. 抽象的；理论上的；n. 摘要；抽象概念",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-038",
+    "term": "adult",
+    "meaning": "n. 成年人；成年动物；adj. 成年的；成熟的；成人内容的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-039",
+    "term": "afterward",
+    "meaning": "adv. 之后；后来",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-041",
+    "term": "abuse",
+    "meaning": "n. 滥用；虐待；辱骂；v. 滥用；虐待；辱骂",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-042",
+    "term": "adjust",
+    "meaning": "v. 调整；校准；使适应；适应；调节",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-043",
+    "term": "off",
+    "meaning": "adv. 离开；断开；取消；prep. 从……离开；脱离",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-044",
+    "term": "absorb",
+    "meaning": "v. 吸收；理解；使全神贯注；承受",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-048",
+    "term": "food",
+    "meaning": "n. 食物；食品；养料",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-050",
+    "term": "ourselves",
+    "meaning": "pron. 我们自己；我们亲自",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-051",
+    "term": "piano",
+    "meaning": "n. 钢琴",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-056",
+    "term": "aboard",
+    "meaning": "prep. 在（船、飞机、火车等）上；adv. 上车、上船或上飞机",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-058",
+    "term": "object",
+    "meaning": "n. 物体；目标；宾语；v. 反对；提出异议",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-059",
+    "term": "abolish",
+    "meaning": "v. 废除；废止（法律、制度、习俗等）",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-061",
+    "term": "adequate",
+    "meaning": "adj. 足够的；合乎需要的；勉强胜任的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-062",
+    "term": "absolute",
+    "meaning": "adj. 完全的；绝对的；不容置疑的；n. 绝对事物；绝对值",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-069",
+    "term": "much",
+    "meaning": "adv. 非常；很；很大程度上；pron. 大量；许多",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-070",
+    "term": "nourish",
+    "meaning": "v. 滋养；养育；保持；怀有（情感等）",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-071",
+    "term": "none",
+    "meaning": "pron. 没有一个；毫无；adv. 毫不；绝不",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blueforest-20260720-15-072",
+    "term": "engine",
+    "meaning": "n. 发动机；引擎；机车",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "tag": "蓝色森林 15 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 15"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "cet4-20260720-10-001",
+    "term": "maximal",
+    "meaning": "adj. 最大的；最高的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-002",
+    "term": "climax",
+    "meaning": "n. 高潮；极点；顶点；v. 达到顶点",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-003",
+    "term": "vessel",
+    "meaning": "n. 船；轮船；容器；器皿；血管",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-004",
+    "term": "pulse",
+    "meaning": "n. 脉搏；脉冲；豆子；v. 搏动；脉动；洋溢着",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-005",
+    "term": "impulse",
+    "meaning": "n. 冲动；脉冲；推动力",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-006",
+    "term": "impulsive",
+    "meaning": "adj. 冲动的；易冲动的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-007",
+    "term": "flood",
+    "meaning": "n. 洪水；大量；v. 淹没；泛滥；涌入",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-008",
+    "term": "fluctuation",
+    "meaning": "n. 波动；起伏",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-009",
+    "term": "minimum",
+    "meaning": "adj. 最小的；最低限度的；n. 最小值；最低限度；adv. 至少；最低",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-010",
+    "term": "minimize",
+    "meaning": "v. 使减至最低程度；轻描淡写",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-011",
+    "term": "minimal",
+    "meaning": "adj. 最小的；极少的；最低限度的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-012",
+    "term": "maximum",
+    "meaning": "adj. 最大数量的；最高限度的；n. 最大量；最高程度；最大限度",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-013",
+    "term": "maximize",
+    "meaning": "v. 使最大化；充分利用",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-014",
+    "term": "voluminous",
+    "meaning": "adj. （衣服）宽松的；篇幅长的；大量的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-015",
+    "term": "bulk",
+    "meaning": "n. 大部分；大体积；大量",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-016",
+    "term": "bulky",
+    "meaning": "adj. 庞大的；笨重的；（人）大块头的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-017",
+    "term": "batch",
+    "meaning": "n. 一批；一组；一批生产量",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-018",
+    "term": "patch",
+    "meaning": "n. 小块；斑点；补丁；小块地；眼罩；v. 打补丁",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-019",
+    "term": "consolidate",
+    "meaning": "v. 加强；巩固；合并",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-020",
+    "term": "consolidation",
+    "meaning": "n. 加强；巩固；合并",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-021",
+    "term": "fluid",
+    "meaning": "n. 液体；流体；adj. 流畅优美的；不稳定的；流动的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-022",
+    "term": "liquid",
+    "meaning": "n. 液体；液态物；adj. 液体的；流动性好的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-023",
+    "term": "volume",
+    "meaning": "n. 体积；容积；量；音量；卷；册",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-024",
+    "term": "dizzy",
+    "meaning": "adj. 眩晕的；使人眩晕的；笨的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-025",
+    "term": "faint",
+    "meaning": "adj. 微弱的；渺茫的；v. 晕倒；n. 昏厥",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-026",
+    "term": "solid",
+    "meaning": "adj. 固体的；坚固的；连续的；n. 固体；立体图形",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-027",
+    "term": "solidity",
+    "meaning": "n. 坚固；坚硬",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-028",
+    "term": "solidify",
+    "meaning": "v. 使凝固；使巩固",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-029",
+    "term": "crystal",
+    "meaning": "n. 结晶；晶体；水晶；水晶玻璃",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-030",
+    "term": "candle",
+    "meaning": "n. 蜡烛",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-033",
+    "term": "canteen",
+    "meaning": "n. 食堂；餐厅；水壶",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-035",
+    "term": "dawn",
+    "meaning": "n. 黎明；拂晓；开端；v. 破晓；开始；变得明朗",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-036",
+    "term": "dusk",
+    "meaning": "n. 黄昏；傍晚",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-037",
+    "term": "shed",
+    "meaning": "n. 棚屋；厂房；v. 去除；使落下；蜕；流（泪、血）",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-038",
+    "term": "tear",
+    "meaning": "n. 眼泪；破洞；裂口；v. 撕裂；扯破；撕开；拉伤；狂奔",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-039",
+    "term": "delightful",
+    "meaning": "adj. 令人愉快的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-042",
+    "term": "sunlight",
+    "meaning": "n. 阳光",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-043",
+    "term": "sunset",
+    "meaning": "n. 日落；傍晚；晚霞；adj. 定期废止的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-045",
+    "term": "thunderous",
+    "meaning": "adj. 雷鸣般的；怒容满面的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-046",
+    "term": "thumb",
+    "meaning": "n. 拇指；（手套的）拇指部分；v. 翻动；用拇指摸",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-047",
+    "term": "delight",
+    "meaning": "n. 高兴；愉快；令人高兴的事；v. 使高兴；使愉快",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-048",
+    "term": "delighted",
+    "meaning": "adj. 高兴的；愉快的；快乐的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-049",
+    "term": "slightly",
+    "meaning": "adv. 稍微；略微；轻微地",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-050",
+    "term": "enlighten",
+    "meaning": "v. 启发；开导；教化",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-051",
+    "term": "enlightenment",
+    "meaning": "n. 启发；教化；启蒙运动",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-052",
+    "term": "enlightening",
+    "meaning": "adj. 有启发性的；使人增进知识的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-053",
+    "term": "lightning",
+    "meaning": "n. 闪电；adj. 闪电似的；极快的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-055",
+    "term": "brighten",
+    "meaning": "v. 使变亮；使好转；露出喜色；为……增添光彩",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-057",
+    "term": "lighting",
+    "meaning": "n. 照明；灯光",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-059",
+    "term": "tolerate",
+    "meaning": "v. 容许；忍耐；对……有耐受性",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-062",
+    "term": "tolerable",
+    "meaning": "adj. 还可以的；可忍受的",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-063",
+    "term": "beam",
+    "meaning": "n. 光束；光线；横梁；平衡木；v. 眉开眼笑；照耀；发射（信号）",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-064",
+    "term": "modesty",
+    "meaning": "n. 谦虚；谦逊；端庄",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-067",
+    "term": "moderation",
+    "meaning": "n. 适度；中庸",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260720-10-068",
+    "term": "moderator",
+    "meaning": "n. 调解人；调停人；会议主持",
+    "phrase": "",
+    "note": "来源：2026-07-20 上传资料；归入四级 10。",
+    "tag": "四级 10 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-20T00:00:00",
+    "updatedAt": "2026-07-20T00:00:00",
+    "history": [],
+    "groups": [
+      "四级 10"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
   }
 ];
-window.WORD_MEMORY_ID_ALIASES = {
-  "blue-forest-008": "word-list-3-012",
-  "blue-forest-014": "word-list-3-029",
-  "blue-forest-016": "word-list-5-004",
-  "blue-forest-024": "word-list-5-013",
-  "blue-forest-031": "word-list-5-005",
-  "blue-forest-043": "word-list-3-007",
-  "blue-forest-044": "word-list-4-045",
-  "blue-forest-b2-004": "word-list-3-017",
-  "blue-forest-b2-026": "cet4-046",
-  "blue-forest-b2-044": "word-list-5-041",
-  "cet4-b2-006": "blue-forest-b2-038",
-  "fullway-2026-prefix-004": "word-list-4-001",
-  "fullway-2026-prefix-007": "word-list-1-057",
-  "fullway-2026-prefix-008": "word-list-1-054",
-  "fullway-2026-prefix-009": "word-list-1-061",
-  "fullway-2026-prefix-020": "word-list-3-042",
-  "fullway-2026-prefix-029": "word-list-3-034",
-  "fullway-2026-prefix-068": "cet4-018",
-  "fullway-2026-prefix-080": "cet4-008",
-  "fullway-2026-prefix-082": "word-list-4-002",
-  "fullway-2026-prefix-083": "blue-forest-b2-082",
-  "fullway-2026-prefix-093": "cet4-b2-010",
-  "fullway-2026-prefix-098": "cet4-b2-039",
-  "fullway-2026-prefix-107": "cet4-042",
-  "fullway-2026-prefix-142": "blue-forest-b2-062",
-  "fullway-2026-prefix-153": "blue-forest-003",
-  "lansen-white-20260624-004": "fullway-complete-extra-171",
-  "lansen-white-20260624-005": "word-list-2-016",
-  "lansen-white-20260624-008": "word-list-3-010",
-  "lansen-white-20260624-009": "fullway-complete-extra-135",
-  "lansen-white-20260624-047": "word-list-3-045",
-  "lansen-white-20260624-048": "fullway-complete-extra-173",
-  "lansen-pdf-a-20260624-002": "cet4-b2-043",
-  "lansen-pdf-a-20260624-005": "fullway-2026-prefix-059",
-  "lansen-pdf-a-20260624-009": "fullway-2026-prefix-097",
-  "lansen-pdf-a-20260624-024": "fullway-complete-extra-057",
-  "lansen-pdf-a-20260624-027": "lansen-white-20260624-044",
-  "lansen-pdf-a-20260624-033": "fullway-complete-extra-075",
-  "lansen-pdf-a-20260624-035": "cet4-049",
-  "lansen-pdf-a-20260624-036": "cet4-050",
-  "lansen-pdf-a-20260624-039": "fullway-complete-extra-090",
-  "lansen-pdf-a-20260624-044": "word-list-5-026",
-  "lansen-pdf-b-20260624-022": "fullway-complete-extra-134",
-  "lansen-pdf-b-20260624-028": "fullway-2026-prefix-005",
-  "lansen-pdf-b-20260624-032": "fullway-2026-prefix-151",
-  "lansen-pdf-b-20260624-033": "blue-forest-003",
-  "lansen-pdf-b-20260624-046": "fullway-2026-prefix-057",
-  "lansen-pdf-b-20260624-051": "word-list-3-009",
-  "lansen-pdf-b-20260624-053": "word-list-3-007",
-  "word-list-6-027": "blue-forest-b2-005",
-  "word-list-6-032": "blue-forest-047",
-  "word-list-6-041": "lansen-pdf-a-20260624-026",
-  "word-list-6-054": "fullway-2026-prefix-032",
-  "word-list-7-001": "lansen-white-20260624-017",
-  "word-list-7-002": "lansen-pdf-b-20260624-015",
-  "word-list-7-009": "fullway-complete-extra-179",
-  "word-list-7-010": "blue-forest-029",
-  "word-list-7-019": "lansen-pdf-b-20260624-013",
-  "word-list-7-044": "fullway-2026-prefix-012",
-  "word-list-8-032": "blue-forest-b2-059",
-  "word-list-8-036": "fullway-complete-extra-093",
-  "word-list-8-039": "blue-forest-039",
-  "word-list-9-017": "fullway-complete-extra-114",
-  "word-list-9-019": "fullway-complete-extra-042",
-  "word-list-9-020": "blue-forest-028",
-  "word-list-9-041": "blue-forest-b2-034",
-  "word-list-10-005": "fullway-complete-extra-168",
-  "word-list-10-020": "lansen-pdf-b-20260624-030",
-  "word-list-10-021": "lansen-pdf-b-20260624-029",
-  "word-list-10-022": "fullway-complete-extra-073",
-  "word-list-10-026": "blue-forest-b2-072",
-  "word-list-10-043": "fullway-2026-prefix-151",
-  "word-list-10-044": "fullway-2026-prefix-152",
-  "word-list-10-045": "blue-forest-003",
-  "word-list-10-047": "cet4-001",
-  "blueforest-20260627-06-002": "fullway-complete-extra-048",
-  "blueforest-20260627-06-004": "word-list-3-026",
-  "blueforest-20260627-06-010": "cet4-021",
-  "blueforest-20260627-06-012": "fullway-complete-extra-112",
-  "blueforest-20260627-06-014": "word-list-8-001",
-  "blueforest-20260627-06-016": "fullway-complete-extra-042",
-  "blueforest-20260627-06-017": "word-list-8-029",
-  "blueforest-20260627-06-019": "word-list-1-023",
-  "blueforest-20260627-06-029": "fullway-complete-extra-167",
-  "blueforest-20260627-06-044": "word-list-9-025",
-  "blueforest-20260627-07-011": "word-list-5-015",
-  "blueforest-20260627-07-019": "fullway-complete-extra-016",
-  "blueforest-20260627-07-026": "fullway-2026-prefix-042",
-  "blueforest-20260627-07-028": "fullway-complete-extra-160",
-  "blueforest-20260627-07-029": "fullway-complete-extra-161",
-  "blueforest-20260627-07-031": "fullway-2026-prefix-131",
-  "blueforest-20260627-07-032": "fullway-2026-prefix-132",
-  "blueforest-20260627-07-037": "fullway-complete-extra-118",
-  "blueforest-20260627-07-040": "word-list-5-025",
-  "blueforest-20260627-07-042": "word-list-5-026",
-  "blueforest-20260627-07-043": "word-list-5-029",
-  "blueforest-20260627-07-067": "fullway-complete-extra-008",
-  "blueforest-20260627-07-069": "blueforest-20260627-06-037",
-  "blueforest-20260627-07-077": "word-list-8-044",
-  "blueforest-20260627-07-083": "fullway-2026-prefix-145",
-  "blueforest-20260627-07-084": "fullway-2026-prefix-146",
-  "blueforest-20260627-07-086": "fullway-complete-extra-187",
-  "blueforest-20260627-07-089": "fullway-complete-extra-121",
-  "blueforest-20260627-07-099": "cet4-030",
-  "blueforest-20260627-07-103": "blueforest-20260627-06-038",
-  "blueforest-20260627-07-112": "word-list-9-026",
-  "blueforest-20260627-07-117": "word-list-6-038",
-  "blueforest-20260627-07-119": "word-list-6-037",
-  "blueforest-20260627-07-121": "fullway-complete-extra-056",
-  "blueforest-20260627-07-137": "fullway-2026-prefix-127",
-  "blueforest-20260627-07-138": "fullway-2026-prefix-085",
-  "blueforest-20260627-07-139": "fullway-2026-prefix-084",
-  "blueforest-20260627-07-140": "fullway-2026-prefix-066",
-  "blueforest-20260627-07-141": "fullway-complete-extra-085",
-  "cet4-20260627-04-018": "fullway-2026-prefix-095",
-  "cet4-20260627-04-020": "lansen-white-20260624-036",
-  "cet4-20260627-04-022": "word-list-10-041",
-  "cet4-20260627-04-023": "fullway-2026-prefix-096",
-  "cet4-20260627-04-025": "lansen-pdf-a-20260624-008",
-  "cet4-20260627-04-026": "lansen-pdf-a-20260624-010",
-  "cet4-20260627-04-027": "fullway-2026-prefix-097",
-  "cet4-20260627-04-037": "fullway-complete-extra-020",
-  "cet4-20260627-04-038": "fullway-2026-prefix-059",
-  "cet4-20260627-04-045": "blue-forest-b2-061",
-  "fullway-20260627-v29-141": "lansen-white-20260624-037",
-  "wordlist-20260627-v31-376": "blueforest-20260627-07-024",
-  "wordlist-20260627-v31-377": "blueforest-20260627-07-025",
-  "fullway-20260627-v29-171": "fullway-2026-prefix-072",
-  "fullway-20260627-v29-176": "lansen-white-20260624-026",
-  "fullway-20260627-v29-178": "lansen-white-20260624-041",
-  "wordlist-20260627-v33-054": "fullway-complete-extra-070",
-  "fullway-20260627-v29-192": "fullway-complete-extra-041",
-  "fullway-20260627-v29-194": "lansen-white-20260624-021",
-  "fullway-20260627-v29-199": "word-list-4-034",
-  "wordlist-20260627-v31-393": "cet4-b2-037",
-  "wordlist-20260627-v31-394": "blue-forest-b2-085",
-  "wordlist-20260627-v31-400": "blue-forest-037",
-  "fullway-20260627-v29-206": "cet4-b2-042",
-  "fullway-20260627-v29-209": "cet4-b2-043",
-  "fullway-20260627-v29-210": "cet4-b2-020",
-  "fullway-20260627-v29-211": "cet4-b2-025",
-  "fullway-20260627-v29-212": "cet4-b2-026",
-  "fullway-20260627-v29-215": "cet4-b2-030",
-  "fullway-20260627-v29-227": "blueforest-20260627-07-100",
-  "fullway-20260627-v29-241": "blueforest-20260627-07-087",
-  "fullway-20260627-v29-242": "blueforest-20260627-07-088",
-  "fullway-20260627-v29-245": "blue-forest-b2-070",
-  "fullway-20260627-v29-255": "cet-black-20260624-036",
-  "fullway-20260627-v29-259": "fullway-2026-prefix-075",
-  "fullway-20260627-v29-269": "fullway-complete-extra-166",
-  "fullway-20260627-v29-272": "fullway-complete-extra-183",
-  "fullway-20260627-v29-279": "blueforest-20260627-07-134",
-  "fullway-20260627-v29-280": "blueforest-20260627-07-136",
-  "fullway-20260627-v29-283": "blueforest-20260627-07-133",
-  "fullway-20260627-v29-289": "lansen-white-20260624-028",
-  "fullway-20260627-v29-291": "fullway-2026-prefix-017",
-  "fullway-20260627-v29-292": "fullway-complete-extra-016",
-  "fullway-20260627-v29-293": "fullway-complete-extra-019",
-  "fullway-20260627-v29-294": "fullway-complete-extra-017",
-  "fullway-20260627-v29-301": "fullway-complete-extra-172",
-  "fullway-20260627-v29-304": "fullway-complete-extra-176",
-  "fullway-20260627-v29-305": "lansen-white-20260624-019",
-  "fullway-20260627-v29-328": "fullway-complete-extra-039",
-  "fullway-20260627-v29-332": "blue-forest-b2-007",
-  "fullway-20260627-v29-340": "cet4-20260627-04-035",
-  "fullway-20260627-v29-343": "blueforest-20260627-07-003",
-  "fullway-20260627-v29-344": "lansen-white-20260624-015",
-  "fullway-20260627-v29-350": "lansen-pdf-a-20260624-049",
-  "fullway-20260627-v29-352": "blueforest-20260627-07-060",
-  "fullway-20260627-v29-353": "blueforest-20260627-07-064",
-  "fullway-20260627-v29-359": "blueforest-20260627-06-021",
-  "fullway-20260627-v29-365": "fullway-complete-extra-132",
-  "fullway1-v32-fix-001": "word-list-3-018",
-  "fullway1-v32-fix-002": "word-list-4-001",
-  "fullway1-v32-fix-003": "fullway-2026-prefix-005",
-  "fullway1-v32-fix-004": "fullway-complete-extra-038",
-  "fullway1-v32-fix-005": "fullway-2026-prefix-006",
-  "fullway1-v32-fix-006": "word-list-1-057",
-  "fullway1-v32-fix-007": "word-list-1-061",
-  "fullway1-v32-fix-008": "fullway-complete-extra-043",
-  "fullway1-v32-fix-010": "fullway-complete-extra-039",
-  "fullway1-v32-fix-011": "fullway-2026-prefix-010",
-  "fullway1-v32-fix-012": "fullway-2026-prefix-011",
-  "fullway1-v32-fix-013": "fullway-2026-prefix-012",
-  "fullway1-v32-fix-014": "fullway-complete-extra-023",
-  "fullway1-v32-fix-015": "fullway-complete-extra-027",
-  "fullway1-v32-fix-017": "cet-black-20260624-015",
-  "fullway1-v32-fix-018": "fullway-2026-prefix-013",
-  "fullway1-v32-fix-019": "fullway-2026-prefix-014",
-  "fullway1-v32-fix-020": "fullway-2026-prefix-015",
-  "fullway1-v32-fix-021": "fullway-2026-prefix-016",
-  "fullway1-v32-fix-022": "fullway-2026-prefix-017",
-  "fullway1-v32-fix-024": "word-list-2-023",
-  "fullway1-v32-fix-025": "fullway-2026-prefix-018",
-  "fullway1-v32-fix-026": "fullway-2026-prefix-019",
-  "fullway1-v32-fix-027": "fullway-complete-extra-036",
-  "fullway1-v32-fix-028": "fullway-2026-prefix-021",
-  "fullway1-v32-fix-037": "fullway-2026-prefix-022",
-  "fullway1-v32-fix-038": "fullway-2026-prefix-024",
-  "fullway1-v32-fix-039": "fullway-2026-prefix-028",
-  "fullway1-v32-fix-040": "word-list-7-054",
-  "fullway1-v32-fix-041": "word-list-3-034",
-  "fullway1-v32-fix-045": "fullway-2026-prefix-030",
-  "fullway1-v32-fix-047": "fullway-2026-prefix-031",
-  "fullway1-v32-fix-048": "fullway-2026-prefix-039",
-  "fullway1-v32-fix-050": "fullway-2026-prefix-036",
-  "fullway1-v32-fix-051": "fullway-2026-prefix-041",
-  "fullway1-v32-fix-052": "fullway-2026-prefix-038",
-  "fullway1-v32-fix-054": "fullway-2026-prefix-042",
-  "fullway1-v32-fix-055": "blueforest-20260627-07-027",
-  "fullway1-v32-fix-056": "fullway-2026-prefix-040",
-  "fullway1-v32-fix-058": "fullway-2026-prefix-037",
-  "fullway1-v32-fix-063": "fullway-2026-prefix-032",
-  "fullway1-v32-fix-065": "fullway-2026-prefix-033",
-  "fullway1-v32-fix-066": "fullway-2026-prefix-035",
-  "fullway1-v32-fix-067": "fullway-2026-prefix-034",
-  "cet4-20260628-v40-014": "blue-forest-b2-028",
-  "cet4-20260628-v40-017": "fullway-20260627-v29-165",
-  "cet4-20260628-v40-018": "wordlist-20260627-v31-380",
-  "cet4-20260628-v40-020": "wordlist-20260627-v31-381",
-  "cet4-20260628-v40-021": "wordlist-20260627-v31-382",
-  "cet4-20260628-v40-026": "fullway-20260627-v29-163",
-  "cet4-20260628-v40-027": "fullway-20260627-v29-164",
-  "cet4-20260628-v40-029": "fullway-2026-prefix-072",
-  "cet4-20260628-v40-030": "fullway-20260627-v29-172",
-  "cet4-20260628-v40-033": "fullway-20260627-v29-168",
-  "cet4-20260628-v40-034": "fullway-20260627-v29-169",
-  "cet4-20260628-v40-035": "blue-forest-b2-063",
-  "blueforest-20260628-table-001": "fullway-20260627-v29-367",
-  "blueforest-20260628-table-011": "cet4-20260627-04-006",
-  "blueforest-20260628-table-014": "fullway-20260627-v29-204",
-  "blueforest-20260628-table-016": "fullway-complete-extra-038",
-  "blueforest-20260628-table-019": "fullway-20260627-v29-263",
-  "blueforest-20260628-table-024": "fullway-2026-prefix-011",
-  "blueforest-20260628-table-030": "word-list-1-014",
-  "blueforest-20260628-table-034": "blue-forest-b2-047",
-  "blueforest-20260628-table-040": "fullway-20260627-v29-262",
-  "blueforest-20260628-table-041": "word-list-9-029",
-  "blueforest-20260628-table-046": "cet4-20260627-04-034",
-  "blueforest-20260628-table-047": "word-list-4-029",
-  "blueforest-20260628-table-048": "word-list-3-031",
-  "blueforest-20260628-adjadv-005": "word-list-3-031",
-  "blueforest-20260628-adjadv-007": "word-list-3-026",
-  "blueforest-20260628-adjadv-008": "word-list-3-029",
-  "blueforest-20260628-adjadv-012": "lansen-pdf-b-20260624-002",
-  "blueforest-20260628-adjadv-020": "word-list-9-030",
-  "blueforest-20260628-adjadv-021": "cet-black-20260624-024",
-  "blueforest-20260628-adjadv-023": "blue-forest-032",
-  "blueforest-20260628-adjadv-025": "blueforest-20260627-06-042",
-  "blueforest-20260628-adjadv-030": "word-list-7-031",
-  "blueforest-20260628-adjadv-031": "word-list-7-032",
-  "blueforest-20260628-adjadv-038": "fullway-2026-prefix-087",
-  "blueforest-20260628-adjadv-039": "fullway-2026-prefix-099",
-  "blueforest-20260628-adjadv-042": "blueforest-20260627-07-044",
-  "blueforest-20260628-adjadv-045": "word-list-10-034",
-  "blueforest-20260628-adjadv-046": "word-list-10-033",
-  "blueforest-20260628-adjadv-063": "fullway-complete-extra-031",
-  "blueforest-20260628-adjadv-067": "fullway-2026-prefix-079",
-  "blueforest-20260628-adjadv-074": "lansen-pdf-a-20260624-034",
-  "blueforest-20260628-adjadv-079": "lansen-white-20260624-019",
-  "blueforest-20260628-adjadv-080": "fullway-20260627-v29-307",
-  "blueforest-20260628-adjadv-097": "fullway-complete-extra-024",
-  "blueforest-20260628-adjadv-107": "fullway-complete-extra-119",
-  "blueforest-20260628-adjadv-118": "fullway-2026-prefix-073",
-  "blueforest-20260628-adjadv-128": "word-list-7-016",
-  "blueforest-20260628-adjadv-129": "word-list-7-017",
-  "blueforest-20260628-adjadv-130": "word-list-7-018",
-  "blueforest-20260628-adjadv-135": "fullway-20260627-v29-327",
-  "blueforest-20260628-adjadv-143": "blueforest-20260627-07-113",
-  "blueforest-20260628-adjadv-144": "blueforest-20260627-07-114",
-  "blueforest-20260628-adjadv-151": "fullway-2026-prefix-147",
-  "blueforest-20260628-adjadv-154": "word-list-4-013",
-  "blueforest-20260628-adjadv-160": "fullway-2026-prefix-136",
-  "wordlist-20260628-v42-004": "blueforest-20260627-07-004",
-  "wordlist-20260628-v42-009": "blueforest-20260628-table-004",
-  "wordlist-20260628-v42-010": "cet4-b2-010",
-  "wordlist-20260628-v42-012": "blueforest-20260628-table-045",
-  "wordlist-20260628-v42-024": "blue-forest-032",
-  "wordlist-20260628-v42-026": "blueforest-20260628-adjadv-024",
-  "wordlist-20260628-v42-029": "blueforest-20260628-table-035",
-  "wordlist-20260628-v42-041": "blueforest-20260628-table-002",
-  "wordlist-20260628-v42-048": "blue-forest-049",
-  "wordlist-20260628-v42-057": "fullway-complete-extra-165",
-  "wordlist-20260628-v42-062": "fullway-complete-extra-055",
-  "wordlist-20260628-v42-071": "word-list-10-018",
-  "wordlist-20260628-v42-087": "fullway-complete-extra-153",
-  "wordlist-20260628-v42-096": "fullway-complete-extra-019",
-  "wordlist-20260628-v42-101": "fullway-20260627-v29-163",
-  "wordlist-20260628-v42-102": "blueforest-20260628-table-008",
-  "wordlist-20260628-v42-109": "fullway-2026-prefix-067",
-  "wordlist-20260628-v42-112": "blueforest-20260628-adjadv-132",
-  "wordlist-20260628-v42-113": "blueforest-20260628-adjadv-133",
-  "wordlist-20260628-v42-120": "fullway-complete-extra-099",
-  "wordlist-20260628-v42-124": "fullway-complete-extra-134",
-  "wordlist-20260628-v42-137": "fullway1-v32-fix-009",
-  "wordlist-20260628-v42-146": "blueforest-20260627-07-136",
-  "wordlist-20260628-v42-165": "blueforest-20260627-06-050",
-  "wordlist-20260628-v42-169": "blueforest-20260627-06-051",
-  "wordlist-20260628-v42-171": "fullway-2026-prefix-135",
-  "wordlist-20260628-v42-173": "fullway-2026-prefix-014",
-  "wordlist-20260628-v42-177": "blueforest-20260628-table-029",
-  "wordlist-20260628-v42-178": "lansen-pdf-a-20260624-004",
-  "wordlist-20260628-v42-180": "lansen-pdf-a-20260624-003",
-  "wordlist-20260628-v42-182": "lansen-white-20260624-006",
-  "wordlist-20260628-v42-199": "blueforest-20260627-07-081",
-  "wordlist-20260628-v42-200": "blueforest-20260627-07-082",
-  "wordlist-20260628-v42-202": "blue-forest-b2-052",
-  "wordlist-20260628-v42-206": "cet4-015",
-  "wordlist-20260628-v42-208": "lansen-pdf-a-20260624-055",
-  "wordlist-20260628-v42-209": "lansen-pdf-a-20260624-057",
-  "wordlist-20260628-v42-210": "lansen-pdf-a-20260624-063",
-  "wordlist-20260628-v42-212": "lansen-pdf-a-20260624-058",
-  "wordlist-20260628-v42-214": "blue-forest-b2-037",
-  "wordlist-20260628-v42-226": "cet4-026",
-  "wordlist-20260628-v42-241": "fullway-complete-extra-121",
-  "wordlist-20260628-v42-244": "blueforest-20260627-07-034",
-  "wordlist-20260628-v42-254": "fullway-2026-prefix-119",
-  "wordlist-20260628-v42-257": "fullway-2026-prefix-120",
-  "wordlist-20260628-v42-262": "fullway-complete-extra-052",
-  "cet4-20260629-v43-026": "blue-forest-007",
-  "cet4-20260629-v43-036": "word-list-4-042",
-  "cet4-20260629-v43-037": "word-list-4-043",
-  "cet4-20260629-v43-038": "word-list-4-044",
-  "cet4-20260629-v43-040": "fullway-2026-prefix-053",
-  "cet4-20260629-v43-043": "word-list-4-041",
-  "cet4-20260629-v43-044": "word-list-4-040",
-  "blueforest-20260629-v43-003": "fullway-complete-extra-099",
-  "blueforest-20260629-v43-007": "word-list-3-046",
-  "blueforest-20260629-v43-011": "fullway-20260627-v29-270",
-  "blueforest-20260629-v43-012": "word-list-6-001",
-  "blueforest-20260629-v43-015": "fullway-complete-extra-172",
-  "blueforest-20260629-v43-019": "word-list-2-026",
-  "blueforest-20260629-v43-025": "word-list-5-036",
-  "blueforest-20260629-v43-033": "fullway-2026-prefix-061",
-  "blueforest-20260629-v43-034": "word-list-4-040",
-  "blueforest-20260629-v43-036": "blueforest-20260627-07-036",
-  "blueforest-20260629-v44-missing-002": "lansen-pdf-a-20260624-006",
-  "blueforest-20260629-v44-missing-008": "blueforest-20260627-07-133",
-  "blueforest-20260629-v44-missing-009": "word-list-6-036",
-  "blueforest-20260629-v44-missing-010": "word-list-6-031"
-};

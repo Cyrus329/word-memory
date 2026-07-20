@@ -1,0 +1,30 @@
+{
+  "base_unique_words": 2418,
+  "groups": {
+    "四级 8": {
+      "image_records": 54,
+      "new_unique_words": 39,
+      "existing_words_reused": 15,
+      "folder_count": 54
+    },
+    "蓝色森林 12": {
+      "image_records": 50,
+      "new_unique_words": 39,
+      "existing_words_reused": 11,
+      "folder_count": 50
+    },
+    "蓝色森林 13": {
+      "image_records": 140,
+      "new_unique_words": 114,
+      "existing_words_reused": 26,
+      "folder_count": 140
+    }
+  },
+  "new_unique_words": 192,
+  "existing_reused": 52,
+  "final_unique_words": 2610,
+  "final_category_counts": {
+    "四级": 402,
+    "蓝色森林": 1160
+  }
+}

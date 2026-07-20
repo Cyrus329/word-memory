@@ -1,0 +1,306 @@
+{
+  "originalRows": 2758,
+  "uniqueTerms": 2418,
+  "removedDuplicateRows": 340,
+  "duplicateTermCount": 301,
+  "aliasCount": 340,
+  "libraryRowsBefore": 2771,
+  "libraryRowsAfter": 2732,
+  "librarySameGroupRemoved": 39,
+  "remainingFiles": [
+    ".nojekyll",
+    "app.js",
+    "folder-view.js",
+    "icons",
+    "index.html",
+    "library-folder-data.js",
+    "manifest.webmanifest",
+    "service-worker.js",
+    "smart-vocab.js",
+    "styles.css",
+    "supabase-word-memory-repair.sql",
+    "word-data.js"
+  ],
+  "examples": [
+    {
+      "term": "enjoy",
+      "kept": "word-list-3-012",
+      "removed": "blue-forest-008",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "lively",
+      "kept": "word-list-3-029",
+      "removed": "blue-forest-014",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "Internet",
+      "kept": "word-list-5-004",
+      "removed": "blue-forest-016",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "way",
+      "kept": "word-list-5-013",
+      "removed": "blue-forest-024",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "website",
+      "kept": "word-list-5-005",
+      "removed": "blue-forest-031",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "able",
+      "kept": "word-list-3-007",
+      "removed": "blue-forest-043",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "then",
+      "kept": "word-list-4-045",
+      "removed": "blue-forest-044",
+      "from": "supplemental-words.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "be afraid of",
+      "kept": "word-list-3-017",
+      "removed": "blue-forest-b2-004",
+      "from": "supplemental-words-batch2.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "advanced",
+      "kept": "cet4-046",
+      "removed": "blue-forest-b2-026",
+      "from": "supplemental-words-batch2.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "intelligent",
+      "kept": "word-list-5-041",
+      "removed": "blue-forest-b2-044",
+      "from": "supplemental-words-batch2.js",
+      "group": "蓝色森林"
+    },
+    {
+      "term": "prove",
+      "kept": "blue-forest-b2-038",
+      "removed": "cet4-b2-006",
+      "from": "supplemental-words-batch2.js",
+      "group": "四级"
+    },
+    {
+      "term": "stop",
+      "kept": "word-list-4-001",
+      "removed": "fullway-2026-prefix-004",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 1"
+    },
+    {
+      "term": "cost",
+      "kept": "word-list-1-057",
+      "removed": "fullway-2026-prefix-007",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 1"
+    },
+    {
+      "term": "spend",
+      "kept": "word-list-1-054",
+      "removed": "fullway-2026-prefix-008",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 1"
+    },
+    {
+      "term": "take",
+      "kept": "word-list-1-061",
+      "removed": "fullway-2026-prefix-009",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 1"
+    },
+    {
+      "term": "diary",
+      "kept": "word-list-3-042",
+      "removed": "fullway-2026-prefix-020",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 1"
+    },
+    {
+      "term": "wildlife",
+      "kept": "word-list-3-034",
+      "removed": "fullway-2026-prefix-029",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 1"
+    },
+    {
+      "term": "reverse",
+      "kept": "cet4-018",
+      "removed": "fullway-2026-prefix-068",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 2"
+    },
+    {
+      "term": "reunite",
+      "kept": "cet4-008",
+      "removed": "fullway-2026-prefix-080",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 2"
+    },
+    {
+      "term": "cancel",
+      "kept": "word-list-4-002",
+      "removed": "fullway-2026-prefix-082",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 2"
+    },
+    {
+      "term": "apply for",
+      "kept": "blue-forest-b2-082",
+      "removed": "fullway-2026-prefix-083",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 2"
+    },
+    {
+      "term": "enlarge",
+      "kept": "cet4-b2-010",
+      "removed": "fullway-2026-prefix-093",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 2"
+    },
+    {
+      "term": "performance",
+      "kept": "cet4-b2-039",
+      "removed": "fullway-2026-prefix-098",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 2"
+    },
+    {
+      "term": "involve",
+      "kept": "cet4-042",
+      "removed": "fullway-2026-prefix-107",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 3"
+    },
+    {
+      "term": "practice",
+      "kept": "blue-forest-b2-062",
+      "removed": "fullway-2026-prefix-142",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 3"
+    },
+    {
+      "term": "collective",
+      "kept": "blue-forest-003",
+      "removed": "fullway-2026-prefix-153",
+      "from": "supplemental-words-batch3.js",
+      "group": "全方位 3"
+    },
+    {
+      "term": "daughter",
+      "kept": "fullway-complete-extra-171",
+      "removed": "lansen-white-20260624-004",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 3"
+    },
+    {
+      "term": "voice",
+      "kept": "word-list-2-016",
+      "removed": "lansen-white-20260624-005",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 3"
+    },
+    {
+      "term": "disable",
+      "kept": "word-list-3-010",
+      "removed": "lansen-white-20260624-008",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 3"
+    },
+    {
+      "term": "airport",
+      "kept": "fullway-complete-extra-135",
+      "removed": "lansen-white-20260624-009",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 3"
+    },
+    {
+      "term": "borrow",
+      "kept": "word-list-3-045",
+      "removed": "lansen-white-20260624-047",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 3"
+    },
+    {
+      "term": "parent",
+      "kept": "fullway-complete-extra-173",
+      "removed": "lansen-white-20260624-048",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 3"
+    },
+    {
+      "term": "information",
+      "kept": "cet4-b2-043",
+      "removed": "lansen-pdf-a-20260624-002",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "progress",
+      "kept": "fullway-2026-prefix-059",
+      "removed": "lansen-pdf-a-20260624-005",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "succeed",
+      "kept": "fullway-2026-prefix-097",
+      "removed": "lansen-pdf-a-20260624-009",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "participate in",
+      "kept": "fullway-complete-extra-057",
+      "removed": "lansen-pdf-a-20260624-024",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "late",
+      "kept": "lansen-white-20260624-044",
+      "removed": "lansen-pdf-a-20260624-027",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "make progress",
+      "kept": "fullway-complete-extra-075",
+      "removed": "lansen-pdf-a-20260624-033",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "improve",
+      "kept": "cet4-049",
+      "removed": "lansen-pdf-a-20260624-035",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    },
+    {
+      "term": "improvement",
+      "kept": "cet4-050",
+      "removed": "lansen-pdf-a-20260624-036",
+      "from": "supplemental-words-batch5.js",
+      "group": "蓝色森林 4"
+    }
+  ]
+}
