@@ -32,7 +32,7 @@ const PROGRESS_MODE_LABELS = {
   dictationWeak: "听写错词",
 };
 const MODE_PROGRESS_HINT = "各模式独立进度；旧模式仍保留，新增模式只追加不删除";
-const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林"];
+const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林", "听写内容"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
 const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
@@ -54,8 +54,8 @@ let activeAudioElement = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dedup-20260715:v68-2418";
-const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = []; // 去重版：同词不再强制复制，分组保存在 groups 中。
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation1-20260720:v68-70";
+const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = ["dictation-1-"]; // 第一次听写内容按要求保留重复词条为独立记录。
 
 const BUILTIN_GROUP_ALIASES = {
   "四级 7": new Set(["stale", "fashion", "fashionable", "contemporary", "temple", "temporary", "temporarily", "abundant", "abundance", "ample", "mass", "massive", "massage", "numerous", "number", "multiply", "multiple", "multiplication", "gang", "band", "bandage", "sort", "resort", "flock", "crowd", "crowded", "dozen", "population", "populous", "populate", "popularity", "popular", "prevail", "prevalent", "prevalence", "available", "availability", "crew", "screw", "colleague", "personnel", "staff", "stuff", "stuffy", "stuffing", "infant", "adolescent", "idle", "idly", "youngster"]),
@@ -988,7 +988,16 @@ function mergeRuntimeWord(target, incoming) {
 }
 function dedupeRuntimeWords(words) {
   const out = []; const byTerm = new Map();
-  (Array.isArray(words) ? words : []).forEach((item) => { const word = normalizeWord(item); const key = normalizeText(word.term).toLowerCase().replace(/[’‘`]/g,"'").replace(/\s+/g," "); if(!key) return; const existing = byTerm.get(key); if(existing) mergeRuntimeWord(existing, word); else { byTerm.set(key, word); out.push(word); } });
+  (Array.isArray(words) ? words : []).forEach((item) => {
+    const word = normalizeWord(item);
+    const termKey = normalizeText(word.term).toLowerCase().replace(/[’‘`]/g,"'").replace(/\s+/g," ");
+    if(!termKey) return;
+    const keepSeparate = normalizeText(word.id).startsWith("dictation-1-");
+    const key = keepSeparate ? `id:${normalizeText(word.id)}` : `term:${termKey}`;
+    const existing = byTerm.get(key);
+    if(existing) mergeRuntimeWord(existing, word);
+    else { byTerm.set(key, word); out.push(word); }
+  });
   return out;
 }
 

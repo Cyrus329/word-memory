@@ -1,13 +1,13 @@
-const CACHE_NAME = "word-memory-folder-pwa-v20260720-v68-blue15-cet410-2869";
+const CACHE_NAME = "word-memory-folder-pwa-v20260720-v68-dictation1-2939";
 const APP_ASSETS = [
   "./",
   "./index.html",
-  "./word-data.js?v=68s",
-  "./app.js?v=68s",
-  "./library-folder-data.js?v=68s",
-  "./folder-view.js?v=68s",
-  "./smart-vocab.js?v=68s",
-  "./styles.css?v=68s",
+  "./word-data.js?v=68t",
+  "./app.js?v=68t",
+  "./library-folder-data.js?v=68t",
+  "./folder-view.js?v=68t",
+  "./smart-vocab.js?v=68t",
+  "./styles.css?v=68t",
   "./supabase-word-memory-repair.sql",
   "./manifest.webmanifest",
   "./icons/icon-180.png",
