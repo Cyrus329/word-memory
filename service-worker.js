@@ -1,10 +1,10 @@
-const CACHE_NAME = "word-memory-folder-pwa-v20260720-v68-dictation1-2939";
+const CACHE_NAME = "word-memory-folder-pwa-v20260721-v68-bf16-cet411-3021";
 const APP_ASSETS = [
   "./",
   "./index.html",
-  "./word-data.js?v=68t",
+  "./word-data.js?v=68u",
   "./app.js?v=68t",
-  "./library-folder-data.js?v=68t",
+  "./library-folder-data.js?v=68u",
   "./folder-view.js?v=68t",
   "./smart-vocab.js?v=68t",
   "./styles.css?v=68t",
