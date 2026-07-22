@@ -1,4 +1,4 @@
-// v68 2026-07-22：继续导入“蓝色森林 17”和“四级 12”；常规词条按单词去重，已有词只补充分组。
+// v68 2026-07-22：新增第二次听写内容，并修复第一次听写内容本机旧存档字段。
 window.WORD_MEMORY_WORDS = [
   {
     "id": "word-list-1-001",
@@ -64277,7 +64277,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "do/take exercise",
     "meaning": "锻炼；运动",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 1。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 1。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64299,7 +64299,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "be popular with/among",
     "meaning": "在……中受欢迎、受喜爱；受……欢迎、喜爱",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 2。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 2。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64321,7 +64321,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "make contributions to sth./doing sth.",
     "meaning": "为……做出贡献",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 3。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 3。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64343,7 +64343,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "make a contribution to sth./doing sth.",
     "meaning": "为……做出贡献",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 3。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 3。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64365,7 +64365,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "contribute to sth./doing sth.",
     "meaning": "为……做出贡献",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 3。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 3。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64387,7 +64387,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "visit sb.",
     "meaning": "拜访某人",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 4。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 4。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64409,7 +64409,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "visit + 地点",
     "meaning": "参观某地",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 4。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 4。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64431,7 +64431,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "pay a visit to",
     "meaning": "参观；拜访",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 4。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 4。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64453,7 +64453,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "buy sb. sth.",
     "meaning": "给某人买某物",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 5。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 5。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64475,7 +64475,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "buy sth. for sb.",
     "meaning": "给某人买某物",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 5。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 5。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64497,7 +64497,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "right now",
     "meaning": "现在；立刻；马上",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 6。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 6。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64519,7 +64519,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "at once",
     "meaning": "现在；立刻；马上",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 6。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 6。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64541,7 +64541,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "science fiction",
     "meaning": "科幻小说（重点掌握意思）",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 7。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 7。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64563,7 +64563,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "address",
     "meaning": "n. 地址；v. 解决",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 8。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 8。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64585,7 +64585,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "solve",
     "meaning": "v. 解决",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 8。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 8。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64607,7 +64607,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "work out",
     "meaning": "v. 解决",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 8。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 8。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64629,7 +64629,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "deal with",
     "meaning": "v. 解决；处理",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 8。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 8。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64651,7 +64651,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "resolve",
     "meaning": "v. 解决",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 8。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 8。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64673,7 +64673,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "be famous/known for",
     "meaning": "因……而出名",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 9。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 9。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64695,7 +64695,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "be famous/known as",
     "meaning": "作为……而出名",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 9。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 9。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64717,7 +64717,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "depend",
     "meaning": "v. 依赖；依靠；取决于",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 10。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 10。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64739,7 +64739,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "depend on",
     "meaning": "依赖；依靠；取决于",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 10。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 10。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64761,7 +64761,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "dependent",
     "meaning": "adj. 依赖的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 11。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 11。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64783,7 +64783,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "independent",
     "meaning": "adj. 独立的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 11。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 11。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64805,7 +64805,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "lonely",
     "meaning": "adj. 孤独的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 12。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 12。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64827,7 +64827,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "alone",
     "meaning": "adj. 独自的；adv. 独自，仅仅",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 12。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 12。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64849,7 +64849,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "leave sb. alone",
     "meaning": "留下某人独自一人",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 12。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 12。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64871,7 +64871,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "prefer",
     "meaning": "v. 更喜欢",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 13。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 13。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64893,7 +64893,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "it is important for sb. to do sth.",
     "meaning": "做某事对某人来说很重要",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 14。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 14。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64915,7 +64915,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "decide to do sth.",
     "meaning": "决定做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 15。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 15。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64937,7 +64937,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "school gate",
     "meaning": "校门",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 16。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 16。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64959,7 +64959,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "sports meeting",
     "meaning": "运动会",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 17。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 17。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -64981,7 +64981,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "sales manager",
     "meaning": "销售经理",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 18。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 18。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65003,7 +65003,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "practice oral/spoken English",
     "meaning": "练习英语口语",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 19。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 19。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65025,7 +65025,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "present",
     "meaning": "n. 礼物；v. 呈现；adj. 出席的，到场的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 20。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 20。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65047,7 +65047,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "absent",
     "meaning": "adj. 缺席的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 20。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 20。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65057,12 +65057,10 @@ window.WORD_MEMORY_WORDS = [
     "updatedAt": "2026-07-20T12:40:00",
     "history": [],
     "groups": [
-      "第一次听写内容",
-      "蓝色森林 17"
+      "第一次听写内容"
     ],
     "sources": [
-      "听写内容",
-      "蓝色森林"
+      "听写内容"
     ],
     "source": "听写内容"
   },
@@ -65071,7 +65069,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "hand in sth. to sb.",
     "meaning": "把某物提交给某人",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 21。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 21。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65093,7 +65091,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "encourage sb. to do sth.",
     "meaning": "鼓励某人做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 22。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 22。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65115,7 +65113,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "keep doing",
     "meaning": "持续；坚持做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 23。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 23。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65137,7 +65135,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "have difficulty/trouble in doing sth.",
     "meaning": "做某事有困难",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 24。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 24。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65159,7 +65157,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "it takes/took sb. time/money to do sth.",
     "meaning": "做某事花费某人多少时间或金钱",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 25。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 25。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65181,7 +65179,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "sb. spends/spent time/money on sth.",
     "meaning": "某人花费时间或金钱在……上",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 26。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 26。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65203,7 +65201,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "sb. spends/spent time/money (in) doing sth.",
     "meaning": "某人花费时间或金钱做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 26。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 26。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65225,7 +65223,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "take sb. to + 地点",
     "meaning": "带某人去某地",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 27。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 27。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65247,7 +65245,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "go (back) home",
     "meaning": "回家",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 28。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 28。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65269,7 +65267,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "after-class activities",
     "meaning": "课后活动",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 29。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 29。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65291,7 +65289,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "make sb. sth.",
     "meaning": "让某人成为……",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 30。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 30。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65313,7 +65311,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "make sb./sth. adj.",
     "meaning": "让某人或某物……",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 30。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 30。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65335,7 +65333,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "make sb. do sth.",
     "meaning": "让某人做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 30。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 30。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65357,7 +65355,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "society",
     "meaning": "n. 社会",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 31。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 31。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65379,7 +65377,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "social",
     "meaning": "adj. 社会的；社交的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 32。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 32。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65401,7 +65399,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "social media",
     "meaning": "社交媒体",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 32。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 32。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65423,7 +65421,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "social practice",
     "meaning": "社会实践",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 32。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 32。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65445,7 +65443,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "social progress",
     "meaning": "社会进步",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 32。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 32。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65467,7 +65465,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "comprehensive",
     "meaning": "adj. 全面的；综合的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 33。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 33。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65489,7 +65487,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "be able to do sth.",
     "meaning": "能够做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 34。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 34。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65511,7 +65509,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "have the ability to do sth.",
     "meaning": "有能力做某事",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 34。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 34。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65533,7 +65531,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "health",
     "meaning": "n. 健康",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 35。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 35。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65555,7 +65553,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "healthy",
     "meaning": "adj. 健康的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 36。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 36。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65577,7 +65575,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "unhealthy",
     "meaning": "adj. 不健康的",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 36。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 36。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65599,7 +65597,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "keep healthy",
     "meaning": "保持健康",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 36。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 36。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65621,7 +65619,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "mental health",
     "meaning": "心理健康",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 37。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 37。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65643,7 +65641,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "physical health",
     "meaning": "身体健康",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 37。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 37。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65665,7 +65663,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "physical and mental health",
     "meaning": "身心健康",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 37。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 37。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65687,7 +65685,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "eating habits",
     "meaning": "饮食习惯",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 38。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 38。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65709,7 +65707,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "species",
     "meaning": "n. 物种（单复数同形）",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 39。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 39。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65731,7 +65729,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "means",
     "meaning": "n. 方法（单复数同形）",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 39。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 39。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65753,7 +65751,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "series",
     "meaning": "n. 系列（单复数同形）",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 39。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 39。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65775,7 +65773,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "work",
     "meaning": "n./v. 工作；作不可数名词",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 40。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 40。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -65797,7 +65795,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "works",
     "meaning": "n. 工厂；作品",
     "phrase": "",
-    "note": "来源：第一次听写内容；原序号 40。本组按用户要求允许与原词库重复。",
+    "note": "来源：第一次听写内容；原序号 40。已校正：第一次听写内容按原资料完整保留；允许与其他词库同词。",
     "tag": "第一次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
@@ -69359,5 +69357,1677 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级"
+  },
+  {
+    "id": "dictation-2-001",
+    "term": "lecture",
+    "meaning": "n. 讲座",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 1。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-002",
+    "term": "give/deliver a lecture on sth.",
+    "meaning": "作一个关于……的讲座",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 1。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-003",
+    "term": "倍数 + as + adj./adv.原级 + as",
+    "meaning": "……是……的若干倍",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 2。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-004",
+    "term": "倍数 + 比较级 + than",
+    "meaning": "……比……若干倍",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 2。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-005",
+    "term": "倍数 + the + n. + of",
+    "meaning": "……是……的若干倍",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 2。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-006",
+    "term": "fall asleep",
+    "meaning": "睡着",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 3。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-007",
+    "term": "adj./adv. enough to do sth.",
+    "meaning": "足以……做某事",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 4。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-008",
+    "term": "too + adj./adv. + for sb. to do sth.",
+    "meaning": "太……而不能……",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 5。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-009",
+    "term": "take care of",
+    "meaning": "照顾；照看",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 6。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-010",
+    "term": "look after",
+    "meaning": "照顾；照看",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 6。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-011",
+    "term": "most",
+    "meaning": "adv. 最",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 7。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-012",
+    "term": "almost",
+    "meaning": "adv. 几乎",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 7。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-013",
+    "term": "mostly",
+    "meaning": "adv. 主要；最主要地",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 7。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-014",
+    "term": "with the help of",
+    "meaning": "在……的帮助下",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 8。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-015",
+    "term": "project",
+    "meaning": "n. 项目",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 9。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-016",
+    "term": "need to do sth.",
+    "meaning": "需要做某事",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 10。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-017",
+    "term": "quite",
+    "meaning": "adv. 非常；相当",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 11。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-018",
+    "term": "complex",
+    "meaning": "adj. 复杂的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 12。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-019",
+    "term": "explicit",
+    "meaning": "adj. 清楚的；明确的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 13。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-020",
+    "term": "vague",
+    "meaning": "adj. 模糊的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 14。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-021",
+    "term": "abstract",
+    "meaning": "adj. 抽象的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 15。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-022",
+    "term": "remain",
+    "meaning": "系动词：保持",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 16。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-023",
+    "term": "reveal",
+    "meaning": "v. 揭露",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 17。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-024",
+    "term": "exposed",
+    "meaning": "adj. 暴露的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 18。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-025",
+    "term": "be exposed to",
+    "meaning": "暴露于；接触",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 19。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-026",
+    "term": "addict",
+    "meaning": "v. 使上瘾；使沉迷",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 20。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-027",
+    "term": "addicted",
+    "meaning": "adj. 上瘾的；沉迷的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 20。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-028",
+    "term": "addict oneself to sth./doing sth.",
+    "meaning": "沉迷于某事/做某事；专心致志于做某事",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 20。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-029",
+    "term": "be addicted to sth./doing sth.",
+    "meaning": "沉迷于某事/做某事；专心致志于做某事",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 21。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-030",
+    "term": "relevant",
+    "meaning": "adj. 有关的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 22。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-031",
+    "term": "loyal",
+    "meaning": "adj. 忠诚的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 23。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-032",
+    "term": "produce",
+    "meaning": "v. 生产",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 24。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-033",
+    "term": "production",
+    "meaning": "n. 生产；生产力",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 24。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-034",
+    "term": "product",
+    "meaning": "n. 产品",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 24。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-035",
+    "term": "fluent",
+    "meaning": "adj. 流利的；流畅的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 25。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-036",
+    "term": "science and technology",
+    "meaning": "科学技术",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 26。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-037",
+    "term": "modern",
+    "meaning": "adj. 现代的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 27。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-038",
+    "term": "environmental protection",
+    "meaning": "环境保护（名词短语）",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 28。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-039",
+    "term": "protect the environment",
+    "meaning": "保护环境（动词短语）",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 28。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-040",
+    "term": "awareness",
+    "meaning": "n. 意识",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 29。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-041",
+    "term": "knowledge",
+    "meaning": "n. 知识（不可数名词）",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 30。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-042",
+    "term": "low-carbon",
+    "meaning": "adj. 低碳的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 31。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-043",
+    "term": "lifestyle",
+    "meaning": "n. 生活方式",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 32。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-044",
+    "term": "common",
+    "meaning": "adj. 普遍的；常见的",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 33。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-045",
+    "term": "consuming habits",
+    "meaning": "消费习惯",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 34。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-046",
+    "term": "take part in",
+    "meaning": "参加",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 35。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-047",
+    "term": "participate in",
+    "meaning": "参加",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 35。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-048",
+    "term": "join in",
+    "meaning": "参加",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 35。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-049",
+    "term": "working day",
+    "meaning": "工作日",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 36。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-050",
+    "term": "voluntary activity",
+    "meaning": "志愿活动",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 37。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-051",
+    "term": "volunteer",
+    "meaning": "n. 志愿者",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 37。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-052",
+    "term": "gather at",
+    "meaning": "聚集在……",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 38。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-053",
+    "term": "vacation",
+    "meaning": "n. 假期",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 39。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-054",
+    "term": "vocation",
+    "meaning": "n. 职业",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 39。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-055",
+    "term": "belong to/with",
+    "meaning": "属于",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 40。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-056",
+    "term": "fail to do sth.",
+    "meaning": "没能做成某事",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 41。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-057",
+    "term": "make great progress",
+    "meaning": "取得巨大进步",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 42。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-058",
+    "term": "Monday",
+    "meaning": "周一",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期1。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-059",
+    "term": "Tuesday",
+    "meaning": "周二",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期2。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-060",
+    "term": "Wednesday",
+    "meaning": "周三",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期3。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-061",
+    "term": "Thursday",
+    "meaning": "周四",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期4。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-062",
+    "term": "Friday",
+    "meaning": "周五",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期5。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-063",
+    "term": "Saturday",
+    "meaning": "周六",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期6。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-064",
+    "term": "Sunday",
+    "meaning": "周日",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 星期7。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-065",
+    "term": "January",
+    "meaning": "一月",
+    "phrase": "缩写：Jan.",
+    "note": "来源：第二次听写内容；原资料序号 月份1。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-066",
+    "term": "February",
+    "meaning": "二月",
+    "phrase": "缩写：Feb.",
+    "note": "来源：第二次听写内容；原资料序号 月份2。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-067",
+    "term": "March",
+    "meaning": "三月",
+    "phrase": "缩写：Mar.",
+    "note": "来源：第二次听写内容；原资料序号 月份3。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-068",
+    "term": "April",
+    "meaning": "四月",
+    "phrase": "缩写：Apr.",
+    "note": "来源：第二次听写内容；原资料序号 月份4。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-069",
+    "term": "May",
+    "meaning": "五月",
+    "phrase": "",
+    "note": "来源：第二次听写内容；原资料序号 月份5。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-070",
+    "term": "June",
+    "meaning": "六月",
+    "phrase": "缩写：Jun.",
+    "note": "来源：第二次听写内容；原资料序号 月份6。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-071",
+    "term": "July",
+    "meaning": "七月",
+    "phrase": "缩写：Jul.",
+    "note": "来源：第二次听写内容；原资料序号 月份7。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-072",
+    "term": "August",
+    "meaning": "八月",
+    "phrase": "缩写：Aug.",
+    "note": "来源：第二次听写内容；原资料序号 月份8。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-073",
+    "term": "September",
+    "meaning": "九月",
+    "phrase": "缩写：Sep.",
+    "note": "来源：第二次听写内容；原资料序号 月份9。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-074",
+    "term": "October",
+    "meaning": "十月",
+    "phrase": "缩写：Oct.",
+    "note": "来源：第二次听写内容；原资料序号 月份10。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-075",
+    "term": "November",
+    "meaning": "十一月",
+    "phrase": "缩写：Nov.",
+    "note": "来源：第二次听写内容；原资料序号 月份11。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
+  },
+  {
+    "id": "dictation-2-076",
+    "term": "December",
+    "meaning": "十二月",
+    "phrase": "缩写：Dec.",
+    "note": "来源：第二次听写内容；原资料序号 月份12。按原资料逐条完整录入。",
+    "tag": "第二次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第二次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容"
   }
 ];

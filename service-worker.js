@@ -1,4 +1,4 @@
-const CACHE_NAME = "word-memory-folder-pwa-v20260722-v68-bf17-cet412-3100";
+const CACHE_NAME = "word-memory-v68-dictation2-repair";
 const APP_ASSETS = [
   "./",
   "./index.html",

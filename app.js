@@ -54,8 +54,8 @@ let activeAudioElement = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation1-20260720:v68-70";
-const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = ["dictation-1-"]; // 第一次听写内容按要求保留重复词条为独立记录。
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation-repair-20260722:v68";
+const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = ["dictation-1-", "dictation-2-"]; // 第一次听写内容按要求保留重复词条为独立记录。
 
 const BUILTIN_GROUP_ALIASES = {
   "四级 7": new Set(["stale", "fashion", "fashionable", "contemporary", "temple", "temporary", "temporarily", "abundant", "abundance", "ample", "mass", "massive", "massage", "numerous", "number", "multiply", "multiple", "multiplication", "gang", "band", "bandage", "sort", "resort", "flock", "crowd", "crowded", "dozen", "population", "populous", "populate", "popularity", "popular", "prevail", "prevalent", "prevalence", "available", "availability", "crew", "screw", "colleague", "personnel", "staff", "stuff", "stuffy", "stuffing", "infant", "adolescent", "idle", "idly", "youngster"]),
@@ -992,7 +992,7 @@ function dedupeRuntimeWords(words) {
     const word = normalizeWord(item);
     const termKey = normalizeText(word.term).toLowerCase().replace(/[’‘`]/g,"'").replace(/\s+/g," ");
     if(!termKey) return;
-    const keepSeparate = normalizeText(word.id).startsWith("dictation-1-");
+    const keepSeparate = /^dictation-[12]-/.test(normalizeText(word.id));
     const key = keepSeparate ? `id:${normalizeText(word.id)}` : `term:${termKey}`;
     const existing = byTerm.get(key);
     if(existing) mergeRuntimeWord(existing, word);
@@ -1028,9 +1028,22 @@ function applyBuiltinWords(words) {
     const existing = existingById || byTerm.get(termKey);
     if (existing) {
       const previous = JSON.stringify(existing);
-      existing.meaning = mergeStudyText(existing.meaning, builtin.meaning);
-      existing.phrase = mergeStudyText(existing.phrase, builtin.phrase);
-      existing.note = mergeStudyText(existing.note, builtin.note);
+      const isDictationBuiltin = /^dictation-[12]-/.test(builtinId);
+      if (isDictationBuiltin) {
+        // 修复旧版听写存档：内容字段以当前资料为准，学习进度继续保留。
+        existing.term = builtin.term;
+        existing.meaning = builtin.meaning;
+        existing.phrase = builtin.phrase || "";
+        existing.note = builtin.note || "";
+        existing.tag = builtin.tag;
+        existing.groups = [...(builtin.groups || [])];
+        existing.sources = [...(builtin.sources || ["听写内容"])];
+        existing.source = builtin.source || "听写内容";
+      } else {
+        existing.meaning = mergeStudyText(existing.meaning, builtin.meaning);
+        existing.phrase = mergeStudyText(existing.phrase, builtin.phrase);
+        existing.note = mergeStudyText(existing.note, builtin.note);
+      }
       existing.forms = {
         third: normalizeText(existing.forms?.third) || normalizeText(builtin.forms?.third),
         past: normalizeText(existing.forms?.past) || normalizeText(builtin.forms?.past),
