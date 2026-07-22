@@ -1,0 +1,11 @@
+{
+  "version": "v68",
+  "import_date": "2026-07-20",
+  "group": "第一次听写内容",
+  "source_file": "c3e61042-4f5f-4f55-b314-2477ba8cc3f8.docx",
+  "numbered_items": 40,
+  "imported_records": 70,
+  "duplicate_policy": "保留。即使与已有词库同词，也以独立 ID 导入到第一次听写内容。",
+  "id_range": "dictation-1-001 ~ dictation-1-070",
+  "total_builtin_records_after_import": 2939
+}

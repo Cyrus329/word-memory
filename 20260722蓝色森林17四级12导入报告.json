@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-22",
+  "source_file": "46ff7a0f-ff06-4e69-a174-2eba83b2e22d.docx",
+  "blue_forest": {
+    "group": "蓝色森林 17",
+    "total": 60,
+    "new_unique": 36,
+    "existing_added_to_group": 24
+  },
+  "cet4": {
+    "group": "四级 12",
+    "total": 55,
+    "new_unique": 43,
+    "existing_added_to_group": 12
+  },
+  "unique_total_after_import": 3100
+}

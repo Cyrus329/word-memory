@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-21",
+  "source": "491e7516-ac5e-4996-bdde-3f0a6875092f.docx",
+  "groups": {
+    "蓝色森林 16": {
+      "group_total": 63,
+      "new_unique": 44,
+      "existing_added_to_group": 19
+    },
+    "四级 11": {
+      "group_total": 52,
+      "new_unique": 38,
+      "existing_added_to_group": 14
+    }
+  },
+  "total_new_unique": 82,
+  "total_existing_grouped": 33,
+  "total_builtin_records": 3021,
+  "rule": "图片明确出现“英语四级”的归入四级 11；其他归入蓝色森林 16。页码、序号不导入。"
+}
