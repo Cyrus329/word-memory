@@ -4061,75 +4061,110 @@ function exportWords() {
   URL.revokeObjectURL(url);
 }
 
+function isDictationWordRecord(word) {
+  const id = normalizeText(word?.id || "");
+  const groups = Array.isArray(word?.groups) ? word.groups : [];
+  return /^dictation-[12]-/.test(id) || groups.some((group) => /^第[一二]次听写内容$/.test(normalizeText(group)));
+}
+
+function dictationImportKey(word) {
+  const group = (Array.isArray(word?.groups) ? word.groups : [])
+    .map(normalizeText)
+    .find((item) => /^第[一二]次听写内容$/.test(item)) || "听写内容";
+  return `${group}|${normalizeText(word?.term || "").toLowerCase().replace(/[’‘`]/g, "'").replace(/\s+/g, " ")}`;
+}
+
+function mergeImportedProgressOnly(target, incoming) {
+  if (!target || !incoming) return target;
+  target.important = Boolean(target.important || incoming.important);
+  if ((incoming.mastery || "未学") !== "未学") target.mastery = incoming.mastery;
+  target.progress = normalizeModeProgress(target);
+  const incomingProgress = normalizeModeProgress(incoming);
+  PROGRESS_MODES.forEach((mode) => {
+    target.progress[mode] = mergeProgressRecord(target.progress[mode] || {}, incomingProgress[mode] || {});
+  });
+  const legacy = mergeProgressRecord(
+    { status: target.status, stage: target.stage, nextReviewAt: target.nextReviewAt, lastStudiedAt: target.lastStudiedAt, history: target.history || [] },
+    { status: incoming.status, stage: incoming.stage, nextReviewAt: incoming.nextReviewAt, lastStudiedAt: incoming.lastStudiedAt, history: incoming.history || [] }
+  );
+  target.status = legacy.status;
+  target.stage = legacy.stage;
+  target.nextReviewAt = legacy.nextReviewAt;
+  target.lastStudiedAt = legacy.lastStudiedAt;
+  target.history = legacy.history;
+  if (incoming.updatedAt && (!target.updatedAt || incoming.updatedAt > target.updatedAt)) target.updatedAt = incoming.updatedAt;
+  return target;
+}
+
 async function importWords(event) {
   if (!guardEditable()) {
     event.target.value = "";
     return;
   }
   const file = event.target.files[0];
-  if (!file) {
-    return;
-  }
+  if (!file) return;
   try {
     const text = await file.text();
     const parsed = JSON.parse(text);
     const incoming = Array.isArray(parsed) ? parsed : parsed.words;
-    if (!Array.isArray(incoming)) {
-      throw new Error("Invalid file");
-    }
-    const records = incoming.map(normalizeWord).filter((word) => word.term);
-    const existingTerms = new Set(state.words.map((word) => normalizeText(word.term).toLowerCase()).filter(Boolean));
-    const seenTerms = new Set();
-    let internalDuplicate = 0;
-    const uniqueRecords = [];
-    records.forEach((word) => {
-      const key = normalizeText(word.term).toLowerCase();
-      if (seenTerms.has(key)) {
-        internalDuplicate += 1;
-        return;
-      }
-      seenTerms.add(key);
-      uniqueRecords.push(word);
-    });
-    const duplicateExisting = uniqueRecords.filter((word) => existingTerms.has(normalizeText(word.term).toLowerCase())).length;
-    const newCount = uniqueRecords.length - duplicateExisting;
-    const replace = confirm(`导入前预览：
-文件词条：${incoming.length}
-有效词条：${records.length}
-文件内部重复：${internalDuplicate}
-和当前词库重复：${duplicateExisting}
-预计新增：${newCount}
+    if (!Array.isArray(incoming)) throw new Error("Invalid file");
 
-确定=替换当前词库；取消=合并导入并自动去重。`);
-    if (replace) {
-      state.words = dedupeRuntimeWords(uniqueRecords);
-    } else {
-      const byTerm = new Map(state.words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
-      uniqueRecords.reverse().forEach((word) => {
-        const key = normalizeText(word.term).toLowerCase();
-        if (byTerm.has(key)) {
-          const old = byTerm.get(key);
-          old.meaning = old.meaning || word.meaning;
-          old.phrase = old.phrase || word.phrase;
-          old.note = old.note || word.note;
-          old.sources = Array.from(new Set([...(old.sources || []), ...(word.sources || []), word.source, old.source].filter(Boolean)));
-          old.updatedAt = new Date().toISOString();
+    const records = incoming.map(normalizeWord).filter((word) => word.term);
+    const byId = new Map(state.words.map((word) => [normalizeText(word.id), word]));
+    const byTerm = new Map();
+    const byDictation = new Map();
+    state.words.forEach((word) => {
+      if (isDictationWordRecord(word)) byDictation.set(dictationImportKey(word), word);
+      else {
+        const key = normalizeText(word.term).toLowerCase().replace(/[’‘`]/g, "'").replace(/\s+/g, " ");
+        if (key && !byTerm.has(key)) byTerm.set(key, word);
+      }
+    });
+
+    let restored = 0;
+    let added = 0;
+    const seenIds = new Set();
+    const seenTerms = new Set();
+    records.forEach((word) => {
+      const id = normalizeText(word.id);
+      const termKey = normalizeText(word.term).toLowerCase().replace(/[’‘`]/g, "'").replace(/\s+/g, " ");
+      const dictation = isDictationWordRecord(word);
+      const uniqueKey = dictation ? `id:${id || dictationImportKey(word)}` : `term:${termKey}`;
+      const seenSet = dictation ? seenIds : seenTerms;
+      if (seenSet.has(uniqueKey)) return;
+      seenSet.add(uniqueKey);
+
+      let target = id ? byId.get(id) : null;
+      if (!target && dictation) target = byDictation.get(dictationImportKey(word));
+      if (!target && !dictation) target = byTerm.get(termKey);
+
+      if (target) {
+        if (dictation || isDictationWordRecord(target)) {
+          mergeImportedProgressOnly(target, word);
         } else {
-          state.words.unshift(word);
-          byTerm.set(key, word);
+          mergeRuntimeWord(target, word);
         }
-      });
-    }
-    saveWords();
+        restored += 1;
+      } else {
+        state.words.push(word);
+        byId.set(id, word);
+        if (dictation) byDictation.set(dictationImportKey(word), word);
+        else byTerm.set(termKey, word);
+        added += 1;
+      }
+    });
+
     if (parsed.studyTime) {
       state.studyTime = normalizeStudyTime(parsed.studyTime);
       saveStudyTime();
     }
+    saveWords();
     setActiveId(null);
     render();
-    showToast("导入完成：数据已进入当前网址的本机记录");
-  } catch {
-    showToast("导入失败，请选择正确的词库文件");
+    showToast(`备份恢复完成：恢复进度 ${restored} 条，新增 ${added} 条；听写内容不会重置`);
+  } catch (error) {
+    console.error("Import failed", error);
+    showToast("导入失败，请选择正确的词库备份文件");
   } finally {
     event.target.value = "";
   }
