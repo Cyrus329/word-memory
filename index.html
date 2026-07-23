@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=68dict2">
+  <link rel="stylesheet" href="./styles.css?v=68mobilestoragedual">
 </head>
 <body>
   <div class="app-shell">
@@ -53,9 +53,13 @@
           <span>今日安排</span>
           <strong id="todayCount">0</strong>
         </article>
-        <article class="metric calm">
+        <article class="metric calm completed-metric">
           <span>已完成</span>
           <strong id="doneTodayCount">0</strong>
+          <div class="metric-split" aria-label="今日完成的单词和短语数量">
+            <div><small>单词</small><b id="todayWordActionCount">0</b></div>
+            <div><small>短语</small><b id="todayPhraseActionCount">0</b></div>
+          </div>
         </article>
       </section>
 
@@ -394,11 +398,11 @@
     <div class="gaze-zones"><span>已移除手指翻词</span><span>显示词义按钮已恢复</span><span>优先保证记忆记录稳定</span></div>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./library-folder-data.js?v=68backupfix"></script>
-  <script src="./word-data.js?v=68backupfix"></script>
-  <script src="./app.js?v=68backupfix"></script>
-  <script src="./folder-view.js?v=68dict2"></script>
-  <script src="./smart-vocab.js?v=68dict2"></script>
+  <script src="./library-folder-data.js?v=68mobilestoragedual"></script>
+  <script src="./word-data.js?v=68mobilestoragedual"></script>
+  <script src="./app.js?v=68mobilestoragedual"></script>
+  <script src="./folder-view.js?v=68mobilestoragedual"></script>
+  <script src="./smart-vocab.js?v=68mobilestoragedual"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));

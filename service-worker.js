@@ -1,13 +1,13 @@
-const CACHE_NAME = "word-memory-v68-backup-progress-fix-20260723";
+const CACHE_NAME = "word-memory-v68-mobile-storage-dual-20260723";
 const APP_ASSETS = [
   "./",
   "./index.html",
-  "./word-data.js?v=68backupfix",
-  "./app.js?v=68backupfix",
-  "./library-folder-data.js?v=68backupfix",
-  "./folder-view.js?v=68backupfix",
-  "./smart-vocab.js?v=68backupfix",
-  "./styles.css?v=68backupfix",
+  "./word-data.js?v=68mobilestoragedual",
+  "./app.js?v=68mobilestoragedual",
+  "./library-folder-data.js?v=68mobilestoragedual",
+  "./folder-view.js?v=68mobilestoragedual",
+  "./smart-vocab.js?v=68mobilestoragedual",
+  "./styles.css?v=68mobilestoragedual",
   "./supabase-word-memory-repair.sql",
   "./manifest.webmanifest",
   "./icons/icon-180.png",

@@ -1,4 +1,12 @@
 const STORAGE_KEY = "word-memory-trainer:v1";
+const MOBILE_DB_NAME = "word-memory-trainer-mobile:v1";
+const MOBILE_DB_VERSION = 1;
+const MOBILE_DB_STORE = "snapshots";
+const MOBILE_DB_PRIMARY_KEY = "words-primary";
+const MOBILE_DB_PREVIOUS_KEY = "words-previous";
+let mobileDbPromise = null;
+let mobileDbWriteChain = Promise.resolve();
+let mobileDbHydrated = false;
 const SETTINGS_KEY = "word-memory-trainer:settings:v1";
 const STUDY_TIME_KEY = "word-memory-trainer:study-time:v1";
 const REVIEW_STEPS = [
@@ -78,6 +86,8 @@ const els = {
   todayStudyTime: document.querySelector("#todayStudyTime"),
   dueCount: document.querySelector("#dueCount"),
   todayCount: document.querySelector("#todayCount"),
+  todayWordActionCount: document.querySelector("#todayWordActionCount"),
+  todayPhraseActionCount: document.querySelector("#todayPhraseActionCount"),
   doneTodayCount: document.querySelector("#doneTodayCount"),
   examDays: document.querySelector("#examDays"),
   examDateInput: document.querySelector("#examDateInput"),
@@ -1239,6 +1249,185 @@ function shrinkHistoriesForEmergency() {
   });
 }
 
+function openMobileDatabase() {
+  if (mobileDbPromise) return mobileDbPromise;
+  mobileDbPromise = new Promise((resolve, reject) => {
+    if (typeof indexedDB === "undefined") {
+      reject(new Error("IndexedDB unavailable"));
+      return;
+    }
+    let request;
+    try {
+      request = indexedDB.open(MOBILE_DB_NAME, MOBILE_DB_VERSION);
+    } catch (error) {
+      reject(error);
+      return;
+    }
+    request.onupgradeneeded = () => {
+      const db = request.result;
+      if (!db.objectStoreNames.contains(MOBILE_DB_STORE)) {
+        db.createObjectStore(MOBILE_DB_STORE, { keyPath: "key" });
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error || new Error("IndexedDB open failed"));
+    request.onblocked = () => reject(new Error("IndexedDB blocked"));
+  });
+  return mobileDbPromise;
+}
+
+async function readMobileDatabaseRecord(key) {
+  const db = await openMobileDatabase();
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction(MOBILE_DB_STORE, "readonly");
+    const request = transaction.objectStore(MOBILE_DB_STORE).get(key);
+    request.onsuccess = () => resolve(request.result || null);
+    request.onerror = () => reject(request.error || new Error("IndexedDB read failed"));
+  });
+}
+
+function storedPayloadScore(payload) {
+  if (!payload || typeof payload !== "object") return 0;
+  if (payload.compact) {
+    return (Array.isArray(payload.progress) ? payload.progress.length : 0)
+      + (Array.isArray(payload.customWords) ? payload.customWords.length : 0);
+  }
+  return Array.isArray(payload)
+    ? payload.length
+    : (Array.isArray(payload.words) ? payload.words.length : 0);
+}
+
+async function readBestMobileDatabasePayload() {
+  try {
+    const [primary, previous] = await Promise.all([
+      readMobileDatabaseRecord(MOBILE_DB_PRIMARY_KEY),
+      readMobileDatabaseRecord(MOBILE_DB_PREVIOUS_KEY),
+    ]);
+    const primaryPayload = primary?.payload && typeof primary.payload === "object" ? primary.payload : null;
+    const previousPayload = previous?.payload && typeof previous.payload === "object" ? previous.payload : null;
+    if (!primaryPayload) return previousPayload;
+    if (!previousPayload) return primaryPayload;
+    const primaryScore = storedPayloadScore(primaryPayload);
+    const previousScore = storedPayloadScore(previousPayload);
+    // Never let an unexpectedly tiny snapshot replace a substantially fuller last-good copy.
+    if (previousScore > 0 && primaryScore < previousScore * 0.55) return previousPayload;
+    return payloadSavedAt(primaryPayload) >= payloadSavedAt(previousPayload) ? primaryPayload : previousPayload;
+  } catch {
+    return null;
+  }
+}
+
+async function writeMobileDatabasePayload(payload) {
+  const db = await openMobileDatabase();
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction(MOBILE_DB_STORE, "readwrite");
+    const store = transaction.objectStore(MOBILE_DB_STORE);
+    const getCurrent = store.get(MOBILE_DB_PRIMARY_KEY);
+    getCurrent.onsuccess = () => {
+      const current = getCurrent.result;
+      if (current?.payload) {
+        store.put({
+          key: MOBILE_DB_PREVIOUS_KEY,
+          payload: current.payload,
+          savedAt: current.savedAt || current.payload?.savedAt || "",
+        });
+      }
+      store.put({
+        key: MOBILE_DB_PRIMARY_KEY,
+        payload,
+        savedAt: payload?.savedAt || new Date().toISOString(),
+      });
+    };
+    getCurrent.onerror = () => {
+      store.put({
+        key: MOBILE_DB_PRIMARY_KEY,
+        payload,
+        savedAt: payload?.savedAt || new Date().toISOString(),
+      });
+    };
+    transaction.oncomplete = () => resolve(true);
+    transaction.onerror = () => reject(transaction.error || new Error("IndexedDB write failed"));
+    transaction.onabort = () => reject(transaction.error || new Error("IndexedDB write aborted"));
+  });
+}
+
+function queueMobileDatabaseWrite(payload, options = {}) {
+  const snapshot = typeof structuredClone === "function"
+    ? structuredClone(payload)
+    : JSON.parse(JSON.stringify(payload));
+  mobileDbWriteChain = mobileDbWriteChain
+    .catch(() => undefined)
+    .then(() => writeMobileDatabasePayload(snapshot));
+  if (options.notifyOnSuccess) {
+    mobileDbWriteChain.then(() => showToast("已保存到手机大容量存档")).catch(() => {
+      showToast("手机存档保存失败，请立即导出备份");
+    });
+  }
+  return mobileDbWriteChain;
+}
+
+function parseLocalStoragePayload() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+function payloadSavedAt(payload) {
+  return Date.parse(payload?.savedAt || "") || 0;
+}
+
+function payloadHasStudyData(payload) {
+  if (!payload || typeof payload !== "object") return false;
+  if (payload.compact) {
+    return (Array.isArray(payload.progress) && payload.progress.length > 0)
+      || (Array.isArray(payload.customWords) && payload.customWords.length > 0);
+  }
+  return Array.isArray(payload) ? payload.length > 0 : Array.isArray(payload.words) && payload.words.length > 0;
+}
+
+function wordsFromStoredPayload(payload) {
+  if (!payload) return null;
+  if (payload.compact) return loadCompactWords(payload);
+  const words = Array.isArray(payload)
+    ? payload.map(normalizeWord)
+    : (Array.isArray(payload.words) ? payload.words.map(normalizeWord) : []);
+  return applyBuiltinWords(words);
+}
+
+async function hydrateWordsFromMobileDatabase() {
+  try {
+    navigator.storage?.persist?.().catch(() => false);
+    const dbPayload = await readBestMobileDatabasePayload();
+    const localPayload = parseLocalStoragePayload();
+    const shouldUseDb = payloadHasStudyData(dbPayload)
+      && (!payloadHasStudyData(localPayload) || payloadSavedAt(dbPayload) > payloadSavedAt(localPayload));
+    if (shouldUseDb) {
+      const restoredWords = wordsFromStoredPayload(dbPayload);
+      if (Array.isArray(restoredWords) && restoredWords.length) {
+        state.words = restoredWords;
+        state.activeId = null;
+        state.answerVisible = false;
+        state.reviewUndo = null;
+        resetTypingState();
+        render();
+        showToast("已从手机大容量存档恢复学习记录");
+      }
+    } else if (payloadHasStudyData(localPayload)) {
+      await queueMobileDatabaseWrite(localPayload);
+    } else {
+      await queueMobileDatabaseWrite(compactPayloadForStorage(state.words));
+    }
+  } catch {
+    // localStorage remains available as the compatibility fallback.
+  } finally {
+    mobileDbHydrated = true;
+    persistBuiltinWordsIfNeeded();
+  }
+}
+
 function loadWords() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -1311,15 +1500,14 @@ function writeCompactStorage(payload) {
     localStorage.setItem(STORAGE_KEY, serialized);
     return serialized.length;
   } catch (firstError) {
-    // 某些手机浏览器在“旧大存档换成新小存档”时仍会先计算两份空间。
-    // 新存档更小时，先暂时移除旧值再写入；失败则尽力恢复旧值。
+    // iPhone Safari may count both the old and new value while replacing a large item.
     if (previous && serialized.length < previous.length) {
       localStorage.removeItem(STORAGE_KEY);
       try {
         localStorage.setItem(STORAGE_KEY, serialized);
         return serialized.length;
       } catch (secondError) {
-        try { localStorage.setItem(STORAGE_KEY, previous); } catch { /* 保留内存中的当前学习状态 */ }
+        try { localStorage.setItem(STORAGE_KEY, previous); } catch { /* IndexedDB still keeps the last good copy. */ }
         throw secondError;
       }
     }
@@ -1328,28 +1516,37 @@ function writeCompactStorage(payload) {
 }
 
 function saveWords(options = {}) {
-  if (PUBLIC_VIEWER_SLUG) {
-    return true;
-  }
+  if (PUBLIC_VIEWER_SLUG) return true;
+
+  let payload = compactPayloadForStorage(state.words);
+  let localSaved = false;
   try {
     cleanupStorageForWordSave();
-    writeCompactStorage(compactPayloadForStorage(state.words));
-    if (!options.skipCloud) autoSaveCloudSoon();
-    return true;
+    writeCompactStorage(payload);
+    localSaved = true;
   } catch {
     try {
-      // 第二层保护：只丢弃冗余历史，不丢单词、释义、分组和当前学习进度。
+      // Keep all current stages and groups, but remove only redundant history entries.
       shrinkHistoriesForEmergency();
       cleanupStorageForWordSave();
-      writeCompactStorage(compactPayloadForStorage(state.words, { emergency: true }));
-      if (!options.skipCloud) autoSaveCloudSoon();
-      showToast("已自动压缩旧存档并保存，不需要清理网站数据");
-      return true;
+      payload = compactPayloadForStorage(state.words, { emergency: true });
+      writeCompactStorage(payload);
+      localSaved = true;
     } catch {
-      showToast("存档空间仍不足：先导出备份，暂时不要清理网站数据");
-      return false;
+      localSaved = false;
     }
   }
+
+  // Main fix for iPhone Safari: every save is also written to IndexedDB.
+  // IndexedDB has a much larger quota and keeps a previous snapshot for rollback.
+  queueMobileDatabaseWrite(payload, { notifyOnSuccess: !localSaved });
+  if (!options.skipCloud) autoSaveCloudSoon();
+
+  if (!localSaved && typeof indexedDB === "undefined") {
+    showToast("手机存档保存失败，请立即导出备份");
+    return false;
+  }
+  return true;
 }
 
 function showToast(message) {
@@ -2829,11 +3026,47 @@ function render() {
   renderWordList();
 }
 
+function isPhraseWord(word) {
+  const term = normalizeText(word?.term);
+  const note = normalizeText(word?.note);
+  const tag = normalizeText(word?.tag);
+  return /\s/.test(term) || /短语/.test(note) || /短语/.test(tag);
+}
+
+function todayOperationEntries() {
+  const today = todayKey();
+  const acceptedResults = new Set(["new", "remember", "fuzzy", "forgot"]);
+  return state.words.flatMap((word) => {
+    const records = [];
+    if (Array.isArray(word.history)) records.push(...word.history);
+    Object.values(word.progress || {}).forEach((progress) => {
+      if (Array.isArray(progress?.history)) records.push(...progress.history);
+    });
+    const seen = new Set();
+    return records.filter((entry) => {
+      if (!entry || !acceptedResults.has(entry.result) || !entry.time) return false;
+      if (todayKey(new Date(entry.time)) !== today) return false;
+      const key = [entry.time, entry.result, entry.mode || "card", entry.nextReviewAt || ""].join("|");
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).map((entry) => ({ ...entry, word }));
+  });
+}
+
 function renderStats() {
+  // 恢复旧版口径：今日安排显示今天到期的词条；已完成显示今天实际完成过的唯一词条。
+  // 同一个词今天重复点击多次只计 1 个，并按单词 / 短语分别统计。
+  const completedToday = state.words.filter((word) => learnedToday(word, "card"));
+  const completedWords = completedToday.filter((word) => !isPhraseWord(word)).length;
+  const completedPhrases = completedToday.filter((word) => isPhraseWord(word)).length;
+
   els.totalCount.textContent = state.words.length;
   els.dueCount.textContent = state.words.filter((word) => isDue(word)).length;
-  els.todayCount.textContent = state.words.filter(isTodayReview).length;
-  els.doneTodayCount.textContent = state.words.filter(learnedToday).length;
+  els.todayCount.textContent = state.words.filter((word) => isTodayReview(word, "card")).length;
+  els.doneTodayCount.textContent = completedToday.length;
+  if (els.todayWordActionCount) els.todayWordActionCount.textContent = completedWords;
+  if (els.todayPhraseActionCount) els.todayPhraseActionCount.textContent = completedPhrases;
   renderStudyTime();
 }
 
@@ -4087,11 +4320,16 @@ function mergeImportedProgressOnly(target, incoming) {
     { status: target.status, stage: target.stage, nextReviewAt: target.nextReviewAt, lastStudiedAt: target.lastStudiedAt, history: target.history || [] },
     { status: incoming.status, stage: incoming.stage, nextReviewAt: incoming.nextReviewAt, lastStudiedAt: incoming.lastStudiedAt, history: incoming.history || [] }
   );
-  target.status = legacy.status;
-  target.stage = legacy.stage;
-  target.nextReviewAt = legacy.nextReviewAt;
-  target.lastStudiedAt = legacy.lastStudiedAt;
-  target.history = legacy.history;
+  // 备份中的顶层状态和 card 进度可能不一致。card 才是卡片学习的真实进度，
+  // 导入后必须同步回顶层，否则听写分组会显示成未学。
+  const mergedCard = target.progress.card || legacy;
+  const finalCard = mergeProgressRecord(legacy, mergedCard);
+  target.progress.card = finalCard;
+  target.status = finalCard.status;
+  target.stage = finalCard.stage;
+  target.nextReviewAt = finalCard.nextReviewAt;
+  target.lastStudiedAt = finalCard.lastStudiedAt;
+  target.history = finalCard.history;
   if (incoming.updatedAt && (!target.updatedAt || incoming.updatedAt > target.updatedAt)) target.updatedAt = incoming.updatedAt;
   return target;
 }
@@ -4555,8 +4793,16 @@ ensurePracticeSession("card");
 wireEvents();
 installStudyTimeTracker();
 render();
-persistBuiltinWordsIfNeeded();
+hydrateWordsFromMobileDatabase();
 initializeCloudFromUrl();
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden" && mobileDbHydrated) {
+    saveWords({ skipCloud: true });
+  }
+});
+window.addEventListener("pagehide", () => {
+  if (mobileDbHydrated) saveWords({ skipCloud: true });
+});
 setInterval(() => {
   tickStudyTime();
   renderClock();
