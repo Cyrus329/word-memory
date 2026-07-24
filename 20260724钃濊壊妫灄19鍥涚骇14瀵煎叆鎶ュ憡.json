@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-24",
+  "source_file": "857a427e-78c8-4ad7-a6a2-d88dc177e7a1.docx",
+  "classification_rule": "明确显示“英语四级”的页面归入四级14；其余蓝色森林卡片和普通词表归入蓝色森林19。",
+  "blue_forest": {
+    "group": "蓝色森林 19",
+    "total": 60,
+    "new_unique": 37,
+    "existing_added_to_group": 23
+  },
+  "cet4": {
+    "group": "四级 14",
+    "total": 54,
+    "new_unique": 47,
+    "existing_added_to_group": 7
+  },
+  "unique_total_after_import": 3340,
+  "preserved": "手机存档双保险、备份恢复、学习进度、统计界面和原有功能全部保留。"
+}
