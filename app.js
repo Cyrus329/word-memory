@@ -9,6 +9,8 @@ let mobileDbWriteChain = Promise.resolve();
 let mobileDbHydrated = false;
 const SETTINGS_KEY = "word-memory-trainer:settings:v1";
 const STUDY_TIME_KEY = "word-memory-trainer:study-time:v1";
+const DAILY_COMPLETED_KEY = "word-memory-trainer:daily-completed:v1";
+let dailyCompletedStore = loadDailyCompletedStore();
 const REVIEW_STEPS = [
   { label: "20分钟", ms: 20 * 60 * 1000 },
   { label: "1小时", ms: 60 * 60 * 1000 },
@@ -308,6 +310,133 @@ function nowDate() {
 
 function todayKey(date = nowDate()) {
   return date.toISOString().slice(0, 10);
+}
+
+function normalizeDailyCompletedStore(raw = {}) {
+  const source = raw && typeof raw === "object" && raw.days && typeof raw.days === "object" ? raw.days : raw;
+  const days = {};
+  Object.entries(source && typeof source === "object" ? source : {}).forEach(([date, entry]) => {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !entry || typeof entry !== "object") return;
+    const words = [...new Set((Array.isArray(entry.words) ? entry.words : []).map(normalizeText).filter(Boolean))];
+    const phrases = [...new Set((Array.isArray(entry.phrases) ? entry.phrases : []).map(normalizeText).filter(Boolean))];
+    if (!words.length && !phrases.length) return;
+    days[date] = {
+      words,
+      phrases,
+      updatedAt: entry.updatedAt || "",
+    };
+  });
+  const dates = Object.keys(days).sort().slice(-120);
+  return {
+    days: Object.fromEntries(dates.map((date) => [date, days[date]])),
+    updatedAt: raw?.updatedAt || "",
+  };
+}
+
+function loadDailyCompletedStore() {
+  try {
+    return normalizeDailyCompletedStore(JSON.parse(localStorage.getItem(DAILY_COMPLETED_KEY) || "{}"));
+  } catch {
+    return normalizeDailyCompletedStore({});
+  }
+}
+
+function mergeDailyCompletedStores(localValue = {}, incomingValue = {}) {
+  const local = normalizeDailyCompletedStore(localValue);
+  const incoming = normalizeDailyCompletedStore(incomingValue);
+  const merged = { days: {}, updatedAt: new Date().toISOString() };
+  const dates = new Set([...Object.keys(local.days), ...Object.keys(incoming.days)]);
+  dates.forEach((date) => {
+    const left = local.days[date] || {};
+    const right = incoming.days[date] || {};
+    const words = [...new Set([...(left.words || []), ...(right.words || [])])];
+    const phrases = [...new Set([...(left.phrases || []), ...(right.phrases || [])])];
+    if (words.length || phrases.length) {
+      merged.days[date] = {
+        words,
+        phrases,
+        updatedAt: [left.updatedAt || "", right.updatedAt || ""].sort().at(-1) || "",
+      };
+    }
+  });
+  return normalizeDailyCompletedStore(merged);
+}
+
+function saveDailyCompletedStore() {
+  dailyCompletedStore = normalizeDailyCompletedStore(dailyCompletedStore);
+  try {
+    localStorage.setItem(DAILY_COMPLETED_KEY, JSON.stringify(dailyCompletedStore));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function dailyCompletedWordId(word) {
+  return normalizeText(word?.id) || `term:${normalizeText(word?.term).toLowerCase()}`;
+}
+
+function ensureDailyCompletedDay(date = todayKey()) {
+  if (!dailyCompletedStore || typeof dailyCompletedStore !== "object") {
+    dailyCompletedStore = normalizeDailyCompletedStore({});
+  }
+  if (!dailyCompletedStore.days[date]) {
+    dailyCompletedStore.days[date] = { words: [], phrases: [], updatedAt: "" };
+  }
+  return dailyCompletedStore.days[date];
+}
+
+function markDailyCompleted(word, completedAt = nowDate()) {
+  if (!word) return;
+  const date = todayKey(completedAt instanceof Date ? completedAt : new Date(completedAt));
+  const entry = ensureDailyCompletedDay(date);
+  const id = dailyCompletedWordId(word);
+  const target = isPhraseWord(word) ? entry.phrases : entry.words;
+  const other = isPhraseWord(word) ? entry.words : entry.phrases;
+  if (!target.includes(id)) target.push(id);
+  const otherIndex = other.indexOf(id);
+  if (otherIndex >= 0) other.splice(otherIndex, 1);
+  entry.updatedAt = new Date().toISOString();
+  dailyCompletedStore.updatedAt = entry.updatedAt;
+}
+
+function wordHasCompletedEntryOnDate(word, date = todayKey()) {
+  const acceptedResults = new Set(["new", "remember", "fuzzy", "forgot"]);
+  const records = [];
+  if (Array.isArray(word?.history)) records.push(...word.history);
+  Object.values(word?.progress || {}).forEach((progress) => {
+    if (Array.isArray(progress?.history)) records.push(...progress.history);
+  });
+  return records.some((entry) => entry?.time && acceptedResults.has(entry.result) && todayKey(new Date(entry.time)) === date);
+}
+
+function reconcileDailyCompletedWord(word, date = todayKey()) {
+  if (!word) return;
+  const entry = ensureDailyCompletedDay(date);
+  const id = dailyCompletedWordId(word);
+  entry.words = entry.words.filter((item) => item !== id);
+  entry.phrases = entry.phrases.filter((item) => item !== id);
+  if (wordHasCompletedEntryOnDate(word, date)) {
+    const target = isPhraseWord(word) ? entry.phrases : entry.words;
+    target.push(id);
+  }
+  entry.updatedAt = new Date().toISOString();
+  dailyCompletedStore.updatedAt = entry.updatedAt;
+}
+
+function syncTodayCompletedFromHistories() {
+  state.words.forEach((word) => {
+    if (wordHasCompletedEntryOnDate(word)) markDailyCompleted(word);
+  });
+}
+
+function dailyCompletedCounts(date = todayKey()) {
+  const entry = normalizeDailyCompletedStore(dailyCompletedStore).days[date] || { words: [], phrases: [] };
+  return {
+    words: entry.words.length,
+    phrases: entry.phrases.length,
+    total: entry.words.length + entry.phrases.length,
+  };
 }
 
 function dateInputValue(date) {
@@ -1199,12 +1328,17 @@ function compactPayloadForStorage(words, options = {}) {
     version: 29,
     compact: true,
     savedAt: new Date().toISOString(),
+    dailyCompleted: normalizeDailyCompletedStore(dailyCompletedStore),
     progress,
     customWords,
   };
 }
 
 function loadCompactWords(parsed) {
+  if (parsed?.dailyCompleted) {
+    dailyCompletedStore = mergeDailyCompletedStores(dailyCompletedStore, parsed.dailyCompleted);
+    saveDailyCompletedStore();
+  }
   const words = cloneBuiltinWords();
   const byId = new Map(words.map((word) => [word.id, word]));
   const byTerm = new Map(words.map((word) => [normalizeText(word.term).toLowerCase(), word]));
@@ -1518,6 +1652,7 @@ function writeCompactStorage(payload) {
 function saveWords(options = {}) {
   if (PUBLIC_VIEWER_SLUG) return true;
 
+  saveDailyCompletedStore();
   let payload = compactPayloadForStorage(state.words);
   let localSaved = false;
   try {
@@ -1860,7 +1995,7 @@ function cloudWordsPayload() {
     id: CLOUD_COMPACT_PAYLOAD_ID,
     type: "word-memory-compact-cloud",
     app: "专升本单词记忆",
-    version: 49,
+    version: 50,
     studyTime: normalizeStudyTime(state.studyTime || {}),
     data: compactPayloadForStorage(state.words),
     updatedAt: new Date().toISOString(),
@@ -2848,6 +2983,7 @@ function undoLastReview() {
     state.sprint.completed = Math.max(0, Number(state.sprint.completed || 0) - 1);
   }
   state.reviewUndo = null;
+  reconcileDailyCompletedWord(state.words[index]);
   saveWords();
   render();
   showToast("已撤回上一步，回到上一个词");
@@ -2894,6 +3030,7 @@ function scheduleNext(word, result, options = {}) {
     result,
     nextReviewAt: progress.nextReviewAt,
   });
+  markDailyCompleted(word, completedAt);
   if (!options.silent) {
     showToast(`下次：${formatDateTime(progress.nextReviewAt)}（${label}后）`);
   }
@@ -3054,19 +3191,40 @@ function todayOperationEntries() {
   });
 }
 
+function hasEverLearned(word) {
+  const progress = modeProgress(word, "card");
+  const progressHistory = Array.isArray(progress.history) ? progress.history : [];
+  const legacyHistory = Array.isArray(word.history) ? word.history : [];
+  const legacyStage = Number.isInteger(word.stage) ? word.stage : -1;
+  const mastery = normalizeText(word.mastery || "未学");
+
+  return progress.stage >= 0
+    || legacyStage >= 0
+    || (progress.status && progress.status !== "new")
+    || (word.status && word.status !== "new")
+    || Boolean(progress.lastStudiedAt || word.lastStudiedAt)
+    || progressHistory.length > 0
+    || legacyHistory.length > 0
+    || (mastery && mastery !== "未学");
+}
+
 function renderStats() {
-  // 恢复旧版口径：今日安排显示今天到期的词条；已完成显示今天实际完成过的唯一词条。
-  // 同一个词今天重复点击多次只计 1 个，并按单词 / 短语分别统计。
-  const completedToday = state.words.filter((word) => learnedToday(word, "card"));
-  const completedWords = completedToday.filter((word) => !isPhraseWord(word)).length;
-  const completedPhrases = completedToday.filter((word) => isPhraseWord(word)).length;
+  // “已完成”按当天完成过的不同词条统计，并写入本机备份与云端压缩存档。
+  // 同一云同步编号在手机和电脑加载后，会合并当天已完成词条，不会因换设备清零。
+  syncTodayCompletedFromHistories();
+  const completedToday = dailyCompletedCounts();
+
+  // “已学习”是累计值：直接根据每个词条的真实卡片进度计算，跨天、刷新和重新打开都不会归零。
+  const learnedItems = state.words.filter(hasEverLearned);
+  const learnedWords = learnedItems.filter((word) => !isPhraseWord(word)).length;
+  const learnedPhrases = learnedItems.filter((word) => isPhraseWord(word)).length;
 
   els.totalCount.textContent = state.words.length;
   els.dueCount.textContent = state.words.filter((word) => isDue(word)).length;
-  els.todayCount.textContent = state.words.filter((word) => isTodayReview(word, "card")).length;
-  els.doneTodayCount.textContent = completedToday.length;
-  if (els.todayWordActionCount) els.todayWordActionCount.textContent = completedWords;
-  if (els.todayPhraseActionCount) els.todayPhraseActionCount.textContent = completedPhrases;
+  els.todayCount.textContent = completedToday.total;
+  els.doneTodayCount.textContent = learnedItems.length;
+  if (els.todayWordActionCount) els.todayWordActionCount.textContent = learnedWords;
+  if (els.todayPhraseActionCount) els.todayPhraseActionCount.textContent = learnedPhrases;
   renderStudyTime();
 }
 
@@ -4283,6 +4441,7 @@ function exportWords() {
     reviewSteps: REVIEW_STEPS.map((step) => step.label),
     exportedAt: new Date().toISOString(),
     studyTime: state.studyTime,
+    dailyCompleted: normalizeDailyCompletedStore(dailyCompletedStore),
     words: state.words,
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
@@ -4396,6 +4555,11 @@ async function importWords(event) {
       state.studyTime = normalizeStudyTime(parsed.studyTime);
       saveStudyTime();
     }
+    if (parsed.dailyCompleted) {
+      dailyCompletedStore = mergeDailyCompletedStores(dailyCompletedStore, parsed.dailyCompleted);
+      saveDailyCompletedStore();
+    }
+    syncTodayCompletedFromHistories();
     saveWords();
     setActiveId(null);
     render();
