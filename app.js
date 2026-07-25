@@ -42,7 +42,7 @@ const PROGRESS_MODE_LABELS = {
   dictationWeak: "听写错词",
 };
 const MODE_PROGRESS_HINT = "各模式独立进度；旧模式仍保留，新增模式只追加不删除";
-const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林", "听写内容"];
+const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林", "短语练习", "听写内容"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
 const SHARE_BASE_URL_KEY = "word-memory-trainer:share-base-url:v1";
@@ -2300,7 +2300,7 @@ function wordMatchesActiveGroup(word) {
   if (state.activeGroup === "all") return true;
   const groupNames = wordGroupNames(word);
   if (groupNames.includes(state.activeGroup)) return true;
-  if (["全方位", "蓝色森林", "Word List", "四级"].includes(state.activeGroup)) {
+  if (["全方位", "蓝色森林", "Word List", "四级", "短语练习", "听写内容"].includes(state.activeGroup)) {
     return groupNames.some((groupName) => progressRootName(groupName) === state.activeGroup);
   }
   return false;
@@ -3384,6 +3384,8 @@ function progressRootName(groupName = "") {
   if (/^蓝色森林/.test(name)) return "蓝色森林";
   if (/^Word List/.test(name)) return "Word List";
   if (/^四级/.test(name)) return "四级";
+  if (/^短语练习/.test(name)) return "短语练习";
+  if (/^第[一二]次听写内容$|^听写内容/.test(name)) return "听写内容";
   return "其他";
 }
 
