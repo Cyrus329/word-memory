@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=68posclassify20260725">
+  <link rel="stylesheet" href="./styles.css?v=68grammarfull20260726">
 </head>
 <body>
   <div class="app-shell">
@@ -126,14 +126,18 @@
             <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
             <button class="practice-button" data-practice-mode="forms" type="button">变形</button>
           </div>
-          <details class="special-practice-panel pos-practice-panel">
-            <summary>词性辨析</summary>
-            <div class="special-practice-note">先区分名词、数词、形容词和副词；选到名词后，再判断可数名词、不可数名词或两者均可。</div>
-            <div class="practice-switch special-practice-switch" aria-label="词性辨析训练">
-              <button class="practice-button pos-practice-start" data-practice-mode="posClassify" type="button">开始词性辨析</button>
+          <details class="special-practice-panel pos-practice-panel" open>
+            <summary>语法辨析训练</summary>
+            <div class="special-practice-note">五个模式独立记录进度。先练五大词性，再分别突破名词可数性、动词及物性、易混词形和句子语境。</div>
+            <div class="practice-switch special-practice-switch grammar-practice-grid" aria-label="语法辨析训练">
+              <button class="practice-button pos-practice-start" data-practice-mode="posClassify" type="button"><b>五大词性</b><small>名词 / 动词 / 数词 / 形容词 / 副词</small></button>
+              <button class="practice-button pos-practice-start" data-practice-mode="nounCountability" type="button"><b>名词可数性</b><small>可数 / 不可数 / 两者均可</small></button>
+              <button class="practice-button pos-practice-start" data-practice-mode="verbTransitivity" type="button"><b>动词及物性</b><small>及物 / 不及物 / 系动词等</small></button>
+              <button class="practice-button pos-practice-start" data-practice-mode="wordFamily" type="button"><b>易混词形</b><small>同词族中选择正确形式</small></button>
+              <button class="practice-button pos-practice-start" data-practice-mode="posContext" type="button"><b>句子语境</b><small>判断标记词在句中的词性</small></button>
             </div>
           </details>
-          <p class="mode-progress-note">默认进入卡片。原专项训练入口已删除，词性辨析会自动跳过短语和词性标注不明确的词条。</p>
+          <p class="mode-progress-note">默认进入卡片。五类语法训练独立计算正确率和复习进度；答题后自动进入下一题。</p>
 
           <div class="dictation-tools" aria-label="听写设置">
             <label class="compact-select">
@@ -392,7 +396,7 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="./library-folder-data.js?v=68import20260726"></script>
   <script src="./word-data.js?v=68import20260726"></script>
-  <script src="./app.js?v=68posclassify20260725"></script>
+  <script src="./app.js?v=68grammarfull20260726"></script>
   <script src="./folder-view.js?v=68phrase20260725"></script>
   <script src="./smart-vocab.js?v=68import20260724"></script>
   <script>

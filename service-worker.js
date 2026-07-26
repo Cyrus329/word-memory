@@ -1,13 +1,13 @@
-const CACHE_NAME = "word-memory-v68-import-20260726";
+const CACHE_NAME = "word-memory-v68-grammar-full-20260726";
 const APP_ASSETS = [
   "./",
   "./index.html",
   "./word-data.js?v=68import20260726",
-  "./app.js?v=68posclassify20260725",
+  "./app.js?v=68grammarfull20260726",
   "./library-folder-data.js?v=68import20260726",
   "./folder-view.js?v=68phrase20260725",
   "./smart-vocab.js?v=68import20260724",
-  "./styles.css?v=68posclassify20260725",
+  "./styles.css?v=68grammarfull20260726",
   "./supabase-word-memory-repair.sql",
   "./manifest.webmanifest",
   "./icons/icon-180.png",

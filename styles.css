@@ -3077,3 +3077,72 @@ textarea:focus {
   .noun-count-grid .pos-choice-button:last-child { grid-column: 1 / -1; }
   .pos-training-card { min-height: 480px; border-radius: 20px; }
 }
+
+/* v68 2026-07-26：词性辨析升级为五类语法训练 */
+.grammar-practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 12px;
+  width: 100%;
+}
+.grammar-practice-grid .practice-button {
+  min-height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  padding: 14px 16px;
+  text-align: left;
+}
+.grammar-practice-grid .practice-button b {
+  font-size: 1.04rem;
+  color: inherit;
+}
+.grammar-practice-grid .practice-button small {
+  display: block;
+  color: #6b7280;
+  font-size: .82rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+.grammar-practice-grid .practice-button.active small { color: inherit; opacity: .86; }
+.pos-five-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.verb-type-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.pos-choice-button small {
+  display: block;
+  margin-top: 5px;
+  color: #718096;
+  font-size: .78rem;
+  font-weight: 700;
+}
+.pos-result small {
+  display: block;
+  margin-top: 7px;
+  font-weight: 600;
+  opacity: .85;
+}
+.context-sentence {
+  padding: 15px 16px;
+  border-radius: 14px;
+  background: #f4f7fa;
+  color: #24334a !important;
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+.context-sentence mark {
+  padding: 2px 5px;
+  border-radius: 6px;
+  background: #fff2a8;
+  color: #17202d;
+  font-weight: 900;
+}
+@media (max-width: 820px) {
+  .pos-five-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pos-five-grid .pos-choice-button:last-child { grid-column: 1 / -1; }
+  .verb-type-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .grammar-practice-grid { grid-template-columns: 1fr !important; }
+  .grammar-practice-grid .practice-button { min-height: 66px; }
+}
