@@ -1,0 +1,11 @@
+{
+  "version": "v68",
+  "date": "2026-07-22",
+  "first_dictation_repaired": 70,
+  "second_dictation_records": 76,
+  "second_sources": [
+    "第二次听写内容主表（42个编号及其展开项）",
+    "星期与月份表"
+  ],
+  "policy": "第二次听写完整逐条录入；第一次听写旧本机存档的term/meaning/group字段自动按内置资料修复，保留学习进度。"
+}

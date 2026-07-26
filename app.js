@@ -22,7 +22,7 @@ const REVIEW_STEPS = [
 ];
 const PROGRESS_MODES = [
   "card", "threeStep", "enToZh", "zhToEn", "choiceZhToEn", "phrase", "spell", "dictation", "forms",
-  "plainList", "multiMeaning", "rareMeaning", "fixedPhrase", "spellingWeak", "dictationWeak"
+  "plainList", "multiMeaning", "rareMeaning", "fixedPhrase", "spellingWeak", "dictationWeak", "posClassify"
 ];
 const PROGRESS_MODE_LABELS = {
   card: "卡片",
@@ -40,8 +40,9 @@ const PROGRESS_MODE_LABELS = {
   fixedPhrase: "固定搭配",
   spellingWeak: "拼写易错",
   dictationWeak: "听写错词",
+  posClassify: "词性辨析",
 };
-const MODE_PROGRESS_HINT = "各模式独立进度；旧模式仍保留，新增模式只追加不删除";
+const MODE_PROGRESS_HINT = "词性辨析独立记录进度；名词会继续判断可数性";
 const WORD_SOURCES = ["全方位", "Word List", "四级", "蓝色森林", "短语练习", "听写内容"];
 const LIST_MASK_MODES = ["show", "hideEnglish", "hideChinese"];
 const CLOUD_CONFIG_KEY = "word-memory-trainer:cloud-config:v1";
@@ -202,6 +203,7 @@ const state = {
   formResult: null,
   revealStep: 0,
   choiceResult: null,
+  posQuizResult: null,
   lastAutoSpokenId: null,
   gazeControl: {
     enabled: false,
@@ -294,6 +296,12 @@ function switchPracticeMode(mode) {
   state.answerVisible = false;
   resetTypingState();
   state.lastAutoSpokenId = null;
+  if (mode === "posClassify") {
+    state.mode = "all";
+    ensurePracticeSession(mode).mode = "all";
+    state.activeId = null;
+    ensurePracticeSession(mode).activeId = null;
+  }
   render();
 }
 
@@ -2372,6 +2380,86 @@ function priorityOf(word) {
   return "C";
 }
 
+const POS_CLASSIFY_LABELS = {
+  noun: "名词",
+  numeral: "数词",
+  adjective: "形容词",
+  adverb: "副词",
+};
+const NOUN_COUNT_LABELS = {
+  countable: "可数名词",
+  uncountable: "不可数名词",
+  both: "可数 / 不可数均可",
+};
+const NUMERAL_TERMS = new Set([
+  "zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety","hundred","thousand","million","billion","dozen",
+  "first","second","third","fourth","fifth","sixth","seventh","eighth","ninth","tenth","eleventh","twelfth","thirteenth","fourteenth","fifteenth","sixteenth","seventeenth","eighteenth","nineteenth","twentieth"
+]);
+const BOTH_COUNT_NOUNS = new Set([
+  "experience","time","room","paper","glass","chicken","light","hair","business","work","exercise","coffee","tea","food","education","behavior","behaviour","life","sound","language","truth","memory","thought","interest","success","failure","change","history","society","nature","power","service"
+]);
+const UNCOUNTABLE_NOUNS = new Set([
+  "advice","information","news","furniture","luggage","baggage","equipment","homework","weather","traffic","progress","knowledge","money","music","bread","rice","water","milk","sugar","salt","air","evidence","research","health","happiness","luck","fun","damage","pollution","accommodation","permission","software","hardware","clothing","electricity","energy","patience","courage","honesty","freedom","peace","rubbish","garbage","trash","cash","medicine","tuition","transportation","transport","machinery","scenery","jewelry","jewellery","poetry","grammar","vocabulary","employment","unemployment","wealth","poverty","safety","importance"
+]);
+
+function normalizedTermKey(word) {
+  return normalizeText(word?.term || "").toLowerCase().replace(/[’‘`]/g, "'").replace(/\s+/g, " ");
+}
+
+function targetPosesFor(word) {
+  const term = normalizedTermKey(word);
+  if (NUMERAL_TERMS.has(term)) return ["numeral"];
+  const raw = normalizeText(word?.meaning || "");
+  const hits = [];
+  const patterns = [
+    ["noun", /(?:^|[\s;/；，,、])(?:n|noun)\s*[.:：]/gi],
+    ["numeral", /(?:^|[\s;/；，,、])(?:num|numeral)\s*[.:：]/gi],
+    ["adjective", /(?:^|[\s;/；，,、])(?:adj|adjective)\s*[.:：]/gi],
+    ["adverb", /(?:^|[\s;/；，,、])(?:adv|adverb)\s*[.:：]/gi],
+  ];
+  patterns.forEach(([type, pattern]) => {
+    for (const match of raw.matchAll(pattern)) hits.push({ type, index: match.index || 0 });
+  });
+  if (/数词/.test(raw)) hits.push({ type: "numeral", index: raw.indexOf("数词") });
+  if (/形容词/.test(raw)) hits.push({ type: "adjective", index: raw.indexOf("形容词") });
+  if (/副词/.test(raw)) hits.push({ type: "adverb", index: raw.indexOf("副词") });
+  if (/名词/.test(raw)) hits.push({ type: "noun", index: raw.indexOf("名词") });
+  hits.sort((a, b) => a.index - b.index);
+  return [...new Set(hits.map((item) => item.type))];
+}
+
+function primaryTargetPos(word) {
+  const poses = targetPosesFor(word);
+  return poses.length === 1 ? poses[0] : "";
+}
+
+function isPosClassificationEligible(word) {
+  if (isPhraseWord(word)) return false;
+  return Boolean(primaryTargetPos(word));
+}
+
+function nounCountability(word) {
+  const term = normalizedTermKey(word).replace(/'s$/, "");
+  const raw = normalizeText(word?.meaning || "").toLowerCase();
+  if (/两者均可|可数与不可数|可数或不可数|\[c\/?u\]|\[u\/?c\]/i.test(raw)) return "both";
+  if (/不可数|\[u\]|\(u\)|uncountable/i.test(raw)) return "uncountable";
+  if (/可数|\[c\]|\(c\)|countable/i.test(raw)) return "countable";
+  if (BOTH_COUNT_NOUNS.has(term)) return "both";
+  if (UNCOUNTABLE_NOUNS.has(term)) return "uncountable";
+  const uncountableHint = /信息|建议|家具|设备|行李|作业|天气|交通|进步|知识|钱|音乐|面包|米饭|水|牛奶|糖|盐|空气|证据|研究|健康|幸福|运气|污染|电力|能源|耐心|勇气|诚实|自由|和平|垃圾|现金|学费|词汇|语法/.test(raw);
+  if (uncountableHint) return "uncountable";
+  return "countable";
+}
+
+function meaningWithoutPosLabels(word) {
+  const raw = normalizeText(word?.meaning || word?.phrase || word?.note || "未填释义");
+  return raw
+    .replace(/(?:^|[\s;/；，,、])(?:n|noun|num|numeral|adj|adjective|adv|adverb|vt|vi|v|prep|pron|conj|det|art|aux|modal)\s*[.:：]/gi, " ")
+    .replace(/\s+/g, " ")
+    .replace(/^[：:；;，,、\s]+/, "")
+    .trim() || "未填释义";
+}
+
 function practiceEligibleWords(words) {
   switch (state.practiceMode) {
     case "forms":
@@ -2386,6 +2474,8 @@ function practiceEligibleWords(words) {
       return words.filter(isSpellingWeakWord);
     case "dictationWeak":
       return words.filter(isDictationWeakWord);
+    case "posClassify":
+      return words.filter(isPosClassificationEligible);
     default:
       return words;
   }
@@ -2398,6 +2488,7 @@ function resetTypingState() {
   state.formResult = null;
   state.revealStep = 0;
   state.choiceResult = null;
+  state.posQuizResult = null;
 }
 
 function statusOf(word, mode = state.practiceMode) {
@@ -3544,6 +3635,15 @@ function practiceView(word) {
   const safeTerm = word.term || "未命名";
   const phrase = word.phrase || "";
 
+  if (state.practiceMode === "posClassify") {
+    return {
+      prompt: "词性辨析",
+      target: safeTerm,
+      hidden: "先判断词性",
+      answer: safeMeaning,
+      extra: "名词答对后继续判断可数性",
+    };
+  }
 
   if (state.practiceMode === "threeStep") {
     return {
@@ -3790,6 +3890,59 @@ function renderChoiceBox(word) {
     </div>`;
 }
 
+function posOptionClass(result, option, correctValue) {
+  if (!result) return "";
+  if (option === correctValue) return "is-correct";
+  if (option === result.selected) return "is-wrong";
+  return "";
+}
+
+function renderPosClassificationCard(word) {
+  const result = state.posQuizResult;
+  const correctPos = primaryTargetPos(word);
+  const countability = correctPos === "noun" ? nounCountability(word) : "";
+  const sourceHint = wordSources(word).join(" / ") || "当前词库";
+  const inNounStep = result?.step === "noun";
+  const done = result?.step === "done";
+  const showNounQuestion = inNounStep || (done && result?.kind === "noun");
+  const posButtons = Object.entries(POS_CLASSIFY_LABELS).map(([value, label]) => {
+    const klass = posOptionClass(result?.kind === "pos" ? result : null, value, correctPos);
+    const disabled = result ? "disabled" : "";
+    return `<button class="pos-choice-button ${klass}" data-card-action="pos-choice:${value}" type="button" ${disabled}>${label}</button>`;
+  }).join("");
+  const nounButtons = Object.entries(NOUN_COUNT_LABELS).map(([value, label]) => {
+    const klass = posOptionClass(result?.kind === "noun" ? result : null, value, countability);
+    const disabled = done ? "disabled" : "";
+    return `<button class="pos-choice-button noun-count-button ${klass}" data-card-action="noun-choice:${value}" type="button" ${disabled}>${label}</button>`;
+  }).join("");
+  let resultText = "";
+  if (done) {
+    resultText = result.correct
+      ? `<div class="pos-result is-correct">回答正确：${escapeHTML(result.answerLabel || "")}</div>`
+      : `<div class="pos-result is-wrong">回答错误，正确答案：${escapeHTML(result.answerLabel || "")}</div>`;
+  } else if (inNounStep) {
+    resultText = `<div class="pos-result is-correct">第一步正确：名词。继续判断当前主要义项的可数性。</div>`;
+  }
+  els.activeCard.innerHTML = `
+    <div class="pos-training-card">
+      <div class="pos-training-head">
+        <span class="pos-training-badge">词性辨析</span>
+        <span class="pos-training-source">${escapeHTML(sourceHint)}</span>
+      </div>
+      <h3 class="pos-training-term">${escapeHTML(word.term)}</h3>
+      <p class="pos-training-meaning">${escapeHTML(meaningWithoutPosLabels(word))}</p>
+      ${showNounQuestion
+        ? `<div class="pos-question-block"><h4>这是哪一种名词？</h4><p>按当前词库中的主要义项判断。</p><div class="pos-choice-grid noun-count-grid">${nounButtons}</div></div>`
+        : `<div class="pos-question-block"><h4>请选择正确词性</h4><p>只考名词、数词、形容词和副词；多词性模糊词已自动跳过。</p><div class="pos-choice-grid">${posButtons}</div></div>`}
+      ${resultText}
+      <div class="pos-training-actions">
+        <button class="secondary-button" data-card-action="pos-speak" type="button">播放读音</button>
+        <button class="secondary-button" data-card-action="pos-skip" type="button">跳过本题</button>
+      </div>
+      <p class="pos-training-note">名词答案包含：可数名词、不可数名词、两者均可。</p>
+    </div>`;
+}
+
 function renderMasteryBox(word) {
   const level = normalizeText(word.mastery || "未学");
   return `
@@ -3916,8 +4069,8 @@ function renderPlainListCard() {
 function renderActiveCard() {
   const word = activeWord();
   if (!word) {
-    const message = state.practiceMode === "forms" && state.words.length ? "当前没有可练的动词变形" : (state.words.length ? "现在没有到期词" : "先加入第一批单词");
-    const detail = state.practiceMode === "forms" && state.words.length ? "短语不会进入变形练习；可以切换 Word List 或添加单个动词" : (state.words.length ? "切到“新词记忆”或“全部抽查”继续" : "把你发来的单词和短语放进词库");
+    const message = state.practiceMode === "posClassify" && state.words.length ? "当前分组没有可辨析词条" : (state.practiceMode === "forms" && state.words.length ? "当前没有可练的动词变形" : (state.words.length ? "现在没有到期词" : "先加入第一批单词"));
+    const detail = state.practiceMode === "posClassify" && state.words.length ? "会自动跳过短语、多词性词和词性标注不明确的词条；可切换到“全部”或其他词库" : (state.practiceMode === "forms" && state.words.length ? "短语不会进入变形练习；可以切换 Word List 或添加单个动词" : (state.words.length ? "切到“新词记忆”或“全部抽查”继续" : "把你发来的单词和短语放进词库"));
     els.activeCard.innerHTML = `
       <div class="empty-card">
         <div>
@@ -3931,6 +4084,10 @@ function renderActiveCard() {
 
   const progress = activeModeProgress(word);
   const status = statusOf(word);
+  if (state.practiceMode === "posClassify") {
+    renderPosClassificationCard(word);
+    return;
+  }
   if (state.practiceMode === "plainList") {
     renderPlainListCard();
     return;
@@ -4207,6 +4364,62 @@ function bulkAdd() {
   showToast(`已加入 ${created.length} 个词条`);
 }
 
+function finishPosQuiz(word, correct, answerLabel, kind, selected) {
+  const completedAt = new Date();
+  if (!correct) word.important = true;
+  rememberReviewUndo(word, correct ? "remember" : "forgot");
+  scheduleNext(word, correct ? (modeProgress(word, "posClassify").stage < 0 ? "new" : "remember") : "forgot", { silent: true });
+  recordModeHistory(word, {
+    time: completedAt.toISOString(),
+    result: correct ? "pos-correct" : "pos-wrong",
+    nextReviewAt: modeProgress(word, "posClassify").nextReviewAt || "",
+    detail: `${kind}:${selected}`,
+  }, "posClassify");
+  word.updatedAt = completedAt.toISOString();
+  state.posQuizResult = { step: "done", kind, selected, correct, answerLabel, wordId: word.id };
+  saveWords();
+  renderActiveCard();
+  showToast(correct ? "回答正确" : `回答错误：${answerLabel}`);
+  window.setTimeout(() => {
+    if (state.practiceMode !== "posClassify" || state.posQuizResult?.wordId !== word.id) return;
+    state.posQuizResult = null;
+    state.answerVisible = false;
+    chooseActiveWord(true);
+    render();
+  }, correct ? 700 : 1200);
+}
+
+function answerPosClassification(word, selected) {
+  if (!guardEditable()) return;
+  if (state.posQuizResult) return;
+  const correctPos = primaryTargetPos(word);
+  const correct = selected === correctPos;
+  if (correct && correctPos === "noun") {
+    state.posQuizResult = { step: "noun", kind: "pos", selected, correct: true, wordId: word.id };
+    renderActiveCard();
+    showToast("词性正确，继续判断名词可数性");
+    return;
+  }
+  finishPosQuiz(word, correct, POS_CLASSIFY_LABELS[correctPos] || "词性未标注", "pos", selected);
+}
+
+function answerNounCountability(word, selected) {
+  if (!guardEditable()) return;
+  if (state.posQuizResult?.step !== "noun" || state.posQuizResult?.wordId !== word.id) return;
+  const correctValue = nounCountability(word);
+  finishPosQuiz(word, selected === correctValue, NOUN_COUNT_LABELS[correctValue], "noun", selected);
+}
+
+function skipPosQuiz(word) {
+  const queue = getQueue();
+  const currentIndex = queue.findIndex((item) => item.id === word.id);
+  const next = queue.length > 1 ? queue[(currentIndex + 1) % queue.length] : null;
+  state.posQuizResult = null;
+  state.answerVisible = false;
+  if (next && next.id !== word.id) setActiveId(next.id);
+  render();
+}
+
 function handleCardAction(action) {
   if (action === "new-mode") {
     setMode("new");
@@ -4233,6 +4446,22 @@ function handleCardAction(action) {
   }
   const word = activeWord();
   if (!word) {
+    return;
+  }
+  if (action.startsWith("pos-choice:")) {
+    answerPosClassification(word, action.slice("pos-choice:".length));
+    return;
+  }
+  if (action.startsWith("noun-choice:")) {
+    answerNounCountability(word, action.slice("noun-choice:".length));
+    return;
+  }
+  if (action === "pos-skip") {
+    skipPosQuiz(word);
+    return;
+  }
+  if (action === "pos-speak") {
+    speakTerm(word.term, { accent: "us" });
     return;
   }
   if (action === "speak") {
@@ -4952,7 +5181,7 @@ function wireEvents() {
   els.allModeButton.addEventListener("click", () => setMode("all"));
 }
 
-// v68：打开页面默认回到卡片模式。不会删除其它模式的进度，只是避免刷新后停在专项/旧模式。
+// v68：打开页面默认回到卡片模式；原专项训练入口已替换为词性辨析。
 state.practiceMode = "card";
 ensurePracticeSession("card");
 

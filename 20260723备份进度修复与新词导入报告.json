@@ -1,0 +1,14 @@
+{
+  "date": "2026-07-23",
+  "fix": "导入/恢复备份时按稳定ID与分组+词条匹配学习进度，第一次听写内容、第二次听写内容不再重置。",
+  "blueForest18": {
+    "total": 60,
+    "newUnique": 36,
+    "existingSupplemented": 24
+  },
+  "cet4_13": {
+    "total": 51,
+    "newUnique": 44,
+    "existingSupplemented": 7
+  }
+}

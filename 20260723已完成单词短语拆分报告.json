@@ -1,0 +1,12 @@
+{
+  "version": "v68",
+  "date": "2026-07-23",
+  "changes": [
+    "恢复今日安排",
+    "已完成按今日唯一词条统计",
+    "已完成拆分单词与短语",
+    "不再统计按钮操作次数"
+  ],
+  "dataChanged": false,
+  "progressChanged": false
+}

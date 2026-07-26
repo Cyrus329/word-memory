@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=68dailycompleted20260724">
+  <link rel="stylesheet" href="./styles.css?v=68posclassify20260725">
 </head>
 <body>
   <div class="app-shell">
@@ -126,22 +126,14 @@
             <button class="practice-button" data-practice-mode="dictation" type="button">听写</button>
             <button class="practice-button" data-practice-mode="forms" type="button">变形</button>
           </div>
-          <details class="special-practice-panel">
-            <summary>专项训练 / 旧模式</summary>
-            <div class="special-practice-note">默认不展开，避免主界面按钮重复。旧模式和新专项都保留进度，只是移到这里。</div>
-            <div class="practice-switch special-practice-switch" aria-label="专项训练和旧模式">
-              <button class="practice-button" data-practice-mode="plainList" type="button">纯文字速刷</button>
-              <button class="practice-button" data-practice-mode="multiMeaning" type="button">一词多义</button>
-              <button class="practice-button" data-practice-mode="rareMeaning" type="button">熟词僻义</button>
-              <button class="practice-button" data-practice-mode="fixedPhrase" type="button">固定搭配速记</button>
-              <button class="practice-button" data-practice-mode="spellingWeak" type="button">拼写易错</button>
-              <button class="practice-button" data-practice-mode="dictationWeak" type="button">听写错词</button>
-              <button class="practice-button old-mode" data-practice-mode="threeStep" type="button">三步背诵</button>
-              <button class="practice-button old-mode" data-practice-mode="enToZh" type="button">英译中</button>
-              <button class="practice-button old-mode" data-practice-mode="phrase" type="button">搭配填空</button>
+          <details class="special-practice-panel pos-practice-panel">
+            <summary>词性辨析</summary>
+            <div class="special-practice-note">先区分名词、数词、形容词和副词；选到名词后，再判断可数名词、不可数名词或两者均可。</div>
+            <div class="practice-switch special-practice-switch" aria-label="词性辨析训练">
+              <button class="practice-button pos-practice-start" data-practice-mode="posClassify" type="button">开始词性辨析</button>
             </div>
           </details>
-          <p class="mode-progress-note">默认进入卡片。重合功能已移到“专项训练 / 旧模式”，不再挤在主按钮区；所有历史存档仍保留。</p>
+          <p class="mode-progress-note">默认进入卡片。原专项训练入口已删除，词性辨析会自动跳过短语和词性标注不明确的词条。</p>
 
           <div class="dictation-tools" aria-label="听写设置">
             <label class="compact-select">
@@ -398,9 +390,9 @@
     <div class="gaze-zones"><span>已移除手指翻词</span><span>显示词义按钮已恢复</span><span>优先保证记忆记录稳定</span></div>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./library-folder-data.js?v=68phrase20260725"></script>
-  <script src="./word-data.js?v=68phrase20260725"></script>
-  <script src="./app.js?v=68phrase20260725"></script>
+  <script src="./library-folder-data.js?v=68import20260726"></script>
+  <script src="./word-data.js?v=68import20260726"></script>
+  <script src="./app.js?v=68posclassify20260725"></script>
   <script src="./folder-view.js?v=68phrase20260725"></script>
   <script src="./smart-vocab.js?v=68import20260724"></script>
   <script>
