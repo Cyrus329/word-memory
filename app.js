@@ -10,7 +10,116 @@ let mobileDbHydrated = false;
 const SETTINGS_KEY = "word-memory-trainer:settings:v1";
 const STUDY_TIME_KEY = "word-memory-trainer:study-time:v1";
 const DAILY_COMPLETED_KEY = "word-memory-trainer:daily-completed:v1";
+const CONTEXT_STUDY_KEY = "word-memory-trainer:context-study:v1";
 let dailyCompletedStore = loadDailyCompletedStore();
+let contextStudyStore = loadContextStudyStore();
+
+function normalizeContextStudyStore(value = {}) {
+  const source = value && typeof value === "object" ? value : {};
+  return Object.entries(source).reduce((out, [key, item]) => {
+    if (!key || !item || typeof item !== "object") return out;
+    const reviewCount = Math.max(0, Number(item.reviewCount) || 0);
+    const marked = Boolean(item.marked);
+    if (!marked && reviewCount <= 0) return out;
+    out[key] = {
+      term: normalizeText(item.term || ""),
+      sentence: normalizeText(item.sentence || ""),
+      translation: normalizeText(item.translation || ""),
+      marked,
+      reviewCount,
+      lastReviewedAt: normalizeText(item.lastReviewedAt || ""),
+      markedAt: normalizeText(item.markedAt || ""),
+    };
+    return out;
+  }, {});
+}
+
+function loadContextStudyStore() {
+  try {
+    return normalizeContextStudyStore(JSON.parse(localStorage.getItem(CONTEXT_STUDY_KEY) || "{}"));
+  } catch {
+    return {};
+  }
+}
+
+function saveContextStudyStore() {
+  try {
+    localStorage.setItem(CONTEXT_STUDY_KEY, JSON.stringify(normalizeContextStudyStore(contextStudyStore)));
+  } catch {
+    // The same data is also included in the compact mobile/cloud snapshot.
+  }
+}
+
+function mergeContextStudyStores(localValue = {}, incomingValue = {}) {
+  const localStore = normalizeContextStudyStore(localValue);
+  const incomingStore = normalizeContextStudyStore(incomingValue);
+  const merged = { ...localStore };
+  Object.entries(incomingStore).forEach(([key, item]) => {
+    const current = merged[key] || {};
+    merged[key] = {
+      term: item.term || current.term || "",
+      sentence: item.sentence || current.sentence || "",
+      translation: item.translation || current.translation || "",
+      marked: Boolean(current.marked || item.marked),
+      reviewCount: Math.max(Number(current.reviewCount) || 0, Number(item.reviewCount) || 0),
+      lastReviewedAt: [current.lastReviewedAt, item.lastReviewedAt].filter(Boolean).sort().pop() || "",
+      markedAt: [current.markedAt, item.markedAt].filter(Boolean).sort().pop() || "",
+    };
+  });
+  return normalizeContextStudyStore(merged);
+}
+
+function contextSentenceKey(term, sentence) {
+  const source = `${normalizeText(term).toLowerCase()}|${normalizeText(sentence).toLowerCase()}`;
+  let hash = 2166136261;
+  for (let index = 0; index < source.length; index += 1) {
+    hash ^= source.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return `ctx-${(hash >>> 0).toString(36)}`;
+}
+
+function contextStudyEntry(word, view) {
+  if (!word || !view?.sentenceText) return null;
+  const key = contextSentenceKey(word.term, view.sentenceText);
+  return { key, value: contextStudyStore[key] || null };
+}
+
+function recordContextReview(word, view) {
+  const entry = contextStudyEntry(word, view);
+  if (!entry) return;
+  const current = entry.value || {};
+  contextStudyStore[entry.key] = {
+    term: normalizeText(word.term),
+    sentence: normalizeText(view.sentenceText),
+    translation: normalizeText(view.translationText || ""),
+    marked: Boolean(current.marked),
+    reviewCount: (Number(current.reviewCount) || 0) + 1,
+    lastReviewedAt: new Date().toISOString(),
+    markedAt: normalizeText(current.markedAt || ""),
+  };
+  saveContextStudyStore();
+}
+
+function toggleContextSentenceMark(word, view) {
+  const entry = contextStudyEntry(word, view);
+  if (!entry) return false;
+  const current = entry.value || {};
+  const marked = !Boolean(current.marked);
+  contextStudyStore[entry.key] = {
+    term: normalizeText(word.term),
+    sentence: normalizeText(view.sentenceText),
+    translation: normalizeText(view.translationText || ""),
+    marked,
+    reviewCount: Math.max(1, Number(current.reviewCount) || 0),
+    lastReviewedAt: normalizeText(current.lastReviewedAt || new Date().toISOString()),
+    markedAt: marked ? new Date().toISOString() : "",
+  };
+  saveContextStudyStore();
+  saveWords();
+  return marked;
+}
+
 const REVIEW_STEPS = [
   { label: "20分钟", ms: 20 * 60 * 1000 },
   { label: "1小时", ms: 60 * 60 * 1000 },
@@ -209,6 +318,7 @@ const state = {
   formResult: null,
   revealStep: 0,
   contextIndex: 0,
+  contextExpanded: false,
   choiceResult: null,
   posQuizResult: null,
   lastAutoSpokenId: null,
@@ -281,7 +391,12 @@ function restorePracticeSession(mode, fallbackMode = state.mode) {
 }
 
 function setActiveId(id) {
-  state.activeId = id || null;
+  const nextId = id || null;
+  if (nextId !== state.activeId) {
+    state.contextExpanded = false;
+    state.contextIndex = 0;
+  }
+  state.activeId = nextId;
   ensurePracticeSession().activeId = state.activeId;
 }
 
@@ -1146,7 +1261,7 @@ function dedupeRuntimeWords(words) {
     const word = normalizeWord(item);
     const termKey = normalizeText(word.term).toLowerCase().replace(/[’‘`]/g,"'").replace(/\s+/g," ");
     if(!termKey) return;
-    const keepSeparate = /^dictation-[12]-/.test(normalizeText(word.id));
+    const keepSeparate = /^dictation-[123]-/.test(normalizeText(word.id));
     const key = keepSeparate ? `id:${normalizeText(word.id)}` : `term:${termKey}`;
     const existing = byTerm.get(key);
     if(existing) mergeRuntimeWord(existing, word);
@@ -1182,7 +1297,7 @@ function applyBuiltinWords(words) {
     const existing = existingById || byTerm.get(termKey);
     if (existing) {
       const previous = JSON.stringify(existing);
-      const isDictationBuiltin = /^dictation-[12]-/.test(builtinId);
+      const isDictationBuiltin = /^dictation-[123]-/.test(builtinId);
       if (isDictationBuiltin) {
         // 修复旧版听写存档：内容字段以当前资料为准，学习进度继续保留。
         existing.term = builtin.term;
@@ -1344,12 +1459,17 @@ function compactPayloadForStorage(words, options = {}) {
     compact: true,
     savedAt: new Date().toISOString(),
     dailyCompleted: normalizeDailyCompletedStore(dailyCompletedStore),
+    contextStudy: normalizeContextStudyStore(contextStudyStore),
     progress,
     customWords,
   };
 }
 
 function loadCompactWords(parsed) {
+  if (parsed?.contextStudy) {
+    contextStudyStore = mergeContextStudyStores(contextStudyStore, parsed.contextStudy);
+    saveContextStudyStore();
+  }
   if (parsed?.dailyCompleted) {
     dailyCompletedStore = mergeDailyCompletedStores(dailyCompletedStore, parsed.dailyCompleted);
     saveDailyCompletedStore();
@@ -1439,7 +1559,8 @@ function storedPayloadScore(payload) {
   if (!payload || typeof payload !== "object") return 0;
   if (payload.compact) {
     return (Array.isArray(payload.progress) ? payload.progress.length : 0)
-      + (Array.isArray(payload.customWords) ? payload.customWords.length : 0);
+      + (Array.isArray(payload.customWords) ? payload.customWords.length : 0)
+      + Object.keys(payload.contextStudy || {}).length;
   }
   return Array.isArray(payload)
     ? payload.length
@@ -1532,7 +1653,8 @@ function payloadHasStudyData(payload) {
   if (!payload || typeof payload !== "object") return false;
   if (payload.compact) {
     return (Array.isArray(payload.progress) && payload.progress.length > 0)
-      || (Array.isArray(payload.customWords) && payload.customWords.length > 0);
+      || (Array.isArray(payload.customWords) && payload.customWords.length > 0)
+      || Object.keys(payload.contextStudy || {}).length > 0;
   }
   return Array.isArray(payload) ? payload.length > 0 : Array.isArray(payload.words) && payload.words.length > 0;
 }
@@ -2630,6 +2752,7 @@ function resetTypingState() {
   state.formResult = null;
   state.revealStep = 0;
   state.contextIndex = 0;
+  state.contextExpanded = false;
   state.choiceResult = null;
   state.posQuizResult = null;
 }
@@ -3619,7 +3742,7 @@ function progressRootName(groupName = "") {
   if (/^Word List/.test(name)) return "Word List";
   if (/^四级/.test(name)) return "四级";
   if (/^短语练习/.test(name)) return "短语练习";
-  if (/^第[一二]次听写内容$|^听写内容/.test(name)) return "听写内容";
+  if (/^第[一二三]次听写内容$|^听写内容/.test(name)) return "听写内容";
   return "其他";
 }
 
@@ -4056,17 +4179,70 @@ function grammarResultHTML(result, correctLabel, word) {
     : `<div class="pos-result is-wrong">回答错误，正确答案：${escapeHTML(correctLabel || result.answerLabel || "")}${hint}</div>`;
 }
 
-function renderContextCard(word) {
+
+const CONTEXT_REVIEW_STOP_WORDS = new Set([
+  "the", "and", "for", "with", "from", "that", "this", "these", "those", "have", "has", "had", "was", "were", "will", "would", "could", "should", "into", "onto", "than", "then", "when", "where", "what", "which", "while", "about", "after", "before", "during", "their", "there", "they", "them", "your", "you", "our", "ours", "his", "her", "hers", "its", "are", "is", "am", "been", "being", "can", "may", "might", "must", "not", "but", "because", "also", "very", "more", "most", "some", "any", "each", "every", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"
+]);
+
+function contextVocabularyReviewWords(word, sentence) {
+  const target = normalizeText(word?.term || "").toLowerCase();
+  const source = ` ${normalizeText(sentence).toLowerCase().replace(/[’‘`]/g, "'")} `;
+  const matches = [];
+  const seen = new Set();
+  state.words.forEach((candidate) => {
+    const term = normalizeText(candidate?.term || "").toLowerCase().replace(/[’‘`]/g, "'");
+    if (!term || term === target || seen.has(term) || CONTEXT_REVIEW_STOP_WORDS.has(term)) return;
+    if (term.length < 3 && !term.includes(" ")) return;
+    const escaped = escapeRegExp(term).replace(/\\\s+/g, "\\s+");
+    if (!new RegExp(`(^|[^a-z0-9'’-])${escaped}(?=$|[^a-z0-9'’-])`, "i").test(source)) return;
+    seen.add(term);
+    const progress = modeProgress(candidate, "card");
+    matches.push({
+      term: candidate.term,
+      meaning: meaningSegments(candidate.meaning || candidate.phrase || "")[0] || "",
+      important: Boolean(candidate.important),
+      learned: Number(progress.stage) >= 0,
+      length: term.length,
+    });
+  });
+  return matches
+    .sort((a, b) => Number(b.important) - Number(a.important) || Number(b.learned) - Number(a.learned) || b.length - a.length)
+    .slice(0, 5);
+}
+
+function currentContextView(word) {
   const presenter = window.WordContextPresenter;
-  if (!presenter || typeof presenter.viewFor !== "function") return "";
+  if (!presenter || typeof presenter.viewFor !== "function") return null;
   const answered = Boolean(state.answerVisible || state.posQuizResult);
   const policy = presenter.contextPolicy(state.practiceMode, answered, state.revealStep);
-  if (!policy.showSentence) return "";
-  const view = window.WordContextPresenter.viewFor(word?.term, {
+  const view = presenter.viewFor(word?.term, {
     index: state.contextIndex,
     concealed: policy.concealed,
   });
-  if (!view.available) return "";
+  return view?.available ? { view, policy } : null;
+}
+
+function renderContextCard(word) {
+  const current = currentContextView(word);
+  if (!current) return "";
+  const { view, policy } = current;
+  const study = contextStudyEntry(word, view)?.value || {};
+  const markLabel = study.marked ? "★ 已标记" : "☆ 标记句子";
+  const reviewCount = Number(study.reviewCount) || 0;
+
+  if (!state.contextExpanded || !policy.showSentence) {
+    const locked = !policy.showSentence;
+    return `
+      <section class="memory-context-card is-collapsed ${locked ? "is-locked" : ""}" aria-label="单词语境">
+        <div class="memory-context-head">
+          <div>
+            <span>语境记忆</span>
+            <small>${locked ? "完成当前答题后才可展开" : `${view.count} 个专升本语境 · 默认收起`}</small>
+          </div>
+          <button class="memory-context-expand" type="button" data-card-action="context-toggle" ${locked ? "disabled" : ""}>${locked ? "答题后展开" : "手动展开"}</button>
+        </div>
+      </section>`;
+  }
 
   const sentenceTarget = view.sentence.concealed
     ? `<span class="memory-context-cloze">${view.sentence.target}</span>`
@@ -4083,16 +4259,30 @@ function renderContextCard(word) {
       <span>${view.index + 1} / ${view.count}</span>
       <button type="button" data-card-action="context-next" aria-label="下一个语境">›</button>
     </div>` : "";
-  const kindLabel = view.contextKind === "metalinguistic-fallback" ? "表达说明" : "语义例句";
+  const kindLabel = view.contextKind === "metalinguistic-fallback" ? "表达说明" : "专升本语境";
+  const reviewWords = contextVocabularyReviewWords(word, view.sentenceText);
+  const reviewHTML = reviewWords.length ? `
+    <div class="memory-context-review-words">
+      <b>本句同时复习词库词</b>
+      <div>${reviewWords.map((item) => `<span><strong>${escapeHTML(item.term)}</strong>${item.meaning ? ` · ${escapeHTML(item.meaning)}` : ""}</span>`).join("")}</div>
+    </div>` : `<div class="memory-context-review-words is-empty"><b>本句重点</b><span>先理解目标词，再切换下一条语境反复复习。</span></div>`;
 
   return `
     <section class="memory-context-card ${view.contextKind === "metalinguistic-fallback" ? "is-fallback" : ""}" aria-label="单词语境">
       <div class="memory-context-head">
-        <span>语境记忆 · ${kindLabel}</span>
-        ${navigation}
+        <div>
+          <span>语境记忆 · ${kindLabel}</span>
+          <small>${reviewCount ? `已复习 ${reviewCount} 次` : "首次复习"}</small>
+        </div>
+        <div class="memory-context-head-actions">
+          ${navigation}
+          <button class="memory-context-mark ${study.marked ? "is-marked" : ""}" type="button" data-card-action="context-mark">${markLabel}</button>
+          <button class="memory-context-collapse" type="button" data-card-action="context-toggle">收起</button>
+        </div>
       </div>
       <p class="memory-context-sentence">${view.sentence.before}${sentenceTarget}${view.sentence.after}</p>
       ${translation}
+      ${reviewHTML}
       <div class="memory-context-meta">
         <span>${escapeHTML(view.posLabel)}</span>
         <span>${escapeHTML(view.levelLabel)}</span>
@@ -4712,12 +4902,34 @@ function handleCardAction(action) {
   if (!word) {
     return;
   }
+  if (action === "context-toggle") {
+    const current = currentContextView(word);
+    if (!current?.policy?.showSentence) {
+      showToast("完成当前答题后再展开语境");
+      return;
+    }
+    state.contextExpanded = !state.contextExpanded;
+    if (state.contextExpanded) recordContextReview(word, current.view);
+    renderActiveCard();
+    return;
+  }
+  if (action === "context-mark") {
+    const current = currentContextView(word);
+    if (current) {
+      const marked = toggleContextSentenceMark(word, current.view);
+      showToast(marked ? "句子已标记，后续可重点复习" : "已取消句子标记");
+      renderActiveCard();
+    }
+    return;
+  }
   if (action === "context-prev" || action === "context-next") {
     const presenter = window.WordContextPresenter;
     const count = presenter?.contextsFor(word.term)?.records?.length || 0;
     if (count > 1) {
       const offset = action === "context-next" ? 1 : -1;
       state.contextIndex = presenter.normalizeIndex(state.contextIndex + offset, count);
+      const current = currentContextView(word);
+      if (current) recordContextReview(word, current.view);
       renderActiveCard();
     }
     return;
@@ -4959,6 +5171,7 @@ function exportWords() {
     exportedAt: new Date().toISOString(),
     studyTime: state.studyTime,
     dailyCompleted: normalizeDailyCompletedStore(dailyCompletedStore),
+    contextStudy: normalizeContextStudyStore(contextStudyStore),
     words: state.words,
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
@@ -4973,13 +5186,13 @@ function exportWords() {
 function isDictationWordRecord(word) {
   const id = normalizeText(word?.id || "");
   const groups = Array.isArray(word?.groups) ? word.groups : [];
-  return /^dictation-[12]-/.test(id) || groups.some((group) => /^第[一二]次听写内容$/.test(normalizeText(group)));
+  return /^dictation-[123]-/.test(id) || groups.some((group) => /^第[一二三]次听写内容$/.test(normalizeText(group)));
 }
 
 function dictationImportKey(word) {
   const group = (Array.isArray(word?.groups) ? word.groups : [])
     .map(normalizeText)
-    .find((item) => /^第[一二]次听写内容$/.test(item)) || "听写内容";
+    .find((item) => /^第[一二三]次听写内容$/.test(item)) || "听写内容";
   return `${group}|${normalizeText(word?.term || "").toLowerCase().replace(/[’‘`]/g, "'").replace(/\s+/g, " ")}`;
 }
 
@@ -5075,6 +5288,10 @@ async function importWords(event) {
     if (parsed.dailyCompleted) {
       dailyCompletedStore = mergeDailyCompletedStores(dailyCompletedStore, parsed.dailyCompleted);
       saveDailyCompletedStore();
+    }
+    if (parsed.contextStudy) {
+      contextStudyStore = mergeContextStudyStores(contextStudyStore, parsed.contextStudy);
+      saveContextStudyStore();
     }
     syncTodayCompletedFromHistories();
     saveWords();

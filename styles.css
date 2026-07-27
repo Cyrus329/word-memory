@@ -3303,3 +3303,91 @@ textarea:focus {
     min-height: 40px;
   }
 }
+
+
+/* v69.1：语境默认收起、词库联动复习和句子标记 */
+.memory-context-card.is-collapsed {
+  padding: 12px 14px;
+  background: linear-gradient(135deg, rgba(220, 239, 237, 0.58), rgba(255, 255, 255, 0.92));
+  box-shadow: none;
+}
+.memory-context-head > div:first-child {
+  display: grid;
+  gap: 3px;
+}
+.memory-context-head small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0;
+}
+.memory-context-expand,
+.memory-context-collapse,
+.memory-context-mark {
+  min-height: 38px;
+  padding: 7px 12px;
+  border: 1px solid rgba(18, 107, 103, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 900;
+}
+.memory-context-mark.is-marked {
+  border-color: rgba(190, 122, 26, 0.42);
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+.memory-context-head-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.memory-context-review-words {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px dashed rgba(18, 107, 103, 0.28);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.72);
+}
+.memory-context-review-words > b {
+  color: var(--teal);
+  font-size: 13px;
+}
+.memory-context-review-words > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.memory-context-review-words span {
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: var(--soft);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.memory-context-review-words strong {
+  color: var(--ink);
+}
+.memory-context-review-words.is-empty {
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+@media (max-width: 560px) {
+  .memory-context-head-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .memory-context-head {
+    flex-wrap: wrap;
+  }
+  .memory-context-mark,
+  .memory-context-collapse {
+    flex: 1 1 auto;
+  }
+}
