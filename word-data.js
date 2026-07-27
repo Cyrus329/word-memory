@@ -1,4 +1,4 @@
-// v68 2026-07-26：新增短语练习8共10条；继续导入蓝色森林21、四级16；保留词性辨析、跨设备每日完成与手机双存档。
+// v69 2026-07-27：专升本题型语境校正；新增短语练习9、蓝色森林22、四级17、第三次听写内容。
 window.WORD_MEMORY_WORDS = [
   {
     "id": "word-list-1-001",
@@ -1666,20 +1666,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "listen",
     "meaning": "v. 听；收听；听从；n. 听；倾听",
     "phrase": "listen to 倾听；聆听",
-    "note": "/'lisn/",
+    "note": "/'lisn/；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 2 / 感官与语言交流",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-08T10:44:42",
-    "updatedAt": "2026-06-08T10:44:42",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 2"
+      "Word List 2",
+      "蓝色森林 22"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -2209,20 +2211,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "paragraph",
     "meaning": "n. 段落；节；v. 把……分段",
     "phrase": "",
-    "note": "/'pærəgræf/",
+    "note": "/'pærəgræf/；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 2 / 感官与语言交流",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-08T10:44:42",
-    "updatedAt": "2026-06-08T10:44:42",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 2"
+      "Word List 2",
+      "蓝色森林 22"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -2838,20 +2842,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "young",
     "meaning": "adj. 幼小的；年轻的；n. 年轻人；青年人；幼崽；幼兽",
     "phrase": "",
-    "note": "/jʌŋ/",
+    "note": "/jʌŋ/；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 3 / 能力生活与自然",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-09T14:56:23",
-    "updatedAt": "2026-06-09T14:56:23",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 3"
+      "Word List 3",
+      "蓝色森林 22"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -3211,20 +3217,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "animal",
     "meaning": "n. 动物；牲畜；adj. 动物的",
     "phrase": "",
-    "note": "/'ænɪml/",
+    "note": "/'ænɪml/；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 3 / 能力生活与自然",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-09T14:56:23",
-    "updatedAt": "2026-06-09T14:56:23",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 3"
+      "Word List 3",
+      "蓝色森林 22"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -4306,20 +4314,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "after",
     "meaning": "prep. 在……之后；紧接着；在……身后；conj. 在……以后；adv. 后来；以后",
     "phrase": "",
-    "note": "/'a:ftə(r)/",
+    "note": "/'a:ftə(r)/；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 4 / 时间进程与方位",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-11T09:28:39",
-    "updatedAt": "2026-06-11T09:28:39",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 4"
+      "Word List 4",
+      "蓝色森林 22"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "source": "Word List"
   },
@@ -7724,11 +7734,15 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级 17"
     ],
     "sources": [
-      "蓝色森林"
-    ]
+      "蓝色森林",
+      "四级"
+    ],
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。"
   },
   {
     "id": "blue-forest-b2-032",
@@ -13117,21 +13131,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "record",
     "meaning": "记录；作名词可指纪录，作动词可指录音/记录。；v. 记录，记载；n. 记录，唱片。",
     "phrase": "hold the world record / record the meeting；hold the world record 保持世界纪录；record the meeting 记录会议",
-    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "全方位 1 / 单词课补全",
     "source": "全方位",
     "sources": [
-      "全方位"
+      "全方位",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-27T15:32:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "全方位 1"
+      "全方位 1",
+      "蓝色森林 22"
     ],
     "forms": {}
   },
@@ -17127,21 +17143,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "beach",
     "meaning": "n. 海滩；湖滨；v. 上岸；搁浅",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+    "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "四级 3 / 黑背景新导入",
     "source": "四级",
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "四级 3"
+      "四级 3",
+      "蓝色森林 22"
     ]
   },
   {
@@ -19964,7 +19982,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "substance",
     "meaning": "n. 物质；实质；要旨",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。；来源：2026-07-26 上传资料；归入四级 16。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。；来源：2026-07-26 上传资料；归入四级 16；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "蓝色森林 4 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
@@ -19976,11 +19994,12 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-07-26T08:10:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
       "蓝色森林 4",
-      "四级 16"
+      "四级 16",
+      "蓝色森林 22"
     ]
   },
   {
@@ -31375,7 +31394,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "appreciate",
     "meaning": "v. 赏识；重视；欣赏；感激",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31383,15 +31402,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 11"
+      "Word List 11",
+      "四级 17"
     ]
   },
   {
@@ -31423,7 +31444,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "appreciation",
     "meaning": "n. 感谢；欣赏",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31431,15 +31452,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 11"
+      "Word List 11",
+      "四级 17"
     ]
   },
   {
@@ -31447,7 +31470,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "gratitude",
     "meaning": "n. 感激；感谢",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31455,15 +31478,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:30:00+08:00",
-    "updatedAt": "2026-06-27T15:30:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 11"
+      "Word List 11",
+      "四级 17"
     ]
   },
   {
@@ -31471,7 +31496,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "grateful",
     "meaning": "adj. 感激的；感谢的",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31479,15 +31504,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 11"
+      "Word List 11",
+      "四级 17"
     ]
   },
   {
@@ -32137,7 +32164,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "believe",
     "meaning": "v. 相信；认定；看作",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -32145,15 +32172,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 11"
+      "Word List 11",
+      "四级 17"
     ]
   },
   {
@@ -32206,7 +32235,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "belief",
     "meaning": "n. 相信；信仰；信任",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -32214,15 +32243,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 11"
+      "Word List 11",
+      "四级 17"
     ]
   },
   {
@@ -35986,7 +36017,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "soul",
     "meaning": "n. 灵魂；精神",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。；来源：2026-07-26 上传资料；归入蓝色森林 21。",
+    "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。；来源：2026-07-26 上传资料；归入蓝色森林 21；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 15 / Word List",
     "source": "Word List",
     "status": "new",
@@ -35994,7 +36025,7 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-07-26T08:10:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
       "Word List",
@@ -36004,7 +36035,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15",
-      "蓝色森林 21"
+      "蓝色森林 21",
+      "蓝色森林 22"
     ]
   },
   {
@@ -36379,7 +36411,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "boat",
     "meaning": "n. 舟；小船；帆船；v. 荡舟；乘船游乐",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 15｜按原页顺序重整 v33；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 15 / Word List",
     "source": "Word List",
     "status": "new",
@@ -36387,15 +36419,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 15"
+      "Word List 15",
+      "蓝色森林 22"
     ]
   },
   {
@@ -44500,7 +44534,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "cinema",
     "meaning": "n. 电影院",
     "phrase": "",
-    "note": "来源：蓝色森林词本｜Word List 18｜2026-06-28 图片导入 v42。",
+    "note": "来源：蓝色森林词本｜Word List 18｜2026-06-28 图片导入 v42；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "Word List 18 / 蓝色森林词本",
     "source": "Word List",
     "sources": [
@@ -44512,12 +44546,13 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 18"
+      "Word List 18",
+      "蓝色森林 22"
     ]
   },
   {
@@ -47991,23 +48026,25 @@ window.WORD_MEMORY_WORDS = [
     "term": "era",
     "meaning": "n. 时代，年代，时期",
     "phrase": "",
-    "note": "/ˈɪərə/；来源：2026-06-29 图片导入 v43。",
+    "note": "/ˈɪərə/；来源：2026-06-29 图片导入 v43；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "四级 6 / 四级截图补充",
     "source": "四级",
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-29T14:05:00+08:00",
-    "updatedAt": "2026-06-29T14:05:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "四级 6"
+      "四级 6",
+      "蓝色森林 22"
     ]
   },
   {
@@ -50879,7 +50916,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "beside",
     "meaning": "prep. 在……旁边",
     "phrase": "",
-    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
@@ -50890,12 +50927,13 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-14T16:30:00+08:00",
-    "updatedAt": "2026-07-14T16:30:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
+      "蓝色森林 11",
+      "蓝色森林 22"
     ]
   },
   {
@@ -54215,23 +54253,25 @@ window.WORD_MEMORY_WORDS = [
     "term": "precious",
     "meaning": "adj. 珍贵的，宝贵的",
     "phrase": "",
-    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-14T16:30:00+08:00",
-    "updatedAt": "2026-07-14T16:30:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
+      "蓝色森林 11",
+      "四级 17"
     ]
   },
   {
@@ -69999,20 +70039,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "almost",
     "meaning": "adv. 几乎",
     "phrase": "",
-    "note": "来源：第二次听写内容；原资料序号 7。按原资料逐条完整录入。",
+    "note": "来源：第二次听写内容；原资料序号 7。按原资料逐条完整录入；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "第二次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-22T16:00:00+08:00",
-    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "第二次听写内容"
+      "第二次听写内容",
+      "蓝色森林 22"
     ],
     "sources": [
-      "听写内容"
+      "听写内容",
+      "蓝色森林"
     ],
     "source": "听写内容"
   },
@@ -72849,20 +72891,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "council",
     "meaning": "n. 委员会；理事会",
     "phrase": "",
-    "note": "来源：2026-07-23 新词导入；归入四级 13。已有词仅补充分组，不重复生成。",
+    "note": "来源：2026-07-23 新词导入；归入四级 13。已有词仅补充分组，不重复生成；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "四级 13 / 四级",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-23T08:45:00+08:00",
-    "updatedAt": "2026-07-23T08:45:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "四级 13"
+      "四级 13",
+      "蓝色森林 22"
     ],
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "source": "四级"
   },
@@ -73731,20 +73775,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "blow",
     "meaning": "v. 吹；吹动；吹奏；爆炸；n. 打击；吹风；重击",
     "phrase": "",
-    "note": "来源：2026-07-24 图片导入；归入蓝色森林 19。已有词仅补充分组，不重复生成。",
+    "note": "来源：2026-07-24 图片导入；归入蓝色森林 19。已有词仅补充分组，不重复生成；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "蓝色森林 19 / 蓝色森林",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-24T08:00:00+08:00",
-    "updatedAt": "2026-07-24T08:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 19"
+      "蓝色森林 19",
+      "四级 17"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "source": "蓝色森林"
   },
@@ -76641,20 +76687,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "ready",
     "meaning": "adj. 准备好的；现成的；乐意的",
     "phrase": "",
-    "note": "来源：2026-07-25 英语四级截图；归入四级 15。已有词仅补充分组，不重复生成。",
+    "note": "来源：2026-07-25 英语四级截图；归入四级 15。已有词仅补充分组，不重复生成；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
     "tag": "四级 15 / 四级",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-25T10:04:00+08:00",
-    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "四级 15"
+      "四级 15",
+      "蓝色森林 22"
     ],
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "source": "四级"
   },
@@ -78863,17 +78911,18 @@ window.WORD_MEMORY_WORDS = [
     "term": "grief",
     "meaning": "n. 悲痛；悲伤；忧伤",
     "phrase": "",
-    "note": "来源：2026-07-26 上传资料；归入四级 16。",
+    "note": "来源：2026-07-26 上传资料；归入四级 16；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
     "tag": "四级 16 / 四级",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-26T08:10:00+08:00",
-    "updatedAt": "2026-07-26T08:10:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
     "history": [],
     "groups": [
-      "四级 16"
+      "四级 16",
+      "四级 17"
     ],
     "sources": [
       "四级"
@@ -79803,5 +79852,3693 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级"
+  },
+  {
+    "id": "phrase-practice-9-001",
+    "term": "in the bed",
+    "meaning": "在床上",
+    "phrase": "My cat is sleeping in the bed. 我的猫正在床上睡觉。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "My cat is sleeping in the bed.",
+    "contextTranslation": "我的猫正在床上睡觉。"
+  },
+  {
+    "id": "phrase-practice-9-002",
+    "term": "day and night",
+    "meaning": "日以继夜；日日夜夜",
+    "phrase": "The doctors worked day and night to save the patient. 医生们日以继夜地工作以挽救病人。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "The doctors worked day and night to save the patient.",
+    "contextTranslation": "医生们日以继夜地工作以挽救病人。"
+  },
+  {
+    "id": "phrase-practice-9-003",
+    "term": "face to face",
+    "meaning": "面对面",
+    "phrase": "We talked face to face after class. 课后我们面对面交谈。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "We talked face to face after class.",
+    "contextTranslation": "课后我们面对面交谈。"
+  },
+  {
+    "id": "phrase-practice-9-004",
+    "term": "in time",
+    "meaning": "及时",
+    "phrase": "We arrived at the station in time for the train. 我们及时赶到车站，赶上了火车。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "We arrived at the station in time for the train.",
+    "contextTranslation": "我们及时赶到车站，赶上了火车。"
+  },
+  {
+    "id": "phrase-practice-9-005",
+    "term": "on time",
+    "meaning": "准时",
+    "phrase": "Please arrive at school on time. 请准时到校。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "Please arrive at school on time.",
+    "contextTranslation": "请准时到校。"
+  },
+  {
+    "id": "phrase-practice-9-006",
+    "term": "all the time",
+    "meaning": "一直；始终",
+    "phrase": "She listens to English programs all the time. 她一直听英语节目。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "She listens to English programs all the time.",
+    "contextTranslation": "她一直听英语节目。"
+  },
+  {
+    "id": "phrase-practice-9-007",
+    "term": "at the same time",
+    "meaning": "同时；与此同时",
+    "phrase": "She can study and work at the same time. 她可以同时学习和工作。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "She can study and work at the same time.",
+    "contextTranslation": "她可以同时学习和工作。"
+  },
+  {
+    "id": "phrase-practice-9-008",
+    "term": "by the way",
+    "meaning": "顺便说一下；顺带一提",
+    "phrase": "By the way, have you finished your application form? 顺便问一下，你填完申请表了吗？",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "By the way, have you finished your application form?",
+    "contextTranslation": "顺便问一下，你填完申请表了吗？"
+  },
+  {
+    "id": "phrase-practice-9-009",
+    "term": "at an early age",
+    "meaning": "在年少时",
+    "phrase": "She started learning English at an early age. 她很小的时候就开始学习英语。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "She started learning English at an early age.",
+    "contextTranslation": "她很小的时候就开始学习英语。"
+  },
+  {
+    "id": "phrase-practice-9-010",
+    "term": "in an emergency",
+    "meaning": "在紧急情况下",
+    "phrase": "Please call 120 in an emergency. 紧急情况下请拨打120。",
+    "note": "来源：2026-07-27 蓝色森林短语卡片；归入短语练习 9。",
+    "tag": "短语练习 9 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 9"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "Please call 120 in an emergency.",
+    "contextTranslation": "紧急情况下请拨打120。"
+  },
+  {
+    "id": "blue-20260727-22-002",
+    "term": "target",
+    "meaning": "n. 目标；靶子；对象；vt. 把……作为目标；瞄准",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-004",
+    "term": "shine",
+    "meaning": "vi. 发光；照耀；出众；vt. 擦亮；使发光",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-006",
+    "term": "incidence",
+    "meaning": "n. 发生率；影响范围；入射角",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-007",
+    "term": "people",
+    "meaning": "n. 人；人们；民族；平民；vt. 居住在；使住满人",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-008",
+    "term": "solemn",
+    "meaning": "adj. 严肃的；庄重的；郑重的",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-009",
+    "term": "thrive",
+    "meaning": "vi. 茁壮成长；兴旺；蓬勃发展",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-010",
+    "term": "perfect",
+    "meaning": "adj. 完美的；完全的；精通的；v. 使完美；完善",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-011",
+    "term": "cling",
+    "meaning": "vi. 紧握；粘附；坚持（信念）",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-013",
+    "term": "sympathy",
+    "meaning": "n. 同情；慰问；赞同；支持",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-014",
+    "term": "cohesion",
+    "meaning": "n. 结合；凝聚力；内聚力",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-015",
+    "term": "anew",
+    "meaning": "adv. 重新；再次",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-016",
+    "term": "wed",
+    "meaning": "vt. 与……结婚；使结合；vi. 结婚",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-018",
+    "term": "autumn",
+    "meaning": "n. 秋天；秋季；adj. 秋天的；秋季的",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-019",
+    "term": "struggle",
+    "meaning": "vi. 奋斗；挣扎；努力；vt. 使劲移动；搏斗",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-022",
+    "term": "horse",
+    "meaning": "n. 马；鞍马；v. 胡闹；为……备马",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-023",
+    "term": "because",
+    "meaning": "conj. 因为；由于",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-024",
+    "term": "biscuit",
+    "meaning": "n. 饼干；松饼",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-025",
+    "term": "queen",
+    "meaning": "n. 女王；王后；杰出女性；vt. 立……为女王",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-027",
+    "term": "sense",
+    "meaning": "n. 感觉；意识；意义；感官；vt. 感觉到；意识到；检测到",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-029",
+    "term": "laboratory",
+    "meaning": "n. 实验室；实验大楼；研究工作",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-030",
+    "term": "other",
+    "meaning": "adj. 其他的；另外的；pron. 另一个；其他人",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-031",
+    "term": "across",
+    "meaning": "prep. 穿过；横过；在……对面；adv. 到对面；横过地",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-034",
+    "term": "already",
+    "meaning": "adv. 已经；早已；先前",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-035",
+    "term": "also",
+    "meaning": "adv. 也；同样；此外",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-037",
+    "term": "stool",
+    "meaning": "n. 凳子；粪便；v. 排便；植物长出根茎",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-038",
+    "term": "fulfil",
+    "meaning": "vt. 履行；实现；满足",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-039",
+    "term": "at",
+    "meaning": "prep. 在（时间/地点）；处于（状态）；以（方式/速度）；针对",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-041",
+    "term": "dare",
+    "meaning": "v. 敢；胆敢；向……挑战；n. 挑战；激将",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-043",
+    "term": "deaf",
+    "meaning": "adj. 聋的；不愿听的；n. 聋人",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-044",
+    "term": "death",
+    "meaning": "n. 死亡；逝世；毁灭；结束",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-045",
+    "term": "decide",
+    "meaning": "vt. 决定；裁决；vi. 做出决定；选定",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-047",
+    "term": "delicious",
+    "meaning": "adj. 美味的；令人愉快的",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-049",
+    "term": "themselves",
+    "meaning": "pron. 他们自己；他们亲自",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "blue-20260727-22-050",
+    "term": "cashier",
+    "meaning": "n. 收银员；出纳员；vt. 解雇；撤职",
+    "phrase": "",
+    "note": "来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "tag": "蓝色森林 22 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 22"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林"
+  },
+  {
+    "id": "cet4-20260727-17-001",
+    "term": "treasure",
+    "meaning": "n. 金银财宝；珍品；心肝宝贝；vt. 珍视；珍惜",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-003",
+    "term": "beloved",
+    "meaning": "adj. 钟爱的；挚爱的；n. 心爱的人",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-004",
+    "term": "cherish",
+    "meaning": "vt. 珍爱；珍惜；怀有（希望等）",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-008",
+    "term": "employment",
+    "meaning": "n. 在职；就业；雇用；使用",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-009",
+    "term": "unemployment",
+    "meaning": "n. 失业人数；失业状态；失业救济",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-010",
+    "term": "unemployed",
+    "meaning": "adj. 未受雇的；失业的",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-011",
+    "term": "luxury",
+    "meaning": "n. 奢侈；奢侈品；难得的享受",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-012",
+    "term": "luxurious",
+    "meaning": "adj. 舒适豪华的；奢侈的",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-013",
+    "term": "retirement",
+    "meaning": "n. 退休；退休生活；退役",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-014",
+    "term": "retired",
+    "meaning": "adj. 退休的；退役的",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-015",
+    "term": "employ",
+    "meaning": "vt. 雇用；使用；运用",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-016",
+    "term": "employee",
+    "meaning": "n. 雇员",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-017",
+    "term": "employer",
+    "meaning": "n. 雇主",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-018",
+    "term": "fireman",
+    "meaning": "n. 消防队员",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-019",
+    "term": "fireplace",
+    "meaning": "n. 壁炉；火炉",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-020",
+    "term": "firework",
+    "meaning": "n. 烟花；烟花表演；情绪激烈的话语",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-021",
+    "term": "hire",
+    "meaning": "vt. 租用；租借；临时雇用；n. 租用；新员工",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-022",
+    "term": "retire",
+    "meaning": "vi./vt. （使）退休；退出；离开",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-023",
+    "term": "bumper",
+    "meaning": "n. 保险杠；adj. 特大的；丰收的",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-024",
+    "term": "pump",
+    "meaning": "n. 泵；抽水机；打气筒；vt. 用泵输送；快速提问",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-025",
+    "term": "lump",
+    "meaning": "n. 块；肿块；一大笔；vt. 把……归并一起",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-026",
+    "term": "shot",
+    "meaning": "n. 射击；照片；机会；注射；adj. 破旧的",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-027",
+    "term": "fire",
+    "meaning": "n. 火；火灾；射击；vt. 开火；解雇",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-028",
+    "term": "exploration",
+    "meaning": "n. 探索；勘探；研究",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-029",
+    "term": "exploit",
+    "meaning": "vt. 利用；开发；剥削；n. 英勇行为",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-030",
+    "term": "exploitation",
+    "meaning": "n. 利用；开发；剥削",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-031",
+    "term": "bomb",
+    "meaning": "n. 炸弹；轰动性失败；vt. 轰炸；失败",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-032",
+    "term": "bump",
+    "meaning": "vt./vi. 碰撞；颠簸而行；n. 碰撞；肿块",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-034",
+    "term": "explode",
+    "meaning": "vi./vt. 爆炸；激增；勃然大怒",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-035",
+    "term": "explosion",
+    "meaning": "n. 爆炸；激增；爆发",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-036",
+    "term": "explosive",
+    "meaning": "adj. 爆炸性的；易爆的；n. 炸药",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-037",
+    "term": "explore",
+    "meaning": "vt./vi. 探索；探究；勘查",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-038",
+    "term": "granted",
+    "meaning": "adv./conj. 诚然；假定",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-039",
+    "term": "grind",
+    "meaning": "vt./vi. 磨碎；折磨；苦干；n. 苦差事",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-040",
+    "term": "polish",
+    "meaning": "vt./vi. 擦亮；润色；n. 光泽；波兰语",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-041",
+    "term": "burst",
+    "meaning": "vi./vt. 爆裂；爆发；n. 爆发；突发",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-042",
+    "term": "blast",
+    "meaning": "n. 爆炸；冲击波；一阵；vt. 炸毁；猛烈抨击",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-047",
+    "term": "grant",
+    "meaning": "vt. 授予；准予；承认；n. 拨款；补助金",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-048",
+    "term": "grieve",
+    "meaning": "vt./vi. 使悲伤；悲痛；哀悼",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-049",
+    "term": "grievous",
+    "meaning": "adj. 极其严重的；令人痛苦的",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-051",
+    "term": "relieve",
+    "meaning": "vt. 减轻；解除；缓解",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "cet4-20260727-17-052",
+    "term": "relief",
+    "meaning": "n. 宽慰；减轻；救济",
+    "phrase": "",
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+    "tag": "四级 17 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 17"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级"
+  },
+  {
+    "id": "dictation-3-001",
+    "term": "have an effect on",
+    "meaning": "对……产生影响",
+    "phrase": "Regular exercise can have an effect on students' physical condition. 规律锻炼会影响学生的身体状况。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 1；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Regular exercise can have an effect on students' physical condition.",
+    "contextTranslation": "规律锻炼会影响学生的身体状况。"
+  },
+  {
+    "id": "dictation-3-002",
+    "term": "have an influence on",
+    "meaning": "对……产生影响",
+    "phrase": "Family education may have an influence on a child's future development. 家庭教育可能会影响孩子未来的发展。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 2；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Family education may have an influence on a child's future development.",
+    "contextTranslation": "家庭教育可能会影响孩子未来的发展。"
+  },
+  {
+    "id": "dictation-3-003",
+    "term": "have a positive effect on",
+    "meaning": "对……产生积极影响",
+    "phrase": "Reading every day can have a positive effect on language learning. 每天阅读会对语言学习产生积极影响。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 3；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Reading every day can have a positive effect on language learning.",
+    "contextTranslation": "每天阅读会对语言学习产生积极影响。"
+  },
+  {
+    "id": "dictation-3-004",
+    "term": "have a negative effect on",
+    "meaning": "对……产生消极影响",
+    "phrase": "Staying up late may have a negative effect on your health. 熬夜可能对健康产生消极影响。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 4；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Staying up late may have a negative effect on your health.",
+    "contextTranslation": "熬夜可能对健康产生消极影响。"
+  },
+  {
+    "id": "dictation-3-005",
+    "term": "have a deep effect on",
+    "meaning": "对……产生深刻影响",
+    "phrase": "The volunteer experience had a deep effect on her choice of career. 志愿服务经历对她的职业选择产生了深刻影响。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 5；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The volunteer experience had a deep effect on her choice of career.",
+    "contextTranslation": "志愿服务经历对她的职业选择产生了深刻影响。"
+  },
+  {
+    "id": "dictation-3-006",
+    "term": "succeed in doing sth.",
+    "meaning": "成功做到某事",
+    "phrase": "She succeeded in solving the problem after several attempts. 多次尝试后，她成功解决了这个问题。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 6；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "She succeeded in solving the problem after several attempts.",
+    "contextTranslation": "多次尝试后，她成功解决了这个问题。"
+  },
+  {
+    "id": "dictation-3-007",
+    "term": "refuse to do sth.",
+    "meaning": "拒绝做某事",
+    "phrase": "The student refused to copy the answer in the examination. 那名学生拒绝在考试中抄答案。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 7；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The student refused to copy the answer in the examination.",
+    "contextTranslation": "那名学生拒绝在考试中抄答案。"
+  },
+  {
+    "id": "dictation-3-008",
+    "term": "be interested in (doing) sth.",
+    "meaning": "对（做）……感兴趣",
+    "phrase": "Many college students are interested in taking part in social practice. 许多大学生对参加社会实践感兴趣。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 8；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Many college students are interested in taking part in social practice.",
+    "contextTranslation": "许多大学生对参加社会实践感兴趣。"
+  },
+  {
+    "id": "dictation-3-009",
+    "term": "not...until...",
+    "meaning": "直到……才……",
+    "phrase": "He did not realize the importance of time until he entered college. 直到进入大学，他才意识到时间的重要性。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 9；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "He did not realize the importance of time until he entered college.",
+    "contextTranslation": "直到进入大学，他才意识到时间的重要性。"
+  },
+  {
+    "id": "dictation-3-010",
+    "term": "necessary",
+    "meaning": "adj. 必要的",
+    "phrase": "It is necessary for students to review what they have learned in time. 学生及时复习所学内容是必要的。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 10；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "It is necessary for students to review what they have learned in time.",
+    "contextTranslation": "学生及时复习所学内容是必要的。"
+  },
+  {
+    "id": "dictation-3-011",
+    "term": "necessity",
+    "meaning": "n. 必要性；必需品",
+    "phrase": "The passage stresses the necessity of protecting personal information online. 文章强调了在网上保护个人信息的必要性。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 11；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The passage stresses the necessity of protecting personal information online.",
+    "contextTranslation": "文章强调了在网上保护个人信息的必要性。"
+  },
+  {
+    "id": "dictation-3-012",
+    "term": "daily necessities",
+    "meaning": "日常用品；生活必需品",
+    "phrase": "The supermarket provides basic daily necessities for nearby residents. 这家超市为附近居民提供基本生活必需品。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 12；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The supermarket provides basic daily necessities for nearby residents.",
+    "contextTranslation": "这家超市为附近居民提供基本生活必需品。"
+  },
+  {
+    "id": "dictation-3-013",
+    "term": "set limits on",
+    "meaning": "对……采取限制",
+    "phrase": "Schools should set limits on the time students spend on mobile phones. 学校应限制学生使用手机的时间。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 13；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Schools should set limits on the time students spend on mobile phones.",
+    "contextTranslation": "学校应限制学生使用手机的时间。"
+  },
+  {
+    "id": "dictation-3-014",
+    "term": "wait for sb.",
+    "meaning": "等待某人",
+    "phrase": "I waited for my classmate at the school gate after class. 下课后我在校门口等同学。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 14；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "I waited for my classmate at the school gate after class.",
+    "contextTranslation": "下课后我在校门口等同学。"
+  },
+  {
+    "id": "dictation-3-015",
+    "term": "stand against",
+    "meaning": "倚靠在",
+    "phrase": "He stood against the wall while waiting for the interview. 等候面试时，他靠墙站着。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 15；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "He stood against the wall while waiting for the interview.",
+    "contextTranslation": "等候面试时，他靠墙站着。"
+  },
+  {
+    "id": "dictation-3-016",
+    "term": "lean against",
+    "meaning": "倚靠在",
+    "phrase": "The bicycle was leaning against a tree outside the library. 自行车靠在图书馆外的一棵树上。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 16；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The bicycle was leaning against a tree outside the library.",
+    "contextTranslation": "自行车靠在图书馆外的一棵树上。"
+  },
+  {
+    "id": "dictation-3-017",
+    "term": "instead of (doing) sth.",
+    "meaning": "而不是做某事",
+    "phrase": "Students should learn to solve problems independently instead of depending on others. 学生应学会独立解决问题，而不是依赖他人。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 17；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Students should learn to solve problems independently instead of depending on others.",
+    "contextTranslation": "学生应学会独立解决问题，而不是依赖他人。"
+  },
+  {
+    "id": "dictation-3-018",
+    "term": "rather than",
+    "meaning": "而不是",
+    "phrase": "The writer suggests taking action rather than making empty promises. 作者建议采取行动，而不是只作空洞承诺。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 18；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The writer suggests taking action rather than making empty promises.",
+    "contextTranslation": "作者建议采取行动，而不是只作空洞承诺。"
+  },
+  {
+    "id": "dictation-3-019",
+    "term": "devote oneself to doing sth.",
+    "meaning": "致力于做某事",
+    "phrase": "She devoted herself to improving education in rural areas. 她致力于改善农村地区的教育。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 19；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "She devoted herself to improving education in rural areas.",
+    "contextTranslation": "她致力于改善农村地区的教育。"
+  },
+  {
+    "id": "dictation-3-020",
+    "term": "devote sth. to doing sth.",
+    "meaning": "把……用于做某事",
+    "phrase": "He devotes most of his spare time to preparing for the entrance examination. 他把大部分空闲时间用于准备升学考试。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 20；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "He devotes most of his spare time to preparing for the entrance examination.",
+    "contextTranslation": "他把大部分空闲时间用于准备升学考试。"
+  },
+  {
+    "id": "dictation-3-021",
+    "term": "be devoted to sth./doing sth.",
+    "meaning": "致力于某事/做某事",
+    "phrase": "The young teacher is devoted to helping students in need. 这位年轻教师致力于帮助有需要的学生。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 21；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The young teacher is devoted to helping students in need.",
+    "contextTranslation": "这位年轻教师致力于帮助有需要的学生。"
+  },
+  {
+    "id": "dictation-3-022",
+    "term": "in one's spare time",
+    "meaning": "在某人空闲时间",
+    "phrase": "In her spare time, she reads English newspapers to enlarge her vocabulary. 空闲时，她阅读英文报纸来扩大词汇量。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 22；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "In her spare time, she reads English newspapers to enlarge her vocabulary.",
+    "contextTranslation": "空闲时，她阅读英文报纸来扩大词汇量。"
+  },
+  {
+    "id": "dictation-3-023",
+    "term": "in one's free time",
+    "meaning": "在某人空闲时间",
+    "phrase": "Many students exercise in their free time to keep healthy. 许多学生在空闲时间锻炼以保持健康。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 23；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Many students exercise in their free time to keep healthy.",
+    "contextTranslation": "许多学生在空闲时间锻炼以保持健康。"
+  },
+  {
+    "id": "dictation-3-024",
+    "term": "put off",
+    "meaning": "推迟；延迟",
+    "phrase": "Do not put off today's work until tomorrow. 不要把今天的工作推到明天。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 24；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Do not put off today's work until tomorrow.",
+    "contextTranslation": "不要把今天的工作推到明天。"
+  },
+  {
+    "id": "dictation-3-025",
+    "term": "defer",
+    "meaning": "v. 推迟；延缓",
+    "phrase": "The meeting was deferred because several members were absent. 由于几名成员缺席，会议被推迟了。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 25；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The meeting was deferred because several members were absent.",
+    "contextTranslation": "由于几名成员缺席，会议被推迟了。"
+  },
+  {
+    "id": "dictation-3-026",
+    "term": "delay",
+    "meaning": "v./n. 延迟；耽搁",
+    "phrase": "Heavy rain delayed the start of the sports meeting. 大雨推迟了运动会的开始。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 26；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Heavy rain delayed the start of the sports meeting.",
+    "contextTranslation": "大雨推迟了运动会的开始。"
+  },
+  {
+    "id": "dictation-3-027",
+    "term": "postpone",
+    "meaning": "v. 推迟；延期",
+    "phrase": "The university decided to postpone the lecture until next week. 学校决定把讲座推迟到下周。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 27；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The university decided to postpone the lecture until next week.",
+    "contextTranslation": "学校决定把讲座推迟到下周。"
+  },
+  {
+    "id": "dictation-3-028",
+    "term": "stick to doing sth.",
+    "meaning": "坚持做某事",
+    "phrase": "If you stick to practising every day, your English will improve. 如果你坚持每天练习，你的英语会提高。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 28；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "If you stick to practising every day, your English will improve.",
+    "contextTranslation": "如果你坚持每天练习，你的英语会提高。"
+  },
+  {
+    "id": "dictation-3-029",
+    "term": "value",
+    "meaning": "n. 价值；价值观",
+    "phrase": "Traditional culture has great value in modern education. 传统文化在现代教育中具有重要价值。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 29；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Traditional culture has great value in modern education.",
+    "contextTranslation": "传统文化在现代教育中具有重要价值。"
+  },
+  {
+    "id": "dictation-3-030",
+    "term": "valuable",
+    "meaning": "adj. 有价值的",
+    "phrase": "The teacher gave us valuable advice on how to prepare for the exam. 老师就如何备考给了我们宝贵建议。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 30；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The teacher gave us valuable advice on how to prepare for the exam.",
+    "contextTranslation": "老师就如何备考给了我们宝贵建议。"
+  },
+  {
+    "id": "dictation-3-031",
+    "term": "invaluable",
+    "meaning": "adj. 无价的；极有用的",
+    "phrase": "The experience of working with others was invaluable to her growth. 与他人合作的经历对她的成长极其宝贵。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 31；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The experience of working with others was invaluable to her growth.",
+    "contextTranslation": "与他人合作的经历对她的成长极其宝贵。"
+  },
+  {
+    "id": "dictation-3-032",
+    "term": "under great pressure",
+    "meaning": "承受巨大压力",
+    "phrase": "Many students feel under great pressure before an important examination. 许多学生在重要考试前感到压力很大。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 32；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Many students feel under great pressure before an important examination.",
+    "contextTranslation": "许多学生在重要考试前感到压力很大。"
+  },
+  {
+    "id": "dictation-3-033",
+    "term": "under great stress",
+    "meaning": "承受巨大压力",
+    "phrase": "People may make poor decisions when they are under great stress. 人在压力很大时可能会作出错误决定。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 33；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "People may make poor decisions when they are under great stress.",
+    "contextTranslation": "人在压力很大时可能会作出错误决定。"
+  },
+  {
+    "id": "dictation-3-034",
+    "term": "face great pressure",
+    "meaning": "面临巨大压力",
+    "phrase": "Young people often face great pressure when choosing a career. 年轻人在选择职业时常常面临巨大压力。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 34；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Young people often face great pressure when choosing a career.",
+    "contextTranslation": "年轻人在选择职业时常常面临巨大压力。"
+  },
+  {
+    "id": "dictation-3-035",
+    "term": "face great stress",
+    "meaning": "面临巨大压力",
+    "phrase": "College students may face great stress during the final examination period. 大学生在期末考试期间可能面临很大压力。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 35；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "College students may face great stress during the final examination period.",
+    "contextTranslation": "大学生在期末考试期间可能面临很大压力。"
+  },
+  {
+    "id": "dictation-3-036",
+    "term": "traditional culture",
+    "meaning": "传统文化",
+    "phrase": "Young people should learn more about traditional culture and pass it on. 年轻人应更多了解传统文化并把它传承下去。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 36；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Young people should learn more about traditional culture and pass it on.",
+    "contextTranslation": "年轻人应更多了解传统文化并把它传承下去。"
+  },
+  {
+    "id": "dictation-3-037",
+    "term": "broaden one's horizons",
+    "meaning": "拓宽某人的眼界",
+    "phrase": "Travelling and reading can broaden one's horizons. 旅行和阅读可以拓宽一个人的眼界。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 37；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Travelling and reading can broaden one's horizons.",
+    "contextTranslation": "旅行和阅读可以拓宽一个人的眼界。"
+  },
+  {
+    "id": "dictation-3-038",
+    "term": "expand one's horizons",
+    "meaning": "拓宽某人的眼界",
+    "phrase": "Social practice helps students expand their horizons beyond the classroom. 社会实践帮助学生拓宽课堂之外的眼界。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 38；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Social practice helps students expand their horizons beyond the classroom.",
+    "contextTranslation": "社会实践帮助学生拓宽课堂之外的眼界。"
+  },
+  {
+    "id": "dictation-3-039",
+    "term": "widen one's horizons",
+    "meaning": "拓宽某人的眼界",
+    "phrase": "Studying abroad may widen one's horizons and improve independence. 出国学习可能拓宽眼界并提高独立性。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 39；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Studying abroad may widen one's horizons and improve independence.",
+    "contextTranslation": "出国学习可能拓宽眼界并提高独立性。"
+  },
+  {
+    "id": "dictation-3-040",
+    "term": "strength",
+    "meaning": "n. 力气；力量",
+    "phrase": "Teamwork is a source of strength when students face difficulties. 当学生面对困难时，团队合作是一种力量来源。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 40；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Teamwork is a source of strength when students face difficulties.",
+    "contextTranslation": "当学生面对困难时，团队合作是一种力量来源。"
+  },
+  {
+    "id": "dictation-3-041",
+    "term": "strengthen",
+    "meaning": "v. 增强",
+    "phrase": "Regular communication can strengthen the relationship between teachers and students. 经常交流能加强师生关系。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 41；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Regular communication can strengthen the relationship between teachers and students.",
+    "contextTranslation": "经常交流能加强师生关系。"
+  },
+  {
+    "id": "dictation-3-042",
+    "term": "weak",
+    "meaning": "adj. 弱的；虚弱的",
+    "phrase": "A weak foundation may make advanced learning more difficult. 薄弱的基础可能使进一步学习更加困难。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 42；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "A weak foundation may make advanced learning more difficult.",
+    "contextTranslation": "薄弱的基础可能使进一步学习更加困难。"
+  },
+  {
+    "id": "dictation-3-043",
+    "term": "weaken",
+    "meaning": "v. 削弱",
+    "phrase": "Lack of sleep can weaken students' ability to concentrate. 睡眠不足会削弱学生的注意力。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 43；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Lack of sleep can weaken students' ability to concentrate.",
+    "contextTranslation": "睡眠不足会削弱学生的注意力。"
+  },
+  {
+    "id": "dictation-3-044",
+    "term": "save money",
+    "meaning": "节约钱",
+    "phrase": "Students can save money by making a reasonable spending plan. 学生可以通过制定合理的消费计划来省钱。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 44；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Students can save money by making a reasonable spending plan.",
+    "contextTranslation": "学生可以通过制定合理的消费计划来省钱。"
+  },
+  {
+    "id": "dictation-3-045",
+    "term": "save paper",
+    "meaning": "节约纸张",
+    "phrase": "Using electronic documents can save paper and protect the environment. 使用电子文件可以节约纸张并保护环境。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 45；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Using electronic documents can save paper and protect the environment.",
+    "contextTranslation": "使用电子文件可以节约纸张并保护环境。"
+  },
+  {
+    "id": "dictation-3-046",
+    "term": "adapt to",
+    "meaning": "适应",
+    "phrase": "Freshmen need time to adapt to college life. 大一新生需要时间适应大学生活。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 46；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Freshmen need time to adapt to college life.",
+    "contextTranslation": "大一新生需要时间适应大学生活。"
+  },
+  {
+    "id": "dictation-3-047",
+    "term": "adopt",
+    "meaning": "v. 采取；领养",
+    "phrase": "The school adopted a new method to improve teaching quality. 学校采用了一种新方法来提高教学质量。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 47；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The school adopted a new method to improve teaching quality.",
+    "contextTranslation": "学校采用了一种新方法来提高教学质量。"
+  },
+  {
+    "id": "dictation-3-048",
+    "term": "be good at (doing) sth.",
+    "meaning": "擅长做某事",
+    "phrase": "She is good at organizing activities and communicating with others. 她擅长组织活动并与他人交流。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 48；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "She is good at organizing activities and communicating with others.",
+    "contextTranslation": "她擅长组织活动并与他人交流。"
+  },
+  {
+    "id": "dictation-3-049",
+    "term": "do well in (doing) sth.",
+    "meaning": "在……方面做得好",
+    "phrase": "He does well in solving practical problems. 他在解决实际问题方面做得很好。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 49；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "He does well in solving practical problems.",
+    "contextTranslation": "他在解决实际问题方面做得很好。"
+  },
+  {
+    "id": "dictation-3-050",
+    "term": "be bad at (doing) sth.",
+    "meaning": "不擅长做某事",
+    "phrase": "I used to be bad at speaking English in public. 我过去不擅长当众说英语。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 50；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "I used to be bad at speaking English in public.",
+    "contextTranslation": "我过去不擅长当众说英语。"
+  },
+  {
+    "id": "dictation-3-051",
+    "term": "be willing to do sth.",
+    "meaning": "乐于做某事",
+    "phrase": "More students are willing to volunteer in their communities. 越来越多学生愿意在社区做志愿服务。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 51；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "More students are willing to volunteer in their communities.",
+    "contextTranslation": "越来越多学生愿意在社区做志愿服务。"
+  },
+  {
+    "id": "dictation-3-052",
+    "term": "be unwilling to do sth.",
+    "meaning": "不乐于做某事",
+    "phrase": "He was unwilling to admit that he had made a mistake. 他不愿承认自己犯了错误。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 52；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "He was unwilling to admit that he had made a mistake.",
+    "contextTranslation": "他不愿承认自己犯了错误。"
+  },
+  {
+    "id": "dictation-3-053",
+    "term": "communicate with sb.",
+    "meaning": "和某人交流",
+    "phrase": "Students should communicate with their teachers when they meet difficulties. 学生遇到困难时应与老师交流。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 53；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Students should communicate with their teachers when they meet difficulties.",
+    "contextTranslation": "学生遇到困难时应与老师交流。"
+  },
+  {
+    "id": "dictation-3-054",
+    "term": "submit",
+    "meaning": "v. 提交；递交",
+    "phrase": "Applicants must submit all required materials before Friday. 申请者必须在周五前提交所有所需材料。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 54；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Applicants must submit all required materials before Friday.",
+    "contextTranslation": "申请者必须在周五前提交所有所需材料。"
+  },
+  {
+    "id": "dictation-3-055",
+    "term": "hand in",
+    "meaning": "提交；递交",
+    "phrase": "Please hand in your application form before the deadline. 请在截止日期前提交申请表。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 55；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Please hand in your application form before the deadline.",
+    "contextTranslation": "请在截止日期前提交申请表。"
+  },
+  {
+    "id": "dictation-3-056",
+    "term": "application form",
+    "meaning": "报名表；申请表",
+    "phrase": "Please complete the application form carefully and check it twice. 请认真填写申请表并检查两遍。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 56；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Please complete the application form carefully and check it twice.",
+    "contextTranslation": "请认真填写申请表并检查两遍。"
+  },
+  {
+    "id": "dictation-3-057",
+    "term": "I'm writing to do sth.",
+    "meaning": "我写信是为了……",
+    "phrase": "I'm writing to apply for the position advertised on your website. 我写信是为了申请贵网站上发布的职位。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 57；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "I'm writing to apply for the position advertised on your website.",
+    "contextTranslation": "我写信是为了申请贵网站上发布的职位。"
+  },
+  {
+    "id": "dictation-3-058",
+    "term": "I'm writing for the purpose of doing sth.",
+    "meaning": "我写信的目的是……",
+    "phrase": "I'm writing for the purpose of asking for more information about the course. 我写信是为了询问更多课程信息。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 58；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "I'm writing for the purpose of asking for more information about the course.",
+    "contextTranslation": "我写信是为了询问更多课程信息。"
+  },
+  {
+    "id": "dictation-3-059",
+    "term": "My purpose of writing this letter is to do sth.",
+    "meaning": "我写这封信的目的是……",
+    "phrase": "My purpose of writing this letter is to express my thanks for your help. 我写这封信的目的是感谢你的帮助。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 59；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "My purpose of writing this letter is to express my thanks for your help.",
+    "contextTranslation": "我写这封信的目的是感谢你的帮助。"
+  },
+  {
+    "id": "dictation-3-060",
+    "term": "The reason why I'm writing this letter is that I want to do sth.",
+    "meaning": "我写信的原因是我想……",
+    "phrase": "The reason why I'm writing this letter is that I want to offer some suggestions. 我写这封信是因为我想提出一些建议。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 60；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The reason why I'm writing this letter is that I want to offer some suggestions.",
+    "contextTranslation": "我写这封信是因为我想提出一些建议。"
+  },
+  {
+    "id": "dictation-3-061",
+    "term": "apply for",
+    "meaning": "申请",
+    "phrase": "She plans to apply for a scholarship next semester. 她计划下学期申请奖学金。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 61；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "She plans to apply for a scholarship next semester.",
+    "contextTranslation": "她计划下学期申请奖学金。"
+  },
+  {
+    "id": "dictation-3-062",
+    "term": "apply for the position of",
+    "meaning": "申请……职位",
+    "phrase": "He applied for the position of teaching assistant. 他申请了助教职位。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 62；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "He applied for the position of teaching assistant.",
+    "contextTranslation": "他申请了助教职位。"
+  },
+  {
+    "id": "dictation-3-063",
+    "term": "apply to",
+    "meaning": "向……申请；应用于",
+    "phrase": "Many students apply to several universities at the same time. 许多学生同时申请多所大学。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 63；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Many students apply to several universities at the same time.",
+    "contextTranslation": "许多学生同时申请多所大学。"
+  },
+  {
+    "id": "dictation-3-064",
+    "term": "take an active part in",
+    "meaning": "积极参加",
+    "phrase": "College students should take an active part in social practice. 大学生应积极参加社会实践。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 64；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "College students should take an active part in social practice.",
+    "contextTranslation": "大学生应积极参加社会实践。"
+  },
+  {
+    "id": "dictation-3-065",
+    "term": "invite sb. to do sth.",
+    "meaning": "邀请某人做某事",
+    "phrase": "The student union invited us to take part in the volunteer activity. 学生会邀请我们参加志愿活动。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 65；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The student union invited us to take part in the volunteer activity.",
+    "contextTranslation": "学生会邀请我们参加志愿活动。"
+  },
+  {
+    "id": "dictation-3-066",
+    "term": "make use of",
+    "meaning": "利用",
+    "phrase": "Students should make use of online resources to improve their learning efficiency. 学生应利用网络资源提高学习效率。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 66；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Students should make use of online resources to improve their learning efficiency.",
+    "contextTranslation": "学生应利用网络资源提高学习效率。"
+  },
+  {
+    "id": "dictation-3-067",
+    "term": "make full use of",
+    "meaning": "充分利用",
+    "phrase": "We should make full use of our time before the entrance examination. 我们应充分利用升学考试前的时间。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 67；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "We should make full use of our time before the entrance examination.",
+    "contextTranslation": "我们应充分利用升学考试前的时间。"
+  },
+  {
+    "id": "dictation-3-068",
+    "term": "agree on sth.",
+    "meaning": "就某事达成一致",
+    "phrase": "After a long discussion, the group agreed on a practical plan. 经过长时间讨论，小组就一个可行计划达成了一致。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 68；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "After a long discussion, the group agreed on a practical plan.",
+    "contextTranslation": "经过长时间讨论，小组就一个可行计划达成了一致。"
+  },
+  {
+    "id": "dictation-3-069",
+    "term": "agree with sb.",
+    "meaning": "同意/赞同某人",
+    "phrase": "I agree with the writer that reading is a lifelong habit. 我赞同作者关于阅读是终身习惯的观点。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 69；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "I agree with the writer that reading is a lifelong habit.",
+    "contextTranslation": "我赞同作者关于阅读是终身习惯的观点。"
+  },
+  {
+    "id": "dictation-3-070",
+    "term": "reach an agreement on sth.",
+    "meaning": "就……达成一致",
+    "phrase": "The two sides reached an agreement on how to share the work. 双方就如何分工达成了协议。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 70；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "The two sides reached an agreement on how to share the work.",
+    "contextTranslation": "双方就如何分工达成了协议。"
+  },
+  {
+    "id": "dictation-3-071",
+    "term": "hold different opinions on sth.",
+    "meaning": "就……持不同观点",
+    "phrase": "Students hold different opinions on whether mobile phones should be used in class. 学生们对课堂上是否应使用手机持不同意见。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 71；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Students hold different opinions on whether mobile phones should be used in class.",
+    "contextTranslation": "学生们对课堂上是否应使用手机持不同意见。"
+  },
+  {
+    "id": "dictation-3-072",
+    "term": "have different opinions on sth.",
+    "meaning": "就……持不同观点",
+    "phrase": "People may have different opinions on the same social issue. 人们对同一社会问题可能有不同看法。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 72；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "People may have different opinions on the same social issue.",
+    "contextTranslation": "人们对同一社会问题可能有不同看法。"
+  },
+  {
+    "id": "dictation-3-073",
+    "term": "in spite of",
+    "meaning": "尽管",
+    "phrase": "In spite of the heavy rain, the volunteers arrived on time. 尽管下着大雨，志愿者们还是准时到达。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 73；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "In spite of the heavy rain, the volunteers arrived on time.",
+    "contextTranslation": "尽管下着大雨，志愿者们还是准时到达。"
+  },
+  {
+    "id": "dictation-3-074",
+    "term": "despite",
+    "meaning": "尽管",
+    "phrase": "Despite many difficulties, she never gave up her goal. 尽管困难重重，她从未放弃目标。",
+    "note": "来源：第三次听写内容归纳；原资料顺序 74；允许与其他词库同词。",
+    "tag": "第三次听写内容 / 听写内容",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "history": [],
+    "groups": [
+      "第三次听写内容"
+    ],
+    "sources": [
+      "听写内容"
+    ],
+    "source": "听写内容",
+    "contextSentence": "Despite many difficulties, she never gave up her goal.",
+    "contextTranslation": "尽管困难重重，她从未放弃目标。"
   }
 ];

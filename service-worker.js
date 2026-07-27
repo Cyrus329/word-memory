@@ -1,13 +1,16 @@
-const CACHE_NAME = "word-memory-v68-grammar-full-20260726";
+const CACHE_NAME = "word-memory-v69-exam-context-20260727";
 const APP_ASSETS = [
   "./",
   "./index.html",
-  "./word-data.js?v=68import20260726",
-  "./app.js?v=68grammarfull20260726",
-  "./library-folder-data.js?v=68import20260726",
-  "./folder-view.js?v=68phrase20260725",
-  "./smart-vocab.js?v=68import20260724",
-  "./styles.css?v=68grammarfull20260726",
+  "./word-data.js?v=69examcontext20260727",
+  "./library-folder-data.js?v=69examcontext20260727",
+  "./context-engine.js?v=69examcontext20260727",
+  "./context-data.js?v=69examcontext20260727",
+  "./context-presenter.js?v=69examcontext20260727",
+  "./app.js?v=69examcontext20260727",
+  "./folder-view.js?v=69examcontext20260727",
+  "./smart-vocab.js?v=69examcontext20260727",
+  "./styles.css?v=69examcontext20260727",
   "./supabase-word-memory-repair.sql",
   "./manifest.webmanifest",
   "./icons/icon-180.png",
@@ -35,8 +38,10 @@ self.addEventListener("fetch", (event) => {
   }
   event.respondWith(
     caches.match(event.request).then((cached) => cached || fetch(event.request).then((response) => {
-      const copy = response.clone();
-      caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+      if (response.ok && new URL(event.request.url).origin === self.location.origin) {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+      }
       return response;
     }).catch(() => caches.match("./index.html")))
   );

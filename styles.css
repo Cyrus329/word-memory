@@ -3146,3 +3146,160 @@ textarea:focus {
   .grammar-practice-grid { grid-template-columns: 1fr !important; }
   .grammar-practice-grid .practice-button { min-height: 66px; }
 }
+
+/* v69：在句子中记单词的双语语境卡 */
+.memory-context-card {
+  margin: 18px 0;
+  padding: 18px 20px;
+  border: 1px solid rgba(18, 107, 103, 0.24);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(220, 239, 237, 0.78), rgba(255, 255, 255, 0.94)),
+    var(--paper);
+  box-shadow: 0 10px 26px rgba(45, 39, 30, 0.08);
+}
+
+.memory-context-card.is-fallback {
+  border-color: rgba(163, 109, 22, 0.3);
+  background: linear-gradient(135deg, rgba(246, 231, 198, 0.68), rgba(255, 255, 255, 0.94));
+}
+
+.memory-context-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+}
+
+.memory-context-card.is-fallback .memory-context-head {
+  color: var(--gold);
+}
+
+.memory-context-sentence {
+  margin: 13px 0 0;
+  color: var(--ink);
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  font-size: clamp(20px, 2.1vw, 24px);
+  font-weight: 700;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.memory-context-sentence mark {
+  padding: 1px 3px;
+  border-radius: 4px;
+  background: linear-gradient(transparent 58%, var(--coral-soft) 58%);
+  color: var(--coral);
+  font-weight: 950;
+}
+
+.memory-context-cloze {
+  display: inline-block;
+  min-width: 3.5em;
+  color: var(--coral);
+  font-family: Consolas, "Courier New", monospace;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.memory-context-translation {
+  margin: 9px 0 0;
+  color: #29312e;
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.65;
+}
+
+.memory-context-translation.is-hidden {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.memory-context-meta {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.memory-context-meta > span {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.memory-context-meta .memory-context-sense {
+  border-radius: 8px;
+  color: var(--ink);
+}
+
+.memory-context-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.memory-context-nav button {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0;
+  border: 1px solid rgba(18, 107, 103, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--teal);
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.memory-context-nav button:hover,
+.memory-context-nav button:focus-visible {
+  border-color: var(--teal);
+  background: var(--teal-soft);
+}
+
+.memory-context-nav span {
+  min-width: 34px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+@media (max-width: 560px) {
+  .memory-context-card {
+    margin: 14px 0;
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .memory-context-head {
+    align-items: flex-start;
+  }
+
+  .memory-context-sentence {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .memory-context-translation {
+    font-size: 15px;
+  }
+
+  .memory-context-nav button {
+    min-width: 40px;
+    min-height: 40px;
+  }
+}

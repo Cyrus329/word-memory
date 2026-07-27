@@ -71,8 +71,8 @@ let activeAudioElement = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation-repair-20260722:v68";
-const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = ["dictation-1-", "dictation-2-"]; // 第一次听写内容按要求保留重复词条为独立记录。
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation-repair-20260727:v69";
+const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = ["dictation-1-", "dictation-2-", "dictation-3-"]; // 第一次听写内容按要求保留重复词条为独立记录。
 
 const BUILTIN_GROUP_ALIASES = {
   "四级 7": new Set(["stale", "fashion", "fashionable", "contemporary", "temple", "temporary", "temporarily", "abundant", "abundance", "ample", "mass", "massive", "massage", "numerous", "number", "multiply", "multiple", "multiplication", "gang", "band", "bandage", "sort", "resort", "flock", "crowd", "crowded", "dozen", "population", "populous", "populate", "popularity", "popular", "prevail", "prevalent", "prevalence", "available", "availability", "crew", "screw", "colleague", "personnel", "staff", "stuff", "stuffy", "stuffing", "infant", "adolescent", "idle", "idly", "youngster"]),
@@ -208,6 +208,7 @@ const state = {
   },
   formResult: null,
   revealStep: 0,
+  contextIndex: 0,
   choiceResult: null,
   posQuizResult: null,
   lastAutoSpokenId: null,
@@ -2545,13 +2546,17 @@ function isWordFamilyEligible(word) {
 
 function contextSentenceFor(word) {
   const term = normalizeText(word?.term || "");
-  if (!term || isPhraseWord(word)) return "";
+  if (!term) return "";
+  const presenter = window.WordContextPresenter;
+  const catalogRecords = presenter?.contextsFor(term)?.records || [];
+  if (catalogRecords[0]?.sentence) return catalogRecords[0].sentence;
   const candidates = [word?.example, word?.exampleSentence, word?.sentence, word?.phrase, word?.note]
     .filter(Boolean)
     .flatMap((value) => String(value).split(/[；;\n]/));
-  const escaped = escapeRegExp(term);
-  const re = new RegExp(`\b${escaped}\b`, "i");
-  return candidates.map(normalizeText).find((text) => re.test(text) && text.split(/\s+/).length >= 4 && /[A-Za-z]/.test(text)) || "";
+  return candidates.map(normalizeText).find((text) => {
+    const exactMatch = window.WordContextEngine?.splitTarget(text, term);
+    return exactMatch && text.split(/\s+/).length >= 4 && /[A-Za-z]/.test(text);
+  }) || "";
 }
 
 function isPosContextEligible(word) {
@@ -2624,6 +2629,7 @@ function resetTypingState() {
   state.formDrafts = emptyVerbForms();
   state.formResult = null;
   state.revealStep = 0;
+  state.contextIndex = 0;
   state.choiceResult = null;
   state.posQuizResult = null;
 }
@@ -4050,6 +4056,51 @@ function grammarResultHTML(result, correctLabel, word) {
     : `<div class="pos-result is-wrong">回答错误，正确答案：${escapeHTML(correctLabel || result.answerLabel || "")}${hint}</div>`;
 }
 
+function renderContextCard(word) {
+  const presenter = window.WordContextPresenter;
+  if (!presenter || typeof presenter.viewFor !== "function") return "";
+  const answered = Boolean(state.answerVisible || state.posQuizResult);
+  const policy = presenter.contextPolicy(state.practiceMode, answered, state.revealStep);
+  if (!policy.showSentence) return "";
+  const view = window.WordContextPresenter.viewFor(word?.term, {
+    index: state.contextIndex,
+    concealed: policy.concealed,
+  });
+  if (!view.available) return "";
+
+  const sentenceTarget = view.sentence.concealed
+    ? `<span class="memory-context-cloze">${view.sentence.target}</span>`
+    : `<mark>${view.sentence.target}</mark>`;
+  const translation = policy.showTranslation
+    ? `<p class="memory-context-translation">${view.translation}</p>`
+    : `<p class="memory-context-translation is-hidden">答题后显示中文译文</p>`;
+  const sense = policy.showTranslation && view.sense
+    ? `<span class="memory-context-sense">${view.sense}</span>`
+    : "";
+  const navigation = view.count > 1 ? `
+    <div class="memory-context-nav" aria-label="切换语境">
+      <button type="button" data-card-action="context-prev" aria-label="上一个语境">‹</button>
+      <span>${view.index + 1} / ${view.count}</span>
+      <button type="button" data-card-action="context-next" aria-label="下一个语境">›</button>
+    </div>` : "";
+  const kindLabel = view.contextKind === "metalinguistic-fallback" ? "表达说明" : "语义例句";
+
+  return `
+    <section class="memory-context-card ${view.contextKind === "metalinguistic-fallback" ? "is-fallback" : ""}" aria-label="单词语境">
+      <div class="memory-context-head">
+        <span>语境记忆 · ${kindLabel}</span>
+        ${navigation}
+      </div>
+      <p class="memory-context-sentence">${view.sentence.before}${sentenceTarget}${view.sentence.after}</p>
+      ${translation}
+      <div class="memory-context-meta">
+        <span>${escapeHTML(view.posLabel)}</span>
+        <span>${escapeHTML(view.levelLabel)}</span>
+        ${sense}
+      </div>
+    </section>`;
+}
+
 function highlightedContextSentence(word, sentence) {
   const term = normalizeText(word?.term || "");
   if (!term) return escapeHTML(sentence);
@@ -4115,6 +4166,7 @@ function renderPosClassificationCard(word) {
     note = "根据句中位置判断，不只依赖词尾。";
   }
 
+  const contextCard = mode === "posContext" && !result ? "" : renderContextCard(word);
   els.activeCard.innerHTML = `
     <div class="pos-training-card">
       <div class="pos-training-head">
@@ -4123,6 +4175,7 @@ function renderPosClassificationCard(word) {
       </div>
       <h3 class="pos-training-term">${escapeHTML(word.term)}</h3>
       <p class="pos-training-meaning">${escapeHTML(displayMeaning)}</p>
+      ${contextCard}
       ${question}
       ${resultText}
       <div class="pos-training-actions">
@@ -4288,6 +4341,7 @@ function renderActiveCard() {
     ? (state.practiceMode === "forms" ? "<span>F</span><span>O</span><span>R</span><span>M</span>" : "<span>S</span><span>P</span><span>E</span><span>L</span><span>L</span>")
     : (letters.length ? letters.map((letter) => `<span>${escapeHTML(letter)}</span>`).join("") : "<span>W</span><span>O</span><span>R</span><span>D</span>");
   const view = practiceView(word);
+  const contextCard = renderContextCard(word);
   const choiceBox = state.practiceMode === "choiceZhToEn" ? renderChoiceBox(word) : "";
   const previousHint = renderPreviousWordHint();
   const phonetic = extractWordPhonetic(word);
@@ -4319,6 +4373,7 @@ function renderActiveCard() {
       ${previousHint}
       <p class="quiz-prompt">${escapeHTML(view.prompt)}</p>
       <h3 class="${state.practiceMode === "card" || state.practiceMode === "enToZh" ? "word-term" : "quiz-target"}">${escapeHTML(view.target)}</h3>
+      ${contextCard}
       ${quickActions}
       ${spellingBox}
       ${choiceBox}
@@ -4624,6 +4679,7 @@ function skipPosQuiz(word) {
   const next = queue.length > 1 ? queue[(currentIndex + 1) % queue.length] : null;
   state.posQuizResult = null;
   state.answerVisible = false;
+  state.contextIndex = 0;
   if (next && next.id !== word.id) setActiveId(next.id);
   render();
 }
@@ -4654,6 +4710,16 @@ function handleCardAction(action) {
   }
   const word = activeWord();
   if (!word) {
+    return;
+  }
+  if (action === "context-prev" || action === "context-next") {
+    const presenter = window.WordContextPresenter;
+    const count = presenter?.contextsFor(word.term)?.records?.length || 0;
+    if (count > 1) {
+      const offset = action === "context-next" ? 1 : -1;
+      state.contextIndex = presenter.normalizeIndex(state.contextIndex + offset, count);
+      renderActiveCard();
+    }
     return;
   }
   if (action.startsWith("pos-choice:")) {
@@ -5401,11 +5467,22 @@ function wireEvents() {
   els.allModeButton.addEventListener("click", () => setMode("all"));
 }
 
+function registerServiceWorker() {
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js").catch(() => {
+        // Offline support is progressive; a registration failure must not block study.
+      });
+    }, { once: true });
+  }
+}
+
 // v68：打开页面默认回到卡片模式；专项训练升级为五类语法训练。
 state.practiceMode = "card";
 ensurePracticeSession("card");
 
 wireEvents();
+registerServiceWorker();
 installStudyTimeTracker();
 render();
 hydrateWordsFromMobileDatabase();
