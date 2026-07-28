@@ -25,6 +25,7 @@ function normalizeContextStudyStore(value = {}) {
       term: normalizeText(item.term || ""),
       sentence: normalizeText(item.sentence || ""),
       translation: normalizeText(item.translation || ""),
+      contextId: normalizeText(item.contextId || ""),
       marked,
       reviewCount,
       lastReviewedAt: normalizeText(item.lastReviewedAt || ""),
@@ -60,6 +61,7 @@ function mergeContextStudyStores(localValue = {}, incomingValue = {}) {
       term: item.term || current.term || "",
       sentence: item.sentence || current.sentence || "",
       translation: item.translation || current.translation || "",
+      contextId: item.contextId || current.contextId || "",
       marked: Boolean(current.marked || item.marked),
       reviewCount: Math.max(Number(current.reviewCount) || 0, Number(item.reviewCount) || 0),
       lastReviewedAt: [current.lastReviewedAt, item.lastReviewedAt].filter(Boolean).sort().pop() || "",
@@ -70,6 +72,10 @@ function mergeContextStudyStores(localValue = {}, incomingValue = {}) {
 }
 
 function contextSentenceKey(term, sentence) {
+  const helper = window.WordContextStudyEngine;
+  if (helper?.legacyContextSentenceKey) {
+    return helper.legacyContextSentenceKey(term, sentence);
+  }
   const source = `${normalizeText(term).toLowerCase()}|${normalizeText(sentence).toLowerCase()}`;
   let hash = 2166136261;
   for (let index = 0; index < source.length; index += 1) {
@@ -81,6 +87,12 @@ function contextSentenceKey(term, sentence) {
 
 function contextStudyEntry(word, view) {
   if (!word || !view?.sentenceText) return null;
+  const helper = window.WordContextStudyEngine;
+  if (helper?.resolveContextStudyEntry) {
+    const entry = helper.resolveContextStudyEntry(contextStudyStore, word, view);
+    if (entry.migrated) saveContextStudyStore();
+    return { key: entry.key, value: entry.value };
+  }
   const key = contextSentenceKey(word.term, view.sentenceText);
   return { key, value: contextStudyStore[key] || null };
 }
@@ -93,6 +105,7 @@ function recordContextReview(word, view) {
     term: normalizeText(word.term),
     sentence: normalizeText(view.sentenceText),
     translation: normalizeText(view.translationText || ""),
+    contextId: normalizeText(view.contextId || ""),
     marked: Boolean(current.marked),
     reviewCount: (Number(current.reviewCount) || 0) + 1,
     lastReviewedAt: new Date().toISOString(),
@@ -110,6 +123,7 @@ function toggleContextSentenceMark(word, view) {
     term: normalizeText(word.term),
     sentence: normalizeText(view.sentenceText),
     translation: normalizeText(view.translationText || ""),
+    contextId: normalizeText(view.contextId || ""),
     marked,
     reviewCount: Math.max(1, Number(current.reviewCount) || 0),
     lastReviewedAt: normalizeText(current.lastReviewedAt || new Date().toISOString()),
@@ -2670,7 +2684,7 @@ function contextSentenceFor(word) {
   const term = normalizeText(word?.term || "");
   if (!term) return "";
   const presenter = window.WordContextPresenter;
-  const catalogRecords = presenter?.contextsFor(term)?.records || [];
+  const catalogRecords = presenter?.contextsFor(word)?.records || [];
   if (catalogRecords[0]?.sentence) return catalogRecords[0].sentence;
   const candidates = [word?.example, word?.exampleSentence, word?.sentence, word?.phrase, word?.note]
     .filter(Boolean)
@@ -4215,7 +4229,7 @@ function currentContextView(word) {
   if (!presenter || typeof presenter.viewFor !== "function") return null;
   const answered = Boolean(state.answerVisible || state.posQuizResult);
   const policy = presenter.contextPolicy(state.practiceMode, answered, state.revealStep);
-  const view = presenter.viewFor(word?.term, {
+  const view = presenter.viewFor(word, {
     index: state.contextIndex,
     concealed: policy.concealed,
   });
@@ -4924,7 +4938,7 @@ function handleCardAction(action) {
   }
   if (action === "context-prev" || action === "context-next") {
     const presenter = window.WordContextPresenter;
-    const count = presenter?.contextsFor(word.term)?.records?.length || 0;
+    const count = presenter?.contextsFor(word)?.records?.length || 0;
     if (count > 1) {
       const offset = action === "context-next" ? 1 : -1;
       state.contextIndex = presenter.normalizeIndex(state.contextIndex + offset, count);

@@ -60,15 +60,36 @@
     return Number(mastery) < 0 ? 'learn' : 'review';
   }
 
-  function getContexts(term, library) {
-    const key = normalizeContextKey(term);
-    const collection = library && typeof library === 'object' ? library : {};
-    const entryKey = Object.keys(collection).find((candidate) => normalizeContextKey(candidate) === key);
-    const entry = entryKey ? collection[entryKey] : null;
+  function contextEntry(entry) {
     if (!entry || typeof entry !== 'object' || !validateContextRecord(entry.primary).valid) return null;
     const extra = Array.isArray(entry.extra) ? entry.extra.filter((record) => validateContextRecord(record).valid) : [];
     return { primary: entry.primary, extra };
   }
 
-  return { normalizeContextKey, splitTarget, clozeTarget, validateContextRecord, studyMode, getContexts };
+  function getContexts(term, library) {
+    const key = normalizeContextKey(term);
+    const collection = library && typeof library === 'object' ? library : {};
+    const entryKey = Object.keys(collection).find((candidate) => normalizeContextKey(candidate) === key);
+    return contextEntry(entryKey ? collection[entryKey] : null);
+  }
+
+  function getContextsForWord(word, idLibrary, termLibrary) {
+    const value = word && typeof word === 'object' ? word : { term: word };
+    const id = String(value.id == null ? '' : value.id).trim();
+    const byId = idLibrary && typeof idLibrary === 'object' ? idLibrary : {};
+    const fromId = id ? contextEntry(byId[id]) : null;
+    if (fromId) return fromId;
+    const term = String(value.term == null ? '' : value.term).trim();
+    return term ? getContexts(term, termLibrary) : null;
+  }
+
+  return {
+    normalizeContextKey,
+    splitTarget,
+    clozeTarget,
+    validateContextRecord,
+    studyMode,
+    getContexts,
+    getContextsForWord,
+  };
 });

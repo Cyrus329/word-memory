@@ -30,12 +30,31 @@
     })[character]);
   }
 
-  function contextsFor(term, library) {
-    const source = library && typeof library === 'object'
-      ? library
+  function contextsFor(wordOrTerm, options = {}) {
+    const word = wordOrTerm && typeof wordOrTerm === 'object'
+      ? wordOrTerm
+      : { term: wordOrTerm };
+    const optionShape = options && typeof options === 'object'
+      && ('library' in options || 'idLibrary' in options || 'index' in options || 'concealed' in options);
+    const legacyLibrary = !optionShape
+      && options
+      && typeof options === 'object'
+      && Object.keys(options).length
+      ? options
+      : null;
+    const termSource = optionShape
+      ? options.library
+      : legacyLibrary;
+    const termLibrary = termSource && typeof termSource === 'object'
+      ? termSource
       : (root && root.WORD_MEMORY_CONTEXTS);
-    if (!engine || typeof engine.getContexts !== 'function') return { records: [] };
-    const found = engine.getContexts(term, source);
+    const idLibrary = optionShape && options.idLibrary && typeof options.idLibrary === 'object'
+      ? options.idLibrary
+      : (root && root.WORD_MEMORY_CONTEXTS_BY_ID);
+    if (!engine) return { records: [] };
+    const found = typeof engine.getContextsForWord === 'function'
+      ? engine.getContextsForWord(word, idLibrary, termLibrary)
+      : engine.getContexts(word.term, termLibrary);
     return found ? { records: [found.primary, ...found.extra] } : { records: [] };
   }
 
@@ -99,8 +118,9 @@
     };
   }
 
-  function viewFor(term, options = {}) {
-    const found = contextsFor(term, options.library);
+  function viewFor(wordOrTerm, options = {}) {
+    const found = contextsFor(wordOrTerm, options);
+    const word = wordOrTerm && typeof wordOrTerm === 'object' ? wordOrTerm : null;
     const count = found.records.length;
     if (!count) return { available: false, index: 0, count: 0 };
     const index = normalizeIndex(options.index, count);
@@ -114,7 +134,12 @@
       count,
       sentence: parts,
       sentenceText: String(record.sentence || ""),
+      legacySentenceText: String(record.legacySentence || ""),
       targetText: String(record.target || ""),
+      contextId: String(
+        record.contextId
+        || (word && word.id ? `${word.id}:${index === 0 ? 'primary' : `extra-${index}`}` : ''),
+      ),
       translationText: String(record.translation || ""),
       translation: escapeHTML(record.translation),
       sense: escapeHTML(record.sense),
