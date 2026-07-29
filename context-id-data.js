@@ -1,4 +1,4 @@
-// Generated 2026-07-28. v70 B004 imports with individually authored exam contexts.
+// Generated 2026-07-29. v70 B006 imports with individually authored exam contexts.
 window.WORD_MEMORY_CONTEXTS_BY_ID = {
   "dictation-1-001": {
     "primary": {
@@ -5490,6 +5490,1281 @@ window.WORD_MEMORY_CONTEXTS_BY_ID = {
       "templateFamily": "individually-authored",
       "contextId": "cet-20260728-18-057:primary",
       "batch": "v70-b004"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-001": {
+    "primary": {
+      "sentence": "It is common sense to check the source before sharing information online.",
+      "target": "common sense",
+      "translation": "在网上分享信息前核实来源是常识。",
+      "sense": "常识",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-001:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-002": {
+    "primary": {
+      "sentence": "Many students spend time on reviewing their mistakes after class.",
+      "target": "spend time on",
+      "translation": "许多学生课后花时间复习错题。",
+      "sense": "在……上花费时间/金钱",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-002:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-003": {
+    "primary": {
+      "sentence": "She spends two hours preparing for the entrance examination every evening.",
+      "target": "spends two hours preparing",
+      "translation": "她每天晚上花两个小时准备专升本考试。",
+      "sense": "某人花费时间/金钱做某事",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-003:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-004": {
+    "primary": {
+      "sentence": "It took us three days to complete the social-practice report.",
+      "target": "took us three days to complete",
+      "translation": "我们花了三天完成社会实践报告。",
+      "sense": "做某事花费某人多少时间/金钱",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-004:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-005": {
+    "primary": {
+      "sentence": "The main reasons for the change are as follows: lower cost, higher speed, and easier access.",
+      "target": "as follows",
+      "translation": "这一变化的主要原因如下：成本更低、速度更快、获取更方便。",
+      "sense": "如下",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-005:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-006": {
+    "primary": {
+      "sentence": "The research team met with several difficulties while collecting data in rural areas.",
+      "target": "met with",
+      "translation": "研究团队在农村地区收集数据时遇到了若干困难。",
+      "sense": "遭遇；经受；会见",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-006:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-007": {
+    "primary": {
+      "sentence": "Do not lose heart when your first attempt fails; analyze the cause and try again.",
+      "target": "lose heart",
+      "translation": "第一次尝试失败时不要灰心，要分析原因并再次尝试。",
+      "sense": "丧失信心；灰心",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-007:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-008": {
+    "primary": {
+      "sentence": "Several useful ideas in the discussion came from students with practical experience.",
+      "target": "came from",
+      "translation": "讨论中的几个有用观点来自有实践经验的学生。",
+      "sense": "来自",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-008:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-009": {
+    "primary": {
+      "sentence": "Online courses give students in rural areas more access to high-quality education.",
+      "target": "rural areas",
+      "translation": "网络课程让农村地区的学生更容易获得优质教育。",
+      "sense": "农村地区",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-009:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "phrase-practice-11-010": {
+    "primary": {
+      "sentence": "My classmate offered to give me a ride to the examination center.",
+      "target": "give me a ride",
+      "translation": "我的同学主动提出载我去考试中心。",
+      "sense": "载某人一程",
+      "pos": "phrase",
+      "level": "intermediate",
+      "source": "蓝色森林专升本短语卡片",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "phrase-practice-11-010:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-001": {
+    "primary": {
+      "sentence": "During the experiment, Li raised her arm to ask the teacher a question.",
+      "target": "arm",
+      "translation": "实验过程中，李同学举起手臂向老师提问。",
+      "sense": "n. 手臂；武器（复数）；v. 武装；装备",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-001:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-002": {
+    "primary": {
+      "sentence": "Many young people learn traditional customs from a grandparent.",
+      "target": "grandparent",
+      "translation": "许多年轻人从祖父母那里学习传统习俗。",
+      "sense": "n. 祖父或祖母；祖父母",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-002:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-004": {
+    "primary": {
+      "sentence": "The library closes at nine during the winter term.",
+      "target": "nine",
+      "translation": "冬季学期图书馆九点关门。",
+      "sense": "num. 数字九；九个；n. 九个人/物；棒球第九局",
+      "pos": "numeral",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-004:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-005": {
+    "primary": {
+      "sentence": "The chair of the student union announced the new volunteer program.",
+      "target": "chair",
+      "translation": "学生会主席宣布了新的志愿服务项目。",
+      "sense": "n. 椅子；主席职位；vt. 主持（会议）；担任主席",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-005:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-011": {
+    "primary": {
+      "sentence": "A simple hello can make a new classmate feel welcome.",
+      "target": "hello",
+      "translation": "一句简单的问候就能让新同学感到受欢迎。",
+      "sense": "interj. 你好；喂；n. 问候；招呼",
+      "pos": "other",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-011:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-012": {
+    "primary": {
+      "sentence": "Joining the debate club improved her confidence in public speaking.",
+      "target": "club",
+      "translation": "参加辩论社提高了她公开演讲的自信。",
+      "sense": "n. 俱乐部；棍棒；梅花（扑克牌）；v. 用棍棒打；联合",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-012:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-014": {
+    "primary": {
+      "sentence": "The rural family keeps a hen in the yard for fresh eggs.",
+      "target": "hen",
+      "translation": "这个农村家庭在院子里养了一只母鸡以获得新鲜鸡蛋。",
+      "sense": "n. 母鸡；雌禽；（俚）女人",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-014:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-015": {
+    "primary": {
+      "sentence": "This dictionary is hers, while the blue one belongs to me.",
+      "target": "hers",
+      "translation": "这本词典是她的，而蓝色那本是我的。",
+      "sense": "pron. 她的（所有物）",
+      "pos": "other",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-015:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-016": {
+    "primary": {
+      "sentence": "The report explains why the tiger population has declined in recent decades.",
+      "target": "tiger",
+      "translation": "报告解释了近几十年来老虎数量下降的原因。",
+      "sense": "n. 老虎；凶猛的人；强悍的人",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-016:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-017": {
+    "primary": {
+      "sentence": "He bought a hotdog before the basketball match began.",
+      "target": "hotdog",
+      "translation": "篮球比赛开始前，他买了一个热狗。",
+      "sense": "n. 热狗；爱炫耀的人；v. 炫耀；卖弄技巧",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-017:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-019": {
+    "primary": {
+      "sentence": "The guide warned us not to touch a snake in the grass.",
+      "target": "snake",
+      "translation": "导游警告我们不要触碰草丛里的蛇。",
+      "sense": "n. 蛇；阴险的人；v. 蜿蜒；曲折行进",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-019:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-020": {
+    "primary": {
+      "sentence": "Studying local culture helps exchange students adapt more quickly.",
+      "target": "culture",
+      "translation": "了解当地文化有助于交换生更快适应。",
+      "sense": "n. 文化；文明；培养（微生物）；v. 培养（细胞/细菌）",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-020:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-022": {
+    "primary": {
+      "sentence": "A bowl of noodle soup is a common breakfast in the town.",
+      "target": "noodle",
+      "translation": "一碗面汤是这个小镇常见的早餐。",
+      "sense": "n. 面条；傻子（俚语）",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-022:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-024": {
+    "primary": {
+      "sentence": "If students manage their time well, they can reduce exam stress.",
+      "target": "if",
+      "translation": "如果学生能合理管理时间，就能减轻考试压力。",
+      "sense": "conj. 如果；是否；即使；n. 条件；假设",
+      "pos": "other",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-024:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-026": {
+    "primary": {
+      "sentence": "The teacher asked us to remove any nonsense from the formal report.",
+      "target": "nonsense",
+      "translation": "老师要求我们删去正式报告中毫无意义的内容。",
+      "sense": "n. 胡说；荒谬的言行；无意义的事物",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-026:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-027": {
+    "primary": {
+      "sentence": "Please call the admissions office if you need more information.",
+      "target": "call",
+      "translation": "如需更多信息，请致电招生办公室。",
+      "sense": "v. 打电话；称呼；召唤；喊叫；n. 电话；呼叫；要求；拜访",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-027:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-028": {
+    "primary": {
+      "sentence": "The university updated its online registration system last month.",
+      "target": "its",
+      "translation": "这所大学上个月更新了它的在线报名系统。",
+      "sense": "pron. 它的（it 的所有格形式）",
+      "pos": "other",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-028:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-030": {
+    "primary": {
+      "sentence": "Eating too quickly may cause stomach discomfort.",
+      "target": "stomach",
+      "translation": "吃得太快可能引起胃部不适。",
+      "sense": "n. 胃；腹部；食欲；vt. 忍受；容忍",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-030:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-031": {
+    "primary": {
+      "sentence": "Late submission may result in a penalty under the course rules.",
+      "target": "penalty",
+      "translation": "根据课程规定，迟交作业可能受到处罚。",
+      "sense": "n. 处罚；刑罚；体育比赛中的罚球",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-031:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-033": {
+    "primary": {
+      "sentence": "The researcher decided to add two questions to the survey.",
+      "target": "add",
+      "translation": "研究人员决定在问卷中增加两个问题。",
+      "sense": "vt. 添加；增加；补充说；vi. 增添；做加法",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-033:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-034": {
+    "primary": {
+      "sentence": "All applicants must provide a valid identification document.",
+      "target": "all",
+      "translation": "所有申请人都必须提供有效身份证明。",
+      "sense": "adj. 全部的；所有的；整个的；adv. 完全地；各方",
+      "pos": "other",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-034:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-036": {
+    "primary": {
+      "sentence": "The cafeteria now offers less meat and more vegetables.",
+      "target": "meat",
+      "translation": "食堂现在提供更少的肉和更多的蔬菜。",
+      "sense": "n. （可食用的）肉；主要部分；重要内容",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-036:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-037": {
+    "primary": {
+      "sentence": "The school team worked together to defeat a stronger opponent.",
+      "target": "defeat",
+      "translation": "校队齐心协力击败了更强的对手。",
+      "sense": "vt. 击败；使失败；阻挠；n. 失败；战败",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-037:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-038": {
+    "primary": {
+      "sentence": "The final paragraph is very important because it summarizes the main idea.",
+      "target": "very",
+      "translation": "最后一段非常重要，因为它概括了中心思想。",
+      "sense": "adv. 非常；很；极其；adj. 正是的；同一的；极端的",
+      "pos": "adverb",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-038:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-043": {
+    "primary": {
+      "sentence": "The dormitory furniture was replaced before the new term began.",
+      "target": "furniture",
+      "translation": "新学期开始前，宿舍家具被更换了。",
+      "sense": "n. 家具；设备",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-043:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-044": {
+    "primary": {
+      "sentence": "A company spokesman explained the reason for the product recall.",
+      "target": "spokesman",
+      "translation": "公司发言人解释了产品召回的原因。",
+      "sense": "n. 发言人；代言人",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-044:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-046": {
+    "primary": {
+      "sentence": "Some residents complain that traffic noise affects their sleep.",
+      "target": "complain",
+      "translation": "一些居民抱怨交通噪声影响睡眠。",
+      "sense": "vi. 抱怨；诉苦；投诉；vt. 抱怨（后接 that 从句）",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-046:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-048": {
+    "primary": {
+      "sentence": "The article discusses how a traveling circus protects its animals.",
+      "target": "circus",
+      "translation": "文章讨论了巡回马戏团如何保护动物。",
+      "sense": "n. 马戏团；圆形广场；喧闹的场面",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-048:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "blueforest-20260729-24-050": {
+    "primary": {
+      "sentence": "Good grammar helps readers understand an academic essay clearly.",
+      "target": "grammar",
+      "translation": "良好的语法有助于读者清楚理解学术文章。",
+      "sense": "n. 语法；文法；语法书",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "蓝色森林专升本词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "blueforest-20260729-24-050:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-001": {
+    "primary": {
+      "sentence": "The two departments acted in accord with the new safety rules.",
+      "target": "accord",
+      "translation": "两个部门按照新的安全规定采取了行动。",
+      "sense": "n. 协议；一致；符合；vt. 给予；vi. 一致；符合",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-001:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-004": {
+    "primary": {
+      "sentence": "The weather forecast changed, and the outdoor activity was adjusted accordingly.",
+      "target": "accordingly",
+      "translation": "天气预报发生变化，户外活动也相应作了调整。",
+      "sense": "adv. 相应地；照着；因此；所以",
+      "pos": "adverb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-004:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-006": {
+    "primary": {
+      "sentence": "The reporter placed a recorder on the table before the interview.",
+      "target": "recorder",
+      "translation": "记者在采访前把录音机放在桌上。",
+      "sense": "n. 录音机；录像机；竖笛；记录员",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-006:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-007": {
+    "primary": {
+      "sentence": "The listening teacher played the recording twice for the class.",
+      "target": "recording",
+      "translation": "听力老师给全班播放了两遍录音。",
+      "sense": "n. 录音；录像；录制；记录",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-007:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-008": {
+    "primary": {
+      "sentence": "The online course includes audio materials for pronunciation practice.",
+      "target": "audio",
+      "translation": "网络课程包含用于发音练习的音频材料。",
+      "sense": "adj. 录音的；音频的；n. 声音；音频",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-008:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-010": {
+    "primary": {
+      "sentence": "Her question seemed to echo through the empty lecture hall.",
+      "target": "echo",
+      "translation": "她的问题仿佛在空荡的报告厅里回响。",
+      "sense": "n. 回声；回响；重复；vi. 回响；vt. 附和；重复",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-010:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-011": {
+    "primary": {
+      "sentence": "Many employers regard communication skills as essential.",
+      "target": "regard",
+      "translation": "许多雇主认为沟通能力至关重要。",
+      "sense": "vt. 认为；看待；注视；n. 关注；尊重；致意",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-011:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-013": {
+    "primary": {
+      "sentence": "Students should respect others regardless of their background.",
+      "target": "regardless",
+      "translation": "学生应尊重他人，不论其背景如何。",
+      "sense": "adv. 不管；不顾；无论如何",
+      "pos": "adverb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-013:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-014": {
+    "primary": {
+      "sentence": "Readers must distinguish facts from opinions in the passage.",
+      "target": "distinguish",
+      "translation": "读者必须区分文章中的事实与观点。",
+      "sense": "vt./vi. 区分；辨别；分清；使有别于",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-014:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-015": {
+    "primary": {
+      "sentence": "The two solutions are distinguishable by their different costs.",
+      "target": "distinguishable",
+      "translation": "这两种方案可以通过不同的成本加以区分。",
+      "sense": "adj. 可以区别开的；辨认得出的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-015:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-016": {
+    "primary": {
+      "sentence": "The study identifies three distinct causes of the problem.",
+      "target": "distinct",
+      "translation": "这项研究确定了该问题的三个不同原因。",
+      "sense": "adj. 明显不同的；清晰的；确实的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-016:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-017": {
+    "primary": {
+      "sentence": "There is an important distinction between knowledge and wisdom.",
+      "target": "distinction",
+      "translation": "知识与智慧之间存在重要区别。",
+      "sense": "n. 差别；不同；特点；卓越；荣誉",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-017:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-018": {
+    "primary": {
+      "sentence": "The ancient building has a distinctive wooden roof.",
+      "target": "distinctive",
+      "translation": "这座古建筑有一个很有特色的木制屋顶。",
+      "sense": "adj. 独特的；有特色的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-018:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-022": {
+    "primary": {
+      "sentence": "Firefighters arrived quickly to extinguish the laboratory fire.",
+      "target": "extinguish",
+      "translation": "消防员迅速赶到，扑灭了实验室的火灾。",
+      "sense": "vt. 熄灭；扑灭；使破灭",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-022:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-023": {
+    "primary": {
+      "sentence": "His first instinct was to help the injured passenger.",
+      "target": "instinct",
+      "translation": "他的第一反应是帮助受伤的乘客。",
+      "sense": "n. 本能；天性；直觉",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-023:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-024": {
+    "primary": {
+      "sentence": "Protecting a child in danger can be an instinctive reaction.",
+      "target": "instinctive",
+      "translation": "保护处于危险中的孩子可能是一种本能反应。",
+      "sense": "adj. 本能的；直觉的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-024:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-025": {
+    "primary": {
+      "sentence": "A bee may sting when it feels threatened.",
+      "target": "sting",
+      "translation": "蜜蜂感到受威胁时可能会蜇人。",
+      "sense": "vt./vi. 叮；刺；使疼痛；n. 刺伤；刺痛；毒针",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-025:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-026": {
+    "primary": {
+      "sentence": "Strong sunlight can pierce the thin clouds after rain.",
+      "target": "pierce",
+      "translation": "雨后强烈的阳光能够穿透薄云。",
+      "sense": "vt./vi. 刺入；穿透；突破",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-026:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-027": {
+    "primary": {
+      "sentence": "The sudden crowd thrust him toward the station entrance.",
+      "target": "thrust",
+      "translation": "突然涌来的人群把他推向车站入口。",
+      "sense": "vt./vi. 猛推；刺；戳；n. 猛推；冲力；要点",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-027:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-028": {
+    "primary": {
+      "sentence": "Students were asked to observe how the plant changed each day.",
+      "target": "observe",
+      "translation": "老师要求学生观察植物每天的变化。",
+      "sense": "vt./vi. 观察；注视；遵守；评论",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-028:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-029": {
+    "primary": {
+      "sentence": "Careful observation is necessary before drawing a conclusion.",
+      "target": "observation",
+      "translation": "得出结论前必须进行仔细观察。",
+      "sense": "n. 观察；观测；评论；评述",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-029:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-030": {
+    "primary": {
+      "sentence": "An independent observer attended the election meeting.",
+      "target": "observer",
+      "translation": "一名独立观察员参加了选举会议。",
+      "sense": "n. 观察者；观察员；目击者",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-030:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-031": {
+    "primary": {
+      "sentence": "An observant reader noticed the contradiction in the final paragraph.",
+      "target": "observant",
+      "translation": "一位细心的读者发现了最后一段中的矛盾。",
+      "sense": "adj. 善于观察的；严格遵守规定的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-031:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-032": {
+    "primary": {
+      "sentence": "Students should reserve a seat online before attending the lecture.",
+      "target": "reserve",
+      "translation": "学生参加讲座前应在网上预留座位。",
+      "sense": "vt. 预订；预约；保留；n. 储备；保护区；内向",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-032:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-033": {
+    "primary": {
+      "sentence": "I made a reservation for the study room this afternoon.",
+      "target": "reservation",
+      "translation": "我预订了今天下午的自习室。",
+      "sense": "n. 预订；预约；保留意见；保留地",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-033:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-034": {
+    "primary": {
+      "sentence": "Several seats are reserved for students with disabilities.",
+      "target": "reserved",
+      "translation": "有几个座位专门预留给残障学生。",
+      "sense": "adj. 内敛的；寡言的；预订的；保留的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-034:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-035": {
+    "primary": {
+      "sentence": "Volunteers who serve the community deserve our respect.",
+      "target": "deserve",
+      "translation": "服务社区的志愿者值得我们尊敬。",
+      "sense": "vt. 值得；应得；应受",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-035:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-036": {
+    "primary": {
+      "sentence": "The committee made a conservative estimate of the project cost.",
+      "target": "conservative",
+      "translation": "委员会对项目成本作出了较为保守的估计。",
+      "sense": "adj. 保守的；守旧的；n. 保守的人",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-036:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-037": {
+    "primary": {
+      "sentence": "Turning off unused lights helps conserve energy.",
+      "target": "conserve",
+      "translation": "关闭不用的灯有助于节约能源。",
+      "sense": "vt. 节约；节省；保护；保存",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-037:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-041": {
+    "primary": {
+      "sentence": "Strong passwords protect personal information from theft.",
+      "target": "protect",
+      "translation": "强密码能够保护个人信息不被盗取。",
+      "sense": "vt. 保护；防护；投保",
+      "pos": "verb",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-041:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-042": {
+    "primary": {
+      "sentence": "The new law provides better protection for online consumers.",
+      "target": "protection",
+      "translation": "新法律为网络消费者提供了更好的保护。",
+      "sense": "n. 保护；防卫；保护物；保险",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-042:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-043": {
+    "primary": {
+      "sentence": "Workers must wear protective clothing in the chemical laboratory.",
+      "target": "protective",
+      "translation": "工人在化学实验室必须穿防护服。",
+      "sense": "adj. 保护的；防护的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-043:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-045": {
+    "primary": {
+      "sentence": "Early detection can greatly improve the chance of recovery.",
+      "target": "detection",
+      "translation": "早期发现可以大大提高康复机会。",
+      "sense": "n. 觉察；发觉；侦查；侦破",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-045:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-047": {
+    "primary": {
+      "sentence": "The coach sent a scout to watch the opposing team.",
+      "target": "scout",
+      "translation": "教练派出一名球探观察对方球队。",
+      "sense": "n. 童子军；侦察员；侦察机；vt./vi. 侦察；搜寻",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-047:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-049": {
+    "primary": {
+      "sentence": "Regular exercise plays an important role in disease prevention.",
+      "target": "prevention",
+      "translation": "规律运动在疾病预防中发挥重要作用。",
+      "sense": "n. 预防；防止",
+      "pos": "noun",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-049:primary",
+      "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "cet-20260729-19-050": {
+    "primary": {
+      "sentence": "The hospital offers preventive health checks to local residents.",
+      "target": "preventive",
+      "translation": "这家医院为当地居民提供预防性健康检查。",
+      "sense": "adj. 预防的；防备的",
+      "pos": "adjective",
+      "level": "intermediate",
+      "source": "英语四级词表",
+      "contextKind": "exam-authored",
+      "generatedBy": "import-v70-b006",
+      "templateFamily": "individually-authored",
+      "contextId": "cet-20260729-19-050:primary",
+      "batch": "v70-b006"
     },
     "extra": []
   }

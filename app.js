@@ -1242,12 +1242,28 @@ function cleanupLegacyWordListMisimports(words) {
 }
 
 function progressStatusRank(status = "new") { return ({ new: 0, learning: 1, mature: 2 })[status] ?? 0; }
+
+function progressActionTime(progress = {}) {
+  const direct = Date.parse(progress.lastStudiedAt || "") || 0;
+  const historyTime = (Array.isArray(progress.history) ? progress.history : []).reduce((latest, item) => {
+    const value = Date.parse(item?.time || "") || 0;
+    return Math.max(latest, value);
+  }, 0);
+  return Math.max(direct, historyTime);
+}
+
 function mergeProgressRecord(target = {}, incoming = {}) {
   const tStage = Number.isInteger(target.stage) ? target.stage : -1;
   const iStage = Number.isInteger(incoming.stage) ? incoming.stage : -1;
-  const tTime = Date.parse(target.lastStudiedAt || "") || 0;
-  const iTime = Date.parse(incoming.lastStudiedAt || "") || 0;
-  const useIncoming = iStage > tStage || (iStage === tStage && iTime > tTime) || (iStage === tStage && iTime === tTime && progressStatusRank(incoming.status) > progressStatusRank(target.status));
+  const tTime = progressActionTime(target);
+  const iTime = progressActionTime(incoming);
+
+  // 跨设备同步必须以“最后一次操作”为准，而不是以最高复习阶段为准。
+  // 例如：手机刚点“忘了”回到 2 分钟，电脑里的旧记录仍是 31 天；
+  // 此时手机的新操作必须覆盖电脑的旧高阶段，不能被 31 天反向顶回来。
+  const useIncoming = iTime > tTime
+    || (iTime === tTime && iStage > tStage)
+    || (iTime === tTime && iStage === tStage && progressStatusRank(incoming.status) > progressStatusRank(target.status));
   const chosen = useIncoming ? incoming : target;
   const history = [...(Array.isArray(target.history) ? target.history : []), ...(Array.isArray(incoming.history) ? incoming.history : [])]
     .filter(Boolean).sort((a,b) => String(a.time || "").localeCompare(String(b.time || "")));
@@ -1376,7 +1392,8 @@ function compactProgress(progress = {}, options = {}) {
     if (!hasData) return;
     const record = {};
     if (status !== "new") record.status = status;
-    if (stage >= 0) record.stage = stage;
+    // “忘了”会把 stage 设为 -1；这个值也是有效操作，必须写入存档。
+    if (status !== "new" || item.lastStudiedAt || history.length) record.stage = stage;
     if (item.nextReviewAt) record.nextReviewAt = item.nextReviewAt;
     if (item.lastStudiedAt) record.lastStudiedAt = item.lastStudiedAt;
     if (history.length) record.history = history;
@@ -1407,7 +1424,7 @@ function compactWordRecord(word, options = {}) {
   if (mastery !== "未学") record.mastery = mastery;
   if (word.important) record.important = true;
   if (status !== "new") record.status = status;
-  if (stage >= 0) record.stage = stage;
+  if (status !== "new" || word.lastStudiedAt) record.stage = stage;
   if (word.nextReviewAt) record.nextReviewAt = word.nextReviewAt;
   if (word.lastStudiedAt) record.lastStudiedAt = word.lastStudiedAt;
   if (word.updatedAt && (status !== "new" || stage >= 0 || word.important || mastery !== "未学")) record.updatedAt = word.updatedAt;
@@ -1439,7 +1456,7 @@ function compactCustomWord(word, options = {}) {
   if (word.mastery && word.mastery !== "未学") custom.mastery = word.mastery;
   if (word.important) custom.important = true;
   if (word.status && word.status !== "new") custom.status = word.status;
-  if (Number.isInteger(word.stage) && word.stage >= 0) custom.stage = word.stage;
+  if (Number.isInteger(word.stage) && ((word.status || "new") !== "new" || word.lastStudiedAt)) custom.stage = word.stage;
   if (word.nextReviewAt) custom.nextReviewAt = word.nextReviewAt;
   if (word.lastStudiedAt) custom.lastStudiedAt = word.lastStudiedAt;
   if (word.createdAt) custom.createdAt = word.createdAt;
@@ -2146,11 +2163,69 @@ function cloudWordsPayload() {
     id: CLOUD_COMPACT_PAYLOAD_ID,
     type: "word-memory-compact-cloud",
     app: "专升本单词记忆",
-    version: 50,
+    version: 51,
     studyTime: normalizeStudyTime(state.studyTime || {}),
     data: compactPayloadForStorage(state.words),
     updatedAt: new Date().toISOString(),
   }];
+}
+
+function cloudIncomingWords(data) {
+  const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
+  const compactCloud = incoming.find((item) => item && item.id === CLOUD_COMPACT_PAYLOAD_ID && item.data?.compact);
+  if (compactCloud) {
+    return {
+      words: loadCompactWords(compactCloud.data),
+      studyTime: compactCloud.studyTime || null,
+      compactCloud,
+      incoming,
+    };
+  }
+  const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
+  const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
+  return {
+    words: dedupeRuntimeWords(wordRecords.map(normalizeWord)),
+    studyTime: studyMeta?.studyTime || null,
+    compactCloud: null,
+    incoming,
+  };
+}
+
+function mergeCloudDataIntoLocal(data) {
+  const remote = cloudIncomingWords(data);
+  const localWords = Array.isArray(state.words) ? state.words.map(normalizeWord) : [];
+  // 本机记录放前面、云端记录放后面；真正胜负由 mergeProgressRecord 的最后操作时间决定。
+  state.words = dedupeRuntimeWords([...localWords, ...(remote.words || [])]);
+  if (remote.studyTime) {
+    state.studyTime = mergeStudyTimeForCloud(state.studyTime, remote.studyTime);
+    saveStudyTime();
+  }
+  return remote;
+}
+
+function isMissingCloudProfileError(error) {
+  return /不存在|未找到|not found|no rows|PGRST116/i.test(String(error?.message || error || ""));
+}
+
+async function pullAndMergeCloudBeforeSave(config) {
+  if (!config?.slug) return false;
+  try {
+    const data = await cloudRequest("load_word_memory_cloud", {
+      p_slug: toWordMemoryCloudSlug(config.slug),
+      p_pin: config.pin || null,
+    });
+    mergeCloudDataIntoLocal(data);
+    suppressCloudSync = true;
+    saveWords({ skipCloud: true });
+    suppressCloudSync = false;
+    return true;
+  } catch (error) {
+    suppressCloudSync = false;
+    // 第一次建立云端编号时，云端不存在是正常情况；其他读取失败则停止保存，
+    // 避免离线旧设备把较新的云端进度整包覆盖。
+    if (isMissingCloudProfileError(error)) return false;
+    throw error;
+  }
 }
 
 function saveLocalCloudSettingsOnly(config, options = {}) {
@@ -2190,6 +2265,9 @@ async function saveCloudNow(options = {}) {
     if (!silent) {
       setCloudStatus("正在保存到云端……");
     }
+    // 保存前先拉取云端并按“最后一次操作”合并，防止另一台设备的旧 31 天记录
+    // 覆盖手机上刚刚点“忘了”的 2 分钟记录。
+    await pullAndMergeCloudBeforeSave(config);
     const result = await cloudRequest("save_word_memory_cloud", {
       p_slug: toWordMemoryCloudSlug(config.slug),
       p_pin: config.pin,
@@ -2232,23 +2310,9 @@ async function loadCloudToLocal(options = {}) {
       p_slug: toWordMemoryCloudSlug(slug),
       p_pin: pin || null,
     });
-    const incoming = Array.isArray(data?.words) ? data.words : Array.isArray(data) ? data : [];
-    const compactCloud = incoming.find((item) => item && item.id === CLOUD_COMPACT_PAYLOAD_ID && item.data?.compact);
-    if (compactCloud) {
-      state.words = loadCompactWords(compactCloud.data);
-      if (compactCloud.studyTime) {
-        state.studyTime = mergeStudyTimeForCloud(state.studyTime, compactCloud.studyTime);
-        saveStudyTime();
-      }
-    } else {
-      const studyMeta = incoming.find((item) => item && item.id === CLOUD_STUDY_TIME_META_ID);
-      const wordRecords = incoming.filter((item) => !(item && item.id === CLOUD_STUDY_TIME_META_ID));
-      state.words = dedupeRuntimeWords(wordRecords.map(normalizeWord));
-      if (studyMeta?.studyTime) {
-        state.studyTime = mergeStudyTimeForCloud(state.studyTime, studyMeta.studyTime);
-        saveStudyTime();
-      }
-    }
+    // 加载云端时不再整包替换本机，而是逐词按最后操作时间合并。
+    // 这样手机“忘了”和电脑旧的“31天”发生冲突时，较新的操作会保留。
+    mergeCloudDataIntoLocal(data);
     suppressCloudSync = true;
     if (!publicView) {
       saveWords({ skipCloud: true });

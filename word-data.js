@@ -1,4 +1,4 @@
-// v70 B004 2026-07-28：新增短语练习10、蓝色森林23、四级18；保留手动展开语境、联动复习与句子标记。
+// v70 B006 2026-07-29：新增短语练习11、蓝色森林24、四级19；保留最后操作优先同步、手动展开语境、联动复习与句子标记。
 window.WORD_MEMORY_WORDS = [
   {
     "id": "word-list-1-001",
@@ -6349,11 +6349,15 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 图片导入",
     "groups": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级 19"
     ],
     "sources": [
-      "蓝色森林"
-    ]
+      "蓝色森林",
+      "四级"
+    ],
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。"
   },
   {
     "id": "blue-forest-035",
@@ -6983,11 +6987,15 @@ window.WORD_MEMORY_WORDS = [
     "source": "四级",
     "tag": "四级 / Part 1 Unit 1",
     "groups": [
-      "四级"
+      "四级",
+      "蓝色森林 24"
     ],
     "sources": [
-      "四级"
-    ]
+      "四级",
+      "蓝色森林"
+    ],
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。"
   },
   {
     "id": "cet4-030",
@@ -7871,16 +7879,18 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "tag": "蓝色森林 / 听写总结",
     "phrase": "",
-    "note": "",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "groups": [
       "蓝色森林",
-      "四级"
+      "四级",
+      "蓝色森林 24"
     ],
     "sources": [
       "蓝色森林",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "updatedAt": "2026-07-29T08:30:00+08:00"
   },
   {
     "id": "blue-forest-b2-039",
@@ -8684,11 +8694,15 @@ window.WORD_MEMORY_WORDS = [
     "source": "四级",
     "tag": "四级 / 词族导入",
     "groups": [
-      "四级"
+      "四级",
+      "蓝色森林 24"
     ],
     "sources": [
-      "四级"
-    ]
+      "四级",
+      "蓝色森林"
+    ],
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。"
   },
   {
     "id": "cet4-b2-004",
@@ -11470,21 +11484,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "input",
     "meaning": "v. 输入；n. 输入。反义 output 输出。",
     "phrase": "",
-    "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+    "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "全方位 3 / 全方位单词课",
     "source": "全方位",
     "sources": [
-      "全方位"
+      "全方位",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "全方位 3"
+      "全方位 3",
+      "蓝色森林 24"
     ]
   },
   {
@@ -13148,23 +13164,25 @@ window.WORD_MEMORY_WORDS = [
     "term": "record",
     "meaning": "记录；作名词可指纪录，作动词可指录音/记录。；v. 记录，记载；n. 记录，唱片。",
     "phrase": "hold the world record / record the meeting；hold the world record 保持世界纪录；record the meeting 记录会议",
-    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹；来源：2026-07-27 普通词表截图；归入蓝色森林 22。",
+    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹；来源：2026-07-27 普通词表截图；归入蓝色森林 22。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "全方位 1 / 单词课补全",
     "source": "全方位",
     "sources": [
       "全方位",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-07-27T12:00:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "全方位 1",
-      "蓝色森林 22"
+      "蓝色森林 22",
+      "四级 19"
     ],
     "forms": {}
   },
@@ -13220,21 +13238,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "speed",
     "meaning": "速度。",
     "phrase": "a slow speed",
-    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "全方位 1 / 单词课补全",
     "source": "全方位",
     "sources": [
-      "全方位"
+      "全方位",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "全方位 1"
+      "全方位 1",
+      "蓝色森林 24"
     ]
   },
   {
@@ -13569,23 +13589,25 @@ window.WORD_MEMORY_WORDS = [
     "term": "enter",
     "meaning": "进入。；v. 进入；参与；写入；输入；n. 回车键",
     "phrase": "enter the supermarket",
-    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。",
+    "note": "来源：全方位 1 单词课补全。按原讲义补录，归入全方位资料夹。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "全方位 1 / 单词课补全",
     "source": "全方位",
     "sources": [
       "全方位",
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "全方位 1",
-      "Word List 12"
+      "Word List 12",
+      "蓝色森林 24"
     ],
     "forms": {}
   },
@@ -19069,21 +19091,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "audience",
     "meaning": "n. 观众；听众",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 4”分块，避免手机一次性加载太多。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 4 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 4"
+      "蓝色森林 4",
+      "四级 19"
     ]
   },
   {
@@ -20632,7 +20656,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "private",
     "meaning": "adj. 私人的；私有的；n. 二等兵",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
@@ -20643,10 +20667,11 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
+      "蓝色森林 5",
+      "蓝色森林 24"
     ]
   },
   {
@@ -21574,21 +21599,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "preserve",
     "meaning": "v. 保存；保护；n. 禁猎区；保护区",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
+      "蓝色森林 5",
+      "四级 19"
     ]
   },
   {
@@ -21596,21 +21623,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "preservation",
     "meaning": "n. 保护；保存",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
+      "蓝色森林 5",
+      "四级 19"
     ]
   },
   {
@@ -21618,21 +21647,23 @@ window.WORD_MEMORY_WORDS = [
     "term": "preservative",
     "meaning": "n. 防腐剂",
     "phrase": "",
-    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+    "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
+      "蓝色森林 5",
+      "四级 19"
     ]
   },
   {
@@ -22380,7 +22411,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "differ",
     "meaning": "v. 不同；相异；vi. 不同；有区别；意见相左",
     "phrase": "differ from 不同于；differ in 在……方面有差异",
-    "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-06-29 图片补充导入 v44；归入蓝色森林 10。",
+    "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-06-29 图片补充导入 v44；归入蓝色森林 10。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "Word List 6 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -22388,15 +22419,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-29T14:20:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "Word List 6",
-      "蓝色森林 10"
+      "蓝色森林 10",
+      "四级 19"
     ],
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "forms": {}
   },
@@ -22405,7 +22438,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "different",
     "meaning": "adj. 不同的",
     "phrase": "be different from 与……不同",
-    "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+    "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-06-27 蓝色森林词汇短语PDF截图导入；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "Word List 6 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -22413,15 +22446,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-27T14:50:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "Word List 6",
-      "蓝色森林 7"
+      "蓝色森林 7",
+      "四级 19"
     ],
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "forms": {}
   },
@@ -22430,7 +22465,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "difference",
     "meaning": "n. 差异；不同之处；分歧；n. 差别；差异",
     "phrase": "make a difference 有影响；有关系",
-    "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+    "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-06-27 蓝色森林词汇短语PDF截图导入；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "Word List 6 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -22438,15 +22473,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-27T14:50:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "Word List 6",
-      "蓝色森林 7"
+      "蓝色森林 7",
+      "四级 19"
     ],
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "forms": {}
   },
@@ -23833,7 +23870,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "handwriting",
     "meaning": "n. 书写；笔迹；n. 手写，书写，笔迹。",
     "phrase": "",
-    "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。",
+    "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026届《大学英语》基础课程 - 全方位 1；v32 按原讲义补漏/校正。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 7 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -23841,15 +23878,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-27T15:32:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "Word List 7",
-      "全方位 1"
+      "全方位 1",
+      "蓝色森林 24"
     ],
     "sources": [
       "Word List",
-      "全方位"
+      "全方位",
+      "蓝色森林"
     ],
     "forms": {}
   },
@@ -24441,7 +24480,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "sport",
     "meaning": "n. 运动；体育运动",
     "phrase": "",
-    "note": "Word List 8｜图片导入｜后续可继续校正音标",
+    "note": "Word List 8｜图片导入｜后续可继续校正音标；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 8 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -24449,13 +24488,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "Word List 8"
+      "Word List 8",
+      "蓝色森林 24"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -25307,7 +25348,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "hotel",
     "meaning": "n. 酒店；旅社",
     "phrase": "",
-    "note": "Word List 9｜图片导入｜后续可继续校正音标",
+    "note": "Word List 9｜图片导入｜后续可继续校正音标；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 9 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -25315,13 +25356,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "Word List 9"
+      "Word List 9",
+      "蓝色森林 24"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -26093,7 +26136,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "memory",
     "meaning": "n. 记忆力；回忆；存储器",
     "phrase": "in memory of 为纪念",
-    "note": "Word List 10｜图片导入｜后续可继续校正音标",
+    "note": "Word List 10｜图片导入｜后续可继续校正音标；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 10 / 图片导入",
     "source": "Word List",
     "status": "new",
@@ -26101,13 +26144,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "Word List 10"
+      "Word List 10",
+      "蓝色森林 24"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ]
   },
   {
@@ -29246,7 +29291,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "foreign",
     "meaning": "adj. 国外的；外来的；adj. 外国的；外交的；涉外的",
     "phrase": "",
-    "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入",
+    "note": "来源：2026-06-27 蓝色森林词汇短语PDF截图导入；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "蓝色森林 7 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -29254,11 +29299,12 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T14:50:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "蓝色森林 7",
-      "Word List 13"
+      "Word List 13",
+      "蓝色森林 24"
     ],
     "sources": [
       "蓝色森林",
@@ -30753,7 +30799,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "excellent",
     "meaning": "adj. 极好的；优秀的；棒极了",
     "phrase": "",
-    "note": "来源：2026-06-27 四级词表截图导入；来源：2026-07-28 普通词表截图；归入蓝色森林 23。",
+    "note": "来源：2026-06-27 四级词表截图导入；来源：2026-07-28 普通词表截图；归入蓝色森林 23。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "四级 4 / 四级",
     "source": "四级",
     "status": "new",
@@ -30761,11 +30807,12 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T14:50:00+08:00",
-    "updatedAt": "2026-07-28T10:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "四级 4",
-      "蓝色森林 23"
+      "蓝色森林 23",
+      "蓝色森林 24"
     ],
     "sources": [
       "四级",
@@ -31633,7 +31680,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "active",
     "meaning": "adj. 积极的；活跃的；adj. 活跃的；积极的；有效的",
     "phrase": "",
-    "note": "/ˈæktɪv/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。",
+    "note": "/ˈæktɪv/；来源：2026-06-28 四级截图补充导入；来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：蓝色森林词本｜Word List 17｜2026-06-28 图片导入 v42。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 11 / Word List",
     "source": "Word List",
     "status": "new",
@@ -31641,7 +31688,7 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "sources": [
       "Word List",
@@ -31653,7 +31700,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "四级 5",
-      "Word List 17"
+      "Word List 17",
+      "蓝色森林 24"
     ],
     "forms": {}
   },
@@ -32386,7 +32434,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "keep",
     "meaning": "v. 保持；保留",
     "phrase": "",
-    "note": "来源：全方位专升本讲义｜Word List 12｜按原页顺序重整 v33。",
+    "note": "来源：全方位专升本讲义｜Word List 12｜按原页顺序重整 v33。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 12 / Word List",
     "source": "Word List",
     "status": "new",
@@ -32394,15 +32442,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 12"
+      "Word List 12",
+      "蓝色森林 24"
     ]
   },
   {
@@ -37027,7 +37077,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "motivate",
     "meaning": "vt. 成为……的动机；激发，激励",
     "phrase": "",
-    "note": "/ˈməʊtɪveɪt/；来源：2026-06-28 四级截图补充导入",
+    "note": "/ˈməʊtɪveɪt/；来源：2026-06-28 四级截图补充导入；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "四级 5 / 四级截图补充",
     "source": "四级",
     "status": "new",
@@ -37035,13 +37085,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T11:40:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "四级 5"
+      "四级 5",
+      "蓝色森林 24"
     ],
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ]
   },
   {
@@ -38617,7 +38669,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "accordance",
     "meaning": "n. 一致；符合；协调",
     "phrase": "",
-    "note": "来源：2026-06-28 蓝色森林词表截图补充导入",
+    "note": "来源：2026-06-28 蓝色森林词表截图补充导入；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 8 / 词表截图补充",
     "source": "蓝色森林",
     "status": "new",
@@ -38625,13 +38677,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T11:40:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 8"
+      "蓝色森林 8",
+      "四级 19"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ]
   },
   {
@@ -39067,7 +39121,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "hardly",
     "meaning": "adv. 几乎不",
     "phrase": "",
-    "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+    "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
     "source": "蓝色森林",
     "status": "new",
@@ -39075,11 +39129,12 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
       "蓝色森林 9",
-      "Word List 16"
+      "Word List 16",
+      "蓝色森林 24"
     ],
     "sources": [
       "蓝色森林",
@@ -42518,7 +42573,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "height",
     "meaning": "n. 身高；高度；高地",
     "phrase": "",
-    "note": "来源：蓝色森林词本｜Word List 16｜2026-06-28 图片导入 v42。",
+    "note": "来源：蓝色森林词本｜Word List 16｜2026-06-28 图片导入 v42。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "Word List 16 / 蓝色森林词本",
     "source": "Word List",
     "sources": [
@@ -42530,12 +42585,13 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 16"
+      "Word List 16",
+      "蓝色森林 24"
     ]
   },
   {
@@ -47178,23 +47234,25 @@ window.WORD_MEMORY_WORDS = [
     "term": "fresh",
     "meaning": "adj. 新鲜的；新近的；新的；淡的",
     "phrase": "",
-    "note": "/freʃ/；来源：2026-06-29 图片导入 v43。",
+    "note": "/freʃ/；来源：2026-06-29 图片导入 v43。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "四级 6 / 四级截图补充",
     "source": "四级",
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-29T14:05:00+08:00",
-    "updatedAt": "2026-06-29T14:05:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "四级 6"
+      "四级 6",
+      "蓝色森林 24"
     ]
   },
   {
@@ -52066,23 +52124,25 @@ window.WORD_MEMORY_WORDS = [
     "term": "regarding",
     "meaning": "prep. 关于，有关",
     "phrase": "",
-    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。",
+    "note": "来源：2026-07-14《第一章第五节 介词与连词》截图继续导入；未标注“英语四级”，按既定规则归入蓝色森林 11。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-14T16:30:00+08:00",
-    "updatedAt": "2026-07-14T16:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
+      "蓝色森林 11",
+      "四级 19"
     ]
   },
   {
@@ -58168,7 +58228,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "detect",
     "meaning": "v. 检测；察觉",
     "phrase": "",
-    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 13 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -58176,13 +58236,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-16T09:00:00+08:00",
-    "updatedAt": "2026-07-16T09:00:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 13"
+      "蓝色森林 13",
+      "四级 19"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ]
   },
   {
@@ -58190,7 +58252,7 @@ window.WORD_MEMORY_WORDS = [
     "term": "detective",
     "meaning": "n. 侦探；adj. 侦探的",
     "phrase": "",
-    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入",
+    "note": "来源：2026-07-16 蓝色森林专升本短语资料截图导入；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 13 / 蓝色森林",
     "source": "蓝色森林",
     "status": "new",
@@ -58198,13 +58260,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-16T09:00:00+08:00",
-    "updatedAt": "2026-07-16T09:00:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 13"
+      "蓝色森林 13",
+      "四级 19"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ]
   },
   {
@@ -71345,20 +71409,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "May",
     "meaning": "五月",
     "phrase": "",
-    "note": "来源：第二次听写内容；原资料序号 月份5。按原资料逐条完整录入。",
+    "note": "来源：第二次听写内容；原资料序号 月份5。按原资料逐条完整录入。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "第二次听写内容 / 听写内容",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-22T16:00:00+08:00",
-    "updatedAt": "2026-07-22T16:00:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "第二次听写内容"
+      "第二次听写内容",
+      "蓝色森林 24"
     ],
     "sources": [
-      "听写内容"
+      "听写内容",
+      "蓝色森林"
     ],
     "source": "听写内容"
   },
@@ -77707,20 +77773,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "outline",
     "meaning": "n. 概要；梗概；轮廓；外形；vt. 概述；概括；勾勒",
     "phrase": "",
-    "note": "来源：2026-07-25 英语四级截图；归入四级 15。已有词仅补充分组，不重复生成。",
+    "note": "来源：2026-07-25 英语四级截图；归入四级 15。已有词仅补充分组，不重复生成。；来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
     "tag": "四级 15 / 四级",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-25T10:04:00+08:00",
-    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "四级 15"
+      "四级 15",
+      "蓝色森林 24"
     ],
     "sources": [
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
     "source": "四级"
   },
@@ -84488,20 +84556,22 @@ window.WORD_MEMORY_WORDS = [
     "term": "according to",
     "meaning": "prep. 根据；按照；据……所说",
     "phrase": "According to the survey, most students prefer practical courses with clear goals. 根据调查，大多数学生更喜欢目标明确的实践课程。",
-    "note": "来源：2026-07-28 普通词表截图；归入蓝色森林 23。",
+    "note": "来源：2026-07-28 普通词表截图；归入蓝色森林 23。；来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
     "tag": "蓝色森林 23 / 蓝色森林",
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-28T10:30:00+08:00",
-    "updatedAt": "2026-07-28T10:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 23"
+      "蓝色森林 23",
+      "四级 19"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "source": "蓝色森林",
     "contextSentence": "According to the survey, most students prefer practical courses with clear goals.",
@@ -85730,5 +85800,1805 @@ window.WORD_MEMORY_WORDS = [
     "source": "四级",
     "contextSentence": "The villagers were appreciative of the volunteers who repaired the old bridge.",
     "contextTranslation": "村民们十分感激修复旧桥的志愿者。"
+  },
+  {
+    "id": "phrase-practice-11-001",
+    "term": "common sense",
+    "meaning": "常识",
+    "phrase": "It is common sense to check the source before sharing information online. 在网上分享信息前核实来源是常识。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "It is common sense to check the source before sharing information online.",
+    "contextTranslation": "在网上分享信息前核实来源是常识。"
+  },
+  {
+    "id": "phrase-practice-11-002",
+    "term": "spend time/money on sth.",
+    "meaning": "在……上花费时间/金钱",
+    "phrase": "Many students spend time on reviewing their mistakes after class. 许多学生课后花时间复习错题。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "Many students spend time on reviewing their mistakes after class.",
+    "contextTranslation": "许多学生课后花时间复习错题。"
+  },
+  {
+    "id": "phrase-practice-11-003",
+    "term": "sb. spends time/money (in) doing sth.",
+    "meaning": "某人花费时间/金钱做某事",
+    "phrase": "She spends two hours preparing for the entrance examination every evening. 她每天晚上花两个小时准备专升本考试。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "She spends two hours preparing for the entrance examination every evening.",
+    "contextTranslation": "她每天晚上花两个小时准备专升本考试。"
+  },
+  {
+    "id": "phrase-practice-11-004",
+    "term": "it takes/took sb. time/money to do sth.",
+    "meaning": "做某事花费某人多少时间/金钱",
+    "phrase": "It took us three days to complete the social-practice report. 我们花了三天完成社会实践报告。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "It took us three days to complete the social-practice report.",
+    "contextTranslation": "我们花了三天完成社会实践报告。"
+  },
+  {
+    "id": "phrase-practice-11-005",
+    "term": "as follows",
+    "meaning": "如下",
+    "phrase": "The main reasons for the change are as follows: lower cost, higher speed, and easier access. 这一变化的主要原因如下：成本更低、速度更快、获取更方便。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "The main reasons for the change are as follows: lower cost, higher speed, and easier access.",
+    "contextTranslation": "这一变化的主要原因如下：成本更低、速度更快、获取更方便。"
+  },
+  {
+    "id": "phrase-practice-11-006",
+    "term": "meet with",
+    "meaning": "遭遇；经受；会见",
+    "phrase": "The research team met with several difficulties while collecting data in rural areas. 研究团队在农村地区收集数据时遇到了若干困难。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "The research team met with several difficulties while collecting data in rural areas.",
+    "contextTranslation": "研究团队在农村地区收集数据时遇到了若干困难。"
+  },
+  {
+    "id": "phrase-practice-11-007",
+    "term": "lose heart",
+    "meaning": "丧失信心；灰心",
+    "phrase": "Do not lose heart when your first attempt fails; analyze the cause and try again. 第一次尝试失败时不要灰心，要分析原因并再次尝试。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "Do not lose heart when your first attempt fails; analyze the cause and try again.",
+    "contextTranslation": "第一次尝试失败时不要灰心，要分析原因并再次尝试。"
+  },
+  {
+    "id": "phrase-practice-11-008",
+    "term": "come from",
+    "meaning": "来自",
+    "phrase": "Several useful ideas in the discussion came from students with practical experience. 讨论中的几个有用观点来自有实践经验的学生。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "Several useful ideas in the discussion came from students with practical experience.",
+    "contextTranslation": "讨论中的几个有用观点来自有实践经验的学生。"
+  },
+  {
+    "id": "phrase-practice-11-009",
+    "term": "rural area(s)",
+    "meaning": "农村地区",
+    "phrase": "Online courses give students in rural areas more access to high-quality education. 网络课程让农村地区的学生更容易获得优质教育。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "Online courses give students in rural areas more access to high-quality education.",
+    "contextTranslation": "网络课程让农村地区的学生更容易获得优质教育。"
+  },
+  {
+    "id": "phrase-practice-11-010",
+    "term": "give sb. a ride",
+    "meaning": "载某人一程",
+    "phrase": "My classmate offered to give me a ride to the examination center. 我的同学主动提出载我去考试中心。",
+    "note": "来源：2026-07-29 蓝色森林专升本短语卡片；归入短语练习 11。",
+    "tag": "短语练习 11 / 短语练习",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 11"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "contextSentence": "My classmate offered to give me a ride to the examination center.",
+    "contextTranslation": "我的同学主动提出载我去考试中心。"
+  },
+  {
+    "id": "blueforest-20260729-24-001",
+    "term": "arm",
+    "meaning": "n. 手臂；武器（复数）；v. 武装；装备",
+    "phrase": "During the experiment, Li raised her arm to ask the teacher a question. 实验过程中，李同学举起手臂向老师提问。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "During the experiment, Li raised her arm to ask the teacher a question.",
+    "contextTranslation": "实验过程中，李同学举起手臂向老师提问。"
+  },
+  {
+    "id": "blueforest-20260729-24-002",
+    "term": "grandparent",
+    "meaning": "n. 祖父或祖母；祖父母",
+    "phrase": "Many young people learn traditional customs from a grandparent. 许多年轻人从祖父母那里学习传统习俗。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Many young people learn traditional customs from a grandparent.",
+    "contextTranslation": "许多年轻人从祖父母那里学习传统习俗。"
+  },
+  {
+    "id": "blueforest-20260729-24-004",
+    "term": "nine",
+    "meaning": "num. 数字九；九个；n. 九个人/物；棒球第九局",
+    "phrase": "The library closes at nine during the winter term. 冬季学期图书馆九点关门。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The library closes at nine during the winter term.",
+    "contextTranslation": "冬季学期图书馆九点关门。"
+  },
+  {
+    "id": "blueforest-20260729-24-005",
+    "term": "chair",
+    "meaning": "n. 椅子；主席职位；vt. 主持（会议）；担任主席",
+    "phrase": "The chair of the student union announced the new volunteer program. 学生会主席宣布了新的志愿服务项目。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The chair of the student union announced the new volunteer program.",
+    "contextTranslation": "学生会主席宣布了新的志愿服务项目。"
+  },
+  {
+    "id": "blueforest-20260729-24-011",
+    "term": "hello",
+    "meaning": "interj. 你好；喂；n. 问候；招呼",
+    "phrase": "A simple hello can make a new classmate feel welcome. 一句简单的问候就能让新同学感到受欢迎。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "A simple hello can make a new classmate feel welcome.",
+    "contextTranslation": "一句简单的问候就能让新同学感到受欢迎。"
+  },
+  {
+    "id": "blueforest-20260729-24-012",
+    "term": "club",
+    "meaning": "n. 俱乐部；棍棒；梅花（扑克牌）；v. 用棍棒打；联合",
+    "phrase": "Joining the debate club improved her confidence in public speaking. 参加辩论社提高了她公开演讲的自信。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Joining the debate club improved her confidence in public speaking.",
+    "contextTranslation": "参加辩论社提高了她公开演讲的自信。"
+  },
+  {
+    "id": "blueforest-20260729-24-014",
+    "term": "hen",
+    "meaning": "n. 母鸡；雌禽；（俚）女人",
+    "phrase": "The rural family keeps a hen in the yard for fresh eggs. 这个农村家庭在院子里养了一只母鸡以获得新鲜鸡蛋。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The rural family keeps a hen in the yard for fresh eggs.",
+    "contextTranslation": "这个农村家庭在院子里养了一只母鸡以获得新鲜鸡蛋。"
+  },
+  {
+    "id": "blueforest-20260729-24-015",
+    "term": "hers",
+    "meaning": "pron. 她的（所有物）",
+    "phrase": "This dictionary is hers, while the blue one belongs to me. 这本词典是她的，而蓝色那本是我的。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "This dictionary is hers, while the blue one belongs to me.",
+    "contextTranslation": "这本词典是她的，而蓝色那本是我的。"
+  },
+  {
+    "id": "blueforest-20260729-24-016",
+    "term": "tiger",
+    "meaning": "n. 老虎；凶猛的人；强悍的人",
+    "phrase": "The report explains why the tiger population has declined in recent decades. 报告解释了近几十年来老虎数量下降的原因。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The report explains why the tiger population has declined in recent decades.",
+    "contextTranslation": "报告解释了近几十年来老虎数量下降的原因。"
+  },
+  {
+    "id": "blueforest-20260729-24-017",
+    "term": "hotdog",
+    "meaning": "n. 热狗；爱炫耀的人；v. 炫耀；卖弄技巧",
+    "phrase": "He bought a hotdog before the basketball match began. 篮球比赛开始前，他买了一个热狗。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "He bought a hotdog before the basketball match began.",
+    "contextTranslation": "篮球比赛开始前，他买了一个热狗。"
+  },
+  {
+    "id": "blueforest-20260729-24-019",
+    "term": "snake",
+    "meaning": "n. 蛇；阴险的人；v. 蜿蜒；曲折行进",
+    "phrase": "The guide warned us not to touch a snake in the grass. 导游警告我们不要触碰草丛里的蛇。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The guide warned us not to touch a snake in the grass.",
+    "contextTranslation": "导游警告我们不要触碰草丛里的蛇。"
+  },
+  {
+    "id": "blueforest-20260729-24-020",
+    "term": "culture",
+    "meaning": "n. 文化；文明；培养（微生物）；v. 培养（细胞/细菌）",
+    "phrase": "Studying local culture helps exchange students adapt more quickly. 了解当地文化有助于交换生更快适应。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Studying local culture helps exchange students adapt more quickly.",
+    "contextTranslation": "了解当地文化有助于交换生更快适应。"
+  },
+  {
+    "id": "blueforest-20260729-24-022",
+    "term": "noodle",
+    "meaning": "n. 面条；傻子（俚语）",
+    "phrase": "A bowl of noodle soup is a common breakfast in the town. 一碗面汤是这个小镇常见的早餐。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "A bowl of noodle soup is a common breakfast in the town.",
+    "contextTranslation": "一碗面汤是这个小镇常见的早餐。"
+  },
+  {
+    "id": "blueforest-20260729-24-024",
+    "term": "if",
+    "meaning": "conj. 如果；是否；即使；n. 条件；假设",
+    "phrase": "If students manage their time well, they can reduce exam stress. 如果学生能合理管理时间，就能减轻考试压力。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "If students manage their time well, they can reduce exam stress.",
+    "contextTranslation": "如果学生能合理管理时间，就能减轻考试压力。"
+  },
+  {
+    "id": "blueforest-20260729-24-026",
+    "term": "nonsense",
+    "meaning": "n. 胡说；荒谬的言行；无意义的事物",
+    "phrase": "The teacher asked us to remove any nonsense from the formal report. 老师要求我们删去正式报告中毫无意义的内容。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The teacher asked us to remove any nonsense from the formal report.",
+    "contextTranslation": "老师要求我们删去正式报告中毫无意义的内容。"
+  },
+  {
+    "id": "blueforest-20260729-24-027",
+    "term": "call",
+    "meaning": "v. 打电话；称呼；召唤；喊叫；n. 电话；呼叫；要求；拜访",
+    "phrase": "Please call the admissions office if you need more information. 如需更多信息，请致电招生办公室。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Please call the admissions office if you need more information.",
+    "contextTranslation": "如需更多信息，请致电招生办公室。"
+  },
+  {
+    "id": "blueforest-20260729-24-028",
+    "term": "its",
+    "meaning": "pron. 它的（it 的所有格形式）",
+    "phrase": "The university updated its online registration system last month. 这所大学上个月更新了它的在线报名系统。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The university updated its online registration system last month.",
+    "contextTranslation": "这所大学上个月更新了它的在线报名系统。"
+  },
+  {
+    "id": "blueforest-20260729-24-030",
+    "term": "stomach",
+    "meaning": "n. 胃；腹部；食欲；vt. 忍受；容忍",
+    "phrase": "Eating too quickly may cause stomach discomfort. 吃得太快可能引起胃部不适。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Eating too quickly may cause stomach discomfort.",
+    "contextTranslation": "吃得太快可能引起胃部不适。"
+  },
+  {
+    "id": "blueforest-20260729-24-031",
+    "term": "penalty",
+    "meaning": "n. 处罚；刑罚；体育比赛中的罚球",
+    "phrase": "Late submission may result in a penalty under the course rules. 根据课程规定，迟交作业可能受到处罚。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Late submission may result in a penalty under the course rules.",
+    "contextTranslation": "根据课程规定，迟交作业可能受到处罚。"
+  },
+  {
+    "id": "blueforest-20260729-24-033",
+    "term": "add",
+    "meaning": "vt. 添加；增加；补充说；vi. 增添；做加法",
+    "phrase": "The researcher decided to add two questions to the survey. 研究人员决定在问卷中增加两个问题。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The researcher decided to add two questions to the survey.",
+    "contextTranslation": "研究人员决定在问卷中增加两个问题。"
+  },
+  {
+    "id": "blueforest-20260729-24-034",
+    "term": "all",
+    "meaning": "adj. 全部的；所有的；整个的；adv. 完全地；各方",
+    "phrase": "All applicants must provide a valid identification document. 所有申请人都必须提供有效身份证明。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "All applicants must provide a valid identification document.",
+    "contextTranslation": "所有申请人都必须提供有效身份证明。"
+  },
+  {
+    "id": "blueforest-20260729-24-036",
+    "term": "meat",
+    "meaning": "n. （可食用的）肉；主要部分；重要内容",
+    "phrase": "The cafeteria now offers less meat and more vegetables. 食堂现在提供更少的肉和更多的蔬菜。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The cafeteria now offers less meat and more vegetables.",
+    "contextTranslation": "食堂现在提供更少的肉和更多的蔬菜。"
+  },
+  {
+    "id": "blueforest-20260729-24-037",
+    "term": "defeat",
+    "meaning": "vt. 击败；使失败；阻挠；n. 失败；战败",
+    "phrase": "The school team worked together to defeat a stronger opponent. 校队齐心协力击败了更强的对手。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The school team worked together to defeat a stronger opponent.",
+    "contextTranslation": "校队齐心协力击败了更强的对手。"
+  },
+  {
+    "id": "blueforest-20260729-24-038",
+    "term": "very",
+    "meaning": "adv. 非常；很；极其；adj. 正是的；同一的；极端的",
+    "phrase": "The final paragraph is very important because it summarizes the main idea. 最后一段非常重要，因为它概括了中心思想。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The final paragraph is very important because it summarizes the main idea.",
+    "contextTranslation": "最后一段非常重要，因为它概括了中心思想。"
+  },
+  {
+    "id": "blueforest-20260729-24-043",
+    "term": "furniture",
+    "meaning": "n. 家具；设备",
+    "phrase": "The dormitory furniture was replaced before the new term began. 新学期开始前，宿舍家具被更换了。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The dormitory furniture was replaced before the new term began.",
+    "contextTranslation": "新学期开始前，宿舍家具被更换了。"
+  },
+  {
+    "id": "blueforest-20260729-24-044",
+    "term": "spokesman",
+    "meaning": "n. 发言人；代言人",
+    "phrase": "A company spokesman explained the reason for the product recall. 公司发言人解释了产品召回的原因。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "A company spokesman explained the reason for the product recall.",
+    "contextTranslation": "公司发言人解释了产品召回的原因。"
+  },
+  {
+    "id": "blueforest-20260729-24-046",
+    "term": "complain",
+    "meaning": "vi. 抱怨；诉苦；投诉；vt. 抱怨（后接 that 从句）",
+    "phrase": "Some residents complain that traffic noise affects their sleep. 一些居民抱怨交通噪声影响睡眠。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Some residents complain that traffic noise affects their sleep.",
+    "contextTranslation": "一些居民抱怨交通噪声影响睡眠。"
+  },
+  {
+    "id": "blueforest-20260729-24-048",
+    "term": "circus",
+    "meaning": "n. 马戏团；圆形广场；喧闹的场面",
+    "phrase": "The article discusses how a traveling circus protects its animals. 文章讨论了巡回马戏团如何保护动物。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "The article discusses how a traveling circus protects its animals.",
+    "contextTranslation": "文章讨论了巡回马戏团如何保护动物。"
+  },
+  {
+    "id": "blueforest-20260729-24-050",
+    "term": "grammar",
+    "meaning": "n. 语法；文法；语法书",
+    "phrase": "Good grammar helps readers understand an academic essay clearly. 良好的语法有助于读者清楚理解学术文章。",
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "tag": "蓝色森林 24 / 蓝色森林",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 24"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "contextSentence": "Good grammar helps readers understand an academic essay clearly.",
+    "contextTranslation": "良好的语法有助于读者清楚理解学术文章。"
+  },
+  {
+    "id": "cet-20260729-19-001",
+    "term": "accord",
+    "meaning": "n. 协议；一致；符合；vt. 给予；vi. 一致；符合",
+    "phrase": "The two departments acted in accord with the new safety rules. 两个部门按照新的安全规定采取了行动。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The two departments acted in accord with the new safety rules.",
+    "contextTranslation": "两个部门按照新的安全规定采取了行动。"
+  },
+  {
+    "id": "cet-20260729-19-004",
+    "term": "accordingly",
+    "meaning": "adv. 相应地；照着；因此；所以",
+    "phrase": "The weather forecast changed, and the outdoor activity was adjusted accordingly. 天气预报发生变化，户外活动也相应作了调整。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The weather forecast changed, and the outdoor activity was adjusted accordingly.",
+    "contextTranslation": "天气预报发生变化，户外活动也相应作了调整。"
+  },
+  {
+    "id": "cet-20260729-19-006",
+    "term": "recorder",
+    "meaning": "n. 录音机；录像机；竖笛；记录员",
+    "phrase": "The reporter placed a recorder on the table before the interview. 记者在采访前把录音机放在桌上。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The reporter placed a recorder on the table before the interview.",
+    "contextTranslation": "记者在采访前把录音机放在桌上。"
+  },
+  {
+    "id": "cet-20260729-19-007",
+    "term": "recording",
+    "meaning": "n. 录音；录像；录制；记录",
+    "phrase": "The listening teacher played the recording twice for the class. 听力老师给全班播放了两遍录音。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The listening teacher played the recording twice for the class.",
+    "contextTranslation": "听力老师给全班播放了两遍录音。"
+  },
+  {
+    "id": "cet-20260729-19-008",
+    "term": "audio",
+    "meaning": "adj. 录音的；音频的；n. 声音；音频",
+    "phrase": "The online course includes audio materials for pronunciation practice. 网络课程包含用于发音练习的音频材料。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The online course includes audio materials for pronunciation practice.",
+    "contextTranslation": "网络课程包含用于发音练习的音频材料。"
+  },
+  {
+    "id": "cet-20260729-19-010",
+    "term": "echo",
+    "meaning": "n. 回声；回响；重复；vi. 回响；vt. 附和；重复",
+    "phrase": "Her question seemed to echo through the empty lecture hall. 她的问题仿佛在空荡的报告厅里回响。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Her question seemed to echo through the empty lecture hall.",
+    "contextTranslation": "她的问题仿佛在空荡的报告厅里回响。"
+  },
+  {
+    "id": "cet-20260729-19-011",
+    "term": "regard",
+    "meaning": "vt. 认为；看待；注视；n. 关注；尊重；致意",
+    "phrase": "Many employers regard communication skills as essential. 许多雇主认为沟通能力至关重要。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Many employers regard communication skills as essential.",
+    "contextTranslation": "许多雇主认为沟通能力至关重要。"
+  },
+  {
+    "id": "cet-20260729-19-013",
+    "term": "regardless",
+    "meaning": "adv. 不管；不顾；无论如何",
+    "phrase": "Students should respect others regardless of their background. 学生应尊重他人，不论其背景如何。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Students should respect others regardless of their background.",
+    "contextTranslation": "学生应尊重他人，不论其背景如何。"
+  },
+  {
+    "id": "cet-20260729-19-014",
+    "term": "distinguish",
+    "meaning": "vt./vi. 区分；辨别；分清；使有别于",
+    "phrase": "Readers must distinguish facts from opinions in the passage. 读者必须区分文章中的事实与观点。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Readers must distinguish facts from opinions in the passage.",
+    "contextTranslation": "读者必须区分文章中的事实与观点。"
+  },
+  {
+    "id": "cet-20260729-19-015",
+    "term": "distinguishable",
+    "meaning": "adj. 可以区别开的；辨认得出的",
+    "phrase": "The two solutions are distinguishable by their different costs. 这两种方案可以通过不同的成本加以区分。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The two solutions are distinguishable by their different costs.",
+    "contextTranslation": "这两种方案可以通过不同的成本加以区分。"
+  },
+  {
+    "id": "cet-20260729-19-016",
+    "term": "distinct",
+    "meaning": "adj. 明显不同的；清晰的；确实的",
+    "phrase": "The study identifies three distinct causes of the problem. 这项研究确定了该问题的三个不同原因。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The study identifies three distinct causes of the problem.",
+    "contextTranslation": "这项研究确定了该问题的三个不同原因。"
+  },
+  {
+    "id": "cet-20260729-19-017",
+    "term": "distinction",
+    "meaning": "n. 差别；不同；特点；卓越；荣誉",
+    "phrase": "There is an important distinction between knowledge and wisdom. 知识与智慧之间存在重要区别。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "There is an important distinction between knowledge and wisdom.",
+    "contextTranslation": "知识与智慧之间存在重要区别。"
+  },
+  {
+    "id": "cet-20260729-19-018",
+    "term": "distinctive",
+    "meaning": "adj. 独特的；有特色的",
+    "phrase": "The ancient building has a distinctive wooden roof. 这座古建筑有一个很有特色的木制屋顶。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The ancient building has a distinctive wooden roof.",
+    "contextTranslation": "这座古建筑有一个很有特色的木制屋顶。"
+  },
+  {
+    "id": "cet-20260729-19-022",
+    "term": "extinguish",
+    "meaning": "vt. 熄灭；扑灭；使破灭",
+    "phrase": "Firefighters arrived quickly to extinguish the laboratory fire. 消防员迅速赶到，扑灭了实验室的火灾。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Firefighters arrived quickly to extinguish the laboratory fire.",
+    "contextTranslation": "消防员迅速赶到，扑灭了实验室的火灾。"
+  },
+  {
+    "id": "cet-20260729-19-023",
+    "term": "instinct",
+    "meaning": "n. 本能；天性；直觉",
+    "phrase": "His first instinct was to help the injured passenger. 他的第一反应是帮助受伤的乘客。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "His first instinct was to help the injured passenger.",
+    "contextTranslation": "他的第一反应是帮助受伤的乘客。"
+  },
+  {
+    "id": "cet-20260729-19-024",
+    "term": "instinctive",
+    "meaning": "adj. 本能的；直觉的",
+    "phrase": "Protecting a child in danger can be an instinctive reaction. 保护处于危险中的孩子可能是一种本能反应。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Protecting a child in danger can be an instinctive reaction.",
+    "contextTranslation": "保护处于危险中的孩子可能是一种本能反应。"
+  },
+  {
+    "id": "cet-20260729-19-025",
+    "term": "sting",
+    "meaning": "vt./vi. 叮；刺；使疼痛；n. 刺伤；刺痛；毒针",
+    "phrase": "A bee may sting when it feels threatened. 蜜蜂感到受威胁时可能会蜇人。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "A bee may sting when it feels threatened.",
+    "contextTranslation": "蜜蜂感到受威胁时可能会蜇人。"
+  },
+  {
+    "id": "cet-20260729-19-026",
+    "term": "pierce",
+    "meaning": "vt./vi. 刺入；穿透；突破",
+    "phrase": "Strong sunlight can pierce the thin clouds after rain. 雨后强烈的阳光能够穿透薄云。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Strong sunlight can pierce the thin clouds after rain.",
+    "contextTranslation": "雨后强烈的阳光能够穿透薄云。"
+  },
+  {
+    "id": "cet-20260729-19-027",
+    "term": "thrust",
+    "meaning": "vt./vi. 猛推；刺；戳；n. 猛推；冲力；要点",
+    "phrase": "The sudden crowd thrust him toward the station entrance. 突然涌来的人群把他推向车站入口。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The sudden crowd thrust him toward the station entrance.",
+    "contextTranslation": "突然涌来的人群把他推向车站入口。"
+  },
+  {
+    "id": "cet-20260729-19-028",
+    "term": "observe",
+    "meaning": "vt./vi. 观察；注视；遵守；评论",
+    "phrase": "Students were asked to observe how the plant changed each day. 老师要求学生观察植物每天的变化。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Students were asked to observe how the plant changed each day.",
+    "contextTranslation": "老师要求学生观察植物每天的变化。"
+  },
+  {
+    "id": "cet-20260729-19-029",
+    "term": "observation",
+    "meaning": "n. 观察；观测；评论；评述",
+    "phrase": "Careful observation is necessary before drawing a conclusion. 得出结论前必须进行仔细观察。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Careful observation is necessary before drawing a conclusion.",
+    "contextTranslation": "得出结论前必须进行仔细观察。"
+  },
+  {
+    "id": "cet-20260729-19-030",
+    "term": "observer",
+    "meaning": "n. 观察者；观察员；目击者",
+    "phrase": "An independent observer attended the election meeting. 一名独立观察员参加了选举会议。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "An independent observer attended the election meeting.",
+    "contextTranslation": "一名独立观察员参加了选举会议。"
+  },
+  {
+    "id": "cet-20260729-19-031",
+    "term": "observant",
+    "meaning": "adj. 善于观察的；严格遵守规定的",
+    "phrase": "An observant reader noticed the contradiction in the final paragraph. 一位细心的读者发现了最后一段中的矛盾。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "An observant reader noticed the contradiction in the final paragraph.",
+    "contextTranslation": "一位细心的读者发现了最后一段中的矛盾。"
+  },
+  {
+    "id": "cet-20260729-19-032",
+    "term": "reserve",
+    "meaning": "vt. 预订；预约；保留；n. 储备；保护区；内向",
+    "phrase": "Students should reserve a seat online before attending the lecture. 学生参加讲座前应在网上预留座位。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Students should reserve a seat online before attending the lecture.",
+    "contextTranslation": "学生参加讲座前应在网上预留座位。"
+  },
+  {
+    "id": "cet-20260729-19-033",
+    "term": "reservation",
+    "meaning": "n. 预订；预约；保留意见；保留地",
+    "phrase": "I made a reservation for the study room this afternoon. 我预订了今天下午的自习室。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "I made a reservation for the study room this afternoon.",
+    "contextTranslation": "我预订了今天下午的自习室。"
+  },
+  {
+    "id": "cet-20260729-19-034",
+    "term": "reserved",
+    "meaning": "adj. 内敛的；寡言的；预订的；保留的",
+    "phrase": "Several seats are reserved for students with disabilities. 有几个座位专门预留给残障学生。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Several seats are reserved for students with disabilities.",
+    "contextTranslation": "有几个座位专门预留给残障学生。"
+  },
+  {
+    "id": "cet-20260729-19-035",
+    "term": "deserve",
+    "meaning": "vt. 值得；应得；应受",
+    "phrase": "Volunteers who serve the community deserve our respect. 服务社区的志愿者值得我们尊敬。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Volunteers who serve the community deserve our respect.",
+    "contextTranslation": "服务社区的志愿者值得我们尊敬。"
+  },
+  {
+    "id": "cet-20260729-19-036",
+    "term": "conservative",
+    "meaning": "adj. 保守的；守旧的；n. 保守的人",
+    "phrase": "The committee made a conservative estimate of the project cost. 委员会对项目成本作出了较为保守的估计。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The committee made a conservative estimate of the project cost.",
+    "contextTranslation": "委员会对项目成本作出了较为保守的估计。"
+  },
+  {
+    "id": "cet-20260729-19-037",
+    "term": "conserve",
+    "meaning": "vt. 节约；节省；保护；保存",
+    "phrase": "Turning off unused lights helps conserve energy. 关闭不用的灯有助于节约能源。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Turning off unused lights helps conserve energy.",
+    "contextTranslation": "关闭不用的灯有助于节约能源。"
+  },
+  {
+    "id": "cet-20260729-19-041",
+    "term": "protect",
+    "meaning": "vt. 保护；防护；投保",
+    "phrase": "Strong passwords protect personal information from theft. 强密码能够保护个人信息不被盗取。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Strong passwords protect personal information from theft.",
+    "contextTranslation": "强密码能够保护个人信息不被盗取。"
+  },
+  {
+    "id": "cet-20260729-19-042",
+    "term": "protection",
+    "meaning": "n. 保护；防卫；保护物；保险",
+    "phrase": "The new law provides better protection for online consumers. 新法律为网络消费者提供了更好的保护。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The new law provides better protection for online consumers.",
+    "contextTranslation": "新法律为网络消费者提供了更好的保护。"
+  },
+  {
+    "id": "cet-20260729-19-043",
+    "term": "protective",
+    "meaning": "adj. 保护的；防护的",
+    "phrase": "Workers must wear protective clothing in the chemical laboratory. 工人在化学实验室必须穿防护服。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Workers must wear protective clothing in the chemical laboratory.",
+    "contextTranslation": "工人在化学实验室必须穿防护服。"
+  },
+  {
+    "id": "cet-20260729-19-045",
+    "term": "detection",
+    "meaning": "n. 觉察；发觉；侦查；侦破",
+    "phrase": "Early detection can greatly improve the chance of recovery. 早期发现可以大大提高康复机会。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Early detection can greatly improve the chance of recovery.",
+    "contextTranslation": "早期发现可以大大提高康复机会。"
+  },
+  {
+    "id": "cet-20260729-19-047",
+    "term": "scout",
+    "meaning": "n. 童子军；侦察员；侦察机；vt./vi. 侦察；搜寻",
+    "phrase": "The coach sent a scout to watch the opposing team. 教练派出一名球探观察对方球队。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The coach sent a scout to watch the opposing team.",
+    "contextTranslation": "教练派出一名球探观察对方球队。"
+  },
+  {
+    "id": "cet-20260729-19-049",
+    "term": "prevention",
+    "meaning": "n. 预防；防止",
+    "phrase": "Regular exercise plays an important role in disease prevention. 规律运动在疾病预防中发挥重要作用。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "Regular exercise plays an important role in disease prevention.",
+    "contextTranslation": "规律运动在疾病预防中发挥重要作用。"
+  },
+  {
+    "id": "cet-20260729-19-050",
+    "term": "preventive",
+    "meaning": "adj. 预防的；防备的",
+    "phrase": "The hospital offers preventive health checks to local residents. 这家医院为当地居民提供预防性健康检查。",
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "tag": "四级 19 / 四级",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 19"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "contextSentence": "The hospital offers preventive health checks to local residents.",
+    "contextTranslation": "这家医院为当地居民提供预防性健康检查。"
   }
 ];
