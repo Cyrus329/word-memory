@@ -1,4 +1,4 @@
-// v70 B006 2026-07-29：新增短语练习11、蓝色森林24、四级19；保留最后操作优先同步、手动展开语境、联动复习与句子标记。
+// v70 B007 2026-07-30：新增第四次听写内容、短语练习12、蓝色森林25、四级20；保留最后操作优先同步、手动展开语境、联动复习与句子标记。
 window.ENGLISH_FOLDER_LIBRARY = [
   {
     "name": "全方位",
@@ -3296,9 +3296,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-059",
             "term": "progress",
-            "meaning": "n. 进步，进展；v. 进展。make progress 取得进步。；n. 进步；进展；不可数名词；前进；v. 取得进步；（时间）流逝",
+            "meaning": "n. 进步，进展；v. 进展。make progress 取得进步。；n. 进步；进展；不可数名词；前进；v. 取得进步；（时间）流逝；n. 进步；进展；前进；v. 前进；进步；发展",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "全方位 2 / 全方位单词课",
             "source": "全方位",
             "sources": [
@@ -3311,12 +3311,13 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-18T00:00:00",
-            "updatedAt": "2026-06-27T14:50:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "全方位 2",
               "蓝色森林 4",
-              "四级 4"
+              "四级 4",
+              "蓝色森林 25"
             ],
             "forms": {}
           },
@@ -6145,9 +6146,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-119",
             "term": "prison",
-            "meaning": "n. 监狱。；n. 监狱；监牢；v. 关押；监禁",
+            "meaning": "n. 监狱。；n. 监狱；监牢；v. 关押；监禁；n. 监狱；监禁；牢笼",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "全方位 3 / 全方位单词课",
             "source": "全方位",
             "sources": [
@@ -6160,11 +6161,12 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-18T00:00:00",
-            "updatedAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "全方位 3",
-              "Word List 20"
+              "Word List 20",
+              "蓝色森林 25"
             ],
             "forms": {}
           },
@@ -6833,23 +6835,25 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-2026-prefix-149",
             "term": "inflation",
-            "meaning": "n. 通货膨胀。",
+            "meaning": "n. 通货膨胀。；n. 通货膨胀；充气；膨胀",
             "phrase": "",
-            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "全方位 3 / 全方位单词课",
             "source": "全方位",
             "sources": [
-              "全方位"
+              "全方位",
+              "四级"
             ],
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-18T00:00:00",
-            "updatedAt": "2026-06-18T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "全方位 3"
+              "全方位 3",
+              "四级 20"
             ]
           },
           {
@@ -14095,24 +14099,26 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "word-list-5-038",
             "term": "bright",
-            "meaning": "adj. 明亮的；聪明的；欢快的；充满幸福的；adv. 明亮地；光辉地",
+            "meaning": "adj. 明亮的；聪明的；欢快的；充满幸福的；adv. 明亮地；光辉地；adj. 明亮的；聪明的；鲜艳的；adv. 明亮地",
             "phrase": "brightness 亮度；聪明；愉快",
-            "note": "/brait/；来源：2026-07-20 上传资料；归入四级 10。",
+            "note": "/brait/；来源：2026-07-20 上传资料；归入四级 10。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 5 / 方法智慧与网络",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-11T09:28:39",
-            "updatedAt": "2026-06-11T09:28:39",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "Word List 5",
-              "四级 10"
+              "四级 10",
+              "蓝色森林 25"
             ],
             "sources": [
               "Word List",
-              "四级"
+              "四级",
+              "蓝色森林"
             ],
             "source": "Word List"
           },
@@ -14841,9 +14847,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "word-list-6-023",
             "term": "necessary",
-            "meaning": "adj. 必要的；必需的",
+            "meaning": "adj. 必要的；必需的；adj. 必要的；必需的；必然的",
             "phrase": "necessary 后接 that 从句常用虚拟语气",
-            "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-07-19 上传资料；归入四级 9。",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-07-19 上传资料；归入四级 9。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 6 / 图片导入",
             "source": "Word List",
             "status": "new",
@@ -14851,15 +14857,17 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-25T12:20:00",
-            "updatedAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "Word List 6",
-              "四级 9"
+              "四级 9",
+              "蓝色森林 25"
             ],
             "sources": [
               "Word List",
-              "四级"
+              "四级",
+              "蓝色森林"
             ]
           },
           {
@@ -16212,9 +16220,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "word-list-7-034",
             "term": "breath",
-            "meaning": "n. 气息；呼吸",
+            "meaning": "n. 气息；呼吸；n. 呼吸；气息；微风",
             "phrase": "out of breath 喘不过气来",
-            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "Word List 7 / 图片导入",
             "source": "Word List",
             "status": "new",
@@ -16222,21 +16230,25 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-25T12:20:00",
-            "updatedAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "Word List 7"
+              "Word List 7",
+              "蓝色森林 25",
+              "四级 20"
             ],
             "sources": [
-              "Word List"
+              "Word List",
+              "蓝色森林",
+              "四级"
             ]
           },
           {
             "id": "word-list-7-035",
             "term": "breathe",
-            "meaning": "v. 呼吸；生存；活着",
+            "meaning": "v. 呼吸；生存；活着；vi. 呼吸；透气；vt. 呼出；低声说；注入；vi./vt. 呼吸；呼出；低声说；透气",
             "phrase": "",
-            "note": "Word List 7｜图片导入｜后续可继续校正音标",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "Word List 7 / 图片导入",
             "source": "Word List",
             "status": "new",
@@ -16244,13 +16256,17 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-25T12:20:00",
-            "updatedAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "Word List 7"
+              "Word List 7",
+              "蓝色森林 25",
+              "四级 20"
             ],
             "sources": [
-              "Word List"
+              "Word List",
+              "蓝色森林",
+              "四级"
             ]
           },
           {
@@ -17816,9 +17832,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "word-list-8-053",
             "term": "score",
-            "meaning": "n. 得分；刻痕；v. 得分；比分",
+            "meaning": "n. 得分；刻痕；v. 得分；比分；v. 得分；刻痕；获得；n. 分数；刻痕；乐谱；二十",
             "phrase": "",
-            "note": "Word List 8｜图片导入｜后续可继续校正音标",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 8 / 图片导入",
             "source": "Word List",
             "status": "new",
@@ -17826,13 +17842,15 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-25T12:20:00",
-            "updatedAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "Word List 8"
+              "Word List 8",
+              "蓝色森林 25"
             ],
             "sources": [
-              "Word List"
+              "Word List",
+              "蓝色森林"
             ]
           },
           {
@@ -19902,9 +19920,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-20260627-v29-147",
             "term": "science",
-            "meaning": "n. 科学；学科",
+            "meaning": "n. 科学；学科；n. 科学；自然科学；学科",
             "phrase": "",
-            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。",
+            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 11 / Word List",
             "source": "Word List",
             "status": "new",
@@ -19912,15 +19930,17 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-27T15:05:00+08:00",
-            "updatedAt": "2026-06-27T15:05:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "sources": [
-              "Word List"
+              "Word List",
+              "蓝色森林"
             ],
             "mastery": "未学",
             "important": false,
             "groups": [
-              "Word List 11"
+              "Word List 11",
+              "蓝色森林 25"
             ]
           },
           {
@@ -20893,9 +20913,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-20260627-v29-182",
             "term": "believe",
-            "meaning": "v. 相信；认定；看作",
+            "meaning": "v. 相信；认定；看作；vt. 相信；认为；vi. 信任；信仰",
             "phrase": "",
-            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 11 / Word List",
             "source": "Word List",
             "status": "new",
@@ -20903,17 +20923,19 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-27T15:05:00+08:00",
-            "updatedAt": "2026-07-27T12:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "sources": [
               "Word List",
-              "四级"
+              "四级",
+              "蓝色森林"
             ],
             "mastery": "未学",
             "important": false,
             "groups": [
               "Word List 11",
-              "四级 17"
+              "四级 17",
+              "蓝色森林 25"
             ]
           },
           {
@@ -22160,9 +22182,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-20260627-v29-218",
             "term": "become",
-            "meaning": "v. 成为；变成",
+            "meaning": "v. 成为；变成；vi. 变得；成为；vt. 适合；与……相称",
             "phrase": "",
-            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 13 / Word List",
             "source": "Word List",
             "status": "new",
@@ -22170,15 +22192,17 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-27T15:05:00+08:00",
-            "updatedAt": "2026-06-27T15:05:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "sources": [
-              "Word List"
+              "Word List",
+              "蓝色森林"
             ],
             "mastery": "未学",
             "important": false,
             "groups": [
-              "Word List 13"
+              "Word List 13",
+              "蓝色森林 25"
             ]
           },
           {
@@ -24532,9 +24556,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-20260627-v29-327",
             "term": "medical",
-            "meaning": "adj. 医学的；医疗的；adj. 医疗的，医学的",
+            "meaning": "adj. 医学的；医疗的；adj. 医疗的，医学的；adj. 医学的；医疗的；n. 体检；医学检查",
             "phrase": "",
-            "note": "来源：全方位专升本讲义｜Word List 14｜按原页顺序重整 v33。",
+            "note": "来源：全方位专升本讲义｜Word List 14｜按原页顺序重整 v33。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 14 / Word List",
             "source": "Word List",
             "status": "new",
@@ -24542,7 +24566,7 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-27T15:05:00+08:00",
-            "updatedAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "sources": [
               "Word List",
@@ -24552,7 +24576,8 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "important": false,
             "groups": [
               "Word List 14",
-              "蓝色森林 9"
+              "蓝色森林 9",
+              "蓝色森林 25"
             ],
             "forms": {}
           }
@@ -30400,26 +30425,28 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "wordlist-20260628-v42-216",
             "term": "impact",
-            "meaning": "n./v. 影响；撞击",
+            "meaning": "n./v. 影响；撞击；n./v. 影响；撞击；碰撞",
             "phrase": "",
-            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "Word List 20 / 蓝色森林词本",
             "source": "Word List",
             "sources": [
               "Word List",
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ],
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T12:35:00+08:00",
-            "updatedAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "mastery": "未学",
             "important": false,
             "groups": [
-              "Word List 20"
+              "Word List 20",
+              "四级 20"
             ]
           },
           {
@@ -30450,26 +30477,28 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "wordlist-20260628-v42-218",
             "term": "influence",
-            "meaning": "n. 影响；作用；v. 影响；对……起作用",
+            "meaning": "n. 影响；作用；v. 影响；对……起作用；n. 影响力；有影响的人或事物；v. 影响；对……起作用",
             "phrase": "",
-            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "Word List 20 / 蓝色森林词本",
             "source": "Word List",
             "sources": [
               "Word List",
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ],
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T12:35:00+08:00",
-            "updatedAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "mastery": "未学",
             "important": false,
             "groups": [
-              "Word List 20"
+              "Word List 20",
+              "四级 20"
             ]
           },
           {
@@ -30500,26 +30529,28 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "wordlist-20260628-v42-220",
             "term": "influential",
-            "meaning": "adj. 有影响的；有势力的",
+            "meaning": "adj. 有影响的；有势力的；adj. 有影响力的；有权势的；n. 有影响力的人",
             "phrase": "",
-            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "Word List 20 / 蓝色森林词本",
             "source": "Word List",
             "sources": [
               "Word List",
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ],
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T12:35:00+08:00",
-            "updatedAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "mastery": "未学",
             "important": false,
             "groups": [
-              "Word List 20"
+              "Word List 20",
+              "四级 20"
             ]
           },
           {
@@ -30985,26 +31016,28 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "wordlist-20260628-v42-240",
             "term": "condense",
-            "meaning": "v. 凝聚；结露；缩短",
+            "meaning": "v. 凝聚；结露；缩短；vi./vt. 凝结；浓缩；压缩；精简",
             "phrase": "",
-            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "Word List 20 / 蓝色森林词本",
             "source": "Word List",
             "sources": [
               "Word List",
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ],
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T12:35:00+08:00",
-            "updatedAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "mastery": "未学",
             "important": false,
             "groups": [
-              "Word List 20"
+              "Word List 20",
+              "四级 20"
             ]
           },
           {
@@ -31537,7 +31570,7 @@ window.ENGLISH_FOLDER_LIBRARY = [
   },
   {
     "name": "四级",
-    "count": 1114,
+    "count": 1166,
     "children": [
       {
         "name": "四级",
@@ -33508,9 +33541,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "cet-black-20260624-023",
             "term": "blind",
-            "meaning": "adj. 失明的；盲目的；v. 使失明",
+            "meaning": "adj. 失明的；盲目的；v. 使失明；adj. 失明的；盲目的；无理性的；n. 窗帘；百叶窗；盲人",
             "phrase": "",
-            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "四级 3 / 黑背景新导入",
             "source": "四级",
             "sources": [
@@ -33522,11 +33555,12 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-24T00:00:00",
-            "updatedAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "四级 3",
-              "蓝色森林 13"
+              "蓝色森林 13",
+              "蓝色森林 25"
             ]
           },
           {
@@ -41566,9 +41600,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "word-list-6-023",
             "term": "necessary",
-            "meaning": "adj. 必要的；必需的",
+            "meaning": "adj. 必要的；必需的；adj. 必要的；必需的；必然的",
             "phrase": "necessary 后接 that 从句常用虚拟语气",
-            "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-07-19 上传资料；归入四级 9。",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-07-19 上传资料；归入四级 9。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 6 / 图片导入",
             "source": "Word List",
             "status": "new",
@@ -41576,15 +41610,17 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-25T12:20:00",
-            "updatedAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "Word List 6",
-              "四级 9"
+              "四级 9",
+              "蓝色森林 25"
             ],
             "sources": [
               "Word List",
-              "四级"
+              "四级",
+              "蓝色森林"
             ]
           },
           {
@@ -42325,22 +42361,24 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "cet4-20260720-10-030",
             "term": "candle",
-            "meaning": "n. 蜡烛",
+            "meaning": "n. 蜡烛；n. 蜡烛；烛光；vt. 用烛光检查；用蜡烛熏黑",
             "phrase": "",
-            "note": "来源：2026-07-20 上传资料；归入四级 10。",
+            "note": "来源：2026-07-20 上传资料；归入四级 10。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "四级 10 / 四级",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-07-20T00:00:00",
-            "updatedAt": "2026-07-20T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "四级 10"
+              "四级 10",
+              "蓝色森林 25"
             ],
             "sources": [
-              "四级"
+              "四级",
+              "蓝色森林"
             ],
             "source": "四级"
           },
@@ -42873,24 +42911,26 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "word-list-5-038",
             "term": "bright",
-            "meaning": "adj. 明亮的；聪明的；欢快的；充满幸福的；adv. 明亮地；光辉地",
+            "meaning": "adj. 明亮的；聪明的；欢快的；充满幸福的；adv. 明亮地；光辉地；adj. 明亮的；聪明的；鲜艳的；adv. 明亮地",
             "phrase": "brightness 亮度；聪明；愉快",
-            "note": "/brait/；来源：2026-07-20 上传资料；归入四级 10。",
+            "note": "/brait/；来源：2026-07-20 上传资料；归入四级 10。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 5 / 方法智慧与网络",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-11T09:28:39",
-            "updatedAt": "2026-06-11T09:28:39",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "Word List 5",
-              "四级 10"
+              "四级 10",
+              "蓝色森林 25"
             ],
             "sources": [
               "Word List",
-              "四级"
+              "四级",
+              "蓝色森林"
             ],
             "source": "Word List"
           },
@@ -44552,22 +44592,24 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "cet4-20260722-12-005",
             "term": "mark",
-            "meaning": "v. 标记；标明；纪念；评分；n. 污渍；斑点；记号；分数；标志",
+            "meaning": "v. 标记；标明；纪念；评分；n. 污渍；斑点；记号；分数；标志；n. 痕迹；分数；记号；目标；vt. 做记号；打分；纪念",
             "phrase": "",
-            "note": "来源：2026-07-22 上传资料；归入四级 12。",
+            "note": "来源：2026-07-22 上传资料；归入四级 12。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "四级 12 / 四级",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-07-22T08:30:00+08:00",
-            "updatedAt": "2026-07-22T08:30:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "四级 12"
+              "四级 12",
+              "蓝色森林 25"
             ],
             "sources": [
-              "四级"
+              "四级",
+              "蓝色森林"
             ],
             "source": "四级"
           },
@@ -53003,9 +53045,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "fullway-20260627-v29-182",
             "term": "believe",
-            "meaning": "v. 相信；认定；看作",
+            "meaning": "v. 相信；认定；看作；vt. 相信；认为；vi. 信任；信仰",
             "phrase": "",
-            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。",
+            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "Word List 11 / Word List",
             "source": "Word List",
             "status": "new",
@@ -53013,17 +53055,19 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-27T15:05:00+08:00",
-            "updatedAt": "2026-07-27T12:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "sources": [
               "Word List",
-              "四级"
+              "四级",
+              "蓝色森林"
             ],
             "mastery": "未学",
             "important": false,
             "groups": [
               "Word List 11",
-              "四级 17"
+              "四级 17",
+              "蓝色森林 25"
             ]
           },
           {
@@ -55884,12 +55928,1238 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "contextTranslation": "这家医院为当地居民提供预防性健康检查。"
           }
         ]
+      },
+      {
+        "name": "四级 20",
+        "count": 52,
+        "words": [
+          {
+            "id": "cet-20260730-20-001",
+            "term": "scarcely",
+            "meaning": "adv. 几乎不；刚……就……；一定不",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "blue-forest-b2-042",
+            "term": "rare",
+            "meaning": "adj. 珍稀的；稀薄的；adj. 少见的；珍稀的；半熟的",
+            "source": "蓝色森林",
+            "tag": "蓝色森林 / 听写总结",
+            "groups": [
+              "蓝色森林",
+              "四级 20"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ],
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "updatedAt": "2026-07-30T08:00:00+08:00"
+          },
+          {
+            "id": "cet-20260730-20-003",
+            "term": "rarely",
+            "meaning": "adv. 难得地；少见地",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-004",
+            "term": "rarity",
+            "meaning": "n. 罕见的人或物；稀有；罕见",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260720-15-061",
+            "term": "adequate",
+            "meaning": "adj. 足够的；合乎需要的；勉强胜任的；adj. 足够的；满足要求的",
+            "phrase": "",
+            "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "蓝色森林 15 / 蓝色森林",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-20T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 15",
+              "四级 20"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "cet-20260730-20-006",
+            "term": "adequacy",
+            "meaning": "n. 足够；适合；够格",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-007",
+            "term": "adequately",
+            "meaning": "adv. 充分地；适当地；够格地",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-008",
+            "term": "equivalent",
+            "meaning": "adj. 等同的；等值的；相当的；n. 等价物；对应词",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-009",
+            "term": "equivalence",
+            "meaning": "n. 等同；对等",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260628-adjadv-092",
+            "term": "equal",
+            "meaning": "adj. 平等的；v. 等于；adj. 相等的；平等的；能胜任的；v. 比得上；等于；n. 同等的人或物",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
+            "source": "蓝色森林",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 9",
+              "四级 20"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "blueforest-20260628-adjadv-093",
+            "term": "equally",
+            "meaning": "adv. 平等地；adv. 相等地；平等地；同样地",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
+            "source": "蓝色森林",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 9",
+              "四级 20"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet-20260730-20-012",
+            "term": "equation",
+            "meaning": "n. 方程式；等式；平衡；等同",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-013",
+            "term": "influenza",
+            "meaning": "n. 流感",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-014",
+            "term": "exert",
+            "meaning": "vt. 施加；运用；行使；努力",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-015",
+            "term": "exertion",
+            "meaning": "n. 努力；费力；行使；施加",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "dictation-2-035",
+            "term": "fluent",
+            "meaning": "adj. 流利的；流畅的；adj. 流利的；流畅的；（动作）娴熟的",
+            "phrase": "",
+            "note": "来源：第二次听写内容；原资料序号 25。按原资料逐条完整录入。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "第二次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-22T16:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第二次听写内容",
+              "四级 20"
+            ],
+            "sources": [
+              "听写内容",
+              "四级"
+            ],
+            "source": "听写内容"
+          },
+          {
+            "id": "cet-20260730-20-017",
+            "term": "fluency",
+            "meaning": "n. 语言流利；动作优美流畅",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-018",
+            "term": "affluent",
+            "meaning": "adj. 富裕的；富足的",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-019",
+            "term": "affluence",
+            "meaning": "n. 富裕；富足",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-080",
+            "term": "lack",
+            "meaning": "v./n. 缺乏；n./v. 缺乏；短缺",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 42；允许与其他词库同词并保留独立学习记录。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容",
+              "四级 20"
+            ],
+            "sources": [
+              "听写内容",
+              "四级"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-021",
+            "term": "scarce",
+            "meaning": "adj. 缺乏的；不足的；稀少的；adv. 才；勉强",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-022",
+            "term": "scarcity",
+            "meaning": "n. 缺乏；不足；稀少",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-023",
+            "term": "fade",
+            "meaning": "vi./vt. 褪色；变暗淡；逐渐消失",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-024",
+            "term": "compact",
+            "meaning": "adj. 紧凑的；紧密的；小型的；n. 协定；小汽车；粉饼盒；vt. 压紧",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "wordlist-20260628-v42-216",
+            "term": "impact",
+            "meaning": "n./v. 影响；撞击；n./v. 影响；撞击；碰撞",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 20 / 蓝色森林词本",
+            "source": "Word List",
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 20",
+              "四级 20"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-218",
+            "term": "influence",
+            "meaning": "n. 影响；作用；v. 影响；对……起作用；n. 影响力；有影响的人或事物；v. 影响；对……起作用",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 20 / 蓝色森林词本",
+            "source": "Word List",
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 20",
+              "四级 20"
+            ]
+          },
+          {
+            "id": "wordlist-20260628-v42-220",
+            "term": "influential",
+            "meaning": "adj. 有影响的；有势力的；adj. 有影响力的；有权势的；n. 有影响力的人",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 20 / 蓝色森林词本",
+            "source": "Word List",
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 20",
+              "四级 20"
+            ]
+          },
+          {
+            "id": "cet-20260730-20-028",
+            "term": "dense",
+            "meaning": "adj. 密集的；浓的；笨的；密度大的",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-029",
+            "term": "density",
+            "meaning": "n. 密度",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "wordlist-20260628-v42-240",
+            "term": "condense",
+            "meaning": "v. 凝聚；结露；缩短；vi./vt. 凝结；浓缩；压缩；精简",
+            "phrase": "",
+            "note": "来源：蓝色森林词本｜Word List 20｜2026-06-28 图片导入 v42。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 20 / 蓝色森林词本",
+            "source": "Word List",
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T12:35:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 20",
+              "四级 20"
+            ]
+          },
+          {
+            "id": "cet-20260730-20-031",
+            "term": "condensation",
+            "meaning": "n. 凝结的水珠；冷凝；凝结",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-032",
+            "term": "shrink",
+            "meaning": "vi./vt. 缩水；缩小；减少；退缩；n. 精神病学家；心理学家",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-033",
+            "term": "squeeze",
+            "meaning": "vt./vi. 挤压；挤入；榨出；勒索；n. 挤压；挤出的液体；拮据",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-034",
+            "term": "plot",
+            "meaning": "n. 故事情节；阴谋；小块土地；v. 密谋；策划；绘制",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "blue-19-050",
+            "term": "flat",
+            "meaning": "adj. 平的；扁平的；单调的；断然的；n. 公寓（英式）；平面；扁平物；adj. 平的；枯燥的；单调的；n. 公寓；平面部分；瘪轮胎；adv. 平直地",
+            "phrase": "",
+            "note": "来源：2026-07-24 图片导入；归入蓝色森林 19。已有词仅补充分组，不重复生成。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "蓝色森林 19 / 蓝色森林",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-24T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 19",
+              "四级 20"
+            ],
+            "sources": [
+              "蓝色森林",
+              "四级"
+            ],
+            "source": "蓝色森林"
+          },
+          {
+            "id": "cet-20260730-20-036",
+            "term": "inflate",
+            "meaning": "vt./vi. 充气；膨胀；使价格上涨；夸大；吹嘘",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "fullway-2026-prefix-149",
+            "term": "inflation",
+            "meaning": "n. 通货膨胀。；n. 通货膨胀；充气；膨胀",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "全方位 3 / 全方位单词课",
+            "source": "全方位",
+            "sources": [
+              "全方位",
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-18T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "全方位 3",
+              "四级 20"
+            ]
+          },
+          {
+            "id": "cet-20260730-20-038",
+            "term": "display",
+            "meaning": "vt. 陈列；展示；显示；表现；n. 陈列；表演；显示器",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-039",
+            "term": "freeze",
+            "meaning": "vi./vt. 结冰；冻结；冻死；冷藏；使定格；n. 冻结；停止",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "word-list-7-034",
+            "term": "breath",
+            "meaning": "n. 气息；呼吸；n. 呼吸；气息；微风",
+            "phrase": "out of breath 喘不过气来",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 7",
+              "蓝色森林 25",
+              "四级 20"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "word-list-7-035",
+            "term": "breathe",
+            "meaning": "v. 呼吸；生存；活着；vi. 呼吸；透气；vt. 呼出；低声说；注入；vi./vt. 呼吸；呼出；低声说；透气",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 7",
+              "蓝色森林 25",
+              "四级 20"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "cet-20260730-20-042",
+            "term": "breeze",
+            "meaning": "n. 微风；轻而易举的事；v. 轻快地走",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-043",
+            "term": "prohibit",
+            "meaning": "vt. 禁止；使不可能",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-044",
+            "term": "prohibition",
+            "meaning": "n. 禁令；法律上的禁止",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-045",
+            "term": "prohibitive",
+            "meaning": "adj. 贵得令人望而却步的；禁止的",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-046",
+            "term": "exhibit",
+            "meaning": "v. 展览；展出；表现；显示；n. 展品；证物",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-047",
+            "term": "exhibition",
+            "meaning": "n. 展览会；表现；显露",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-048",
+            "term": "forbid",
+            "meaning": "vt. 禁止；不准；妨碍；阻碍",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-049",
+            "term": "bid",
+            "meaning": "vi./vt. 出价；投标；努力争取；向……问候或告别；n. 出价；投标；企图",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-050",
+            "term": "bidding",
+            "meaning": "n. 出价；投标；命令",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-051",
+            "term": "ban",
+            "meaning": "n. 禁止；禁令；v. 禁止；取缔",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          },
+          {
+            "id": "cet-20260730-20-052",
+            "term": "banner",
+            "meaning": "n. 横幅；标语；旗帜；口号；adj. 特别成功的",
+            "phrase": "",
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "四级 20 / 英语四级词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 20"
+            ],
+            "sources": [
+              "四级"
+            ],
+            "source": "四级",
+            "forms": {}
+          }
+        ]
       }
     ]
   },
   {
     "name": "蓝色森林",
-    "count": 1834,
+    "count": 1884,
     "children": [
       {
         "name": "蓝色森林",
@@ -57235,15 +58505,19 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "blue-forest-b2-042",
             "term": "rare",
-            "meaning": "adj. 珍稀的；稀薄的",
+            "meaning": "adj. 珍稀的；稀薄的；adj. 少见的；珍稀的；半熟的",
             "source": "蓝色森林",
             "tag": "蓝色森林 / 听写总结",
             "groups": [
-              "蓝色森林"
+              "蓝色森林",
+              "四级 20"
             ],
             "sources": [
-              "蓝色森林"
-            ]
+              "蓝色森林",
+              "四级"
+            ],
+            "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "updatedAt": "2026-07-30T08:00:00+08:00"
           },
           {
             "id": "blue-forest-b2-043",
@@ -58952,9 +60226,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "lansen-white-20260624-046",
             "term": "morning",
-            "meaning": "n. 早晨；上午",
+            "meaning": "n. 早晨；上午；n. 早晨；上午；黎明",
             "phrase": "",
-            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "蓝色森林 3 / 新导入词表",
             "source": "蓝色森林",
             "sources": [
@@ -58965,10 +60239,11 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-24T00:00:00",
-            "updatedAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 3"
+              "蓝色森林 3",
+              "蓝色森林 25"
             ]
           },
           {
@@ -60460,9 +61735,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "lansen-pdf-b-20260624-001",
             "term": "condition",
-            "meaning": "n. 条件；状况；健康状况；状态",
+            "meaning": "n. 条件；状况；健康状况；状态；n. 状况；条件；疾病；条款；vt. 制约；调节；使适应",
             "phrase": "",
-            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "蓝色森林 5 / 第一章词汇短语",
             "source": "蓝色森林",
             "sources": [
@@ -60473,10 +61748,11 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-24T00:00:00",
-            "updatedAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 5"
+              "蓝色森林 5",
+              "蓝色森林 25"
             ]
           },
           {
@@ -60748,9 +62024,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "lansen-pdf-b-20260624-013",
             "term": "polite",
-            "meaning": "adj. 有礼貌的；客气的；上流的",
+            "meaning": "adj. 有礼貌的；客气的；上流的；adj. 有礼貌的；客气的；文雅的",
             "phrase": "be polite to 对……有礼貌",
-            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "蓝色森林 5 / 第一章词汇短语",
             "source": "蓝色森林",
             "sources": [
@@ -60762,11 +62038,12 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-24T00:00:00",
-            "updatedAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "蓝色森林 5",
-              "Word List 7"
+              "Word List 7",
+              "蓝色森林 25"
             ],
             "forms": {}
           },
@@ -68346,9 +69623,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "blueforest-20260628-adjadv-092",
             "term": "equal",
-            "meaning": "adj. 平等的；v. 等于",
+            "meaning": "adj. 平等的；v. 等于；adj. 相等的；平等的；能胜任的；v. 比得上；等于；n. 同等的人或物",
             "phrase": "",
-            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
             "source": "蓝色森林",
             "status": "new",
@@ -68356,21 +69633,23 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T11:40:00+08:00",
-            "updatedAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 9"
+              "蓝色森林 9",
+              "四级 20"
             ],
             "sources": [
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ]
           },
           {
             "id": "blueforest-20260628-adjadv-093",
             "term": "equally",
-            "meaning": "adv. 平等地",
+            "meaning": "adv. 平等地；adv. 相等地；平等地；同样地",
             "phrase": "",
-            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
             "source": "蓝色森林",
             "status": "new",
@@ -68378,13 +69657,15 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T11:40:00+08:00",
-            "updatedAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 9"
+              "蓝色森林 9",
+              "四级 20"
             ],
             "sources": [
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ]
           },
           {
@@ -68784,9 +70065,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "blueforest-20260628-adjadv-113",
             "term": "forget",
-            "meaning": "v. 忘记",
+            "meaning": "v. 忘记；v. 忘记；遗忘；忽略",
             "phrase": "",
-            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
             "source": "蓝色森林",
             "status": "new",
@@ -68794,10 +70075,11 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-28T11:40:00+08:00",
-            "updatedAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 9"
+              "蓝色森林 9",
+              "蓝色森林 25"
             ],
             "sources": [
               "蓝色森林"
@@ -79644,9 +80926,9 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "cet-black-20260624-023",
             "term": "blind",
-            "meaning": "adj. 失明的；盲目的；v. 使失明",
+            "meaning": "adj. 失明的；盲目的；v. 使失明；adj. 失明的；盲目的；无理性的；n. 窗帘；百叶窗；盲人",
             "phrase": "",
-            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
             "tag": "四级 3 / 黑背景新导入",
             "source": "四级",
             "sources": [
@@ -79658,11 +80940,12 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-06-24T00:00:00",
-            "updatedAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
               "四级 3",
-              "蓝色森林 13"
+              "蓝色森林 13",
+              "蓝色森林 25"
             ]
           },
           {
@@ -83716,22 +84999,24 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "blueforest-20260720-15-061",
             "term": "adequate",
-            "meaning": "adj. 足够的；合乎需要的；勉强胜任的",
+            "meaning": "adj. 足够的；合乎需要的；勉强胜任的；adj. 足够的；满足要求的",
             "phrase": "",
-            "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+            "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "蓝色森林 15 / 蓝色森林",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-07-20T00:00:00",
-            "updatedAt": "2026-07-20T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 15"
+              "蓝色森林 15",
+              "四级 20"
             ],
             "sources": [
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ],
             "source": "蓝色森林"
           },
@@ -89429,22 +90714,24 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "blue-19-050",
             "term": "flat",
-            "meaning": "adj. 平的；扁平的；单调的；断然的；n. 公寓（英式）；平面；扁平物",
+            "meaning": "adj. 平的；扁平的；单调的；断然的；n. 公寓（英式）；平面；扁平物；adj. 平的；枯燥的；单调的；n. 公寓；平面部分；瘪轮胎；adv. 平直地",
             "phrase": "",
-            "note": "来源：2026-07-24 图片导入；归入蓝色森林 19。已有词仅补充分组，不重复生成。",
+            "note": "来源：2026-07-24 图片导入；归入蓝色森林 19。已有词仅补充分组，不重复生成。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "蓝色森林 19 / 蓝色森林",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-07-24T08:00:00+08:00",
-            "updatedAt": "2026-07-24T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "蓝色森林 19"
+              "蓝色森林 19",
+              "四级 20"
             ],
             "sources": [
-              "蓝色森林"
+              "蓝色森林",
+              "四级"
             ],
             "source": "蓝色森林"
           },
@@ -95555,12 +96842,1213 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "contextTranslation": "良好的语法有助于读者清楚理解学术文章。"
           }
         ]
+      },
+      {
+        "name": "蓝色森林 25",
+        "count": 50,
+        "words": [
+          {
+            "id": "word-list-8-053",
+            "term": "score",
+            "meaning": "n. 得分；刻痕；v. 得分；比分；v. 得分；刻痕；获得；n. 分数；刻痕；乐谱；二十",
+            "phrase": "",
+            "note": "Word List 8｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 8 / 图片导入",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 8",
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-002",
+            "term": "football",
+            "meaning": "n. 足球（英）；橄榄球（美）；足球运动",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-003",
+            "term": "fruit",
+            "meaning": "n. 水果；果实；成果；v. 结果实",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "word-list-7-035",
+            "term": "breathe",
+            "meaning": "v. 呼吸；生存；活着；vi. 呼吸；透气；vt. 呼出；低声说；注入；vi./vt. 呼吸；呼出；低声说；透气",
+            "phrase": "",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 7",
+              "蓝色森林 25",
+              "四级 20"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-005",
+            "term": "cruel",
+            "meaning": "adj. 残忍的；残酷的；令人痛苦的",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "word-list-7-034",
+            "term": "breath",
+            "meaning": "n. 气息；呼吸；n. 呼吸；气息；微风",
+            "phrase": "out of breath 喘不过气来",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-07-30 普通词表截图；归入蓝色森林 25。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "Word List 7 / 图片导入",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 7",
+              "蓝色森林 25",
+              "四级 20"
+            ],
+            "sources": [
+              "Word List",
+              "蓝色森林",
+              "四级"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-007",
+            "term": "album",
+            "meaning": "n. 相册；集邮册；音乐专辑",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-008",
+            "term": "authorize",
+            "meaning": "vt. 批准；授权；认可",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "fullway-20260627-v29-147",
+            "term": "science",
+            "meaning": "n. 科学；学科；n. 科学；自然科学；学科",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:05:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 11",
+              "蓝色森林 25"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-010",
+            "term": "depress",
+            "meaning": "vt. 使沮丧；使萧条；压下",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-011",
+            "term": "seventeen",
+            "meaning": "num. 十七；十七个",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-012",
+            "term": "bowl",
+            "meaning": "n. 碗；碗状物；木球运动；vt. 投球；使快速移动",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-013",
+            "term": "runway",
+            "meaning": "n. 机场跑道；T型台",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-014",
+            "term": "recite",
+            "meaning": "vt. 背诵；朗诵；详述；vi. 背诵；朗诵",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-015",
+            "term": "rather",
+            "meaning": "adv. 相当；宁可；更确切地说；conj. 倒不如说",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260628-adjadv-113",
+            "term": "forget",
+            "meaning": "v. 忘记；v. 忘记；遗忘；忽略",
+            "phrase": "",
+            "note": "来源：2026-06-28 蓝色森林专升本截图：第一章第四节 形容词与副词；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 9 / 第一章第四节 形容词与副词",
+            "source": "蓝色森林",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-28T11:40:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 9",
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-017",
+            "term": "weapon",
+            "meaning": "n. 武器；手段",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "fullway-20260627-v29-218",
+            "term": "become",
+            "meaning": "v. 成为；变成；vi. 变得；成为；vt. 适合；与……相称",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 13｜按原页顺序重整 v33。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 13 / Word List",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:05:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 13",
+              "蓝色森林 25"
+            ]
+          },
+          {
+            "id": "cet4-20260722-12-005",
+            "term": "mark",
+            "meaning": "v. 标记；标明；纪念；评分；n. 污渍；斑点；记号；分数；标志；n. 痕迹；分数；记号；目标；vt. 做记号；打分；纪念",
+            "phrase": "",
+            "note": "来源：2026-07-22 上传资料；归入四级 12。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "四级 12 / 四级",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-22T08:30:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 12",
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "四级",
+              "蓝色森林"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "blueforest-20260730-25-020",
+            "term": "postcard",
+            "meaning": "n. 明信片",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "lansen-pdf-b-20260624-013",
+            "term": "polite",
+            "meaning": "adj. 有礼貌的；客气的；上流的；adj. 有礼貌的；客气的；文雅的",
+            "phrase": "be polite to 对……有礼貌",
+            "note": "Word List 7｜图片导入｜后续可继续校正音标；来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林",
+            "sources": [
+              "蓝色森林",
+              "Word List"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 5",
+              "Word List 7",
+              "蓝色森林 25"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "fullway-2026-prefix-059",
+            "term": "progress",
+            "meaning": "n. 进步，进展；v. 进展。make progress 取得进步。；n. 进步；进展；不可数名词；前进；v. 取得进步；（时间）流逝；n. 进步；进展；前进；v. 前进；进步；发展",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 2。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "全方位 2 / 全方位单词课",
+            "source": "全方位",
+            "sources": [
+              "全方位",
+              "蓝色森林",
+              "四级"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-18T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "全方位 2",
+              "蓝色森林 4",
+              "四级 4",
+              "蓝色森林 25"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-023",
+            "term": "punish",
+            "meaning": "vt. 处罚；惩罚；严厉对待",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-024",
+            "term": "status",
+            "meaning": "n. 地位；状态；法律身份",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "cet-black-20260624-023",
+            "term": "blind",
+            "meaning": "adj. 失明的；盲目的；v. 使失明；adj. 失明的；盲目的；无理性的；n. 窗帘；百叶窗；盲人",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“四级 3”分块，避免手机一次性加载太多。 黑背景截图已归入四级。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "四级 3 / 黑背景新导入",
+            "source": "四级",
+            "sources": [
+              "四级",
+              "蓝色森林"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 3",
+              "蓝色森林 13",
+              "蓝色森林 25"
+            ]
+          },
+          {
+            "id": "fullway-2026-prefix-119",
+            "term": "prison",
+            "meaning": "n. 监狱。；n. 监狱；监牢；v. 关押；监禁；n. 监狱；监禁；牢笼",
+            "phrase": "",
+            "note": "来源：2026届《大学英语》基础课程 - 全方位 3。按“构词法/前缀”背，优先掌握词义、词性和固定搭配。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "全方位 3 / 全方位单词课",
+            "source": "全方位",
+            "sources": [
+              "全方位",
+              "Word List",
+              "蓝色森林"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-18T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "全方位 3",
+              "Word List 20",
+              "蓝色森林 25"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "word-list-5-038",
+            "term": "bright",
+            "meaning": "adj. 明亮的；聪明的；欢快的；充满幸福的；adv. 明亮地；光辉地；adj. 明亮的；聪明的；鲜艳的；adv. 明亮地",
+            "phrase": "brightness 亮度；聪明；愉快",
+            "note": "/brait/；来源：2026-07-20 上传资料；归入四级 10。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 5 / 方法智慧与网络",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-11T09:28:39",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 5",
+              "四级 10",
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "Word List",
+              "四级",
+              "蓝色森林"
+            ],
+            "source": "Word List"
+          },
+          {
+            "id": "blueforest-20260730-25-028",
+            "term": "raincoat",
+            "meaning": "n. 雨衣",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-029",
+            "term": "deck",
+            "meaning": "n. 甲板；层面；一副纸牌；vt. 装饰；给……装甲板；击倒",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-030",
+            "term": "our",
+            "meaning": "pron. 我们的",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-031",
+            "term": "overcoat",
+            "meaning": "n. 大衣；外套",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-032",
+            "term": "or",
+            "meaning": "conj. 或；或者；否则；即；n. 逻辑运算中的“或”",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "cet4-20260720-10-030",
+            "term": "candle",
+            "meaning": "n. 蜡烛；n. 蜡烛；烛光；vt. 用烛光检查；用蜡烛熏黑",
+            "phrase": "",
+            "note": "来源：2026-07-20 上传资料；归入四级 10。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "四级 10 / 四级",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-20T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "四级 10",
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "四级",
+              "蓝色森林"
+            ],
+            "source": "四级"
+          },
+          {
+            "id": "blueforest-20260730-25-034",
+            "term": "trunk",
+            "meaning": "n. 树干；汽车后备箱；象鼻；大箱子",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-035",
+            "term": "riddle",
+            "meaning": "n. 谜语；难以理解的事物；vt. 用筛子筛；使布满孔洞",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-036",
+            "term": "pork",
+            "meaning": "n. 猪肉",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-037",
+            "term": "perhaps",
+            "meaning": "adv. 可能；也许；大概",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "lansen-pdf-b-20260624-001",
+            "term": "condition",
+            "meaning": "n. 条件；状况；健康状况；状态；n. 状况；条件；疾病；条款；vt. 制约；调节；使适应",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 5”分块，避免手机一次性加载太多。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 5 / 第一章词汇短语",
+            "source": "蓝色森林",
+            "sources": [
+              "蓝色森林"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 5",
+              "蓝色森林 25"
+            ]
+          },
+          {
+            "id": "fullway-20260627-v29-182",
+            "term": "believe",
+            "meaning": "v. 相信；认定；看作；vt. 相信；认为；vi. 信任；信仰",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 11｜按原页顺序重整 v33；来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 11 / Word List",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:05:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "sources": [
+              "Word List",
+              "四级",
+              "蓝色森林"
+            ],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 11",
+              "四级 17",
+              "蓝色森林 25"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-040",
+            "term": "raid",
+            "meaning": "v. 突袭；突然搜查；劫掠；n. 突袭；突然袭击",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "fullway-20260627-v29-327",
+            "term": "medical",
+            "meaning": "adj. 医学的；医疗的；adj. 医疗的，医学的；adj. 医学的；医疗的；n. 体检；医学检查",
+            "phrase": "",
+            "note": "来源：全方位专升本讲义｜Word List 14｜按原页顺序重整 v33。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 14 / Word List",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-27T15:05:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "sources": [
+              "Word List",
+              "蓝色森林"
+            ],
+            "mastery": "未学",
+            "important": false,
+            "groups": [
+              "Word List 14",
+              "蓝色森林 9",
+              "蓝色森林 25"
+            ],
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-042",
+            "term": "month",
+            "meaning": "n. 月；月份；约30天的时间段",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "lansen-white-20260624-046",
+            "term": "morning",
+            "meaning": "n. 早晨；上午；n. 早晨；上午；黎明",
+            "phrase": "",
+            "note": "来源：2026-06-24 新导入。已按“蓝色森林 3”分块，避免手机一次性加载太多。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 3 / 新导入词表",
+            "source": "蓝色森林",
+            "sources": [
+              "蓝色森林"
+            ],
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-24T00:00:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 3",
+              "蓝色森林 25"
+            ]
+          },
+          {
+            "id": "word-list-6-023",
+            "term": "necessary",
+            "meaning": "adj. 必要的；必需的；adj. 必要的；必需的；必然的",
+            "phrase": "necessary 后接 that 从句常用虚拟语气",
+            "note": "Word List 6｜图片导入｜后续可继续校正音标；来源：2026-07-19 上传资料；归入四级 9。；来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "Word List 6 / 图片导入",
+            "source": "Word List",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-06-25T12:20:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "Word List 6",
+              "四级 9",
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "Word List",
+              "四级",
+              "蓝色森林"
+            ]
+          },
+          {
+            "id": "blueforest-20260730-25-045",
+            "term": "drum",
+            "meaning": "n. 鼓；鼓状物；圆桶；v. 打鼓；敲击；连续发出响声",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-046",
+            "term": "ninety",
+            "meaning": "num. 九十",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-047",
+            "term": "neither",
+            "meaning": "conj. 既不……也不……；adv. 也不",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-048",
+            "term": "never",
+            "meaning": "adv. 从不；从未；绝不",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-049",
+            "term": "not",
+            "meaning": "adv. 不；没有；非；无",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          },
+          {
+            "id": "blueforest-20260730-25-050",
+            "term": "chance",
+            "meaning": "n. 机会；可能性；偶然；v. 冒险；偶然发生",
+            "phrase": "",
+            "note": "来源：2026-07-30 普通词表截图；归入蓝色森林 25。",
+            "tag": "蓝色森林 25 / 普通词表",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "蓝色森林 25"
+            ],
+            "sources": [
+              "蓝色森林"
+            ],
+            "source": "蓝色森林",
+            "forms": {}
+          }
+        ]
       }
     ]
   },
   {
     "name": "短语练习",
-    "count": 110,
+    "count": 120,
     "children": [
       {
         "name": "短语练习 1",
@@ -98149,12 +100637,248 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "contextTranslation": "我的同学主动提出载我去考试中心。"
           }
         ]
+      },
+      {
+        "name": "短语练习 12",
+        "count": 10,
+        "words": [
+          {
+            "id": "phrase-practice-12-001",
+            "term": "raise money",
+            "meaning": "筹款",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 1；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-002",
+            "term": "communicate with sb.",
+            "meaning": "与某人交流",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 2；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-003",
+            "term": "cause/arouse (a) heated/widespread discussion",
+            "meaning": "引发或激起热烈讨论、广泛讨论",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 3；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-004",
+            "term": "have a good command of sth.",
+            "meaning": "精通；熟练掌握",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 4；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-005",
+            "term": "graduate from",
+            "meaning": "从……毕业",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 5；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-006",
+            "term": "have much (a lot) in common",
+            "meaning": "有不少共同点",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 6；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-007",
+            "term": "get along (well) with sb.",
+            "meaning": "与某人相处（很好）",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 7；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-008",
+            "term": "have nothing in common",
+            "meaning": "毫无共同之处",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 8；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-009",
+            "term": "have sth. in common",
+            "meaning": "有共同之处",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 9；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          },
+          {
+            "id": "phrase-practice-12-010",
+            "term": "in common",
+            "meaning": "共有；相同",
+            "phrase": "",
+            "note": "来源：2026-07-30 蓝色森林专升本短语例句卡片；原资料序号 10；允许与其他词库同词并保留独立学习记录。",
+            "tag": "短语练习 12 / 短语练习",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "短语练习 12"
+            ],
+            "sources": [
+              "短语练习"
+            ],
+            "source": "短语练习",
+            "forms": {}
+          }
+        ]
       }
     ]
   },
   {
     "name": "听写内容",
-    "count": 220,
+    "count": 310,
     "children": [
       {
         "name": "第一次听写内容",
@@ -100459,22 +103183,24 @@ window.ENGLISH_FOLDER_LIBRARY = [
           {
             "id": "dictation-2-035",
             "term": "fluent",
-            "meaning": "adj. 流利的；流畅的",
+            "meaning": "adj. 流利的；流畅的；adj. 流利的；流畅的；（动作）娴熟的",
             "phrase": "",
-            "note": "来源：第二次听写内容；原资料序号 25。按原资料逐条完整录入。",
+            "note": "来源：第二次听写内容；原资料序号 25。按原资料逐条完整录入。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
             "tag": "第二次听写内容 / 听写内容",
             "status": "new",
             "stage": -1,
             "nextReviewAt": "",
             "lastStudiedAt": "",
             "createdAt": "2026-07-22T16:00:00+08:00",
-            "updatedAt": "2026-07-22T16:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
             "history": [],
             "groups": [
-              "第二次听写内容"
+              "第二次听写内容",
+              "四级 20"
             ],
             "sources": [
-              "听写内容"
+              "听写内容",
+              "四级"
             ],
             "source": "听写内容"
           },
@@ -103165,6 +105891,2084 @@ window.ENGLISH_FOLDER_LIBRARY = [
             "source": "听写内容",
             "contextSentence": "Despite many difficulties, she never gave up her goal.",
             "contextTranslation": "尽管困难重重，她从未放弃目标。"
+          }
+        ]
+      },
+      {
+        "name": "第四次听写内容",
+        "count": 90,
+        "words": [
+          {
+            "id": "dictation-4-001",
+            "term": "can't help doing",
+            "meaning": "忍不住做；情不自禁做",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 1；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-002",
+            "term": "can't help but do",
+            "meaning": "忍不住做；不得不做",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 1；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-003",
+            "term": "can't wait to do",
+            "meaning": "迫不及待做",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 2；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-004",
+            "term": "can't ... too",
+            "meaning": "再……也不为过；越……越好",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 3；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-005",
+            "term": "have to do",
+            "meaning": "不得不做某事",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 4；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-006",
+            "term": "don't/doesn't have to",
+            "meaning": "不必做某事",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 4；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-007",
+            "term": "outdoor activities",
+            "meaning": "户外活动",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 5；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-008",
+            "term": "be strict with sb.",
+            "meaning": "对某人严格",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 6；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-009",
+            "term": "hear of",
+            "meaning": "听说",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 7；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-010",
+            "term": "hear from",
+            "meaning": "收到……的来信",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 8；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-011",
+            "term": "receive from",
+            "meaning": "收到……的来信或消息",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 8；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-012",
+            "term": "quit",
+            "meaning": "v. 辞职；退出；戒掉",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 9；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-013",
+            "term": "quit one's job",
+            "meaning": "辞职",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 9；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-014",
+            "term": "resign from",
+            "meaning": "从……辞职",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 10；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-015",
+            "term": "optional course",
+            "meaning": "选修课",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 11；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-016",
+            "term": "compulsory course",
+            "meaning": "必修课",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 11；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-017",
+            "term": "be worried about",
+            "meaning": "担心；担忧",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 12；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-018",
+            "term": "worry about",
+            "meaning": "担心；担忧",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 12；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-019",
+            "term": "rise",
+            "meaning": "vi. 上升；升起；增加",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 13；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-020",
+            "term": "arise",
+            "meaning": "v. 发生；产生；起床",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 14；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-021",
+            "term": "raise",
+            "meaning": "vt. 抚养；饲养；筹集；举起",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 15；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-022",
+            "term": "arouse",
+            "meaning": "vt. 唤起；引起",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 16；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-023",
+            "term": "arouse one's awareness of doing",
+            "meaning": "唤起某人做某事的意识",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 16；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-024",
+            "term": "contract",
+            "meaning": "n. 合同",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 17；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-025",
+            "term": "deliver",
+            "meaning": "v. 运输；运送；递送",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 18；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-026",
+            "term": "weigh",
+            "meaning": "v. 权衡；称重",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 19；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-027",
+            "term": "weigh the pros and cons",
+            "meaning": "权衡利弊",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 19；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-028",
+            "term": "take a day off",
+            "meaning": "请一天假；休息一天",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 20；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-029",
+            "term": "ask for leave",
+            "meaning": "请假",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 21；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-030",
+            "term": "sick leave",
+            "meaning": "病假",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 22；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-031",
+            "term": "annual leave",
+            "meaning": "年假",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 22；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-032",
+            "term": "personal leave",
+            "meaning": "事假",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 22；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-033",
+            "term": "The reasons are as follows.",
+            "meaning": "原因如下。",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 23；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-034",
+            "term": "The details are as follows.",
+            "meaning": "细节如下。",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 23；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-035",
+            "term": "The arrangements are as follows.",
+            "meaning": "安排如下。",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 23；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-036",
+            "term": "The suggestions are as follows.",
+            "meaning": "建议如下。",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 23；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-037",
+            "term": "focus on",
+            "meaning": "关注；专注；集中注意力于",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 24；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-038",
+            "term": "concentrate on",
+            "meaning": "专注于",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 24；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-039",
+            "term": "form",
+            "meaning": "n. 表格；v. 形成",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 25；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-040",
+            "term": "formal",
+            "meaning": "adj. 正式的",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 25；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-041",
+            "term": "informal",
+            "meaning": "adj. 非正式的",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 25；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-042",
+            "term": "form a/the good habit of doing",
+            "meaning": "养成做某事的好习惯",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 26；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-043",
+            "term": "develop a/the good habit of doing",
+            "meaning": "养成做某事的好习惯",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 26；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-044",
+            "term": "suspicion",
+            "meaning": "n. 怀疑",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 27；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-045",
+            "term": "suspicious",
+            "meaning": "adj. 怀疑的；可疑的",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 27；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-046",
+            "term": "strange",
+            "meaning": "adj. 奇怪的；陌生的",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 28；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-047",
+            "term": "stranger",
+            "meaning": "n. 陌生人",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 28；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-048",
+            "term": "awake",
+            "meaning": "adj. 醒着的；v. 唤醒",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 29；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-049",
+            "term": "award",
+            "meaning": "n. 奖项；v. 颁奖",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 30；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-050",
+            "term": "reward",
+            "meaning": "n. 报酬；回报；v. 回报；答谢",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 31；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-051",
+            "term": "as a reward for",
+            "meaning": "作为……的回报",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 31；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-052",
+            "term": "treat",
+            "meaning": "v. 对待；治疗",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 32；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-053",
+            "term": "treatment",
+            "meaning": "n. 对待；治疗；处理",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 32；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-054",
+            "term": "sell out",
+            "meaning": "卖光；售罄",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 33；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-055",
+            "term": "no longer",
+            "meaning": "不再",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 34；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-056",
+            "term": "in demand",
+            "meaning": "需求量大",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 35；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-057",
+            "term": "in supply",
+            "meaning": "有库存；供应充足",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 35；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-058",
+            "term": "in use",
+            "meaning": "正在使用中",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 35；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-059",
+            "term": "in sight",
+            "meaning": "看得见；在视线内",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 35；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-060",
+            "term": "out of sight",
+            "meaning": "看不见",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-061",
+            "term": "out of control",
+            "meaning": "失控",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-062",
+            "term": "out of order",
+            "meaning": "出故障；秩序混乱",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-063",
+            "term": "out of breath",
+            "meaning": "上气不接下气",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-064",
+            "term": "out of date",
+            "meaning": "过时",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-065",
+            "term": "out of reach",
+            "meaning": "够不着",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-066",
+            "term": "out of stock",
+            "meaning": "没有库存",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-067",
+            "term": "out of danger",
+            "meaning": "脱离危险",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-068",
+            "term": "out of curiosity",
+            "meaning": "出于好奇",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 36；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-069",
+            "term": "employ",
+            "meaning": "v. 雇佣；雇用",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 37；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-070",
+            "term": "employee",
+            "meaning": "n. 雇员；员工",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 37；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-071",
+            "term": "employer",
+            "meaning": "n. 雇主；老板",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 37；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-072",
+            "term": "employment",
+            "meaning": "n. 就业；工作",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 37；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-073",
+            "term": "unemployment",
+            "meaning": "n. 失业",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 37；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-074",
+            "term": "argue",
+            "meaning": "v. 争论；主张",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 38；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-075",
+            "term": "argument",
+            "meaning": "n. 争论；争端；论点",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 38；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-076",
+            "term": "tense",
+            "meaning": "adj. 紧张的；n. 时态",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 39；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-077",
+            "term": "ignore",
+            "meaning": "v. 忽视",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 40；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-078",
+            "term": "ignorance",
+            "meaning": "n. 无知；忽视",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 40；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-079",
+            "term": "living conditions",
+            "meaning": "居住条件",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 41；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-080",
+            "term": "lack",
+            "meaning": "v./n. 缺乏；n./v. 缺乏；短缺",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 42；允许与其他词库同词并保留独立学习记录。；来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容",
+              "四级 20"
+            ],
+            "sources": [
+              "听写内容",
+              "四级"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-081",
+            "term": "realize",
+            "meaning": "v. 意识到；实现",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 43；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-082",
+            "term": "continuous efforts",
+            "meaning": "不懈的；不断的努力",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 44；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-083",
+            "term": "follow the rules",
+            "meaning": "遵守规则",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 45；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-084",
+            "term": "single-use plastic products",
+            "meaning": "一次性塑料制品",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 46；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-085",
+            "term": "with the theme of",
+            "meaning": "主题为……",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 47；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-086",
+            "term": "take the responsibility to do sth.",
+            "meaning": "承担起做某事的责任",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 48；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-087",
+            "term": "play a role in doing sth.",
+            "meaning": "在做某事中发挥作用",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 49；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-088",
+            "term": "play a vital role in doing sth.",
+            "meaning": "在做某事中发挥关键作用",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 49；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-089",
+            "term": "play an important role in doing sth.",
+            "meaning": "在做某事中发挥重要作用",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 49；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
+          },
+          {
+            "id": "dictation-4-090",
+            "term": "make a difference to",
+            "meaning": "对……起作用；对……造成影响",
+            "phrase": "",
+            "note": "来源：第四次听写内容归纳；原资料序号 50；允许与其他词库同词并保留独立学习记录。",
+            "tag": "第四次听写内容 / 听写内容",
+            "status": "new",
+            "stage": -1,
+            "nextReviewAt": "",
+            "lastStudiedAt": "",
+            "createdAt": "2026-07-30T08:00:00+08:00",
+            "updatedAt": "2026-07-30T08:00:00+08:00",
+            "history": [],
+            "groups": [
+              "第四次听写内容"
+            ],
+            "sources": [
+              "听写内容"
+            ],
+            "source": "听写内容",
+            "forms": {}
           }
         ]
       }

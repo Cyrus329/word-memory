@@ -1,4 +1,4 @@
-// Generated 2026-07-29. v70 B006 imports with individually authored exam contexts.
+// Generated 2026-07-30. v70 B007 imports with individually authored exam contexts.
 window.WORD_MEMORY_CONTEXTS_BY_ID = {
   "dictation-1-001": {
     "primary": {
@@ -6765,6 +6765,2896 @@ window.WORD_MEMORY_CONTEXTS_BY_ID = {
       "templateFamily": "individually-authored",
       "contextId": "cet-20260729-19-050:primary",
       "batch": "v70-b006"
+    },
+    "extra": []
+  },
+  "dictation-4-001": {
+    "primary": {
+      "sentence": "Whenever I read about volunteers helping rural children, I can't help admiring their courage.",
+      "target": "can't help admiring",
+      "translation": "每当我读到志愿者帮助农村儿童的故事时，我都忍不住钦佩他们的勇气。",
+      "sense": "忍不住做；情不自禁做",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-001:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-002": {
+    "primary": {
+      "sentence": "Faced with the evidence, the committee couldn't help but change its original decision.",
+      "target": "couldn't help but change",
+      "translation": "面对这些证据，委员会不得不改变原来的决定。",
+      "sense": "忍不住做；不得不做",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-002:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-003": {
+    "primary": {
+      "sentence": "After receiving the admission notice, she couldn't wait to share the news with her family.",
+      "target": "couldn't wait to share",
+      "translation": "收到录取通知书后，她迫不及待地把消息告诉家人。",
+      "sense": "迫不及待做",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-003:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-004": {
+    "primary": {
+      "sentence": "You can't be too careful when filling in an application form for the entrance exam.",
+      "target": "can't be too careful",
+      "translation": "填写专升本考试报名表时，再仔细也不为过。",
+      "sense": "再……也不为过；越……越好",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-004:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-005": {
+    "primary": {
+      "sentence": "Because the laboratory closes at six, we have to finish the experiment before dinner.",
+      "target": "have to finish",
+      "translation": "因为实验室六点关门，我们不得不在晚饭前完成实验。",
+      "sense": "不得不做某事",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-005:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-006": {
+    "primary": {
+      "sentence": "Students don't have to print the report because an electronic copy is acceptable.",
+      "target": "don't have to print",
+      "translation": "学生不必打印报告，因为电子版也可以。",
+      "sense": "不必做某事",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-006:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-007": {
+    "primary": {
+      "sentence": "Regular outdoor activities can reduce stress and improve both physical and mental health.",
+      "target": "outdoor activities",
+      "translation": "经常参加户外活动可以减轻压力并改善身心健康。",
+      "sense": "户外活动",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-007:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-008": {
+    "primary": {
+      "sentence": "Although the coach is strict with the runners, he always explains how they can improve.",
+      "target": "strict with",
+      "translation": "虽然教练对运动员很严格，但他总会说明他们该如何提高。",
+      "sense": "对某人严格",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-008:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-009": {
+    "primary": {
+      "sentence": "Many students have heard of the new scholarship but do not know how to apply for it.",
+      "target": "heard of",
+      "translation": "许多学生听说过这项新奖学金，却不知道如何申请。",
+      "sense": "听说",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-009:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-010": {
+    "primary": {
+      "sentence": "I was relieved to hear from my classmate after she arrived at the training center safely.",
+      "target": "hear from",
+      "translation": "得知同学安全到达培训中心后给我来信，我松了一口气。",
+      "sense": "收到……的来信",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-010:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-011": {
+    "primary": {
+      "sentence": "The university received several suggestions from students about improving the library service.",
+      "target": "received several suggestions from",
+      "translation": "学校收到了学生关于改进图书馆服务的几条建议。",
+      "sense": "收到……的来信或消息",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-011:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-012": {
+    "primary": {
+      "sentence": "He decided to quit smoking after learning how seriously it could damage his lungs.",
+      "target": "quit smoking",
+      "translation": "得知吸烟会严重损害肺部后，他决定戒烟。",
+      "sense": "v. 辞职；退出；戒掉",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-012:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-013": {
+    "primary": {
+      "sentence": "She did not quit her job until she had found a more suitable position.",
+      "target": "quit her job",
+      "translation": "她直到找到更合适的职位后才辞职。",
+      "sense": "辞职",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-013:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-014": {
+    "primary": {
+      "sentence": "The manager resigned from the company because of health problems.",
+      "target": "resigned from",
+      "translation": "经理因健康问题从公司辞职。",
+      "sense": "从……辞职",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-014:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-015": {
+    "primary": {
+      "sentence": "Photography is an optional course, so students may choose it according to their interests.",
+      "target": "optional course",
+      "translation": "摄影是一门选修课，学生可以根据兴趣选择。",
+      "sense": "选修课",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-015:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-016": {
+    "primary": {
+      "sentence": "College English is a compulsory course for all first-year students in the program.",
+      "target": "compulsory course",
+      "translation": "大学英语是该专业所有大一学生的必修课。",
+      "sense": "必修课",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-016:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-017": {
+    "primary": {
+      "sentence": "Parents are often worried about whether their children can adapt to college life.",
+      "target": "worried about",
+      "translation": "父母常常担心孩子能否适应大学生活。",
+      "sense": "担心；担忧",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-017:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-018": {
+    "primary": {
+      "sentence": "Instead of worrying about the result, focus on what you can improve before the exam.",
+      "target": "worrying about",
+      "translation": "与其担心结果，不如专注于考前还能改进的地方。",
+      "sense": "担心；担忧",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-018:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-019": {
+    "primary": {
+      "sentence": "As online education develops, the demand for digital learning resources continues to rise.",
+      "target": "rise",
+      "translation": "随着在线教育发展，数字学习资源的需求持续上升。",
+      "sense": "vi. 上升；升起；增加",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-019:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-020": {
+    "primary": {
+      "sentence": "New problems may arise when students rely too heavily on translation software.",
+      "target": "arise",
+      "translation": "当学生过度依赖翻译软件时，可能会出现新问题。",
+      "sense": "v. 发生；产生；起床",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-020:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-021": {
+    "primary": {
+      "sentence": "The student union plans to raise money for children in remote areas.",
+      "target": "raise money",
+      "translation": "学生会计划为偏远地区的儿童筹款。",
+      "sense": "vt. 抚养；饲养；筹集；举起",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-021:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-022": {
+    "primary": {
+      "sentence": "The documentary aroused public interest in protecting traditional villages.",
+      "target": "aroused",
+      "translation": "这部纪录片引起了公众对保护传统村落的兴趣。",
+      "sense": "vt. 唤起；引起",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-022:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-023": {
+    "primary": {
+      "sentence": "The campaign aims to arouse students' awareness of saving water on campus.",
+      "target": "arouse students' awareness of saving",
+      "translation": "这项活动旨在唤起学生在校园节约用水的意识。",
+      "sense": "唤起某人做某事的意识",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-023:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-024": {
+    "primary": {
+      "sentence": "Read every part of the employment contract carefully before signing your name.",
+      "target": "employment contract",
+      "translation": "签字前要仔细阅读劳动合同的每一部分。",
+      "sense": "n. 合同",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-024:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-025": {
+    "primary": {
+      "sentence": "The volunteer team delivered books and medical supplies to the mountain village.",
+      "target": "delivered",
+      "translation": "志愿者团队把书籍和医疗物资运送到山村。",
+      "sense": "v. 运输；运送；递送",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-025:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-026": {
+    "primary": {
+      "sentence": "The committee weighed the cost, safety, and long-term value of the proposal.",
+      "target": "weighed",
+      "translation": "委员会权衡了该方案的成本、安全性和长期价值。",
+      "sense": "v. 权衡；称重",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-026:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-027": {
+    "primary": {
+      "sentence": "We need to weigh the pros and cons before replacing printed textbooks with tablets.",
+      "target": "weigh the pros and cons",
+      "translation": "在用平板替代纸质教材前，我们需要权衡利弊。",
+      "sense": "权衡利弊",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-027:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-028": {
+    "primary": {
+      "sentence": "After working continuously for two weeks, the nurse finally took a day off.",
+      "target": "took a day off",
+      "translation": "连续工作两周后，这名护士终于休息了一天。",
+      "sense": "请一天假；休息一天",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-028:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-029": {
+    "primary": {
+      "sentence": "If you cannot attend the class, ask for leave in advance and explain the reason.",
+      "target": "ask for leave",
+      "translation": "如果不能上课，应提前请假并说明原因。",
+      "sense": "请假",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-029:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-030": {
+    "primary": {
+      "sentence": "He was given three days of sick leave after the doctor advised him to rest.",
+      "target": "sick leave",
+      "translation": "医生建议休息后，他获准请了三天病假。",
+      "sense": "病假",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-030:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-031": {
+    "primary": {
+      "sentence": "Many employees use their annual leave to travel or spend time with family.",
+      "target": "annual leave",
+      "translation": "许多员工利用年假旅行或陪伴家人。",
+      "sense": "年假",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-031:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-032": {
+    "primary": {
+      "sentence": "She asked for personal leave to deal with an urgent family matter.",
+      "target": "personal leave",
+      "translation": "她请了事假来处理紧急家庭事务。",
+      "sense": "事假",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-032:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-033": {
+    "primary": {
+      "sentence": "The reasons are as follows: the course is practical, affordable, and closely related to my career plan.",
+      "target": "The reasons are as follows",
+      "translation": "原因如下：这门课程实用、费用合理，而且与我的职业规划密切相关。",
+      "sense": "原因如下。",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-033:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-034": {
+    "primary": {
+      "sentence": "The details are as follows: the lecture begins at two and lasts for ninety minutes.",
+      "target": "The details are as follows",
+      "translation": "细节如下：讲座两点开始，持续九十分钟。",
+      "sense": "细节如下。",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-034:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-035": {
+    "primary": {
+      "sentence": "The arrangements are as follows: Group A collects data, while Group B prepares the presentation.",
+      "target": "The arrangements are as follows",
+      "translation": "安排如下：A组收集数据，B组准备展示。",
+      "sense": "安排如下。",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-035:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-036": {
+    "primary": {
+      "sentence": "The suggestions are as follows: review daily, record mistakes, and test yourself every weekend.",
+      "target": "The suggestions are as follows",
+      "translation": "建议如下：每天复习、记录错题，并在每周末自测。",
+      "sense": "建议如下。",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-036:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-037": {
+    "primary": {
+      "sentence": "The reading class focuses on identifying the writer's main idea and attitude.",
+      "target": "focuses on",
+      "translation": "阅读课重点训练识别作者的主旨和态度。",
+      "sense": "关注；专注；集中注意力于",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-037:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-038": {
+    "primary": {
+      "sentence": "Please turn off your phone so that you can concentrate on the listening exercise.",
+      "target": "concentrate on",
+      "translation": "请关掉手机，以便专心完成听力练习。",
+      "sense": "专注于",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-038:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-039": {
+    "primary": {
+      "sentence": "Applicants must complete the online form and upload a recent photograph.",
+      "target": "form",
+      "translation": "申请人必须填写在线表格并上传近期照片。",
+      "sense": "n. 表格；v. 形成",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-039:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-040": {
+    "primary": {
+      "sentence": "A formal email should include a clear subject, a polite greeting, and a proper ending.",
+      "target": "formal",
+      "translation": "正式邮件应包含明确主题、礼貌问候和恰当结尾。",
+      "sense": "adj. 正式的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-040:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-041": {
+    "primary": {
+      "sentence": "Text messages between close friends are usually shorter and more informal.",
+      "target": "informal",
+      "translation": "亲密朋友之间的短信通常更简短、更随意。",
+      "sense": "adj. 非正式的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-041:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-042": {
+    "primary": {
+      "sentence": "Try to form a good habit of reviewing new words before going to bed.",
+      "target": "form a good habit of reviewing",
+      "translation": "要养成睡前复习新单词的好习惯。",
+      "sense": "养成做某事的好习惯",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-042:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-043": {
+    "primary": {
+      "sentence": "Students who develop the habit of reading English daily often make steady progress.",
+      "target": "develop the habit of reading",
+      "translation": "养成每天阅读英语习惯的学生通常会取得稳定进步。",
+      "sense": "养成做某事的好习惯",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-043:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-044": {
+    "primary": {
+      "sentence": "The unusual change in the data raised the researcher's suspicion.",
+      "target": "suspicion",
+      "translation": "数据的异常变化引起了研究人员的怀疑。",
+      "sense": "n. 怀疑",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-044:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-045": {
+    "primary": {
+      "sentence": "The teacher became suspicious when two essays contained exactly the same mistakes.",
+      "target": "suspicious",
+      "translation": "当两篇作文出现完全相同的错误时，老师产生了怀疑。",
+      "sense": "adj. 怀疑的；可疑的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-045:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-046": {
+    "primary": {
+      "sentence": "It seems strange that the machine stopped working immediately after the repair.",
+      "target": "strange",
+      "translation": "机器刚修好就停止运转，这似乎很奇怪。",
+      "sense": "adj. 奇怪的；陌生的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-046:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-047": {
+    "primary": {
+      "sentence": "Never share your personal account information with a stranger online.",
+      "target": "stranger",
+      "translation": "不要在网上把个人账户信息告诉陌生人。",
+      "sense": "n. 陌生人",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-047:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-048": {
+    "primary": {
+      "sentence": "Although he was tired, he stayed awake to finish the application before the deadline.",
+      "target": "awake",
+      "translation": "尽管很累，他仍保持清醒，在截止时间前完成了申请。",
+      "sense": "adj. 醒着的；v. 唤醒",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-048:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-049": {
+    "primary": {
+      "sentence": "The university awarded her a scholarship for outstanding academic performance.",
+      "target": "awarded",
+      "translation": "学校因她优异的学习表现授予她奖学金。",
+      "sense": "n. 奖项；v. 颁奖",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-049:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-050": {
+    "primary": {
+      "sentence": "For many volunteers, the trust of local residents is a greater reward than money.",
+      "target": "reward",
+      "translation": "对许多志愿者来说，当地居民的信任是比金钱更大的回报。",
+      "sense": "n. 报酬；回报；v. 回报；答谢",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-050:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-051": {
+    "primary": {
+      "sentence": "As a reward for completing the project early, the team received an extra day off.",
+      "target": "As a reward for",
+      "translation": "作为提前完成项目的奖励，团队获得了一天额外假期。",
+      "sense": "作为……的回报",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-051:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-052": {
+    "primary": {
+      "sentence": "Doctors should treat every patient with patience and respect.",
+      "target": "treat",
+      "translation": "医生应耐心并尊重地对待每一位患者。",
+      "sense": "v. 对待；治疗",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-052:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-053": {
+    "primary": {
+      "sentence": "Early treatment can prevent a minor illness from becoming more serious.",
+      "target": "treatment",
+      "translation": "早期治疗可以防止小病变得更严重。",
+      "sense": "n. 对待；治疗；处理",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-053:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-054": {
+    "primary": {
+      "sentence": "Tickets for the career-planning lecture sold out within an hour.",
+      "target": "sold out",
+      "translation": "职业规划讲座的门票在一小时内售罄。",
+      "sense": "卖光；售罄",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-054:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-055": {
+    "primary": {
+      "sentence": "After months of practice, she no longer feels nervous when speaking in public.",
+      "target": "no longer",
+      "translation": "经过数月练习，她公开发言时不再紧张。",
+      "sense": "不再",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-055:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-056": {
+    "primary": {
+      "sentence": "Graduates with strong communication and digital skills are increasingly in demand.",
+      "target": "in demand",
+      "translation": "沟通能力和数字技能强的毕业生越来越受欢迎。",
+      "sense": "需求量大",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-056:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-057": {
+    "primary": {
+      "sentence": "Masks and basic medicine were in sufficient supply during the school event.",
+      "target": "in sufficient supply",
+      "translation": "学校活动期间，口罩和基本药品供应充足。",
+      "sense": "有库存；供应充足",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-057:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-058": {
+    "primary": {
+      "sentence": "The old computer room is still in use while the new one is being built.",
+      "target": "in use",
+      "translation": "新机房建设期间，旧机房仍在使用。",
+      "sense": "正在使用中",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-058:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-059": {
+    "primary": {
+      "sentence": "When the finish line came in sight, the runner increased his speed.",
+      "target": "in sight",
+      "translation": "当终点线进入视野时，运动员加快了速度。",
+      "sense": "看得见；在视线内",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-059:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-060": {
+    "primary": {
+      "sentence": "The village disappeared out of sight as the bus entered the tunnel.",
+      "target": "out of sight",
+      "translation": "公交车驶入隧道后，村庄从视线中消失了。",
+      "sense": "看不见",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-060:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-061": {
+    "primary": {
+      "sentence": "Without clear rules, online comments can quickly get out of control.",
+      "target": "out of control",
+      "translation": "没有明确规则，网络评论很快可能失控。",
+      "sense": "失控",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-061:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-062": {
+    "primary": {
+      "sentence": "The printer is out of order, so please submit the document electronically.",
+      "target": "out of order",
+      "translation": "打印机坏了，请以电子方式提交文件。",
+      "sense": "出故障；秩序混乱",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-062:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-063": {
+    "primary": {
+      "sentence": "After climbing six floors, he was too out of breath to answer the phone.",
+      "target": "out of breath",
+      "translation": "爬了六层楼后，他喘得说不出话来。",
+      "sense": "上气不接下气",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-063:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-064": {
+    "primary": {
+      "sentence": "Some information in the old guidebook is already out of date.",
+      "target": "out of date",
+      "translation": "旧指南中的一些信息已经过时。",
+      "sense": "过时",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-064:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-065": {
+    "primary": {
+      "sentence": "Keep medicines out of reach of young children.",
+      "target": "out of reach",
+      "translation": "药品应放在幼儿够不到的地方。",
+      "sense": "够不着",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-065:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-066": {
+    "primary": {
+      "sentence": "The reference book was out of stock, so I ordered an electronic version.",
+      "target": "out of stock",
+      "translation": "那本参考书缺货，因此我订购了电子版。",
+      "sense": "没有库存",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-066:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-067": {
+    "primary": {
+      "sentence": "The injured student was finally out of danger after emergency treatment.",
+      "target": "out of danger",
+      "translation": "经过紧急治疗，受伤学生终于脱离了危险。",
+      "sense": "脱离危险",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-067:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-068": {
+    "primary": {
+      "sentence": "Out of curiosity, she opened the campus museum website and found a useful lecture.",
+      "target": "Out of curiosity",
+      "translation": "出于好奇，她打开校园博物馆网站，发现了一场有用的讲座。",
+      "sense": "出于好奇",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-068:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-069": {
+    "primary": {
+      "sentence": "The company plans to employ more technicians who understand artificial intelligence.",
+      "target": "employ",
+      "translation": "公司计划雇佣更多了解人工智能的技术人员。",
+      "sense": "v. 雇佣；雇用",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-069:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-070": {
+    "primary": {
+      "sentence": "Every new employee receives safety training before entering the factory.",
+      "target": "employee",
+      "translation": "每位新员工进入工厂前都要接受安全培训。",
+      "sense": "n. 雇员；员工",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-070:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-071": {
+    "primary": {
+      "sentence": "A responsible employer should provide fair pay and safe working conditions.",
+      "target": "employer",
+      "translation": "负责任的雇主应提供公平薪酬和安全的工作条件。",
+      "sense": "n. 雇主；老板",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-071:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-072": {
+    "primary": {
+      "sentence": "Internships can help students gain experience and improve their employment prospects.",
+      "target": "employment",
+      "translation": "实习能帮助学生积累经验并改善就业前景。",
+      "sense": "n. 就业；工作",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-072:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-073": {
+    "primary": {
+      "sentence": "Vocational training may reduce unemployment by matching skills with local job needs.",
+      "target": "unemployment",
+      "translation": "职业培训可以通过让技能匹配当地岗位需求来减少失业。",
+      "sense": "n. 失业",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-073:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-074": {
+    "primary": {
+      "sentence": "Some people argue that online courses should remain available after graduation.",
+      "target": "argue",
+      "translation": "有人主张毕业后仍应保留在线课程。",
+      "sense": "v. 争论；主张",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-074:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-075": {
+    "primary": {
+      "sentence": "The writer supports the argument with survey data and two real examples.",
+      "target": "argument",
+      "translation": "作者用调查数据和两个真实例子支持这一论点。",
+      "sense": "n. 争论；争端；论点",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-075:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-076": {
+    "primary": {
+      "sentence": "The room became tense when the interviewer asked about the failed project.",
+      "target": "tense",
+      "translation": "面试官问到失败的项目时，房间里的气氛变得紧张。",
+      "sense": "adj. 紧张的；n. 时态",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-076:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-077": {
+    "primary": {
+      "sentence": "We should not ignore small spelling errors because they may change the meaning.",
+      "target": "ignore",
+      "translation": "我们不应忽视小的拼写错误，因为它们可能改变意思。",
+      "sense": "v. 忽视",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-077:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-078": {
+    "primary": {
+      "sentence": "Ignorance of basic safety rules can lead to serious accidents.",
+      "target": "Ignorance",
+      "translation": "对基本安全规则的无知可能导致严重事故。",
+      "sense": "n. 无知；忽视",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-078:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-079": {
+    "primary": {
+      "sentence": "The survey compares the living conditions of students in cities and rural areas.",
+      "target": "living conditions",
+      "translation": "这项调查比较城市和农村学生的居住条件。",
+      "sense": "居住条件",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-079:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-080": {
+    "primary": {
+      "sentence": "A lack of sleep often reduces concentration and memory.",
+      "target": "lack",
+      "translation": "睡眠不足常常会降低注意力和记忆力。",
+      "sense": "v./n. 缺乏",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-080:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-081": {
+    "primary": {
+      "sentence": "Many students realize the value of time only when the exam date is near.",
+      "target": "realize",
+      "translation": "许多学生直到考试临近才意识到时间的价值。",
+      "sense": "v. 意识到；实现",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-081:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-082": {
+    "primary": {
+      "sentence": "The improvement in her pronunciation came from continuous efforts rather than luck.",
+      "target": "continuous efforts",
+      "translation": "她发音的提高来自不断努力，而不是运气。",
+      "sense": "不懈的；不断的努力",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-082:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-083": {
+    "primary": {
+      "sentence": "Visitors must follow the rules when using equipment in the science laboratory.",
+      "target": "follow the rules",
+      "translation": "参观者在科学实验室使用设备时必须遵守规则。",
+      "sense": "遵守规则",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-083:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-084": {
+    "primary": {
+      "sentence": "The campus shop has reduced single-use plastic products to protect the environment.",
+      "target": "single-use plastic products",
+      "translation": "校园商店已减少一次性塑料制品，以保护环境。",
+      "sense": "一次性塑料制品",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-084:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-085": {
+    "primary": {
+      "sentence": "The college held a speech contest with the theme of traditional culture and modern life.",
+      "target": "with the theme of",
+      "translation": "学院举办了以传统文化与现代生活为主题的演讲比赛。",
+      "sense": "主题为……",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-085:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-086": {
+    "primary": {
+      "sentence": "Young adults should take the responsibility to protect their personal information online.",
+      "target": "take the responsibility to protect",
+      "translation": "年轻人应承担起保护个人网络信息的责任。",
+      "sense": "承担起做某事的责任",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-086:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-087": {
+    "primary": {
+      "sentence": "Daily reading can play a role in improving vocabulary and writing ability.",
+      "target": "play a role in improving",
+      "translation": "每日阅读能在提高词汇量和写作能力方面发挥作用。",
+      "sense": "在做某事中发挥作用",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-087:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-088": {
+    "primary": {
+      "sentence": "Public transport plays a vital role in reducing traffic and air pollution.",
+      "target": "plays a vital role in reducing",
+      "translation": "公共交通在减少交通拥堵和空气污染方面发挥关键作用。",
+      "sense": "在做某事中发挥关键作用",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-088:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-089": {
+    "primary": {
+      "sentence": "Teachers play an important role in helping students build confidence.",
+      "target": "play an important role in helping",
+      "translation": "教师在帮助学生建立信心方面发挥重要作用。",
+      "sense": "在做某事中发挥重要作用",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-089:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "dictation-4-090": {
+    "primary": {
+      "sentence": "A small change in study habits can make a real difference to exam performance.",
+      "target": "make a real difference to",
+      "translation": "学习习惯上的小改变能真正影响考试表现。",
+      "sense": "对……起作用；对……造成影响",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "dictation-4-090:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-001": {
+    "primary": {
+      "sentence": "We are raising money for the school library.",
+      "target": "raising money",
+      "translation": "我们正在为学校图书馆筹款。",
+      "sense": "筹款",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-001:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-002": {
+    "primary": {
+      "sentence": "It is important to communicate with your parents.",
+      "target": "communicate with your parents",
+      "translation": "与父母交流很重要。",
+      "sense": "与某人交流",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-002:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-003": {
+    "primary": {
+      "sentence": "The new school rule caused a heated discussion among the students.",
+      "target": "caused a heated discussion",
+      "translation": "新校规在学生中引发了热烈讨论。",
+      "sense": "引发或激起热烈讨论、广泛讨论",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-003:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-004": {
+    "primary": {
+      "sentence": "She has a good command of English.",
+      "target": "a good command of English",
+      "translation": "她精通英语。",
+      "sense": "精通；熟练掌握",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-004:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-005": {
+    "primary": {
+      "sentence": "She will graduate from high school next year.",
+      "target": "graduate from",
+      "translation": "她明年将从高中毕业。",
+      "sense": "从……毕业",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-005:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-006": {
+    "primary": {
+      "sentence": "Tom and I have a lot in common.",
+      "target": "a lot in common",
+      "translation": "汤姆和我有许多共同点。",
+      "sense": "有不少共同点",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-006:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-007": {
+    "primary": {
+      "sentence": "I get along well with my classmates.",
+      "target": "get along well with my classmates",
+      "translation": "我和同学相处得很好。",
+      "sense": "与某人相处（很好）",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-007:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-008": {
+    "primary": {
+      "sentence": "Tom and Jerry have nothing in common.",
+      "target": "have nothing in common",
+      "translation": "汤姆和杰瑞毫无共同之处。",
+      "sense": "毫无共同之处",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-008:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-009": {
+    "primary": {
+      "sentence": "The two study plans have several useful ideas in common.",
+      "target": "have several useful ideas in common",
+      "translation": "这两个学习计划有几个共同的实用想法。",
+      "sense": "有共同之处",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-009:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "phrase-practice-12-010": {
+    "primary": {
+      "sentence": "We have a lot in common.",
+      "target": "in common",
+      "translation": "我们有许多共同点。",
+      "sense": "共有；相同",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-12-010:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-002": {
+    "primary": {
+      "sentence": "The football match was postponed because heavy rain made the field unsafe.",
+      "target": "football",
+      "translation": "由于大雨使球场不安全，足球比赛被推迟了。",
+      "sense": "n. 足球（英）；橄榄球（美）；足球运动",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-002:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-003": {
+    "primary": {
+      "sentence": "Fresh fruit is available in the college dining hall throughout the day.",
+      "target": "fruit",
+      "translation": "大学食堂全天供应新鲜水果。",
+      "sense": "n. 水果；果实；成果；v. 结果实",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-003:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-005": {
+    "primary": {
+      "sentence": "It is cruel to abandon animals simply because caring for them takes time.",
+      "target": "cruel",
+      "translation": "仅仅因为照顾动物需要时间就遗弃它们是残忍的。",
+      "sense": "adj. 残忍的；残酷的；令人痛苦的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-005:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-007": {
+    "primary": {
+      "sentence": "The graduation album records many moments that students may value for years.",
+      "target": "album",
+      "translation": "毕业纪念册记录了许多学生多年后仍会珍视的时刻。",
+      "sense": "n. 相册；集邮册；音乐专辑",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-007:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-008": {
+    "primary": {
+      "sentence": "Only the laboratory director can authorize students to use the new equipment.",
+      "target": "authorize",
+      "translation": "只有实验室主任可以授权学生使用新设备。",
+      "sense": "vt. 批准；授权；认可",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-008:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-010": {
+    "primary": {
+      "sentence": "Constant comparison with others may depress students and weaken their confidence.",
+      "target": "depress",
+      "translation": "不断与他人比较可能使学生沮丧并削弱信心。",
+      "sense": "vt. 使沮丧；使萧条；压下",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-010:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-011": {
+    "primary": {
+      "sentence": "Seventeen volunteers completed the survey in three rural communities.",
+      "target": "Seventeen",
+      "translation": "十七名志愿者在三个农村社区完成了调查。",
+      "sense": "num. 十七；十七个",
+      "pos": "numeral",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-011:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-012": {
+    "primary": {
+      "sentence": "A bowl of hot soup helped the runner recover after the winter race.",
+      "target": "bowl",
+      "translation": "一碗热汤帮助运动员在冬季比赛后恢复体力。",
+      "sense": "n. 碗；碗状物；木球运动；vt. 投球；使快速移动",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-012:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-013": {
+    "primary": {
+      "sentence": "The plane waited beside the runway until the strong wind became weaker.",
+      "target": "runway",
+      "translation": "飞机在跑道旁等待，直到强风减弱。",
+      "sense": "n. 机场跑道；T型台",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-013:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-014": {
+    "primary": {
+      "sentence": "Students were asked to recite the short poem and explain its main idea.",
+      "target": "recite",
+      "translation": "学生被要求背诵这首短诗并解释其主旨。",
+      "sense": "vt. 背诵；朗诵；详述；vi. 背诵；朗诵",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-014:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-015": {
+    "primary": {
+      "sentence": "The course develops practical skills rather than testing memory alone.",
+      "target": "rather than",
+      "translation": "这门课程培养实际技能，而不只是测试记忆。",
+      "sense": "adv. 相当；宁可；更确切地说；conj. 倒不如说",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-015:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-017": {
+    "primary": {
+      "sentence": "Education is often described as a powerful weapon against poverty.",
+      "target": "weapon",
+      "translation": "教育常被称为对抗贫困的有力武器。",
+      "sense": "n. 武器；手段",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-017:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-020": {
+    "primary": {
+      "sentence": "She sent a postcard from Chongqing to thank her former English teacher.",
+      "target": "postcard",
+      "translation": "她从重庆寄出一张明信片，感谢以前的英语老师。",
+      "sense": "n. 明信片",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-020:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-023": {
+    "primary": {
+      "sentence": "Schools should educate students who break rules instead of simply punishing them.",
+      "target": "punishing",
+      "translation": "学校应教育违反规则的学生，而不是只惩罚他们。",
+      "sense": "vt. 处罚；惩罚；严厉对待",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-023:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-024": {
+    "primary": {
+      "sentence": "Applicants can check the status of their application on the university website.",
+      "target": "status",
+      "translation": "申请人可以在大学网站上查询申请状态。",
+      "sense": "n. 地位；状态；法律身份",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-024:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-028": {
+    "primary": {
+      "sentence": "Take a raincoat because the weather report predicts showers this afternoon.",
+      "target": "raincoat",
+      "translation": "带上雨衣，因为天气预报说今天下午有阵雨。",
+      "sense": "n. 雨衣",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-028:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-029": {
+    "primary": {
+      "sentence": "Passengers stood on the upper deck to watch the city lights along the river.",
+      "target": "deck",
+      "translation": "乘客站在上层甲板上观看沿江城市灯光。",
+      "sense": "n. 甲板；层面；一副纸牌；vt. 装饰；给……装甲板；击倒",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-029:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-030": {
+    "primary": {
+      "sentence": "Our study group meets twice a week to review difficult grammar points.",
+      "target": "Our",
+      "translation": "我们的学习小组每周见两次，复习较难的语法点。",
+      "sense": "pron. 我们的",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-030:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-031": {
+    "primary": {
+      "sentence": "He left his overcoat in the classroom after the evening lecture.",
+      "target": "overcoat",
+      "translation": "晚间讲座后，他把大衣落在了教室。",
+      "sense": "n. 大衣；外套",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-031:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-032": {
+    "primary": {
+      "sentence": "You may submit the assignment online or hand it in at the office.",
+      "target": "or",
+      "translation": "你可以在线提交作业，或者把它交到办公室。",
+      "sense": "conj. 或；或者；否则；即；n. 逻辑运算中的“或”",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-032:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-034": {
+    "primary": {
+      "sentence": "The emergency supplies were stored in the trunk before the volunteer team left.",
+      "target": "trunk",
+      "translation": "志愿者团队出发前，急救物资被放进了汽车后备箱。",
+      "sense": "n. 树干；汽车后备箱；象鼻；大箱子",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-034:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-035": {
+    "primary": {
+      "sentence": "The final reading question remained a riddle until the teacher explained the context.",
+      "target": "riddle",
+      "translation": "直到老师解释语境，最后一道阅读题仍像一个谜。",
+      "sense": "n. 谜语；难以理解的事物；vt. 用筛子筛；使布满孔洞",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-035:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-036": {
+    "primary": {
+      "sentence": "The dining hall labels dishes clearly so that students who do not eat pork can choose safely.",
+      "target": "pork",
+      "translation": "食堂清楚标注菜品，方便不吃猪肉的学生安全选择。",
+      "sense": "n. 猪肉",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-036:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-037": {
+    "primary": {
+      "sentence": "Perhaps the best way to remember a word is to use it in several different sentences.",
+      "target": "Perhaps",
+      "translation": "也许记住单词的最佳方法是在几个不同句子中使用它。",
+      "sense": "adv. 可能；也许；大概",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-037:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-040": {
+    "primary": {
+      "sentence": "Police recovered the stolen computers during a raid on an illegal warehouse.",
+      "target": "raid",
+      "translation": "警方在突击搜查一处非法仓库时追回了被盗电脑。",
+      "sense": "v. 突袭；突然搜查；劫掠；n. 突袭；突然袭击",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-040:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-042": {
+    "primary": {
+      "sentence": "The training program lasts one month and includes both lectures and practice.",
+      "target": "month",
+      "translation": "培训项目持续一个月，包括讲座和实践。",
+      "sense": "n. 月；月份；约30天的时间段",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-042:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-045": {
+    "primary": {
+      "sentence": "A traditional drum performance opened the campus culture festival.",
+      "target": "drum",
+      "translation": "一场传统鼓乐表演拉开了校园文化节的序幕。",
+      "sense": "n. 鼓；鼓状物；圆桶；v. 打鼓；敲击；连续发出响声",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-045:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-046": {
+    "primary": {
+      "sentence": "Nearly ninety percent of the students completed the online questionnaire.",
+      "target": "ninety",
+      "translation": "近百分之九十的学生完成了在线问卷。",
+      "sense": "num. 九十",
+      "pos": "numeral",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-046:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-047": {
+    "primary": {
+      "sentence": "Neither the old method nor the new one works well without regular practice.",
+      "target": "Neither",
+      "translation": "无论旧方法还是新方法，缺少规律练习都难以奏效。",
+      "sense": "conj. 既不……也不……；adv. 也不",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-047:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-048": {
+    "primary": {
+      "sentence": "A responsible researcher should never change data to support a preferred conclusion.",
+      "target": "never",
+      "translation": "负责任的研究者绝不应为了支持偏好的结论而修改数据。",
+      "sense": "adv. 从不；从未；绝不",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-048:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-049": {
+    "primary": {
+      "sentence": "The purpose of the activity is not to compete but to learn from one another.",
+      "target": "not",
+      "translation": "这项活动的目的不是竞争，而是相互学习。",
+      "sense": "adv. 不；没有；非；无",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-049:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "blueforest-20260730-25-050": {
+    "primary": {
+      "sentence": "The internship gave her a chance to apply classroom knowledge in a real workplace.",
+      "target": "chance",
+      "translation": "这次实习给了她把课堂知识用于真实工作环境的机会。",
+      "sense": "n. 机会；可能性；偶然；v. 冒险；偶然发生",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260730-25-050:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-001": {
+    "primary": {
+      "sentence": "The lecture had scarcely begun when the fire alarm interrupted it.",
+      "target": "scarcely begun",
+      "translation": "讲座刚开始，火警警报就打断了它。",
+      "sense": "adv. 几乎不；刚……就……；一定不",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-001:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-003": {
+    "primary": {
+      "sentence": "Students rarely improve their writing without reading and revising regularly.",
+      "target": "rarely",
+      "translation": "学生如果不经常阅读和修改，写作很少会提高。",
+      "sense": "adv. 难得地；少见地",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-003:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-004": {
+    "primary": {
+      "sentence": "A completely error-free first draft is a rarity even among experienced writers.",
+      "target": "rarity",
+      "translation": "即使对有经验的写作者来说，完全没有错误的初稿也很少见。",
+      "sense": "n. 罕见的人或物；稀有；罕见",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-004:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-006": {
+    "primary": {
+      "sentence": "The committee questioned the adequacy of the safety measures in the laboratory.",
+      "target": "adequacy",
+      "translation": "委员会质疑实验室安全措施是否充分。",
+      "sense": "n. 足够；适合；够格",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-006:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-007": {
+    "primary": {
+      "sentence": "The report did not adequately explain why the results differed from earlier studies.",
+      "target": "adequately",
+      "translation": "这份报告没有充分解释结果为何与早期研究不同。",
+      "sense": "adv. 充分地；适当地；够格地",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-007:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-008": {
+    "primary": {
+      "sentence": "One year of relevant work experience may be accepted as equivalent to the course requirement.",
+      "target": "equivalent",
+      "translation": "一年相关工作经验可被视为与课程要求同等。",
+      "sense": "adj. 等同的；等值的；相当的；n. 等价物；对应词",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-008:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-009": {
+    "primary": {
+      "sentence": "The agreement recognizes the equivalence of the two professional certificates.",
+      "target": "equivalence",
+      "translation": "该协议承认这两种职业证书具有同等效力。",
+      "sense": "n. 等同；对等",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-009:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-012": {
+    "primary": {
+      "sentence": "The student checked each step before solving the final equation.",
+      "target": "equation",
+      "translation": "学生在解出最后一个方程前检查了每一步。",
+      "sense": "n. 方程式；等式；平衡；等同",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-012:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-013": {
+    "primary": {
+      "sentence": "Vaccination can reduce the risk of influenza spreading through a crowded campus.",
+      "target": "influenza",
+      "translation": "接种疫苗可以降低流感在拥挤校园中传播的风险。",
+      "sense": "n. 流感",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-013:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-014": {
+    "primary": {
+      "sentence": "Candidates must exert steady effort rather than depend on last-minute review.",
+      "target": "exert",
+      "translation": "考生必须持续努力，而不能依赖考前突击。",
+      "sense": "vt. 施加；运用；行使；努力",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-014:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-015": {
+    "primary": {
+      "sentence": "After intense physical exertion, the volunteers were advised to rest and drink water.",
+      "target": "exertion",
+      "translation": "剧烈体力消耗后，志愿者被建议休息并补水。",
+      "sense": "n. 努力；费力；行使；施加",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-015:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-017": {
+    "primary": {
+      "sentence": "Speaking practice improves fluency only when learners receive useful feedback.",
+      "target": "fluency",
+      "translation": "只有在学习者得到有效反馈时，口语练习才能提高流利度。",
+      "sense": "n. 语言流利；动作优美流畅",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-017:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-018": {
+    "primary": {
+      "sentence": "Even students from affluent families may face pressure when choosing a career.",
+      "target": "affluent",
+      "translation": "即使来自富裕家庭的学生，在选择职业时也可能面临压力。",
+      "sense": "adj. 富裕的；富足的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-018:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-019": {
+    "primary": {
+      "sentence": "Economic affluence does not always lead to greater personal happiness.",
+      "target": "affluence",
+      "translation": "经济富裕并不总能带来更大的个人幸福。",
+      "sense": "n. 富裕；富足",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-019:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-021": {
+    "primary": {
+      "sentence": "Clean water becomes scarce in some regions during long periods of drought.",
+      "target": "scarce",
+      "translation": "在长期干旱期间，一些地区的清洁水会变得稀缺。",
+      "sense": "adj. 缺乏的；不足的；稀少的；adv. 才；勉强",
+      "pos": "adverb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-021:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-022": {
+    "primary": {
+      "sentence": "The scarcity of affordable housing has become a serious problem for young workers.",
+      "target": "scarcity",
+      "translation": "可负担住房的短缺已成为年轻劳动者面临的严重问题。",
+      "sense": "n. 缺乏；不足；稀少",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-022:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-023": {
+    "primary": {
+      "sentence": "Without regular review, newly learned vocabulary may quickly fade from memory.",
+      "target": "fade",
+      "translation": "如果不定期复习，新学词汇可能很快从记忆中淡去。",
+      "sense": "vi./vt. 褪色；变暗淡；逐渐消失",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-023:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-024": {
+    "primary": {
+      "sentence": "The compact guide contains the main grammar rules needed for the entrance exam.",
+      "target": "compact",
+      "translation": "这本简明指南包含专升本考试所需的主要语法规则。",
+      "sense": "adj. 紧凑的；紧密的；小型的；n. 协定；小汽车；粉饼盒；vt. 压紧",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-024:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-028": {
+    "primary": {
+      "sentence": "The article is difficult because it contains dense information and several technical terms.",
+      "target": "dense",
+      "translation": "这篇文章较难，因为信息密集且包含多个专业术语。",
+      "sense": "adj. 密集的；浓的；笨的；密度大的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-028:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-029": {
+    "primary": {
+      "sentence": "Population density is much higher in the city center than in nearby rural areas.",
+      "target": "density",
+      "translation": "市中心的人口密度远高于附近农村地区。",
+      "sense": "n. 密度",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-029:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-031": {
+    "primary": {
+      "sentence": "Condensation formed on the classroom windows during the cold morning.",
+      "target": "Condensation",
+      "translation": "寒冷的早晨，教室窗户上形成了水汽凝结。",
+      "sense": "n. 凝结的水珠；冷凝；凝结",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-031:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-032": {
+    "primary": {
+      "sentence": "The number of traditional shops may shrink if younger customers move entirely online.",
+      "target": "shrink",
+      "translation": "如果年轻顾客完全转向线上，传统商店的数量可能减少。",
+      "sense": "vi./vt. 缩水；缩小；减少；退缩；n. 精神病学家；心理学家",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-032:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-033": {
+    "primary": {
+      "sentence": "The student squeezed a short review session into the break before class.",
+      "target": "squeezed",
+      "translation": "这名学生把一次简短复习挤进了课前休息时间。",
+      "sense": "vt./vi. 挤压；挤入；榨出；勒索；n. 挤压；挤出的液体；拮据",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-033:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-034": {
+    "primary": {
+      "sentence": "Understanding the plot helps readers explain why the main character changes.",
+      "target": "plot",
+      "translation": "理解情节有助于读者说明主人公为何发生变化。",
+      "sense": "n. 故事情节；阴谋；小块土地；v. 密谋；策划；绘制",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-034:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-036": {
+    "primary": {
+      "sentence": "Misleading advertisements may inflate consumers' expectations of a product.",
+      "target": "inflate",
+      "translation": "误导性广告可能夸大消费者对产品的期待。",
+      "sense": "vt./vi. 充气；膨胀；使价格上涨；夸大；吹嘘",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-036:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-038": {
+    "primary": {
+      "sentence": "The museum displays tools that show how local farming changed over time.",
+      "target": "displays",
+      "translation": "博物馆陈列了展示当地农业如何随时间变化的工具。",
+      "sense": "vt. 陈列；展示；显示；表现；n. 陈列；表演；显示器",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-038:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-039": {
+    "primary": {
+      "sentence": "The school may freeze outdoor activities when the temperature becomes dangerously low.",
+      "target": "freeze",
+      "translation": "气温低到危险程度时，学校可能暂停户外活动。",
+      "sense": "vi./vt. 结冰；冻结；冻死；冷藏；使定格；n. 冻结；停止",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-039:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-042": {
+    "primary": {
+      "sentence": "A cool breeze made the outdoor reading activity more comfortable.",
+      "target": "breeze",
+      "translation": "一阵凉爽的微风让户外阅读活动更加舒适。",
+      "sense": "n. 微风；轻而易举的事；v. 轻快地走",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-042:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-043": {
+    "primary": {
+      "sentence": "The laboratory rules prohibit students from eating or drinking near the equipment.",
+      "target": "prohibit",
+      "translation": "实验室规定禁止学生在设备附近饮食。",
+      "sense": "vt. 禁止；使不可能",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-043:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-044": {
+    "primary": {
+      "sentence": "The prohibition on single-use plastic bags reduced waste on campus.",
+      "target": "prohibition",
+      "translation": "对一次性塑料袋的禁令减少了校园垃圾。",
+      "sense": "n. 禁令；法律上的禁止",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-044:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-045": {
+    "primary": {
+      "sentence": "For many students, the cost of private training courses is prohibitive.",
+      "target": "prohibitive",
+      "translation": "对许多学生来说，私人培训课程的费用高得难以承受。",
+      "sense": "adj. 贵得令人望而却步的；禁止的",
+      "pos": "adjective",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-045:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-046": {
+    "primary": {
+      "sentence": "The science club will exhibit its robots during the campus open day.",
+      "target": "exhibit",
+      "translation": "科学社将在校园开放日展出机器人。",
+      "sense": "v. 展览；展出；表现；显示；n. 展品；证物",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-046:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-047": {
+    "primary": {
+      "sentence": "The photography exhibition focuses on changes in rural life.",
+      "target": "exhibition",
+      "translation": "这场摄影展聚焦农村生活的变化。",
+      "sense": "n. 展览会；表现；显露",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-047:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-048": {
+    "primary": {
+      "sentence": "The school forbids the use of mobile phones during formal examinations.",
+      "target": "forbids",
+      "translation": "学校禁止在正式考试期间使用手机。",
+      "sense": "vt. 禁止；不准；妨碍；阻碍",
+      "pos": "verb",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-048:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-049": {
+    "primary": {
+      "sentence": "Three companies submitted a bid to build the new student center.",
+      "target": "bid",
+      "translation": "三家公司提交了建设新学生活动中心的投标。",
+      "sense": "vi./vt. 出价；投标；努力争取；向……问候或告别；n. 出价；投标；企图",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-049:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-050": {
+    "primary": {
+      "sentence": "The public bidding process was designed to ensure fairness and transparency.",
+      "target": "bidding",
+      "translation": "公开招标程序旨在确保公平与透明。",
+      "sense": "n. 出价；投标；命令",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-050:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-051": {
+    "primary": {
+      "sentence": "The city introduced a ban on smoking in indoor public places.",
+      "target": "ban",
+      "translation": "该市出台了室内公共场所禁烟令。",
+      "sense": "n. 禁止；禁令；v. 禁止；取缔",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-051:primary",
+      "batch": "v70-b007"
+    },
+    "extra": []
+  },
+  "cet-20260730-20-052": {
+    "primary": {
+      "sentence": "A large banner welcomed new students at the entrance to the campus.",
+      "target": "banner",
+      "translation": "校园入口处的一条大横幅欢迎新生。",
+      "sense": "n. 横幅；标语；旗帜；口号；adj. 特别成功的",
+      "pos": "noun",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b007",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260730-20-052:primary",
+      "batch": "v70-b007"
     },
     "extra": []
   }
