@@ -1,4 +1,4 @@
-// Generated 2026-07-31. 专升本题型语境 v70 B009；资料例句优先，其余为逐词校正的独立语境。
+// Generated 2026-08-01. v70 B011 专升本题型语境；资料原句优先，新词采用独立校正语境。
 window.WORD_MEMORY_CONTEXTS = {
   "-able": {
     "primary": {
@@ -5379,16 +5379,18 @@ window.WORD_MEMORY_CONTEXTS = {
   },
   "be different from": {
     "primary": {
-      "sentence": "During social practice, students learn how to be different from the experience.",
-      "target": "be different from the experience",
-      "translation": "在社会实践中，学生学习如何和……不同。",
+      "sentence": "My opinion is different from yours.",
+      "target": "be different from",
+      "translation": "我的观点和你的不同。",
       "sense": "和……不同",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "verb-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-007:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
@@ -15829,31 +15831,35 @@ window.WORD_MEMORY_CONTEXTS = {
   },
   "economic development": {
     "primary": {
-      "sentence": "The teacher used economic development as the topic of a short writing task.",
+      "sentence": "Good education is important for economic development.",
       "target": "economic development",
-      "translation": "老师把经济发展作为一项短文写作任务的主题。",
+      "translation": "良好的教育对经济发展很重要。",
       "sense": "经济发展",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "noun-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-004:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
   "economic growth": {
     "primary": {
-      "sentence": "The final paragraph focuses mainly on economic growth.",
+      "sentence": "New technology helps economic growth.",
       "target": "economic growth",
-      "translation": "最后一段主要关注经济增长。",
+      "translation": "新技术有助于经济增长。",
       "sense": "经济增长",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "noun-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-002:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
@@ -33165,16 +33171,18 @@ window.WORD_MEMORY_CONTEXTS = {
   },
   "national economy": {
     "primary": {
-      "sentence": "According to the survey, students have different views on a national economy.",
+      "sentence": "Tourism is important to the national economy.",
       "target": "national economy",
-      "translation": "调查显示，学生们对国民经济有不同看法。",
+      "translation": "旅游业对国民经济很重要。",
       "sense": "国民经济",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "noun-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-005:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
@@ -38123,31 +38131,35 @@ window.WORD_MEMORY_CONTEXTS = {
   },
   "prefer a to b": {
     "primary": {
-      "sentence": "Researchers examined the relationship between a prefer A to B and environmental protection.",
+      "sentence": "I prefer tea to coffee.",
       "target": "prefer A to B",
-      "translation": "研究人员考察了相比B更喜欢A与环境保护之间的关系。",
+      "translation": "比起咖啡，我更喜欢茶。",
       "sense": "相比B更喜欢A",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "noun-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-003:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
   "prefer doing a to doing b": {
     "primary": {
-      "sentence": "The writer uses a real example to show why people need to prefer doing A to doing B.",
+      "sentence": "I prefer reading books to watching TV.",
       "target": "prefer doing A to doing B",
-      "translation": "作者用真实例子说明人们为什么需要相比做B更喜欢做A。",
+      "translation": "我喜欢读书胜过看电视。",
       "sense": "相比做B更喜欢做A",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "verb-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-001:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
@@ -47568,16 +47580,18 @@ window.WORD_MEMORY_CONTEXTS = {
   },
   "supply sth. to sb.": {
     "primary": {
-      "sentence": "The passage suggests that young people should supply the task to their classmates in order to solve practical problems.",
-      "target": "supply the task to their classmates",
-      "translation": "文章建议年轻人应向某人供应某物，以解决实际问题。",
-      "sense": "向某人供应某物",
+      "sentence": "The school supplies books to students.",
+      "target": "supply sth. to sb.",
+      "translation": "学校给学生提供书籍。",
+      "sense": "给某人提供某物",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "verb-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-010:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
@@ -49634,16 +49648,18 @@ window.WORD_MEMORY_CONTEXTS = {
   },
   "to be honest": {
     "primary": {
-      "sentence": "The university organized a lecture on a to be honest for first-year students.",
+      "sentence": "To be honest, I didn't like the movie.",
       "target": "to be honest",
-      "translation": "学校为大一学生举办了一场关于坦白来说的讲座。",
+      "translation": "坦白说，我不喜欢这部电影。",
       "sense": "坦白来说",
       "pos": "phrase",
       "level": "advanced",
-      "source": "专升本题型语境",
-      "contextKind": "exam-style",
-      "generatedBy": "exam-context-v6",
-      "templateFamily": "noun-phrase-exam"
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-008:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   },
@@ -57217,6 +57233,1128 @@ window.WORD_MEMORY_CONTEXTS = {
       "templateFamily": "individually-reviewed",
       "contextId": "cet-20260731-21-052:primary",
       "batch": "v70-b009"
+    },
+    "extra": []
+  },
+  "make a difference (to sth.)": {
+    "primary": {
+      "sentence": "Your help can make a big difference to the project.",
+      "target": "make a difference (to sth.)",
+      "translation": "你的帮助能对这个项目产生很大影响。",
+      "sense": "对……产生影响；有作用",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-006:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "put into (use)": {
+    "primary": {
+      "sentence": "We should put this new method into use.",
+      "target": "put into (use)",
+      "translation": "我们应该把这种新方法投入使用。",
+      "sense": "投入（使用）；放入",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "资料原例句",
+      "contextKind": "source-example",
+      "generatedBy": "source-import-v70-b011",
+      "templateFamily": "source-preserved",
+      "contextId": "phrase-practice-14-009:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "glove": {
+    "primary": {
+      "sentence": "The lab assistant put on a glove before handling the chemical sample.",
+      "target": "glove",
+      "translation": "实验室助理在处理化学样品前戴上了一只手套。",
+      "sense": "n. 手套；v. 给……戴手套",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-001:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "cafe": {
+    "primary": {
+      "sentence": "After the morning lecture, we reviewed vocabulary in a quiet cafe near campus.",
+      "target": "cafe",
+      "translation": "上午课程结束后，我们在校园附近一家安静的咖啡馆复习词汇。",
+      "sense": "n. 咖啡馆；小餐馆",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-005:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "monkey": {
+    "primary": {
+      "sentence": "The passage describes how a monkey learns to solve a simple problem.",
+      "target": "monkey",
+      "translation": "这篇文章描述了一只猴子如何学会解决一个简单问题。",
+      "sense": "n. 猴子；v. 胡闹",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-006:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "nobody": {
+    "primary": {
+      "sentence": "Nobody should be excluded from the group discussion because of a different opinion.",
+      "target": "nobody",
+      "translation": "任何人都不应因观点不同而被排除在小组讨论之外。",
+      "sense": "pron. 没有人；n. 无名小卒，小人物",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-007:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "kite": {
+    "primary": {
+      "sentence": "During the school festival, students designed a kite from recycled paper.",
+      "target": "kite",
+      "translation": "在校园节期间，学生们用再生纸设计了一只风筝。",
+      "sense": "n. 风筝；鸢；v. 骗取",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-008:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "on": {
+    "primary": {
+      "sentence": "The notice on the classroom door explains the new exam schedule.",
+      "target": "on",
+      "translation": "教室门上的通知说明了新的考试安排。",
+      "sense": "prep. 在……上；关于；通过；adv. 向前，开着",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-009:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "pardon": {
+    "primary": {
+      "sentence": "The speaker asked for pardon after giving the audience the wrong date.",
+      "target": "pardon",
+      "translation": "演讲者在向听众说错日期后请求原谅。",
+      "sense": "vt./n. 原谅；宽恕",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-010:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "passport": {
+    "primary": {
+      "sentence": "Students applying for the overseas program must submit a copy of their passport.",
+      "target": "passport",
+      "translation": "申请海外项目的学生必须提交护照复印件。",
+      "sense": "n. 护照；获得成功的手段",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-011:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "physics": {
+    "primary": {
+      "sentence": "Physics helps us understand how energy and motion work in daily life.",
+      "target": "physics",
+      "translation": "物理学帮助我们理解能量和运动在日常生活中的规律。",
+      "sense": "n. 物理学",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-012:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "should": {
+    "primary": {
+      "sentence": "College students should develop a habit of reviewing mistakes after each test.",
+      "target": "should",
+      "translation": "大学生应该养成每次考试后复盘错题的习惯。",
+      "sense": "modal v. 应该；应当；可能",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-013:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "possible": {
+    "primary": {
+      "sentence": "It is possible to improve reading speed through daily timed practice.",
+      "target": "possible",
+      "translation": "通过每天限时练习，提高阅读速度是可能的。",
+      "sense": "adj. 可能的；可行的；n. 可能的人或事",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-015:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "tail": {
+    "primary": {
+      "sentence": "The article explains how a bird uses its tail to control direction in flight.",
+      "target": "tail",
+      "translation": "文章解释了鸟类如何利用尾巴在飞行中控制方向。",
+      "sense": "n. 尾巴；末端；v. 跟踪",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-016:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "inherit": {
+    "primary": {
+      "sentence": "Young people inherit cultural traditions, but they also give them new meaning.",
+      "target": "inherit",
+      "translation": "年轻人继承文化传统，同时也赋予传统新的意义。",
+      "sense": "vt./vi. 继承；经遗传获得",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-017:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "silver": {
+    "primary": {
+      "sentence": "The museum displayed a silver coin from an ancient trade route.",
+      "target": "silver",
+      "translation": "博物馆展出了一枚来自古代贸易路线的银币。",
+      "sense": "n. 银；银器；银色；adj. 银色的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-018:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "dentist": {
+    "primary": {
+      "sentence": "The health report advises students to visit a dentist when tooth pain continues.",
+      "target": "dentist",
+      "translation": "健康报告建议牙痛持续时去看牙医。",
+      "sense": "n. 牙医",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-020:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "eat": {
+    "primary": {
+      "sentence": "Students who eat a balanced breakfast usually concentrate better in morning classes.",
+      "target": "eat",
+      "translation": "早餐营养均衡的学生通常在上午课堂上更专注。",
+      "sense": "vt./vi. 吃；用餐",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-024:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "each": {
+    "primary": {
+      "sentence": "Each member of the team was responsible for one section of the presentation.",
+      "target": "each",
+      "translation": "团队中的每位成员负责展示的一部分。",
+      "sense": "det./pron. 每个；各自；adv. 每个地",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-026:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "father": {
+    "primary": {
+      "sentence": "Her father encouraged her to apply for the technical training program.",
+      "target": "father",
+      "translation": "她的父亲鼓励她申请技术培训项目。",
+      "sense": "n. 父亲；祖先；创始人",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-027:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "fifty": {
+    "primary": {
+      "sentence": "Fifty volunteers took part in the campus environmental campaign.",
+      "target": "fifty",
+      "translation": "五十名志愿者参加了校园环保活动。",
+      "sense": "num. 五十；五十个",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-028:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "subjective": {
+    "primary": {
+      "sentence": "A good argument should be based on evidence rather than subjective feelings.",
+      "target": "subjective",
+      "translation": "好的论证应基于证据，而不是主观感受。",
+      "sense": "adj. 主观的；个人的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-031:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "another": {
+    "primary": {
+      "sentence": "After checking the first solution, the student tried another method.",
+      "target": "another",
+      "translation": "检查第一种解法后，这名学生又尝试了另一种方法。",
+      "sense": "det./pron. 另一个；又一个",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-032:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "undoubtedly": {
+    "primary": {
+      "sentence": "Digital technology has undoubtedly changed the way students obtain information.",
+      "target": "undoubtedly",
+      "translation": "数字技术无疑改变了学生获取信息的方式。",
+      "sense": "adv. 毫无疑问地；肯定地",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-034:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "chocolate": {
+    "primary": {
+      "sentence": "The survey found that many students chose chocolate as a quick source of energy.",
+      "target": "chocolate",
+      "translation": "调查发现，许多学生选择巧克力作为快速补充能量的食品。",
+      "sense": "n. 巧克力；巧克力糖；adj. 巧克力色的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-035:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "school": {
+    "primary": {
+      "sentence": "The school provides free online resources for students preparing for the entrance exam.",
+      "target": "school",
+      "translation": "学校为备考的学生提供免费的在线资源。",
+      "sense": "n. 学校；学派；v. 教育，训练",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-037:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "await": {
+    "primary": {
+      "sentence": "Several challenges await graduates who enter a rapidly changing job market.",
+      "target": "await",
+      "translation": "快速变化的就业市场中有多项挑战等待着毕业生。",
+      "sense": "vt. 等待；期待",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-038:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "five": {
+    "primary": {
+      "sentence": "The teacher gave us five minutes to read the passage before answering questions.",
+      "target": "five",
+      "translation": "老师给了我们五分钟阅读文章，然后再回答问题。",
+      "sense": "num. 五；五个",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-039:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "ever": {
+    "primary": {
+      "sentence": "Have you ever considered how small habits influence long-term success?",
+      "target": "ever",
+      "translation": "你是否曾思考过小习惯如何影响长期成功？",
+      "sense": "adv. 曾经；在任何时候；总是",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-040:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "search": {
+    "primary": {
+      "sentence": "Students can search the digital library for reliable academic sources.",
+      "target": "search",
+      "translation": "学生可以在数字图书馆中搜索可靠的学术资料。",
+      "sense": "v./n. 搜索；搜寻",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-041:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "beef": {
+    "primary": {
+      "sentence": "The nutrition lecture compared the protein content of beef, eggs, and beans.",
+      "target": "beef",
+      "translation": "营养讲座比较了牛肉、鸡蛋和豆类的蛋白质含量。",
+      "sense": "n. 牛肉；抱怨；v. 抱怨",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-043:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "candy": {
+    "primary": {
+      "sentence": "Eating too much candy may increase the risk of tooth decay.",
+      "target": "candy",
+      "translation": "吃太多糖果可能增加蛀牙风险。",
+      "sense": "n. 糖果；v. 用糖煮",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-045:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "celebrate": {
+    "primary": {
+      "sentence": "The university held an event to celebrate the achievements of student volunteers.",
+      "target": "celebrate",
+      "translation": "学校举行活动，庆祝学生志愿者取得的成果。",
+      "sense": "v. 庆祝；赞美",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-046:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "by": {
+    "primary": {
+      "sentence": "By comparing the two charts, we can see how employment patterns have changed.",
+      "target": "by",
+      "translation": "通过比较两张图表，我们可以看出就业模式的变化。",
+      "sense": "prep. 在……旁；由；通过；不迟于；adv. 经过",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-047:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "cheese": {
+    "primary": {
+      "sentence": "The reading passage explains how cheese is produced from milk.",
+      "target": "cheese",
+      "translation": "阅读文章解释了奶酪是如何由牛奶制成的。",
+      "sense": "n. 奶酪；干酪",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-048:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "underground": {
+    "primary": {
+      "sentence": "The city plans to expand its underground transport system to reduce traffic pressure.",
+      "target": "underground",
+      "translation": "该市计划扩建地下交通系统，以缓解交通压力。",
+      "sense": "adj./adv. 地下的；秘密的；n. 地铁；地下组织",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260801-27-049:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "remainder": {
+    "primary": {
+      "sentence": "Use the first ten minutes to outline your essay and the remainder to develop your ideas.",
+      "target": "remainder",
+      "translation": "用前十分钟列作文提纲，其余时间展开观点。",
+      "sense": "n. 剩余部分；剩余物；余数",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-005:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "inheritance": {
+    "primary": {
+      "sentence": "Cultural inheritance depends on both protection and creative development.",
+      "target": "inheritance",
+      "translation": "文化传承既依赖保护，也依赖创新发展。",
+      "sense": "n. 遗产；遗传特征；传承物",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-007:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "heritage": {
+    "primary": {
+      "sentence": "Local communities play an important role in preserving cultural heritage.",
+      "target": "heritage",
+      "translation": "当地社区在保护文化遗产方面发挥重要作用。",
+      "sense": "n. （国家或社会的）遗产；传统",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-008:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "canal": {
+    "primary": {
+      "sentence": "The ancient canal connected farming areas with major trading cities.",
+      "target": "canal",
+      "translation": "这条古运河连接了农业地区和主要贸易城市。",
+      "sense": "n. 运河；管道",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-012:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "privacy": {
+    "primary": {
+      "sentence": "Online learners should protect their privacy when using public networks.",
+      "target": "privacy",
+      "translation": "在线学习者使用公共网络时应保护个人隐私。",
+      "sense": "n. 隐私；独处；清静",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-014:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "privatize": {
+    "primary": {
+      "sentence": "The article discusses whether the government should privatize some public services.",
+      "target": "privatize",
+      "translation": "文章讨论政府是否应将部分公共服务私有化。",
+      "sense": "vt. 使私有化",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-015:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "privatization": {
+    "primary": {
+      "sentence": "The privatization of the company led to changes in management and employment.",
+      "target": "privatization",
+      "translation": "公司的私有化带来了管理和就业方面的变化。",
+      "sense": "n. 私有化；私营化",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-016:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "divisive": {
+    "primary": {
+      "sentence": "The proposal became divisive because it affected students in unequal ways.",
+      "target": "divisive",
+      "translation": "该提议因对学生产生不平等影响而引发分歧。",
+      "sense": "adj. 造成不和的；引起分歧的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-018:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "lodging": {
+    "primary": {
+      "sentence": "The university offers affordable lodging to students from rural areas.",
+      "target": "lodging",
+      "translation": "学校为来自农村地区的学生提供价格合理的住宿。",
+      "sense": "n. 寄宿处；租住的房间",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-023:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "individualism": {
+    "primary": {
+      "sentence": "Excessive individualism may weaken cooperation within a team.",
+      "target": "individualism",
+      "translation": "过度的个人主义可能削弱团队合作。",
+      "sense": "n. 个人主义",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-025:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "division": {
+    "primary": {
+      "sentence": "Clear division of tasks helped the group finish the project on time.",
+      "target": "division",
+      "translation": "明确的任务分工帮助小组按时完成项目。",
+      "sense": "n. 分开；分配；分歧；除法；部门",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-027:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "damp": {
+    "primary": {
+      "sentence": "The books were moved away from the damp wall to prevent further damage.",
+      "target": "damp",
+      "translation": "这些书被移离潮湿的墙面，以防止进一步损坏。",
+      "sense": "adj. 潮湿的；n. 潮湿；湿气；vt. 使潮湿；抑制",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-028:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "dampen": {
+    "primary": {
+      "sentence": "One poor result should not dampen your confidence before the final exam.",
+      "target": "dampen",
+      "translation": "一次不理想的成绩不应削弱你参加期末考试的信心。",
+      "sense": "vt. 减弱；抑制；弄湿",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-029:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "damage": {
+    "primary": {
+      "sentence": "Air pollution can damage both public health and the local economy.",
+      "target": "damage",
+      "translation": "空气污染会损害公众健康和当地经济。",
+      "sense": "n. 损害；损坏；损害赔偿金；vt. 损害；伤害",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-030:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "cottage": {
+    "primary": {
+      "sentence": "The writer spent the summer in a small cottage while completing her research.",
+      "target": "cottage",
+      "translation": "这位作家在完成研究期间，夏天住在一间小村舍里。",
+      "sense": "n. 乡间小屋；村舍",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-031:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "lodge": {
+    "primary": {
+      "sentence": "Applicants must lodge a formal complaint within ten working days.",
+      "target": "lodge",
+      "translation": "申请人必须在十个工作日内正式提出投诉。",
+      "sense": "n. 乡间小屋；门房；传达室；vi. 住宿；投宿；vt. 提供住宿；正式提出",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-032:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "moisture": {
+    "primary": {
+      "sentence": "The experiment measured the amount of moisture in different soil samples.",
+      "target": "moisture",
+      "translation": "实验测量了不同土壤样本中的水分含量。",
+      "sense": "n. 潮气；湿气；水分",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-033:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "render": {
+    "primary": {
+      "sentence": "Online translation tools cannot always render cultural expressions accurately.",
+      "target": "render",
+      "translation": "在线翻译工具并不总能准确表达文化用语。",
+      "sense": "vt. 使变得；给予；提供；表达；翻译",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-034:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "rendering": {
+    "primary": {
+      "sentence": "Her rendering of the poem preserved both its rhythm and emotional force.",
+      "target": "rendering",
+      "translation": "她对这首诗的演绎保留了节奏和情感力量。",
+      "sense": "n. 演绎；演奏；翻译；描述",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-035:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "chill": {
+    "primary": {
+      "sentence": "A sudden chill reminded the hikers that the weather could change quickly.",
+      "target": "chill",
+      "translation": "突如其来的寒意提醒徒步者天气可能迅速变化。",
+      "sense": "n. 寒冷；寒意；vt. 使寒冷；使恐惧；vi. 冷却；放松；adj. 寒冷的；冷淡的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-036:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "chilly": {
+    "primary": {
+      "sentence": "It was chilly outside, but the volunteers continued planting trees.",
+      "target": "chilly",
+      "translation": "室外天气寒冷，但志愿者仍继续植树。",
+      "sense": "adj. 寒冷的；冷淡的；不友好的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-037:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "humble": {
+    "primary": {
+      "sentence": "Despite winning the competition, she remained humble and thanked her teammates.",
+      "target": "humble",
+      "translation": "尽管赢得比赛，她仍保持谦逊并感谢队友。",
+      "sense": "adj. 谦逊的；卑微的；不起眼的；vt. 使感到卑微",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-038:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "humbly": {
+    "primary": {
+      "sentence": "The student humbly accepted the teacher's correction and revised the report.",
+      "target": "humbly",
+      "translation": "这名学生谦逊地接受老师的指正并修改了报告。",
+      "sense": "adv. 谦逊地；谦恭地",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-039:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "humor": {
+    "primary": {
+      "sentence": "A little humor can make a formal presentation easier to follow.",
+      "target": "humor",
+      "translation": "适度的幽默能让正式展示更容易理解。",
+      "sense": "n. 幽默；心情；情绪；vt. 迎合；迁就",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-040:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "moist": {
+    "primary": {
+      "sentence": "Seeds grow best when the soil is warm and moist.",
+      "target": "moist",
+      "translation": "种子在温暖湿润的土壤中生长得最好。",
+      "sense": "adj. 湿润的；潮湿的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-042:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "concrete": {
+    "primary": {
+      "sentence": "The essay needs concrete examples to support its main argument.",
+      "target": "concrete",
+      "translation": "这篇作文需要具体例子来支撑主要观点。",
+      "sense": "adj. 确实的；具体的；混凝土制的；n. 混凝土",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-044:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "clay": {
+    "primary": {
+      "sentence": "Archaeologists found clay objects that revealed how people once lived.",
+      "target": "clay",
+      "translation": "考古学家发现了黏土制品，揭示了过去人们的生活方式。",
+      "sense": "n. 黏土；陶土",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-045:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "humanity": {
+    "primary": {
+      "sentence": "Scientific progress should serve humanity rather than create new inequality.",
+      "target": "humanity",
+      "translation": "科学进步应服务于人类，而不是制造新的不平等。",
+      "sense": "n. 人类；人性；人道；人文学科",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-047:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "creation": {
+    "primary": {
+      "sentence": "The creation of a shared database improved cooperation among the research teams.",
+      "target": "creation",
+      "translation": "共享数据库的建立改善了研究团队之间的合作。",
+      "sense": "n. 创造；创立；创造物；创世",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-050:primary",
+      "batch": "v70-b011"
+    },
+    "extra": []
+  },
+  "creator": {
+    "primary": {
+      "sentence": "The creator of the learning app collected feedback before updating it.",
+      "target": "creator",
+      "translation": "这款学习应用的创建者在更新前收集了用户反馈。",
+      "sense": "n. 创造者；创作者；造物主",
+      "pos": "other",
+      "level": "advanced",
+      "source": "专升本题型语境",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b011",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260801-22-052:primary",
+      "batch": "v70-b011"
     },
     "extra": []
   }

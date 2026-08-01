@@ -188,13 +188,17 @@ const PUBLIC_VIEWER_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("public") || 
 const EDITOR_VIEW_SLUG = normalizeCloudSlug(CLOUD_URL_PARAMS.get("edit") || "");
 let suppressCloudSync = false;
 let cloudSyncTimer = null;
+let wordSaveTimer = null;
+let pendingWordSave = false;
+let pendingWordSaveSkipCloud = true;
+let backgroundRenderHandle = null;
 let lastSpeechKey = "";
 let lastSpeechAt = 0;
 let activeAudioElement = null;
 const CLOUD_STUDY_TIME_META_ID = "__word_memory_study_time_meta__";
 const CLOUD_COMPACT_PAYLOAD_ID = "__word_memory_compact_payload__";
 
-const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation-repair-20260730:b008";
+const BUILTIN_PACKAGE_KEY = "word-memory-trainer:dictation-repair-20260730:b008:v70-b012-buffer-enter-20260801";
 const FORCE_SEPARATE_BUILTIN_ID_PREFIXES = ["dictation-1-", "dictation-2-", "dictation-3-", "dictation-4-"]; // 四次听写均保留独立词条与独立学习进度，不受其他词库中同词状态影响。
 
 const BUILTIN_GROUP_ALIASES = {
@@ -213,6 +217,9 @@ const BUILTIN_ID_ALIASES = (window.WORD_MEMORY_ID_ALIASES && typeof window.WORD_
 let shouldPersistBuiltinWords = false;
 
 const els = {
+  mobileFocusEntry: document.querySelector("#mobileFocusEntry"),
+  mobileFocusEntryHint: document.querySelector("#mobileFocusEntryHint"),
+  mobileFocusMode: document.querySelector("#mobileFocusMode"),
   totalCount: document.querySelector("#totalCount"),
   totalStudyTime: document.querySelector("#totalStudyTime"),
   todayStudyTime: document.querySelector("#todayStudyTime"),
@@ -1180,7 +1187,7 @@ function cloneBuiltinWords() {
 
 function createEmptyProgress(source = {}) {
   const stage = Number.isInteger(source.stage) ? source.stage : -1;
-  const history = Array.isArray(source.history) ? source.history : [];
+  const history = Array.isArray(source.history) ? [...source.history] : [];
   return {
     status: source.status || "new",
     stage,
@@ -1272,6 +1279,7 @@ function mergeProgressRecord(target = {}, incoming = {}) {
   return { status: chosen.status || "new", stage: Number.isInteger(chosen.stage) ? chosen.stage : -1, nextReviewAt: chosen.nextReviewAt || "", lastStudiedAt: chosen.lastStudiedAt || "", history: compactHistory };
 }
 function mergeRuntimeWord(target, incoming) {
+  target.phonetic = normalizeText(target.phonetic) || normalizeText(incoming.phonetic) || normalizeText(incoming.ipa) || normalizeText(incoming.pronunciation);
   target.meaning = mergeStudyText(target.meaning, incoming.meaning);
   target.phrase = mergeStudyText(target.phrase, incoming.phrase);
   target.note = mergeStudyText(target.note, incoming.note);
@@ -1339,6 +1347,7 @@ function applyBuiltinWords(words) {
         existing.sources = [...(builtin.sources || ["听写内容"])];
         existing.source = builtin.source || "听写内容";
       } else {
+        existing.phonetic = normalizeText(existing.phonetic) || normalizeText(builtin.phonetic) || normalizeText(builtin.ipa) || normalizeText(builtin.pronunciation);
         existing.meaning = mergeStudyText(existing.meaning, builtin.meaning);
         existing.phrase = mergeStudyText(existing.phrase, builtin.phrase);
         existing.note = mergeStudyText(existing.note, builtin.note);
@@ -1773,6 +1782,7 @@ function normalizeWord(word) {
     meaning: word.meaning || "",
     phrase: word.phrase || "",
     note: word.note || "",
+    phonetic: word.phonetic || word.ipa || word.pronunciation || "",
     tag: word.tag || "",
     groups,
     source: sources[0],
@@ -1817,7 +1827,7 @@ function writeCompactStorage(payload) {
   }
 }
 
-function saveWords(options = {}) {
+function commitWordsSave(options = {}) {
   if (PUBLIC_VIEWER_SLUG) return true;
 
   saveDailyCompletedStore();
@@ -1840,8 +1850,7 @@ function saveWords(options = {}) {
     }
   }
 
-  // Main fix for iPhone Safari: every save is also written to IndexedDB.
-  // IndexedDB has a much larger quota and keeps a previous snapshot for rollback.
+  // IndexedDB 和云同步改为合并缓冲：连续操作只保存最后一份完整快照，避免每按一次都排队写入。
   queueMobileDatabaseWrite(payload, { notifyOnSuccess: !localSaved });
   if (!options.skipCloud) autoSaveCloudSoon();
 
@@ -1849,6 +1858,31 @@ function saveWords(options = {}) {
     showToast("手机存档保存失败，请立即导出备份");
     return false;
   }
+  return true;
+}
+
+function flushBufferedWordSave(options = {}) {
+  if (wordSaveTimer) {
+    window.clearTimeout(wordSaveTimer);
+    wordSaveTimer = null;
+  }
+  const shouldSave = pendingWordSave || options.force || options.immediate;
+  const skipCloud = pendingWordSaveSkipCloud && options.skipCloud !== false;
+  pendingWordSave = false;
+  pendingWordSaveSkipCloud = true;
+  return shouldSave ? commitWordsSave({ ...options, skipCloud }) : true;
+}
+
+function saveWords(options = {}) {
+  if (PUBLIC_VIEWER_SLUG) return true;
+  pendingWordSave = true;
+  // 只要这一批里有一次普通保存，就不能跳过云同步。
+  pendingWordSaveSkipCloud = pendingWordSaveSkipCloud && Boolean(options.skipCloud);
+  if (options.immediate) {
+    return flushBufferedWordSave({ ...options, force: true });
+  }
+  if (wordSaveTimer) window.clearTimeout(wordSaveTimer);
+  wordSaveTimer = window.setTimeout(() => flushBufferedWordSave(), 260);
   return true;
 }
 
@@ -2216,7 +2250,7 @@ async function pullAndMergeCloudBeforeSave(config) {
     });
     mergeCloudDataIntoLocal(data);
     suppressCloudSync = true;
-    saveWords({ skipCloud: true });
+    saveWords({ skipCloud: true, immediate: true });
     suppressCloudSync = false;
     return true;
   } catch (error) {
@@ -2236,7 +2270,7 @@ function saveLocalCloudSettingsOnly(config, options = {}) {
   tickStudyTime(true);
   state.cloud.config = { ...state.cloud.config, ...config, autoSync: false };
   saveCloudConfig(state.cloud.config);
-  saveWords({ skipCloud: true });
+  saveWords({ skipCloud: true, immediate: true });
   saveStudyTime();
   if (!options.silent) {
     setCloudStatus("已保存到本机。没有上传到云端。", "ok");
@@ -2315,7 +2349,7 @@ async function loadCloudToLocal(options = {}) {
     mergeCloudDataIntoLocal(data);
     suppressCloudSync = true;
     if (!publicView) {
-      saveWords({ skipCloud: true });
+      saveWords({ skipCloud: true, immediate: true });
       state.cloud.config = {
         ...state.cloud.config,
         slug,
@@ -3514,6 +3548,72 @@ function sprintQueue(words = state.words.filter(wordMatchesActiveGroup)) {
   });
 }
 
+function mobileFocusQueue() {
+  const queue = getQueue();
+  if (queue.length) return queue;
+  return sprintQueue(practiceEligibleWords(state.words.filter(wordMatchesActiveGroup)));
+}
+
+function mobileFocusView(word) {
+  const view = practiceView(word);
+  return {
+    term: word.term,
+    phonetic: extractWordPhonetic(word),
+    answer: view.answer,
+    example: view.extra || word.phrase,
+  };
+}
+
+let mobileFocusController = null;
+
+function initializeMobileFocus() {
+  if (
+    mobileFocusController
+    || !els.mobileFocusEntry
+    || !els.mobileFocusMode
+    || typeof window.MobileFocus?.createController !== "function"
+  ) return;
+
+  const root = els.mobileFocusMode;
+  mobileFocusController = window.MobileFocus.createController({
+    elements: {
+      entry: els.mobileFocusEntry,
+      root,
+      exit: root.querySelector("#mobileFocusExit"),
+      card: root.querySelector("#mobileFocusCard"),
+      audio: root.querySelector("#mobileFocusAudio"),
+      ratingButtons: Array.from(root.querySelectorAll("[data-mobile-focus-rate]")),
+      count: root.querySelector("#mobileFocusCount"),
+      progress: root.querySelector("#mobileFocusProgress"),
+      progressFill: root.querySelector("#mobileFocusProgressFill"),
+      term: root.querySelector("#mobileFocusTerm"),
+      phonetic: root.querySelector("#mobileFocusPhonetic"),
+      answer: root.querySelector("#mobileFocusAnswer"),
+      meaning: root.querySelector("#mobileFocusMeaning"),
+      detail: root.querySelector("#mobileFocusDetail"),
+      source: root.querySelector("#mobileFocusSource"),
+      title: root.querySelector("#mobileFocusTitle"),
+      empty: root.querySelector("#mobileFocusEmpty"),
+      actions: root.querySelector(".mobile-focus-actions"),
+    },
+    queue: mobileFocusQueue,
+    getWord: (id) => state.words.find((word) => word.id === id),
+    view: mobileFocusView,
+    renderAnswer: (view, answerElements) => {
+      if (answerElements.meaning) answerElements.meaning.textContent = view.answer || "未填释义";
+      if (answerElements.detail) answerElements.detail.textContent = view.example || "";
+    },
+    speak: (word) => speakTerm(word.term, { accent: "us" }),
+    rate: (id, result) => {
+      if (state.practiceMode !== "card") switchPracticeMode("card");
+      setActiveId(id);
+      handleCardAction(result);
+    },
+    source: () => state.activeGroup === "all" ? "全部词库" : state.activeGroup,
+    title: () => "手机背词",
+  });
+}
+
 function stableRandomRank(word) {
   const seed = `${todayKey()}-${word.id || word.term}`;
   let hash = 0;
@@ -3596,6 +3696,61 @@ function render() {
   renderTimeline();
   renderGroupProgress();
   renderWordList();
+}
+
+function cancelBackgroundRender() {
+  if (backgroundRenderHandle == null) return;
+  if (typeof window.cancelIdleCallback === "function") window.cancelIdleCallback(backgroundRenderHandle);
+  else window.clearTimeout(backgroundRenderHandle);
+  backgroundRenderHandle = null;
+}
+
+function scheduleBackgroundRender() {
+  cancelBackgroundRender();
+  const run = () => {
+    backgroundRenderHandle = null;
+    renderStats();
+    renderDashboard();
+    renderDailyReport();
+    renderClock();
+    renderSprintStatus();
+    renderTimeline();
+    renderGroupProgress();
+    renderWordList();
+  };
+  // 等用户停顿后再刷新统计和长列表；连续按键时会反复取消，不抢当前卡片响应。
+  backgroundRenderHandle = window.setTimeout(() => {
+    backgroundRenderHandle = null;
+    if (typeof window.requestIdleCallback === "function") {
+      backgroundRenderHandle = window.requestIdleCallback(run, { timeout: 900 });
+    } else {
+      run();
+    }
+  }, 520);
+}
+
+function renderStudyTransition() {
+  chooseActiveWord();
+  renderActiveCard();
+  renderModeButtons();
+  renderPracticeButtons();
+  renderDictationTools();
+  scheduleBackgroundRender();
+}
+
+function focusTypingInputSoon() {
+  window.requestAnimationFrame(() => {
+    const input = els.activeCard?.querySelector?.("[data-spell-input], [data-form-input]");
+    if (input && document.contains(input)) {
+      try {
+        input.focus({ preventScroll: true });
+        const length = input.value?.length || 0;
+        input.setSelectionRange?.(length, length);
+      } catch {
+        input.focus?.();
+      }
+    }
+  });
 }
 
 function isPhraseWord(word) {
@@ -3811,6 +3966,12 @@ function renderDashboard() {
   els.estimateMinutes.textContent = estimate;
   els.todayNewHint.textContent = newCount ? `还剩 ${newCount} 个新词，建议今天先拿下 ${newTarget} 个` : "新词清空了，今天专心复习";
   els.todayReviewHint.textContent = reviewTarget ? `现在到期 ${dueNow} 个，今日已排 ${todayReview} 个` : "暂无到期复习，等系统提醒";
+  if (els.mobileFocusEntryHint) {
+    const focusCount = mobileFocusQueue().length;
+    els.mobileFocusEntryHint.textContent = focusCount
+      ? `当前可背 ${focusCount} 词，一屏一词，滑动切换`
+      : "当前分组暂无待背词，进入后可查看完成状态";
+  }
 }
 
 function progressRootName(groupName = "") {
@@ -4177,12 +4338,12 @@ function renderSpellingBox(word) {
   const value = escapeHTML(state.spellingDraft);
   const feedback = result ? `
     <div class="spell-feedback ${result.correct ? "is-correct" : "is-wrong"}">
-      ${result.correct ? "拼对了" : `差一点，正确答案：${escapeHTML(word.term)}`}
+      ${result.correct ? "拼对了，再按一次 Enter 直接记住" : `拼错了，正确答案：${escapeHTML(word.term)}；再按一次 Enter 记为忘了`}
     </div>` : "";
   const isDictationMode = ["dictation", "dictationWeak"].includes(state.practiceMode);
   const hint = isDictationMode
     ? "听不清可以点“播放读音”，不会就点显示答案。"
-    : "大小写不影响判断，短语里的空格也会自动整理。";
+    : "第一次 Enter 检查；拼对后再按 Enter 直接记住，拼错后再按 Enter 记为忘了。";
   return `
     <div class="spell-box">
       <label>
@@ -4533,8 +4694,8 @@ function extractWordPhonetic(word) {
     .map((value) => String(value));
   for (const value of candidates) {
     const match = value.match(/\/[A-Za-zɑɒæʌɔəɜː:ɪiʊuɛeɡθðʃʒŋˈˌ\'`\.\-\s\(\)r]+\//);
-    if (match && match[0].length >= 4 && match[0].length <= 48) {
-      return match[0].replace(/\s+/g, "");
+    if (match && match[0].length >= 4 && match[0].length <= 180) {
+      return match[0].replace(/\s+/g, " ").trim();
     }
   }
   return "";
@@ -4641,6 +4802,7 @@ function renderActiveCard() {
       ${previousHint}
       <p class="quiz-prompt">${escapeHTML(view.prompt)}</p>
       <h3 class="${state.practiceMode === "card" || state.practiceMode === "enToZh" ? "word-term" : "quiz-target"}">${escapeHTML(view.target)}</h3>
+      <p class="word-phonetic-line">${phonetic ? escapeHTML(phonetic) : "点击美音或英音听读"}</p>
       ${contextCard}
       ${quickActions}
       ${spellingBox}
@@ -5101,8 +5263,10 @@ function handleCardAction(action) {
     }
     word.updatedAt = completedAt;
     saveWords();
-    render();
-    showToast(correct ? "拼对了" : "已标为重点，等会儿再听写");
+    renderActiveCard();
+    focusTypingInputSoon();
+    scheduleBackgroundRender();
+    showToast(correct ? "拼对了，再按 Enter 直接记住" : "拼错了，再按 Enter 记为忘了");
     return;
   }
   if (action === "check-forms") {
@@ -5120,8 +5284,10 @@ function handleCardAction(action) {
     }
     word.updatedAt = completedAt;
     saveWords();
-    render();
-    showToast(correct ? "变形拼对了" : "变形有错，已放进重点复盘");
+    renderActiveCard();
+    focusTypingInputSoon();
+    scheduleBackgroundRender();
+    showToast(correct ? "变形拼对了，再按 Enter 直接记住" : "变形有错，再按 Enter 记为忘了");
     return;
   }
   if (action === "clear-spelling") {
@@ -5154,7 +5320,8 @@ function handleCardAction(action) {
     state.answerVisible = false;
     resetTypingState();
     chooseActiveWord(true);
-    render();
+    renderStudyTransition();
+    focusTypingInputSoon();
   }
 }
 
@@ -5372,7 +5539,7 @@ async function importWords(event) {
       saveContextStudyStore();
     }
     syncTodayCompletedFromHistories();
-    saveWords();
+    saveWords({ immediate: true });
     setActiveId(null);
     render();
     showToast(`备份恢复完成：恢复进度 ${restored} 条，新增 ${added} 条；听写内容不会重置`);
@@ -5578,11 +5745,19 @@ function wireEvents() {
   els.activeCard.addEventListener("keydown", (event) => {
     if (event.target.matches("[data-spell-input]") && event.key === "Enter") {
       event.preventDefault();
-      handleCardAction("check-spelling");
+      if (state.spellingResult) {
+        handleCardAction(state.spellingResult.correct ? "remember" : "forgot");
+      } else {
+        handleCardAction("check-spelling");
+      }
     }
     if (event.target.matches("[data-form-input]") && event.key === "Enter") {
       event.preventDefault();
-      handleCardAction("check-forms");
+      if (state.formResult) {
+        handleCardAction(state.formResult.correct ? "remember" : "forgot");
+      } else {
+        handleCardAction("check-forms");
+      }
     }
   });
   els.wordList.addEventListener("click", (event) => {
@@ -5777,6 +5952,7 @@ state.practiceMode = "card";
 ensurePracticeSession("card");
 
 wireEvents();
+initializeMobileFocus();
 registerServiceWorker();
 installStudyTimeTracker();
 render();
@@ -5784,19 +5960,24 @@ hydrateWordsFromMobileDatabase();
 initializeCloudFromUrl();
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "hidden" && mobileDbHydrated) {
-    saveWords({ skipCloud: true });
+    saveWords({ skipCloud: true, immediate: true });
   }
 });
 window.addEventListener("pagehide", () => {
-  if (mobileDbHydrated) saveWords({ skipCloud: true });
+  if (mobileDbHydrated) saveWords({ skipCloud: true, immediate: true });
 });
+window.addEventListener("beforeunload", () => {
+  if (mobileDbHydrated) flushBufferedWordSave({ skipCloud: true, force: true });
+});
+let periodicHeavyRefreshTicks = 0;
 setInterval(() => {
   tickStudyTime();
   renderClock();
-  renderStats();
-  renderDashboard();
-  renderTimeline();
-  renderGroupProgress();
   renderSprintStatus();
-  renderDailyReport();
+  periodicHeavyRefreshTicks += 1;
+  // 长列表和分组统计不再每30秒强制重绘；每2分钟在空闲时刷新一次。
+  if (periodicHeavyRefreshTicks >= 4) {
+    periodicHeavyRefreshTicks = 0;
+    scheduleBackgroundRender();
+  }
 }, 30 * 1000);

@@ -1,4 +1,4 @@
-// v70 B009 2026-07-31：新增短语练习13、蓝色森林26、四级21；沿用B008第四次听写独立进度修复。
+// v70 B011 2026-08-01：新增短语练习14、蓝色森林27、四级22；全词库保留音标并沿用B010全部功能。
 window.WORD_MEMORY_WORDS = [
   {
     "id": "word-list-1-001",
@@ -20,7 +20,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʃˈɑp/"
   },
   {
     "id": "word-list-1-002",
@@ -42,7 +43,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɡˈoʊ ʃˈɑpɪŋ/"
   },
   {
     "id": "word-list-1-003",
@@ -64,7 +66,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈɔr/"
   },
   {
     "id": "word-list-1-004",
@@ -86,7 +89,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kʌnvˈinjʌns stˈɔr/"
   },
   {
     "id": "word-list-1-005",
@@ -108,7 +112,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/rɪstˈɔr/"
   },
   {
     "id": "word-list-1-006",
@@ -130,7 +135,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/klˈɝk/"
   },
   {
     "id": "word-list-1-007",
@@ -154,7 +160,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈɪznʌs/"
   },
   {
     "id": "word-list-1-008",
@@ -176,7 +183,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɑn bˈɪznʌs/"
   },
   {
     "id": "word-list-1-009",
@@ -198,7 +206,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈʌn əv jˈɔr bˈɪznʌs/"
   },
   {
     "id": "word-list-1-010",
@@ -220,7 +229,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈi bˈɪznʌs/"
   },
   {
     "id": "word-list-1-011",
@@ -242,7 +252,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈɑk/"
   },
   {
     "id": "word-list-1-012",
@@ -264,7 +275,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪn stˈɑk/"
   },
   {
     "id": "word-list-1-013",
@@ -286,7 +298,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈaʊt əv stˈɑk/"
   },
   {
     "id": "word-list-1-014",
@@ -311,7 +324,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prˈaɪs/"
   },
   {
     "id": "word-list-1-015",
@@ -333,7 +347,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæt ˈɛni prˈaɪs/"
   },
   {
     "id": "word-list-1-016",
@@ -355,7 +370,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/prˈaɪs lˈɪst/"
   },
   {
     "id": "word-list-1-017",
@@ -377,7 +393,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/prˈaɪslʌs/"
   },
   {
     "id": "word-list-1-018",
@@ -401,7 +418,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/dɪskˈaʊnt/"
   },
   {
     "id": "word-list-1-019",
@@ -423,7 +441,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/dˈɑlɝ/"
   },
   {
     "id": "word-list-1-020",
@@ -445,7 +464,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/krˈɛdʌt/"
   },
   {
     "id": "word-list-1-021",
@@ -467,7 +487,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/krˈɛdʌt kˈɑrd/"
   },
   {
     "id": "word-list-1-022",
@@ -489,7 +510,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tə wʌnz krˈɛdʌt/"
   },
   {
     "id": "word-list-1-023",
@@ -516,7 +538,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈæʃ/"
   },
   {
     "id": "word-list-1-024",
@@ -538,7 +561,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪn kˈæʃ/"
   },
   {
     "id": "word-list-1-025",
@@ -560,7 +584,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tʃˈɛk/"
   },
   {
     "id": "word-list-1-026",
@@ -584,7 +609,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɔnlˌaɪn/"
   },
   {
     "id": "word-list-1-027",
@@ -606,7 +632,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɔnlˌaɪn ʃˈɑpɪŋ/"
   },
   {
     "id": "word-list-1-028",
@@ -628,7 +655,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɔnlˌaɪn pˈeɪɪŋ/"
   },
   {
     "id": "word-list-1-029",
@@ -650,7 +678,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɔflˌaɪn/"
   },
   {
     "id": "word-list-1-030",
@@ -672,7 +701,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈaɪ/"
   },
   {
     "id": "word-list-1-031",
@@ -694,7 +724,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈɛl/"
   },
   {
     "id": "word-list-1-032",
@@ -716,7 +747,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈeɪl/"
   },
   {
     "id": "word-list-1-033",
@@ -738,7 +770,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈɔr sˈeɪl/"
   },
   {
     "id": "word-list-1-034",
@@ -760,7 +793,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɑn sˈeɪl/"
   },
   {
     "id": "word-list-1-035",
@@ -782,7 +816,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈeɪlzmʌn/"
   },
   {
     "id": "word-list-1-036",
@@ -806,7 +841,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kʌnsˈum/"
   },
   {
     "id": "word-list-1-037",
@@ -828,7 +864,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kʌnsˈumɝ/"
   },
   {
     "id": "word-list-1-038",
@@ -852,7 +889,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kʌnsˈʌmpʃʌn/"
   },
   {
     "id": "word-list-1-039",
@@ -874,7 +912,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/pˈɝtʃʌs/"
   },
   {
     "id": "word-list-1-040",
@@ -898,7 +937,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/trʌdˈɪʃʌn/"
   },
   {
     "id": "word-list-1-041",
@@ -920,7 +960,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/trʌdˈɪʃʌnʌl/"
   },
   {
     "id": "word-list-1-042",
@@ -944,7 +985,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈʌstʌm/"
   },
   {
     "id": "word-list-1-043",
@@ -966,7 +1008,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈʌstʌmɝ/"
   },
   {
     "id": "word-list-1-044",
@@ -988,7 +1031,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kɑstˈum/"
   },
   {
     "id": "word-list-1-045",
@@ -1010,7 +1054,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈɑrɡʌn/"
   },
   {
     "id": "word-list-1-046",
@@ -1032,7 +1077,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tʃˈip/"
   },
   {
     "id": "word-list-1-047",
@@ -1056,7 +1102,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪkspˈɛnd/"
   },
   {
     "id": "word-list-1-048",
@@ -1080,7 +1127,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪkspˈɛns/"
   },
   {
     "id": "word-list-1-049",
@@ -1102,7 +1150,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæt ðə ɪkspˈɛns əv/"
   },
   {
     "id": "word-list-1-050",
@@ -1126,7 +1175,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪkspˈɛnsɪv/"
   },
   {
     "id": "word-list-1-051",
@@ -1150,7 +1200,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪkspˈɛndʌtʃɝ/"
   },
   {
     "id": "word-list-1-052",
@@ -1172,7 +1223,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/dɪspˈɛnsʌbʌl/"
   },
   {
     "id": "word-list-1-053",
@@ -1194,7 +1246,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˌɪndɪspˈɛnsʌbʌl/"
   },
   {
     "id": "word-list-1-054",
@@ -1219,7 +1272,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/spˈɛnd/"
   },
   {
     "id": "word-list-1-055",
@@ -1241,7 +1295,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/spˈɛnd ɑn/"
   },
   {
     "id": "word-list-1-056",
@@ -1263,7 +1318,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/spˈɛnd ɪn ˈduɪŋ/"
   },
   {
     "id": "word-list-1-057",
@@ -1292,7 +1348,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑst/"
   },
   {
     "id": "word-list-1-058",
@@ -1314,7 +1371,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæt ˈɔl kˈɑsts/"
   },
   {
     "id": "word-list-1-059",
@@ -1336,7 +1394,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæt ðə kˈɑst əv/"
   },
   {
     "id": "word-list-1-060",
@@ -1360,7 +1419,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈɑstli/"
   },
   {
     "id": "word-list-1-061",
@@ -1385,7 +1445,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈeɪk/"
   },
   {
     "id": "word-list-1-062",
@@ -1407,7 +1468,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɪt tˈeɪks / tˈʊk tˈaɪm tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "word-list-2-001",
@@ -1429,7 +1491,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈoʊ/"
   },
   {
     "id": "word-list-2-002",
@@ -1451,7 +1514,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæz fˈɑr ˈæz ˈaɪ nˈoʊ/"
   },
   {
     "id": "word-list-2-003",
@@ -1473,7 +1537,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʌnnˈoʊn/"
   },
   {
     "id": "word-list-2-004",
@@ -1497,7 +1562,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈi/"
   },
   {
     "id": "word-list-2-005",
@@ -1519,7 +1585,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈi ˌsʌmbədi ˈɔf/"
   },
   {
     "id": "word-list-2-006",
@@ -1541,7 +1608,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈil/"
   },
   {
     "id": "word-list-2-007",
@@ -1563,7 +1631,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈil ˈæt hˈoʊm/"
   },
   {
     "id": "word-list-2-008",
@@ -1585,7 +1654,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈil frˈi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "word-list-2-009",
@@ -1607,7 +1677,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈilɪŋ/"
   },
   {
     "id": "word-list-2-010",
@@ -1621,15 +1692,18 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-08T10:44:42",
-    "updatedAt": "2026-06-08T10:44:42",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 2"
+      "Word List 2",
+      "蓝色森林 27"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/smˈɛl/"
   },
   {
     "id": "word-list-2-011",
@@ -1651,7 +1725,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈeɪst/"
   },
   {
     "id": "word-list-2-012",
@@ -1673,7 +1748,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈaʊnd/"
   },
   {
     "id": "word-list-2-013",
@@ -1697,7 +1773,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈɪsʌn/"
   },
   {
     "id": "word-list-2-014",
@@ -1719,7 +1796,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈɪsʌn tə/"
   },
   {
     "id": "word-list-2-015",
@@ -1743,7 +1821,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/hˈir/"
   },
   {
     "id": "word-list-2-016",
@@ -1768,7 +1847,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/vˈɔɪs/"
   },
   {
     "id": "word-list-2-017",
@@ -1790,7 +1870,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/spˈik/"
   },
   {
     "id": "word-list-2-018",
@@ -1814,7 +1895,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʌlˈaʊd/"
   },
   {
     "id": "word-list-2-019",
@@ -1836,7 +1918,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈaʊdli/"
   },
   {
     "id": "word-list-2-020",
@@ -1850,15 +1933,18 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-08T10:44:42",
-    "updatedAt": "2026-06-08T10:44:42",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 2"
+      "Word List 2",
+      "蓝色森林 27"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/spˈitʃ/"
   },
   {
     "id": "word-list-2-021",
@@ -1880,7 +1966,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈɛktʃɝ/"
   },
   {
     "id": "word-list-2-022",
@@ -1902,7 +1989,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɡˈɪv ə lˈɛktʃɝ/"
   },
   {
     "id": "word-list-2-023",
@@ -1927,7 +2015,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈɔk/"
   },
   {
     "id": "word-list-2-024",
@@ -1949,7 +2038,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈɛl/"
   },
   {
     "id": "word-list-2-025",
@@ -1971,7 +2061,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈɛl ʌpˈɑrt/"
   },
   {
     "id": "word-list-2-026",
@@ -1996,7 +2087,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ritˈɛl/"
   },
   {
     "id": "word-list-2-027",
@@ -2018,7 +2110,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈɔri/"
   },
   {
     "id": "word-list-2-028",
@@ -2040,7 +2133,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈɛl ə stˈɔri/"
   },
   {
     "id": "word-list-2-029",
@@ -2062,7 +2156,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/rˈɛd/"
   },
   {
     "id": "word-list-2-030",
@@ -2084,7 +2179,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/rˈidɝ/"
   },
   {
     "id": "word-list-2-031",
@@ -2106,7 +2202,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈeɪ/"
   },
   {
     "id": "word-list-2-032",
@@ -2128,7 +2225,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɑrtʌkʌl/"
   },
   {
     "id": "word-list-2-033",
@@ -2150,7 +2248,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈɛkst/"
   },
   {
     "id": "word-list-2-034",
@@ -2174,7 +2273,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈɑntɛkst/"
   },
   {
     "id": "word-list-2-035",
@@ -2196,7 +2296,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/pˈæsʌdʒ/"
   },
   {
     "id": "word-list-2-036",
@@ -2218,7 +2319,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tʃˈæptɝ/"
   },
   {
     "id": "word-list-2-037",
@@ -2242,7 +2344,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/pˈærʌɡrˌæf/"
   },
   {
     "id": "word-list-2-038",
@@ -2266,7 +2369,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈuz/"
   },
   {
     "id": "word-list-2-039",
@@ -2288,7 +2392,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ə pˈis əv nˈuz/"
   },
   {
     "id": "word-list-2-040",
@@ -2310,7 +2415,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈuzpˌeɪpɝ/"
   },
   {
     "id": "word-list-2-041",
@@ -2332,7 +2438,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈɛsʌdʒ/"
   },
   {
     "id": "word-list-2-042",
@@ -2354,7 +2461,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈiv ə mˈɛsʌdʒ/"
   },
   {
     "id": "word-list-2-043",
@@ -2376,7 +2484,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈɛkst mˈɛsʌdʒ/"
   },
   {
     "id": "word-list-3-001",
@@ -2400,7 +2509,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈɔl/"
   },
   {
     "id": "word-list-3-002",
@@ -2414,15 +2524,18 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-09T14:56:23",
-    "updatedAt": "2026-06-09T14:56:23",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 3"
+      "Word List 3",
+      "蓝色森林 27"
     ],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/skˈeɪt/"
   },
   {
     "id": "word-list-3-003",
@@ -2446,7 +2559,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/skˈɪl/"
   },
   {
     "id": "word-list-3-004",
@@ -2468,7 +2582,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/spˈɛʃʌl skˈɪl/"
   },
   {
     "id": "word-list-3-005",
@@ -2490,7 +2605,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈoʊʃʌl skˈɪl/"
   },
   {
     "id": "word-list-3-006",
@@ -2512,7 +2628,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/prʌfˈɛʃʌnʌl skˈɪl/"
   },
   {
     "id": "word-list-3-007",
@@ -2538,7 +2655,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈeɪbʌl/"
   },
   {
     "id": "word-list-3-008",
@@ -2560,7 +2678,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈi ˈeɪbʌl tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "word-list-3-009",
@@ -2585,7 +2704,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌbˈɪlʌtˌi/"
   },
   {
     "id": "word-list-3-010",
@@ -2610,7 +2730,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪsˈeɪbʌl/"
   },
   {
     "id": "word-list-3-011",
@@ -2632,7 +2753,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʌnˈeɪbʌl/"
   },
   {
     "id": "word-list-3-012",
@@ -2657,7 +2779,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɛndʒˈɔɪ/"
   },
   {
     "id": "word-list-3-013",
@@ -2679,7 +2802,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˌɛndʒˈɔɪ ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "word-list-3-014",
@@ -2701,7 +2825,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˌɛndʒˈɔɪʌbʌl/"
   },
   {
     "id": "word-list-3-015",
@@ -2725,7 +2850,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɡrˈæs/"
   },
   {
     "id": "word-list-3-016",
@@ -2749,7 +2875,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʌfrˈeɪd/"
   },
   {
     "id": "word-list-3-017",
@@ -2774,7 +2901,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈi ʌfrˈeɪd əv/"
   },
   {
     "id": "word-list-3-018",
@@ -2801,7 +2929,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɔtɝ/"
   },
   {
     "id": "word-list-3-019",
@@ -2825,7 +2954,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈoʊld/"
   },
   {
     "id": "word-list-3-020",
@@ -2849,7 +2979,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɛldɝ/"
   },
   {
     "id": "word-list-3-021",
@@ -2873,7 +3004,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/jˈʌŋ/"
   },
   {
     "id": "word-list-3-022",
@@ -2895,7 +3027,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/jˈuθ/"
   },
   {
     "id": "word-list-3-023",
@@ -2909,17 +3042,20 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-09T14:56:23",
-    "updatedAt": "2026-06-09T14:56:23",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "Word List 3",
-      "四级 7"
+      "四级 7",
+      "蓝色森林 27"
     ],
     "sources": [
       "Word List",
-      "四级"
+      "四级",
+      "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/jˈʌŋstɝ/"
   },
   {
     "id": "word-list-3-024",
@@ -2941,7 +3077,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/dʒˈunjɝ/"
   },
   {
     "id": "word-list-3-025",
@@ -2963,7 +3100,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈinjɝ/"
   },
   {
     "id": "word-list-3-026",
@@ -2989,7 +3127,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈaɪv/"
   },
   {
     "id": "word-list-3-027",
@@ -3011,7 +3150,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈaɪv ˈʌp tə/"
   },
   {
     "id": "word-list-3-028",
@@ -3033,7 +3173,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈaɪv ɑn/"
   },
   {
     "id": "word-list-3-029",
@@ -3059,7 +3200,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈaɪvli/"
   },
   {
     "id": "word-list-3-030",
@@ -3081,7 +3223,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈaɪvlihˌʊd/"
   },
   {
     "id": "word-list-3-031",
@@ -3107,7 +3250,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌlˈaɪv/"
   },
   {
     "id": "word-list-3-032",
@@ -3129,7 +3273,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈʌvli/"
   },
   {
     "id": "word-list-3-033",
@@ -3153,7 +3298,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈaɪf/"
   },
   {
     "id": "word-list-3-034",
@@ -3178,7 +3324,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈaɪldlˌaɪf/"
   },
   {
     "id": "word-list-3-035",
@@ -3200,7 +3347,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈaɪfstˌaɪl/"
   },
   {
     "id": "word-list-3-036",
@@ -3224,7 +3372,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈaɪl/"
   },
   {
     "id": "word-list-3-037",
@@ -3248,7 +3397,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈænʌmʌl/"
   },
   {
     "id": "word-list-3-038",
@@ -3270,7 +3420,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈæmʌl/"
   },
   {
     "id": "word-list-3-039",
@@ -3292,7 +3443,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɪnsˌɛkt/"
   },
   {
     "id": "word-list-3-040",
@@ -3314,7 +3466,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/pˈɛt/"
   },
   {
     "id": "word-list-3-041",
@@ -3336,7 +3489,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈaɪt/"
   },
   {
     "id": "word-list-3-042",
@@ -3363,7 +3517,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈaɪɝi/"
   },
   {
     "id": "word-list-3-043",
@@ -3385,7 +3540,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈip ə dˈaɪɝi/"
   },
   {
     "id": "word-list-3-044",
@@ -3407,7 +3563,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/dˈɛri/"
   },
   {
     "id": "word-list-3-045",
@@ -3432,7 +3589,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈɑrˌoʊ/"
   },
   {
     "id": "word-list-3-046",
@@ -3457,7 +3615,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɛnd/"
   },
   {
     "id": "word-list-3-047",
@@ -3479,7 +3638,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/lˈɛnd ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "word-list-3-048",
@@ -3501,7 +3661,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/vˈɛdʒtʌbʌl/"
   },
   {
     "id": "word-list-3-049",
@@ -3523,7 +3684,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/swˈip/"
   },
   {
     "id": "word-list-3-050",
@@ -3545,7 +3707,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈeɪnli/"
   },
   {
     "id": "word-list-3-051",
@@ -3567,7 +3730,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈɑpɪk/"
   },
   {
     "id": "word-list-3-052",
@@ -3589,7 +3753,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈaɪtʌl/"
   },
   {
     "id": "word-list-3-053",
@@ -3611,7 +3776,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɛntˈaɪtʌl/"
   },
   {
     "id": "word-list-3-054",
@@ -3637,7 +3803,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈʌndɝlˌaɪn/"
   },
   {
     "id": "word-list-4-001",
@@ -3662,7 +3829,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈɑp/"
   },
   {
     "id": "word-list-4-002",
@@ -3689,7 +3857,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈænsʌl/"
   },
   {
     "id": "word-list-4-003",
@@ -3711,7 +3880,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈɔl ˈɔf/"
   },
   {
     "id": "word-list-4-004",
@@ -3735,7 +3905,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˌænsʌlˈeɪʃʌn/"
   },
   {
     "id": "word-list-4-005",
@@ -3759,7 +3930,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈænsɝ/"
   },
   {
     "id": "word-list-4-006",
@@ -3781,7 +3953,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈɑrt/"
   },
   {
     "id": "word-list-4-007",
@@ -3803,7 +3976,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈɑr/"
   },
   {
     "id": "word-list-4-008",
@@ -3825,7 +3999,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bɪɡˈɪn/"
   },
   {
     "id": "word-list-4-009",
@@ -3847,7 +4022,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tə bɪɡˈɪn wɪð/"
   },
   {
     "id": "word-list-4-010",
@@ -3869,7 +4045,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪn ðə bɪɡˈɪnɪŋ/"
   },
   {
     "id": "word-list-4-011",
@@ -3891,7 +4068,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bɪɡˈɪnɪŋ/"
   },
   {
     "id": "word-list-4-012",
@@ -3913,7 +4091,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bɪɡˈɪnɝ/"
   },
   {
     "id": "word-list-4-013",
@@ -3938,7 +4117,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rɪnˈu/"
   },
   {
     "id": "word-list-4-014",
@@ -3962,7 +4142,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈaʊtsˌɛt/"
   },
   {
     "id": "word-list-4-015",
@@ -3986,7 +4167,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɛnd/"
   },
   {
     "id": "word-list-4-016",
@@ -4008,7 +4190,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪn ðə ˈɛnd/"
   },
   {
     "id": "word-list-4-017",
@@ -4030,7 +4213,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæt ðə ˈɛnd əv/"
   },
   {
     "id": "word-list-4-018",
@@ -4052,7 +4236,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɛndlʌs/"
   },
   {
     "id": "word-list-4-019",
@@ -4074,7 +4259,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɛndɪŋ/"
   },
   {
     "id": "word-list-4-020",
@@ -4096,7 +4282,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈis/"
   },
   {
     "id": "word-list-4-021",
@@ -4120,7 +4307,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈoʊvɝ/"
   },
   {
     "id": "word-list-4-022",
@@ -4142,7 +4330,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈoʊvɝ ʌɡˈɛn/"
   },
   {
     "id": "word-list-4-023",
@@ -4164,7 +4353,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɔl ˈoʊvɝ/"
   },
   {
     "id": "word-list-4-024",
@@ -4186,7 +4376,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈʌndɝ/"
   },
   {
     "id": "word-list-4-025",
@@ -4210,7 +4401,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʌbˈʌv/"
   },
   {
     "id": "word-list-4-026",
@@ -4232,7 +4424,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ʌbˈʌv ˈɔl/"
   },
   {
     "id": "word-list-4-027",
@@ -4254,7 +4447,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/pˈɔz/"
   },
   {
     "id": "word-list-4-028",
@@ -4278,7 +4472,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/hˈɔlt/"
   },
   {
     "id": "word-list-4-029",
@@ -4303,7 +4498,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌɡˈoʊ/"
   },
   {
     "id": "word-list-4-030",
@@ -4325,7 +4521,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bɪfˈɔr/"
   },
   {
     "id": "word-list-4-031",
@@ -4349,7 +4546,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈæftɝ/"
   },
   {
     "id": "word-list-4-032",
@@ -4373,7 +4571,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈaʊ/"
   },
   {
     "id": "word-list-4-033",
@@ -4395,7 +4594,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/rˈaɪt nˈaʊ/"
   },
   {
     "id": "word-list-4-034",
@@ -4419,7 +4619,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dʒˈʌst nˈaʊ/"
   },
   {
     "id": "word-list-4-035",
@@ -4441,7 +4642,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈaʊ ðˈæt/"
   },
   {
     "id": "word-list-4-036",
@@ -4463,7 +4665,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/frˈʌm nˈaʊ ɑn/"
   },
   {
     "id": "word-list-4-037",
@@ -4485,7 +4688,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈaʊʌdˌeɪz/"
   },
   {
     "id": "word-list-4-038",
@@ -4507,7 +4711,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fjˈutʃɝ/"
   },
   {
     "id": "word-list-4-039",
@@ -4529,7 +4734,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɪn ðə fjˈutʃɝ/"
   },
   {
     "id": "word-list-4-040",
@@ -4556,7 +4762,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈisʌnt/"
   },
   {
     "id": "word-list-4-041",
@@ -4581,7 +4788,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈisʌntli/"
   },
   {
     "id": "word-list-4-042",
@@ -4606,7 +4814,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɝʌnt/"
   },
   {
     "id": "word-list-4-043",
@@ -4631,7 +4840,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɝʌntli/"
   },
   {
     "id": "word-list-4-044",
@@ -4656,7 +4866,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɝʌnsi/"
   },
   {
     "id": "word-list-4-045",
@@ -4681,7 +4892,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ðˈɛn/"
   },
   {
     "id": "word-list-4-046",
@@ -4703,7 +4915,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈaɪ ðˈɛn/"
   },
   {
     "id": "word-list-4-047",
@@ -4727,7 +4940,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/frˈʌm ðˈɛn ɑn/"
   },
   {
     "id": "word-list-4-048",
@@ -4749,7 +4963,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈaʊ ænd ðˈɛn/"
   },
   {
     "id": "word-list-4-049",
@@ -4773,7 +4988,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈoʊnli/"
   },
   {
     "id": "word-list-4-050",
@@ -4795,7 +5011,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈoʊnli tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "word-list-4-051",
@@ -4817,7 +5034,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈɪr/"
   },
   {
     "id": "word-list-4-052",
@@ -4839,7 +5057,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈɪrli/"
   },
   {
     "id": "word-list-5-001",
@@ -4863,7 +5082,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kwˈɔrtɝ/"
   },
   {
     "id": "word-list-5-002",
@@ -4885,7 +5105,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ə kwˈɔrtɝ/"
   },
   {
     "id": "word-list-5-003",
@@ -4907,7 +5128,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/hˈæf/"
   },
   {
     "id": "word-list-5-004",
@@ -4932,7 +5154,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɪntɝnˌɛt/"
   },
   {
     "id": "word-list-5-005",
@@ -4957,7 +5180,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɛbsˌaɪt/"
   },
   {
     "id": "word-list-5-006",
@@ -4979,7 +5203,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈɝf/"
   },
   {
     "id": "word-list-5-007",
@@ -5001,7 +5226,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈɝf ðə ˈɪntɝnˌɛt/"
   },
   {
     "id": "word-list-5-008",
@@ -5023,7 +5249,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈɛt/"
   },
   {
     "id": "word-list-5-009",
@@ -5045,7 +5272,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/nˈɛtwˌɝk/"
   },
   {
     "id": "word-list-5-010",
@@ -5067,7 +5295,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈaɪt/"
   },
   {
     "id": "word-list-5-011",
@@ -5089,7 +5318,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kʌnstrˈʌkʃʌn sˈaɪt/"
   },
   {
     "id": "word-list-5-012",
@@ -5111,7 +5341,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈaɪt/"
   },
   {
     "id": "word-list-5-013",
@@ -5136,7 +5367,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈeɪ/"
   },
   {
     "id": "word-list-5-014",
@@ -5158,7 +5390,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈɔl ðə wˈeɪ/"
   },
   {
     "id": "word-list-5-015",
@@ -5183,7 +5416,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈaɪ ðə wˈeɪ/"
   },
   {
     "id": "word-list-5-016",
@@ -5205,7 +5439,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ɡˈɛt ɪn ðə wˈeɪ əv/"
   },
   {
     "id": "word-list-5-017",
@@ -5227,7 +5462,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈɛθʌd/"
   },
   {
     "id": "word-list-5-018",
@@ -5249,7 +5485,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈinz/"
   },
   {
     "id": "word-list-5-019",
@@ -5271,7 +5508,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈaɪ mˈinz əv/"
   },
   {
     "id": "word-list-5-020",
@@ -5293,7 +5531,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/bˈaɪ nˈoʊ mˈinz/"
   },
   {
     "id": "word-list-5-021",
@@ -5315,7 +5554,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˈævʌnˌu/"
   },
   {
     "id": "word-list-5-022",
@@ -5339,7 +5579,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/mˈoʊd/"
   },
   {
     "id": "word-list-5-023",
@@ -5363,7 +5604,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/vˈaɪʌ/"
   },
   {
     "id": "word-list-5-024",
@@ -5385,7 +5627,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/strˈætʌdʒi/"
   },
   {
     "id": "word-list-5-025",
@@ -5410,7 +5653,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɑlv/"
   },
   {
     "id": "word-list-5-026",
@@ -5436,7 +5680,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛtʌl/"
   },
   {
     "id": "word-list-5-027",
@@ -5458,7 +5703,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/tˈækʌl/"
   },
   {
     "id": "word-list-5-028",
@@ -5480,7 +5726,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/hˈændʌl/"
   },
   {
     "id": "word-list-5-029",
@@ -5505,7 +5752,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈil wɪð/"
   },
   {
     "id": "word-list-5-030",
@@ -5527,7 +5775,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/du wɪð/"
   },
   {
     "id": "word-list-5-031",
@@ -5549,7 +5798,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/kˈoʊp wɪð/"
   },
   {
     "id": "word-list-5-032",
@@ -5571,7 +5821,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sʌlˈuʃʌn/"
   },
   {
     "id": "word-list-5-033",
@@ -5595,7 +5846,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/brˈeɪn/"
   },
   {
     "id": "word-list-5-034",
@@ -5619,7 +5871,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/wˈaɪz/"
   },
   {
     "id": "word-list-5-035",
@@ -5643,7 +5896,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/wˈɪzdʌm/"
   },
   {
     "id": "word-list-5-036",
@@ -5668,7 +5922,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/klˈɛvɝ/"
   },
   {
     "id": "word-list-5-037",
@@ -5690,7 +5945,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/smˈɑrt/"
   },
   {
     "id": "word-list-5-038",
@@ -5716,7 +5972,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/brˈaɪt/"
   },
   {
     "id": "word-list-5-039",
@@ -5738,7 +5995,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/brˈaɪtnʌs/"
   },
   {
     "id": "word-list-5-040",
@@ -5762,7 +6020,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/brˈɪljʌnt/"
   },
   {
     "id": "word-list-5-041",
@@ -5787,7 +6046,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "Word List",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪntˈɛlʌdʒʌnt/"
   },
   {
     "id": "word-list-5-042",
@@ -5809,7 +6069,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˌɪntˈɛlʌdʒʌns/"
   },
   {
     "id": "word-list-5-043",
@@ -5831,7 +6092,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/ˌɪntʌlˈɛktʃuʌl/"
   },
   {
     "id": "word-list-5-044",
@@ -5853,7 +6115,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/stˈupʌd/"
   },
   {
     "id": "word-list-5-045",
@@ -5875,7 +6138,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈul/"
   },
   {
     "id": "word-list-5-046",
@@ -5897,7 +6161,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/fˈulɪʃ/"
   },
   {
     "id": "word-list-5-047",
@@ -5919,7 +6184,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/sˈɪli/"
   },
   {
     "id": "word-list-5-048",
@@ -5941,7 +6207,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List"
     ],
-    "source": "Word List"
+    "source": "Word List",
+    "phonetic": "/dˈʌl/"
   },
   {
     "id": "blue-forest-001",
@@ -5954,7 +6221,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tə/"
   },
   {
     "id": "blue-forest-002",
@@ -5967,7 +6235,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɛmfʌsʌs/"
   },
   {
     "id": "blue-forest-003",
@@ -5990,7 +6259,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/kʌlˈɛktɪv/"
   },
   {
     "id": "blue-forest-004",
@@ -6003,7 +6273,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɛl fˈoʊn/"
   },
   {
     "id": "blue-forest-005",
@@ -6016,7 +6287,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈʌŋktʃuʌl/"
   },
   {
     "id": "blue-forest-006",
@@ -6029,7 +6301,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wɪð/"
   },
   {
     "id": "blue-forest-007",
@@ -6049,7 +6322,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-29T14:05:00+08:00",
-    "updatedAt": "2026-06-29T14:05:00+08:00"
+    "updatedAt": "2026-06-29T14:05:00+08:00",
+    "phonetic": "/hˈæzɝd/"
   },
   {
     "id": "blue-forest-009",
@@ -6062,7 +6336,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈu/"
   },
   {
     "id": "blue-forest-010",
@@ -6075,7 +6350,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/jˈʊrz/"
   },
   {
     "id": "blue-forest-011",
@@ -6088,7 +6364,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈɪnɝ/"
   },
   {
     "id": "blue-forest-012",
@@ -6101,7 +6378,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/daɪˈɑksˌaɪd/"
   },
   {
     "id": "blue-forest-013",
@@ -6114,7 +6392,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪprʌl/"
   },
   {
     "id": "blue-forest-015",
@@ -6127,7 +6406,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪfˈaɪ/"
   },
   {
     "id": "blue-forest-017",
@@ -6140,7 +6420,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʃˈoʊldɝ/"
   },
   {
     "id": "blue-forest-018",
@@ -6153,7 +6434,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dʒˈænjuˌɛri/"
   },
   {
     "id": "blue-forest-019",
@@ -6166,7 +6448,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈɑp/"
   },
   {
     "id": "blue-forest-020",
@@ -6179,7 +6462,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈʌmɝ/"
   },
   {
     "id": "blue-forest-021",
@@ -6192,7 +6476,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈʌn/"
   },
   {
     "id": "blue-forest-022",
@@ -6205,7 +6490,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/voʊkˈeɪʃʌn/"
   },
   {
     "id": "blue-forest-023",
@@ -6218,7 +6504,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sɛptˈɛmbɝ/"
   },
   {
     "id": "blue-forest-025",
@@ -6231,7 +6518,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈɛt/"
   },
   {
     "id": "blue-forest-026",
@@ -6244,7 +6532,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/æksˈɛpt/"
   },
   {
     "id": "blue-forest-027",
@@ -6257,7 +6546,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/flˈɔr/"
   },
   {
     "id": "blue-forest-028",
@@ -6277,7 +6567,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/hˈɔl/"
   },
   {
     "id": "blue-forest-029",
@@ -6297,7 +6588,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/wˈʊmʌn/"
   },
   {
     "id": "blue-forest-030",
@@ -6310,7 +6602,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɛriʌl/"
   },
   {
     "id": "blue-forest-032",
@@ -6331,7 +6624,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00"
+    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "phonetic": "/hˈɑrd/"
   },
   {
     "id": "blue-forest-033",
@@ -6344,7 +6638,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɪmplʌmʌnt/"
   },
   {
     "id": "blue-forest-034",
@@ -6361,7 +6656,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "updatedAt": "2026-07-29T08:30:00+08:00",
-    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。"
+    "note": "来源：2026-07-29 明确标注“英语四级”的词表截图；归入四级 19。",
+    "phonetic": "/prɪvˈɛnt/"
   },
   {
     "id": "blue-forest-035",
@@ -6374,7 +6670,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈʌtʃ/"
   },
   {
     "id": "blue-forest-036",
@@ -6390,7 +6687,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "note": "来源：2026-07-19 上传资料；归入四级 9。"
+    "note": "来源：2026-07-19 上传资料；归入四级 9。",
+    "phonetic": "/ˌɪnˈɛvʌtʌbʌl/"
   },
   {
     "id": "blue-forest-037",
@@ -6410,7 +6708,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:30:00+08:00",
-    "updatedAt": "2026-06-27T15:30:00+08:00"
+    "updatedAt": "2026-06-27T15:30:00+08:00",
+    "phonetic": "/ˈɛrplˌeɪn/"
   },
   {
     "id": "blue-forest-038",
@@ -6423,7 +6722,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈænt/"
   },
   {
     "id": "blue-forest-039",
@@ -6443,7 +6743,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/kˈɑlɪdʒ/"
   },
   {
     "id": "blue-forest-040",
@@ -6456,7 +6757,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˌʌnsˈɛlf/"
   },
   {
     "id": "blue-forest-041",
@@ -6469,7 +6771,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðˈeɪ/"
   },
   {
     "id": "blue-forest-042",
@@ -6482,7 +6785,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈʌbɝ/"
   },
   {
     "id": "blue-forest-045",
@@ -6495,7 +6799,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mjuzˈiʌm/"
   },
   {
     "id": "blue-forest-046",
@@ -6508,7 +6813,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn/"
   },
   {
     "id": "blue-forest-047",
@@ -6528,7 +6834,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/sˈɪmpʌl/"
   },
   {
     "id": "blue-forest-048",
@@ -6541,7 +6848,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæroʊ/"
   },
   {
     "id": "blue-forest-049",
@@ -6561,7 +6869,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00"
+    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "phonetic": "/lˈoʊ/"
   },
   {
     "id": "blue-forest-050",
@@ -6574,7 +6883,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪsmˈɪs/"
   },
   {
     "id": "cet4-001",
@@ -6594,7 +6904,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/spˈeɪs/"
   },
   {
     "id": "cet4-002",
@@ -6607,7 +6918,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/spˈeɪʃʌs/"
   },
   {
     "id": "cet4-003",
@@ -6620,7 +6932,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/spˈeɪʃʌl/"
   },
   {
     "id": "cet4-004",
@@ -6633,7 +6946,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˈunʌvˌɝs/"
   },
   {
     "id": "cet4-005",
@@ -6646,7 +6960,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˌunʌvˈɝsʌl/"
   },
   {
     "id": "cet4-006",
@@ -6659,7 +6974,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˈunˌaɪt/"
   },
   {
     "id": "cet4-007",
@@ -6672,7 +6988,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˈunʌti/"
   },
   {
     "id": "cet4-008",
@@ -6692,7 +7009,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00"
+    "updatedAt": "2026-06-18T00:00:00",
+    "phonetic": "/rˌiunˈaɪt/"
   },
   {
     "id": "cet4-009",
@@ -6705,7 +7023,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/riˌunʌfʌkˈeɪʃʌn/"
   },
   {
     "id": "cet4-010",
@@ -6718,7 +7037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˈunjʌn/"
   },
   {
     "id": "cet4-011",
@@ -6731,7 +7051,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/riˈunjʌn/"
   },
   {
     "id": "cet4-012",
@@ -6744,7 +7065,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/daɪvˈɝs/"
   },
   {
     "id": "cet4-013",
@@ -6757,7 +7079,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/daɪvˈɝsʌfˌaɪ/"
   },
   {
     "id": "cet4-014",
@@ -6770,7 +7093,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪvˈɝsɪti/"
   },
   {
     "id": "cet4-015",
@@ -6791,7 +7115,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00"
+    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "phonetic": "/kˈɑnvɝt/"
   },
   {
     "id": "cet4-016",
@@ -6804,7 +7129,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɝʒʌn/"
   },
   {
     "id": "cet4-017",
@@ -6817,7 +7143,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɝtʌbʌl/"
   },
   {
     "id": "cet4-018",
@@ -6837,7 +7164,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00"
+    "updatedAt": "2026-06-18T00:00:00",
+    "phonetic": "/rɪvˈɝs/"
   },
   {
     "id": "cet4-019",
@@ -6850,7 +7178,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪvˈɝsʌl/"
   },
   {
     "id": "cet4-020",
@@ -6863,7 +7192,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪvˈɝsʌbʌl/"
   },
   {
     "id": "cet4-021",
@@ -6883,7 +7213,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T14:50:00+08:00",
-    "updatedAt": "2026-06-27T14:50:00+08:00"
+    "updatedAt": "2026-06-27T14:50:00+08:00",
+    "phonetic": "/ˌænʌvˈɝsɝi/"
   },
   {
     "id": "cet4-022",
@@ -6896,7 +7227,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈænjuʌl/"
   },
   {
     "id": "cet4-023",
@@ -6909,7 +7241,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈɑntrʌvˌɝsi/"
   },
   {
     "id": "cet4-024",
@@ -6922,7 +7255,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˌɑntrʌvˈɝʃʌl/"
   },
   {
     "id": "cet4-025",
@@ -6935,7 +7269,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈɑntrɛri/"
   },
   {
     "id": "cet4-026",
@@ -6956,7 +7291,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00"
+    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "phonetic": "/kˈɑntræst/"
   },
   {
     "id": "cet4-027",
@@ -6969,7 +7305,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/nˈæsti/"
   },
   {
     "id": "cet4-028",
@@ -6982,7 +7319,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈæstrʌnˌɑt/"
   },
   {
     "id": "cet4-029",
@@ -6999,7 +7337,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "updatedAt": "2026-07-29T08:30:00+08:00",
-    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。"
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "phonetic": "/hˈɛvʌn/"
   },
   {
     "id": "cet4-030",
@@ -7019,7 +7358,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T14:50:00+08:00",
-    "updatedAt": "2026-06-27T14:50:00+08:00"
+    "updatedAt": "2026-06-27T14:50:00+08:00",
+    "phonetic": "/sˈætʌlˌaɪt/"
   },
   {
     "id": "cet4-031",
@@ -7035,7 +7375,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "phonetic": "/mˈun/"
   },
   {
     "id": "cet4-032",
@@ -7048,7 +7389,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪvˈɛlʌp/"
   },
   {
     "id": "cet4-033",
@@ -7061,7 +7403,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪvˈɛlʌpɝ/"
   },
   {
     "id": "cet4-034",
@@ -7074,7 +7417,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪvˈɛlʌpmʌnt/"
   },
   {
     "id": "cet4-035",
@@ -7087,7 +7431,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪvˌɛlʌpmˈɛntʌl/"
   },
   {
     "id": "cet4-036",
@@ -7100,7 +7445,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪvˈɑlv/"
   },
   {
     "id": "cet4-037",
@@ -7113,7 +7459,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɛvʌlˈuʃʌn/"
   },
   {
     "id": "cet4-038",
@@ -7126,7 +7473,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɛvʌlˈuʃʌnˌɛri/"
   },
   {
     "id": "cet4-039",
@@ -7139,7 +7487,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rivˈɑlv/"
   },
   {
     "id": "cet4-040",
@@ -7152,7 +7501,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˌɛvʌlˈuʃʌn/"
   },
   {
     "id": "cet4-041",
@@ -7165,7 +7515,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˌɛvʌlˈuʃʌnˌɛri/"
   },
   {
     "id": "cet4-042",
@@ -7185,7 +7536,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00"
+    "updatedAt": "2026-06-18T00:00:00",
+    "phonetic": "/ˌɪnvˈɑlv/"
   },
   {
     "id": "cet4-043",
@@ -7198,7 +7550,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɑlvmʌnt/"
   },
   {
     "id": "cet4-044",
@@ -7211,7 +7564,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɑlvd/"
   },
   {
     "id": "cet4-045",
@@ -7224,7 +7578,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌdvˈæns/"
   },
   {
     "id": "cet4-046",
@@ -7242,7 +7597,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌdvˈænst/"
   },
   {
     "id": "cet4-047",
@@ -7258,7 +7614,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。"
+    "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。",
+    "phonetic": "/ʌhˈɛd/"
   },
   {
     "id": "cet4-048",
@@ -7274,7 +7631,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "updatedAt": "2026-07-24T08:00:00+08:00"
+    "updatedAt": "2026-07-24T08:00:00+08:00",
+    "phonetic": "/ˈɑnɡˌoʊɪŋ/"
   },
   {
     "id": "cet4-049",
@@ -7294,7 +7652,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00"
+    "updatedAt": "2026-06-24T00:00:00",
+    "phonetic": "/ˌɪmprˈuv/"
   },
   {
     "id": "cet4-050",
@@ -7314,7 +7673,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00"
+    "updatedAt": "2026-06-24T00:00:00",
+    "phonetic": "/ˌɪmprˈuvmʌnt/"
   },
   {
     "id": "blue-forest-b2-001",
@@ -7327,7 +7687,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/trˈɪki/"
   },
   {
     "id": "blue-forest-b2-002",
@@ -7340,7 +7701,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/swˈɪftli/"
   },
   {
     "id": "blue-forest-b2-003",
@@ -7353,7 +7715,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɪʃʌn/"
   },
   {
     "id": "blue-forest-b2-005",
@@ -7373,7 +7736,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/dˈɪfʌkʌlti/"
   },
   {
     "id": "blue-forest-b2-006",
@@ -7391,7 +7755,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "We will return to school next Monday. 我们下周一回学校。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/rɪtˈɝn tə/"
   },
   {
     "id": "blue-forest-b2-007",
@@ -7411,7 +7776,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/pˈælʌs/"
   },
   {
     "id": "blue-forest-b2-008",
@@ -7429,7 +7795,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "The summer holiday came to an end. 暑假结束了。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/kˈʌm tə æn ˈɛnd/"
   },
   {
     "id": "blue-forest-b2-009",
@@ -7442,7 +7809,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈip kwˈaɪʌt/"
   },
   {
     "id": "blue-forest-b2-010",
@@ -7461,7 +7829,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "At last, the bus arrived. 公交车终于到了。",
     "note": "来源：2026-07-21 上传资料；归入蓝色森林 16。；来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ˈæt lˈæst/"
   },
   {
     "id": "blue-forest-b2-011",
@@ -7479,7 +7848,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "She is scared of speaking in public. 她害怕在公共场合讲话。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/bˈi skˈɛrd əv/"
   },
   {
     "id": "blue-forest-b2-086",
@@ -7492,7 +7862,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt skˈɛrd əv/"
   },
   {
     "id": "blue-forest-b2-012",
@@ -7510,7 +7881,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "I bought my mom a beautiful scarf. 我给妈妈买了一条漂亮的围巾。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/bˈaɪ ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-forest-b2-013",
@@ -7523,7 +7895,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈaɪ ˌsʌmθɪŋ fˈɔr ˌsʌmbədi/"
   },
   {
     "id": "blue-forest-b2-014",
@@ -7536,7 +7909,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prˈɑmʌs/"
   },
   {
     "id": "blue-forest-b2-015",
@@ -7554,7 +7928,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "My dad promised me a new bike. 爸爸答应给我一辆新自行车。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/prˈɑmʌs ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-forest-b2-016",
@@ -7572,7 +7947,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "He promised his bike to me. 他答应把自行车给我。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/prˈɑmʌs ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "blue-forest-b2-017",
@@ -7585,7 +7961,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈɛlfˌɛr/"
   },
   {
     "id": "blue-forest-b2-018",
@@ -7598,7 +7975,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɑroʊ/"
   },
   {
     "id": "blue-forest-b2-019",
@@ -7611,7 +7989,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn sˈɑroʊ/"
   },
   {
     "id": "blue-forest-b2-020",
@@ -7627,7 +8006,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "updatedAt": "2026-07-31T08:00:00+08:00",
-    "note": "来源：2026-07-31 普通词表截图；归入蓝色森林 26。"
+    "note": "来源：2026-07-31 普通词表截图；归入蓝色森林 26。",
+    "phonetic": "/kˈætʃ/"
   },
   {
     "id": "blue-forest-b2-021",
@@ -7644,7 +8024,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "updatedAt": "2026-07-31T08:00:00+08:00",
-    "note": "来源：2026-07-31 明确标注“英语四级”的词表截图；归入四级 21。"
+    "note": "来源：2026-07-31 明确标注“英语四级”的词表截图；归入四级 21。",
+    "phonetic": "/tˈælʌnt/"
   },
   {
     "id": "blue-forest-b2-022",
@@ -7661,7 +8042,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "updatedAt": "2026-07-31T08:00:00+08:00",
-    "note": "来源：2026-07-31 明确标注“英语四级”的词表截图；归入四级 21。"
+    "note": "来源：2026-07-31 明确标注“英语四级”的词表截图；归入四级 21。",
+    "phonetic": "/tˈælʌntɪd/"
   },
   {
     "id": "blue-forest-b2-023",
@@ -7674,7 +8056,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rɪspˈɛktɪd/"
   },
   {
     "id": "blue-forest-b2-024",
@@ -7687,7 +8070,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈɑrd wˈɝkɪŋ/"
   },
   {
     "id": "blue-forest-b2-025",
@@ -7700,7 +8084,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈɑlʌdʒ/"
   },
   {
     "id": "blue-forest-b2-027",
@@ -7713,7 +8098,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/vˌɑlʌntˈɪr/"
   },
   {
     "id": "blue-forest-b2-028",
@@ -7733,7 +8119,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T11:40:00+08:00"
+    "updatedAt": "2026-06-28T11:40:00+08:00",
+    "phonetic": "/rɪmˈoʊt/"
   },
   {
     "id": "blue-forest-b2-029",
@@ -7746,7 +8133,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɛkspɝt/"
   },
   {
     "id": "blue-forest-b2-030",
@@ -7764,7 +8152,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "He put forward a good idea for the school project. 他为学校项目提出了一个好主意。",
     "note": "来源：Exercise 1 短语卡片；归入短语练习 1。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/pˈʊt fˈɔrwɝd/"
   },
   {
     "id": "blue-forest-b2-031",
@@ -7782,7 +8171,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "updatedAt": "2026-07-28T10:30:00+08:00",
-    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。；来源：2026-07-28 明确标注“英语四级”的词表截图；归入四级 18。"
+    "note": "来源：2026-07-27 明确标注“英语四级”的词表截图；归入四级 17。；来源：2026-07-28 明确标注“英语四级”的词表截图；归入四级 18。",
+    "phonetic": "/vˈæljʌbʌl/"
   },
   {
     "id": "blue-forest-b2-032",
@@ -7801,7 +8191,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "We should protect cultural relics because they tell us about history. 我们应该保护文物，因为它们记录着历史。",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/kˈʌltʃɝʌl rˈɛlɪks/"
   },
   {
     "id": "blue-forest-b2-033",
@@ -7814,7 +8205,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pɝsˈu/"
   },
   {
     "id": "blue-forest-b2-034",
@@ -7837,7 +8229,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/nˈumɝʌs/"
   },
   {
     "id": "blue-forest-b2-035",
@@ -7852,7 +8245,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪmˈɑrkʌbʌl/"
   },
   {
     "id": "blue-forest-b2-036",
@@ -7865,7 +8259,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rɪmˈɑrkʌbli/"
   },
   {
     "id": "blue-forest-b2-037",
@@ -7885,7 +8280,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00"
+    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "phonetic": "/ɪfˈɪʃʌnt/"
   },
   {
     "id": "blue-forest-b2-038",
@@ -7905,7 +8301,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "forms": {},
-    "updatedAt": "2026-07-29T08:30:00+08:00"
+    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "phonetic": "/prˈuv/"
   },
   {
     "id": "blue-forest-b2-039",
@@ -7922,7 +8319,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "note": "来源：2026-07-25 英语四级截图；归入四级 15。已有词仅补充分组，不重复生成。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ˈʌndɝtˌeɪk/"
   },
   {
     "id": "blue-forest-b2-040",
@@ -7935,7 +8333,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪmˈændɪŋ/"
   },
   {
     "id": "blue-forest-b2-041",
@@ -7948,7 +8347,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪnθˌuziˈæstɪkli/"
   },
   {
     "id": "blue-forest-b2-042",
@@ -7965,7 +8365,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "note": "来源：2026-07-30 明确标注“英语四级”的词表截图；归入四级 20。",
-    "updatedAt": "2026-07-30T08:00:00+08:00"
+    "updatedAt": "2026-07-30T08:00:00+08:00",
+    "phonetic": "/rˈɛr/"
   },
   {
     "id": "blue-forest-b2-043",
@@ -7978,7 +8379,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈaɪld/"
   },
   {
     "id": "blue-forest-b2-045",
@@ -7991,7 +8393,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌdʒˈʌst tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-forest-b2-046",
@@ -8004,7 +8407,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈɪlɪdʒʌnt/"
   },
   {
     "id": "blue-forest-b2-047",
@@ -8023,7 +8427,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T11:40:00+08:00"
+    "updatedAt": "2026-06-28T11:40:00+08:00",
+    "phonetic": "/ɪksplˈeɪn/"
   },
   {
     "id": "blue-forest-b2-048",
@@ -8042,7 +8447,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Can you explain the math problem to me? 你能向我解释这道数学题吗？",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ɪksplˈeɪn ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "blue-forest-b2-049",
@@ -8058,7 +8464,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "phrase": "",
-    "note": "来源：2026-07-21 上传资料；归入蓝色森林 16。"
+    "note": "来源：2026-07-21 上传资料；归入蓝色森林 16。",
+    "phonetic": "/pˈeɪʃʌnt/"
   },
   {
     "id": "blue-forest-b2-050",
@@ -8071,7 +8478,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈeɪʃʌns/"
   },
   {
     "id": "blue-forest-b2-051",
@@ -8084,7 +8492,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kɝˈeɪdʒʌs/"
   },
   {
     "id": "blue-forest-b2-052",
@@ -8105,7 +8514,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-07-26T08:10:00+08:00"
+    "updatedAt": "2026-07-26T08:10:00+08:00",
+    "phonetic": "/rˌɛkʌmˈɛnd/"
   },
   {
     "id": "blue-forest-b2-053",
@@ -8118,7 +8528,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi rikwˈaɪɝd tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-forest-b2-054",
@@ -8137,7 +8548,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Please hand in your homework by Friday. 请在周五前交作业。",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/hˈænd ɪn/"
   },
   {
     "id": "blue-forest-b2-055",
@@ -8156,7 +8568,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "The teacher will hand out the test papers now. 老师现在要分发试卷。",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/hˈænd ˈaʊt/"
   },
   {
     "id": "blue-forest-b2-056",
@@ -8175,7 +8588,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Please hand over your homework to the teacher. 请把作业交给老师。",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/hˈænd ˈoʊvɝ/"
   },
   {
     "id": "blue-forest-b2-057",
@@ -8188,7 +8602,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spʌsˈɪfɪk/"
   },
   {
     "id": "blue-forest-b2-058",
@@ -8201,7 +8616,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌnʃˈʊr/"
   },
   {
     "id": "blue-forest-b2-059",
@@ -8223,7 +8639,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/kˈɑnfɝʌns/"
   },
   {
     "id": "blue-forest-b2-060",
@@ -8242,7 +8659,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "The mayor held a press conference to answer questions from reporters. 市长召开新闻发布会回答记者的问题。",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/prˈɛs kˈɑnfɝʌns/"
   },
   {
     "id": "blue-forest-b2-061",
@@ -8262,7 +8680,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T14:50:00+08:00",
-    "updatedAt": "2026-06-27T14:50:00+08:00"
+    "updatedAt": "2026-06-27T14:50:00+08:00",
+    "phonetic": "/mˈuv/"
   },
   {
     "id": "blue-forest-b2-062",
@@ -8282,7 +8701,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00"
+    "updatedAt": "2026-06-18T00:00:00",
+    "phonetic": "/prˈæktʌs/"
   },
   {
     "id": "blue-forest-b2-063",
@@ -8302,7 +8722,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-28T11:40:00+08:00",
-    "updatedAt": "2026-06-28T11:40:00+08:00"
+    "updatedAt": "2026-06-28T11:40:00+08:00",
+    "phonetic": "/prˈæktʌkʌl/"
   },
   {
     "id": "blue-forest-b2-064",
@@ -8321,7 +8742,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Keep practicing the piano. Remember, practice makes perfect. 坚持练琴，记住熟能生巧。",
     "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。；来源：Exercise 2 短语卡片；归入短语练习 2。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/prˈæktʌs mˈeɪks pɝfˈɛkt/"
   },
   {
     "id": "blue-forest-b2-065",
@@ -8334,7 +8756,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spˈoʊkʌn ˈɪŋɡlɪʃ/"
   },
   {
     "id": "blue-forest-b2-066",
@@ -8347,7 +8770,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔrʌl ˈɪŋɡlɪʃ/"
   },
   {
     "id": "blue-forest-b2-067",
@@ -8366,7 +8790,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "I like to talk with my friends after school. 我喜欢放学后和朋友交谈。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/tˈɔk wɪð ˌsʌmbədi/"
   },
   {
     "id": "blue-forest-b2-068",
@@ -8385,7 +8810,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "I need to talk to my teacher about the homework. 我需要和老师谈谈作业。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/tˈɔk tə ˌsʌmbədi/"
   },
   {
     "id": "blue-forest-b2-069",
@@ -8404,7 +8830,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Let's talk about our summer plans. 我们来谈谈暑假计划。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/tˈɔk ʌbˈaʊt ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-forest-b2-070",
@@ -8424,7 +8851,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/nˈeɪtɪv/"
   },
   {
     "id": "blue-forest-b2-071",
@@ -8443,7 +8871,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "The bird flew away when I got close. 我靠近时，那只鸟飞走了。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/flˈaɪ ʌwˈeɪ/"
   },
   {
     "id": "blue-forest-b2-072",
@@ -8463,7 +8892,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00"
+    "updatedAt": "2026-06-25T12:20:00",
+    "phonetic": "/frˈaɪtʌn/"
   },
   {
     "id": "blue-forest-b2-073",
@@ -8476,7 +8906,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/frˈaɪtʌnd/"
   },
   {
     "id": "blue-forest-b2-074",
@@ -8495,7 +8926,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Don't give up on your dreams. 不要放弃你的梦想。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ɡˈɪv ˈʌp/"
   },
   {
     "id": "blue-forest-b2-075",
@@ -8514,7 +8946,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "Don't give away the answer. 不要泄露答案。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ɡˈɪv ʌwˈeɪ/"
   },
   {
     "id": "blue-forest-b2-076",
@@ -8533,7 +8966,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "The teacher will give out the test papers now. 老师现在要分发试卷。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ɡˈɪv ˈaʊt/"
   },
   {
     "id": "blue-forest-b2-077",
@@ -8552,7 +8986,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "My parents finally gave in and let me stay up late. 父母最终让步，允许我晚睡。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ɡˈɪv ɪn/"
   },
   {
     "id": "blue-forest-b2-078",
@@ -8571,7 +9006,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "phrase": "The flowers give off a sweet smell. 这些花散发出香味。",
     "note": "来源：2026-07-20 上传资料；归入蓝色森林 15。；来源：Exercise 3 短语卡片；归入短语练习 3。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/ɡˈɪv ˈɔf/"
   },
   {
     "id": "blue-forest-b2-079",
@@ -8584,7 +9020,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌplˈaɪ/"
   },
   {
     "id": "blue-forest-b2-080",
@@ -8597,7 +9034,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌæplʌkˈeɪʃʌn/"
   },
   {
     "id": "blue-forest-b2-081",
@@ -8610,7 +9048,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæplɪkʌnt/"
   },
   {
     "id": "blue-forest-b2-082",
@@ -8630,7 +9069,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00"
+    "updatedAt": "2026-06-18T00:00:00",
+    "phonetic": "/ʌplˈaɪ fˈɔr/"
   },
   {
     "id": "blue-forest-b2-083",
@@ -8643,7 +9083,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌplˈaɪ tə/"
   },
   {
     "id": "blue-forest-b2-084",
@@ -8656,7 +9097,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈɛlʌvʌnt/"
   },
   {
     "id": "blue-forest-b2-085",
@@ -8678,7 +9120,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:30:00+08:00",
-    "updatedAt": "2026-07-24T08:00:00+08:00"
+    "updatedAt": "2026-07-24T08:00:00+08:00",
+    "phonetic": "/ɪkspˈɪriʌns/"
   },
   {
     "id": "cet4-b2-001",
@@ -8691,7 +9134,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌprˈuv/"
   },
   {
     "id": "cet4-b2-002",
@@ -8704,7 +9148,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌprˈuvʌl/"
   },
   {
     "id": "cet4-b2-003",
@@ -8721,7 +9166,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "updatedAt": "2026-07-29T08:30:00+08:00",
-    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。"
+    "note": "来源：2026-07-29 普通词表截图；归入蓝色森林 24。",
+    "phonetic": "/dˌɪsʌprˈuv/"
   },
   {
     "id": "cet4-b2-004",
@@ -8734,7 +9180,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪsʌprˈuvʌl/"
   },
   {
     "id": "cet4-b2-005",
@@ -8747,7 +9194,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prˈuf/"
   },
   {
     "id": "cet4-b2-007",
@@ -8760,7 +9208,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɛnhˈæns/"
   },
   {
     "id": "cet4-b2-008",
@@ -8773,7 +9222,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɛnhˈænsmʌnt/"
   },
   {
     "id": "cet4-b2-009",
@@ -8786,7 +9236,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɛnˈeɪbʌl/"
   },
   {
     "id": "cet4-b2-010",
@@ -8809,7 +9260,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00"
+    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "phonetic": "/ˌɛnlˈɑrdʒ/"
   },
   {
     "id": "cet4-b2-011",
@@ -8822,7 +9274,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɛnrˈɪtʃ/"
   },
   {
     "id": "cet4-b2-012",
@@ -8835,7 +9288,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈæsʌn/"
   },
   {
     "id": "cet4-b2-013",
@@ -8848,7 +9302,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/tˈaɪt/"
   },
   {
     "id": "cet4-b2-014",
@@ -8861,7 +9316,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/tˈaɪtʌn/"
   },
   {
     "id": "cet4-b2-015",
@@ -8874,7 +9330,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/bˈʌkʌl/"
   },
   {
     "id": "cet4-b2-016",
@@ -8890,7 +9347,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。"
+    "note": "来源：2026-07-19 上传资料；归入蓝色森林 14。",
+    "phonetic": "/wˈɔtɝtˌaɪt/"
   },
   {
     "id": "cet4-b2-017",
@@ -8903,7 +9361,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/lˈus/"
   },
   {
     "id": "cet4-b2-018",
@@ -8916,7 +9375,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/lˈusʌn/"
   },
   {
     "id": "cet4-b2-019",
@@ -8929,7 +9389,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌndˈu/"
   },
   {
     "id": "cet4-b2-020",
@@ -8951,7 +9412,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-07-24T08:00:00+08:00"
+    "updatedAt": "2026-07-24T08:00:00+08:00",
+    "phonetic": "/fˈɔrm/"
   },
   {
     "id": "cet4-b2-021",
@@ -8964,7 +9426,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɔrmʌl/"
   },
   {
     "id": "cet4-b2-022",
@@ -8977,7 +9440,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fɔrmˈælʌti/"
   },
   {
     "id": "cet4-b2-023",
@@ -8990,7 +9454,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˈunʌfˌɔrm/"
   },
   {
     "id": "cet4-b2-024",
@@ -9003,7 +9468,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/jˌunʌfˈɔrmʌti/"
   },
   {
     "id": "cet4-b2-025",
@@ -9023,7 +9489,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/fɔrmˈeɪʃʌn/"
   },
   {
     "id": "cet4-b2-026",
@@ -9043,7 +9510,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/rʌfˈɔrm/"
   },
   {
     "id": "cet4-b2-027",
@@ -9056,7 +9524,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˌɛfɝmˈeɪʃʌn/"
   },
   {
     "id": "cet4-b2-028",
@@ -9069,7 +9538,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪfˈɔrmɪst/"
   },
   {
     "id": "cet4-b2-029",
@@ -9082,7 +9552,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɔrmˌæt/"
   },
   {
     "id": "cet4-b2-030",
@@ -9102,7 +9573,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/kʌnfˈɔrm/"
   },
   {
     "id": "cet4-b2-031",
@@ -9115,7 +9587,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌnfˈɔrmʌti/"
   },
   {
     "id": "cet4-b2-032",
@@ -9128,7 +9601,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌmplˈaɪ/"
   },
   {
     "id": "cet4-b2-033",
@@ -9141,7 +9615,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌmplˈaɪʌns/"
   },
   {
     "id": "cet4-b2-034",
@@ -9154,7 +9629,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɔrmjʌlˌeɪt/"
   },
   {
     "id": "cet4-b2-035",
@@ -9167,7 +9643,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˌɔrmjʌlˈeɪʃʌn/"
   },
   {
     "id": "cet4-b2-036",
@@ -9180,7 +9657,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɔrmjʌlʌ/"
   },
   {
     "id": "cet4-b2-037",
@@ -9200,7 +9678,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:30:00+08:00",
-    "updatedAt": "2026-06-27T15:30:00+08:00"
+    "updatedAt": "2026-06-27T15:30:00+08:00",
+    "phonetic": "/prˈoʊɡrˌæm/"
   },
   {
     "id": "cet4-b2-038",
@@ -9213,7 +9692,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/pɝfˈɔrm/"
   },
   {
     "id": "cet4-b2-039",
@@ -9233,7 +9713,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00"
+    "updatedAt": "2026-06-18T00:00:00",
+    "phonetic": "/pɝfˈɔrmʌns/"
   },
   {
     "id": "cet4-b2-040",
@@ -9246,7 +9727,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/pɝfˈɔrmɝ/"
   },
   {
     "id": "cet4-b2-041",
@@ -9259,7 +9741,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/drˈɪl/"
   },
   {
     "id": "cet4-b2-042",
@@ -9279,7 +9762,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/ˌɪnfˈɔrm/"
   },
   {
     "id": "cet4-b2-043",
@@ -9301,7 +9785,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "forms": {},
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00"
+    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "phonetic": "/ˌɪnfɝmˈeɪʃʌn/"
   },
   {
     "id": "cet4-b2-044",
@@ -9314,7 +9799,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnfˈɔrmʌtɪv/"
   },
   {
     "id": "cet4-b2-045",
@@ -9327,7 +9813,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnfˈɔrmʌnt/"
   },
   {
     "id": "cet4-b2-046",
@@ -9340,7 +9827,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/nˈoʊtʌfˌaɪ/"
   },
   {
     "id": "cet4-b2-047",
@@ -9353,7 +9841,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/nˌoʊtʌfʌkˈeɪʃʌn/"
   },
   {
     "id": "cet4-b2-048",
@@ -9366,7 +9855,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/nˈoʊtʌsʌbʌl/"
   },
   {
     "id": "cet4-b2-049",
@@ -9379,7 +9869,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/nˈoʊtʌs/"
   },
   {
     "id": "cet4-b2-050",
@@ -9396,7 +9887,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "note": "来源：2026-07-25 上传词表截图；归入蓝色森林 20。已有词仅补充分组，不重复生成。",
-    "updatedAt": "2026-07-25T10:04:00+08:00"
+    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "phonetic": "/kˈoʊst/"
   },
   {
     "id": "fullway-2026-prefix-001",
@@ -9418,7 +9910,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": ""
   },
   {
     "id": "fullway-2026-prefix-002",
@@ -9440,7 +9933,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": ""
   },
   {
     "id": "fullway-2026-prefix-003",
@@ -9462,7 +9956,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": ""
   },
   {
     "id": "fullway-2026-prefix-005",
@@ -9487,7 +9982,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɪntrʌst/"
   },
   {
     "id": "fullway-2026-prefix-006",
@@ -9510,7 +10006,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈeɪst/"
   },
   {
     "id": "fullway-2026-prefix-010",
@@ -9535,7 +10032,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɝk/"
   },
   {
     "id": "fullway-2026-prefix-011",
@@ -9560,7 +10058,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/drˈɪŋk/"
   },
   {
     "id": "fullway-2026-prefix-012",
@@ -9587,7 +10086,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 7",
       "蓝色森林 26"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈʌdi/"
   },
   {
     "id": "fullway-2026-prefix-013",
@@ -9612,7 +10112,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "四级 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛmpti/"
   },
   {
     "id": "fullway-2026-prefix-014",
@@ -9632,13 +10133,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "全方位 1",
-      "Word List 19"
+      "Word List 19",
+      "蓝色森林 27"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/slˈoʊ/"
   },
   {
     "id": "fullway-2026-prefix-015",
@@ -9663,7 +10166,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tʃˈit/"
   },
   {
     "id": "fullway-2026-prefix-016",
@@ -9688,7 +10192,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈænd/"
   },
   {
     "id": "fullway-2026-prefix-017",
@@ -9713,7 +10218,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "Word List 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈeɪs/"
   },
   {
     "id": "fullway-2026-prefix-018",
@@ -9736,7 +10242,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈoʊm/"
   },
   {
     "id": "fullway-2026-prefix-019",
@@ -9761,7 +10268,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 26"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈeɪli/"
   },
   {
     "id": "fullway-2026-prefix-021",
@@ -9784,7 +10292,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈʊk/"
   },
   {
     "id": "fullway-2026-prefix-022",
@@ -9807,7 +10316,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/brˈaɪdzmˌeɪd/"
   },
   {
     "id": "fullway-2026-prefix-023",
@@ -9829,7 +10339,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/brˈaɪdɡrˌum/"
   },
   {
     "id": "fullway-2026-prefix-024",
@@ -9852,7 +10363,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈtuːθeɪk/"
   },
   {
     "id": "fullway-2026-prefix-025",
@@ -9874,7 +10386,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/hˈɛdˌeɪk/"
   },
   {
     "id": "fullway-2026-prefix-026",
@@ -9896,7 +10409,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ˈstʌməkeɪk/"
   },
   {
     "id": "fullway-2026-prefix-027",
@@ -9918,7 +10432,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/bˈækˌeɪk/"
   },
   {
     "id": "fullway-2026-prefix-028",
@@ -9941,7 +10456,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈaɪprˌaɪtɝ/"
   },
   {
     "id": "fullway-2026-prefix-030",
@@ -9964,7 +10480,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɪks jˈɪr ˈoʊld/"
   },
   {
     "id": "fullway-2026-prefix-031",
@@ -9987,7 +10504,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈuti frˈi/"
   },
   {
     "id": "fullway-2026-prefix-032",
@@ -10012,7 +10530,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "Word List 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæbsʌnt mˈaɪndʌd/"
   },
   {
     "id": "fullway-2026-prefix-033",
@@ -10035,7 +10554,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈuli bˈɪlt/"
   },
   {
     "id": "fullway-2026-prefix-034",
@@ -10058,7 +10578,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈeɪt ˈoʊnd/"
   },
   {
     "id": "fullway-2026-prefix-035",
@@ -10081,7 +10602,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/slˈoʊ mˈuvɪŋ/"
   },
   {
     "id": "fullway-2026-prefix-036",
@@ -10104,7 +10626,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈis lˈʌvɪŋ/"
   },
   {
     "id": "fullway-2026-prefix-037",
@@ -10127,7 +10650,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈæst dɪvˈɛlʌpɪŋ/"
   },
   {
     "id": "fullway-2026-prefix-038",
@@ -10150,7 +10674,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈɑrt brˈoʊkʌn/"
   },
   {
     "id": "fullway-2026-prefix-039",
@@ -10173,7 +10698,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɝld fˈeɪmʌs/"
   },
   {
     "id": "fullway-2026-prefix-040",
@@ -10196,7 +10722,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɑrt tˈaɪm/"
   },
   {
     "id": "fullway-2026-prefix-041",
@@ -10219,7 +10746,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈænd mˈeɪd/"
   },
   {
     "id": "fullway-2026-prefix-042",
@@ -10244,7 +10772,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɔŋ tˈɝm/"
   },
   {
     "id": "fullway-2026-prefix-043",
@@ -10266,7 +10795,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈi/"
   },
   {
     "id": "fullway-2026-prefix-044",
@@ -10288,7 +10818,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈoʊ/"
   },
   {
     "id": "fullway-2026-prefix-045",
@@ -10310,7 +10841,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/fˈɔr/"
   },
   {
     "id": "fullway-2026-prefix-046",
@@ -10332,7 +10864,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rˈeɪ/"
   },
   {
     "id": "fullway-2026-prefix-047",
@@ -10354,7 +10887,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈɛks/"
   },
   {
     "id": "fullway-2026-prefix-048",
@@ -10376,7 +10910,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prɪdˈɪkt/"
   },
   {
     "id": "fullway-2026-prefix-049",
@@ -10398,7 +10933,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prɪdˈɪktʌbʌl/"
   },
   {
     "id": "fullway-2026-prefix-050",
@@ -10420,7 +10956,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pripˈeɪ/"
   },
   {
     "id": "fullway-2026-prefix-051",
@@ -10444,7 +10981,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "四级 14"
-    ]
+    ],
+    "phonetic": "/pˈeɪ/"
   },
   {
     "id": "fullway-2026-prefix-052",
@@ -10466,7 +11004,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/dʌpˈɑzɪt/"
   },
   {
     "id": "fullway-2026-prefix-053",
@@ -10491,7 +11030,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "四级 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈɛnt/"
   },
   {
     "id": "fullway-2026-prefix-054",
@@ -10513,7 +11053,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈivjˌu/"
   },
   {
     "id": "fullway-2026-prefix-055",
@@ -10535,7 +11076,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˌikʌndˈɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-056",
@@ -10559,7 +11101,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "蓝色森林 18"
-    ]
+    ],
+    "phonetic": "/sˌɪtʃuˈeɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-057",
@@ -10584,7 +11127,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mjˈutʃuʌl/"
   },
   {
     "id": "fullway-2026-prefix-058",
@@ -10606,7 +11150,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈɑspɛkt/"
   },
   {
     "id": "fullway-2026-prefix-059",
@@ -10634,7 +11179,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 4",
       "蓝色森林 25"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prˈɑɡrˌɛs/"
   },
   {
     "id": "fullway-2026-prefix-060",
@@ -10656,7 +11202,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/stˈɛdi/"
   },
   {
     "id": "fullway-2026-prefix-061",
@@ -10681,7 +11228,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈæpʌd/"
   },
   {
     "id": "fullway-2026-prefix-062",
@@ -10703,7 +11251,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/fˈɔrhɛd/"
   },
   {
     "id": "fullway-2026-prefix-063",
@@ -10725,7 +11274,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/fɔrsˈi/"
   },
   {
     "id": "fullway-2026-prefix-064",
@@ -10747,7 +11297,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˌɛkʌnˈɑmɪk krˈaɪsʌs/"
   },
   {
     "id": "fullway-2026-prefix-065",
@@ -10769,7 +11320,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rɪkˈʌvɝ/"
   },
   {
     "id": "fullway-2026-prefix-066",
@@ -10795,7 +11347,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 7",
       "蓝色森林 17"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪskˈʌvɝ/"
   },
   {
     "id": "fullway-2026-prefix-067",
@@ -10821,7 +11374,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "Word List 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rɪtˈɝn/"
   },
   {
     "id": "fullway-2026-prefix-069",
@@ -10843,7 +11397,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rˌivjˈu/"
   },
   {
     "id": "fullway-2026-prefix-070",
@@ -10865,7 +11420,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ritrˈit/"
   },
   {
     "id": "fullway-2026-prefix-071",
@@ -10890,7 +11446,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 13",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/rˈikˌɔl/"
   },
   {
     "id": "fullway-2026-prefix-072",
@@ -10917,7 +11474,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/riˈækt/"
   },
   {
     "id": "fullway-2026-prefix-073",
@@ -10942,7 +11500,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rɪflˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-074",
@@ -10964,7 +11523,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rɪfˈʌnd/"
   },
   {
     "id": "fullway-2026-prefix-075",
@@ -10989,7 +11549,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "Word List 13"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈʌnd/"
   },
   {
     "id": "fullway-2026-prefix-076",
@@ -11011,7 +11572,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ribˈɪld/"
   },
   {
     "id": "fullway-2026-prefix-077",
@@ -11033,7 +11595,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rˌikʌnstrˈʌkt/"
   },
   {
     "id": "fullway-2026-prefix-078",
@@ -11055,7 +11618,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rˌikʌnsˈɪdɝ/"
   },
   {
     "id": "fullway-2026-prefix-079",
@@ -11080,7 +11644,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌnsˈɪdɝ/"
   },
   {
     "id": "fullway-2026-prefix-081",
@@ -11102,7 +11667,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/risˈaɪkʌl/"
   },
   {
     "id": "fullway-2026-prefix-084",
@@ -11127,7 +11693,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛkspɔrt/"
   },
   {
     "id": "fullway-2026-prefix-085",
@@ -11152,7 +11719,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪmpˈɔrt/"
   },
   {
     "id": "fullway-2026-prefix-086",
@@ -11174,7 +11742,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈɛɡzɪt/"
   },
   {
     "id": "fullway-2026-prefix-087",
@@ -11200,7 +11769,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 9",
       "蓝色森林 16"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪkspˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-088",
@@ -11222,7 +11792,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɪkspˈoʊz/"
   },
   {
     "id": "fullway-2026-prefix-089",
@@ -11244,7 +11815,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɪksklˈud/"
   },
   {
     "id": "fullway-2026-prefix-090",
@@ -11266,7 +11838,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˌɪnklˈud/"
   },
   {
     "id": "fullway-2026-prefix-091",
@@ -11288,7 +11861,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɪksˈɛpt/"
   },
   {
     "id": "fullway-2026-prefix-092",
@@ -11310,7 +11884,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɪkspˈænd/"
   },
   {
     "id": "fullway-2026-prefix-094",
@@ -11332,7 +11907,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɪkstˈɛnd/"
   },
   {
     "id": "fullway-2026-prefix-095",
@@ -11357,7 +11933,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "四级 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪksˈid/"
   },
   {
     "id": "fullway-2026-prefix-096",
@@ -11382,7 +11959,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "四级 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛksˌɛs/"
   },
   {
     "id": "fullway-2026-prefix-097",
@@ -11410,7 +11988,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 4",
       "蓝色森林 19"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌksˈid/"
   },
   {
     "id": "fullway-2026-prefix-099",
@@ -11435,7 +12014,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɛkspɛktˈeɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-100",
@@ -11457,7 +12037,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ɪn / ˈɪm/"
   },
   {
     "id": "fullway-2026-prefix-101",
@@ -11479,7 +12060,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈoʊ / kˈɑn / kˈɑm //"
   },
   {
     "id": "fullway-2026-prefix-102",
@@ -11501,7 +12083,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnspˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-103",
@@ -11525,7 +12108,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "蓝色森林 24"
-    ]
+    ],
+    "phonetic": "/ˈɪnpˌʊt/"
   },
   {
     "id": "fullway-2026-prefix-104",
@@ -11549,7 +12133,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/ˈaʊtpˌʊt/"
   },
   {
     "id": "fullway-2026-prefix-105",
@@ -11571,7 +12156,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪndʒˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-106",
@@ -11593,7 +12179,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/rɪdʒˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-108",
@@ -11615,7 +12202,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnspˈaɪr/"
   },
   {
     "id": "fullway-2026-prefix-109",
@@ -11637,7 +12225,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ʌspˈaɪr/"
   },
   {
     "id": "fullway-2026-prefix-110",
@@ -11659,7 +12248,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/sˈinɝi/"
   },
   {
     "id": "fullway-2026-prefix-111",
@@ -11681,7 +12271,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/pˈeɪntɝ/"
   },
   {
     "id": "fullway-2026-prefix-112",
@@ -11703,7 +12294,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈeɪd/"
   },
   {
     "id": "fullway-2026-prefix-113",
@@ -11725,7 +12317,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/vˈaɪrʌs/"
   },
   {
     "id": "fullway-2026-prefix-114",
@@ -11747,7 +12340,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛst/"
   },
   {
     "id": "fullway-2026-prefix-115",
@@ -11769,7 +12363,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛstmʌnt/"
   },
   {
     "id": "fullway-2026-prefix-116",
@@ -11791,7 +12386,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛstʌɡˌeɪt/"
   },
   {
     "id": "fullway-2026-prefix-117",
@@ -11813,7 +12409,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪmprˈɛs/"
   },
   {
     "id": "fullway-2026-prefix-118",
@@ -11835,7 +12432,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪmprˈɛʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-119",
@@ -11862,7 +12460,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 20",
       "蓝色森林 25"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prˈɪzʌn/"
   },
   {
     "id": "fullway-2026-prefix-120",
@@ -11888,7 +12487,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪmprˈɪzʌn/"
   },
   {
     "id": "fullway-2026-prefix-121",
@@ -11910,7 +12510,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/θˈɛft/"
   },
   {
     "id": "fullway-2026-prefix-122",
@@ -11934,7 +12535,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "四级 8"
-    ]
+    ],
+    "phonetic": "/ˈɪmʌɡrˌeɪt/"
   },
   {
     "id": "fullway-2026-prefix-123",
@@ -11958,7 +12560,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "四级 8"
-    ]
+    ],
+    "phonetic": "/ˈɪmʌɡrʌnt/"
   },
   {
     "id": "fullway-2026-prefix-124",
@@ -11982,7 +12585,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "四级 8"
-    ]
+    ],
+    "phonetic": "/ˌɪmʌɡrˈeɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-125",
@@ -12004,7 +12608,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪmpˈoʊz/"
   },
   {
     "id": "fullway-2026-prefix-126",
@@ -12026,7 +12631,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪmˈɝs/"
   },
   {
     "id": "fullway-2026-prefix-127",
@@ -12051,7 +12657,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈætfˌɔrm/"
   },
   {
     "id": "fullway-2026-prefix-128",
@@ -12073,7 +12680,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/lˈʌɡʒɝi ɡˈʊdz/"
   },
   {
     "id": "fullway-2026-prefix-129",
@@ -12095,7 +12703,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/dɪlˈɪvɝi ˈædrˌɛs/"
   },
   {
     "id": "fullway-2026-prefix-130",
@@ -12117,7 +12726,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/vˈælɪd vˈizʌ/"
   },
   {
     "id": "fullway-2026-prefix-131",
@@ -12142,7 +12752,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/koʊˈɑpɝˌeɪt/"
   },
   {
     "id": "fullway-2026-prefix-132",
@@ -12167,7 +12778,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/koʊˌɑpɝˈeɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-133",
@@ -12189,7 +12801,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˌoʊʌɡzˈɪst/"
   },
   {
     "id": "fullway-2026-prefix-134",
@@ -12211,7 +12824,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈoʊ wˈɝkɝ/"
   },
   {
     "id": "fullway-2026-prefix-135",
@@ -12239,7 +12853,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 19",
       "四级 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑliɡ/"
   },
   {
     "id": "fullway-2026-prefix-136",
@@ -12258,13 +12873,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-28T11:40:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "全方位 3",
-      "蓝色森林 9"
+      "蓝色森林 9",
+      "蓝色森林 27"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌnˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-137",
@@ -12286,7 +12903,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈɑnsʌntrˌeɪt/"
   },
   {
     "id": "fullway-2026-prefix-138",
@@ -12308,7 +12926,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/fˈoʊkʌs ɑn/"
   },
   {
     "id": "fullway-2026-prefix-139",
@@ -12330,7 +12949,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪst əv/"
   },
   {
     "id": "fullway-2026-prefix-140",
@@ -12352,7 +12972,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈɑmbaɪn/"
   },
   {
     "id": "fullway-2026-prefix-141",
@@ -12374,7 +12995,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/θˈɪri/"
   },
   {
     "id": "fullway-2026-prefix-143",
@@ -12396,7 +13018,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kʌmpˈoʊz/"
   },
   {
     "id": "fullway-2026-prefix-144",
@@ -12418,7 +13041,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/bˈi kʌmpˈoʊzd əv/"
   },
   {
     "id": "fullway-2026-prefix-145",
@@ -12443,7 +13067,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmjˈunʌkˌeɪt/"
   },
   {
     "id": "fullway-2026-prefix-146",
@@ -12468,7 +13093,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmjˌunʌkˈeɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-147",
@@ -12493,7 +13119,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmjˈunʌti/"
   },
   {
     "id": "fullway-2026-prefix-148",
@@ -12515,7 +13142,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈɑmbæt/"
   },
   {
     "id": "fullway-2026-prefix-149",
@@ -12539,7 +13167,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "四级 20"
-    ]
+    ],
+    "phonetic": "/ˌɪnflˈeɪʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-150",
@@ -12561,7 +13190,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/tˈeɪk mˈɛʒɝz tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-2026-prefix-151",
@@ -12588,7 +13218,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "Word List 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌlˈɛkt/"
   },
   {
     "id": "fullway-2026-prefix-152",
@@ -12613,7 +13244,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌlˈɛkʃʌn/"
   },
   {
     "id": "fullway-2026-prefix-154",
@@ -12635,7 +13267,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kʌlˈæbɝˌeɪt/"
   },
   {
     "id": "fullway-2026-prefix-155",
@@ -12657,7 +13290,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hˈɑrmʌni/"
   },
   {
     "id": "fullway-2026-prefix-156",
@@ -12679,7 +13313,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hɑrmˈoʊniʌs/"
   },
   {
     "id": "fullway-complete-extra-001",
@@ -12701,7 +13336,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/bˈʌs stˈɑp/"
   },
   {
     "id": "fullway-complete-extra-002",
@@ -12723,7 +13359,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/trˈeɪn stˈeɪʃʌn/"
   },
   {
     "id": "fullway-complete-extra-003",
@@ -12745,7 +13382,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ʃˈoʊ ˈɪntrʌst ɪn/"
   },
   {
     "id": "fullway-complete-extra-004",
@@ -12767,7 +13405,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/bˈi ˈɪntrʌstɪd ɪn/"
   },
   {
     "id": "fullway-complete-extra-005",
@@ -12789,7 +13428,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ʌtrˈækt/"
   },
   {
     "id": "fullway-complete-extra-006",
@@ -12811,7 +13451,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ˈɪt ˈɪz ə wˈeɪst əv tˈaɪm ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-007",
@@ -12833,7 +13474,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ˌsʌmθɪŋ kˈɑst ˌsʌmbədi mˈʌni/"
   },
   {
     "id": "fullway-complete-extra-008",
@@ -12858,7 +13500,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/spˈɛnd tˈaɪm / mˈʌni ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-009",
@@ -12880,7 +13523,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/spˈɛnd tˈaɪm / mˈʌni ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-010",
@@ -12902,7 +13546,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ˈɪt tˈeɪks ˌsʌmbədi tˈaɪm tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-011",
@@ -12924,7 +13569,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/wˈɑʃɪŋ mʌʃˈin/"
   },
   {
     "id": "fullway-complete-extra-012",
@@ -12946,7 +13592,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/hˈæv ə drˈɪŋk/"
   },
   {
     "id": "fullway-complete-extra-013",
@@ -12968,7 +13615,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ˈɛmpti ðə bˈɑks/"
   },
   {
     "id": "fullway-complete-extra-014",
@@ -12990,7 +13638,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/slˈoʊ dˈaʊn/"
   },
   {
     "id": "fullway-complete-extra-015",
@@ -13012,7 +13661,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ɡˈɪv ˌsʌmbədi ə hˈænd/"
   },
   {
     "id": "fullway-complete-extra-016",
@@ -13039,7 +13689,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 7",
       "Word List 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈeɪs tə fˈeɪs/"
   },
   {
     "id": "fullway-complete-extra-017",
@@ -13064,7 +13715,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "Word List 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈi fˈeɪst wɪð/"
   },
   {
     "id": "fullway-complete-extra-018",
@@ -13086,7 +13738,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/fˈeɪs ˈʌp tə/"
   },
   {
     "id": "fullway-complete-extra-019",
@@ -13113,7 +13766,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "Word List 17"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈuz fˈeɪs/"
   },
   {
     "id": "fullway-complete-extra-020",
@@ -13140,7 +13794,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 4",
       "蓝色森林 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/klˈaɪm/"
   },
   {
     "id": "fullway-complete-extra-021",
@@ -13162,7 +13817,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/tˈum/"
   },
   {
     "id": "fullway-complete-extra-022",
@@ -13184,7 +13840,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/tʃˈaɪnʌ dˈeɪli/"
   },
   {
     "id": "fullway-complete-extra-023",
@@ -13211,7 +13868,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 22",
       "四级 19"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rʌkˈɔrd/"
   },
   {
     "id": "fullway-complete-extra-024",
@@ -13236,7 +13894,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈeɪs/"
   },
   {
     "id": "fullway-complete-extra-025",
@@ -13258,7 +13917,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/pˈeɪs/"
   },
   {
     "id": "fullway-complete-extra-026",
@@ -13282,7 +13942,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "蓝色森林 24"
-    ]
+    ],
+    "phonetic": "/spˈid/"
   },
   {
     "id": "fullway-complete-extra-027",
@@ -13305,7 +13966,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈæsk/"
   },
   {
     "id": "fullway-complete-extra-028",
@@ -13327,7 +13989,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/sˈædnʌs/"
   },
   {
     "id": "fullway-complete-extra-029",
@@ -13351,7 +14014,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "蓝色森林 18"
-    ]
+    ],
+    "phonetic": "/smˈaɪl/"
   },
   {
     "id": "fullway-complete-extra-030",
@@ -13373,7 +14037,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/blˈɑk/"
   },
   {
     "id": "fullway-complete-extra-031",
@@ -13398,7 +14063,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛnɝdʒi/"
   },
   {
     "id": "fullway-complete-extra-032",
@@ -13422,7 +14088,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "四级 21"
-    ]
+    ],
+    "phonetic": "/tˈoʊtʌl/"
   },
   {
     "id": "fullway-complete-extra-033",
@@ -13446,7 +14113,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/trˈɪp/"
   },
   {
     "id": "fullway-complete-extra-034",
@@ -13468,7 +14136,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/flˈaʊɝ/"
   },
   {
     "id": "fullway-complete-extra-035",
@@ -13492,7 +14161,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/ɡˈɑrdʌn/"
   },
   {
     "id": "fullway-complete-extra-036",
@@ -13517,7 +14187,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 19"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaɪɝn/"
   },
   {
     "id": "fullway-complete-extra-037",
@@ -13539,7 +14210,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/ʃˈɝt/"
   },
   {
     "id": "fullway-complete-extra-038",
@@ -13564,7 +14236,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɑrk/"
   },
   {
     "id": "fullway-complete-extra-039",
@@ -13589,7 +14262,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "Word List 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈeɪs/"
   },
   {
     "id": "fullway-complete-extra-040",
@@ -13611,7 +14285,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/sˈeɪf/"
   },
   {
     "id": "fullway-complete-extra-041",
@@ -13638,7 +14313,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 12",
       "蓝色森林 24"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛntɝ/"
   },
   {
     "id": "fullway-complete-extra-042",
@@ -13665,7 +14341,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 9",
       "蓝色森林 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈupɝmˌɑrkɪt/"
   },
   {
     "id": "fullway-complete-extra-043",
@@ -13690,7 +14367,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈætʃ/"
   },
   {
     "id": "fullway-complete-extra-044",
@@ -13701,18 +14379,21 @@ window.WORD_MEMORY_WORDS = [
     "tag": "全方位 1 / 单词课补全",
     "source": "全方位",
     "sources": [
-      "全方位"
+      "全方位",
+      "蓝色森林"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "全方位 1"
-    ]
+      "全方位 1",
+      "蓝色森林 27"
+    ],
+    "phonetic": "/drˈɛs/"
   },
   {
     "id": "fullway-complete-extra-045",
@@ -13734,7 +14415,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/fˈʌŋkʃʌn/"
   },
   {
     "id": "fullway-complete-extra-046",
@@ -13756,7 +14438,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/smˈɑrt fˈoʊn/"
   },
   {
     "id": "fullway-complete-extra-047",
@@ -13778,7 +14461,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/smˈɑrt wˈɑtʃ/"
   },
   {
     "id": "fullway-complete-extra-048",
@@ -13803,7 +14487,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "蓝色森林 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/brˈaɪd/"
   },
   {
     "id": "fullway-complete-extra-049",
@@ -13825,7 +14510,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/mˈeɪd/"
   },
   {
     "id": "fullway-complete-extra-050",
@@ -13847,7 +14533,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/tˈaɪp/"
   },
   {
     "id": "fullway-complete-extra-051",
@@ -13871,7 +14558,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/dˈuti/"
   },
   {
     "id": "fullway-complete-extra-052",
@@ -13899,7 +14587,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 20",
       "四级 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈæpʌtʌl/"
   },
   {
     "id": "fullway-complete-extra-053",
@@ -13921,7 +14610,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/mˈɛdʌkʌl ɪkwˈɪpmʌnt/"
   },
   {
     "id": "fullway-complete-extra-054",
@@ -13943,7 +14633,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/pɝfjˈum/"
   },
   {
     "id": "fullway-complete-extra-055",
@@ -13969,7 +14660,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 1",
       "Word List 17"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈeɪ æn ˌɪmpˈɔrtʌnt rˈoʊl ɪn/"
   },
   {
     "id": "fullway-complete-extra-056",
@@ -13995,7 +14687,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 7",
       "蓝色森林 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪkˈɑnʌmi/"
   },
   {
     "id": "fullway-complete-extra-057",
@@ -14023,7 +14716,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 17",
       "短语练习 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pɑrtˈɪsʌpˌeɪt ɪn/"
   },
   {
     "id": "fullway-complete-extra-058",
@@ -14047,7 +14741,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/dɛkˈeɪd/"
   },
   {
     "id": "fullway-complete-extra-059",
@@ -14069,7 +14764,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 1"
-    ]
+    ],
+    "phonetic": "/tɛknˈɑlʌdʒi/"
   },
   {
     "id": "fullway-complete-extra-060",
@@ -14093,7 +14789,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 1",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/lˈɔntʃ/"
   },
   {
     "id": "fullway-complete-extra-061",
@@ -14115,7 +14812,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈeɪbʌl/"
   },
   {
     "id": "fullway-complete-extra-062",
@@ -14126,18 +14824,21 @@ window.WORD_MEMORY_WORDS = [
     "tag": "全方位 2 / 单词课补全",
     "source": "全方位",
     "sources": [
-      "全方位"
+      "全方位",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-18T00:00:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "全方位 2"
-    ]
+      "全方位 2",
+      "四级 22"
+    ],
+    "phonetic": "/hjˈumɝʌs/"
   },
   {
     "id": "fullway-complete-extra-063",
@@ -14161,7 +14862,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "四级 18"
-    ]
+    ],
+    "phonetic": "/vˈælju/"
   },
   {
     "id": "fullway-complete-extra-064",
@@ -14183,7 +14885,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/hˈæpinʌs/"
   },
   {
     "id": "fullway-complete-extra-065",
@@ -14205,7 +14908,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pˈeɪ fˈɔr/"
   },
   {
     "id": "fullway-complete-extra-066",
@@ -14227,7 +14931,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pˈeɪ ˈɔf/"
   },
   {
     "id": "fullway-complete-extra-067",
@@ -14249,7 +14954,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/mˈuv ɪn/"
   },
   {
     "id": "fullway-complete-extra-068",
@@ -14271,7 +14977,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/fˈɔr rˈɛnt/"
   },
   {
     "id": "fullway-complete-extra-069",
@@ -14293,7 +15000,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/vjˈu/"
   },
   {
     "id": "fullway-complete-extra-070",
@@ -14318,7 +15026,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "Word List 11"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/trˈʌst/"
   },
   {
     "id": "fullway-complete-extra-071",
@@ -14340,7 +15049,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/frˈɛndʃɪp/"
   },
   {
     "id": "fullway-complete-extra-072",
@@ -14364,7 +15074,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/ʌbrˈɔd/"
   },
   {
     "id": "fullway-complete-extra-073",
@@ -14389,7 +15100,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "Word List 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪksˈaɪt/"
   },
   {
     "id": "fullway-complete-extra-074",
@@ -14411,7 +15123,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈɑdʒɛkt/"
   },
   {
     "id": "fullway-complete-extra-075",
@@ -14436,7 +15149,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈeɪk prˈɑɡrˌɛs/"
   },
   {
     "id": "fullway-complete-extra-076",
@@ -14458,7 +15172,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/wˈaɪp/"
   },
   {
     "id": "fullway-complete-extra-077",
@@ -14480,7 +15195,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/swˈɛt/"
   },
   {
     "id": "fullway-complete-extra-078",
@@ -14502,7 +15218,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/nˈoʊ pˈeɪn nˈoʊ ɡˈeɪn/"
   },
   {
     "id": "fullway-complete-extra-079",
@@ -14526,7 +15243,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/ʌpˈɑrtmʌnt/"
   },
   {
     "id": "fullway-complete-extra-080",
@@ -14550,7 +15268,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/dɪpˈɑrtmʌnt/"
   },
   {
     "id": "fullway-complete-extra-081",
@@ -14572,7 +15291,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈɑdʌkt lˈɔntʃ/"
   },
   {
     "id": "fullway-complete-extra-082",
@@ -14594,7 +15314,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ʌprˈoʊtʃɪŋ hˈɝʌkˌeɪn/"
   },
   {
     "id": "fullway-complete-extra-083",
@@ -14616,7 +15337,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pʌlˈɪtʌkʌl/"
   },
   {
     "id": "fullway-complete-extra-084",
@@ -14638,7 +15360,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rɪkˈʌvri/"
   },
   {
     "id": "fullway-complete-extra-085",
@@ -14663,7 +15386,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪskˈʌvɝi/"
   },
   {
     "id": "fullway-complete-extra-086",
@@ -14685,7 +15409,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/fˈɔlti/"
   },
   {
     "id": "fullway-complete-extra-087",
@@ -14707,7 +15432,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/dˌɪsˈaɪd tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-088",
@@ -14729,7 +15455,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rˈud bɪhˈeɪvjɝ/"
   },
   {
     "id": "fullway-complete-extra-089",
@@ -14751,7 +15478,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/bˈi sˈætʌsfˌaɪd wɪð/"
   },
   {
     "id": "fullway-complete-extra-090",
@@ -14776,7 +15504,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prˈɑdʌkt/"
   },
   {
     "id": "fullway-complete-extra-091",
@@ -14798,7 +15527,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/fˈʊl rɪfˈʌnd/"
   },
   {
     "id": "fullway-complete-extra-092",
@@ -14820,7 +15550,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈɝθkwˌeɪk/"
   },
   {
     "id": "fullway-complete-extra-093",
@@ -14845,7 +15576,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "Word List 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɛrɪdʒ/"
   },
   {
     "id": "fullway-complete-extra-094",
@@ -14867,7 +15599,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈɑrɡjʌmʌnt/"
   },
   {
     "id": "fullway-complete-extra-095",
@@ -14889,7 +15622,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/flˈaɪt/"
   },
   {
     "id": "fullway-complete-extra-096",
@@ -14911,7 +15645,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/tʃˈɝtʃ/"
   },
   {
     "id": "fullway-complete-extra-097",
@@ -14935,7 +15670,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/ˌɪmˈidˌiʌtli/"
   },
   {
     "id": "fullway-complete-extra-098",
@@ -14957,7 +15693,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rˈɛlʌtɪv/"
   },
   {
     "id": "fullway-complete-extra-099",
@@ -14984,7 +15721,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 18",
       "蓝色森林 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈɑlʌdˌeɪ/"
   },
   {
     "id": "fullway-complete-extra-100",
@@ -15006,7 +15744,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pˈeɪpɝ/"
   },
   {
     "id": "fullway-complete-extra-101",
@@ -15028,7 +15767,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/plˈæstɪk/"
   },
   {
     "id": "fullway-complete-extra-102",
@@ -15050,7 +15790,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prʌtˈɛkt ðə ɪnvˈaɪrʌnmʌnt/"
   },
   {
     "id": "fullway-complete-extra-103",
@@ -15074,7 +15815,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "蓝色森林 14"
-    ]
+    ],
+    "phonetic": "/ɪnvˈaɪrʌnmʌnt/"
   },
   {
     "id": "fullway-complete-extra-104",
@@ -15096,7 +15838,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/kwˈɪt/"
   },
   {
     "id": "fullway-complete-extra-105",
@@ -15120,7 +15863,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 2",
       "蓝色森林 19"
-    ]
+    ],
+    "phonetic": "/bˈɑs/"
   },
   {
     "id": "fullway-complete-extra-106",
@@ -15142,7 +15886,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/sˈælɝi/"
   },
   {
     "id": "fullway-complete-extra-107",
@@ -15164,7 +15909,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/rɪflˈɛkt ɑn/"
   },
   {
     "id": "fullway-complete-extra-108",
@@ -15186,7 +15932,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɡˈoʊ rˈɔŋ/"
   },
   {
     "id": "fullway-complete-extra-109",
@@ -15208,7 +15955,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˌɪlˌɛktrˈɑnɪk prˈɑdʌkt/"
   },
   {
     "id": "fullway-complete-extra-110",
@@ -15230,7 +15978,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈeɪʒʌn kˈʌntri/"
   },
   {
     "id": "fullway-complete-extra-111",
@@ -15252,7 +16001,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɪmˈɝdʒʌnsi/"
   },
   {
     "id": "fullway-complete-extra-112",
@@ -15277,7 +16027,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɑnʌst/"
   },
   {
     "id": "fullway-complete-extra-113",
@@ -15299,7 +16050,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/hˈɑrdwˌɝkɪŋ/"
   },
   {
     "id": "fullway-complete-extra-114",
@@ -15326,7 +16078,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 9",
       "蓝色森林 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɑrkʌt/"
   },
   {
     "id": "fullway-complete-extra-115",
@@ -15348,7 +16101,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/sˈaʊθ ʌmˈɛrʌkʌ/"
   },
   {
     "id": "fullway-complete-extra-116",
@@ -15370,7 +16124,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈæθlˌit/"
   },
   {
     "id": "fullway-complete-extra-117",
@@ -15392,7 +16147,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/prˈiviʌs rʌkˈɔrd/"
   },
   {
     "id": "fullway-complete-extra-118",
@@ -15417,7 +16173,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˌɑmpʌtˈɪʃʌn/"
   },
   {
     "id": "fullway-complete-extra-119",
@@ -15442,7 +16199,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 2",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/aɪdˈɛntɪtˌi/"
   },
   {
     "id": "fullway-complete-extra-120",
@@ -15464,7 +16222,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/bæktˈɪriʌ/"
   },
   {
     "id": "fullway-complete-extra-121",
@@ -15491,7 +16250,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 7",
       "Word List 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑz/"
   },
   {
     "id": "fullway-complete-extra-122",
@@ -15513,7 +16273,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɡˈoʊ bˈæd/"
   },
   {
     "id": "fullway-complete-extra-123",
@@ -15535,7 +16296,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pˈæswˌɝd/"
   },
   {
     "id": "fullway-complete-extra-124",
@@ -15557,7 +16319,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/strˈeɪndʒɝ/"
   },
   {
     "id": "fullway-complete-extra-125",
@@ -15579,7 +16342,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/vˈoʊt/"
   },
   {
     "id": "fullway-complete-extra-126",
@@ -15601,7 +16365,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/pˈɑlʌsi/"
   },
   {
     "id": "fullway-complete-extra-127",
@@ -15623,7 +16388,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ˈʌndɝ/"
   },
   {
     "id": "fullway-complete-extra-128",
@@ -15645,7 +16411,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 2"
-    ]
+    ],
+    "phonetic": "/ɛkshˈeɪl/"
   },
   {
     "id": "fullway-complete-extra-129",
@@ -15667,7 +16434,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɪmpˈɔrt ˌsʌmθɪŋ frˈʌm/"
   },
   {
     "id": "fullway-complete-extra-130",
@@ -15689,7 +16457,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˈɛkspɔrt ˌsʌmθɪŋ tə/"
   },
   {
     "id": "fullway-complete-extra-131",
@@ -15711,7 +16480,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/mˈɪdʌl ˈist/"
   },
   {
     "id": "fullway-complete-extra-132",
@@ -15738,7 +16508,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 15",
       "蓝色森林 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɔɪl/"
   },
   {
     "id": "fullway-complete-extra-133",
@@ -15760,7 +16531,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈʌstʌmz ˈɔfʌsɝ/"
   },
   {
     "id": "fullway-complete-extra-134",
@@ -15787,7 +16559,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "Word List 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈʌɡʌdʒ/"
   },
   {
     "id": "fullway-complete-extra-135",
@@ -15812,7 +16585,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 3"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛrpˌɔrt/"
   },
   {
     "id": "fullway-complete-extra-136",
@@ -15834,7 +16608,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/sˈɝvʌs fˈi/"
   },
   {
     "id": "fullway-complete-extra-137",
@@ -15856,7 +16631,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/tˈæks/"
   },
   {
     "id": "fullway-complete-extra-138",
@@ -15878,7 +16654,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/vˌæksˈin/"
   },
   {
     "id": "fullway-complete-extra-139",
@@ -15900,7 +16677,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˌɛdʒʌkˈeɪʃʌn sˈɪstʌm/"
   },
   {
     "id": "fullway-complete-extra-140",
@@ -15922,7 +16700,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/bˈi ˌɪnvˈɑlvd ɪn/"
   },
   {
     "id": "fullway-complete-extra-141",
@@ -15944,7 +16723,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˈaʊtdˌɔr æktˈɪvʌti/"
   },
   {
     "id": "fullway-complete-extra-142",
@@ -15966,7 +16746,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ɛnkˈɝɪdʒ ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-143",
@@ -15988,7 +16769,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/rˈoʊmʌnz/"
   },
   {
     "id": "fullway-complete-extra-144",
@@ -16010,7 +16792,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/brˈɪtʌn/"
   },
   {
     "id": "fullway-complete-extra-145",
@@ -16032,7 +16815,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˈæd/"
   },
   {
     "id": "fullway-complete-extra-146",
@@ -16054,7 +16838,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/bˌisˈi/"
   },
   {
     "id": "fullway-complete-extra-147",
@@ -16076,7 +16861,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kʌmpjˈutɝ sˈɪstʌm/"
   },
   {
     "id": "fullway-complete-extra-148",
@@ -16098,7 +16884,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/pˈʌblɪk trænspˈɔrt/"
   },
   {
     "id": "fullway-complete-extra-149",
@@ -16120,7 +16907,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hˈɛvʌli/"
   },
   {
     "id": "fullway-complete-extra-150",
@@ -16142,7 +16930,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/pʌlˈis/"
   },
   {
     "id": "fullway-complete-extra-151",
@@ -16164,7 +16953,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/fˈɝðɝ/"
   },
   {
     "id": "fullway-complete-extra-152",
@@ -16188,7 +16978,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/fˈɑrðɝ/"
   },
   {
     "id": "fullway-complete-extra-153",
@@ -16214,7 +17005,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 17"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɔ/"
   },
   {
     "id": "fullway-complete-extra-154",
@@ -16236,7 +17028,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/sˌɪɡɝˈɛt/"
   },
   {
     "id": "fullway-complete-extra-155",
@@ -16258,7 +17051,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/lˈæb mˈaʊs/"
   },
   {
     "id": "fullway-complete-extra-156",
@@ -16280,7 +17074,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/tˈɛst kˈeɪs/"
   },
   {
     "id": "fullway-complete-extra-157",
@@ -16302,7 +17097,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hˈækɝ/"
   },
   {
     "id": "fullway-complete-extra-158",
@@ -16324,7 +17120,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/tʃˈɛrɪti ɪvˈɛnt/"
   },
   {
     "id": "fullway-complete-extra-159",
@@ -16346,7 +17143,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/lˈoʊkʌl kˈʌltʃɝ/"
   },
   {
     "id": "fullway-complete-extra-160",
@@ -16371,7 +17169,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɑpɝˌeɪt/"
   },
   {
     "id": "fullway-complete-extra-161",
@@ -16396,7 +17195,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɑpɝˈeɪʃʌn/"
   },
   {
     "id": "fullway-complete-extra-162",
@@ -16418,7 +17218,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/pˈisfʌli/"
   },
   {
     "id": "fullway-complete-extra-163",
@@ -16440,7 +17241,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hˈɛlp ˌsʌmbədi du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-164",
@@ -16462,7 +17264,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hˈɛlp ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-165",
@@ -16488,7 +17291,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 17"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wɪð ðə hˈɛlp əv ˌsʌmbədi/"
   },
   {
     "id": "fullway-complete-extra-166",
@@ -16513,7 +17317,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/brˈɪdʒ/"
   },
   {
     "id": "fullway-complete-extra-167",
@@ -16538,7 +17343,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɪti/"
   },
   {
     "id": "fullway-complete-extra-168",
@@ -16563,7 +17369,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɛmbɝ/"
   },
   {
     "id": "fullway-complete-extra-169",
@@ -16585,7 +17392,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/mjuzˈɪʃʌn/"
   },
   {
     "id": "fullway-complete-extra-170",
@@ -16607,7 +17415,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/sˈɔŋ/"
   },
   {
     "id": "fullway-complete-extra-171",
@@ -16632,7 +17441,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 3"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɔtɝ/"
   },
   {
     "id": "fullway-complete-extra-172",
@@ -16659,7 +17469,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "蓝色森林 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈɝθdˌeɪ/"
   },
   {
     "id": "fullway-complete-extra-173",
@@ -16684,7 +17495,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 3"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɛrʌnt/"
   },
   {
     "id": "fullway-complete-extra-174",
@@ -16706,7 +17518,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/rˈɛɡjʌlɝli/"
   },
   {
     "id": "fullway-complete-extra-175",
@@ -16730,7 +17543,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "全方位 3",
       "蓝色森林 21"
-    ]
+    ],
+    "phonetic": "/nˈid/"
   },
   {
     "id": "fullway-complete-extra-176",
@@ -16755,7 +17569,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "Word List 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈɑbi/"
   },
   {
     "id": "fullway-complete-extra-177",
@@ -16777,7 +17592,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˈɔθɝ/"
   },
   {
     "id": "fullway-complete-extra-178",
@@ -16799,7 +17615,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/nˈɑvʌl/"
   },
   {
     "id": "fullway-complete-extra-179",
@@ -16812,21 +17629,24 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "全方位",
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-18T00:00:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "全方位 3",
       "Word List 7",
-      "蓝色森林 17"
+      "蓝色森林 17",
+      "四级 22"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hjˈumʌn/"
   },
   {
     "id": "fullway-complete-extra-180",
@@ -16848,7 +17668,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/nˈeɪtʃɝ/"
   },
   {
     "id": "fullway-complete-extra-181",
@@ -16870,7 +17691,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/hɑrmˈoʊniʌsli/"
   },
   {
     "id": "fullway-complete-extra-182",
@@ -16892,7 +17714,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˈɛr pʌlˈuʃʌn/"
   },
   {
     "id": "fullway-complete-extra-183",
@@ -16919,7 +17742,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "蓝色森林 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/θˈɔt/"
   },
   {
     "id": "fullway-complete-extra-184",
@@ -16941,7 +17765,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/ˈoʊpʌnli/"
   },
   {
     "id": "fullway-complete-extra-185",
@@ -16963,7 +17788,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/koʊˈɑpɝˌeɪt tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-complete-extra-186",
@@ -16985,7 +17811,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "全方位 3"
-    ]
+    ],
+    "phonetic": "/kˈɑmbaɪn ə wɪð bˈi/"
   },
   {
     "id": "fullway-complete-extra-187",
@@ -17010,7 +17837,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位 3",
       "蓝色森林 7"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmjˈunʌkˌeɪt wɪð ˌsʌmbədi/"
   },
   {
     "id": "cet-black-20260624-001",
@@ -17032,7 +17860,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/kˈoʊstʌl/"
   },
   {
     "id": "cet-black-20260624-002",
@@ -17054,7 +17883,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/tˈoʊst/"
   },
   {
     "id": "cet-black-20260624-003",
@@ -17076,7 +17906,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/rˈoʊst/"
   },
   {
     "id": "cet-black-20260624-004",
@@ -17098,7 +17929,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/sˈeɪl/"
   },
   {
     "id": "cet-black-20260624-005",
@@ -17120,7 +17952,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/sˈeɪlɪŋ/"
   },
   {
     "id": "cet-black-20260624-006",
@@ -17142,7 +17975,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/sˈeɪlɝ/"
   },
   {
     "id": "cet-black-20260624-007",
@@ -17164,7 +17998,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʃˈɔr/"
   },
   {
     "id": "cet-black-20260624-008",
@@ -17186,7 +18021,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ˈaɪlʌnd/"
   },
   {
     "id": "cet-black-20260624-009",
@@ -17208,7 +18044,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ˈɪnlˌænd/"
   },
   {
     "id": "cet-black-20260624-010",
@@ -17232,7 +18069,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 3",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/bˈitʃ/"
   },
   {
     "id": "cet-black-20260624-011",
@@ -17254,7 +18092,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈɛntʃ/"
   },
   {
     "id": "cet-black-20260624-012",
@@ -17276,7 +18115,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/hˈɑrbɝ/"
   },
   {
     "id": "cet-black-20260624-013",
@@ -17298,7 +18138,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ɛmbrˈeɪs/"
   },
   {
     "id": "cet-black-20260624-014",
@@ -17320,7 +18161,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈeɪ/"
   },
   {
     "id": "cet-black-20260624-015",
@@ -17345,7 +18187,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 3",
       "全方位 1"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʃˈɛltɝ/"
   },
   {
     "id": "cet-black-20260624-016",
@@ -17367,7 +18210,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʃˈeɪd/"
   },
   {
     "id": "cet-black-20260624-017",
@@ -17389,7 +18233,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʃˈeɪdi/"
   },
   {
     "id": "cet-black-20260624-018",
@@ -17411,7 +18256,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʃˈeɪv/"
   },
   {
     "id": "cet-black-20260624-019",
@@ -17433,7 +18279,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʃˈeɪvɝ/"
   },
   {
     "id": "cet-black-20260624-020",
@@ -17455,7 +18302,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈɛlt/"
   },
   {
     "id": "cet-black-20260624-021",
@@ -17477,7 +18325,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈɑnd/"
   },
   {
     "id": "cet-black-20260624-022",
@@ -17499,7 +18348,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈɑndɪdʒ/"
   },
   {
     "id": "cet-black-20260624-023",
@@ -17524,7 +18374,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 3",
       "蓝色森林 13",
       "蓝色森林 25"
-    ]
+    ],
+    "phonetic": "/blˈaɪnd/"
   },
   {
     "id": "cet-black-20260624-024",
@@ -17549,7 +18400,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 3",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɛd/"
   },
   {
     "id": "cet-black-20260624-025",
@@ -17571,7 +18423,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈɛnd/"
   },
   {
     "id": "cet-black-20260624-026",
@@ -17593,7 +18446,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/twˈɪst/"
   },
   {
     "id": "cet-black-20260624-027",
@@ -17615,7 +18469,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/blˈɛnd/"
   },
   {
     "id": "cet-black-20260624-028",
@@ -17637,7 +18492,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/mˈɪks/"
   },
   {
     "id": "cet-black-20260624-029",
@@ -17659,7 +18515,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/mˈɪkstʃɝ/"
   },
   {
     "id": "cet-black-20260624-030",
@@ -17681,7 +18538,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/mˈɪksɝ/"
   },
   {
     "id": "cet-black-20260624-031",
@@ -17705,7 +18563,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 3",
       "蓝色森林 17"
-    ]
+    ],
+    "phonetic": "/stˈɝ/"
   },
   {
     "id": "cet-black-20260624-032",
@@ -17729,7 +18588,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 3",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/mˈaʊntʌn/"
   },
   {
     "id": "cet-black-20260624-033",
@@ -17751,7 +18611,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/mˈaʊntʌnʌs/"
   },
   {
     "id": "cet-black-20260624-034",
@@ -17773,7 +18634,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/fˈaʊntʌn/"
   },
   {
     "id": "cet-black-20260624-035",
@@ -17795,7 +18657,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈeɪs/"
   },
   {
     "id": "cet-black-20260624-036",
@@ -17820,7 +18683,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 3",
       "Word List 13"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/faʊndˈeɪʃʌn/"
   },
   {
     "id": "cet-black-20260624-037",
@@ -17842,7 +18706,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈeɪsmʌnt/"
   },
   {
     "id": "cet-black-20260624-038",
@@ -17864,7 +18729,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈeɪsʌs/"
   },
   {
     "id": "cet-black-20260624-039",
@@ -17886,7 +18752,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/bˈeɪsɪkli/"
   },
   {
     "id": "cet-black-20260624-040",
@@ -17908,7 +18775,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/mˈaʊnt/"
   },
   {
     "id": "cet-black-20260624-041",
@@ -17930,7 +18798,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/mˈaʊntɪŋ/"
   },
   {
     "id": "cet-black-20260624-042",
@@ -17952,7 +18821,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʌmˈaʊnt/"
   },
   {
     "id": "cet-black-20260624-043",
@@ -17976,7 +18846,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 3",
       "蓝色森林 14"
-    ]
+    ],
+    "phonetic": "/sˈɔr/"
   },
   {
     "id": "cet-black-20260624-044",
@@ -17998,7 +18869,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ʌsˈɛnd/"
   },
   {
     "id": "cet-black-20260624-045",
@@ -18020,7 +18892,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/dɪsˈɛnd/"
   },
   {
     "id": "cet-black-20260624-046",
@@ -18042,7 +18915,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/dɪsˈɛnt/"
   },
   {
     "id": "cet-black-20260624-047",
@@ -18064,7 +18938,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/dɪklˈaɪn/"
   },
   {
     "id": "cet-black-20260624-048",
@@ -18086,7 +18961,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "四级 3"
-    ]
+    ],
+    "phonetic": "/ˌɪnklˈaɪn/"
   },
   {
     "id": "lansen-white-20260624-001",
@@ -18108,7 +18984,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ˌæftɝnˈun/"
   },
   {
     "id": "lansen-white-20260624-002",
@@ -18130,7 +19007,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/hˈʌzbʌnd/"
   },
   {
     "id": "lansen-white-20260624-003",
@@ -18152,7 +19030,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ˈætɪk/"
   },
   {
     "id": "lansen-white-20260624-006",
@@ -18177,7 +19056,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 19"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ædvˈaɪz/"
   },
   {
     "id": "lansen-white-20260624-007",
@@ -18199,7 +19079,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/bæmbˈu/"
   },
   {
     "id": "lansen-white-20260624-010",
@@ -18221,7 +19102,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/brˈeɪkdˌaʊn/"
   },
   {
     "id": "lansen-white-20260624-011",
@@ -18243,7 +19125,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/bɪhˈæf/"
   },
   {
     "id": "lansen-white-20260624-012",
@@ -18265,7 +19148,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/kˈʌntrisˌaɪd/"
   },
   {
     "id": "lansen-white-20260624-013",
@@ -18287,7 +19171,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/dˈɛfʌnʌt/"
   },
   {
     "id": "lansen-white-20260624-014",
@@ -18309,7 +19194,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/klˈæsrˌum/"
   },
   {
     "id": "lansen-white-20260624-015",
@@ -18334,7 +19220,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌlˈaʊ/"
   },
   {
     "id": "lansen-white-20260624-016",
@@ -18356,7 +19243,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/bˈæskʌt/"
   },
   {
     "id": "lansen-white-20260624-017",
@@ -18368,20 +19256,23 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "sources": [
       "蓝色森林",
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "蓝色森林 3",
-      "Word List 7"
+      "Word List 7",
+      "四级 22"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɝsʌn/"
   },
   {
     "id": "lansen-white-20260624-018",
@@ -18403,7 +19294,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/mˈɪs/"
   },
   {
     "id": "lansen-white-20260624-019",
@@ -18429,7 +19321,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌlˈoʊn/"
   },
   {
     "id": "lansen-white-20260624-020",
@@ -18451,7 +19344,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ɪmˈɪt/"
   },
   {
     "id": "lansen-white-20260624-021",
@@ -18476,7 +19370,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 12"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈi/"
   },
   {
     "id": "lansen-white-20260624-022",
@@ -18498,7 +19393,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ænd/"
   },
   {
     "id": "lansen-white-20260624-023",
@@ -18520,7 +19416,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/bɪhˈaɪnd/"
   },
   {
     "id": "lansen-white-20260624-024",
@@ -18542,7 +19439,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ˈɪŋk/"
   },
   {
     "id": "lansen-white-20260624-025",
@@ -18566,7 +19464,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 3",
       "四级 11"
-    ]
+    ],
+    "phonetic": "/bˈɪr/"
   },
   {
     "id": "lansen-white-20260624-026",
@@ -18591,7 +19490,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 11"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌmˈʌŋ/"
   },
   {
     "id": "lansen-white-20260624-027",
@@ -18613,7 +19513,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ˈæpʌl/"
   },
   {
     "id": "lansen-white-20260624-028",
@@ -18638,7 +19539,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 14"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɝˈaɪv/"
   },
   {
     "id": "lansen-white-20260624-029",
@@ -18660,7 +19562,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/hˈɝ/"
   },
   {
     "id": "lansen-white-20260624-030",
@@ -18682,7 +19585,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/dʒˈʌmp/"
   },
   {
     "id": "lansen-white-20260624-031",
@@ -18704,7 +19608,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/mˈeɪl/"
   },
   {
     "id": "lansen-white-20260624-032",
@@ -18726,7 +19631,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/nˈaɪt/"
   },
   {
     "id": "lansen-white-20260624-033",
@@ -18748,7 +19654,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/lˈævʌtˌɔri/"
   },
   {
     "id": "lansen-white-20260624-034",
@@ -18770,7 +19677,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/fˈɔrti/"
   },
   {
     "id": "lansen-white-20260624-035",
@@ -18792,7 +19700,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/mjˈuzɪk/"
   },
   {
     "id": "lansen-white-20260624-036",
@@ -18817,7 +19726,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "四级 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bɪˈɑnd/"
   },
   {
     "id": "lansen-white-20260624-037",
@@ -18842,7 +19752,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 11"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈʌndrʌd/"
   },
   {
     "id": "lansen-white-20260624-038",
@@ -18866,7 +19777,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 3",
       "四级 12"
-    ]
+    ],
+    "phonetic": "/kˈɑmɛnt/"
   },
   {
     "id": "lansen-white-20260624-039",
@@ -18888,7 +19800,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/bˈɑdi/"
   },
   {
     "id": "lansen-white-20260624-040",
@@ -18910,7 +19823,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/hˈʌŋɡɝ/"
   },
   {
     "id": "lansen-white-20260624-041",
@@ -18935,7 +19849,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "Word List 11"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɪdʌl/"
   },
   {
     "id": "lansen-white-20260624-042",
@@ -18957,7 +19872,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/bˈɔɪ/"
   },
   {
     "id": "lansen-white-20260624-043",
@@ -18979,7 +19895,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/ˈɛniθˌɪŋ/"
   },
   {
     "id": "lansen-white-20260624-044",
@@ -19003,7 +19920,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 3",
       "蓝色森林 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈeɪt/"
   },
   {
     "id": "lansen-white-20260624-045",
@@ -19026,7 +19944,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 3",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/mˈʌni/"
   },
   {
     "id": "lansen-white-20260624-046",
@@ -19049,7 +19968,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 3",
       "蓝色森林 25"
-    ]
+    ],
+    "phonetic": "/mˈɔrnɪŋ/"
   },
   {
     "id": "lansen-white-20260624-049",
@@ -19071,7 +19991,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/tˈæksi/"
   },
   {
     "id": "lansen-white-20260624-050",
@@ -19093,7 +20014,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/lˈɛsʌn/"
   },
   {
     "id": "lansen-white-20260624-051",
@@ -19115,7 +20037,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 3"
-    ]
+    ],
+    "phonetic": "/lˈaɪbrɛrˌi/"
   },
   {
     "id": "lansen-pdf-a-20260624-001",
@@ -19139,7 +20062,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 4",
       "四级 19"
-    ]
+    ],
+    "phonetic": "/ˈɑdiʌns/"
   },
   {
     "id": "lansen-pdf-a-20260624-003",
@@ -19165,7 +20089,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 19",
       "蓝色森林 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ædvˈaɪs/"
   },
   {
     "id": "lansen-pdf-a-20260624-004",
@@ -19190,7 +20115,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "Word List 19"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌdʒˈɛstʃʌn/"
   },
   {
     "id": "lansen-pdf-a-20260624-006",
@@ -19214,7 +20140,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɛlθ/"
   },
   {
     "id": "lansen-pdf-a-20260624-007",
@@ -19236,7 +20163,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/kˈɝʌdʒ/"
   },
   {
     "id": "lansen-pdf-a-20260624-008",
@@ -19262,7 +20190,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 4",
       "蓝色森林 19"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌksˈɛs/"
   },
   {
     "id": "lansen-pdf-a-20260624-010",
@@ -19287,7 +20216,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "四级 4"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌksˈɛsfʌl/"
   },
   {
     "id": "lansen-pdf-a-20260624-011",
@@ -19309,7 +20239,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/fˈeɪljɝ/"
   },
   {
     "id": "lansen-pdf-a-20260624-012",
@@ -19331,7 +20262,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/fˈeɪl/"
   },
   {
     "id": "lansen-pdf-a-20260624-013",
@@ -19356,7 +20288,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/fˈeɪl tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "lansen-pdf-a-20260624-014",
@@ -19381,7 +20314,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/ə nˈʌmbɝ əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-015",
@@ -19406,7 +20340,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/ðə nˈʌmbɝ əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-016",
@@ -19431,7 +20366,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/mˈɛni ə/"
   },
   {
     "id": "lansen-pdf-a-20260624-017",
@@ -19456,7 +20392,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/mˈɔr ðˈæn wˈʌn/"
   },
   {
     "id": "lansen-pdf-a-20260624-018",
@@ -19478,7 +20415,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/ə lˈɑrdʒ ʌmˈaʊnt əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-019",
@@ -19500,7 +20438,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/lˈɑrdʒ ʌmˈaʊnts əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-020",
@@ -19522,7 +20461,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/ə lˈɑrdʒ kwˈɑntʌti əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-021",
@@ -19544,7 +20484,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/lˈɑrdʒ kwˈɑntʌtiz əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-022",
@@ -19566,7 +20507,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/mˈaɪld/"
   },
   {
     "id": "lansen-pdf-a-20260624-023",
@@ -19591,7 +20533,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/tˈeɪk pˈɑrt ɪn/"
   },
   {
     "id": "lansen-pdf-a-20260624-025",
@@ -19616,7 +20559,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 17",
       "短语练习 4"
-    ]
+    ],
+    "phonetic": "/dʒˈɔɪn ɪn/"
   },
   {
     "id": "lansen-pdf-a-20260624-026",
@@ -19641,7 +20585,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "Word List 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dʒˈɔɪn/"
   },
   {
     "id": "lansen-pdf-a-20260624-028",
@@ -19663,7 +20608,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/lˈeɪtɝ/"
   },
   {
     "id": "lansen-pdf-a-20260624-029",
@@ -19685,7 +20631,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/lˈætɝ/"
   },
   {
     "id": "lansen-pdf-a-20260624-030",
@@ -19707,7 +20654,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/lˈeɪtʌst/"
   },
   {
     "id": "lansen-pdf-a-20260624-031",
@@ -19729,7 +20677,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/lˈeɪtli/"
   },
   {
     "id": "lansen-pdf-a-20260624-032",
@@ -19751,7 +20700,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/pˈaʊɝ kˈʌt/"
   },
   {
     "id": "lansen-pdf-a-20260624-034",
@@ -19775,7 +20725,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 9"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪkwˈɪpmʌnt/"
   },
   {
     "id": "lansen-pdf-a-20260624-037",
@@ -19797,7 +20748,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/prʌdˈus/"
   },
   {
     "id": "lansen-pdf-a-20260624-038",
@@ -19819,7 +20771,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/prʌdˈʌkʃʌn/"
   },
   {
     "id": "lansen-pdf-a-20260624-040",
@@ -19841,7 +20794,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/mˌɛtrʌpˈɑlʌtʌn/"
   },
   {
     "id": "lansen-pdf-a-20260624-041",
@@ -19866,7 +20820,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 18",
       "短语练习 5"
-    ]
+    ],
+    "phonetic": "/ðə kˈɑst əv lˈɪvɪŋ/"
   },
   {
     "id": "lansen-pdf-a-20260624-042",
@@ -19888,7 +20843,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/trˈaɪ tə du/"
   },
   {
     "id": "lansen-pdf-a-20260624-043",
@@ -19910,7 +20866,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/trˈaɪ wʌnz bˈɛst tə du/"
   },
   {
     "id": "lansen-pdf-a-20260624-045",
@@ -19935,7 +20892,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 18",
       "短语练习 5"
-    ]
+    ],
+    "phonetic": "/sˈɛtʌl dˈaʊn/"
   },
   {
     "id": "lansen-pdf-a-20260624-046",
@@ -19957,7 +20915,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/sˈɛtʌl ðə kwˈɔrʌl/"
   },
   {
     "id": "lansen-pdf-a-20260624-047",
@@ -19979,7 +20938,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/mʌtˈɪriʌl/"
   },
   {
     "id": "lansen-pdf-a-20260624-048",
@@ -20004,7 +20964,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 18",
       "短语练习 5"
-    ]
+    ],
+    "phonetic": "/rˈɑ mʌtˈɪriʌl ˈɛs/"
   },
   {
     "id": "lansen-pdf-a-20260624-049",
@@ -20029,7 +20990,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "Word List 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈætɝ/"
   },
   {
     "id": "lansen-pdf-a-20260624-050",
@@ -20051,7 +21013,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/ˈɪt dˈʌzʌnt mˈætɝ/"
   },
   {
     "id": "lansen-pdf-a-20260624-051",
@@ -20076,7 +21039,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "四级 16",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/sˈʌbstʌns/"
   },
   {
     "id": "lansen-pdf-a-20260624-052",
@@ -20098,7 +21062,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/ˈɛlʌmʌnt/"
   },
   {
     "id": "lansen-pdf-a-20260624-053",
@@ -20123,7 +21088,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 18",
       "短语练习 5"
-    ]
+    ],
+    "phonetic": "/ə ʃˈɔrtʌdʒ əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-054",
@@ -20148,7 +21114,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 18",
       "短语练习 5"
-    ]
+    ],
+    "phonetic": "/lˈæk əv/"
   },
   {
     "id": "lansen-pdf-a-20260624-055",
@@ -20173,7 +21140,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "Word List 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌfˈɛkt/"
   },
   {
     "id": "lansen-pdf-a-20260624-056",
@@ -20195,7 +21163,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/ʌfˈɛkʃʌn/"
   },
   {
     "id": "lansen-pdf-a-20260624-057",
@@ -20220,7 +21189,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "Word List 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪfˈɛkt/"
   },
   {
     "id": "lansen-pdf-a-20260624-058",
@@ -20245,7 +21215,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "Word List 20"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪfˈɛktɪv/"
   },
   {
     "id": "lansen-pdf-a-20260624-059",
@@ -20270,7 +21241,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 18",
       "短语练习 5"
-    ]
+    ],
+    "phonetic": "/kˈʌm ˈɪntu ɪfˈɛkt/"
   },
   {
     "id": "lansen-pdf-a-20260624-060",
@@ -20292,7 +21264,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/brˈɪŋ ˈɪntu ɪfˈɛkt/"
   },
   {
     "id": "lansen-pdf-a-20260624-061",
@@ -20317,7 +21290,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/tˈeɪk ɪfˈɛkt/"
   },
   {
     "id": "lansen-pdf-a-20260624-062",
@@ -20342,7 +21316,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 4",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/hˈæv æn ɪfˈɛkt ɑn/"
   },
   {
     "id": "lansen-pdf-a-20260624-063",
@@ -20370,7 +21345,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 19",
       "短语练习 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈaɪd ɪfˈɛkt/"
   },
   {
     "id": "lansen-pdf-a-20260624-064",
@@ -20393,7 +21369,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 4",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/ˌɪntrʌdˈus/"
   },
   {
     "id": "lansen-pdf-a-20260624-065",
@@ -20415,7 +21392,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 4"
-    ]
+    ],
+    "phonetic": "/fˈɪtnʌs/"
   },
   {
     "id": "lansen-pdf-b-20260624-001",
@@ -20438,7 +21416,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "蓝色森林 25"
-    ]
+    ],
+    "phonetic": "/kʌndˈɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-002",
@@ -20465,7 +21444,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 19",
       "短语练习 6"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɪvɪŋ kʌndˈɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-003",
@@ -20490,7 +21470,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/fˈɪzɪkʌl kʌndˈɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-004",
@@ -20515,7 +21496,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/ɪn ɡˈʊd kʌndˈɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-005",
@@ -20537,7 +21519,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/kˈʌt dˈaʊn/"
   },
   {
     "id": "lansen-pdf-b-20260624-006",
@@ -20562,7 +21545,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/fˈɔr ðə sˈeɪk əv/"
   },
   {
     "id": "lansen-pdf-b-20260624-007",
@@ -20587,7 +21571,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/nˈoʊ lˈɔŋɡɝ/"
   },
   {
     "id": "lansen-pdf-b-20260624-008",
@@ -20609,7 +21594,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/tæbˈu/"
   },
   {
     "id": "lansen-pdf-b-20260624-009",
@@ -20634,7 +21620,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "蓝色森林 19",
       "短语练习 6"
-    ]
+    ],
+    "phonetic": "/hjˈumʌn wˈɛl bˈiɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-010",
@@ -20657,7 +21644,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "蓝色森林 23"
-    ]
+    ],
+    "phonetic": "/stˈeɪt/"
   },
   {
     "id": "lansen-pdf-b-20260624-011",
@@ -20681,7 +21669,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/ˈoʊvɝˌɔl/"
   },
   {
     "id": "lansen-pdf-b-20260624-012",
@@ -20692,19 +21681,22 @@ window.WORD_MEMORY_WORDS = [
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-07-29T08:30:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "蓝色森林 5",
-      "蓝色森林 24"
-    ]
+      "蓝色森林 24",
+      "四级 22"
+    ],
+    "phonetic": "/prˈaɪvʌt/"
   },
   {
     "id": "lansen-pdf-b-20260624-013",
@@ -20730,7 +21722,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 7",
       "蓝色森林 25"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pʌlˈaɪt/"
   },
   {
     "id": "lansen-pdf-b-20260624-014",
@@ -20752,7 +21745,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/ˌɪmpʌlˈaɪt/"
   },
   {
     "id": "lansen-pdf-b-20260624-015",
@@ -20764,20 +21758,23 @@ window.WORD_MEMORY_WORDS = [
     "source": "蓝色森林",
     "sources": [
       "蓝色森林",
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "蓝色森林 5",
-      "Word List 7"
+      "Word List 7",
+      "四级 22"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɝsɪnʌl/"
   },
   {
     "id": "lansen-pdf-b-20260624-016",
@@ -20788,18 +21785,21 @@ window.WORD_MEMORY_WORDS = [
     "tag": "蓝色森林 5 / 第一章词汇短语",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-24T00:00:00",
-    "updatedAt": "2026-06-24T00:00:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 5"
-    ]
+      "蓝色森林 5",
+      "四级 22"
+    ],
+    "phonetic": "/ˌɪndʌvˈɪdʒʌwʌl/"
   },
   {
     "id": "lansen-pdf-b-20260624-017",
@@ -20821,7 +21821,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/sʌpˈɔrt/"
   },
   {
     "id": "lansen-pdf-b-20260624-018",
@@ -20843,7 +21844,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/lˈaɪk ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-019",
@@ -20865,7 +21867,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/lˈaɪkli/"
   },
   {
     "id": "lansen-pdf-b-20260624-020",
@@ -20889,7 +21892,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/bˈi lˈaɪkli tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-021",
@@ -20913,7 +21917,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/bˈi ʌnlˈaɪkli tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-023",
@@ -20937,7 +21942,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/rʌsˈiv frˈʌm/"
   },
   {
     "id": "lansen-pdf-b-20260624-024",
@@ -20961,7 +21967,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/hˈir frˈʌm/"
   },
   {
     "id": "lansen-pdf-b-20260624-025",
@@ -20985,7 +21992,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/hˈir əv/"
   },
   {
     "id": "lansen-pdf-b-20260624-026",
@@ -21007,7 +22015,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/kˈɑnfʌdʌns/"
   },
   {
     "id": "lansen-pdf-b-20260624-027",
@@ -21029,7 +22038,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/sˈeɪfɡˌɑrd/"
   },
   {
     "id": "lansen-pdf-b-20260624-029",
@@ -21054,7 +22064,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "Word List 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɪntrʌstɪd/"
   },
   {
     "id": "lansen-pdf-b-20260624-030",
@@ -21079,7 +22090,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 5",
       "Word List 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɪntrʌstɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-031",
@@ -21103,7 +22115,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/bˈi ˈɪntrʌstɪd ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-034",
@@ -21127,7 +22140,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/rɪlˈeɪt tə/"
   },
   {
     "id": "lansen-pdf-b-20260624-035",
@@ -21151,7 +22165,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɝn/"
   },
   {
     "id": "lansen-pdf-b-20260624-036",
@@ -21175,7 +22190,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɝnɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-037",
@@ -21199,7 +22215,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/bˈi kʌnsˈɝnd ʌbˈaʊt/"
   },
   {
     "id": "lansen-pdf-b-20260624-038",
@@ -21223,7 +22240,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "短语练习 7"
-    ]
+    ],
+    "phonetic": "/bˈi kʌnsˈɝnd wɪð/"
   },
   {
     "id": "lansen-pdf-b-20260624-039",
@@ -21245,7 +22263,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/ˈæz fˈɑr ˈæz bˈi kʌnsˈɝnd/"
   },
   {
     "id": "lansen-pdf-b-20260624-040",
@@ -21267,7 +22286,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/bɪlˈɔŋ tə / wɪð/"
   },
   {
     "id": "lansen-pdf-b-20260624-041",
@@ -21289,7 +22309,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/rˈɛzɪdʌnt/"
   },
   {
     "id": "lansen-pdf-b-20260624-042",
@@ -21313,7 +22334,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 18"
-    ]
+    ],
+    "phonetic": "/rˈisɔrs/"
   },
   {
     "id": "lansen-pdf-b-20260624-043",
@@ -21335,7 +22357,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/nˈætʃɝʌl rˈisɔrsɪz/"
   },
   {
     "id": "lansen-pdf-b-20260624-044",
@@ -21359,7 +22382,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 10"
-    ]
+    ],
+    "phonetic": "/tˈɑlɝʌns/"
   },
   {
     "id": "lansen-pdf-b-20260624-045",
@@ -21383,7 +22407,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 10"
-    ]
+    ],
+    "phonetic": "/tˈɑlɝʌnt/"
   },
   {
     "id": "lansen-pdf-b-20260624-047",
@@ -21405,7 +22430,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/ˈɔrdʌnˌɛri/"
   },
   {
     "id": "lansen-pdf-b-20260624-048",
@@ -21427,7 +22453,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/plˈeɪ ə rˈoʊl ɪn ˈduɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-049",
@@ -21449,7 +22476,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/plˈeɪ æn ˌɪmpˈɔrtʌnt rˈoʊl ɪn ˈduɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-050",
@@ -21471,7 +22499,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/ˌɛdʒʌkˈeɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-052",
@@ -21493,7 +22522,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/hˈæv ðə ʌbˈɪlʌtˌi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "lansen-pdf-b-20260624-054",
@@ -21515,7 +22545,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/bˈi ˈeɪbʌl tə du/"
   },
   {
     "id": "lansen-pdf-b-20260624-055",
@@ -21537,7 +22568,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/rˈut/"
   },
   {
     "id": "lansen-pdf-b-20260624-056",
@@ -21559,7 +22591,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/nˈeɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-057",
@@ -21581,7 +22614,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/nˈæʃʌnʌl/"
   },
   {
     "id": "lansen-pdf-b-20260624-058",
@@ -21603,7 +22637,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/nˌæʃʌnˈælʌti/"
   },
   {
     "id": "lansen-pdf-b-20260624-059",
@@ -21625,7 +22660,8 @@ window.WORD_MEMORY_WORDS = [
     "history": [],
     "groups": [
       "蓝色森林 5"
-    ]
+    ],
+    "phonetic": "/ˌɪntɝnˈæʃʌnʌl/"
   },
   {
     "id": "lansen-pdf-b-20260624-060",
@@ -21649,7 +22685,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 19"
-    ]
+    ],
+    "phonetic": "/prʌzˈɝv/"
   },
   {
     "id": "lansen-pdf-b-20260624-061",
@@ -21673,7 +22710,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 19"
-    ]
+    ],
+    "phonetic": "/prˌɛzɝvˈeɪʃʌn/"
   },
   {
     "id": "lansen-pdf-b-20260624-062",
@@ -21697,7 +22735,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 5",
       "四级 19"
-    ]
+    ],
+    "phonetic": "/prizˈɝvʌtɪv/"
   },
   {
     "id": "word-list-6-001",
@@ -21722,7 +22761,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈaʊt/"
   },
   {
     "id": "word-list-6-002",
@@ -21744,7 +22784,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/dˈaʊtfʌl/"
   },
   {
     "id": "word-list-6-003",
@@ -21766,7 +22807,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌfˈɛr/"
   },
   {
     "id": "word-list-6-004",
@@ -21788,7 +22830,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪvˈɛnt/"
   },
   {
     "id": "word-list-6-005",
@@ -21810,7 +22853,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈɪʃu/"
   },
   {
     "id": "word-list-6-006",
@@ -21832,7 +22876,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/dɪstrˈɪbjut/"
   },
   {
     "id": "word-list-6-007",
@@ -21854,7 +22899,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/dɪspjˈut/"
   },
   {
     "id": "word-list-6-008",
@@ -21876,7 +22922,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/prˈɑblʌm/"
   },
   {
     "id": "word-list-6-009",
@@ -21898,7 +22945,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kwˈɛstʃʌn/"
   },
   {
     "id": "word-list-6-010",
@@ -21920,7 +22968,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈænsɝ/"
   },
   {
     "id": "word-list-6-011",
@@ -21942,7 +22991,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/trˈʌbʌl/"
   },
   {
     "id": "word-list-6-012",
@@ -21964,7 +23014,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/trˈʌbʌlsʌm/"
   },
   {
     "id": "word-list-6-013",
@@ -21986,7 +23037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sʌspˈɛkt/"
   },
   {
     "id": "word-list-6-014",
@@ -22008,7 +23060,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sʌspˈɪʃʌn/"
   },
   {
     "id": "word-list-6-015",
@@ -22030,7 +23083,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sʌspˈɪʃʌs/"
   },
   {
     "id": "word-list-6-016",
@@ -22054,7 +23108,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɛkstrˈim/"
   },
   {
     "id": "word-list-6-017",
@@ -22078,7 +23133,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɛkstrˈimli/"
   },
   {
     "id": "word-list-6-018",
@@ -22100,7 +23156,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪmpˈɔrtʌnt/"
   },
   {
     "id": "word-list-6-019",
@@ -22122,7 +23179,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪmpˈɔrtʌns/"
   },
   {
     "id": "word-list-6-020",
@@ -22144,7 +23202,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɛsˈɛnʃʌl/"
   },
   {
     "id": "word-list-6-021",
@@ -22166,7 +23225,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪmpˈɛrʌtɪv/"
   },
   {
     "id": "word-list-6-022",
@@ -22181,16 +23241,19 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-07-31T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "Word List 6",
-      "四级 21"
+      "四级 21",
+      "蓝色森林 27"
     ],
     "sources": [
       "Word List",
-      "四级"
-    ]
+      "四级",
+      "蓝色森林"
+    ],
+    "phonetic": "/vˈaɪtʌl/"
   },
   {
     "id": "word-list-6-023",
@@ -22216,7 +23279,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈɛsʌsˌɛri/"
   },
   {
     "id": "word-list-6-024",
@@ -22240,7 +23304,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/nʌsˈɛsʌti/"
   },
   {
     "id": "word-list-6-025",
@@ -22262,7 +23327,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌnnˈɛsʌsˌɛri/"
   },
   {
     "id": "word-list-6-026",
@@ -22277,14 +23343,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 6"
+      "Word List 6",
+      "蓝色森林 27"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "蓝色森林"
+    ],
+    "phonetic": "/dˈɪfʌkʌlt/"
   },
   {
     "id": "word-list-6-028",
@@ -22306,7 +23375,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈizi/"
   },
   {
     "id": "word-list-6-029",
@@ -22328,7 +23398,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌnˈizi/"
   },
   {
     "id": "word-list-6-030",
@@ -22350,7 +23421,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈizʌli/"
   },
   {
     "id": "word-list-6-031",
@@ -22375,7 +23447,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪzˈiz/"
   },
   {
     "id": "word-list-6-033",
@@ -22397,7 +23470,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sˈɪmpli/"
   },
   {
     "id": "word-list-6-034",
@@ -22419,7 +23493,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kˈɑmplɛks/"
   },
   {
     "id": "word-list-6-035",
@@ -22441,7 +23516,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kʌmplˈɛksʌti/"
   },
   {
     "id": "word-list-6-036",
@@ -22468,7 +23544,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɪfɝ/"
   },
   {
     "id": "word-list-6-037",
@@ -22495,7 +23572,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɪfɝʌnt/"
   },
   {
     "id": "word-list-6-038",
@@ -22522,7 +23600,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɪfɝʌns/"
   },
   {
     "id": "word-list-6-039",
@@ -22544,7 +23623,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sˈeɪm/"
   },
   {
     "id": "word-list-6-040",
@@ -22566,7 +23646,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pˈɑrti/"
   },
   {
     "id": "word-list-6-042",
@@ -22581,16 +23662,18 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "Word List 6",
-      "蓝色森林 13"
+      "蓝色森林 13",
+      "蓝色森林 27"
     ],
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌtˈɛnd/"
   },
   {
     "id": "word-list-6-043",
@@ -22614,7 +23697,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌtˈɛndʌnt/"
   },
   {
     "id": "word-list-6-044",
@@ -22638,7 +23722,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌtˈɛndʌns/"
   },
   {
     "id": "word-list-6-045",
@@ -22660,7 +23745,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pɑrtˈɪsʌpˌeɪt/"
   },
   {
     "id": "word-list-6-046",
@@ -22682,7 +23768,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pɑrtˈɪsʌpʌnt/"
   },
   {
     "id": "word-list-6-047",
@@ -22704,7 +23791,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pɑrtˌɪsʌpˈeɪʃʌn/"
   },
   {
     "id": "word-list-6-048",
@@ -22726,7 +23814,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈaɪt/"
   },
   {
     "id": "word-list-6-049",
@@ -22748,7 +23837,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪnvɪtˈeɪʃʌn/"
   },
   {
     "id": "word-list-6-050",
@@ -22770,7 +23860,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/prˈɛzʌnt/"
   },
   {
     "id": "word-list-6-051",
@@ -22792,7 +23883,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/prˈɛzʌns/"
   },
   {
     "id": "word-list-6-052",
@@ -22814,7 +23906,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈæbsʌnt/"
   },
   {
     "id": "word-list-6-053",
@@ -22836,7 +23929,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈæbsʌns/"
   },
   {
     "id": "word-list-7-003",
@@ -22860,7 +23954,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/pˌɝsʌnˈɛl/"
   },
   {
     "id": "word-list-7-004",
@@ -22884,7 +23979,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈɪroʊ/"
   },
   {
     "id": "word-list-7-005",
@@ -22906,7 +24002,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/hɪrˈoʊɪk/"
   },
   {
     "id": "word-list-7-006",
@@ -22928,7 +24025,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈænli/"
   },
   {
     "id": "word-list-7-007",
@@ -22950,7 +24048,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈænjuʌl/"
   },
   {
     "id": "word-list-7-008",
@@ -22974,7 +24073,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈænkˈaɪnd/"
   },
   {
     "id": "word-list-7-011",
@@ -22996,7 +24096,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈæn/"
   },
   {
     "id": "word-list-7-012",
@@ -23011,16 +24112,19 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-07-25T10:04:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
       "Word List 7",
-      "蓝色森林 20"
+      "蓝色森林 20",
+      "四级 22"
     ],
     "sources": [
       "Word List",
-      "蓝色森林"
-    ]
+      "蓝色森林",
+      "四级"
+    ],
+    "phonetic": "/dʒˈɛndɝ/"
   },
   {
     "id": "word-list-7-013",
@@ -23042,7 +24146,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sˈɛks/"
   },
   {
     "id": "word-list-7-014",
@@ -23057,14 +24162,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 7"
+      "Word List 7",
+      "四级 22"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "四级"
+    ],
+    "phonetic": "/mˈeɪl/"
   },
   {
     "id": "word-list-7-015",
@@ -23079,14 +24187,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 7"
+      "Word List 7",
+      "四级 22"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "四级"
+    ],
+    "phonetic": "/fˈimˌeɪl/"
   },
   {
     "id": "word-list-7-016",
@@ -23111,7 +24222,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dʒˈɛntʌl/"
   },
   {
     "id": "word-list-7-017",
@@ -23136,7 +24248,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dʒˈɛntli/"
   },
   {
     "id": "word-list-7-018",
@@ -23161,7 +24274,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dʒˈɛntʌlmʌn/"
   },
   {
     "id": "word-list-7-020",
@@ -23183,7 +24297,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/frˈɛndli/"
   },
   {
     "id": "word-list-7-021",
@@ -23205,7 +24320,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈud/"
   },
   {
     "id": "word-list-7-022",
@@ -23227,7 +24343,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/wˈeɪt/"
   },
   {
     "id": "word-list-7-023",
@@ -23249,7 +24366,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/wˈeɪtɝ/"
   },
   {
     "id": "word-list-7-024",
@@ -23271,7 +24389,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/wˈeɪtrʌs/"
   },
   {
     "id": "word-list-7-025",
@@ -23293,7 +24412,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/slˈip/"
   },
   {
     "id": "word-list-7-026",
@@ -23315,7 +24435,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/slˈipi/"
   },
   {
     "id": "word-list-7-027",
@@ -23337,7 +24458,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/jˈɔn/"
   },
   {
     "id": "word-list-7-028",
@@ -23359,7 +24481,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌslˈip/"
   },
   {
     "id": "word-list-7-029",
@@ -23381,7 +24504,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/wˈeɪk/"
   },
   {
     "id": "word-list-7-030",
@@ -23403,7 +24527,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌwˈeɪk/"
   },
   {
     "id": "word-list-7-031",
@@ -23429,7 +24554,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈɛlθ/"
   },
   {
     "id": "word-list-7-032",
@@ -23454,7 +24580,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈɛlθi/"
   },
   {
     "id": "word-list-7-033",
@@ -23476,7 +24603,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/dˈaɪʌt/"
   },
   {
     "id": "word-list-7-034",
@@ -23502,7 +24630,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/brˈɛθ/"
   },
   {
     "id": "word-list-7-035",
@@ -23528,7 +24657,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/brˈið/"
   },
   {
     "id": "word-list-7-036",
@@ -23550,7 +24680,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/smˈoʊk/"
   },
   {
     "id": "word-list-7-037",
@@ -23574,7 +24705,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/tʌbˈækˌoʊ/"
   },
   {
     "id": "word-list-7-038",
@@ -23596,7 +24728,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈɑɡ/"
   },
   {
     "id": "word-list-7-039",
@@ -23618,7 +24751,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈɑɡi/"
   },
   {
     "id": "word-list-7-040",
@@ -23640,7 +24774,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tˈitʃ/"
   },
   {
     "id": "word-list-7-041",
@@ -23662,7 +24797,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tˈitʃɝ/"
   },
   {
     "id": "word-list-7-042",
@@ -23684,7 +24820,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tˈitʃ wˌʌnsˈɛlf/"
   },
   {
     "id": "word-list-7-043",
@@ -23706,7 +24843,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tˈutɝ/"
   },
   {
     "id": "word-list-7-045",
@@ -23728,7 +24866,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/lˈɝn/"
   },
   {
     "id": "word-list-7-046",
@@ -23752,7 +24891,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈeɪnt/"
   },
   {
     "id": "word-list-7-047",
@@ -23774,7 +24914,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pˈeɪntɪŋ/"
   },
   {
     "id": "word-list-7-048",
@@ -23798,7 +24939,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/drˈɔ/"
   },
   {
     "id": "word-list-7-049",
@@ -23822,7 +24964,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈɪktʃɝ/"
   },
   {
     "id": "word-list-7-050",
@@ -23844,7 +24987,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pˈɔrtrʌt/"
   },
   {
     "id": "word-list-7-051",
@@ -23866,7 +25010,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kˈɑpi/"
   },
   {
     "id": "word-list-7-052",
@@ -23888,7 +25033,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈoʊtʌɡrˌæf/"
   },
   {
     "id": "word-list-7-053",
@@ -23910,7 +25056,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈoʊtoʊkˌɑpi/"
   },
   {
     "id": "word-list-7-054",
@@ -23937,7 +25084,8 @@ window.WORD_MEMORY_WORDS = [
       "全方位",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈændrˌaɪtɪŋ/"
   },
   {
     "id": "word-list-8-001",
@@ -23962,7 +25110,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈin/"
   },
   {
     "id": "word-list-8-002",
@@ -23984,7 +25133,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈinɪŋ/"
   },
   {
     "id": "word-list-8-003",
@@ -24006,7 +25156,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈil/"
   },
   {
     "id": "word-list-8-004",
@@ -24028,7 +25179,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈɪli/"
   },
   {
     "id": "word-list-8-005",
@@ -24050,7 +25202,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈiʌlɪst/"
   },
   {
     "id": "word-list-8-006",
@@ -24076,7 +25229,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈiʌlˌaɪz/"
   },
   {
     "id": "word-list-8-007",
@@ -24098,7 +25252,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪn rˌiˈælʌtˌi/"
   },
   {
     "id": "word-list-8-008",
@@ -24122,7 +25277,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈækt/"
   },
   {
     "id": "word-list-8-009",
@@ -24144,7 +25300,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/trˈu/"
   },
   {
     "id": "word-list-8-010",
@@ -24166,7 +25323,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/trˈuθ/"
   },
   {
     "id": "word-list-8-011",
@@ -24188,7 +25346,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/trˈuli/"
   },
   {
     "id": "word-list-8-012",
@@ -24210,7 +25369,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪn trˈuθ/"
   },
   {
     "id": "word-list-8-013",
@@ -24232,7 +25392,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tə tˈɛl jˈu ðə trˈuθ/"
   },
   {
     "id": "word-list-8-014",
@@ -24256,7 +25417,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kɝˈɛkt/"
   },
   {
     "id": "word-list-8-015",
@@ -24278,7 +25440,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kɝˈɛkʃʌn/"
   },
   {
     "id": "word-list-8-016",
@@ -24300,7 +25463,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈaɪt/"
   },
   {
     "id": "word-list-8-017",
@@ -24322,7 +25486,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/lˈɛft/"
   },
   {
     "id": "word-list-8-018",
@@ -24344,7 +25509,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈɔŋ/"
   },
   {
     "id": "word-list-8-019",
@@ -24366,7 +25532,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪndˈid/"
   },
   {
     "id": "word-list-8-020",
@@ -24388,7 +25555,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈɔrtʃʌn/"
   },
   {
     "id": "word-list-8-021",
@@ -24410,7 +25578,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈɔrtʃʌnʌt/"
   },
   {
     "id": "word-list-8-022",
@@ -24432,7 +25601,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈɔrtʃʌnʌtli/"
   },
   {
     "id": "word-list-8-023",
@@ -24454,7 +25624,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌnfˈɔrtʃʌnʌtli/"
   },
   {
     "id": "word-list-8-024",
@@ -24476,7 +25647,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/lˈʌk/"
   },
   {
     "id": "word-list-8-025",
@@ -24498,7 +25670,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/lˈʌki/"
   },
   {
     "id": "word-list-8-026",
@@ -24520,7 +25693,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/lˈʌkʌli/"
   },
   {
     "id": "word-list-8-027",
@@ -24544,7 +25718,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spˈɔrt/"
   },
   {
     "id": "word-list-8-028",
@@ -24566,7 +25741,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɡrˈaʊnd/"
   },
   {
     "id": "word-list-8-029",
@@ -24591,7 +25767,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈeɪɡrˌaʊnd/"
   },
   {
     "id": "word-list-8-030",
@@ -24613,7 +25790,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɡˈeɪm/"
   },
   {
     "id": "word-list-8-031",
@@ -24635,7 +25813,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈitɪŋ/"
   },
   {
     "id": "word-list-8-033",
@@ -24659,7 +25838,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/sˈɛʃʌn/"
   },
   {
     "id": "word-list-8-034",
@@ -24681,7 +25861,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈɛri/"
   },
   {
     "id": "word-list-8-035",
@@ -24703,7 +25884,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈɛrid/"
   },
   {
     "id": "word-list-8-037",
@@ -24727,7 +25909,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪvˈɔrs/"
   },
   {
     "id": "word-list-8-038",
@@ -24753,7 +25936,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɪŋɡʌl/"
   },
   {
     "id": "word-list-8-040",
@@ -24775,7 +25959,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/jˌunʌvˈɝsʌti/"
   },
   {
     "id": "word-list-8-041",
@@ -24797,7 +25982,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌkˈædʌmi/"
   },
   {
     "id": "word-list-8-042",
@@ -24819,7 +26005,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌækʌdˈɛmɪk/"
   },
   {
     "id": "word-list-8-043",
@@ -24843,7 +26030,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pjˈupʌl/"
   },
   {
     "id": "word-list-8-044",
@@ -24868,7 +26056,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɡrˈædʒʌwʌt/"
   },
   {
     "id": "word-list-8-045",
@@ -24883,14 +26072,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 8"
+      "Word List 8",
+      "四级 22"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "四级"
+    ],
+    "phonetic": "/mˈeɪdʒɝ/"
   },
   {
     "id": "word-list-8-046",
@@ -24905,14 +26097,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 8"
+      "Word List 8",
+      "四级 22"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "四级"
+    ],
+    "phonetic": "/mʌdʒˈɔrʌti/"
   },
   {
     "id": "word-list-8-047",
@@ -24936,7 +26131,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈaɪnɝ/"
   },
   {
     "id": "word-list-8-048",
@@ -24960,7 +26156,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/maɪnˈɔrʌti/"
   },
   {
     "id": "word-list-8-049",
@@ -24982,7 +26179,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/bˈætʃʌlɝ/"
   },
   {
     "id": "word-list-8-050",
@@ -25004,7 +26202,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈæstɝ/"
   },
   {
     "id": "word-list-8-051",
@@ -25026,7 +26225,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/dˈɑktɝ/"
   },
   {
     "id": "word-list-8-052",
@@ -25048,7 +26248,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/pˈæs/"
   },
   {
     "id": "word-list-8-053",
@@ -25072,7 +26273,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/skˈɔr/"
   },
   {
     "id": "word-list-8-054",
@@ -25094,7 +26296,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tˈɛst/"
   },
   {
     "id": "word-list-9-001",
@@ -25116,7 +26319,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪɡzˈæm/"
   },
   {
     "id": "word-list-9-002",
@@ -25138,7 +26342,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪɡzˈæmɪn/"
   },
   {
     "id": "word-list-9-003",
@@ -25160,7 +26365,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪɡzˌæmʌnˈeɪʃʌn/"
   },
   {
     "id": "word-list-9-004",
@@ -25184,7 +26390,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪɡzˈæmpʌl/"
   },
   {
     "id": "word-list-9-005",
@@ -25208,7 +26415,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɪnstʌns/"
   },
   {
     "id": "word-list-9-006",
@@ -25230,7 +26438,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈɔrdɝ/"
   },
   {
     "id": "word-list-9-007",
@@ -25252,7 +26461,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈɔrdɝli/"
   },
   {
     "id": "word-list-9-008",
@@ -25276,7 +26486,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɛnju/"
   },
   {
     "id": "word-list-9-009",
@@ -25300,7 +26511,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈɛstɝˌɑnt/"
   },
   {
     "id": "word-list-9-010",
@@ -25324,7 +26536,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʊk/"
   },
   {
     "id": "word-list-9-011",
@@ -25346,7 +26559,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kˌæfʌtˈɪriʌ/"
   },
   {
     "id": "word-list-9-012",
@@ -25370,7 +26584,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/stˈeɪk/"
   },
   {
     "id": "word-list-9-013",
@@ -25392,7 +26607,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/dʒˈus/"
   },
   {
     "id": "word-list-9-014",
@@ -25416,7 +26632,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hoʊtˈɛl/"
   },
   {
     "id": "word-list-9-015",
@@ -25438,7 +26655,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈɪn/"
   },
   {
     "id": "word-list-9-016",
@@ -25462,7 +26680,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈædrˌɛs/"
   },
   {
     "id": "word-list-9-018",
@@ -25484,7 +26703,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈɑrkʌtɪŋ/"
   },
   {
     "id": "word-list-9-021",
@@ -25508,7 +26728,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/vˈɪzɪt/"
   },
   {
     "id": "word-list-9-022",
@@ -25530,7 +26751,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/vˈɪzɪtɝ/"
   },
   {
     "id": "word-list-9-023",
@@ -25552,7 +26774,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/prʌvˈaɪd/"
   },
   {
     "id": "word-list-9-024",
@@ -25574,7 +26797,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/prʌvˈɪʒʌn/"
   },
   {
     "id": "word-list-9-025",
@@ -25599,7 +26823,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɔfɝ/"
   },
   {
     "id": "word-list-9-026",
@@ -25624,7 +26849,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌplˈaɪ/"
   },
   {
     "id": "word-list-9-027",
@@ -25646,7 +26872,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sˈʌplʌmʌnt/"
   },
   {
     "id": "word-list-9-028",
@@ -25670,7 +26897,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌbˈændʌn/"
   },
   {
     "id": "word-list-9-029",
@@ -25697,7 +26925,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌbˈʌndʌnt/"
   },
   {
     "id": "word-list-9-030",
@@ -25722,7 +26951,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪnˈʌf/"
   },
   {
     "id": "word-list-9-031",
@@ -25746,7 +26976,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sʌfˈɪʃʌnt/"
   },
   {
     "id": "word-list-9-032",
@@ -25768,7 +26999,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪnsʌfˈɪʃʌnt/"
   },
   {
     "id": "word-list-9-033",
@@ -25783,14 +27015,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 9"
+      "Word List 9",
+      "蓝色森林 27"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "蓝色森林"
+    ],
+    "phonetic": "/plˈɛnti/"
   },
   {
     "id": "word-list-9-034",
@@ -25812,7 +27047,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/plˈɛntʌfʌl/"
   },
   {
     "id": "word-list-9-035",
@@ -25836,7 +27072,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈæs/"
   },
   {
     "id": "word-list-9-036",
@@ -25860,7 +27097,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈæsɪv/"
   },
   {
     "id": "word-list-9-037",
@@ -25882,7 +27120,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/vˈæst/"
   },
   {
     "id": "word-list-9-038",
@@ -25904,7 +27143,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˌɪmˈɛns/"
   },
   {
     "id": "word-list-9-039",
@@ -25926,7 +27166,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/trʌmˈɛndʌs/"
   },
   {
     "id": "word-list-9-040",
@@ -25952,7 +27193,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈʌmbɝ/"
   },
   {
     "id": "word-list-9-042",
@@ -25976,7 +27218,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/slˈaɪt/"
   },
   {
     "id": "word-list-10-001",
@@ -26000,7 +27243,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈoʊp/"
   },
   {
     "id": "word-list-10-002",
@@ -26022,7 +27266,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/hˈoʊpfʌl/"
   },
   {
     "id": "word-list-10-003",
@@ -26044,7 +27289,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/hˈoʊplʌs/"
   },
   {
     "id": "word-list-10-004",
@@ -26066,7 +27312,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/wˈɪʃ/"
   },
   {
     "id": "word-list-10-006",
@@ -26088,7 +27335,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/kˈɑrd/"
   },
   {
     "id": "word-list-10-007",
@@ -26110,7 +27358,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/tˈɪkʌt/"
   },
   {
     "id": "word-list-10-008",
@@ -26134,7 +27383,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɑnɝ/"
   },
   {
     "id": "word-list-10-009",
@@ -26156,7 +27406,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈɑnɝ/"
   },
   {
     "id": "word-list-10-010",
@@ -26180,7 +27431,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɑnɝʌbʌl/"
   },
   {
     "id": "word-list-10-011",
@@ -26204,7 +27456,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɛmɝi/"
   },
   {
     "id": "word-list-10-012",
@@ -26226,7 +27479,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mˈɛmɝˌaɪz/"
   },
   {
     "id": "word-list-10-013",
@@ -26248,7 +27502,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/mʌmˈɔriʌl/"
   },
   {
     "id": "word-list-10-014",
@@ -26270,7 +27525,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ripˈɔrt/"
   },
   {
     "id": "word-list-10-015",
@@ -26292,7 +27548,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rɪpˈɔrtɝ/"
   },
   {
     "id": "word-list-10-016",
@@ -26314,7 +27571,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈivɪn/"
   },
   {
     "id": "word-list-10-017",
@@ -26336,7 +27594,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈʌn/"
   },
   {
     "id": "word-list-10-018",
@@ -26361,7 +27620,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dʒˈoʊk/"
   },
   {
     "id": "word-list-10-019",
@@ -26383,7 +27643,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈʌni/"
   },
   {
     "id": "word-list-10-023",
@@ -26405,7 +27666,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪksˈaɪtʌd/"
   },
   {
     "id": "word-list-10-024",
@@ -26427,7 +27689,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ɪksˈaɪtɪŋ/"
   },
   {
     "id": "word-list-10-025",
@@ -26449,7 +27712,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/θrˈɪl/"
   },
   {
     "id": "word-list-10-027",
@@ -26471,7 +27735,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/hˈɔrɝ/"
   },
   {
     "id": "word-list-10-028",
@@ -26493,7 +27758,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/hˈɔrʌbʌl/"
   },
   {
     "id": "word-list-10-029",
@@ -26515,7 +27781,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/fˈɪr/"
   },
   {
     "id": "word-list-10-030",
@@ -26537,7 +27804,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/lˈɛst/"
   },
   {
     "id": "word-list-10-031",
@@ -26559,7 +27827,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʃˈɑk/"
   },
   {
     "id": "word-list-10-032",
@@ -26581,7 +27850,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sɝprˈaɪz/"
   },
   {
     "id": "word-list-10-033",
@@ -26606,7 +27876,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sɝprˈaɪzd/"
   },
   {
     "id": "word-list-10-034",
@@ -26631,7 +27902,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sɝprˈaɪzɪŋ/"
   },
   {
     "id": "word-list-10-035",
@@ -26653,7 +27925,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sɝprˈaɪzɪŋli/"
   },
   {
     "id": "word-list-10-036",
@@ -26675,7 +27948,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌstˈɑnɪʃmʌnt/"
   },
   {
     "id": "word-list-10-037",
@@ -26697,7 +27971,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ʌstˈɑnɪʃ/"
   },
   {
     "id": "word-list-10-038",
@@ -26719,7 +27994,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/ˈæd ˈʌp tə/"
   },
   {
     "id": "word-list-10-039",
@@ -26741,7 +28017,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sˈʌm/"
   },
   {
     "id": "word-list-10-040",
@@ -26765,7 +28042,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "Word List",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌkjˈumjʌlˌeɪt/"
   },
   {
     "id": "word-list-10-041",
@@ -26790,7 +28068,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛkstrʌ/"
   },
   {
     "id": "word-list-10-042",
@@ -26805,14 +28084,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-25T12:20:00",
-    "updatedAt": "2026-06-25T12:20:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "Word List 10"
+      "Word List 10",
+      "蓝色森林 27"
     ],
     "sources": [
-      "Word List"
-    ]
+      "Word List",
+      "蓝色森林"
+    ],
+    "phonetic": "/sʌbtrˈækt/"
   },
   {
     "id": "word-list-10-046",
@@ -26834,7 +28116,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/rˈum/"
   },
   {
     "id": "word-list-10-048",
@@ -26856,7 +28139,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "Word List"
-    ]
+    ],
+    "phonetic": "/sˈɛl/"
   },
   {
     "id": "blueforest-20260627-06-001",
@@ -26878,7 +28162,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈɛnʌs/"
   },
   {
     "id": "blueforest-20260627-06-003",
@@ -26900,7 +28185,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈɔr/"
   },
   {
     "id": "blueforest-20260627-06-005",
@@ -26922,7 +28208,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈɔr/"
   },
   {
     "id": "blueforest-20260627-06-006",
@@ -26944,7 +28231,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈʌk/"
   },
   {
     "id": "blueforest-20260627-06-007",
@@ -26966,7 +28254,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈælɝi/"
   },
   {
     "id": "blueforest-20260627-06-008",
@@ -26988,7 +28277,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈɪzi/"
   },
   {
     "id": "blueforest-20260627-06-009",
@@ -27010,7 +28300,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈʌtɝ/"
   },
   {
     "id": "blueforest-20260627-06-011",
@@ -27034,7 +28325,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈæptʌn/"
   },
   {
     "id": "blueforest-20260627-06-013",
@@ -27058,7 +28350,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/pˈɑrt/"
   },
   {
     "id": "blueforest-20260627-06-015",
@@ -27080,7 +28373,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪstˈɝb/"
   },
   {
     "id": "blueforest-20260627-06-018",
@@ -27102,7 +28396,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tʃˈɪr/"
   },
   {
     "id": "blueforest-20260627-06-020",
@@ -27124,7 +28419,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈɛmʌstri/"
   },
   {
     "id": "blueforest-20260627-06-021",
@@ -27149,7 +28445,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/klˈoʊðz/"
   },
   {
     "id": "blueforest-20260627-06-022",
@@ -27171,7 +28468,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈilɪŋ/"
   },
   {
     "id": "blueforest-20260627-06-023",
@@ -27193,7 +28491,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tʃˈɔɪs/"
   },
   {
     "id": "blueforest-20260627-06-024",
@@ -27215,7 +28514,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɛrʌmˌoʊni/"
   },
   {
     "id": "blueforest-20260627-06-025",
@@ -27237,7 +28537,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈɛr/"
   },
   {
     "id": "blueforest-20260627-06-026",
@@ -27259,7 +28560,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈʌɡli/"
   },
   {
     "id": "blueforest-20260627-06-027",
@@ -27281,7 +28583,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tʃˈuz/"
   },
   {
     "id": "blueforest-20260627-06-028",
@@ -27303,7 +28606,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tʃˈɛs/"
   },
   {
     "id": "blueforest-20260627-06-030",
@@ -27325,7 +28629,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈu/"
   },
   {
     "id": "blueforest-20260627-06-031",
@@ -27347,7 +28652,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/klˈæp/"
   },
   {
     "id": "blueforest-20260627-06-032",
@@ -27369,7 +28675,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈit/"
   },
   {
     "id": "blueforest-20260627-06-033",
@@ -27391,7 +28698,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈʌnʃˌaɪn/"
   },
   {
     "id": "blueforest-20260627-06-034",
@@ -27413,7 +28721,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝkʌmstˌæns/"
   },
   {
     "id": "blueforest-20260627-06-035",
@@ -27435,7 +28744,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɪt/"
   },
   {
     "id": "blueforest-20260627-06-036",
@@ -27457,7 +28767,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɪnʌt/"
   },
   {
     "id": "blueforest-20260627-06-037",
@@ -27483,7 +28794,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑmʌn/"
   },
   {
     "id": "blueforest-20260627-06-038",
@@ -27507,7 +28819,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈoʊst/"
   },
   {
     "id": "blueforest-20260627-06-039",
@@ -27529,7 +28842,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈɔrm/"
   },
   {
     "id": "blueforest-20260627-06-040",
@@ -27551,7 +28865,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈæriɝ/"
   },
   {
     "id": "blueforest-20260627-06-041",
@@ -27573,7 +28888,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈaʊθ/"
   },
   {
     "id": "blueforest-20260627-06-042",
@@ -27597,7 +28913,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈɪr/"
   },
   {
     "id": "blueforest-20260627-06-043",
@@ -27619,7 +28936,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʌp/"
   },
   {
     "id": "blueforest-20260627-06-045",
@@ -27641,7 +28959,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pʌtˈeɪtˌoʊ/"
   },
   {
     "id": "blueforest-20260627-06-046",
@@ -27663,7 +28982,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɛkspɝtˈiz/"
   },
   {
     "id": "blueforest-20260627-06-047",
@@ -27685,7 +29005,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈʊd/"
   },
   {
     "id": "blueforest-20260627-06-048",
@@ -27707,7 +29028,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈædli/"
   },
   {
     "id": "blueforest-20260627-06-049",
@@ -27729,7 +29051,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈeɪl/"
   },
   {
     "id": "blueforest-20260627-06-050",
@@ -27754,7 +29077,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈʌmpʌnˌi/"
   },
   {
     "id": "blueforest-20260627-06-051",
@@ -27779,7 +29103,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmpˈænjʌn/"
   },
   {
     "id": "blueforest-20260627-07-001",
@@ -27801,7 +29126,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈæv ə rˈɛst/"
   },
   {
     "id": "blueforest-20260627-07-002",
@@ -27823,7 +29149,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn ə hˈɝi/"
   },
   {
     "id": "blueforest-20260627-07-003",
@@ -27848,7 +29175,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪn ə wˈɝd/"
   },
   {
     "id": "blueforest-20260627-07-004",
@@ -27873,7 +29201,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæz ə rɪzˈʌlt/"
   },
   {
     "id": "blueforest-20260627-07-005",
@@ -27895,7 +29224,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn æn ɪmˈɝdʒʌnsi/"
   },
   {
     "id": "blueforest-20260627-07-006",
@@ -27917,7 +29247,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæt æn ˈɝli ˈeɪdʒ/"
   },
   {
     "id": "blueforest-20260627-07-007",
@@ -27941,7 +29272,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/pʌlˈut/"
   },
   {
     "id": "blueforest-20260627-07-008",
@@ -27965,7 +29297,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/pʌlˈuʃʌn/"
   },
   {
     "id": "blueforest-20260627-07-009",
@@ -27987,7 +29320,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pʌlˈutɪd/"
   },
   {
     "id": "blueforest-20260627-07-010",
@@ -28011,7 +29345,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/pʌlˈutʌnt/"
   },
   {
     "id": "blueforest-20260627-07-012",
@@ -28033,7 +29368,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæt ðə sˈeɪm tˈaɪm/"
   },
   {
     "id": "blueforest-20260627-07-013",
@@ -28055,7 +29391,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔl ðə tˈaɪm/"
   },
   {
     "id": "blueforest-20260627-07-014",
@@ -28077,7 +29414,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæt ðə bɪɡˈɪnɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-015",
@@ -28099,7 +29437,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dʒiˈɑɡrʌfi/"
   },
   {
     "id": "blueforest-20260627-07-016",
@@ -28121,7 +29460,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɑn tˈaɪm/"
   },
   {
     "id": "blueforest-20260627-07-017",
@@ -28143,7 +29483,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn tˈaɪm/"
   },
   {
     "id": "blueforest-20260627-07-018",
@@ -28165,7 +29506,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈaɪmli/"
   },
   {
     "id": "blueforest-20260627-07-020",
@@ -28187,7 +29529,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈeɪs tə fˈeɪs kʌmjˌunʌkˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260627-07-021",
@@ -28209,7 +29552,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈeɪ ænd nˈaɪt/"
   },
   {
     "id": "blueforest-20260627-07-022",
@@ -28231,7 +29575,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn ðə bˈɛd/"
   },
   {
     "id": "blueforest-20260627-07-023",
@@ -28253,7 +29598,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn bˈɛd/"
   },
   {
     "id": "blueforest-20260627-07-024",
@@ -28278,7 +29624,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈʌndrʌdz əv/"
   },
   {
     "id": "blueforest-20260627-07-025",
@@ -28303,7 +29650,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/θˈaʊzʌndz əv/"
   },
   {
     "id": "blueforest-20260627-07-027",
@@ -28328,7 +29676,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "全方位"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʃˈɔrt tˈɝm/"
   },
   {
     "id": "blueforest-20260627-07-030",
@@ -28350,7 +29699,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɑpɝˌeɪt ɑn ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260627-07-033",
@@ -28372,7 +29722,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/koʊˈɑpɝˌeɪt wɪð ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260627-07-034",
@@ -28397,7 +29748,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈizʌnʌbʌl/"
   },
   {
     "id": "blueforest-20260627-07-035",
@@ -28419,7 +29771,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌnrˈiznʌbʌl/"
   },
   {
     "id": "blueforest-20260627-07-036",
@@ -28443,7 +29796,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmpˈit/"
   },
   {
     "id": "blueforest-20260627-07-038",
@@ -28465,7 +29819,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌmpˈɛtʌtɪv/"
   },
   {
     "id": "blueforest-20260627-07-039",
@@ -28487,7 +29842,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌmpˈɛtʌtɝ/"
   },
   {
     "id": "blueforest-20260627-07-041",
@@ -28509,7 +29865,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rizˈɑlv/"
   },
   {
     "id": "blueforest-20260627-07-044",
@@ -28533,7 +29890,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɝk ˈaʊt/"
   },
   {
     "id": "blueforest-20260627-07-045",
@@ -28557,7 +29915,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/tʃˈælʌndʒ/"
   },
   {
     "id": "blueforest-20260627-07-046",
@@ -28581,7 +29940,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/tʃˈælʌndʒɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-047",
@@ -28603,7 +29963,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/brˈɔdʌn wʌnz hɝˈaɪzʌn ˈɛs/"
   },
   {
     "id": "blueforest-20260627-07-048",
@@ -28625,7 +29986,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈɔrm / dɪvˈɛlʌp ə / ðə hˈæbʌt əv ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-049",
@@ -28647,7 +30009,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt ˈaʊt əv ðə hˈæbʌt əv ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-050",
@@ -28669,7 +30032,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈip ðə hˈæbʌt əv ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-051",
@@ -28691,7 +30055,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt ə rˈaɪd/"
   },
   {
     "id": "blueforest-20260627-07-052",
@@ -28713,7 +30078,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɪv ˌsʌmbədi ə rˈaɪd/"
   },
   {
     "id": "blueforest-20260627-07-053",
@@ -28735,7 +30101,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈʊrʌl/"
   },
   {
     "id": "blueforest-20260627-07-054",
@@ -28757,7 +30124,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈʊrʌl ˈɛriʌ ˈɛs/"
   },
   {
     "id": "blueforest-20260627-07-055",
@@ -28779,7 +30147,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɝbʌn/"
   },
   {
     "id": "blueforest-20260627-07-056",
@@ -28801,7 +30170,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʌm frˈʌm/"
   },
   {
     "id": "blueforest-20260627-07-057",
@@ -28823,7 +30193,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈuz hˈɑrt/"
   },
   {
     "id": "blueforest-20260627-07-058",
@@ -28845,7 +30216,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈit wɪð/"
   },
   {
     "id": "blueforest-20260627-07-059",
@@ -28867,7 +30239,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈɪtnʌs/"
   },
   {
     "id": "blueforest-20260627-07-060",
@@ -28892,7 +30265,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɑloʊ/"
   },
   {
     "id": "blueforest-20260627-07-061",
@@ -28914,7 +30288,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈɑloʊɝ/"
   },
   {
     "id": "blueforest-20260627-07-062",
@@ -28936,7 +30311,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈɑloʊɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-063",
@@ -28958,7 +30334,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈɑloʊ rˈulz/"
   },
   {
     "id": "blueforest-20260627-07-064",
@@ -28983,7 +30360,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæz fˈɑloʊz/"
   },
   {
     "id": "blueforest-20260627-07-065",
@@ -29005,7 +30383,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɪt tˈeɪks / tˈʊk ˌsʌmbədi tˈaɪm / mˈʌni tə du/"
   },
   {
     "id": "blueforest-20260627-07-066",
@@ -29027,7 +30406,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌsʌmbədi spˈɛndz tˈaɪm / mˈʌni ɪn ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-068",
@@ -29049,7 +30429,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/junˈik/"
   },
   {
     "id": "blueforest-20260627-07-070",
@@ -29071,7 +30452,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈɑmʌn sˈɛns/"
   },
   {
     "id": "blueforest-20260627-07-071",
@@ -29093,7 +30475,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn kˈɑmʌn/"
   },
   {
     "id": "blueforest-20260627-07-072",
@@ -29115,7 +30498,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈæv ˌsʌmθɪŋ ɪn kˈɑmʌn/"
   },
   {
     "id": "blueforest-20260627-07-073",
@@ -29137,7 +30521,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈæv nˈʌθɪŋ ɪn kˈɑmʌn/"
   },
   {
     "id": "blueforest-20260627-07-074",
@@ -29159,7 +30544,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈæv mˈʌtʃ / ə lˈɑt ɪn kˈɑmʌn/"
   },
   {
     "id": "blueforest-20260627-07-075",
@@ -29181,7 +30567,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt ʌlˈɔŋ/"
   },
   {
     "id": "blueforest-20260627-07-076",
@@ -29203,7 +30590,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt ʌlˈɔŋ wˈɛl wɪð ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260627-07-078",
@@ -29225,7 +30613,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡrˌædʒuˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260627-07-079",
@@ -29247,7 +30636,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡrˈædʒʌwʌt frˈʌm/"
   },
   {
     "id": "blueforest-20260627-07-080",
@@ -29269,7 +30659,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌʌndɝɡrˈædʒʌwʌt/"
   },
   {
     "id": "blueforest-20260627-07-081",
@@ -29294,7 +30685,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmˈænd/"
   },
   {
     "id": "blueforest-20260627-07-082",
@@ -29319,7 +30711,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈæv ə ɡˈʊd kʌmˈænd əv/"
   },
   {
     "id": "blueforest-20260627-07-085",
@@ -29341,7 +30734,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌmjˈunʌkʌtɪv/"
   },
   {
     "id": "blueforest-20260627-07-087",
@@ -29367,7 +30761,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔrʌn/"
   },
   {
     "id": "blueforest-20260627-07-088",
@@ -29392,7 +30787,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔrʌnɝ/"
   },
   {
     "id": "blueforest-20260627-07-090",
@@ -29414,7 +30810,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈitʌd/"
   },
   {
     "id": "blueforest-20260627-07-091",
@@ -29436,7 +30833,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈɑz / ɝˈaʊz ə hˈitʌd dɪskˈʌʃʌn/"
   },
   {
     "id": "blueforest-20260627-07-092",
@@ -29458,7 +30856,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɝˈaʊz/"
   },
   {
     "id": "blueforest-20260627-07-093",
@@ -29480,7 +30879,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈaɪz/"
   },
   {
     "id": "blueforest-20260627-07-094",
@@ -29502,7 +30902,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɝˈaɪz/"
   },
   {
     "id": "blueforest-20260627-07-095",
@@ -29525,7 +30926,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈeɪz/"
   },
   {
     "id": "blueforest-20260627-07-096",
@@ -29547,7 +30949,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈeɪz mˈʌni/"
   },
   {
     "id": "blueforest-20260627-07-097",
@@ -29570,7 +30973,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈɝldwˈaɪd/"
   },
   {
     "id": "blueforest-20260627-07-098",
@@ -29592,7 +30996,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈinɪŋfʌl/"
   },
   {
     "id": "blueforest-20260627-07-100",
@@ -29617,7 +31022,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈeɪmʌs/"
   },
   {
     "id": "blueforest-20260627-07-101",
@@ -29639,7 +31045,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi fˈeɪmʌs / nˈoʊn fˈɔr/"
   },
   {
     "id": "blueforest-20260627-07-102",
@@ -29661,7 +31068,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi fˈeɪmʌs / nˈoʊn ˈæz/"
   },
   {
     "id": "blueforest-20260627-07-104",
@@ -29683,7 +31091,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðə mˈoʊst/"
   },
   {
     "id": "blueforest-20260627-07-105",
@@ -29705,7 +31114,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɔr ðˈæn/"
   },
   {
     "id": "blueforest-20260627-07-106",
@@ -29727,7 +31137,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈɛs ðˈæn/"
   },
   {
     "id": "blueforest-20260627-07-107",
@@ -29749,7 +31160,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈoʊ mˈɔr ðˈæn/"
   },
   {
     "id": "blueforest-20260627-07-108",
@@ -29771,7 +31183,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔrɡʌnˌaɪz/"
   },
   {
     "id": "blueforest-20260627-07-109",
@@ -29793,7 +31206,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɔrɡʌnʌzˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260627-07-110",
@@ -29817,7 +31231,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/meɪntˈeɪn/"
   },
   {
     "id": "blueforest-20260627-07-111",
@@ -29841,7 +31256,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈeɪntʌnʌns/"
   },
   {
     "id": "blueforest-20260627-07-113",
@@ -29865,7 +31281,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌplˈaɪ ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260627-07-114",
@@ -29889,7 +31306,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌplˈaɪ ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260627-07-115",
@@ -29911,7 +31329,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈʊt ˈɪntu jˈus/"
   },
   {
     "id": "blueforest-20260627-07-116",
@@ -29933,7 +31352,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tə bˈi ˈɑnʌst/"
   },
   {
     "id": "blueforest-20260627-07-118",
@@ -29955,7 +31375,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ə dˈɪfɝʌns tə/"
   },
   {
     "id": "blueforest-20260627-07-120",
@@ -29977,7 +31398,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi dˈɪfɝʌnt frˈʌm/"
   },
   {
     "id": "blueforest-20260627-07-122",
@@ -29999,7 +31421,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈæʃʌnʌl ɪkˈɑnʌmi/"
   },
   {
     "id": "blueforest-20260627-07-123",
@@ -30021,7 +31444,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɛkʌnˈɑmɪk/"
   },
   {
     "id": "blueforest-20260627-07-124",
@@ -30043,7 +31467,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɛkʌnˈɑmɪk dɪvˈɛlʌpmʌnt/"
   },
   {
     "id": "blueforest-20260627-07-125",
@@ -30065,7 +31490,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɛkʌnˈɑmɪk ɡrˈoʊθ/"
   },
   {
     "id": "blueforest-20260627-07-126",
@@ -30087,7 +31513,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɛkʌnˈɑmɪkʌl/"
   },
   {
     "id": "blueforest-20260627-07-127",
@@ -30109,7 +31536,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪkˈɑnʌmɪst/"
   },
   {
     "id": "blueforest-20260627-07-128",
@@ -30133,7 +31561,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌfˈɝ/"
   },
   {
     "id": "blueforest-20260627-07-129",
@@ -30155,7 +31584,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌfˈɝ ə tə bˈi/"
   },
   {
     "id": "blueforest-20260627-07-130",
@@ -30177,7 +31607,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌfˈɝ ˈduɪŋ ə tə ˈduɪŋ bˈi/"
   },
   {
     "id": "blueforest-20260627-07-131",
@@ -30199,7 +31630,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌfˈɝ ˌsʌmbədi tə du/"
   },
   {
     "id": "blueforest-20260627-07-132",
@@ -30221,7 +31653,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌfˈɝ tə du ə rˈæðɝ ðˈæn du bˈi/"
   },
   {
     "id": "blueforest-20260627-07-133",
@@ -30247,7 +31680,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌsˈaɪʌti/"
   },
   {
     "id": "blueforest-20260627-07-134",
@@ -30272,7 +31706,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈoʊʃʌl/"
   },
   {
     "id": "blueforest-20260627-07-135",
@@ -30294,7 +31729,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈoʊʃʌbʌl/"
   },
   {
     "id": "blueforest-20260627-07-136",
@@ -30320,7 +31756,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈoʊʃʌl mˈidiʌ/"
   },
   {
     "id": "cet4-20260627-04-001",
@@ -30342,7 +31779,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnklʌnˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260627-04-002",
@@ -30364,7 +31802,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnklˈaɪnd/"
   },
   {
     "id": "cet4-20260627-04-003",
@@ -30386,7 +31825,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈænsˌɛstɝ/"
   },
   {
     "id": "cet4-20260627-04-004",
@@ -30408,7 +31848,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈænsɛstri/"
   },
   {
     "id": "cet4-20260627-04-005",
@@ -30430,7 +31871,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈeɪntʃʌnt/"
   },
   {
     "id": "cet4-20260627-04-006",
@@ -30455,7 +31897,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌnsˈɛnsʌs/"
   },
   {
     "id": "cet4-20260627-04-007",
@@ -30477,7 +31920,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌsˈid/"
   },
   {
     "id": "cet4-20260627-04-008",
@@ -30499,7 +31943,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌsˈidɪŋ/"
   },
   {
     "id": "cet4-20260627-04-009",
@@ -30521,7 +31966,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌsˈɛʃʌn/"
   },
   {
     "id": "cet4-20260627-04-010",
@@ -30545,7 +31991,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/trˈup/"
   },
   {
     "id": "cet4-20260627-04-011",
@@ -30567,7 +32014,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prˈɑsˌɛs/"
   },
   {
     "id": "cet4-20260627-04-012",
@@ -30589,7 +32037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prˈɑsˌɛsɝ/"
   },
   {
     "id": "cet4-20260627-04-013",
@@ -30611,7 +32060,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌsˈidʒɝ/"
   },
   {
     "id": "cet4-20260627-04-014",
@@ -30633,7 +32083,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈæksˌɛs/"
   },
   {
     "id": "cet4-20260627-04-015",
@@ -30655,7 +32106,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/æksˈɛsʌbʌl/"
   },
   {
     "id": "cet4-20260627-04-016",
@@ -30677,7 +32129,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌsˈɛs/"
   },
   {
     "id": "cet4-20260627-04-017",
@@ -30699,7 +32152,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌsˈɛsmʌnt/"
   },
   {
     "id": "cet4-20260627-04-019",
@@ -30721,7 +32175,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪksˈidɪŋli/"
   },
   {
     "id": "cet4-20260627-04-021",
@@ -30743,7 +32198,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sˈɝplʌs/"
   },
   {
     "id": "cet4-20260627-04-024",
@@ -30765,7 +32221,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪksˈɛsɪv/"
   },
   {
     "id": "cet4-20260627-04-028",
@@ -30787,7 +32244,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sʌksˈɛʃʌn/"
   },
   {
     "id": "cet4-20260627-04-029",
@@ -30809,7 +32267,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sʌksˈɛsɪv/"
   },
   {
     "id": "cet4-20260627-04-030",
@@ -30831,7 +32290,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sʌksˈɛsɝ/"
   },
   {
     "id": "cet4-20260627-04-031",
@@ -30853,7 +32313,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪksˈɛl/"
   },
   {
     "id": "cet4-20260627-04-032",
@@ -30878,7 +32339,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɛksʌlʌnt/"
   },
   {
     "id": "cet4-20260627-04-033",
@@ -30900,7 +32362,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɛksʌlʌns/"
   },
   {
     "id": "cet4-20260627-04-034",
@@ -30925,7 +32388,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/strˈaɪd/"
   },
   {
     "id": "cet4-20260627-04-035",
@@ -30950,7 +32414,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɑndɝ/"
   },
   {
     "id": "cet4-20260627-04-036",
@@ -30972,7 +32437,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/krˈɔl/"
   },
   {
     "id": "cet4-20260627-04-039",
@@ -30994,7 +32460,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌɡrˈɛsɪv/"
   },
   {
     "id": "cet4-20260627-04-040",
@@ -31016,7 +32483,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌɡrˈɛʃʌn/"
   },
   {
     "id": "cet4-20260627-04-041",
@@ -31038,7 +32506,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈɑŋɡrʌs/"
   },
   {
     "id": "cet4-20260627-04-042",
@@ -31060,7 +32529,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌnɡrˈɛʃʌnʌl/"
   },
   {
     "id": "cet4-20260627-04-043",
@@ -31082,7 +32552,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌɡrˈɛsɪv/"
   },
   {
     "id": "cet4-20260627-04-044",
@@ -31104,7 +32575,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌɡrˈɛʃʌn/"
   },
   {
     "id": "cet4-20260627-04-046",
@@ -31126,7 +32598,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈuvmʌnt/"
   },
   {
     "id": "cet4-20260627-04-047",
@@ -31148,7 +32621,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈoʊʃʌn/"
   },
   {
     "id": "cet4-20260627-04-048",
@@ -31170,7 +32644,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈoʊbʌl/"
   },
   {
     "id": "cet4-20260627-04-049",
@@ -31192,7 +32667,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/stˈætɪk/"
   },
   {
     "id": "cet4-20260627-04-050",
@@ -31214,7 +32690,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈoʊtɪv/"
   },
   {
     "id": "fullway-20260627-v29-142",
@@ -31238,7 +32715,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/θˈaʊzʌnd/"
   },
   {
     "id": "fullway-20260627-v29-143",
@@ -31262,7 +32740,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/mˈɪljʌn/"
   },
   {
     "id": "fullway-20260627-v29-144",
@@ -31286,7 +32765,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/mˈɪljʌn ænd mˈɪljʌnz əv/"
   },
   {
     "id": "fullway-20260627-v29-145",
@@ -31310,7 +32790,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/bˈɪljʌn/"
   },
   {
     "id": "fullway-20260627-v29-146",
@@ -31334,7 +32815,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/sˈɛvrʌl/"
   },
   {
     "id": "fullway-20260627-v29-147",
@@ -31360,7 +32842,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "蓝色森林 25"
-    ]
+    ],
+    "phonetic": "/sˈaɪʌns/"
   },
   {
     "id": "fullway-20260627-v29-148",
@@ -31384,7 +32867,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/sˈaɪʌntɪst/"
   },
   {
     "id": "fullway-20260627-v29-149",
@@ -31408,7 +32892,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/sˌaɪʌntˈɪfɪk/"
   },
   {
     "id": "wordlist-20260627-v31-378",
@@ -31432,7 +32917,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/sʌɡnˈɪfɪkʌnt/"
   },
   {
     "id": "fullway-20260627-v29-150",
@@ -31456,7 +32942,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/sʌɡnˈɪfɪkʌns/"
   },
   {
     "id": "fullway-20260627-v29-151",
@@ -31480,7 +32967,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/θˈæŋk/"
   },
   {
     "id": "fullway-20260627-v29-152",
@@ -31504,7 +32992,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/θˈæŋk ˌsʌmbədi fˈɔr ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-153",
@@ -31528,7 +33017,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/θˈæŋks tə/"
   },
   {
     "id": "fullway-20260627-v29-154",
@@ -31554,7 +33044,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "四级 17"
-    ]
+    ],
+    "phonetic": "/ʌprˈiʃiˌeɪt/"
   },
   {
     "id": "fullway-20260627-v29-155",
@@ -31578,7 +33069,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ʌprˈiʃiˌeɪt ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-156",
@@ -31605,7 +33097,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 17",
       "四级 18"
-    ]
+    ],
+    "phonetic": "/ʌprˌiʃiˈeɪʃʌn/"
   },
   {
     "id": "wordlist-20260627-v31-379",
@@ -31631,7 +33124,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "四级 17"
-    ]
+    ],
+    "phonetic": "/ɡrˈætʌtˌud/"
   },
   {
     "id": "fullway-20260627-v29-157",
@@ -31657,7 +33151,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "四级 17"
-    ]
+    ],
+    "phonetic": "/ɡrˈeɪtfʌl/"
   },
   {
     "id": "fullway-20260627-v29-158",
@@ -31681,7 +33176,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/bˈi ɡrˈeɪtfʌl fˈɔr/"
   },
   {
     "id": "fullway-20260627-v29-159",
@@ -31707,7 +33203,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "蓝色森林 14"
-    ]
+    ],
+    "phonetic": "/blˈɛs/"
   },
   {
     "id": "wordlist-20260627-v31-380",
@@ -31736,7 +33233,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 5",
       "蓝色森林 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈækt/"
   },
   {
     "id": "fullway-20260627-v29-163",
@@ -31766,7 +33264,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 17",
       "蓝色森林 24"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæktɪv/"
   },
   {
     "id": "fullway-20260627-v29-160",
@@ -31790,7 +33289,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˌɪntɝˈækt/"
   },
   {
     "id": "fullway-20260627-v29-161",
@@ -31814,7 +33314,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˌɪntɝˈækt wɪð/"
   },
   {
     "id": "fullway-20260627-v29-162",
@@ -31838,7 +33339,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˌɪntɝˈæktɪv/"
   },
   {
     "id": "fullway-20260627-v29-165",
@@ -31865,7 +33367,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈækʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-166",
@@ -31889,7 +33392,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˈækʃʌnz spˈik lˈaʊdɝ ðˈæn wˈɝdz/"
   },
   {
     "id": "fullway-20260627-v29-167",
@@ -31913,7 +33417,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/tˈeɪk ˈækʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-164",
@@ -31940,7 +33445,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/æktˈɪvʌti/"
   },
   {
     "id": "fullway-20260627-v29-170",
@@ -31964,7 +33470,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/fˈɪzɪkʌl æktˈɪvʌti/"
   },
   {
     "id": "wordlist-20260627-v31-381",
@@ -31993,7 +33500,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 5",
       "蓝色森林 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæktɝ/"
   },
   {
     "id": "wordlist-20260627-v31-382",
@@ -32020,7 +33528,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæktrʌs/"
   },
   {
     "id": "fullway-20260627-v29-168",
@@ -32049,7 +33558,8 @@ window.WORD_MEMORY_WORDS = [
       "四级 5",
       "蓝色森林 15"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæktʃʌwʌl/"
   },
   {
     "id": "fullway-20260627-v29-169",
@@ -32076,7 +33586,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæktʃˌuʌli/"
   },
   {
     "id": "fullway-20260627-v29-172",
@@ -32103,7 +33614,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 5"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/riˈækʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-173",
@@ -32131,7 +33643,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "蓝色森林 17",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/ɡˈæðɝ/"
   },
   {
     "id": "fullway-20260627-v29-174",
@@ -32157,7 +33670,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/tʌɡˈɛðɝ/"
   },
   {
     "id": "fullway-20260627-v29-175",
@@ -32183,7 +33697,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/ˌɔltʌɡˈɛðɝ/"
   },
   {
     "id": "fullway-20260627-v29-177",
@@ -32207,7 +33722,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/bɪtwˈin/"
   },
   {
     "id": "wordlist-20260627-v33-046",
@@ -32228,7 +33744,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˈeɪdʒ/"
   },
   {
     "id": "fullway-20260627-v29-179",
@@ -32252,7 +33769,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˈæt ðə ˈeɪdʒ əv/"
   },
   {
     "id": "fullway-20260627-v29-180",
@@ -32276,7 +33794,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˈæsk/"
   },
   {
     "id": "fullway-20260627-v29-181",
@@ -32300,7 +33819,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/ˈæsk ˌsʌmbədi fˈɔr hˈɛlp/"
   },
   {
     "id": "fullway-20260627-v29-182",
@@ -32328,7 +33848,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 11",
       "四级 17",
       "蓝色森林 25"
-    ]
+    ],
+    "phonetic": "/bɪlˈiv/"
   },
   {
     "id": "fullway-20260627-v29-183",
@@ -32352,7 +33873,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/bɪlˈiv ɪn/"
   },
   {
     "id": "wordlist-20260627-v33-052",
@@ -32373,7 +33895,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/bɪlˈiv ˈɪt ɔr nˈɑt/"
   },
   {
     "id": "fullway-20260627-v29-184",
@@ -32399,7 +33922,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 11",
       "四级 17"
-    ]
+    ],
+    "phonetic": "/bɪlˈif/"
   },
   {
     "id": "fullway-20260627-v29-185",
@@ -32423,7 +33947,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/fˈeɪθ/"
   },
   {
     "id": "fullway-20260627-v29-186",
@@ -32447,7 +33972,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 11"
-    ]
+    ],
+    "phonetic": "/fˈeɪθfʌl/"
   },
   {
     "id": "wordlist-20260627-v33-057",
@@ -32468,7 +33994,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/stˈeɪ/"
   },
   {
     "id": "fullway-20260627-v29-189",
@@ -32492,7 +34019,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/stˈeɪ ˈʌp/"
   },
   {
     "id": "fullway-20260627-v29-187",
@@ -32518,7 +34046,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 12",
       "蓝色森林 24"
-    ]
+    ],
+    "phonetic": "/kˈip/"
   },
   {
     "id": "fullway-20260627-v29-188",
@@ -32542,7 +34071,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/kˈip ɑn/"
   },
   {
     "id": "fullway-20260627-v29-190",
@@ -32566,7 +34096,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/kˈip ˈʌp wɪð/"
   },
   {
     "id": "fullway-20260627-v29-191",
@@ -32590,7 +34121,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/kˈip frˈʌm/"
   },
   {
     "id": "wordlist-20260627-v33-063",
@@ -32607,11 +34139,15 @@ window.WORD_MEMORY_WORDS = [
     "mastery": "未学",
     "important": false,
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "groups": [
-      "Word List 12"
-    ]
+      "Word List 12",
+      "四级 22"
+    ],
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "phonetic": "/rɪmˈeɪn/"
   },
   {
     "id": "fullway-20260627-v29-193",
@@ -32635,7 +34171,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ˈɛntri/"
   },
   {
     "id": "fullway-20260627-v29-195",
@@ -32659,7 +34196,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/fˈɛr/"
   },
   {
     "id": "fullway-20260627-v29-196",
@@ -32683,7 +34221,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/fˈaɪn/"
   },
   {
     "id": "fullway-20260627-v29-197",
@@ -32711,7 +34250,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 12",
       "四级 11",
       "蓝色森林 26"
-    ]
+    ],
+    "phonetic": "/flˈæɡ/"
   },
   {
     "id": "fullway-20260627-v29-198",
@@ -32735,7 +34275,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/dʒˈʌst/"
   },
   {
     "id": "fullway-20260627-v29-200",
@@ -32759,7 +34300,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/dʒˈʌst ðˈɛn/"
   },
   {
     "id": "fullway-20260627-v29-201",
@@ -32783,7 +34325,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ʌndʒˈʌst/"
   },
   {
     "id": "fullway-20260627-v29-202",
@@ -32807,7 +34350,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/dʒˈʌstʌfˌaɪ/"
   },
   {
     "id": "fullway-20260627-v29-203",
@@ -32831,7 +34375,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/dʒˈʌstʌs/"
   },
   {
     "id": "fullway-20260627-v29-204",
@@ -32858,7 +34403,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 12",
       "蓝色森林 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈoʊn/"
   },
   {
     "id": "fullway-20260627-v29-205",
@@ -32882,7 +34428,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ɑn wʌnz ˈoʊn/"
   },
   {
     "id": "wordlist-20260627-v31-384",
@@ -32906,7 +34453,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ˈoʊnɝ/"
   },
   {
     "id": "wordlist-20260627-v31-383",
@@ -32930,7 +34478,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ˈoʊ/"
   },
   {
     "id": "wordlist-20260627-v31-385",
@@ -32954,7 +34503,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ˈoʊɪŋ tə/"
   },
   {
     "id": "wordlist-20260627-v31-386",
@@ -32978,7 +34528,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ˈoʊ tə/"
   },
   {
     "id": "wordlist-20260627-v31-387",
@@ -33002,7 +34553,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/dˈu/"
   },
   {
     "id": "wordlist-20260627-v31-388",
@@ -33026,7 +34578,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/dˈu tə/"
   },
   {
     "id": "wordlist-20260627-v31-389",
@@ -33052,7 +34605,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 12",
       "四级 15"
-    ]
+    ],
+    "phonetic": "/ˈoʊvɝdˈu/"
   },
   {
     "id": "wordlist-20260627-v31-390",
@@ -33078,7 +34632,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 12",
       "蓝色森林 21"
-    ]
+    ],
+    "phonetic": "/wɪθˈaʊt/"
   },
   {
     "id": "wordlist-20260627-v31-391",
@@ -33102,7 +34657,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/ˈʌðɝwˌaɪz/"
   },
   {
     "id": "wordlist-20260627-v31-392",
@@ -33126,7 +34682,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/kʌmpjˈutɝ/"
   },
   {
     "id": "wordlist-20260627-v31-395",
@@ -33150,7 +34707,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/plˈæn/"
   },
   {
     "id": "wordlist-20260627-v31-396",
@@ -33174,7 +34732,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/plˈænt/"
   },
   {
     "id": "wordlist-20260627-v31-397",
@@ -33198,7 +34757,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/plˌæntˈeɪʃʌn/"
   },
   {
     "id": "wordlist-20260627-v31-398",
@@ -33224,7 +34784,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 12",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/plˈænʌt/"
   },
   {
     "id": "wordlist-20260627-v31-399",
@@ -33248,7 +34809,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/plˈeɪn/"
   },
   {
     "id": "wordlist-20260627-v31-401",
@@ -33274,7 +34836,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 12",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/ˈɛrkrˌæft/"
   },
   {
     "id": "wordlist-20260627-v31-402",
@@ -33298,7 +34861,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 12"
-    ]
+    ],
+    "phonetic": "/hˈɛlɪkˌɑptɝ/"
   },
   {
     "id": "fullway-20260627-v29-207",
@@ -33322,7 +34886,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ˌɪnfˈɔrm ˌsʌmbədi əv ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-208",
@@ -33346,7 +34911,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/kˈip ˌsʌmbədi ˌɪnfˈɔrmd/"
   },
   {
     "id": "fullway-20260627-v29-213",
@@ -33370,7 +34936,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/rʌfˈɔrm ænd ˈoʊpʌnɪŋ pˈɑlʌsi/"
   },
   {
     "id": "fullway-20260627-v29-214",
@@ -33394,7 +34961,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/dˌifˈɔrm/"
   },
   {
     "id": "fullway-20260627-v29-216",
@@ -33418,7 +34986,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/kʌnfˈɝm/"
   },
   {
     "id": "fullway-20260627-v29-217",
@@ -33442,7 +35011,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/vˈɛrʌfˌaɪ/"
   },
   {
     "id": "fullway-20260627-v29-218",
@@ -33468,7 +35038,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "蓝色森林 25"
-    ]
+    ],
+    "phonetic": "/bɪkˈʌm/"
   },
   {
     "id": "fullway-20260627-v29-219",
@@ -33494,7 +35065,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "四级 7"
-    ]
+    ],
+    "phonetic": "/fˈæʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-220",
@@ -33518,7 +35090,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ɪn fˈæʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-221",
@@ -33542,7 +35115,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv fˈæʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-222",
@@ -33568,7 +35142,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "四级 7"
-    ]
+    ],
+    "phonetic": "/fˈæʃʌnʌbʌl/"
   },
   {
     "id": "fullway-20260627-v29-223",
@@ -33594,7 +35169,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "四级 7"
-    ]
+    ],
+    "phonetic": "/pˈɑpjʌlɝ/"
   },
   {
     "id": "fullway-20260627-v29-224",
@@ -33618,7 +35194,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/bˈi pˈɑpjʌlɝ wɪð/"
   },
   {
     "id": "fullway-20260627-v29-225",
@@ -33644,7 +35221,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "四级 7"
-    ]
+    ],
+    "phonetic": "/pˌɑpjʌlˈɛrʌti/"
   },
   {
     "id": "fullway-20260627-v29-226",
@@ -33668,7 +35246,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/fˈeɪm/"
   },
   {
     "id": "fullway-20260627-v29-228",
@@ -33692,7 +35271,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/bˈi fˈeɪmʌs fˈɔr/"
   },
   {
     "id": "fullway-20260627-v29-229",
@@ -33716,7 +35296,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/rˌɛpjʌtˈeɪʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-230",
@@ -33742,7 +35323,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "四级 13"
-    ]
+    ],
+    "phonetic": "/fˈeɪt/"
   },
   {
     "id": "fullway-20260627-v29-231",
@@ -33766,7 +35348,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/sʌlˈɛbrɪti/"
   },
   {
     "id": "fullway-20260627-v29-232",
@@ -33790,7 +35373,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ˈɔrʌl/"
   },
   {
     "id": "fullway-20260627-v29-233",
@@ -33814,7 +35398,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/lˈæŋɡwʌdʒ/"
   },
   {
     "id": "fullway-20260627-v29-234",
@@ -33838,7 +35423,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/fˈɔrʌn lˈæŋɡwʌdʒ/"
   },
   {
     "id": "fullway-20260627-v29-235",
@@ -33862,7 +35448,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/spˈoʊkʌn lˈæŋɡwʌdʒ/"
   },
   {
     "id": "fullway-20260627-v29-236",
@@ -33886,7 +35473,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/bˈɑdi lˈæŋɡwʌdʒ/"
   },
   {
     "id": "fullway-20260627-v29-237",
@@ -33910,7 +35498,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/fˈɝst lˈæŋɡwʌdʒ/"
   },
   {
     "id": "fullway-20260627-v29-238",
@@ -33934,7 +35523,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/nˈeɪtɪv lˈæŋɡwʌdʒ/"
   },
   {
     "id": "fullway-20260627-v29-239",
@@ -33960,7 +35550,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/tˈʌŋ/"
   },
   {
     "id": "fullway-20260627-v29-240",
@@ -33984,7 +35575,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/mˈʌðɝ tˈʌŋ/"
   },
   {
     "id": "fullway-20260627-v29-243",
@@ -34008,7 +35600,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ɪɡzˈɑtɪk/"
   },
   {
     "id": "fullway-20260627-v29-244",
@@ -34032,7 +35625,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ˈoʊvɝsˈiz/"
   },
   {
     "id": "fullway-20260627-v29-246",
@@ -34056,7 +35650,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/nˈeɪtɪv spˈikɝ/"
   },
   {
     "id": "fullway-20260627-v29-247",
@@ -34080,7 +35675,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/lˈoʊkʌl/"
   },
   {
     "id": "fullway-20260627-v29-248",
@@ -34104,7 +35700,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/sˈɛt/"
   },
   {
     "id": "fullway-20260627-v29-249",
@@ -34130,7 +35727,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/sˈɛt ˈʌp/"
   },
   {
     "id": "fullway-20260627-v29-250",
@@ -34154,7 +35752,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/sˈɛt ˈaʊt/"
   },
   {
     "id": "fullway-20260627-v29-251",
@@ -34178,7 +35777,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/sˈɛt ˈɔf/"
   },
   {
     "id": "fullway-20260627-v29-252",
@@ -34202,7 +35802,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/sˈɛt ʌsˈaɪd/"
   },
   {
     "id": "fullway-20260627-v29-253",
@@ -34226,7 +35827,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/ɪstˈæblɪʃ/"
   },
   {
     "id": "fullway-20260627-v29-254",
@@ -34250,7 +35852,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/fˈaʊnd/"
   },
   {
     "id": "fullway-20260627-v29-256",
@@ -34276,7 +35879,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "四级 21"
-    ]
+    ],
+    "phonetic": "/fˌʌndʌmˈɛntʌl/"
   },
   {
     "id": "fullway-20260627-v29-257",
@@ -34302,7 +35906,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 13",
       "蓝色森林 18"
-    ]
+    ],
+    "phonetic": "/fˈaɪnd/"
   },
   {
     "id": "fullway-20260627-v29-258",
@@ -34326,7 +35931,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 13"
-    ]
+    ],
+    "phonetic": "/fˈaɪnd ˈaʊt/"
   },
   {
     "id": "fullway-20260627-v29-260",
@@ -34350,7 +35956,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/pˈʊʃ/"
   },
   {
     "id": "fullway-20260627-v29-261",
@@ -34374,7 +35981,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/pˈʊʃ ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-262",
@@ -34401,7 +36009,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "蓝色森林 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈʊl/"
   },
   {
     "id": "fullway-20260627-v29-263",
@@ -34428,7 +36037,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "蓝色森林 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈɪld/"
   },
   {
     "id": "fullway-20260627-v29-264",
@@ -34452,7 +36062,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/bˈɪld ˈʌp/"
   },
   {
     "id": "fullway-20260627-v29-265",
@@ -34476,7 +36087,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/bˈɪldɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-266",
@@ -34500,7 +36112,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/kʌnstrˈʌkt/"
   },
   {
     "id": "fullway-20260627-v29-267",
@@ -34524,7 +36137,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/kʌnstrˈʌktɪv/"
   },
   {
     "id": "fullway-20260627-v29-268",
@@ -34548,7 +36162,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/rˌikʌnstrˈʌkʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-270",
@@ -34575,7 +36190,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 14",
       "蓝色森林 10"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈoʊn/"
   },
   {
     "id": "fullway-20260627-v29-271",
@@ -34599,7 +36215,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/θˈɪŋk/"
   },
   {
     "id": "fullway-20260627-v29-273",
@@ -34623,7 +36240,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/θˈɪŋk bˈæk/"
   },
   {
     "id": "fullway-20260627-v29-274",
@@ -34647,7 +36265,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/θˈɪŋk ˈoʊvɝ/"
   },
   {
     "id": "fullway-20260627-v29-275",
@@ -34671,7 +36290,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/θˈɔtfʌl/"
   },
   {
     "id": "fullway-20260627-v29-276",
@@ -34695,7 +36315,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ɡrˈit/"
   },
   {
     "id": "fullway-20260627-v29-277",
@@ -34719,7 +36340,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ɡrˈitɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-278",
@@ -34743,7 +36365,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/wˈɛlkʌm/"
   },
   {
     "id": "fullway-20260627-v29-281",
@@ -34767,7 +36390,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈoʊʃʌl kˈæpʌtʌl/"
   },
   {
     "id": "fullway-20260627-v29-282",
@@ -34791,7 +36415,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈoʊʃʌlˌɪzʌm/"
   },
   {
     "id": "fullway-20260627-v29-284",
@@ -34815,7 +36440,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈoʊʃʌlʌst/"
   },
   {
     "id": "fullway-20260627-v29-285",
@@ -34839,7 +36465,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/kˈɑmjʌnʌst/"
   },
   {
     "id": "fullway-20260627-v29-286",
@@ -34865,7 +36492,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 14",
       "蓝色森林 14"
-    ]
+    ],
+    "phonetic": "/lˈiv/"
   },
   {
     "id": "fullway-20260627-v29-287",
@@ -34889,7 +36517,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/lˈiv bɪhˈaɪnd/"
   },
   {
     "id": "fullway-20260627-v29-288",
@@ -34913,7 +36542,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/lˈiv ˈɔf/"
   },
   {
     "id": "fullway-20260627-v29-290",
@@ -34937,7 +36567,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ɝˈaɪvʌl/"
   },
   {
     "id": "fullway-20260627-v29-295",
@@ -34961,7 +36592,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/prˈɛfʌs/"
   },
   {
     "id": "fullway-20260627-v29-296",
@@ -34985,7 +36617,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈɝfʌs/"
   },
   {
     "id": "fullway-20260627-v29-297",
@@ -35009,7 +36642,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˌupɝfˈɪʃʌl/"
   },
   {
     "id": "fullway-20260627-v29-298",
@@ -35035,7 +36669,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 14",
       "蓝色森林 26"
-    ]
+    ],
+    "phonetic": "/bˈɔrn/"
   },
   {
     "id": "fullway-20260627-v29-299",
@@ -35050,16 +36685,19 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "蓝色森林"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 14"
-    ]
+      "Word List 14",
+      "蓝色森林 27"
+    ],
+    "phonetic": "/bˈɝθ/"
   },
   {
     "id": "fullway-20260627-v29-300",
@@ -35083,7 +36721,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ɡˈɪv bˈɝθ tə/"
   },
   {
     "id": "fullway-20260627-v29-302",
@@ -35109,7 +36748,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 14",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/hˈæbʌt/"
   },
   {
     "id": "fullway-20260627-v29-303",
@@ -35133,7 +36773,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/fˈɔrm ðə hˈæbʌt əv/"
   },
   {
     "id": "fullway-20260627-v29-306",
@@ -35157,7 +36798,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/lˈɛt ʌlˈoʊn/"
   },
   {
     "id": "fullway-20260627-v29-307",
@@ -35185,7 +36827,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 9",
       "蓝色森林 18"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈoʊnli/"
   },
   {
     "id": "fullway-20260627-v29-308",
@@ -35211,7 +36854,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 14",
       "四级 12"
-    ]
+    ],
+    "phonetic": "/fˈeɪvɝɪt/"
   },
   {
     "id": "fullway-20260627-v29-309",
@@ -35235,7 +36879,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/kˈɑm/"
   },
   {
     "id": "fullway-20260627-v29-310",
@@ -35259,7 +36904,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/kˈɑm dˈaʊn/"
   },
   {
     "id": "fullway-20260627-v29-311",
@@ -35283,7 +36929,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈɝtʌn/"
   },
   {
     "id": "fullway-20260627-v29-312",
@@ -35307,7 +36954,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/fˈɔr sˈɝtʌn/"
   },
   {
     "id": "fullway-20260627-v29-313",
@@ -35331,7 +36979,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈɝtʌnli/"
   },
   {
     "id": "fullway-20260627-v29-314",
@@ -35355,7 +37004,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ʌnsˈɝtʌnti/"
   },
   {
     "id": "fullway-20260627-v29-315",
@@ -35379,7 +37029,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ʃˈʊr/"
   },
   {
     "id": "fullway-20260627-v29-316",
@@ -35403,7 +37054,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ʃˈʊr/"
   },
   {
     "id": "fullway-20260627-v29-317",
@@ -35427,7 +37079,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/fˈɔr ʃˈʊr/"
   },
   {
     "id": "fullway-20260627-v29-318",
@@ -35451,7 +37104,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ʃˈʊrli/"
   },
   {
     "id": "fullway-20260627-v29-319",
@@ -35475,7 +37129,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ʌʃˈʊr/"
   },
   {
     "id": "fullway-20260627-v29-320",
@@ -35499,7 +37154,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ʌʃˈʊr ˌsʌmbədi əv ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-321",
@@ -35523,7 +37179,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ɛnʃˈʊr/"
   },
   {
     "id": "fullway-20260627-v29-322",
@@ -35547,7 +37204,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ˌɪnʃˈʊr/"
   },
   {
     "id": "fullway-20260627-v29-323",
@@ -35571,7 +37229,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/ˌɪnʃˈʊrʌns/"
   },
   {
     "id": "fullway-20260627-v29-324",
@@ -35595,7 +37254,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/sˈoʊʃʌl ˌɪnʃˈʊrʌns/"
   },
   {
     "id": "fullway-20260627-v29-325",
@@ -35619,7 +37279,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/lˈaɪf ˌɪnʃˈʊrʌns/"
   },
   {
     "id": "fullway-20260627-v29-326",
@@ -35643,7 +37304,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 14"
-    ]
+    ],
+    "phonetic": "/mˈɛdʌkʌl ˌɪnʃˈʊrʌns/"
   },
   {
     "id": "fullway-20260627-v29-327",
@@ -35671,7 +37333,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林 9",
       "蓝色森林 25"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɛdʌkʌl/"
   },
   {
     "id": "fullway-20260627-v29-329",
@@ -35695,7 +37358,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ɪn ðə fˈɝst plˈeɪs/"
   },
   {
     "id": "fullway-20260627-v29-330",
@@ -35719,7 +37383,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ɪn plˈeɪs/"
   },
   {
     "id": "fullway-20260627-v29-331",
@@ -35743,7 +37408,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv plˈeɪs/"
   },
   {
     "id": "fullway-20260627-v29-333",
@@ -35769,7 +37435,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 21"
-    ]
+    ],
+    "phonetic": "/nˈeɪm/"
   },
   {
     "id": "fullway-20260627-v29-334",
@@ -35795,7 +37462,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "四级 8"
-    ]
+    ],
+    "phonetic": "/sˈɝnˌeɪm/"
   },
   {
     "id": "fullway-20260627-v29-335",
@@ -35821,7 +37489,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/plˈeɪ/"
   },
   {
     "id": "fullway-20260627-v29-336",
@@ -35845,7 +37514,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/plˈeɪ fˈʊtbˌɔl/"
   },
   {
     "id": "fullway-20260627-v29-337",
@@ -35869,7 +37539,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/plˈeɪ ðə ɡɪtˈɑr/"
   },
   {
     "id": "fullway-20260627-v29-338",
@@ -35893,7 +37564,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/plˈeɪɝ/"
   },
   {
     "id": "fullway-20260627-v29-339",
@@ -35920,7 +37592,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 15",
       "四级 12",
       "四级 13"
-    ]
+    ],
+    "phonetic": "/wˈʌndɝ/"
   },
   {
     "id": "fullway-20260627-v29-341",
@@ -35944,7 +37617,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/wˈɝd/"
   },
   {
     "id": "fullway-20260627-v29-342",
@@ -35968,7 +37642,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ɪn ˈʌðɝ wˈɝdz/"
   },
   {
     "id": "fullway-20260627-v29-345",
@@ -35992,7 +37667,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ʌlˈaʊ ˌsʌmbədi tə du/"
   },
   {
     "id": "fullway-20260627-v29-346",
@@ -36016,7 +37692,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ʌlˈaʊ ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "fullway-20260627-v29-347",
@@ -36040,7 +37717,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ʌlˈaʊʌns/"
   },
   {
     "id": "fullway-20260627-v29-348",
@@ -36066,7 +37744,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/pɝmˈɪt/"
   },
   {
     "id": "fullway-20260627-v29-349",
@@ -36092,7 +37771,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/pɝmˈɪʃʌn/"
   },
   {
     "id": "fullway-20260627-v29-351",
@@ -36116,7 +37796,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ˈæz ə mˈætɝ əv fˈækt/"
   },
   {
     "id": "fullway-20260627-v29-354",
@@ -36140,7 +37821,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/fˈæmʌli/"
   },
   {
     "id": "fullway-20260627-v29-355",
@@ -36166,7 +37848,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 14"
-    ]
+    ],
+    "phonetic": "/spˈɪrʌt/"
   },
   {
     "id": "fullway-20260627-v29-356",
@@ -36193,7 +37876,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 15",
       "蓝色森林 21",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/sˈoʊl/"
   },
   {
     "id": "fullway-20260627-v29-357",
@@ -36217,7 +37901,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/wˈɛr/"
   },
   {
     "id": "fullway-20260627-v29-358",
@@ -36241,7 +37926,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/wˈɛrʌbʌl/"
   },
   {
     "id": "fullway-20260627-v29-360",
@@ -36265,7 +37951,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/klˈɔθ/"
   },
   {
     "id": "fullway-20260627-v29-361",
@@ -36289,7 +37976,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/swˈɛr/"
   },
   {
     "id": "fullway-20260627-v29-362",
@@ -36315,7 +38003,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/ɡlˈæs/"
   },
   {
     "id": "fullway-20260627-v29-363",
@@ -36339,7 +38028,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/lˈɛnz/"
   },
   {
     "id": "fullway-20260627-v29-364",
@@ -36363,7 +38053,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ɡˈæs/"
   },
   {
     "id": "fullway-20260627-v29-366",
@@ -36387,7 +38078,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/ɡˈæsʌlˌin/"
   },
   {
     "id": "fullway-20260627-v29-367",
@@ -36414,7 +38106,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 15",
       "蓝色森林 8"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɛtroʊl/"
   },
   {
     "id": "fullway-20260627-v29-368",
@@ -36440,7 +38133,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 18"
-    ]
+    ],
+    "phonetic": "/pʌtrˈoʊliʌm/"
   },
   {
     "id": "fullway-20260627-v29-369",
@@ -36464,7 +38158,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/mˈɪnɝʌl/"
   },
   {
     "id": "fullway-20260627-v29-370",
@@ -36488,7 +38183,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/stˈim/"
   },
   {
     "id": "fullway-20260627-v29-371",
@@ -36512,7 +38208,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/stˈimɝ/"
   },
   {
     "id": "fullway-20260627-v29-372",
@@ -36527,16 +38224,19 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:05:00+08:00",
-    "updatedAt": "2026-06-27T15:05:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "sources": [
-      "Word List"
+      "Word List",
+      "四级"
     ],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 15"
-    ]
+      "Word List 15",
+      "四级 22"
+    ],
+    "phonetic": "/strˈim/"
   },
   {
     "id": "fullway-20260627-v29-373",
@@ -36560,7 +38260,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/mˈeɪnstrˌim/"
   },
   {
     "id": "fullway-20260627-v29-374",
@@ -36586,7 +38287,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 15",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/bˈoʊt/"
   },
   {
     "id": "fullway-20260627-v29-375",
@@ -36610,7 +38312,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 15"
-    ]
+    ],
+    "phonetic": "/drˈæɡʌn bˈoʊt/"
   },
   {
     "id": "fullway1-v32-fix-009",
@@ -36636,7 +38339,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "蓝色森林"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɑtʃ/"
   },
   {
     "id": "fullway1-v32-fix-016",
@@ -36658,7 +38362,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/wˈɔrm/"
   },
   {
     "id": "fullway1-v32-fix-023",
@@ -36680,7 +38385,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/trˈaɪ/"
   },
   {
     "id": "fullway1-v32-fix-029",
@@ -36702,7 +38408,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/bˈʊkstˌɔr/"
   },
   {
     "id": "fullway1-v32-fix-030",
@@ -36724,7 +38431,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/ɡrˈinhˌaʊs/"
   },
   {
     "id": "fullway1-v32-fix-031",
@@ -36746,7 +38454,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/snˈoʊfɑl/"
   },
   {
     "id": "fullway1-v32-fix-032",
@@ -36768,7 +38477,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/dˈɔrbˌɛl/"
   },
   {
     "id": "fullway1-v32-fix-033",
@@ -36790,7 +38500,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/sˈʌnɡlˌæsɪz/"
   },
   {
     "id": "fullway1-v32-fix-034",
@@ -36812,7 +38523,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/sˈʌnflˌaʊɝ/"
   },
   {
     "id": "fullway1-v32-fix-035",
@@ -36827,14 +38539,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-27T15:32:00+08:00",
-    "updatedAt": "2026-06-27T15:32:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "全方位 1"
+      "全方位 1",
+      "蓝色森林 27"
     ],
     "sources": [
-      "全方位"
-    ]
+      "全方位",
+      "蓝色森林"
+    ],
+    "phonetic": "/hˈaʊswˌɝk/"
   },
   {
     "id": "fullway1-v32-fix-036",
@@ -36856,7 +38571,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/hˈoʊmwˌɝk/"
   },
   {
     "id": "fullway1-v32-fix-042",
@@ -36878,7 +38594,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/ɡrˈoʊn ˈʌp/"
   },
   {
     "id": "fullway1-v32-fix-043",
@@ -36900,7 +38617,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/wˈɛl bˈiɪŋ/"
   },
   {
     "id": "fullway1-v32-fix-044",
@@ -36922,7 +38640,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/sˈɛkʌnd hˈænd/"
   },
   {
     "id": "fullway1-v32-fix-046",
@@ -36944,7 +38663,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/mˈʌðɝ ɪn lˈɔ/"
   },
   {
     "id": "fullway1-v32-fix-049",
@@ -36968,7 +38688,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "全方位",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈɛl nˈoʊn/"
   },
   {
     "id": "fullway1-v32-fix-053",
@@ -36990,7 +38711,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/fˈɝst klˈæs/"
   },
   {
     "id": "fullway1-v32-fix-057",
@@ -37012,7 +38734,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/fˈʊl tˈaɪm/"
   },
   {
     "id": "fullway1-v32-fix-059",
@@ -37034,7 +38757,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/ɡˈʊd lˈʊkɪŋ/"
   },
   {
     "id": "fullway1-v32-fix-060",
@@ -37056,7 +38780,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/kˈʌlɝ blˈaɪnd/"
   },
   {
     "id": "fullway1-v32-fix-061",
@@ -37078,7 +38803,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/kˈoʊld blˈʌdɪd/"
   },
   {
     "id": "fullway1-v32-fix-062",
@@ -37100,7 +38826,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/lˈɛft hˈændʌd/"
   },
   {
     "id": "fullway1-v32-fix-064",
@@ -37122,7 +38849,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/mˈæn mˈeɪd/"
   },
   {
     "id": "fullway1-v32-fix-068",
@@ -37144,7 +38872,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "全方位"
-    ]
+    ],
+    "phonetic": "/fɝɡˈɛt mˈi nˈɑt/"
   },
   {
     "id": "cet4-20260628-v40-001",
@@ -37168,7 +38897,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈoʊtʌvˌeɪt/"
   },
   {
     "id": "cet4-20260628-v40-002",
@@ -37190,7 +38920,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˌoʊtʌvˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-003",
@@ -37212,7 +38943,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rimˈuv/"
   },
   {
     "id": "cet4-20260628-v40-004",
@@ -37234,7 +38966,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪmˈuvʌl/"
   },
   {
     "id": "cet4-20260628-v40-005",
@@ -37258,7 +38991,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪmˈoʊʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-006",
@@ -37280,7 +39014,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪmˈoʊʃʌnʌl/"
   },
   {
     "id": "cet4-20260628-v40-007",
@@ -37302,7 +39037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈæʃʌnʌl/"
   },
   {
     "id": "cet4-20260628-v40-008",
@@ -37324,7 +39060,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪrˈæʃʌnʌl/"
   },
   {
     "id": "cet4-20260628-v40-009",
@@ -37346,7 +39083,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈeɪʃiˌoʊ/"
   },
   {
     "id": "cet4-20260628-v40-010",
@@ -37368,7 +39106,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈeɪt/"
   },
   {
     "id": "cet4-20260628-v40-011",
@@ -37390,7 +39129,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈeɪtɪŋ/"
   },
   {
     "id": "cet4-20260628-v40-012",
@@ -37412,7 +39152,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/pɝsˈɛntʌdʒ/"
   },
   {
     "id": "cet4-20260628-v40-013",
@@ -37436,7 +39177,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pɝsˈɛnt/"
   },
   {
     "id": "cet4-20260628-v40-015",
@@ -37458,7 +39200,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌmˈoʊt/"
   },
   {
     "id": "cet4-20260628-v40-016",
@@ -37480,7 +39223,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌmˈoʊʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-019",
@@ -37502,7 +39246,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈæktɪŋ/"
   },
   {
     "id": "cet4-20260628-v40-022",
@@ -37524,7 +39269,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dˈid/"
   },
   {
     "id": "cet4-20260628-v40-023",
@@ -37546,7 +39292,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/bɪhˈeɪv/"
   },
   {
     "id": "cet4-20260628-v40-024",
@@ -37568,7 +39315,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/bɪhˈeɪvjɝ/"
   },
   {
     "id": "cet4-20260628-v40-025",
@@ -37590,7 +39338,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/bɪhˈeɪvjɝʌl/"
   },
   {
     "id": "cet4-20260628-v40-028",
@@ -37612,7 +39361,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈæktʌvʌst/"
   },
   {
     "id": "cet4-20260628-v40-031",
@@ -37634,7 +39384,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/riˈækʃʌnˌɛri/"
   },
   {
     "id": "cet4-20260628-v40-032",
@@ -37656,7 +39407,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪɡzˈækt/"
   },
   {
     "id": "cet4-20260628-v40-036",
@@ -37678,7 +39430,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prˌæktɪkˈælʌti/"
   },
   {
     "id": "cet4-20260628-v40-037",
@@ -37700,7 +39453,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/vˈɝtʃuʌl/"
   },
   {
     "id": "cet4-20260628-v40-038",
@@ -37722,7 +39476,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/vˈɝtʃuʌli/"
   },
   {
     "id": "cet4-20260628-v40-039",
@@ -37744,7 +39499,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/frˈæɡmʌnt/"
   },
   {
     "id": "cet4-20260628-v40-040",
@@ -37766,7 +39522,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/frˈæɡmʌntˌɛri/"
   },
   {
     "id": "cet4-20260628-v40-041",
@@ -37788,7 +39545,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/frˌæɡmʌntˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-042",
@@ -37810,7 +39568,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sˈʌmwˈʌt/"
   },
   {
     "id": "cet4-20260628-v40-043",
@@ -37832,7 +39591,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/frˈækʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-044",
@@ -37854,7 +39614,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/pˈɔrʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-045",
@@ -37876,7 +39637,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌpˈɔrʃʌn/"
   },
   {
     "id": "cet4-20260628-v40-046",
@@ -37898,7 +39660,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/prʌpˈɔrʃʌnʌl/"
   },
   {
     "id": "cet4-20260628-v40-047",
@@ -37920,7 +39683,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/skˈɛlʌtʌn/"
   },
   {
     "id": "cet4-20260628-v40-048",
@@ -37942,7 +39706,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/frˈeɪm/"
   },
   {
     "id": "cet4-20260628-v40-049",
@@ -37964,7 +39729,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/frˈeɪmwˌɝk/"
   },
   {
     "id": "cet4-20260628-v40-050",
@@ -37986,7 +39752,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/flˈeɪm/"
   },
   {
     "id": "blueforest-20260628-table-002",
@@ -38011,7 +39778,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈip/"
   },
   {
     "id": "blueforest-20260628-table-003",
@@ -38033,7 +39801,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θˈɛrʌpi/"
   },
   {
     "id": "blueforest-20260628-table-004",
@@ -38058,7 +39827,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɑrdʒ/"
   },
   {
     "id": "blueforest-20260628-table-005",
@@ -38080,7 +39850,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔfʌn/"
   },
   {
     "id": "blueforest-20260628-table-006",
@@ -38102,7 +39873,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/du/"
   },
   {
     "id": "blueforest-20260628-table-007",
@@ -38124,7 +39896,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈʊt/"
   },
   {
     "id": "blueforest-20260628-table-008",
@@ -38151,7 +39924,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List",
       "四级"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌtʃˈiv/"
   },
   {
     "id": "blueforest-20260628-table-009",
@@ -38173,7 +39947,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈæŋ/"
   },
   {
     "id": "blueforest-20260628-table-010",
@@ -38195,7 +39970,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪst/"
   },
   {
     "id": "blueforest-20260628-table-012",
@@ -38217,7 +39993,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌntˈɛmpt/"
   },
   {
     "id": "blueforest-20260628-table-013",
@@ -38241,7 +40018,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/dˈɛfʌsʌt/"
   },
   {
     "id": "blueforest-20260628-table-015",
@@ -38263,7 +40041,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/blˈækbˌɔrd/"
   },
   {
     "id": "blueforest-20260628-table-017",
@@ -38285,7 +40064,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈaɪʌn/"
   },
   {
     "id": "blueforest-20260628-table-018",
@@ -38307,7 +40087,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈæst/"
   },
   {
     "id": "blueforest-20260628-table-020",
@@ -38329,7 +40110,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈæmʌl/"
   },
   {
     "id": "blueforest-20260628-table-021",
@@ -38351,7 +40133,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/krˈækɝ/"
   },
   {
     "id": "blueforest-20260628-table-022",
@@ -38373,7 +40156,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈɪk/"
   },
   {
     "id": "blueforest-20260628-table-023",
@@ -38395,7 +40179,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spˈeɪsʃˌɪp/"
   },
   {
     "id": "blueforest-20260628-table-025",
@@ -38420,7 +40205,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɛfɝt/"
   },
   {
     "id": "blueforest-20260628-table-026",
@@ -38442,7 +40228,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/jɝsˈɛlf/"
   },
   {
     "id": "blueforest-20260628-table-027",
@@ -38464,7 +40251,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪti/"
   },
   {
     "id": "blueforest-20260628-table-028",
@@ -38486,7 +40274,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪksˈɛpʃʌn/"
   },
   {
     "id": "blueforest-20260628-table-029",
@@ -38511,7 +40300,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌdʒˈɛst/"
   },
   {
     "id": "blueforest-20260628-table-031",
@@ -38533,7 +40323,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɑri/"
   },
   {
     "id": "blueforest-20260628-table-032",
@@ -38555,7 +40346,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prˈaɪd/"
   },
   {
     "id": "blueforest-20260628-table-033",
@@ -38577,7 +40369,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prˈɪti/"
   },
   {
     "id": "blueforest-20260628-table-035",
@@ -38602,7 +40395,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɔftwˌɛr/"
   },
   {
     "id": "blueforest-20260628-table-036",
@@ -38626,7 +40420,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɛtʃ/"
   },
   {
     "id": "blueforest-20260628-table-037",
@@ -38648,7 +40443,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈoʊt/"
   },
   {
     "id": "blueforest-20260628-table-038",
@@ -38670,7 +40466,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔrbʌt/"
   },
   {
     "id": "blueforest-20260628-table-039",
@@ -38692,7 +40489,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˌʊdbˈaɪ/"
   },
   {
     "id": "blueforest-20260628-table-042",
@@ -38714,7 +40512,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌmbrˈɛlʌ/"
   },
   {
     "id": "blueforest-20260628-table-043",
@@ -38736,7 +40535,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɝl/"
   },
   {
     "id": "blueforest-20260628-table-044",
@@ -38760,7 +40560,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌkˈɔrdʌns/"
   },
   {
     "id": "blueforest-20260628-table-045",
@@ -38785,7 +40586,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hjˈudʒ/"
   },
   {
     "id": "blueforest-20260628-table-049",
@@ -38807,7 +40609,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θˈɝdˌi/"
   },
   {
     "id": "blueforest-20260628-table-050",
@@ -38831,7 +40634,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/sˈætʌsfˌaɪ/"
   },
   {
     "id": "blueforest-20260628-adjadv-001",
@@ -38853,7 +40657,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʌvɝ/"
   },
   {
     "id": "blueforest-20260628-adjadv-002",
@@ -38875,7 +40680,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʌvɝʌdʒ/"
   },
   {
     "id": "blueforest-20260628-adjadv-003",
@@ -38897,7 +40703,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʌvɝ wɪð/"
   },
   {
     "id": "blueforest-20260628-adjadv-004",
@@ -38919,7 +40726,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi kˈʌvɝd wɪð/"
   },
   {
     "id": "blueforest-20260628-adjadv-006",
@@ -38941,7 +40749,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈɪvɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-009",
@@ -38963,7 +40772,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈɪvɪŋ krˈitʃɝ/"
   },
   {
     "id": "blueforest-20260628-adjadv-010",
@@ -38985,7 +40795,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈɪvɪŋ θˈɪŋz/"
   },
   {
     "id": "blueforest-20260628-adjadv-011",
@@ -39007,7 +40818,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈɪvɪŋ stˈændɝd/"
   },
   {
     "id": "blueforest-20260628-adjadv-013",
@@ -39031,7 +40843,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌvˈeɪlʌbʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-014",
@@ -39055,7 +40868,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈʊl/"
   },
   {
     "id": "blueforest-20260628-adjadv-015",
@@ -39077,7 +40891,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈʊli/"
   },
   {
     "id": "blueforest-20260628-adjadv-016",
@@ -39100,7 +40915,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi fˈʊl əv/"
   },
   {
     "id": "blueforest-20260628-adjadv-017",
@@ -39122,7 +40938,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈʊl əv ˈɛnɝdʒi/"
   },
   {
     "id": "blueforest-20260628-adjadv-018",
@@ -39144,7 +40961,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɑbviʌs/"
   },
   {
     "id": "blueforest-20260628-adjadv-019",
@@ -39166,7 +40984,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɑbviʌsli/"
   },
   {
     "id": "blueforest-20260628-adjadv-022",
@@ -39188,7 +41007,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈɛdli/"
   },
   {
     "id": "blueforest-20260628-adjadv-024",
@@ -39214,7 +41034,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈɑrdli/"
   },
   {
     "id": "blueforest-20260628-adjadv-026",
@@ -39236,7 +41057,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈɪrli/"
   },
   {
     "id": "blueforest-20260628-adjadv-027",
@@ -39258,7 +41080,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/klˈoʊs/"
   },
   {
     "id": "blueforest-20260628-adjadv-028",
@@ -39280,7 +41103,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/klˈoʊsli/"
   },
   {
     "id": "blueforest-20260628-adjadv-029",
@@ -39302,7 +41126,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈu / fˈɔr ˌsʌmbədi tə du/"
   },
   {
     "id": "blueforest-20260628-adjadv-032",
@@ -39324,7 +41149,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌnhˈɛlθi/"
   },
   {
     "id": "blueforest-20260628-adjadv-033",
@@ -39346,7 +41172,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɛntʌl hˈɛlθ/"
   },
   {
     "id": "blueforest-20260628-adjadv-034",
@@ -39368,7 +41195,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈɪzɪkʌl ænd mˈɛntʌl hˈɛlθ/"
   },
   {
     "id": "blueforest-20260628-adjadv-035",
@@ -39390,7 +41218,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈɛlθ kˈɛr/"
   },
   {
     "id": "blueforest-20260628-adjadv-036",
@@ -39412,7 +41241,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kwˈɑlʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-037",
@@ -39434,7 +41264,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kwˈɑntʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-040",
@@ -39456,7 +41287,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪtˈʊr/"
   },
   {
     "id": "blueforest-20260628-adjadv-041",
@@ -39478,7 +41310,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈeɪk ə dɪtˈʊr/"
   },
   {
     "id": "blueforest-20260628-adjadv-043",
@@ -39500,7 +41333,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪkspˈɛrʌmʌnt/"
   },
   {
     "id": "blueforest-20260628-adjadv-044",
@@ -39522,7 +41356,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/du / kˈɑndʌkt æn ɪkspˈɛrʌmʌnt/"
   },
   {
     "id": "blueforest-20260628-adjadv-047",
@@ -39544,7 +41379,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi sɝprˈaɪzd ˈæt/"
   },
   {
     "id": "blueforest-20260628-adjadv-048",
@@ -39566,7 +41402,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnfjˈuzd/"
   },
   {
     "id": "blueforest-20260628-adjadv-049",
@@ -39588,7 +41425,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnfjˈuzɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-050",
@@ -39610,7 +41448,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi kʌnfjˈuzd ʌbˈaʊt/"
   },
   {
     "id": "blueforest-20260628-adjadv-051",
@@ -39632,7 +41471,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɪnstrˈʌkʃʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-052",
@@ -39654,7 +41494,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæz / ˈæz/"
   },
   {
     "id": "blueforest-20260628-adjadv-053",
@@ -39676,7 +41517,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈɑt sˈoʊ / ˈæz / ˈæz/"
   },
   {
     "id": "blueforest-20260628-adjadv-054",
@@ -39698,7 +41540,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðˈæn/"
   },
   {
     "id": "blueforest-20260628-adjadv-055",
@@ -39720,7 +41563,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ænd/"
   },
   {
     "id": "blueforest-20260628-adjadv-056",
@@ -39742,7 +41586,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðə ðə/"
   },
   {
     "id": "blueforest-20260628-adjadv-057",
@@ -39765,7 +41610,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mɪstˈeɪk/"
   },
   {
     "id": "blueforest-20260628-adjadv-058",
@@ -39787,7 +41633,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk mɪstˈeɪks/"
   },
   {
     "id": "blueforest-20260628-adjadv-059",
@@ -39809,7 +41656,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ə mɪstˈeɪk/"
   },
   {
     "id": "blueforest-20260628-adjadv-060",
@@ -39831,7 +41679,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sʌbdʒˈɛkt/"
   },
   {
     "id": "blueforest-20260628-adjadv-061",
@@ -39853,7 +41702,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɪts rˌipˈɔrtɪd ðˈæt/"
   },
   {
     "id": "blueforest-20260628-adjadv-062",
@@ -39875,7 +41725,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɪts sˈɛd ðˈæt/"
   },
   {
     "id": "blueforest-20260628-adjadv-064",
@@ -39897,7 +41748,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɛnɝdʒˈɛtɪk/"
   },
   {
     "id": "blueforest-20260628-adjadv-065",
@@ -39919,7 +41771,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θˈɝoʊ/"
   },
   {
     "id": "blueforest-20260628-adjadv-066",
@@ -39941,7 +41794,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θˈɝoʊli/"
   },
   {
     "id": "blueforest-20260628-adjadv-068",
@@ -39963,7 +41817,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪdɝʌt/"
   },
   {
     "id": "blueforest-20260628-adjadv-069",
@@ -39985,7 +41840,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪdɝʌbʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-070",
@@ -40007,7 +41863,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʌmfɝtʌbʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-071",
@@ -40029,7 +41886,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnvˈinjʌnt/"
   },
   {
     "id": "blueforest-20260628-adjadv-072",
@@ -40051,7 +41909,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɪnkʌnvˈinjʌnt/"
   },
   {
     "id": "blueforest-20260628-adjadv-073",
@@ -40073,7 +41932,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪkwˈɪp/"
   },
   {
     "id": "blueforest-20260628-adjadv-075",
@@ -40095,7 +41955,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪkwˈɪpt/"
   },
   {
     "id": "blueforest-20260628-adjadv-076",
@@ -40117,7 +41978,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪkwˈɪp fˈɔr/"
   },
   {
     "id": "blueforest-20260628-adjadv-077",
@@ -40139,7 +42001,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi ɪkwˈɪpt fˈɔr/"
   },
   {
     "id": "blueforest-20260628-adjadv-078",
@@ -40161,7 +42024,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪkwˈɪp ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-081",
@@ -40183,7 +42047,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk fˈɔr/"
   },
   {
     "id": "blueforest-20260628-adjadv-082",
@@ -40205,7 +42070,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk ˈæt/"
   },
   {
     "id": "blueforest-20260628-adjadv-083",
@@ -40227,7 +42093,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk ˈæftɝ/"
   },
   {
     "id": "blueforest-20260628-adjadv-084",
@@ -40249,7 +42116,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk ˈɪntu/"
   },
   {
     "id": "blueforest-20260628-adjadv-085",
@@ -40271,7 +42139,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk ˈʌp/"
   },
   {
     "id": "blueforest-20260628-adjadv-086",
@@ -40293,7 +42162,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk dˈaʊn/"
   },
   {
     "id": "blueforest-20260628-adjadv-087",
@@ -40315,7 +42185,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk dˈaʊn ʌpˈɑn / ɑn/"
   },
   {
     "id": "blueforest-20260628-adjadv-088",
@@ -40337,7 +42208,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk ˈaʊt/"
   },
   {
     "id": "blueforest-20260628-adjadv-089",
@@ -40359,7 +42231,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk θrˈu/"
   },
   {
     "id": "blueforest-20260628-adjadv-090",
@@ -40381,7 +42254,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈʊk fˈɔrwɝd tə ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-091",
@@ -40403,7 +42277,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kwˈɑlʌfˌaɪd/"
   },
   {
     "id": "blueforest-20260628-adjadv-092",
@@ -40427,7 +42302,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈikwʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-093",
@@ -40452,7 +42328,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈikwʌli/"
   },
   {
     "id": "blueforest-20260628-adjadv-094",
@@ -40476,7 +42353,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ɪkwˈɑlʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-095",
@@ -40498,7 +42376,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dʒˈɛndɝ ɪkwˈɑlʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-096",
@@ -40520,7 +42399,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈeɪʃʌl ɪkwˈɑlʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-098",
@@ -40542,7 +42422,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈeɪʃʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-099",
@@ -40564,7 +42445,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈeɪʃʌl dɪskrˌɪmʌnˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-100",
@@ -40586,7 +42468,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪskrˈɪmʌnˌeɪt/"
   },
   {
     "id": "blueforest-20260628-adjadv-101",
@@ -40608,7 +42491,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪskrˌɪmʌnˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-102",
@@ -40630,7 +42514,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɪmʌlɝ/"
   },
   {
     "id": "blueforest-20260628-adjadv-103",
@@ -40652,7 +42537,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˌɪmʌlˈɛrʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-104",
@@ -40674,7 +42560,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi sˈɪmʌlɝ tə/"
   },
   {
     "id": "blueforest-20260628-adjadv-105",
@@ -40696,7 +42583,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi sˈɪmʌlɝ ɪn/"
   },
   {
     "id": "blueforest-20260628-adjadv-106",
@@ -40718,7 +42606,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/aɪdˈɛntʌfˌaɪ/"
   },
   {
     "id": "blueforest-20260628-adjadv-108",
@@ -40740,7 +42629,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/aɪdˈɛntɪkʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-109",
@@ -40762,7 +42652,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi aɪdˈɛntɪkʌl tə / wɪð/"
   },
   {
     "id": "blueforest-20260628-adjadv-110",
@@ -40784,7 +42675,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈændʌdeɪt/"
   },
   {
     "id": "blueforest-20260628-adjadv-111",
@@ -40808,7 +42700,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈild/"
   },
   {
     "id": "blueforest-20260628-adjadv-112",
@@ -40830,7 +42723,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn ðə fˈild əv/"
   },
   {
     "id": "blueforest-20260628-adjadv-113",
@@ -40853,7 +42747,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fɝɡˈɛt/"
   },
   {
     "id": "blueforest-20260628-adjadv-114",
@@ -40875,7 +42770,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fɔrɡˈɛtfʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-115",
@@ -40897,7 +42793,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌʌnfɝɡˈɛtʌbʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-116",
@@ -40919,7 +42816,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈʌdʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-117",
@@ -40941,7 +42839,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈʌdʌnli/"
   },
   {
     "id": "blueforest-20260628-adjadv-119",
@@ -40963,7 +42862,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rɪflˈɛkt ɑn / ʌpˈɑn/"
   },
   {
     "id": "blueforest-20260628-adjadv-120",
@@ -40985,7 +42885,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rɪflˈɛkʃʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-121",
@@ -41007,7 +42908,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spˈɛʃʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-122",
@@ -41029,7 +42931,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spˈɛʃʌli/"
   },
   {
     "id": "blueforest-20260628-adjadv-123",
@@ -41051,7 +42954,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌspˈɛʃʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-124",
@@ -41073,7 +42977,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌspˈɛʃli/"
   },
   {
     "id": "blueforest-20260628-adjadv-125",
@@ -41095,7 +43000,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ˌsʌmbədi du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-126",
@@ -41117,7 +43023,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ˌsʌmbədi / ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-127",
@@ -41139,7 +43046,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ˌsʌmbədi ˈɛn/"
   },
   {
     "id": "blueforest-20260628-adjadv-131",
@@ -41161,7 +43069,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈændmˌɑrk/"
   },
   {
     "id": "blueforest-20260628-adjadv-132",
@@ -41186,7 +43095,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈʊrʌst/"
   },
   {
     "id": "blueforest-20260628-adjadv-133",
@@ -41211,7 +43121,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "Word List"
     ],
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈʊrˌɪzʌm/"
   },
   {
     "id": "blueforest-20260628-adjadv-134",
@@ -41234,7 +43145,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɛdʌsʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-136",
@@ -41257,7 +43169,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈeɪk mˈɛdʌsʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-137",
@@ -41279,7 +43192,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/trʌdˈɪʃʌnʌl mˈɛdʌsʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-138",
@@ -41301,7 +43215,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɛdʌkʌl kˈɛr/"
   },
   {
     "id": "blueforest-20260628-adjadv-139",
@@ -41323,7 +43238,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔfɝ ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-140",
@@ -41345,7 +43261,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔfɝ ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260628-adjadv-141",
@@ -41367,7 +43284,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌvˈaɪd ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260628-adjadv-142",
@@ -41389,7 +43307,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌvˈaɪd ˌsʌmθɪŋ fˈɔr ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260628-adjadv-145",
@@ -41412,7 +43331,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝv/"
   },
   {
     "id": "blueforest-20260628-adjadv-146",
@@ -41434,7 +43354,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝvʌs/"
   },
   {
     "id": "blueforest-20260628-adjadv-147",
@@ -41456,7 +43377,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝvʌnt/"
   },
   {
     "id": "blueforest-20260628-adjadv-148",
@@ -41478,7 +43400,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝv ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260628-adjadv-149",
@@ -41500,7 +43423,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝv ðə pˈipʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-150",
@@ -41522,7 +43446,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/sˈɝv ˈæz/"
   },
   {
     "id": "blueforest-20260628-adjadv-152",
@@ -41544,7 +43469,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌmjˈunʌti sˈɝvʌs/"
   },
   {
     "id": "blueforest-20260628-adjadv-153",
@@ -41566,7 +43492,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/lˈoʊkʌl kʌmjˈunʌti/"
   },
   {
     "id": "blueforest-20260628-adjadv-155",
@@ -41588,7 +43515,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rɪnˈuʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-156",
@@ -41610,7 +43538,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rinˈuʌbʌl/"
   },
   {
     "id": "blueforest-20260628-adjadv-157",
@@ -41632,7 +43561,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rinˈuʌbʌl ˈɛnɝdʒi/"
   },
   {
     "id": "blueforest-20260628-adjadv-158",
@@ -41654,7 +43584,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/trʌdˈɪʃʌnʌl ˈɛnɝdʒi/"
   },
   {
     "id": "blueforest-20260628-adjadv-159",
@@ -41676,7 +43607,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rinˈuʌbʌl rˈisɔrsɪz/"
   },
   {
     "id": "blueforest-20260628-adjadv-161",
@@ -41698,7 +43630,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnˈɛkʃʌn/"
   },
   {
     "id": "blueforest-20260628-adjadv-162",
@@ -41720,7 +43653,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnˈɛktɪd/"
   },
   {
     "id": "blueforest-20260628-adjadv-163",
@@ -41742,7 +43676,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kʌnˈɛkt ə wɪð / tə bˈi/"
   },
   {
     "id": "wordlist-20260628-v42-001",
@@ -41767,7 +43702,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/rɪzˈʌlt/"
   },
   {
     "id": "wordlist-20260628-v42-002",
@@ -41792,7 +43728,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/rɪzˈʌlt ɪn/"
   },
   {
     "id": "wordlist-20260628-v42-003",
@@ -41817,7 +43754,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/rɪzˈʌlt frˈʌm/"
   },
   {
     "id": "wordlist-20260628-v42-005",
@@ -41842,7 +43780,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ˈæz ə rɪzˈʌlt əv/"
   },
   {
     "id": "wordlist-20260628-v42-006",
@@ -41868,7 +43807,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "蓝色森林 19"
-    ]
+    ],
+    "phonetic": "/kˈɑnsʌkwʌns/"
   },
   {
     "id": "wordlist-20260628-v42-007",
@@ -41893,7 +43833,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ˈæz ə kˈɑnsʌkwʌns/"
   },
   {
     "id": "wordlist-20260628-v42-008",
@@ -41918,7 +43859,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/kˈɑnsʌkwʌntli/"
   },
   {
     "id": "wordlist-20260628-v42-011",
@@ -41943,7 +43885,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/lˈɑrdʒli/"
   },
   {
     "id": "wordlist-20260628-v42-013",
@@ -41969,7 +43912,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "蓝色森林 23"
-    ]
+    ],
+    "phonetic": "/smˈɔl/"
   },
   {
     "id": "wordlist-20260628-v42-014",
@@ -41994,7 +43938,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ʃˈɔrt/"
   },
   {
     "id": "wordlist-20260628-v42-015",
@@ -42019,7 +43964,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ɪn ʃˈɔrt/"
   },
   {
     "id": "wordlist-20260628-v42-016",
@@ -42044,7 +43990,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ʃˈɔrtli/"
   },
   {
     "id": "wordlist-20260628-v42-017",
@@ -42069,7 +44016,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ʃˈɔrtʌdʒ/"
   },
   {
     "id": "wordlist-20260628-v42-018",
@@ -42094,7 +44042,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ʃˈeɪp/"
   },
   {
     "id": "wordlist-20260628-v42-019",
@@ -42119,7 +44068,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ʃˈɑrp/"
   },
   {
     "id": "wordlist-20260628-v42-020",
@@ -42144,7 +44094,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/hˈɛvi/"
   },
   {
     "id": "wordlist-20260628-v42-021",
@@ -42169,7 +44120,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/hˈɛvi trˈæfɪk/"
   },
   {
     "id": "wordlist-20260628-v42-022",
@@ -42196,7 +44148,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "四级 10"
-    ]
+    ],
+    "phonetic": "/lˈaɪt/"
   },
   {
     "id": "wordlist-20260628-v42-023",
@@ -42221,7 +44174,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/θˈɪn/"
   },
   {
     "id": "wordlist-20260628-v42-025",
@@ -42246,7 +44200,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/hˈɑrdʌn/"
   },
   {
     "id": "wordlist-20260628-v42-027",
@@ -42271,7 +44226,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/hˈɑrdwˌɛr/"
   },
   {
     "id": "wordlist-20260628-v42-028",
@@ -42296,7 +44252,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/sˈɑft/"
   },
   {
     "id": "wordlist-20260628-v42-030",
@@ -42322,7 +44279,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "蓝色森林 23"
-    ]
+    ],
+    "phonetic": "/lˈɔŋ/"
   },
   {
     "id": "wordlist-20260628-v42-031",
@@ -42347,7 +44305,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ˈæz / sˈoʊ lˈɔŋ ˈæz/"
   },
   {
     "id": "wordlist-20260628-v42-032",
@@ -42372,7 +44331,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/lˈɔŋ fˈɔr/"
   },
   {
     "id": "wordlist-20260628-v42-033",
@@ -42397,7 +44357,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/lˈɛŋkθ/"
   },
   {
     "id": "wordlist-20260628-v42-034",
@@ -42423,7 +44384,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "蓝色森林 21"
-    ]
+    ],
+    "phonetic": "/wˈaɪd/"
   },
   {
     "id": "wordlist-20260628-v42-035",
@@ -42448,7 +44410,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/wˈɪdθ/"
   },
   {
     "id": "wordlist-20260628-v42-036",
@@ -42473,7 +44436,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/wˈaɪdli/"
   },
   {
     "id": "wordlist-20260628-v42-037",
@@ -42498,7 +44462,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/wˈeɪt/"
   },
   {
     "id": "wordlist-20260628-v42-038",
@@ -42523,7 +44488,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/lˈuz wˈeɪt/"
   },
   {
     "id": "wordlist-20260628-v42-039",
@@ -42548,7 +44514,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/brˈɛdθ/"
   },
   {
     "id": "wordlist-20260628-v42-040",
@@ -42573,7 +44540,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/nˈɛroʊ/"
   },
   {
     "id": "wordlist-20260628-v42-042",
@@ -42598,7 +44566,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/dˈipli/"
   },
   {
     "id": "wordlist-20260628-v42-043",
@@ -42623,7 +44592,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/ʃˈæloʊ/"
   },
   {
     "id": "wordlist-20260628-v42-044",
@@ -42649,7 +44619,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "蓝色森林 17"
-    ]
+    ],
+    "phonetic": "/hˈaɪ/"
   },
   {
     "id": "wordlist-20260628-v42-045",
@@ -42675,7 +44646,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "蓝色森林 24"
-    ]
+    ],
+    "phonetic": "/hˈaɪt/"
   },
   {
     "id": "wordlist-20260628-v42-046",
@@ -42700,7 +44672,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/hˈaɪli/"
   },
   {
     "id": "wordlist-20260628-v42-047",
@@ -42725,7 +44698,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/θˈɪŋk hˈaɪli əv ˌsʌmbədi/"
   },
   {
     "id": "wordlist-20260628-v42-049",
@@ -42750,7 +44724,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 16"
-    ]
+    ],
+    "phonetic": "/hˈaɪwˌeɪ/"
   },
   {
     "id": "wordlist-20260628-v42-050",
@@ -42777,7 +44752,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 16",
       "四级 10"
-    ]
+    ],
+    "phonetic": "/hˈaɪlˌaɪt/"
   },
   {
     "id": "wordlist-20260628-v42-051",
@@ -42805,7 +44781,8 @@ window.WORD_MEMORY_WORDS = [
       "Word List 16",
       "四级 12",
       "蓝色森林 20"
-    ]
+    ],
+    "phonetic": "/prˈɑmʌnʌnt/"
   },
   {
     "id": "wordlist-20260628-v42-052",
@@ -42830,7 +44807,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ðˈoʊ/"
   },
   {
     "id": "wordlist-20260628-v42-053",
@@ -42855,7 +44833,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ˈivɪn ðˈoʊ/"
   },
   {
     "id": "wordlist-20260628-v42-054",
@@ -42880,7 +44859,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ˈæz ðˈoʊ/"
   },
   {
     "id": "wordlist-20260628-v42-055",
@@ -42905,7 +44885,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ˌɔlðˈoʊ/"
   },
   {
     "id": "wordlist-20260628-v42-056",
@@ -42930,7 +44911,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/hˈɛlp/"
   },
   {
     "id": "wordlist-20260628-v42-058",
@@ -42955,7 +44937,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/hˈɛlpfʌl/"
   },
   {
     "id": "wordlist-20260628-v42-059",
@@ -42980,7 +44963,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/hˈɛlplʌs/"
   },
   {
     "id": "wordlist-20260628-v42-060",
@@ -43005,7 +44989,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/bˈi hˈɛlpfʌl tə/"
   },
   {
     "id": "wordlist-20260628-v42-061",
@@ -43031,7 +45016,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/rˈoʊl/"
   },
   {
     "id": "wordlist-20260628-v42-063",
@@ -43056,7 +45042,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/rˈoʊl plˈeɪɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-064",
@@ -43081,7 +45068,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/rˈʌn/"
   },
   {
     "id": "wordlist-20260628-v42-065",
@@ -43106,7 +45094,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ɪn ðə lˈɔŋ rˈʌn/"
   },
   {
     "id": "wordlist-20260628-v42-066",
@@ -43131,7 +45120,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/rˈʌn ˈaʊt əv/"
   },
   {
     "id": "wordlist-20260628-v42-067",
@@ -43156,7 +45146,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/sˈim/"
   },
   {
     "id": "wordlist-20260628-v42-068",
@@ -43181,7 +45172,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/sˈim lˈaɪk/"
   },
   {
     "id": "wordlist-20260628-v42-069",
@@ -43206,7 +45198,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/sˈim tə/"
   },
   {
     "id": "wordlist-20260628-v42-070",
@@ -43232,7 +45225,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/kˈɪd/"
   },
   {
     "id": "wordlist-20260628-v42-072",
@@ -43257,7 +45251,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/plˈeɪ ə dʒˈoʊk ɑn/"
   },
   {
     "id": "wordlist-20260628-v42-073",
@@ -43282,7 +45277,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈæf/"
   },
   {
     "id": "wordlist-20260628-v42-074",
@@ -43307,7 +45303,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈæf ˈæt/"
   },
   {
     "id": "wordlist-20260628-v42-075",
@@ -43332,7 +45329,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈæftɝ/"
   },
   {
     "id": "wordlist-20260628-v42-076",
@@ -43357,7 +45355,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/bˈɝst ˈɪntu lˈæftɝ/"
   },
   {
     "id": "wordlist-20260628-v42-077",
@@ -43383,7 +45382,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/krˈaɪ/"
   },
   {
     "id": "wordlist-20260628-v42-078",
@@ -43409,7 +45409,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/kˈɛr/"
   },
   {
     "id": "wordlist-20260628-v42-079",
@@ -43435,7 +45436,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/kˈɛr fˈɔr/"
   },
   {
     "id": "wordlist-20260628-v42-080",
@@ -43461,7 +45463,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/kˈɛr ʌbˈaʊt/"
   },
   {
     "id": "wordlist-20260628-v42-081",
@@ -43487,7 +45490,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/kˈɛrfʌl/"
   },
   {
     "id": "wordlist-20260628-v42-082",
@@ -43513,7 +45517,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/wˈɝi/"
   },
   {
     "id": "wordlist-20260628-v42-083",
@@ -43538,7 +45543,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/wˈɝi ʌbˈaʊt/"
   },
   {
     "id": "wordlist-20260628-v42-084",
@@ -43564,7 +45570,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛnt/"
   },
   {
     "id": "wordlist-20260628-v42-085",
@@ -43590,7 +45597,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛnʃʌn/"
   },
   {
     "id": "wordlist-20260628-v42-086",
@@ -43615,7 +45623,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛntɝ/"
   },
   {
     "id": "wordlist-20260628-v42-088",
@@ -43640,7 +45649,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈɔjɝ/"
   },
   {
     "id": "wordlist-20260628-v42-089",
@@ -43665,7 +45675,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈiɡʌl/"
   },
   {
     "id": "wordlist-20260628-v42-090",
@@ -43684,13 +45695,15 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 17"
-    ]
+      "Word List 17",
+      "蓝色森林 27"
+    ],
+    "phonetic": "/ˌɪlˈiɡʌl/"
   },
   {
     "id": "wordlist-20260628-v42-091",
@@ -43717,7 +45730,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/kˌɑnstʌtˈuʃʌn/"
   },
   {
     "id": "wordlist-20260628-v42-092",
@@ -43742,7 +45756,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ˈoʊpʌn/"
   },
   {
     "id": "wordlist-20260628-v42-093",
@@ -43767,7 +45782,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/bˈi ˈoʊpʌn/"
   },
   {
     "id": "wordlist-20260628-v42-094",
@@ -43792,7 +45808,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈuz/"
   },
   {
     "id": "wordlist-20260628-v42-095",
@@ -43817,7 +45834,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈuz wˌʌnsˈɛlf/"
   },
   {
     "id": "wordlist-20260628-v42-097",
@@ -43842,7 +45860,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/lˈɔs/"
   },
   {
     "id": "wordlist-20260628-v42-098",
@@ -43867,7 +45886,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 17"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt/"
   },
   {
     "id": "wordlist-20260628-v42-099",
@@ -43893,7 +45913,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt ˈʌp/"
   },
   {
     "id": "wordlist-20260628-v42-100",
@@ -43920,7 +45941,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "四级 21"
-    ]
+    ],
+    "phonetic": "/ʌbtˈeɪn/"
   },
   {
     "id": "wordlist-20260628-v42-103",
@@ -43947,7 +45969,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "四级 8"
-    ]
+    ],
+    "phonetic": "/ʌtʃˈivmʌnt/"
   },
   {
     "id": "wordlist-20260628-v42-104",
@@ -43973,7 +45996,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 23"
-    ]
+    ],
+    "phonetic": "/tˈɝn/"
   },
   {
     "id": "wordlist-20260628-v42-105",
@@ -43999,7 +46023,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/tˈɝn dˈaʊn/"
   },
   {
     "id": "wordlist-20260628-v42-106",
@@ -44025,7 +46050,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/tˈɝn ɑn/"
   },
   {
     "id": "wordlist-20260628-v42-107",
@@ -44051,7 +46077,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/tˈɝn ˈaʊt/"
   },
   {
     "id": "wordlist-20260628-v42-108",
@@ -44077,7 +46104,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 17",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/tˈɝn ˈʌp/"
   },
   {
     "id": "wordlist-20260628-v42-110",
@@ -44103,7 +46131,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 18",
       "蓝色森林 13"
-    ]
+    ],
+    "phonetic": "/tˈɝn ˈoʊvɝ/"
   },
   {
     "id": "wordlist-20260628-v42-111",
@@ -44128,7 +46157,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/tˈʊr/"
   },
   {
     "id": "wordlist-20260628-v42-114",
@@ -44153,7 +46183,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/tˈʊrʌst ʌtrˈækʃʌn/"
   },
   {
     "id": "wordlist-20260628-v42-115",
@@ -44179,7 +46210,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 18",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/trˈævʌl/"
   },
   {
     "id": "wordlist-20260628-v42-116",
@@ -44204,7 +46236,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/trˈævʌl ˈeɪdʒʌnsi/"
   },
   {
     "id": "wordlist-20260628-v42-117",
@@ -44229,7 +46262,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/dʒˈɝni tə ðə wˈɛst/"
   },
   {
     "id": "wordlist-20260628-v42-118",
@@ -44254,7 +46288,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/dʒˈɝni/"
   },
   {
     "id": "wordlist-20260628-v42-119",
@@ -44279,7 +46314,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/dʒˈɝnʌl/"
   },
   {
     "id": "wordlist-20260628-v42-121",
@@ -44304,7 +46340,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/fˈɛstʌvʌl/"
   },
   {
     "id": "wordlist-20260628-v42-122",
@@ -44329,7 +46366,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/veɪkˈeɪʃʌn/"
   },
   {
     "id": "wordlist-20260628-v42-123",
@@ -44354,7 +46392,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/bˈæɡʌdʒ/"
   },
   {
     "id": "wordlist-20260628-v42-125",
@@ -44379,7 +46418,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/pˈæk/"
   },
   {
     "id": "wordlist-20260628-v42-126",
@@ -44405,7 +46445,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 18",
       "蓝色森林 19"
-    ]
+    ],
+    "phonetic": "/pˈækʌdʒ/"
   },
   {
     "id": "wordlist-20260628-v42-127",
@@ -44430,7 +46471,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/pˈækɝ/"
   },
   {
     "id": "wordlist-20260628-v42-128",
@@ -44455,7 +46497,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/pˈɑrsʌl/"
   },
   {
     "id": "wordlist-20260628-v42-129",
@@ -44480,7 +46523,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/bˈɛnʌfɪt/"
   },
   {
     "id": "wordlist-20260628-v42-130",
@@ -44505,7 +46549,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/tə wʌnz bˈɛnʌfɪt/"
   },
   {
     "id": "wordlist-20260628-v42-131",
@@ -44530,7 +46575,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/bˈɛnʌfɪt frˈʌm/"
   },
   {
     "id": "wordlist-20260628-v42-132",
@@ -44555,7 +46601,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/bˌɛnʌfˈɪʃʌl/"
   },
   {
     "id": "wordlist-20260628-v42-133",
@@ -44580,7 +46627,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/bˈi bˌɛnʌfˈɪʃʌl tə/"
   },
   {
     "id": "wordlist-20260628-v42-134",
@@ -44592,20 +46640,23 @@ window.WORD_MEMORY_WORDS = [
     "source": "Word List",
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 18"
-    ]
+      "Word List 18",
+      "四级 22"
+    ],
+    "phonetic": "/kriˈeɪt/"
   },
   {
     "id": "wordlist-20260628-v42-135",
@@ -44617,20 +46668,23 @@ window.WORD_MEMORY_WORDS = [
     "source": "Word List",
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 18"
-    ]
+      "Word List 18",
+      "四级 22"
+    ],
+    "phonetic": "/kriˈeɪtɪv/"
   },
   {
     "id": "wordlist-20260628-v42-136",
@@ -44642,20 +46696,23 @@ window.WORD_MEMORY_WORDS = [
     "source": "Word List",
     "sources": [
       "Word List",
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-06-28T12:35:00+08:00",
-    "updatedAt": "2026-06-28T12:35:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "Word List 18"
-    ]
+      "Word List 18",
+      "四级 22"
+    ],
+    "phonetic": "/krˈitʃɝ/"
   },
   {
     "id": "wordlist-20260628-v42-138",
@@ -44680,7 +46737,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/wˈɑtʃ ˈaʊt/"
   },
   {
     "id": "wordlist-20260628-v42-139",
@@ -44705,7 +46763,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/tˈɛlʌvˌɪʒʌn/"
   },
   {
     "id": "wordlist-20260628-v42-140",
@@ -44731,7 +46790,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 18",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/sˈɪnʌmʌ/"
   },
   {
     "id": "wordlist-20260628-v42-141",
@@ -44757,7 +46817,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 18",
       "蓝色森林 18"
-    ]
+    ],
+    "phonetic": "/mˈuvi/"
   },
   {
     "id": "wordlist-20260628-v42-142",
@@ -44782,7 +46843,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/fˈɪlm/"
   },
   {
     "id": "wordlist-20260628-v42-143",
@@ -44807,7 +46869,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ə fˈɪlm/"
   },
   {
     "id": "wordlist-20260628-v42-144",
@@ -44832,7 +46895,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/sˈi / wˈɑtʃ ə fˈɪlm/"
   },
   {
     "id": "wordlist-20260628-v42-145",
@@ -44857,7 +46921,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/mˈidiʌ/"
   },
   {
     "id": "wordlist-20260628-v42-147",
@@ -44882,7 +46947,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/rˈeɪdiˌoʊ/"
   },
   {
     "id": "wordlist-20260628-v42-148",
@@ -44908,7 +46974,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 18",
       "蓝色森林 23"
-    ]
+    ],
+    "phonetic": "/vˈɪdioʊ/"
   },
   {
     "id": "wordlist-20260628-v42-149",
@@ -44933,7 +47000,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/vˈɪdioʊ mˈitɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-150",
@@ -44958,7 +47026,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 18"
-    ]
+    ],
+    "phonetic": "/sˈaɪlʌnt/"
   },
   {
     "id": "wordlist-20260628-v42-151",
@@ -44983,7 +47052,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/plˈiz/"
   },
   {
     "id": "wordlist-20260628-v42-152",
@@ -45008,7 +47078,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/plˈizd/"
   },
   {
     "id": "wordlist-20260628-v42-153",
@@ -45033,7 +47104,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/plˈizɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-154",
@@ -45058,7 +47130,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/plˈɛʒɝ/"
   },
   {
     "id": "wordlist-20260628-v42-155",
@@ -45083,7 +47156,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˈæt ə tˈɛmprʌtʃɝ əv/"
   },
   {
     "id": "wordlist-20260628-v42-156",
@@ -45108,7 +47182,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/tˈɛmprʌtʃɝ/"
   },
   {
     "id": "wordlist-20260628-v42-157",
@@ -45133,7 +47208,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/klˈaɪmʌt/"
   },
   {
     "id": "wordlist-20260628-v42-158",
@@ -45158,7 +47234,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/klˈaɪmʌt tʃˈeɪndʒ/"
   },
   {
     "id": "wordlist-20260628-v42-159",
@@ -45183,7 +47260,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/klˈaɪmʌt wˈɔrmɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-160",
@@ -45208,7 +47286,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/wˈɛðɝ/"
   },
   {
     "id": "wordlist-20260628-v42-161",
@@ -45233,7 +47312,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/wˈɛðɝ/"
   },
   {
     "id": "wordlist-20260628-v42-162",
@@ -45258,7 +47338,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/wˈɛðɝ ɔr nˈɑt/"
   },
   {
     "id": "wordlist-20260628-v42-163",
@@ -45283,7 +47364,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/wˈɛðɝ ɔr/"
   },
   {
     "id": "wordlist-20260628-v42-164",
@@ -45308,7 +47390,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ʌnlˈɛs/"
   },
   {
     "id": "wordlist-20260628-v42-166",
@@ -45333,7 +47416,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/fˈɝm/"
   },
   {
     "id": "wordlist-20260628-v42-167",
@@ -45358,7 +47442,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˈɛntɝprˌaɪz/"
   },
   {
     "id": "wordlist-20260628-v42-168",
@@ -45383,7 +47468,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ʌkˈʌmpʌni/"
   },
   {
     "id": "wordlist-20260628-v42-170",
@@ -45408,7 +47494,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/kˈɑmrˌæd/"
   },
   {
     "id": "wordlist-20260628-v42-172",
@@ -45433,7 +47520,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/fˈɛloʊ/"
   },
   {
     "id": "wordlist-20260628-v42-174",
@@ -45458,7 +47546,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˈɪndʌkˌeɪt/"
   },
   {
     "id": "wordlist-20260628-v42-175",
@@ -45483,7 +47572,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˌɪmplˈaɪ/"
   },
   {
     "id": "wordlist-20260628-v42-176",
@@ -45508,7 +47598,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˌɪmplʌkˈeɪʃʌn/"
   },
   {
     "id": "wordlist-20260628-v42-179",
@@ -45533,7 +47624,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ædvˈaɪz ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-181",
@@ -45558,7 +47650,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ʌdvˈaɪzʌbʌl/"
   },
   {
     "id": "wordlist-20260628-v42-183",
@@ -45583,7 +47676,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˈædvʌkʌt/"
   },
   {
     "id": "wordlist-20260628-v42-184",
@@ -45608,7 +47702,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɪns əv/"
   },
   {
     "id": "wordlist-20260628-v42-185",
@@ -45633,7 +47728,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɪns/"
   },
   {
     "id": "wordlist-20260628-v42-186",
@@ -45658,7 +47754,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/pɝswˈeɪd sˈʌmwˌʌn tə du/"
   },
   {
     "id": "wordlist-20260628-v42-187",
@@ -45684,7 +47781,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 19",
       "蓝色森林 17"
-    ]
+    ],
+    "phonetic": "/pɝswˈeɪd/"
   },
   {
     "id": "wordlist-20260628-v42-188",
@@ -45709,7 +47807,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/dɪmˈænd/"
   },
   {
     "id": "wordlist-20260628-v42-189",
@@ -45734,7 +47833,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/dɪmˈænd ðˈæt ˌsʌmbədi ʃˈʊd du/"
   },
   {
     "id": "wordlist-20260628-v42-190",
@@ -45759,7 +47859,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/rɪkwˈaɪrmʌnt/"
   },
   {
     "id": "wordlist-20260628-v42-191",
@@ -45785,7 +47886,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 19",
       "蓝色森林 17"
-    ]
+    ],
+    "phonetic": "/rˌikwˈaɪɝ/"
   },
   {
     "id": "wordlist-20260628-v42-192",
@@ -45810,7 +47912,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ʌkwˈaɪɝ/"
   },
   {
     "id": "wordlist-20260628-v42-193",
@@ -45835,7 +47938,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 19"
-    ]
+    ],
+    "phonetic": "/ˌɪnkwˈaɪr/"
   },
   {
     "id": "wordlist-20260628-v42-194",
@@ -45860,7 +47964,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪnkwˈaɪɝ/"
   },
   {
     "id": "wordlist-20260628-v42-195",
@@ -45885,7 +47990,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/rɪkwˈɛst/"
   },
   {
     "id": "wordlist-20260628-v42-196",
@@ -45910,7 +48016,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/prʌpˈoʊz/"
   },
   {
     "id": "wordlist-20260628-v42-197",
@@ -45935,7 +48042,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/prʌpˈoʊz tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-198",
@@ -45960,7 +48068,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/prʌpˈoʊzʌl/"
   },
   {
     "id": "wordlist-20260628-v42-201",
@@ -45985,7 +48094,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kʌmˈændɝ/"
   },
   {
     "id": "wordlist-20260628-v42-203",
@@ -46010,7 +48120,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/rˌɛkʌmˈɛnd ˈduɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-204",
@@ -46035,7 +48146,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/rˌɛkʌmˈɛnd ˌsʌmbədi tə du/"
   },
   {
     "id": "wordlist-20260628-v42-205",
@@ -46060,7 +48172,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/rˌɛkʌmʌndˈeɪʃʌn/"
   },
   {
     "id": "wordlist-20260628-v42-207",
@@ -46085,7 +48198,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kˈɑnvɝt tə/"
   },
   {
     "id": "wordlist-20260628-v42-211",
@@ -46110,7 +48224,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/hˈæv ɪfˈɛkt ɑn/"
   },
   {
     "id": "wordlist-20260628-v42-213",
@@ -46135,7 +48250,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪfˈɛktɪvli/"
   },
   {
     "id": "wordlist-20260628-v42-215",
@@ -46160,7 +48276,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪfˈɪʃʌnsi/"
   },
   {
     "id": "wordlist-20260628-v42-216",
@@ -46187,7 +48304,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "四级 20"
-    ]
+    ],
+    "phonetic": "/ˌɪmpˈækt/"
   },
   {
     "id": "wordlist-20260628-v42-217",
@@ -46212,7 +48330,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/hˈæv ˌɪmpˈækt ɑn/"
   },
   {
     "id": "wordlist-20260628-v42-218",
@@ -46239,7 +48358,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "四级 20"
-    ]
+    ],
+    "phonetic": "/ˈɪnfluʌns/"
   },
   {
     "id": "wordlist-20260628-v42-219",
@@ -46264,7 +48384,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/hˈæv æn ˈɪnfluʌns ɑn/"
   },
   {
     "id": "wordlist-20260628-v42-220",
@@ -46291,7 +48412,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "四级 20"
-    ]
+    ],
+    "phonetic": "/ˌɪnfluˈɛnʃʌl/"
   },
   {
     "id": "wordlist-20260628-v42-221",
@@ -46317,7 +48439,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "蓝色森林 18"
-    ]
+    ],
+    "phonetic": "/ˈɑrt/"
   },
   {
     "id": "wordlist-20260628-v42-222",
@@ -46342,7 +48465,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/fˈoʊk/"
   },
   {
     "id": "wordlist-20260628-v42-223",
@@ -46367,7 +48491,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/tˈeɪl/"
   },
   {
     "id": "wordlist-20260628-v42-224",
@@ -46392,7 +48517,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ˈɑrtʌst/"
   },
   {
     "id": "wordlist-20260628-v42-225",
@@ -46417,7 +48543,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ˈɑrt wˈɝks/"
   },
   {
     "id": "wordlist-20260628-v42-227",
@@ -46442,7 +48569,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/bˈaɪ kˈɑntræst/"
   },
   {
     "id": "wordlist-20260628-v42-228",
@@ -46467,7 +48595,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kˈɑntræst wɪð/"
   },
   {
     "id": "wordlist-20260628-v42-229",
@@ -46492,7 +48621,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪn kˈɑntræst tə/"
   },
   {
     "id": "wordlist-20260628-v42-230",
@@ -46517,7 +48647,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪn kˈɑntræst/"
   },
   {
     "id": "wordlist-20260628-v42-231",
@@ -46542,7 +48673,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɑn ðə kˈɑntrɛri/"
   },
   {
     "id": "wordlist-20260628-v42-232",
@@ -46567,7 +48699,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kˈɑntrˌækt/"
   },
   {
     "id": "wordlist-20260628-v42-233",
@@ -46592,7 +48725,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kˈɑntˌækt/"
   },
   {
     "id": "wordlist-20260628-v42-234",
@@ -46617,7 +48751,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kʌmpˈɛr/"
   },
   {
     "id": "wordlist-20260628-v42-235",
@@ -46642,7 +48777,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kʌmpˈɛr wɪð / tə/"
   },
   {
     "id": "wordlist-20260628-v42-236",
@@ -46667,7 +48803,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kʌmpˈɛrʌtɪv/"
   },
   {
     "id": "wordlist-20260628-v42-237",
@@ -46692,7 +48829,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kʌmpˈɛrʌsʌn/"
   },
   {
     "id": "wordlist-20260628-v42-238",
@@ -46717,7 +48855,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/mˈeɪk kʌmpˈɛrʌsʌn/"
   },
   {
     "id": "wordlist-20260628-v42-239",
@@ -46742,7 +48881,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪn kʌmpˈɛrʌsʌn wɪð/"
   },
   {
     "id": "wordlist-20260628-v42-240",
@@ -46769,7 +48909,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "四级 20"
-    ]
+    ],
+    "phonetic": "/kʌndˈɛns/"
   },
   {
     "id": "wordlist-20260628-v42-242",
@@ -46794,7 +48935,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/rˈizʌn/"
   },
   {
     "id": "wordlist-20260628-v42-243",
@@ -46819,7 +48961,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ðə rˈizʌn wˈaɪ ˈɪz ðˈæt/"
   },
   {
     "id": "wordlist-20260628-v42-245",
@@ -46844,7 +48987,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/lˈɑdʒɪk/"
   },
   {
     "id": "wordlist-20260628-v42-246",
@@ -46869,7 +49013,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ʌkjˈuz/"
   },
   {
     "id": "wordlist-20260628-v42-247",
@@ -46894,7 +49039,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/bˈi ʌkjˈuzd əv/"
   },
   {
     "id": "wordlist-20260628-v42-248",
@@ -46919,7 +49065,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/tʃˈɑrdʒ/"
   },
   {
     "id": "wordlist-20260628-v42-249",
@@ -46944,7 +49091,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/ɪn tʃˈɑrdʒ əv/"
   },
   {
     "id": "wordlist-20260628-v42-250",
@@ -46969,7 +49117,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/tˈeɪk tʃˈɑrdʒ əv/"
   },
   {
     "id": "wordlist-20260628-v42-251",
@@ -46994,7 +49143,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/tʃˈɑrdʒ ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "wordlist-20260628-v42-252",
@@ -47019,7 +49169,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/dɪstʃˈɑrdʒ/"
   },
   {
     "id": "wordlist-20260628-v42-253",
@@ -47044,7 +49195,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/kˈɔrt/"
   },
   {
     "id": "wordlist-20260628-v42-255",
@@ -47069,7 +49221,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/bˈi ɪn prˈɪzʌn/"
   },
   {
     "id": "wordlist-20260628-v42-256",
@@ -47094,7 +49247,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/prˈɪzʌnɝ/"
   },
   {
     "id": "wordlist-20260628-v42-258",
@@ -47119,7 +49273,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/dʒˈeɪl/"
   },
   {
     "id": "wordlist-20260628-v42-259",
@@ -47144,7 +49299,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/dʒˈʌdʒ/"
   },
   {
     "id": "wordlist-20260628-v42-260",
@@ -47169,7 +49325,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "Word List 20"
-    ]
+    ],
+    "phonetic": "/dʒˈʌdʒmʌnt/"
   },
   {
     "id": "wordlist-20260628-v42-261",
@@ -47195,7 +49352,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "蓝色森林 26"
-    ]
+    ],
+    "phonetic": "/sˈɛntʌns/"
   },
   {
     "id": "wordlist-20260628-v42-263",
@@ -47222,7 +49380,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "四级 18"
-    ]
+    ],
+    "phonetic": "/kˈæpɪtʌlˌɪzʌm/"
   },
   {
     "id": "wordlist-20260628-v42-264",
@@ -47249,7 +49408,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "Word List 20",
       "四级 18"
-    ]
+    ],
+    "phonetic": "/kˈæpʌtʌlɪst/"
   },
   {
     "id": "cet4-20260629-v43-001",
@@ -47273,7 +49433,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/bˈɝn/"
   },
   {
     "id": "cet4-20260629-v43-002",
@@ -47297,7 +49458,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/flˈæʃ/"
   },
   {
     "id": "cet4-20260629-v43-003",
@@ -47321,7 +49483,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/flˈɛʃ/"
   },
   {
     "id": "cet4-20260629-v43-004",
@@ -47347,7 +49510,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 6",
       "蓝色森林 24"
-    ]
+    ],
+    "phonetic": "/frˈɛʃ/"
   },
   {
     "id": "cet4-20260629-v43-005",
@@ -47371,7 +49535,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rɪfrˈɛʃ/"
   },
   {
     "id": "cet4-20260629-v43-006",
@@ -47395,7 +49560,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rʌfrˈɛʃmʌnt/"
   },
   {
     "id": "cet4-20260629-v43-007",
@@ -47419,7 +49585,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/flˈɝɪʃ/"
   },
   {
     "id": "cet4-20260629-v43-008",
@@ -47443,7 +49610,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/flˈaʊɝ/"
   },
   {
     "id": "cet4-20260629-v43-009",
@@ -47467,7 +49635,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/pˈaʊdɝ/"
   },
   {
     "id": "cet4-20260629-v43-010",
@@ -47491,7 +49660,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/kjˈʊr/"
   },
   {
     "id": "cet4-20260629-v43-011",
@@ -47515,7 +49685,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/kjˈʊrʌbʌl/"
   },
   {
     "id": "cet4-20260629-v43-012",
@@ -47539,7 +49710,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/kjˈʊriʌs/"
   },
   {
     "id": "cet4-20260629-v43-013",
@@ -47563,7 +49735,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/kjˌʊriˈɑsʌti/"
   },
   {
     "id": "cet4-20260629-v43-014",
@@ -47587,7 +49760,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˈækjɝʌt/"
   },
   {
     "id": "cet4-20260629-v43-015",
@@ -47611,7 +49785,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˈækjɝʌsi/"
   },
   {
     "id": "cet4-20260629-v43-016",
@@ -47635,7 +49810,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/sɪkjˈʊr/"
   },
   {
     "id": "cet4-20260629-v43-017",
@@ -47659,7 +49835,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/sɪkjˈʊrʌti/"
   },
   {
     "id": "cet4-20260629-v43-018",
@@ -47683,7 +49860,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rˈɛskju/"
   },
   {
     "id": "cet4-20260629-v43-019",
@@ -47707,7 +49885,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˈɪndʒɝ/"
   },
   {
     "id": "cet4-20260629-v43-020",
@@ -47731,7 +49910,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˈɪndʒɝi/"
   },
   {
     "id": "cet4-20260629-v43-021",
@@ -47755,7 +49935,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˌɪndʒˈʊriʌs/"
   },
   {
     "id": "cet4-20260629-v43-022",
@@ -47779,7 +49960,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/wˈaʊnd/"
   },
   {
     "id": "cet4-20260629-v43-023",
@@ -47803,7 +49985,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/hˈɑrm/"
   },
   {
     "id": "cet4-20260629-v43-024",
@@ -47827,7 +50010,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/hˈɑrmfʌl/"
   },
   {
     "id": "cet4-20260629-v43-025",
@@ -47851,7 +50035,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/hˈɑrmlʌs/"
   },
   {
     "id": "cet4-20260629-v43-027",
@@ -47875,7 +50060,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/hˈæzɝdʌs/"
   },
   {
     "id": "cet4-20260629-v43-028",
@@ -47901,7 +50087,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 6",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/dˈeɪndʒɝ/"
   },
   {
     "id": "cet4-20260629-v43-029",
@@ -47925,7 +50112,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/dˈeɪndʒɝʌs/"
   },
   {
     "id": "cet4-20260629-v43-030",
@@ -47949,7 +50137,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ɛndˈeɪndʒɝ/"
   },
   {
     "id": "cet4-20260629-v43-031",
@@ -47973,7 +50162,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/stˈeɪk/"
   },
   {
     "id": "cet4-20260629-v43-032",
@@ -47997,7 +50187,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rˈɪsk/"
   },
   {
     "id": "cet4-20260629-v43-033",
@@ -48021,7 +50212,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rˈɪski/"
   },
   {
     "id": "cet4-20260629-v43-034",
@@ -48045,7 +50237,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ɡˈæmbʌl/"
   },
   {
     "id": "cet4-20260629-v43-035",
@@ -48069,7 +50262,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/bˈɛt/"
   },
   {
     "id": "cet4-20260629-v43-039",
@@ -48093,7 +50287,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rˈɛntʌl/"
   },
   {
     "id": "cet4-20260629-v43-041",
@@ -48117,7 +50312,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/lˈis/"
   },
   {
     "id": "cet4-20260629-v43-042",
@@ -48141,7 +50337,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/rilˈis/"
   },
   {
     "id": "cet4-20260629-v43-045",
@@ -48165,7 +50362,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/mˈɑdɝn/"
   },
   {
     "id": "cet4-20260629-v43-046",
@@ -48189,7 +50387,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/mˈɑdɝnˌaɪz/"
   },
   {
     "id": "cet4-20260629-v43-047",
@@ -48213,7 +50412,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/mˌɑdɝnʌzˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260629-v43-048",
@@ -48239,7 +50439,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 6",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/ˈɛrʌ/"
   },
   {
     "id": "cet4-20260629-v43-049",
@@ -48263,7 +50464,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˈʌp tə dˈeɪt/"
   },
   {
     "id": "cet4-20260629-v43-050",
@@ -48287,7 +50489,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 6"
-    ]
+    ],
+    "phonetic": "/ˈaʊtdˌeɪtɪd/"
   },
   {
     "id": "blueforest-20260629-v43-001",
@@ -48311,7 +50514,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/ˈɔlwˌeɪz/"
   },
   {
     "id": "blueforest-20260629-v43-002",
@@ -48335,7 +50539,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/wˈik/"
   },
   {
     "id": "blueforest-20260629-v43-004",
@@ -48359,7 +50564,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/ʃˈi/"
   },
   {
     "id": "blueforest-20260629-v43-005",
@@ -48383,7 +50589,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/ˈænt/"
   },
   {
     "id": "blueforest-20260629-v43-006",
@@ -48409,7 +50616,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 10",
       "四级 9"
-    ]
+    ],
+    "phonetic": "/ʌmˈeɪz/"
   },
   {
     "id": "blueforest-20260629-v43-008",
@@ -48433,7 +50641,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/bˈækjˌɑrd/"
   },
   {
     "id": "blueforest-20260629-v43-009",
@@ -48457,7 +50666,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/pˈɝpʌs/"
   },
   {
     "id": "blueforest-20260629-v43-010",
@@ -48481,7 +50691,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/bjˈuti/"
   },
   {
     "id": "blueforest-20260629-v43-013",
@@ -48505,7 +50716,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/vˈɑlibˌɔl/"
   },
   {
     "id": "blueforest-20260629-v43-014",
@@ -48529,7 +50741,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/mˈɛni/"
   },
   {
     "id": "blueforest-20260629-v43-016",
@@ -48553,7 +50766,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/mˈæθ/"
   },
   {
     "id": "blueforest-20260629-v43-017",
@@ -48577,7 +50791,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/nˈoʊtbˌʊk/"
   },
   {
     "id": "blueforest-20260629-v43-018",
@@ -48601,7 +50816,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/pˈaɪ/"
   },
   {
     "id": "blueforest-20260629-v43-020",
@@ -48625,7 +50841,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/pɝˈeɪd/"
   },
   {
     "id": "blueforest-20260629-v43-021",
@@ -48649,7 +50866,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/pˈɪti/"
   },
   {
     "id": "blueforest-20260629-v43-022",
@@ -48673,7 +50891,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/brˈænd nˈu/"
   },
   {
     "id": "blueforest-20260629-v43-023",
@@ -48697,7 +50916,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/prˈæktɪs/"
   },
   {
     "id": "blueforest-20260629-v43-024",
@@ -48721,7 +50941,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/rˈʌbɪʃ/"
   },
   {
     "id": "blueforest-20260629-v43-026",
@@ -48745,7 +50966,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/rˈoʊ/"
   },
   {
     "id": "blueforest-20260629-v43-027",
@@ -48769,7 +50991,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/bˈeɪkʌn/"
   },
   {
     "id": "blueforest-20260629-v43-028",
@@ -48793,7 +51016,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/prˈaɪz/"
   },
   {
     "id": "blueforest-20260629-v43-029",
@@ -48817,7 +51041,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/prˈɑpɝ/"
   },
   {
     "id": "blueforest-20260629-v43-030",
@@ -48841,7 +51066,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/bˈaɪstˌændɝ/"
   },
   {
     "id": "blueforest-20260629-v43-031",
@@ -48865,7 +51091,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/rˈʌʃ/"
   },
   {
     "id": "blueforest-20260629-v43-032",
@@ -48889,7 +51116,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/slˈɛndɝ/"
   },
   {
     "id": "blueforest-20260629-v43-035",
@@ -48913,7 +51141,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/fˈɪzɪkʌl/"
   },
   {
     "id": "blueforest-20260629-v43-037",
@@ -48937,7 +51166,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/lˈæm/"
   },
   {
     "id": "blueforest-20260629-v43-038",
@@ -48961,7 +51191,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/sˈɛkʌnd/"
   },
   {
     "id": "blueforest-20260629-v43-039",
@@ -48985,7 +51216,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/sˈælʌd/"
   },
   {
     "id": "blueforest-20260629-v43-040",
@@ -49009,7 +51241,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/ˈɪndɛks/"
   },
   {
     "id": "blueforest-20260629-v43-041",
@@ -49033,7 +51266,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/mˈʌndi/"
   },
   {
     "id": "blueforest-20260629-v43-042",
@@ -49057,7 +51291,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/kjˈut/"
   },
   {
     "id": "blueforest-20260629-v43-043",
@@ -49081,7 +51316,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/wˈɝθwˈaɪl/"
   },
   {
     "id": "blueforest-20260629-v43-044",
@@ -49105,7 +51341,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/fˈɔr/"
   },
   {
     "id": "blueforest-20260629-v44-missing-001",
@@ -49129,7 +51366,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/nˈaɪnθ/"
   },
   {
     "id": "blueforest-20260629-v44-missing-003",
@@ -49153,7 +51391,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/dˈisʌnt/"
   },
   {
     "id": "blueforest-20260629-v44-missing-004",
@@ -49177,7 +51416,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/trænzlˈeɪt/"
   },
   {
     "id": "blueforest-20260629-v44-missing-005",
@@ -49201,7 +51441,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/lˈæmp/"
   },
   {
     "id": "blueforest-20260629-v44-missing-006",
@@ -49225,7 +51466,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/dɪspˈaɪt/"
   },
   {
     "id": "blueforest-20260629-v44-missing-007",
@@ -49249,7 +51491,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/dˈɪkʃʌnˌɛri/"
   },
   {
     "id": "blueforest-20260629-v44-missing-011",
@@ -49273,7 +51516,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 10"
-    ]
+    ],
+    "phonetic": "/dˈɪsk/"
   },
   {
     "id": "cet4-20260714-v68-001",
@@ -49297,7 +51541,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/stˈeɪl/"
   },
   {
     "id": "cet4-20260714-v68-002",
@@ -49321,7 +51566,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/kʌntˈɛmpɝˌɛri/"
   },
   {
     "id": "cet4-20260714-v68-003",
@@ -49345,7 +51591,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/tˈɛmpʌl/"
   },
   {
     "id": "cet4-20260714-v68-004",
@@ -49369,7 +51616,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/tˈɛmpɝˌɛri/"
   },
   {
     "id": "cet4-20260714-v68-005",
@@ -49393,7 +51641,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/tˌɛmpɝˈɛrʌli/"
   },
   {
     "id": "cet4-20260714-v68-006",
@@ -49417,7 +51666,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ʌbˈʌndʌns/"
   },
   {
     "id": "cet4-20260714-v68-007",
@@ -49441,7 +51691,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ˈæmpʌl/"
   },
   {
     "id": "cet4-20260714-v68-008",
@@ -49465,7 +51716,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/mʌsˈɑʒ/"
   },
   {
     "id": "cet4-20260714-v68-009",
@@ -49489,7 +51741,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/mˈʌltʌplˌaɪ/"
   },
   {
     "id": "cet4-20260714-v68-010",
@@ -49513,7 +51766,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/mˈʌltʌpʌl/"
   },
   {
     "id": "cet4-20260714-v68-011",
@@ -49537,7 +51791,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/mˌʌltʌplʌkˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260714-v68-012",
@@ -49561,7 +51816,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ɡˈæŋ/"
   },
   {
     "id": "cet4-20260714-v68-013",
@@ -49585,7 +51841,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/bˈænd/"
   },
   {
     "id": "cet4-20260714-v68-014",
@@ -49609,7 +51866,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/bˈændɪdʒ/"
   },
   {
     "id": "cet4-20260714-v68-015",
@@ -49633,7 +51891,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/sˈɔrt/"
   },
   {
     "id": "cet4-20260714-v68-016",
@@ -49657,7 +51916,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/rɪzˈɔrt/"
   },
   {
     "id": "cet4-20260714-v68-017",
@@ -49681,7 +51941,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/flˈɑk/"
   },
   {
     "id": "cet4-20260714-v68-018",
@@ -49705,7 +51966,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/krˈaʊd/"
   },
   {
     "id": "cet4-20260714-v68-019",
@@ -49729,7 +51991,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/krˈaʊdʌd/"
   },
   {
     "id": "cet4-20260714-v68-020",
@@ -49755,7 +52018,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 7",
       "蓝色森林 23"
-    ]
+    ],
+    "phonetic": "/dˈʌzʌn/"
   },
   {
     "id": "cet4-20260714-v68-021",
@@ -49781,7 +52045,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 7",
       "蓝色森林 12"
-    ]
+    ],
+    "phonetic": "/pˌɑpjʌlˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260714-v68-022",
@@ -49805,7 +52070,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/pˈɑpjʌlʌs/"
   },
   {
     "id": "cet4-20260714-v68-023",
@@ -49829,7 +52095,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/pˈɑpjʌlˌeɪt/"
   },
   {
     "id": "cet4-20260714-v68-024",
@@ -49853,7 +52120,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/prɪvˈeɪl/"
   },
   {
     "id": "cet4-20260714-v68-025",
@@ -49877,7 +52145,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/prˈɛvʌlʌnt/"
   },
   {
     "id": "cet4-20260714-v68-026",
@@ -49901,7 +52170,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/prˈɛvʌlʌns/"
   },
   {
     "id": "cet4-20260714-v68-027",
@@ -49925,7 +52195,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ʌvˌeɪlʌbˈɪlʌti/"
   },
   {
     "id": "cet4-20260714-v68-028",
@@ -49949,7 +52220,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/krˈu/"
   },
   {
     "id": "cet4-20260714-v68-029",
@@ -49973,7 +52245,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/skrˈu/"
   },
   {
     "id": "cet4-20260714-v68-030",
@@ -49997,7 +52270,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/stˈæf/"
   },
   {
     "id": "cet4-20260714-v68-031",
@@ -50021,7 +52295,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/stˈʌf/"
   },
   {
     "id": "cet4-20260714-v68-032",
@@ -50045,7 +52320,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/stˈʌfi/"
   },
   {
     "id": "cet4-20260714-v68-033",
@@ -50069,7 +52345,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/stˈʌfɪŋ/"
   },
   {
     "id": "cet4-20260714-v68-034",
@@ -50095,7 +52372,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "四级 7",
       "蓝色森林 17"
-    ]
+    ],
+    "phonetic": "/ˈɪnfʌnt/"
   },
   {
     "id": "cet4-20260714-v68-035",
@@ -50119,7 +52397,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ˌædʌlˈɛsʌnt/"
   },
   {
     "id": "cet4-20260714-v68-036",
@@ -50143,7 +52422,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ˈaɪdʌl/"
   },
   {
     "id": "cet4-20260714-v68-037",
@@ -50167,7 +52447,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "四级 7"
-    ]
+    ],
+    "phonetic": "/ˈaɪdli/"
   },
   {
     "id": "blueforest-20260714-v68-word-001",
@@ -50191,7 +52472,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈil/"
   },
   {
     "id": "blueforest-20260714-v68-word-002",
@@ -50215,7 +52497,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/hˈum/"
   },
   {
     "id": "blueforest-20260714-v68-word-003",
@@ -50239,7 +52522,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/sˌuvʌnˈɪr/"
   },
   {
     "id": "blueforest-20260714-v68-word-004",
@@ -50263,7 +52547,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/wˈʊd/"
   },
   {
     "id": "blueforest-20260714-v68-word-005",
@@ -50287,7 +52572,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/drˈaɪv/"
   },
   {
     "id": "blueforest-20260714-v68-word-006",
@@ -50311,7 +52597,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈizi ɡˈoʊɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-word-007",
@@ -50335,7 +52622,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/drˈɑp/"
   },
   {
     "id": "blueforest-20260714-v68-word-008",
@@ -50359,7 +52647,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dˈʌk/"
   },
   {
     "id": "blueforest-20260714-v68-word-009",
@@ -50383,7 +52672,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/stˈil/"
   },
   {
     "id": "blueforest-20260714-v68-word-010",
@@ -50407,7 +52697,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɛls/"
   },
   {
     "id": "blueforest-20260714-v68-word-011",
@@ -50431,7 +52722,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/imˈeɪl/"
   },
   {
     "id": "blueforest-20260714-v68-word-012",
@@ -50455,7 +52747,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/stˈɛp/"
   },
   {
     "id": "blueforest-20260714-v68-word-013",
@@ -50479,7 +52772,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɑpt/"
   },
   {
     "id": "blueforest-20260714-v68-word-014",
@@ -50503,7 +52797,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈɛtrˌoʊ/"
   },
   {
     "id": "blueforest-20260714-v68-word-015",
@@ -50527,7 +52822,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/krˈɑp/"
   },
   {
     "id": "blueforest-20260714-v68-word-016",
@@ -50551,7 +52847,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌnˈaʊns/"
   },
   {
     "id": "blueforest-20260714-v68-word-017",
@@ -50575,7 +52872,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈʊt/"
   },
   {
     "id": "blueforest-20260714-v68-word-018",
@@ -50599,7 +52897,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaɪsˌaɪt/"
   },
   {
     "id": "blueforest-20260714-v68-word-019",
@@ -50625,7 +52924,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 10"
-    ]
+    ],
+    "phonetic": "/θˈʌndɝ/"
   },
   {
     "id": "blueforest-20260714-v68-word-020",
@@ -50649,7 +52949,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈɔrsˌaɪt/"
   },
   {
     "id": "blueforest-20260714-v68-word-021",
@@ -50673,7 +52974,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/brˈænd/"
   },
   {
     "id": "blueforest-20260714-v68-word-022",
@@ -50697,7 +52999,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/frˈeɪt/"
   },
   {
     "id": "blueforest-20260714-v68-word-023",
@@ -50721,7 +53024,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɛndʒʌnˈɪr/"
   },
   {
     "id": "blueforest-20260714-v68-word-024",
@@ -50745,7 +53049,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪmˈɝdʒ/"
   },
   {
     "id": "blueforest-20260714-v68-word-025",
@@ -50769,7 +53074,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɛθɪk/"
   },
   {
     "id": "blueforest-20260714-v68-word-026",
@@ -50793,7 +53099,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/nˈɛk/"
   },
   {
     "id": "blueforest-20260714-v68-word-027",
@@ -50817,7 +53124,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dʒˈɪm/"
   },
   {
     "id": "blueforest-20260714-v68-word-028",
@@ -50841,7 +53149,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɔfɪs/"
   },
   {
     "id": "blueforest-20260714-v68-word-029",
@@ -50865,7 +53174,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɡrˈoʊsɝ/"
   },
   {
     "id": "blueforest-20260714-v68-word-030",
@@ -50889,7 +53199,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈivɝ/"
   },
   {
     "id": "blueforest-20260714-v68-word-031",
@@ -50913,7 +53224,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/hˈi/"
   },
   {
     "id": "blueforest-20260714-v68-word-032",
@@ -50937,7 +53249,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈɪks/"
   },
   {
     "id": "blueforest-20260714-v68-word-033",
@@ -50961,7 +53274,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/hˈændbˌʊk/"
   },
   {
     "id": "blueforest-20260714-v68-word-034",
@@ -50985,7 +53299,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/tˈɛnt/"
   },
   {
     "id": "blueforest-20260714-v68-word-035",
@@ -51009,7 +53324,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈʌnjʌn/"
   },
   {
     "id": "blueforest-20260714-v68-word-036",
@@ -51033,7 +53349,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kˈɑf/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-001",
@@ -51057,7 +53374,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˌɪnstˈɛd əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-002",
@@ -51081,7 +53399,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/rˈæðɝ ðˈæn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-003",
@@ -51105,7 +53424,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˌɪnklˈudɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-004",
@@ -51130,7 +53450,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "蓝色森林 22"
-    ]
+    ],
+    "phonetic": "/bɪsˈaɪd/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-005",
@@ -51154,7 +53475,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bɪsˈaɪdz/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-006",
@@ -51178,7 +53500,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/θrˈu/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-007",
@@ -51202,7 +53525,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɑpʌzʌt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-008",
@@ -51226,7 +53550,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˌɑpʌzˈɪʃʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-009",
@@ -51250,7 +53575,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌpˈoʊz/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-010",
@@ -51274,7 +53600,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌpˈoʊnʌnt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-011",
@@ -51298,7 +53625,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɑpʌzʌt tə/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-012",
@@ -51323,7 +53651,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/ʌɡˈɛnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-013",
@@ -51347,7 +53676,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈaɪt ʌɡˈɛnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-014",
@@ -51371,7 +53701,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/lˈin ʌɡˈɛnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-015",
@@ -51395,7 +53726,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi ʌɡˈɛnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-016",
@@ -51419,7 +53751,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/prʌtˈɛkt ʌɡˈɛnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-017",
@@ -51443,7 +53776,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/vˈoʊt ʌɡˈɛnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-018",
@@ -51467,7 +53801,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-019",
@@ -51491,7 +53826,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv kʌntrˈoʊl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-020",
@@ -51515,7 +53851,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv ˈɔrdɝ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-021",
@@ -51539,7 +53876,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv brˈɛθ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-022",
@@ -51563,7 +53901,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv dˈeɪt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-023",
@@ -51587,7 +53926,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv sˈaɪt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-024",
@@ -51611,7 +53951,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv rˈitʃ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-025",
@@ -51635,7 +53976,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv dˈeɪndʒɝ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-026",
@@ -51659,7 +54001,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv wˈɝk/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-027",
@@ -51683,7 +54026,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv kjˌʊriˈɑsʌti/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-028",
@@ -51707,7 +54051,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv pˈeɪʃʌns/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-029",
@@ -51731,7 +54076,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/frˈʌm tə/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-030",
@@ -51755,7 +54101,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/frˈʌm tˈaɪm tə tˈaɪm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-031",
@@ -51779,7 +54126,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/frˈʌm hˈɛd tə tˈoʊ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-032",
@@ -51803,7 +54151,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/tˈɛl frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-033",
@@ -51827,7 +54176,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɝˈɪdʒʌnˌeɪt frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-034",
@@ -51851,7 +54201,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi dɝˈaɪvd frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-035",
@@ -51875,7 +54226,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/frˈʌm wʌnz pɝspˈɛktɪv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-036",
@@ -51899,7 +54251,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/frˈʌm pˈɔɪnt əv vjˈu/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-037",
@@ -51923,7 +54276,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dʒˈʌdʒɪŋ frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-038",
@@ -51947,7 +54301,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/rɪkˈʌvɝ frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-039",
@@ -51971,7 +54326,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪskˈeɪp frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-040",
@@ -51995,7 +54351,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/sˈʌfɝ frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-041",
@@ -52019,7 +54376,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/vˈɛri frˈʌm tə/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-042",
@@ -52043,7 +54401,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi mˈeɪd frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-043",
@@ -52067,7 +54426,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi mˈeɪd əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-044",
@@ -52091,7 +54451,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/prʌtˈɛkt frˈʌm / ʌɡˈɛnst ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-045",
@@ -52115,7 +54476,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/prɪvˈɛnt / stˈɑp / kˈip frˈʌm ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-046",
@@ -52139,7 +54501,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/wɪðˈɪn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-047",
@@ -52163,7 +54526,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/nˈɑt ʌntˈɪl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-048",
@@ -52187,7 +54551,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bɪkˈɔz əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-049",
@@ -52211,7 +54576,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɑn ʌkˈaʊnt əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-050",
@@ -52237,7 +54603,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 19"
-    ]
+    ],
+    "phonetic": "/rɪɡˈɑrdɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-051",
@@ -52261,7 +54628,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn spˈaɪt əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-052",
@@ -52285,7 +54653,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈivɪn ˈɪf / ðˈoʊ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-053",
@@ -52309,7 +54678,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌntrˈɪbjut/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-054",
@@ -52333,7 +54703,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kˌɑntrʌbjˈuʃʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-055",
@@ -52357,7 +54728,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ə kˌɑntrʌbjˈuʃʌn tə ˈɛn / ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-056",
@@ -52381,7 +54753,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈeɪk kˌɑntrʌbjˈuʃʌnz tə ˈɛn / ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-057",
@@ -52405,7 +54778,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/skˈɛdʒʊl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-058",
@@ -52429,7 +54803,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/brˈæntʃ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-059",
@@ -52453,7 +54828,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dɪpˈɛnd/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-060",
@@ -52477,7 +54853,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dɪpˈɛndʌns/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-061",
@@ -52503,7 +54880,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/ˌɪndɪpˈɛndʌns/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-062",
@@ -52527,7 +54905,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dɪpˈɛndʌnt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-063",
@@ -52553,7 +54932,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/ˌɪndɪpˈɛndʌnt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-064",
@@ -52577,7 +54957,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dɪpˈɛnd ɑn / ʌpˈɑn ˈɛn / ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-065",
@@ -52601,7 +54982,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi dɪpˈɛndʌnt ɑn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-066",
@@ -52625,7 +55007,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/rɪlˈaɪ ɑn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-067",
@@ -52649,7 +55032,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kˈaʊnt ɑn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-068",
@@ -52673,7 +55057,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/rˈɛst ɑn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-069",
@@ -52697,7 +55082,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈænʌdʒ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-070",
@@ -52721,7 +55107,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈænʌdʒɝ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-071",
@@ -52745,7 +55132,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈænʌdʒmʌnt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-072",
@@ -52769,7 +55157,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/mˈænɪdʒʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-073",
@@ -52793,7 +55182,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌnmˈænɪdʒʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-074",
@@ -52818,7 +55208,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "蓝色森林 16"
-    ]
+    ],
+    "phonetic": "/pˈʌblɪk/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-075",
@@ -52842,7 +55233,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ðə pˈʌblɪk/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-076",
@@ -52866,7 +55258,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn pˈʌblɪk/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-077",
@@ -52890,7 +55283,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊtɡˌoʊɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-078",
@@ -52914,7 +55308,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dɪlˈeɪ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-079",
@@ -52938,7 +55333,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/poʊstpˈoʊn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-080",
@@ -52962,7 +55358,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/pˈʊt ˈɔf/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-081",
@@ -52986,7 +55383,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/dɪfˈɝ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-082",
@@ -53010,7 +55408,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/wɪθˈaʊt dɪlˈeɪ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-083",
@@ -53034,7 +55433,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈɔrs/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-084",
@@ -53058,7 +55458,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈɔrs ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-085",
@@ -53083,7 +55484,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "蓝色森林 17"
-    ]
+    ],
+    "phonetic": "/sˈeɪv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-086",
@@ -53094,20 +55496,23 @@ window.WORD_MEMORY_WORDS = [
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-14T16:30:00+08:00",
-    "updatedAt": "2026-07-14T16:30:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
-    ]
+      "蓝色森林 11",
+      "四级 22"
+    ],
+    "phonetic": "/pˌɝsʌnˈælɪti/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-087",
@@ -53118,20 +55523,23 @@ window.WORD_MEMORY_WORDS = [
     "tag": "蓝色森林 11 / 介词与短语资料",
     "source": "蓝色森林",
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "status": "new",
     "stage": -1,
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-14T16:30:00+08:00",
-    "updatedAt": "2026-07-14T16:30:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "mastery": "未学",
     "important": false,
     "groups": [
-      "蓝色森林 11"
-    ]
+      "蓝色森林 11",
+      "四级 22"
+    ],
+    "phonetic": "/pˈɝsʌnʌli/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-088",
@@ -53155,7 +55563,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/pˈɝsɪnʌl ˌɪnfɝmˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-089",
@@ -53179,7 +55588,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn pˈɝsʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-090",
@@ -53203,7 +55613,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌkˈɝ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-091",
@@ -53227,7 +55638,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɪt ʌkˈɝz / ʌkˈɝd tə ˌsʌmbədi ðˈæt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-092",
@@ -53251,7 +55663,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi wˈaɪld wɪð dʒˈɔɪ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-093",
@@ -53275,7 +55688,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/krˈaɪ wɪð dʒˈɔɪ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-094",
@@ -53299,7 +55713,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɡˈɪv / dɪlˈɪvɝ ə lˈɛktʃɝ ɑn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-095",
@@ -53323,7 +55738,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɪnsɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-096",
@@ -53347,7 +55763,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɪnst/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-097",
@@ -53371,7 +55788,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɪns ˌsʌmbədi əv ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-098",
@@ -53395,7 +55813,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi kʌnvˈɪnst əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-099",
@@ -53419,7 +55838,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌnvˈɪns ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-100",
@@ -53443,7 +55863,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/pˈɑzʌtɪv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-101",
@@ -53467,7 +55888,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/nˈɛɡʌtɪv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-102",
@@ -53492,7 +55914,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "蓝色森林 15"
-    ]
+    ],
+    "phonetic": "/ædmˈaɪr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-103",
@@ -53516,7 +55939,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˌædmɝˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-104",
@@ -53540,7 +55964,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈædmɝʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-105",
@@ -53564,7 +55989,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ædmˈaɪr ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-106",
@@ -53588,7 +56014,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ædmˈaɪr ˌsʌmbədi fˈɔr ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-107",
@@ -53612,7 +56039,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi ʌdmˈaɪɝd fˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-108",
@@ -53636,7 +56064,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˌɑrtʌfˈɪʃʌl ˌɪntˈɛlʌdʒʌns/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-109",
@@ -53662,7 +56091,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 12"
-    ]
+    ],
+    "phonetic": "/ˌaʊtstˈændɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-110",
@@ -53686,7 +56116,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn nˈid/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-111",
@@ -53710,7 +56141,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn nˈid əv ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-112",
@@ -53734,7 +56166,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn trˈʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-113",
@@ -53758,7 +56191,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɡˈɛt ˈɪntu trˈʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-114",
@@ -53782,7 +56216,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/hˈæv trˈʌbʌl ɪn ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-115",
@@ -53806,7 +56241,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈaʊt əv trˈʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-116",
@@ -53830,7 +56266,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn tˈɝmz əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-117",
@@ -53854,7 +56291,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ɪn sˈaɪt əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-118",
@@ -53878,7 +56316,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌmˈɪti/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-119",
@@ -53904,7 +56343,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪstʌnt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-120",
@@ -53930,7 +56370,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 16"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪstʌnsi/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-121",
@@ -53954,7 +56395,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kʌnsˈɪst ɪn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-122",
@@ -53978,7 +56420,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi kʌnsˈɪstʌnt wɪð/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-123",
@@ -54002,7 +56445,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi mˈeɪd ˈʌp əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-124",
@@ -54028,7 +56472,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 9"
-    ]
+    ],
+    "phonetic": "/vˈɛri/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-125",
@@ -54054,7 +56499,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 9"
-    ]
+    ],
+    "phonetic": "/vˈɛriʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-126",
@@ -54080,7 +56526,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 9"
-    ]
+    ],
+    "phonetic": "/vˈɛriʌs/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-127",
@@ -54106,7 +56553,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 9"
-    ]
+    ],
+    "phonetic": "/vɝˈaɪʌti/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-128",
@@ -54130,7 +56578,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ə vɝˈaɪʌti əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-129",
@@ -54154,7 +56603,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/vɝˈaɪʌtiz əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-130",
@@ -54180,7 +56630,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 9"
-    ]
+    ],
+    "phonetic": "/nˌɛsʌsˈɛrʌli/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-131",
@@ -54204,7 +56655,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi nˈɛsʌsˌɛri fˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-132",
@@ -54228,7 +56680,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈɪts nˈɛsʌsˌɛri tə du/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-133",
@@ -54252,7 +56705,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi pˈɑpjʌlɝ wɪð / ʌmˈʌŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-134",
@@ -54276,7 +56730,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈɔr ðə bˈɛnʌfɪt əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-135",
@@ -54300,7 +56755,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi ɡˈʊd fˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-136",
@@ -54324,7 +56780,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi bˈæd fˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-137",
@@ -54348,7 +56805,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi hˈɑrmfʌl tə/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-138",
@@ -54372,7 +56830,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi ɡˈʊd ˈæt ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-139",
@@ -54396,7 +56855,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/du wˈɛl ɪn ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-140",
@@ -54420,7 +56880,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi ˈɛkspɝt ˈæt ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-141",
@@ -54444,7 +56905,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/kˈɑnsʌntrˌeɪt ɑn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-142",
@@ -54470,7 +56932,8 @@ window.WORD_MEMORY_WORDS = [
     "groups": [
       "蓝色森林 11",
       "四级 17"
-    ]
+    ],
+    "phonetic": "/prˈɛʃʌs/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-143",
@@ -54494,7 +56957,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/lˈɝn frˈʌm/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-144",
@@ -54518,7 +56982,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/lˈɝn ʌbˈaʊt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-145",
@@ -54542,7 +57007,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/lˈɝn tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-146",
@@ -54566,7 +57032,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/lˈɝn ə lˈɛsʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-147",
@@ -54590,7 +57057,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/lˈɝn əv/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-148",
@@ -54614,7 +57082,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌkjˌumjʌlˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-149",
@@ -54638,7 +57107,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/fˈɔr frˈi/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-150",
@@ -54662,7 +57132,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/rispˌɑnsʌbˈɪlʌti/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-151",
@@ -54686,7 +57157,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/rispˈɑnsʌbʌl/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-152",
@@ -54710,7 +57182,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/bˈi rispˈɑnsʌbʌl fˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-153",
@@ -54734,7 +57207,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/tˈeɪk rispˌɑnsʌbˈɪlʌti fˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-154",
@@ -54758,7 +57232,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/nˈɑt ˈoʊnli bˈʌt ˈɔlsoʊ/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-155",
@@ -54782,7 +57257,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/nˈɑt bˈʌt/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-156",
@@ -54806,7 +57282,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈiðɝ ɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-157",
@@ -54830,7 +57307,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/nˈiðɝ nˈɔr/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-158",
@@ -54854,7 +57332,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/tʌɡˈɛðɝ wɪð/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-159",
@@ -54878,7 +57357,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ʌlˈɔŋ wɪð/"
   },
   {
     "id": "blueforest-20260714-v68-phrase-160",
@@ -54902,7 +57382,8 @@ window.WORD_MEMORY_WORDS = [
     "important": false,
     "groups": [
       "蓝色森林 11"
-    ]
+    ],
+    "phonetic": "/ˈæz wˈɛl ˈæz/"
   },
   {
     "id": "cet4-20260716-08-002",
@@ -54924,7 +57405,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɛldɝli/"
   },
   {
     "id": "cet4-20260716-08-006",
@@ -54946,7 +57428,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɛmʌɡrˌeɪt/"
   },
   {
     "id": "cet4-20260716-08-007",
@@ -54968,7 +57451,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɛmʌɡrʌnt/"
   },
   {
     "id": "cet4-20260716-08-008",
@@ -54990,7 +57474,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈaɪɡrˌeɪt/"
   },
   {
     "id": "cet4-20260716-08-009",
@@ -55012,7 +57497,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/maɪɡrˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260716-08-010",
@@ -55034,7 +57520,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈaɪɡrʌnt/"
   },
   {
     "id": "cet4-20260716-08-012",
@@ -55056,7 +57543,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/nˈeɪmli/"
   },
   {
     "id": "cet4-20260716-08-013",
@@ -55078,7 +57566,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/æmbˈɪʃʌn/"
   },
   {
     "id": "cet4-20260716-08-014",
@@ -55100,7 +57589,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/æmbˈɪʃʌs/"
   },
   {
     "id": "cet4-20260716-08-015",
@@ -55122,7 +57612,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌkˈɑmplɪʃ/"
   },
   {
     "id": "cet4-20260716-08-016",
@@ -55144,7 +57635,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌkˈɑmplɪʃmʌnt/"
   },
   {
     "id": "cet4-20260716-08-019",
@@ -55166,7 +57658,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fʊlfˈɪl/"
   },
   {
     "id": "cet4-20260716-08-020",
@@ -55188,7 +57681,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fʊlfˈɪlmʌnt/"
   },
   {
     "id": "cet4-20260716-08-022",
@@ -55210,7 +57704,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɪl/"
   },
   {
     "id": "cet4-20260716-08-023",
@@ -55232,7 +57727,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/fˈɪlɪŋ/"
   },
   {
     "id": "cet4-20260716-08-024",
@@ -55254,7 +57750,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈɑntɛnt/"
   },
   {
     "id": "cet4-20260716-08-025",
@@ -55276,7 +57773,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌntˈɛntʌd/"
   },
   {
     "id": "cet4-20260716-08-026",
@@ -55298,7 +57796,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌntˈɛnʃʌs/"
   },
   {
     "id": "cet4-20260716-08-027",
@@ -55320,7 +57819,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kʌntˈɛnʃʌn/"
   },
   {
     "id": "cet4-20260716-08-029",
@@ -55342,7 +57842,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sˌætʌsfˈækʃʌn/"
   },
   {
     "id": "cet4-20260716-08-030",
@@ -55364,7 +57865,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/sˌætʌsfˈæktri/"
   },
   {
     "id": "cet4-20260716-08-032",
@@ -55386,7 +57888,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ˈɛmptinʌs/"
   },
   {
     "id": "cet4-20260716-08-033",
@@ -55408,7 +57911,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˌiʌlˈɪstɪk/"
   },
   {
     "id": "cet4-20260716-08-034",
@@ -55430,7 +57934,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈiʌlɪzʌm/"
   },
   {
     "id": "cet4-20260716-08-036",
@@ -55452,7 +57957,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈilʌzˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260716-08-037",
@@ -55474,7 +57980,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈɛlm/"
   },
   {
     "id": "cet4-20260716-08-038",
@@ -55496,7 +58003,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/stˈæk/"
   },
   {
     "id": "cet4-20260716-08-039",
@@ -55518,7 +58026,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/pˈaɪl/"
   },
   {
     "id": "cet4-20260716-08-041",
@@ -55540,7 +58049,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌkjˈumjʌlˌeɪtɪv/"
   },
   {
     "id": "cet4-20260716-08-042",
@@ -55564,7 +58074,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈælkjʌlˌeɪt/"
   },
   {
     "id": "cet4-20260716-08-043",
@@ -55586,7 +58097,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˌælkjʌlˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260716-08-044",
@@ -55608,7 +58120,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈælkjʌlˌeɪtɝ/"
   },
   {
     "id": "cet4-20260716-08-045",
@@ -55630,7 +58143,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/kˈælkjʌlˌeɪtɪŋ/"
   },
   {
     "id": "cet4-20260716-08-046",
@@ -55654,7 +58168,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级",
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈælʌndɝ/"
   },
   {
     "id": "cet4-20260716-08-047",
@@ -55676,7 +58191,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/dˈim/"
   },
   {
     "id": "cet4-20260716-08-048",
@@ -55698,7 +58214,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌsˈum/"
   },
   {
     "id": "cet4-20260716-08-049",
@@ -55720,7 +58237,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌsˈʌmpʃʌn/"
   },
   {
     "id": "cet4-20260716-08-050",
@@ -55742,7 +58260,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪzˈum/"
   },
   {
     "id": "cet4-20260716-08-051",
@@ -55764,7 +58283,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "四级"
-    ]
+    ],
+    "phonetic": "/rɪzˈʌmpʃʌn/"
   },
   {
     "id": "blueforest-20260716-12-001",
@@ -55786,7 +58306,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tjuˈɪʃʌn/"
   },
   {
     "id": "blueforest-20260716-12-003",
@@ -55810,7 +58331,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌɪnvˈɛriʌbli/"
   },
   {
     "id": "blueforest-20260716-12-004",
@@ -55832,7 +58354,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fˈɑks/"
   },
   {
     "id": "blueforest-20260716-12-005",
@@ -55856,7 +58379,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/dʒˈʌŋɡʌl/"
   },
   {
     "id": "blueforest-20260716-12-006",
@@ -55878,7 +58402,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈɪl/"
   },
   {
     "id": "blueforest-20260716-12-007",
@@ -55900,7 +58425,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/frˈʌm/"
   },
   {
     "id": "blueforest-20260716-12-008",
@@ -55922,7 +58448,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈɔɪlʌt/"
   },
   {
     "id": "blueforest-20260716-12-010",
@@ -55944,7 +58471,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/frˈɑɡ/"
   },
   {
     "id": "blueforest-20260716-12-011",
@@ -55966,7 +58494,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/frˈi/"
   },
   {
     "id": "blueforest-20260716-12-012",
@@ -55988,7 +58517,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tʌmˈɑrˌoʊ/"
   },
   {
     "id": "blueforest-20260716-12-013",
@@ -56012,7 +58542,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/sˈoʊlɝ/"
   },
   {
     "id": "blueforest-20260716-12-014",
@@ -56034,7 +58565,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈɪz/"
   },
   {
     "id": "blueforest-20260716-12-016",
@@ -56056,7 +58588,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tʌdˈeɪ/"
   },
   {
     "id": "blueforest-20260716-12-017",
@@ -56078,7 +58611,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪbi/"
   },
   {
     "id": "blueforest-20260716-12-018",
@@ -56102,7 +58636,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/mˈɛntʌl/"
   },
   {
     "id": "blueforest-20260716-12-019",
@@ -56124,7 +58659,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈɑm/"
   },
   {
     "id": "blueforest-20260716-12-020",
@@ -56146,7 +58682,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θˈɪk/"
   },
   {
     "id": "blueforest-20260716-12-021",
@@ -56168,7 +58705,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/trˈeɪn/"
   },
   {
     "id": "blueforest-20260716-12-023",
@@ -56190,7 +58728,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɪft/"
   },
   {
     "id": "blueforest-20260716-12-024",
@@ -56212,7 +58751,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈɑŋki/"
   },
   {
     "id": "blueforest-20260716-12-025",
@@ -56234,7 +58774,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈun/"
   },
   {
     "id": "blueforest-20260716-12-026",
@@ -56256,7 +58797,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈɛrɪŋ/"
   },
   {
     "id": "blueforest-20260716-12-027",
@@ -56278,7 +58820,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡlˈæd/"
   },
   {
     "id": "blueforest-20260716-12-029",
@@ -56300,7 +58843,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔr/"
   },
   {
     "id": "blueforest-20260716-12-030",
@@ -56322,7 +58866,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈaʊ/"
   },
   {
     "id": "blueforest-20260716-12-031",
@@ -56344,7 +58889,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɔt tə/"
   },
   {
     "id": "blueforest-20260716-12-032",
@@ -56366,7 +58912,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈæsʌndʒɝ/"
   },
   {
     "id": "blueforest-20260716-12-033",
@@ -56388,7 +58935,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈɑrtli/"
   },
   {
     "id": "blueforest-20260716-12-035",
@@ -56410,7 +58958,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/vˈaɪtʌmʌn/"
   },
   {
     "id": "blueforest-20260716-12-039",
@@ -56432,7 +58981,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈɑnd/"
   },
   {
     "id": "blueforest-20260716-12-040",
@@ -56454,7 +59004,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈaɪl/"
   },
   {
     "id": "blueforest-20260716-12-041",
@@ -56476,7 +59027,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡrˈeɪp/"
   },
   {
     "id": "blueforest-20260716-12-043",
@@ -56498,7 +59050,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡrˈeɪd/"
   },
   {
     "id": "blueforest-20260716-12-044",
@@ -56520,7 +59073,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡrˈup/"
   },
   {
     "id": "blueforest-20260716-12-045",
@@ -56542,7 +59096,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌnˈaʊns/"
   },
   {
     "id": "blueforest-20260716-12-046",
@@ -56564,7 +59119,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡrˈoʊ/"
   },
   {
     "id": "blueforest-20260716-12-047",
@@ -56586,7 +59142,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/prʌfˈɛsɝ/"
   },
   {
     "id": "blueforest-20260716-12-048",
@@ -56608,7 +59165,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɑrd/"
   },
   {
     "id": "blueforest-20260716-12-049",
@@ -56630,7 +59188,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈeɪlwˌeɪ/"
   },
   {
     "id": "blueforest-20260716-13-001",
@@ -56652,7 +59211,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈæd bˈɛtɝ du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-002",
@@ -56674,7 +59234,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈʊd rˈæðɝ du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-003",
@@ -56696,7 +59257,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈaɪt ˈæz wˈɛl du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-004",
@@ -56718,7 +59280,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈænt hˈɛlp ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-005",
@@ -56740,7 +59303,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈænt hˈɛlp bˈʌt du/"
   },
   {
     "id": "blueforest-20260716-13-006",
@@ -56762,7 +59326,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈænt wˈeɪt tə du/"
   },
   {
     "id": "blueforest-20260716-13-007",
@@ -56784,7 +59349,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈænt tˈu/"
   },
   {
     "id": "blueforest-20260716-13-008",
@@ -56806,7 +59372,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈæn du nˈʌθɪŋ bˈʌt du/"
   },
   {
     "id": "blueforest-20260716-13-009",
@@ -56828,7 +59395,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/hˈæv tə/"
   },
   {
     "id": "blueforest-20260716-13-010",
@@ -56850,7 +59418,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈoʊnt / dˈʌzʌnt hˈæv tə/"
   },
   {
     "id": "blueforest-20260716-13-011",
@@ -56872,7 +59441,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈʌst hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-012",
@@ -56894,7 +59464,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈænt / kˈʊdʌnt hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-013",
@@ -56916,7 +59487,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈʊd hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-014",
@@ -56938,7 +59510,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪ / mˈaɪt hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-015",
@@ -56960,7 +59533,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʃˈʊd / ˈɔt tə hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-016",
@@ -56982,7 +59556,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʃˈʊdʌnt / ˈɔtʌnt tə hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-017",
@@ -57004,7 +59579,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈid hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-018",
@@ -57026,7 +59602,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/nˈidʌnt hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-019",
@@ -57048,7 +59625,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈaɪt hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-020",
@@ -57070,7 +59648,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈʊd hˈæv dˈʌn/"
   },
   {
     "id": "blueforest-20260716-13-021",
@@ -57092,7 +59671,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bɪfˈɔr ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-022",
@@ -57114,7 +59694,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈæftɝ ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-023",
@@ -57136,7 +59717,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðə ˈʌðɝ dˈeɪ/"
   },
   {
     "id": "blueforest-20260716-13-024",
@@ -57158,7 +59740,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʃˈaʊt ˈæt ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260716-13-028",
@@ -57180,7 +59763,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌtˈɛnd ə / ðə mˈitɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-031",
@@ -57202,7 +59786,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɛkstrˈim wˈɛðɝ/"
   },
   {
     "id": "blueforest-20260716-13-033",
@@ -57224,7 +59809,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi fˈɪld wɪð/"
   },
   {
     "id": "blueforest-20260716-13-034",
@@ -57248,7 +59834,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌdˈɑpt/"
   },
   {
     "id": "blueforest-20260716-13-035",
@@ -57272,7 +59859,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌdˈɑpʃʌn/"
   },
   {
     "id": "blueforest-20260716-13-036",
@@ -57297,7 +59885,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌdˈæpt/"
   },
   {
     "id": "blueforest-20260716-13-037",
@@ -57321,7 +59910,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ˌædʌptˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260716-13-038",
@@ -57343,7 +59933,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌdˈæptʌbʌl/"
   },
   {
     "id": "blueforest-20260716-13-039",
@@ -57365,7 +59956,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌdˈæpt wˌʌnsˈɛlf tə/"
   },
   {
     "id": "blueforest-20260716-13-040",
@@ -57387,7 +59979,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌdˈæpt fˈɔr/"
   },
   {
     "id": "blueforest-20260716-13-041",
@@ -57410,7 +60003,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌdmˈɪt/"
   },
   {
     "id": "blueforest-20260716-13-042",
@@ -57432,7 +60026,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ædmˈɪʃʌn/"
   },
   {
     "id": "blueforest-20260716-13-043",
@@ -57454,7 +60049,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi ʌdmˈɪtɪd tə/"
   },
   {
     "id": "blueforest-20260716-13-044",
@@ -57476,7 +60072,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌfˈɔrd/"
   },
   {
     "id": "blueforest-20260716-13-048",
@@ -57498,7 +60095,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈɝn ˈɔf/"
   },
   {
     "id": "blueforest-20260716-13-050",
@@ -57520,7 +60118,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈɝn ˈɪntu/"
   },
   {
     "id": "blueforest-20260716-13-052",
@@ -57542,7 +60141,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈɝn ɝˈaʊnd/"
   },
   {
     "id": "blueforest-20260716-13-056",
@@ -57564,7 +60164,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˈɛdʒɪstɝ/"
   },
   {
     "id": "blueforest-20260716-13-057",
@@ -57586,7 +60187,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/klˈeɪm/"
   },
   {
     "id": "blueforest-20260716-13-059",
@@ -57608,7 +60210,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/klˈɛrʌfˌaɪ/"
   },
   {
     "id": "blueforest-20260716-13-060",
@@ -57630,7 +60233,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pripˈɛr/"
   },
   {
     "id": "blueforest-20260716-13-061",
@@ -57652,7 +60256,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pripˈɛr fˈɔr/"
   },
   {
     "id": "blueforest-20260716-13-062",
@@ -57674,7 +60279,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θrˈɛt/"
   },
   {
     "id": "blueforest-20260716-13-063",
@@ -57696,7 +60302,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θrˈɛtʌn/"
   },
   {
     "id": "blueforest-20260716-13-064",
@@ -57718,7 +60325,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/θrˈɛtʌnɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-065",
@@ -57740,7 +60348,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈoʊz ə θrˈɛt/"
   },
   {
     "id": "blueforest-20260716-13-066",
@@ -57762,7 +60371,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rˌikwˈaɪɝ / ˈæsk ˌsʌmbədi tə du/"
   },
   {
     "id": "blueforest-20260716-13-067",
@@ -57784,7 +60394,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/jˈus/"
   },
   {
     "id": "blueforest-20260716-13-068",
@@ -57806,7 +60417,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/jˈuzɝ/"
   },
   {
     "id": "blueforest-20260716-13-069",
@@ -57828,7 +60440,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/jˈusfʌl/"
   },
   {
     "id": "blueforest-20260716-13-070",
@@ -57850,7 +60463,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/jˈuslʌs/"
   },
   {
     "id": "blueforest-20260716-13-071",
@@ -57874,7 +60488,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/ʌfˈɪʃʌl/"
   },
   {
     "id": "blueforest-20260716-13-072",
@@ -57896,7 +60511,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌfˈɪʃʌli/"
   },
   {
     "id": "blueforest-20260716-13-073",
@@ -57918,7 +60534,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dɪtˈeɪl/"
   },
   {
     "id": "blueforest-20260716-13-074",
@@ -57940,7 +60557,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɪn dɪtˈeɪl/"
   },
   {
     "id": "blueforest-20260716-13-075",
@@ -57962,7 +60580,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fʌnˈɑmʌnˌɑn/"
   },
   {
     "id": "blueforest-20260716-13-076",
@@ -57984,7 +60603,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/fʌnˈɑmʌnʌ/"
   },
   {
     "id": "blueforest-20260716-13-077",
@@ -58008,7 +60628,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/rˈɛkʌɡnˌaɪz/"
   },
   {
     "id": "blueforest-20260716-13-078",
@@ -58030,7 +60651,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈɛmʌnstrˌeɪt/"
   },
   {
     "id": "blueforest-20260716-13-079",
@@ -58053,7 +60675,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/æknˈɑlɪdʒ/"
   },
   {
     "id": "blueforest-20260716-13-081",
@@ -58075,7 +60698,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈʊt ˈʌp/"
   },
   {
     "id": "blueforest-20260716-13-082",
@@ -58097,7 +60721,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈeɪk ˈʌp/"
   },
   {
     "id": "blueforest-20260716-13-083",
@@ -58119,7 +60744,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ˈʌp/"
   },
   {
     "id": "blueforest-20260716-13-084",
@@ -58141,7 +60767,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪm/"
   },
   {
     "id": "blueforest-20260716-13-085",
@@ -58163,7 +60790,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪm tə du/"
   },
   {
     "id": "blueforest-20260716-13-086",
@@ -58185,7 +60813,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪm ˈæt ˈduɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-087",
@@ -58207,7 +60836,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wɪð ðə ˈeɪm əv/"
   },
   {
     "id": "blueforest-20260716-13-088",
@@ -58229,7 +60859,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪmlʌs/"
   },
   {
     "id": "blueforest-20260716-13-089",
@@ -58251,7 +60882,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈeɪmlʌsli/"
   },
   {
     "id": "blueforest-20260716-13-090",
@@ -58273,7 +60905,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌɪɡnˈɔr/"
   },
   {
     "id": "blueforest-20260716-13-091",
@@ -58295,7 +60928,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɪɡnɝʌns/"
   },
   {
     "id": "blueforest-20260716-13-092",
@@ -58317,7 +60951,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɪɡnɝʌnt/"
   },
   {
     "id": "blueforest-20260716-13-095",
@@ -58341,7 +60976,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪtˈɛkt/"
   },
   {
     "id": "blueforest-20260716-13-096",
@@ -58365,7 +61001,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林",
       "四级"
-    ]
+    ],
+    "phonetic": "/dɪtˈɛktɪv/"
   },
   {
     "id": "blueforest-20260716-13-097",
@@ -58387,7 +61024,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˌʌndɝstˈænd/"
   },
   {
     "id": "blueforest-20260716-13-098",
@@ -58409,7 +61047,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈæʒʌwʌl/"
   },
   {
     "id": "blueforest-20260716-13-099",
@@ -58431,7 +61070,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈæʒʌwʌli/"
   },
   {
     "id": "blueforest-20260716-13-102",
@@ -58453,7 +61093,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wˈaɪzli/"
   },
   {
     "id": "blueforest-20260716-13-103",
@@ -58475,7 +61116,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌnwˈaɪz/"
   },
   {
     "id": "blueforest-20260716-13-106",
@@ -58497,7 +61139,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈɛrlʌs/"
   },
   {
     "id": "blueforest-20260716-13-107",
@@ -58519,7 +61162,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈɛrlʌsnʌs/"
   },
   {
     "id": "blueforest-20260716-13-108",
@@ -58541,7 +61185,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/kˈɛrfʌli/"
   },
   {
     "id": "blueforest-20260716-13-111",
@@ -58563,7 +61208,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈeɪk kˈɛr/"
   },
   {
     "id": "blueforest-20260716-13-112",
@@ -58585,7 +61231,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/tˈeɪk kˈɛr əv/"
   },
   {
     "id": "blueforest-20260716-13-114",
@@ -58607,7 +61254,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ˈɛfɝtlʌs/"
   },
   {
     "id": "blueforest-20260716-13-115",
@@ -58629,7 +61277,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/mˈeɪk ˈɛfɝts / æn ˈɛfɝt/"
   },
   {
     "id": "blueforest-20260716-13-116",
@@ -58651,7 +61300,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/spˈɛr nˈoʊ ˈɛfɝt/"
   },
   {
     "id": "blueforest-20260716-13-117",
@@ -58673,7 +61323,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wɪð ˈɛfɝt/"
   },
   {
     "id": "blueforest-20260716-13-118",
@@ -58695,7 +61346,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈaɪ ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-119",
@@ -58717,7 +61369,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rimˈaɪnd/"
   },
   {
     "id": "blueforest-20260716-13-120",
@@ -58739,7 +61392,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rimˈaɪnd ˌsʌmbədi əv ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-121",
@@ -58761,7 +61415,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/rimˈaɪnd ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-122",
@@ -58783,7 +61438,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/krˈɪtɪkʌl/"
   },
   {
     "id": "blueforest-20260716-13-123",
@@ -58805,7 +61461,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/krˈɪtɪk/"
   },
   {
     "id": "blueforest-20260716-13-124",
@@ -58827,7 +61484,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/krˈɪtɪsˌɪzʌm/"
   },
   {
     "id": "blueforest-20260716-13-125",
@@ -58849,7 +61507,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/krˈɪtɪkʌl mˈoʊmʌnt/"
   },
   {
     "id": "blueforest-20260716-13-127",
@@ -58871,7 +61530,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/blˈaɪndli/"
   },
   {
     "id": "blueforest-20260716-13-128",
@@ -58893,7 +61553,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/bˈi blˈaɪnd tə/"
   },
   {
     "id": "blueforest-20260716-13-129",
@@ -58915,7 +61576,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈoʊnˌeɪt/"
   },
   {
     "id": "blueforest-20260716-13-130",
@@ -58937,7 +61599,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/doʊnˈeɪʃʌn/"
   },
   {
     "id": "blueforest-20260716-13-131",
@@ -58959,7 +61622,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈoʊnˌeɪt mˈʌni/"
   },
   {
     "id": "blueforest-20260716-13-132",
@@ -58981,7 +61645,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/dˈoʊnˌeɪt ˌsʌmθɪŋ tə ˌsʌmbədi / ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260716-13-133",
@@ -59003,7 +61668,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðə stˈudʌnt jˈunjʌn/"
   },
   {
     "id": "blueforest-20260716-13-134",
@@ -59025,7 +61691,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ðə stˈudʌnts jˈunjʌn/"
   },
   {
     "id": "blueforest-20260716-13-135",
@@ -59047,7 +61714,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/pˈeɪ ʌtˈɛnʃʌn tə/"
   },
   {
     "id": "blueforest-20260716-13-136",
@@ -59069,7 +61737,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ɡˈɪv praɪˈɔrʌti tə/"
   },
   {
     "id": "blueforest-20260716-13-137",
@@ -59091,7 +61760,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/ʌtˈætʃ ˌɪmpˈɔrtʌns tə/"
   },
   {
     "id": "blueforest-20260716-13-138",
@@ -59113,7 +61783,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/plˈeɪs ˈɛmfʌsʌs ɑn/"
   },
   {
     "id": "blueforest-20260716-13-139",
@@ -59135,7 +61806,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wɪð ðə dɪvˈɛlʌpmʌnt əv/"
   },
   {
     "id": "blueforest-20260716-13-140",
@@ -59157,7 +61829,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "sources": [
       "蓝色森林"
-    ]
+    ],
+    "phonetic": "/wɪð ðə prˈɑɡrˌɛs əv/"
   },
   {
     "id": "blueforest-20260718-docx-001",
@@ -59181,7 +61854,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈi ʌfrˈeɪd tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260718-docx-002",
@@ -59205,7 +61879,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈi ʌfrˈeɪd əv ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260718-docx-003",
@@ -59227,7 +61902,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈir wˈɛl/"
   },
   {
     "id": "blueforest-20260718-docx-004",
@@ -59249,7 +61925,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæsk ˌsʌmbədi ə kwˈɛstʃʌn/"
   },
   {
     "id": "blueforest-20260718-docx-005",
@@ -59271,7 +61948,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈʌm klˈoʊsɝ/"
   },
   {
     "id": "blueforest-20260718-docx-006",
@@ -59293,7 +61971,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡˈoʊ hˈoʊm/"
   },
   {
     "id": "blueforest-20260718-docx-007",
@@ -59315,7 +61994,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈænd bˈaɪ ðə wˈɔl/"
   },
   {
     "id": "blueforest-20260718-docx-008",
@@ -59337,7 +62017,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈuv klˈoʊsɝ/"
   },
   {
     "id": "blueforest-20260718-docx-009",
@@ -59359,7 +62040,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/du ˌsʌmθɪŋ mˈɛni tˈaɪmz/"
   },
   {
     "id": "blueforest-20260718-docx-010",
@@ -59381,7 +62063,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɛl ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260718-docx-011",
@@ -59403,7 +62086,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈæv dˈɪnɝ/"
   },
   {
     "id": "blueforest-20260718-docx-012",
@@ -59425,7 +62109,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈɑr ʌwˈeɪ/"
   },
   {
     "id": "blueforest-20260718-docx-013",
@@ -59447,7 +62132,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈaɪntˈin/"
   },
   {
     "id": "blueforest-20260718-docx-014",
@@ -59469,7 +62155,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/skˈɛtʃ/"
   },
   {
     "id": "blueforest-20260718-docx-015",
@@ -59491,7 +62178,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈaʊzɝz/"
   },
   {
     "id": "blueforest-20260718-docx-016",
@@ -59513,7 +62201,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈaɪʌmf/"
   },
   {
     "id": "blueforest-20260718-docx-017",
@@ -59535,7 +62224,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌpˈɑn/"
   },
   {
     "id": "blueforest-20260718-docx-018",
@@ -59557,7 +62247,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/slˈiv/"
   },
   {
     "id": "blueforest-20260718-docx-019",
@@ -59579,7 +62270,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪk/"
   },
   {
     "id": "blueforest-20260718-docx-020",
@@ -59601,7 +62293,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɪmpˈɑsʌbʌl/"
   },
   {
     "id": "blueforest-20260718-docx-021",
@@ -59623,7 +62316,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈaɪni/"
   },
   {
     "id": "blueforest-20260718-docx-022",
@@ -59645,7 +62339,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hɝsˈɛlf/"
   },
   {
     "id": "blueforest-20260718-docx-023",
@@ -59667,7 +62362,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈoʊm/"
   },
   {
     "id": "blueforest-20260718-docx-024",
@@ -59689,7 +62385,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɪɡ/"
   },
   {
     "id": "blueforest-20260718-docx-025",
@@ -59713,7 +62410,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rɪvˈil/"
   },
   {
     "id": "blueforest-20260718-docx-026",
@@ -59735,7 +62433,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈɝt/"
   },
   {
     "id": "blueforest-20260718-docx-027",
@@ -59757,7 +62456,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈʌmtˌaɪm/"
   },
   {
     "id": "blueforest-20260718-docx-028",
@@ -59779,7 +62479,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈeɪtsmʌn/"
   },
   {
     "id": "blueforest-20260718-docx-029",
@@ -59801,7 +62502,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rɪvˈaɪz/"
   },
   {
     "id": "blueforest-20260718-docx-030",
@@ -59823,7 +62525,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈaɪs/"
   },
   {
     "id": "blueforest-20260718-docx-031",
@@ -59845,7 +62548,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈeɪt/"
   },
   {
     "id": "blueforest-20260718-docx-032",
@@ -59867,7 +62571,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hɪmsˈɛlf/"
   },
   {
     "id": "blueforest-20260718-docx-033",
@@ -59889,7 +62594,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɪlˈɛktrɑn/"
   },
   {
     "id": "blueforest-20260718-docx-034",
@@ -59911,7 +62617,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈoʊtʃ/"
   },
   {
     "id": "blueforest-20260718-docx-035",
@@ -59933,7 +62640,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈɪl/"
   },
   {
     "id": "blueforest-20260718-docx-036",
@@ -59957,7 +62665,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mæɡnˈɪfʌsʌnt/"
   },
   {
     "id": "blueforest-20260718-docx-037",
@@ -59979,7 +62688,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɝ/"
   },
   {
     "id": "blueforest-20260718-docx-038",
@@ -60001,7 +62711,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɪrʌɡˌeɪt/"
   },
   {
     "id": "blueforest-20260718-docx-039",
@@ -60025,7 +62736,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪˌaʊt/"
   },
   {
     "id": "blueforest-20260718-docx-040",
@@ -60047,7 +62759,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈaɪsʌlˌeɪt/"
   },
   {
     "id": "blueforest-20260718-docx-041",
@@ -60069,7 +62782,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈɑr/"
   },
   {
     "id": "blueforest-20260718-docx-042",
@@ -60091,7 +62805,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈɝnʌlˌɪzʌm/"
   },
   {
     "id": "blueforest-20260718-docx-043",
@@ -60115,7 +62830,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈʌŋk/"
   },
   {
     "id": "blueforest-20260718-docx-044",
@@ -60137,7 +62853,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈɑspˌɪtʌl/"
   },
   {
     "id": "blueforest-20260718-docx-045",
@@ -60159,7 +62876,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈʌntʃ/"
   },
   {
     "id": "blueforest-20260718-docx-046",
@@ -60181,7 +62899,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rˈɪvɝ/"
   },
   {
     "id": "blueforest-20260718-docx-047",
@@ -60203,7 +62922,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈeɪsɪk/"
   },
   {
     "id": "cet4-20260718-docx-001",
@@ -60225,7 +62945,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪspˈætʃ/"
   },
   {
     "id": "cet4-20260718-docx-002",
@@ -60247,7 +62968,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪzˈaɪn/"
   },
   {
     "id": "cet4-20260718-docx-003",
@@ -60269,7 +62991,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌɛzʌɡnˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260718-docx-004",
@@ -60291,7 +63014,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɛsʌns/"
   },
   {
     "id": "cet4-20260718-docx-005",
@@ -60313,7 +63037,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɪɡnʌtʃɝ/"
   },
   {
     "id": "cet4-20260718-docx-006",
@@ -60335,7 +63060,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɪɡnʌl/"
   },
   {
     "id": "cet4-20260718-docx-007",
@@ -60357,7 +63083,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌsˈaɪn/"
   },
   {
     "id": "cet4-20260718-docx-008",
@@ -60379,7 +63106,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌsˈaɪnmʌnt/"
   },
   {
     "id": "cet4-20260718-docx-009",
@@ -60401,7 +63129,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪzˈaɪn/"
   },
   {
     "id": "cet4-20260718-docx-010",
@@ -60423,7 +63152,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪzˈaɪnɝ/"
   },
   {
     "id": "cet4-20260718-docx-011",
@@ -60445,7 +63175,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈæŋkʃʌs/"
   },
   {
     "id": "cet4-20260718-docx-012",
@@ -60467,7 +63198,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/æŋzˈaɪʌti/"
   },
   {
     "id": "cet4-20260718-docx-013",
@@ -60489,7 +63221,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈaɪn/"
   },
   {
     "id": "cet4-20260718-docx-014",
@@ -60511,7 +63244,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tˈoʊkʌn/"
   },
   {
     "id": "cet4-20260718-docx-015",
@@ -60533,7 +63267,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/frˈaɪt/"
   },
   {
     "id": "cet4-20260718-docx-016",
@@ -60555,7 +63290,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈænɪk/"
   },
   {
     "id": "cet4-20260718-docx-017",
@@ -60577,7 +63313,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈiz/"
   },
   {
     "id": "cet4-20260718-docx-018",
@@ -60599,7 +63336,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɪrfʌl/"
   },
   {
     "id": "cet4-20260718-docx-019",
@@ -60621,7 +63359,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɪrs/"
   },
   {
     "id": "cet4-20260718-docx-020",
@@ -60645,7 +63384,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌlˈɑrm/"
   },
   {
     "id": "cet4-20260718-docx-021",
@@ -60667,7 +63407,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪzˈaɪd/"
   },
   {
     "id": "cet4-20260718-docx-022",
@@ -60689,7 +63430,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɛzɪdʌns/"
   },
   {
     "id": "cet4-20260718-docx-023",
@@ -60711,7 +63453,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌɛzɪdˈɛnʃʌl/"
   },
   {
     "id": "cet4-20260718-docx-024",
@@ -60733,7 +63476,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈeɪdʒʌnsi/"
   },
   {
     "id": "cet4-20260718-docx-025",
@@ -60755,7 +63499,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɛpjʌti/"
   },
   {
     "id": "cet4-20260718-docx-026",
@@ -60779,7 +63524,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnhˈæbʌt/"
   },
   {
     "id": "cet4-20260718-docx-027",
@@ -60801,7 +63547,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪnhˈæbʌtʌnt/"
   },
   {
     "id": "cet4-20260718-docx-028",
@@ -60823,7 +63570,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/hˈæbʌtˌæt/"
   },
   {
     "id": "cet4-20260718-docx-029",
@@ -60845,7 +63593,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnvˈɛnʃʌn/"
   },
   {
     "id": "cet4-20260718-docx-030",
@@ -60867,7 +63616,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnvˈɛnʃʌnʌl/"
   },
   {
     "id": "cet4-20260718-docx-031",
@@ -60891,7 +63641,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/klˈaɪʌnt/"
   },
   {
     "id": "cet4-20260718-docx-032",
@@ -60915,7 +63666,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈeɪdʒʌnt/"
   },
   {
     "id": "cet4-20260718-docx-033",
@@ -60937,7 +63689,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈʌstʌmˌɛri/"
   },
   {
     "id": "cet4-20260718-docx-034",
@@ -60959,7 +63712,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈʌstʌm/"
   },
   {
     "id": "cet4-20260718-docx-035",
@@ -60981,7 +63735,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈʌstʌmd/"
   },
   {
     "id": "cet4-20260718-docx-036",
@@ -61003,7 +63758,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈʌstʌmz/"
   },
   {
     "id": "blueforest-20260719-14-001",
@@ -61027,7 +63783,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/spˈoʊkʌn / ˈɔrʌl ˈɪŋɡlɪʃ/"
   },
   {
     "id": "blueforest-20260719-14-008",
@@ -61051,7 +63808,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌdʒˈʌst tə ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260719-14-010",
@@ -61075,7 +63833,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈʊt fˈɔrwɝd sˈʌm sʌdʒˈɛstʃʌnz / ædvˈaɪs/"
   },
   {
     "id": "blueforest-20260719-14-011",
@@ -61097,7 +63856,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈʊd/"
   },
   {
     "id": "blueforest-20260719-14-012",
@@ -61119,7 +63879,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈɑrtʃ/"
   },
   {
     "id": "blueforest-20260719-14-013",
@@ -61143,7 +63904,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wɪθstˈænd/"
   },
   {
     "id": "blueforest-20260719-14-015",
@@ -61165,7 +63927,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈɛtʌl/"
   },
   {
     "id": "blueforest-20260719-14-017",
@@ -61187,7 +63950,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈidbˌæk/"
   },
   {
     "id": "blueforest-20260719-14-019",
@@ -61209,7 +63973,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡˈɪvʌn/"
   },
   {
     "id": "blueforest-20260719-14-020",
@@ -61231,7 +63996,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈaɪt/"
   },
   {
     "id": "blueforest-20260719-14-022",
@@ -61253,7 +64019,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛmpaɪɝ/"
   },
   {
     "id": "blueforest-20260719-14-024",
@@ -61275,7 +64042,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛpʌsˌoʊd/"
   },
   {
     "id": "blueforest-20260719-14-025",
@@ -61297,7 +64065,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/strˈit/"
   },
   {
     "id": "blueforest-20260719-14-026",
@@ -61319,7 +64088,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛvriθˌɪŋ/"
   },
   {
     "id": "blueforest-20260719-14-027",
@@ -61333,15 +64103,18 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-19T00:00:00",
-    "updatedAt": "2026-07-19T00:00:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 14"
+      "蓝色森林 14",
+      "四级 22"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈeɪn/"
   },
   {
     "id": "blueforest-20260719-14-028",
@@ -61365,7 +64138,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈoʊld/"
   },
   {
     "id": "blueforest-20260719-14-029",
@@ -61389,7 +64163,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɝnɪst/"
   },
   {
     "id": "blueforest-20260719-14-030",
@@ -61411,7 +64186,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɪkˈɑlʌdʒi/"
   },
   {
     "id": "blueforest-20260719-14-034",
@@ -61433,7 +64209,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɛlʌmˈɛntri/"
   },
   {
     "id": "blueforest-20260719-14-035",
@@ -61455,7 +64232,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɪlˈɪmʌnˌeɪt/"
   },
   {
     "id": "blueforest-20260719-14-036",
@@ -61477,7 +64255,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈaɪn/"
   },
   {
     "id": "blueforest-20260719-14-037",
@@ -61501,7 +64280,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈoʊdʌ/"
   },
   {
     "id": "blueforest-20260719-14-038",
@@ -61523,7 +64303,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɪst/"
   },
   {
     "id": "blueforest-20260719-14-039",
@@ -61545,7 +64326,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈaʊs/"
   },
   {
     "id": "blueforest-20260719-14-040",
@@ -61567,7 +64349,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/jˈu/"
   },
   {
     "id": "blueforest-20260719-14-041",
@@ -61589,7 +64372,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪk/"
   },
   {
     "id": "blueforest-20260719-14-042",
@@ -61611,7 +64395,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈaɪf/"
   },
   {
     "id": "blueforest-20260719-14-043",
@@ -61633,7 +64418,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/spˈɑnsɝ/"
   },
   {
     "id": "blueforest-20260719-14-044",
@@ -61655,7 +64441,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/drˈɪft/"
   },
   {
     "id": "blueforest-20260719-14-045",
@@ -61677,7 +64464,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈif/"
   },
   {
     "id": "blueforest-20260719-14-046",
@@ -61699,7 +64487,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪzi/"
   },
   {
     "id": "blueforest-20260719-14-047",
@@ -61721,7 +64510,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɛɡ/"
   },
   {
     "id": "blueforest-20260719-14-048",
@@ -61743,7 +64533,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪ/"
   },
   {
     "id": "blueforest-20260719-14-049",
@@ -61765,7 +64556,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈist/"
   },
   {
     "id": "blueforest-20260719-14-050",
@@ -61789,7 +64581,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/smˈæʃ/"
   },
   {
     "id": "blueforest-20260719-14-051",
@@ -61811,7 +64604,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈɪl/"
   },
   {
     "id": "blueforest-20260719-14-052",
@@ -61833,7 +64627,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɪt/"
   },
   {
     "id": "blueforest-20260719-14-054",
@@ -61855,7 +64650,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈikdˌeɪ/"
   },
   {
     "id": "blueforest-20260719-14-055",
@@ -61877,7 +64673,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/vˈɪzʌbʌl/"
   },
   {
     "id": "blueforest-20260719-14-057",
@@ -61899,7 +64696,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɑkɝ/"
   },
   {
     "id": "blueforest-20260719-14-058",
@@ -61921,7 +64719,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈibˌɔrd/"
   },
   {
     "id": "blueforest-20260719-14-059",
@@ -61943,7 +64742,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈɔɪ/"
   },
   {
     "id": "blueforest-20260719-14-060",
@@ -61965,7 +64765,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈɪlʌɡrˌæm/"
   },
   {
     "id": "cet4-20260719-09-002",
@@ -61987,7 +64788,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdʌl/"
   },
   {
     "id": "cet4-20260719-09-003",
@@ -62009,7 +64811,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdʌfˌaɪ/"
   },
   {
     "id": "cet4-20260719-09-004",
@@ -62031,7 +64834,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˌɑdʌfʌkˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260719-09-005",
@@ -62053,7 +64857,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdʌfˌaɪɝ/"
   },
   {
     "id": "cet4-20260719-09-006",
@@ -62075,7 +64880,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdʌst/"
   },
   {
     "id": "cet4-20260719-09-007",
@@ -62098,7 +64904,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdɝʌt/"
   },
   {
     "id": "cet4-20260719-09-011",
@@ -62120,7 +64927,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/stˈaɪlɪʃ/"
   },
   {
     "id": "cet4-20260719-09-013",
@@ -62142,7 +64950,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/vˌɛriˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260719-09-015",
@@ -62164,7 +64973,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/vˈɛriʌnt/"
   },
   {
     "id": "cet4-20260719-09-017",
@@ -62186,7 +64996,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɔltˈɝnʌtɪv/"
   },
   {
     "id": "cet4-20260719-09-018",
@@ -62208,7 +65019,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʃˈɪft/"
   },
   {
     "id": "cet4-20260719-09-019",
@@ -62230,7 +65042,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/swˈɪft/"
   },
   {
     "id": "cet4-20260719-09-020",
@@ -62252,7 +65065,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/swˈɪtʃ/"
   },
   {
     "id": "cet4-20260719-09-021",
@@ -62274,7 +65088,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/plˈʌɡ/"
   },
   {
     "id": "cet4-20260719-09-022",
@@ -62296,7 +65111,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌɛkriˈeɪʃʌnʌl/"
   },
   {
     "id": "cet4-20260719-09-023",
@@ -62318,7 +65134,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɑrbʌtrˌɛri/"
   },
   {
     "id": "cet4-20260719-09-024",
@@ -62340,7 +65157,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɑrbɪtrˌɛrʌli/"
   },
   {
     "id": "cet4-20260719-09-025",
@@ -62362,7 +65180,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɔltɝ/"
   },
   {
     "id": "cet4-20260719-09-026",
@@ -62384,7 +65203,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɔltɝˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260719-09-027",
@@ -62406,7 +65226,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/stˈɑrtʌl/"
   },
   {
     "id": "cet4-20260719-09-028",
@@ -62428,7 +65249,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈɛʒɝ/"
   },
   {
     "id": "cet4-20260719-09-029",
@@ -62450,7 +65272,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈizɝli/"
   },
   {
     "id": "cet4-20260719-09-030",
@@ -62472,7 +65295,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈæstˌaɪm/"
   },
   {
     "id": "cet4-20260719-09-031",
@@ -62494,7 +65318,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌɛkriˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260719-09-032",
@@ -62516,7 +65341,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌmjˈuz/"
   },
   {
     "id": "cet4-20260719-09-033",
@@ -62538,7 +65364,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌmjˈuzmʌnt/"
   },
   {
     "id": "cet4-20260719-09-035",
@@ -62560,7 +65387,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌmˈeɪzmʌnt/"
   },
   {
     "id": "cet4-20260719-09-036",
@@ -62582,7 +65410,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌmˈeɪzɪŋ/"
   },
   {
     "id": "cet4-20260719-09-039",
@@ -62604,7 +65433,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌdˈæptɪv/"
   },
   {
     "id": "cet4-20260719-09-042",
@@ -62626,7 +65456,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˌɪsʌpˈɔɪntmʌnt/"
   },
   {
     "id": "cet4-20260719-09-043",
@@ -62648,7 +65479,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˌɪsʌpˈɔɪntɪd/"
   },
   {
     "id": "cet4-20260719-09-044",
@@ -62670,7 +65502,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˌɪsʌpˈɔɪntɪŋ/"
   },
   {
     "id": "cet4-20260719-09-045",
@@ -62692,7 +65525,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈɑmʌdˌeɪt/"
   },
   {
     "id": "cet4-20260719-09-046",
@@ -62714,7 +65548,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˌɑmʌdˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260719-09-047",
@@ -62738,7 +65573,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌvˈɔɪd/"
   },
   {
     "id": "cet4-20260719-09-048",
@@ -62760,7 +65596,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌvˈɔɪdʌns/"
   },
   {
     "id": "cet4-20260719-09-049",
@@ -62782,7 +65619,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌpˈɔɪnt/"
   },
   {
     "id": "cet4-20260719-09-050",
@@ -62804,7 +65642,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌpˈɔɪntmʌnt/"
   },
   {
     "id": "cet4-20260719-09-051",
@@ -62826,7 +65665,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˌɪsʌpˈɔɪnt/"
   },
   {
     "id": "cet4-20260719-09-055",
@@ -62848,7 +65688,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/nʌsˈɛsʌtˌeɪt/"
   },
   {
     "id": "blueforest-20260720-15-001",
@@ -62872,7 +65713,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌplˈaɪ fˈɔr ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260720-15-011",
@@ -62894,7 +65736,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈaɪv nˈɪr/"
   },
   {
     "id": "blueforest-20260720-15-012",
@@ -62916,7 +65759,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈɔr/"
   },
   {
     "id": "blueforest-20260720-15-013",
@@ -62938,7 +65782,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ə lˈɑt əv/"
   },
   {
     "id": "blueforest-20260720-15-014",
@@ -62960,7 +65805,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɪkspˈɛnsɪv θˈɪŋz/"
   },
   {
     "id": "blueforest-20260720-15-015",
@@ -62982,7 +65828,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/du hˈaʊswˌɝk/"
   },
   {
     "id": "blueforest-20260720-15-016",
@@ -63004,7 +65851,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈaɪ wˌʌnsˈɛlf/"
   },
   {
     "id": "blueforest-20260720-15-018",
@@ -63026,7 +65874,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈil vˈɛri bˈæd/"
   },
   {
     "id": "blueforest-20260720-15-019",
@@ -63048,7 +65897,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæftɝ brˈɛkfʌst/"
   },
   {
     "id": "blueforest-20260720-15-021",
@@ -63070,7 +65920,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡˈoʊ tə ðə hˈɑspˌɪtʌl/"
   },
   {
     "id": "blueforest-20260720-15-022",
@@ -63092,7 +65943,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈeɪ ɪn ðə hˈɑspˌɪtʌl/"
   },
   {
     "id": "blueforest-20260720-15-023",
@@ -63114,7 +65966,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɔk hˈoʊm/"
   },
   {
     "id": "blueforest-20260720-15-024",
@@ -63136,7 +65989,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈænsɝ ðə tˈɛlʌfˌoʊn/"
   },
   {
     "id": "blueforest-20260720-15-025",
@@ -63158,7 +66012,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ædvˈæntɪdʒ/"
   },
   {
     "id": "blueforest-20260720-15-027",
@@ -63180,7 +66035,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈɔrtˈin/"
   },
   {
     "id": "blueforest-20260720-15-029",
@@ -63202,7 +66058,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæɡrɪkˌʌltʃɝ/"
   },
   {
     "id": "blueforest-20260720-15-030",
@@ -63224,7 +66081,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛr/"
   },
   {
     "id": "blueforest-20260720-15-031",
@@ -63246,7 +66104,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌdʒˈɛndʌ/"
   },
   {
     "id": "blueforest-20260720-15-035",
@@ -63268,7 +66127,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈæθ/"
   },
   {
     "id": "blueforest-20260720-15-037",
@@ -63290,7 +66150,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/æbstrˈækt/"
   },
   {
     "id": "blueforest-20260720-15-038",
@@ -63312,7 +66173,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌdˈʌlt/"
   },
   {
     "id": "blueforest-20260720-15-039",
@@ -63334,7 +66196,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæftɝwɝd/"
   },
   {
     "id": "blueforest-20260720-15-041",
@@ -63358,7 +66221,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌbjˈus/"
   },
   {
     "id": "blueforest-20260720-15-042",
@@ -63380,7 +66244,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌdʒˈʌst/"
   },
   {
     "id": "blueforest-20260720-15-043",
@@ -63402,7 +66267,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɔf/"
   },
   {
     "id": "blueforest-20260720-15-044",
@@ -63424,7 +66290,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌbzˈɔrb/"
   },
   {
     "id": "blueforest-20260720-15-048",
@@ -63446,7 +66313,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈud/"
   },
   {
     "id": "blueforest-20260720-15-050",
@@ -63468,7 +66336,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/aʊɝsˈɛlvz/"
   },
   {
     "id": "blueforest-20260720-15-051",
@@ -63490,7 +66359,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/piˈænoʊ/"
   },
   {
     "id": "blueforest-20260720-15-056",
@@ -63512,7 +66382,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌbˈɔrd/"
   },
   {
     "id": "blueforest-20260720-15-058",
@@ -63534,7 +66405,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɑbdʒɛkt/"
   },
   {
     "id": "blueforest-20260720-15-059",
@@ -63558,7 +66430,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌbˈɑlɪʃ/"
   },
   {
     "id": "blueforest-20260720-15-061",
@@ -63582,7 +66455,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈædʌkwʌt/"
   },
   {
     "id": "blueforest-20260720-15-062",
@@ -63604,7 +66478,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæbsʌlˌut/"
   },
   {
     "id": "blueforest-20260720-15-069",
@@ -63626,7 +66501,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈʌtʃ/"
   },
   {
     "id": "blueforest-20260720-15-070",
@@ -63648,7 +66524,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈɝɪʃ/"
   },
   {
     "id": "blueforest-20260720-15-071",
@@ -63670,7 +66547,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈʌn/"
   },
   {
     "id": "blueforest-20260720-15-072",
@@ -63692,7 +66570,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛndʒʌn/"
   },
   {
     "id": "cet4-20260720-10-001",
@@ -63714,7 +66593,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈæksʌmʌl/"
   },
   {
     "id": "cet4-20260720-10-002",
@@ -63736,7 +66616,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/klˈaɪmˌæks/"
   },
   {
     "id": "cet4-20260720-10-003",
@@ -63758,7 +66639,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/vˈɛsʌl/"
   },
   {
     "id": "cet4-20260720-10-004",
@@ -63780,7 +66662,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈʌls/"
   },
   {
     "id": "cet4-20260720-10-005",
@@ -63802,7 +66685,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɪmpʌls/"
   },
   {
     "id": "cet4-20260720-10-006",
@@ -63825,7 +66709,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪmpˈʌlsɪv/"
   },
   {
     "id": "cet4-20260720-10-007",
@@ -63848,7 +66733,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/flˈʌd/"
   },
   {
     "id": "cet4-20260720-10-008",
@@ -63871,7 +66757,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/flˌʌktʃuˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260720-10-009",
@@ -63893,7 +66780,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɪnʌmʌm/"
   },
   {
     "id": "cet4-20260720-10-010",
@@ -63915,7 +66803,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɪnʌmˌaɪz/"
   },
   {
     "id": "cet4-20260720-10-011",
@@ -63937,7 +66826,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɪnʌmʌl/"
   },
   {
     "id": "cet4-20260720-10-012",
@@ -63959,7 +66849,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈæksʌmʌm/"
   },
   {
     "id": "cet4-20260720-10-013",
@@ -63981,7 +66872,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈæksʌmˌaɪz/"
   },
   {
     "id": "cet4-20260720-10-014",
@@ -64003,7 +66895,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/vʌlˈumʌnʌs/"
   },
   {
     "id": "cet4-20260720-10-015",
@@ -64025,7 +66918,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌlk/"
   },
   {
     "id": "cet4-20260720-10-016",
@@ -64047,7 +66941,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌlki/"
   },
   {
     "id": "cet4-20260720-10-017",
@@ -64069,7 +66964,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈætʃ/"
   },
   {
     "id": "cet4-20260720-10-018",
@@ -64091,7 +66987,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈætʃ/"
   },
   {
     "id": "cet4-20260720-10-019",
@@ -64113,7 +67010,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnsˈɑlɪdˌeɪt/"
   },
   {
     "id": "cet4-20260720-10-020",
@@ -64135,7 +67033,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnsˌɑlʌdˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260720-10-021",
@@ -64157,7 +67056,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/flˈuʌd/"
   },
   {
     "id": "cet4-20260720-10-022",
@@ -64179,7 +67079,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈɪkwʌd/"
   },
   {
     "id": "cet4-20260720-10-023",
@@ -64201,7 +67102,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/vˈɑljum/"
   },
   {
     "id": "cet4-20260720-10-024",
@@ -64223,7 +67125,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɪzi/"
   },
   {
     "id": "cet4-20260720-10-025",
@@ -64245,7 +67148,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈeɪnt/"
   },
   {
     "id": "cet4-20260720-10-026",
@@ -64267,7 +67171,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɑlʌd/"
   },
   {
     "id": "cet4-20260720-10-027",
@@ -64289,7 +67194,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sʌlˈɪdʌti/"
   },
   {
     "id": "cet4-20260720-10-028",
@@ -64311,7 +67217,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sʌlˈɪdʌfˌaɪ/"
   },
   {
     "id": "cet4-20260720-10-029",
@@ -64333,7 +67240,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/krˈɪstʌl/"
   },
   {
     "id": "cet4-20260720-10-030",
@@ -64357,7 +67265,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈændʌl/"
   },
   {
     "id": "cet4-20260720-10-033",
@@ -64379,7 +67288,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kæntˈin/"
   },
   {
     "id": "cet4-20260720-10-035",
@@ -64401,7 +67311,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɔn/"
   },
   {
     "id": "cet4-20260720-10-036",
@@ -64423,7 +67334,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈʌsk/"
   },
   {
     "id": "cet4-20260720-10-037",
@@ -64445,7 +67357,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʃˈɛd/"
   },
   {
     "id": "cet4-20260720-10-038",
@@ -64467,7 +67380,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tˈɛr/"
   },
   {
     "id": "cet4-20260720-10-039",
@@ -64489,7 +67403,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪlˈaɪtfʌl/"
   },
   {
     "id": "cet4-20260720-10-042",
@@ -64511,7 +67426,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈʌnlˌaɪt/"
   },
   {
     "id": "cet4-20260720-10-043",
@@ -64533,7 +67449,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈʌnsˌɛt/"
   },
   {
     "id": "cet4-20260720-10-045",
@@ -64555,7 +67472,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/θˈʌndɝʌs/"
   },
   {
     "id": "cet4-20260720-10-046",
@@ -64577,7 +67495,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/θˈʌm/"
   },
   {
     "id": "cet4-20260720-10-047",
@@ -64599,7 +67518,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪlˈaɪt/"
   },
   {
     "id": "cet4-20260720-10-048",
@@ -64621,7 +67541,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪlˈaɪtʌd/"
   },
   {
     "id": "cet4-20260720-10-049",
@@ -64643,7 +67564,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/slˈaɪtli/"
   },
   {
     "id": "cet4-20260720-10-050",
@@ -64665,7 +67587,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɛnlˈaɪtʌn/"
   },
   {
     "id": "cet4-20260720-10-051",
@@ -64687,7 +67610,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɛnlˈaɪtʌnmʌnt/"
   },
   {
     "id": "cet4-20260720-10-052",
@@ -64709,7 +67633,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɛnlˈaɪtʌnɪŋ/"
   },
   {
     "id": "cet4-20260720-10-053",
@@ -64731,7 +67656,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈaɪtnɪŋ/"
   },
   {
     "id": "cet4-20260720-10-055",
@@ -64753,7 +67679,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/brˈaɪtʌn/"
   },
   {
     "id": "cet4-20260720-10-057",
@@ -64775,7 +67702,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈaɪtɪŋ/"
   },
   {
     "id": "cet4-20260720-10-059",
@@ -64797,7 +67725,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tˈɑlɝˌeɪt/"
   },
   {
     "id": "cet4-20260720-10-062",
@@ -64819,7 +67748,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tˈɑlɝʌbʌl/"
   },
   {
     "id": "cet4-20260720-10-063",
@@ -64841,7 +67771,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈim/"
   },
   {
     "id": "cet4-20260720-10-064",
@@ -64863,7 +67794,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdʌsti/"
   },
   {
     "id": "cet4-20260720-10-067",
@@ -64885,7 +67817,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˌɑdɝˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260720-10-068",
@@ -64907,7 +67840,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑdɝˌeɪtɝ/"
   },
   {
     "id": "dictation-1-001",
@@ -64929,7 +67863,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/du / tˈeɪk ˈɛksɝsˌaɪz/"
   },
   {
     "id": "dictation-1-002",
@@ -64951,7 +67886,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈi pˈɑpjʌlɝ wɪð / ʌmˈʌŋ/"
   },
   {
     "id": "dictation-1-003",
@@ -64973,7 +67909,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪk kˌɑntrʌbjˈuʃʌnz tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-004",
@@ -64995,7 +67932,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪk ə kˌɑntrʌbjˈuʃʌn tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-005",
@@ -65017,7 +67955,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kʌntrˈɪbjut tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-006",
@@ -65039,7 +67978,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/vˈɪzɪt ˌsʌmbədi/"
   },
   {
     "id": "dictation-1-007",
@@ -65061,7 +68001,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/vˈɪzɪt/"
   },
   {
     "id": "dictation-1-008",
@@ -65083,7 +68024,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/pˈeɪ ə vˈɪzɪt tə/"
   },
   {
     "id": "dictation-1-009",
@@ -65105,7 +68047,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈaɪ ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-010",
@@ -65127,7 +68070,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈaɪ ˌsʌmθɪŋ fˈɔr ˌsʌmbədi/"
   },
   {
     "id": "dictation-1-011",
@@ -65149,7 +68093,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/rˈaɪt nˈaʊ/"
   },
   {
     "id": "dictation-1-012",
@@ -65171,7 +68116,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈæt wˈʌns/"
   },
   {
     "id": "dictation-1-013",
@@ -65193,7 +68139,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈaɪʌns fˈɪkʃʌn/"
   },
   {
     "id": "dictation-1-014",
@@ -65215,7 +68162,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈædrˌɛs/"
   },
   {
     "id": "dictation-1-015",
@@ -65237,7 +68185,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈɑlv/"
   },
   {
     "id": "dictation-1-016",
@@ -65259,7 +68208,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/wˈɝk ˈaʊt/"
   },
   {
     "id": "dictation-1-017",
@@ -65281,7 +68231,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dˈil wɪð/"
   },
   {
     "id": "dictation-1-018",
@@ -65303,7 +68254,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/rizˈɑlv/"
   },
   {
     "id": "dictation-1-019",
@@ -65325,7 +68277,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈi fˈeɪmʌs / nˈoʊn fˈɔr/"
   },
   {
     "id": "dictation-1-020",
@@ -65347,7 +68300,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈi fˈeɪmʌs / nˈoʊn ˈæz/"
   },
   {
     "id": "dictation-1-021",
@@ -65369,7 +68323,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dɪpˈɛnd/"
   },
   {
     "id": "dictation-1-022",
@@ -65391,7 +68346,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dɪpˈɛnd ɑn/"
   },
   {
     "id": "dictation-1-023",
@@ -65413,7 +68369,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dɪpˈɛndʌnt/"
   },
   {
     "id": "dictation-1-024",
@@ -65435,7 +68392,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˌɪndɪpˈɛndʌnt/"
   },
   {
     "id": "dictation-1-025",
@@ -65457,7 +68415,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈoʊnli/"
   },
   {
     "id": "dictation-1-026",
@@ -65479,7 +68438,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ʌlˈoʊn/"
   },
   {
     "id": "dictation-1-027",
@@ -65501,7 +68461,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈiv ˌsʌmbədi ʌlˈoʊn/"
   },
   {
     "id": "dictation-1-028",
@@ -65523,7 +68484,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prʌfˈɝ/"
   },
   {
     "id": "dictation-1-029",
@@ -65545,7 +68507,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈɪt ˈɪz ˌɪmpˈɔrtʌnt fˈɔr ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-030",
@@ -65567,7 +68530,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dˌɪsˈaɪd tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-031",
@@ -65589,7 +68553,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/skˈul ɡˈeɪt/"
   },
   {
     "id": "dictation-1-032",
@@ -65611,7 +68576,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/spˈɔrts mˈitɪŋ/"
   },
   {
     "id": "dictation-1-033",
@@ -65633,7 +68599,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈeɪlz mˈænʌdʒɝ/"
   },
   {
     "id": "dictation-1-034",
@@ -65655,7 +68622,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prˈæktʌs ˈɔrʌl / spˈoʊkʌn ˈɪŋɡlɪʃ/"
   },
   {
     "id": "dictation-1-035",
@@ -65677,7 +68645,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prˈɛzʌnt/"
   },
   {
     "id": "dictation-1-036",
@@ -65699,7 +68668,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈæbsʌnt/"
   },
   {
     "id": "dictation-1-037",
@@ -65721,7 +68691,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/hˈænd ɪn ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "dictation-1-038",
@@ -65743,7 +68714,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɛnkˈɝɪdʒ ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-039",
@@ -65765,7 +68737,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kˈip ˈduɪŋ/"
   },
   {
     "id": "dictation-1-040",
@@ -65787,7 +68760,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/hˈæv dˈɪfʌkʌlti / trˈʌbʌl ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-041",
@@ -65809,7 +68783,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈɪt tˈeɪks / tˈʊk ˌsʌmbədi tˈaɪm / mˈʌni tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-042",
@@ -65831,7 +68806,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˌsʌmbədi spˈɛndz / spˈɛnt tˈaɪm / mˈʌni ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-043",
@@ -65853,7 +68829,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˌsʌmbədi spˈɛndz / spˈɛnt tˈaɪm / mˈʌni ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-044",
@@ -65875,7 +68852,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/tˈeɪk ˌsʌmbədi tə/"
   },
   {
     "id": "dictation-1-045",
@@ -65897,7 +68875,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɡˈoʊ bˈæk hˈoʊm/"
   },
   {
     "id": "dictation-1-046",
@@ -65919,7 +68898,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈæftɝ klˈæs æktˈɪvʌtiz/"
   },
   {
     "id": "dictation-1-047",
@@ -65941,7 +68921,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪk ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-048",
@@ -65963,7 +68944,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪk ˌsʌmbədi / ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-049",
@@ -65985,7 +68967,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪk ˌsʌmbədi du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-050",
@@ -66007,7 +68990,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sʌsˈaɪʌti/"
   },
   {
     "id": "dictation-1-051",
@@ -66029,7 +69013,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈoʊʃʌl/"
   },
   {
     "id": "dictation-1-052",
@@ -66051,7 +69036,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈoʊʃʌl mˈidiʌ/"
   },
   {
     "id": "dictation-1-053",
@@ -66073,7 +69059,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈoʊʃʌl prˈæktʌs/"
   },
   {
     "id": "dictation-1-054",
@@ -66095,7 +69082,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈoʊʃʌl prˈɑɡrˌɛs/"
   },
   {
     "id": "dictation-1-055",
@@ -66117,7 +69105,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kˌɑmprihˈɛnsɪv/"
   },
   {
     "id": "dictation-1-056",
@@ -66139,7 +69128,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈi ˈeɪbʌl tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-057",
@@ -66161,7 +69151,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/hˈæv ðə ʌbˈɪlʌtˌi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-1-058",
@@ -66183,7 +69174,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/hˈɛlθ/"
   },
   {
     "id": "dictation-1-059",
@@ -66205,7 +69197,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/hˈɛlθi/"
   },
   {
     "id": "dictation-1-060",
@@ -66227,7 +69220,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ʌnhˈɛlθi/"
   },
   {
     "id": "dictation-1-061",
@@ -66249,7 +69243,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kˈip hˈɛlθi/"
   },
   {
     "id": "dictation-1-062",
@@ -66271,7 +69266,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈɛntʌl hˈɛlθ/"
   },
   {
     "id": "dictation-1-063",
@@ -66293,7 +69289,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/fˈɪzɪkʌl hˈɛlθ/"
   },
   {
     "id": "dictation-1-064",
@@ -66315,7 +69312,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/fˈɪzɪkʌl ænd mˈɛntʌl hˈɛlθ/"
   },
   {
     "id": "dictation-1-065",
@@ -66337,7 +69335,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈitɪŋ hˈæbʌts/"
   },
   {
     "id": "dictation-1-066",
@@ -66351,15 +69350,18 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-20T12:40:00",
-    "updatedAt": "2026-07-20T12:40:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "第一次听写内容"
+      "第一次听写内容",
+      "四级 22"
     ],
     "sources": [
-      "听写内容"
+      "听写内容",
+      "四级"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/spˈiʃiz/"
   },
   {
     "id": "dictation-1-067",
@@ -66381,7 +69383,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈinz/"
   },
   {
     "id": "dictation-1-068",
@@ -66403,7 +69406,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈɪriz/"
   },
   {
     "id": "dictation-1-069",
@@ -66425,7 +69429,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/wˈɝk/"
   },
   {
     "id": "dictation-1-070",
@@ -66447,7 +69452,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/wˈɝks/"
   },
   {
     "id": "blueforest-20260721-16-001",
@@ -66469,7 +69475,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ə lˈɑt/"
   },
   {
     "id": "blueforest-20260721-16-002",
@@ -66491,7 +69498,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɑnt tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260721-16-003",
@@ -66513,7 +69521,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈʊt ɪn/"
   },
   {
     "id": "blueforest-20260721-16-004",
@@ -66535,7 +69544,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ðə mˈɪdʌl əv/"
   },
   {
     "id": "blueforest-20260721-16-005",
@@ -66557,7 +69567,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/θrˈoʊ ˈɪntu/"
   },
   {
     "id": "blueforest-20260721-16-006",
@@ -66579,7 +69590,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈɔl ˈɪntu/"
   },
   {
     "id": "blueforest-20260721-16-007",
@@ -66601,7 +69613,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡˈɛt ˈaʊt əv/"
   },
   {
     "id": "blueforest-20260721-16-008",
@@ -66623,7 +69636,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈi θˈæŋkfʌl tə ˌsʌmbədi/"
   },
   {
     "id": "blueforest-20260721-16-009",
@@ -66645,7 +69659,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈɑt ˈɛni mˈɔr/"
   },
   {
     "id": "blueforest-20260721-16-010",
@@ -66667,7 +69682,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɛn/"
   },
   {
     "id": "blueforest-20260721-16-011",
@@ -66689,7 +69705,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡˈɪv ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260721-16-012",
@@ -66711,7 +69728,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɪnsˈɪst/"
   },
   {
     "id": "blueforest-20260721-16-013",
@@ -66733,7 +69751,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈʌŋkʌl/"
   },
   {
     "id": "blueforest-20260721-16-014",
@@ -66755,7 +69774,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈaɪd/"
   },
   {
     "id": "blueforest-20260721-16-015",
@@ -66777,7 +69797,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/spˈɛsʌfˌaɪ/"
   },
   {
     "id": "blueforest-20260721-16-016",
@@ -66799,7 +69820,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈʌnimˌun/"
   },
   {
     "id": "blueforest-20260721-16-017",
@@ -66821,7 +69843,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rʌsˈiv/"
   },
   {
     "id": "blueforest-20260721-16-018",
@@ -66845,7 +69868,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈʌbʌl/"
   },
   {
     "id": "blueforest-20260721-16-019",
@@ -66867,7 +69891,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rɪmˈɛmbɝ/"
   },
   {
     "id": "blueforest-20260721-16-020",
@@ -66889,7 +69914,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈeɪɑs/"
   },
   {
     "id": "blueforest-20260721-16-021",
@@ -66911,7 +69937,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈɔrm/"
   },
   {
     "id": "blueforest-20260721-16-022",
@@ -66933,7 +69960,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈænsʌm/"
   },
   {
     "id": "blueforest-20260721-16-023",
@@ -66955,7 +69983,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈeɪst/"
   },
   {
     "id": "blueforest-20260721-16-024",
@@ -66977,7 +70006,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈɑntɛst/"
   },
   {
     "id": "blueforest-20260721-16-025",
@@ -66999,7 +70029,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/plˈeɪn/"
   },
   {
     "id": "blueforest-20260721-16-026",
@@ -67021,7 +70052,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡlˈu/"
   },
   {
     "id": "blueforest-20260721-16-027",
@@ -67043,7 +70075,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rˈæt/"
   },
   {
     "id": "blueforest-20260721-16-028",
@@ -67065,7 +70098,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈoʊʌm/"
   },
   {
     "id": "blueforest-20260721-16-029",
@@ -67087,7 +70121,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɛsk/"
   },
   {
     "id": "blueforest-20260721-16-030",
@@ -67109,7 +70144,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈaɪ/"
   },
   {
     "id": "blueforest-20260721-16-031",
@@ -67131,7 +70167,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/twˈɛnti/"
   },
   {
     "id": "blueforest-20260721-16-032",
@@ -67153,7 +70190,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈʌŋ/"
   },
   {
     "id": "blueforest-20260721-16-033",
@@ -67175,7 +70213,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌlˈaɪk/"
   },
   {
     "id": "blueforest-20260721-16-034",
@@ -67197,7 +70236,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈil/"
   },
   {
     "id": "blueforest-20260721-16-035",
@@ -67219,7 +70259,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌlˈɛdʒ/"
   },
   {
     "id": "blueforest-20260721-16-036",
@@ -67241,7 +70282,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɪr/"
   },
   {
     "id": "blueforest-20260721-16-037",
@@ -67263,7 +70305,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌlˈɔŋ/"
   },
   {
     "id": "blueforest-20260721-16-038",
@@ -67285,7 +70328,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈaɪlʌt/"
   },
   {
     "id": "blueforest-20260721-16-039",
@@ -67307,7 +70351,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌlˈɔŋsˈaɪd/"
   },
   {
     "id": "blueforest-20260721-16-040",
@@ -67329,7 +70374,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈis/"
   },
   {
     "id": "blueforest-20260721-16-041",
@@ -67351,7 +70397,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛrlˌaɪn/"
   },
   {
     "id": "blueforest-20260721-16-042",
@@ -67373,7 +70420,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɔs/"
   },
   {
     "id": "blueforest-20260721-16-043",
@@ -67395,7 +70443,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈæd/"
   },
   {
     "id": "blueforest-20260721-16-044",
@@ -67417,7 +70466,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈusʌns/"
   },
   {
     "id": "cet4-20260721-11-001",
@@ -67441,7 +70491,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɔrɡʌdʒ/"
   },
   {
     "id": "cet4-20260721-11-002",
@@ -67463,7 +70514,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌɛkʌɡnˈɪʃʌn/"
   },
   {
     "id": "cet4-20260721-11-003",
@@ -67486,7 +70538,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɝdʒ/"
   },
   {
     "id": "cet4-20260721-11-004",
@@ -67509,7 +70562,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡlˈoʊbʌl/"
   },
   {
     "id": "cet4-20260721-11-005",
@@ -67531,7 +70585,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɪŋɡjʌlɝ/"
   },
   {
     "id": "cet4-20260721-11-006",
@@ -67553,7 +70608,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɪŋɡjʌlˈɛrʌti/"
   },
   {
     "id": "cet4-20260721-11-007",
@@ -67575,7 +70631,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dʒˈɛstʃɝ/"
   },
   {
     "id": "cet4-20260721-11-008",
@@ -67597,7 +70654,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɛɡnʌnsi/"
   },
   {
     "id": "cet4-20260721-11-009",
@@ -67621,7 +70679,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈʌpʌl/"
   },
   {
     "id": "cet4-20260721-11-010",
@@ -67643,7 +70702,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/spˈaʊs/"
   },
   {
     "id": "cet4-20260721-11-011",
@@ -67665,7 +70725,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈɛtʌl/"
   },
   {
     "id": "cet4-20260721-11-012",
@@ -67687,7 +70748,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈeɪsʌn/"
   },
   {
     "id": "cet4-20260721-11-013",
@@ -67709,7 +70771,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛnɡˈeɪdʒ/"
   },
   {
     "id": "cet4-20260721-11-014",
@@ -67731,7 +70794,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛnɡˈeɪdʒmʌnt/"
   },
   {
     "id": "cet4-20260721-11-015",
@@ -67753,7 +70817,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɛɡnʌnt/"
   },
   {
     "id": "cet4-20260721-11-016",
@@ -67775,7 +70840,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɛvɝɪdʒ/"
   },
   {
     "id": "cet4-20260721-11-017",
@@ -67797,7 +70863,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈævɝɪdʒ/"
   },
   {
     "id": "cet4-20260721-11-018",
@@ -67819,7 +70886,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈɑmʌnplˌeɪs/"
   },
   {
     "id": "cet4-20260721-11-019",
@@ -67841,7 +70909,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈʌŋk/"
   },
   {
     "id": "cet4-20260721-11-020",
@@ -67863,7 +70932,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈʌŋkɝd/"
   },
   {
     "id": "cet4-20260721-11-021",
@@ -67885,7 +70955,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈʌŋkʌn/"
   },
   {
     "id": "cet4-20260721-11-022",
@@ -67907,7 +70978,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˌɛnʌtrˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260721-11-023",
@@ -67929,7 +71001,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɪltɝ/"
   },
   {
     "id": "cet4-20260721-11-024",
@@ -67951,7 +71024,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈælkʌhˌɑl/"
   },
   {
     "id": "cet4-20260721-11-025",
@@ -67973,7 +71047,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌælkʌhˈɑlɪk/"
   },
   {
     "id": "cet4-20260721-11-026",
@@ -67995,7 +71070,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈɪkɝ/"
   },
   {
     "id": "cet4-20260721-11-027",
@@ -68017,7 +71093,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈeɪnʌdʒ/"
   },
   {
     "id": "cet4-20260721-11-028",
@@ -68039,7 +71116,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌbʌl/"
   },
   {
     "id": "cet4-20260721-11-029",
@@ -68061,7 +71139,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌlb/"
   },
   {
     "id": "cet4-20260721-11-030",
@@ -68083,7 +71162,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈoʊk/"
   },
   {
     "id": "cet4-20260721-11-031",
@@ -68105,7 +71185,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈɛnʌtrˌeɪt/"
   },
   {
     "id": "cet4-20260721-11-032",
@@ -68127,7 +71208,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/blˈʌd/"
   },
   {
     "id": "cet4-20260721-11-033",
@@ -68149,7 +71231,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈaɪ/"
   },
   {
     "id": "cet4-20260721-11-034",
@@ -68171,7 +71254,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈaʊt/"
   },
   {
     "id": "cet4-20260721-11-035",
@@ -68193,7 +71277,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈaɪɝ/"
   },
   {
     "id": "cet4-20260721-11-036",
@@ -68215,7 +71300,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈeɪn/"
   },
   {
     "id": "cet4-20260721-11-037",
@@ -68237,7 +71323,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/flˈʌktʃʌwˌeɪt/"
   },
   {
     "id": "cet4-20260721-11-038",
@@ -68259,7 +71346,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/blˈid/"
   },
   {
     "id": "blueforest-20260722-17-001",
@@ -68283,7 +71371,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈeɪk ɡrˈeɪt prˈɑɡrˌɛs/"
   },
   {
     "id": "blueforest-20260722-17-002",
@@ -68307,7 +71396,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌplˈaɪ tə ˌsʌmθɪŋ/"
   },
   {
     "id": "blueforest-20260722-17-003",
@@ -68329,7 +71419,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪm/"
   },
   {
     "id": "blueforest-20260722-17-004",
@@ -68351,7 +71442,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈɛbjʌwˌɛri/"
   },
   {
     "id": "blueforest-20260722-17-005",
@@ -68373,7 +71465,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃˈu/"
   },
   {
     "id": "blueforest-20260722-17-006",
@@ -68395,7 +71488,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪbʌl/"
   },
   {
     "id": "blueforest-20260722-17-007",
@@ -68417,7 +71511,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dɪskˈʌs/"
   },
   {
     "id": "blueforest-20260722-17-008",
@@ -68439,7 +71534,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈun/"
   },
   {
     "id": "blueforest-20260722-17-009",
@@ -68461,7 +71557,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/noʊvˈɛmbɝ/"
   },
   {
     "id": "blueforest-20260722-17-010",
@@ -68483,7 +71580,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɛnzdi/"
   },
   {
     "id": "blueforest-20260722-17-011",
@@ -68505,7 +71603,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃˈʌt/"
   },
   {
     "id": "blueforest-20260722-17-012",
@@ -68527,7 +71626,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈætɝdi/"
   },
   {
     "id": "blueforest-20260722-17-013",
@@ -68549,7 +71649,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈʌndˌeɪ/"
   },
   {
     "id": "blueforest-20260722-17-014",
@@ -68571,7 +71672,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɪbˌɝˌeɪt/"
   },
   {
     "id": "blueforest-20260722-17-015",
@@ -68593,7 +71695,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃˈoʊ/"
   },
   {
     "id": "blueforest-20260722-17-016",
@@ -68615,7 +71718,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈip/"
   },
   {
     "id": "blueforest-20260722-17-017",
@@ -68637,7 +71741,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɪnstˈɛd/"
   },
   {
     "id": "blueforest-20260722-17-018",
@@ -68659,7 +71764,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈɪn/"
   },
   {
     "id": "blueforest-20260722-17-019",
@@ -68681,7 +71787,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɔdʌtˈɔriʌm/"
   },
   {
     "id": "blueforest-20260722-17-020",
@@ -68703,7 +71810,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈit/"
   },
   {
     "id": "blueforest-20260722-17-021",
@@ -68725,7 +71833,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˌulˈaɪ/"
   },
   {
     "id": "blueforest-20260722-17-022",
@@ -68747,7 +71856,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈaɪɝ/"
   },
   {
     "id": "blueforest-20260722-17-023",
@@ -68769,7 +71879,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/frˈaɪdi/"
   },
   {
     "id": "blueforest-20260722-17-024",
@@ -68791,7 +71902,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌmˈɪd/"
   },
   {
     "id": "blueforest-20260722-17-025",
@@ -68813,7 +71925,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈɪsɪŋ/"
   },
   {
     "id": "blueforest-20260722-17-026",
@@ -68835,7 +71948,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/æmbˈæsʌdɝ/"
   },
   {
     "id": "blueforest-20260722-17-027",
@@ -68857,7 +71971,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈit/"
   },
   {
     "id": "blueforest-20260722-17-028",
@@ -68879,7 +71994,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈikrʌt/"
   },
   {
     "id": "blueforest-20260722-17-029",
@@ -68901,7 +72017,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪriʌs/"
   },
   {
     "id": "blueforest-20260722-17-030",
@@ -68923,7 +72040,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rɪpˈit/"
   },
   {
     "id": "blueforest-20260722-17-031",
@@ -68945,7 +72063,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/risˈɝtʃ/"
   },
   {
     "id": "blueforest-20260722-17-032",
@@ -68967,7 +72086,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rˈoʊd/"
   },
   {
     "id": "blueforest-20260722-17-033",
@@ -68989,7 +72109,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/rˈoʊp/"
   },
   {
     "id": "blueforest-20260722-17-034",
@@ -69011,7 +72132,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɡˈɑrmʌnt/"
   },
   {
     "id": "blueforest-20260722-17-035",
@@ -69033,7 +72155,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɔr/"
   },
   {
     "id": "blueforest-20260722-17-036",
@@ -69055,7 +72178,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈu/"
   },
   {
     "id": "cet4-20260722-12-001",
@@ -69077,7 +72201,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tˈɪpʌkʌl/"
   },
   {
     "id": "cet4-20260722-12-002",
@@ -69099,7 +72224,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɛkstrʌˈɔrdʌnˌɛri/"
   },
   {
     "id": "cet4-20260722-12-003",
@@ -69121,7 +72247,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɛmʌnʌnt/"
   },
   {
     "id": "cet4-20260722-12-004",
@@ -69143,7 +72270,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɑmʌnʌns/"
   },
   {
     "id": "cet4-20260722-12-005",
@@ -69167,7 +72295,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑrk/"
   },
   {
     "id": "cet4-20260722-12-006",
@@ -69189,7 +72318,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪmˈɑrk/"
   },
   {
     "id": "cet4-20260722-12-007",
@@ -69211,7 +72341,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈɑmʌntˌɛri/"
   },
   {
     "id": "cet4-20260722-12-008",
@@ -69233,7 +72364,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈɑmʌntˌeɪtɝ/"
   },
   {
     "id": "cet4-20260722-12-009",
@@ -69255,7 +72387,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌmˈɛns/"
   },
   {
     "id": "cet4-20260722-12-010",
@@ -69277,7 +72410,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌmˈɛnsmʌnt/"
   },
   {
     "id": "cet4-20260722-12-011",
@@ -69299,7 +72433,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/brˈɪljʌns/"
   },
   {
     "id": "cet4-20260722-12-012",
@@ -69321,7 +72456,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tɝˈɪfɪk/"
   },
   {
     "id": "cet4-20260722-12-013",
@@ -69343,7 +72479,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mæɡˈnɪfɪsəns/"
   },
   {
     "id": "cet4-20260722-12-014",
@@ -69365,7 +72502,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/splˈɛndɪd/"
   },
   {
     "id": "cet4-20260722-12-015",
@@ -69387,7 +72525,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/splˈɛndɝ/"
   },
   {
     "id": "cet4-20260722-12-016",
@@ -69409,7 +72548,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑrvʌlʌs/"
   },
   {
     "id": "cet4-20260722-12-017",
@@ -69431,7 +72571,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɑrvʌl/"
   },
   {
     "id": "cet4-20260722-12-018",
@@ -69454,7 +72595,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/wˈʌndɝfʌl/"
   },
   {
     "id": "cet4-20260722-12-019",
@@ -69476,7 +72618,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɪŋkʌl/"
   },
   {
     "id": "cet4-20260722-12-020",
@@ -69498,7 +72641,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈeɪs/"
   },
   {
     "id": "cet4-20260722-12-021",
@@ -69520,7 +72664,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈeɪsfʌl/"
   },
   {
     "id": "cet4-20260722-12-022",
@@ -69542,7 +72687,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈeɪʃʌs/"
   },
   {
     "id": "cet4-20260722-12-023",
@@ -69564,7 +72710,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɛlʌɡʌnt/"
   },
   {
     "id": "cet4-20260722-12-024",
@@ -69586,7 +72733,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɛlʌɡʌns/"
   },
   {
     "id": "cet4-20260722-12-025",
@@ -69608,7 +72756,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tʃˈɑrm/"
   },
   {
     "id": "cet4-20260722-12-026",
@@ -69630,7 +72779,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tʃˈɑrmɪŋ/"
   },
   {
     "id": "cet4-20260722-12-027",
@@ -69652,7 +72802,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɑnɝˌɛri/"
   },
   {
     "id": "cet4-20260722-12-028",
@@ -69674,7 +72825,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɪvlʌdʒ/"
   },
   {
     "id": "cet4-20260722-12-029",
@@ -69696,7 +72848,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɪvlʌdʒd/"
   },
   {
     "id": "cet4-20260722-12-030",
@@ -69718,7 +72871,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡlˈɔri/"
   },
   {
     "id": "cet4-20260722-12-031",
@@ -69740,7 +72894,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡlˈɔriʌs/"
   },
   {
     "id": "cet4-20260722-12-032",
@@ -69762,7 +72917,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɑnd/"
   },
   {
     "id": "cet4-20260722-12-033",
@@ -69784,7 +72940,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈeɪvɝ/"
   },
   {
     "id": "cet4-20260722-12-034",
@@ -69806,7 +72963,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈeɪvɝʌbʌl/"
   },
   {
     "id": "cet4-20260722-12-035",
@@ -69828,7 +72986,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/flˈeɪvɝ/"
   },
   {
     "id": "cet4-20260722-12-036",
@@ -69850,7 +73009,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈip/"
   },
   {
     "id": "cet4-20260722-12-037",
@@ -69872,7 +73032,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡlˈoʊb/"
   },
   {
     "id": "cet4-20260722-12-038",
@@ -69894,7 +73055,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈeɪn/"
   },
   {
     "id": "cet4-20260722-12-039",
@@ -69916,7 +73078,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɪriʌl/"
   },
   {
     "id": "cet4-20260722-12-040",
@@ -69940,7 +73103,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/wˈit/"
   },
   {
     "id": "cet4-20260722-12-041",
@@ -69962,7 +73126,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡlˈoʊ/"
   },
   {
     "id": "cet4-20260722-12-042",
@@ -69984,7 +73149,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/spˈɑrk/"
   },
   {
     "id": "cet4-20260722-12-043",
@@ -70006,7 +73172,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/spˈɑrkʌl/"
   },
   {
     "id": "dictation-2-001",
@@ -70028,7 +73195,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈɛktʃɝ/"
   },
   {
     "id": "dictation-2-002",
@@ -70050,7 +73218,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɡˈɪv / dɪlˈɪvɝ ə lˈɛktʃɝ ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-003",
@@ -70072,7 +73241,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈæz / ˈæz/"
   },
   {
     "id": "dictation-2-004",
@@ -70094,7 +73264,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ðˈæn/"
   },
   {
     "id": "dictation-2-005",
@@ -70116,7 +73287,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ðə ˈɛn əv/"
   },
   {
     "id": "dictation-2-006",
@@ -70138,7 +73310,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/fˈɔl ʌslˈip/"
   },
   {
     "id": "dictation-2-007",
@@ -70160,7 +73333,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "// ɪnˈʌf tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-008",
@@ -70182,7 +73356,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/tˈu / fˈɔr ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-009",
@@ -70204,7 +73379,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/tˈeɪk kˈɛr əv/"
   },
   {
     "id": "dictation-2-010",
@@ -70226,7 +73402,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈʊk ˈæftɝ/"
   },
   {
     "id": "dictation-2-011",
@@ -70248,7 +73425,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈoʊst/"
   },
   {
     "id": "dictation-2-012",
@@ -70272,7 +73450,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容",
       "蓝色森林"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈɔlmˌoʊst/"
   },
   {
     "id": "dictation-2-013",
@@ -70294,7 +73473,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈoʊstli/"
   },
   {
     "id": "dictation-2-014",
@@ -70316,7 +73496,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/wɪð ðə hˈɛlp əv/"
   },
   {
     "id": "dictation-2-015",
@@ -70338,7 +73519,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prˈɑdʒɛkt/"
   },
   {
     "id": "dictation-2-016",
@@ -70360,7 +73542,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/nˈid tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-017",
@@ -70382,7 +73565,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kwˈaɪt/"
   },
   {
     "id": "dictation-2-018",
@@ -70404,7 +73588,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kˈɑmplɛks/"
   },
   {
     "id": "dictation-2-019",
@@ -70428,7 +73613,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容",
       "蓝色森林"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɪksplˈɪsʌt/"
   },
   {
     "id": "dictation-2-020",
@@ -70450,7 +73636,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/vˈeɪɡ/"
   },
   {
     "id": "dictation-2-021",
@@ -70472,7 +73659,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/æbstrˈækt/"
   },
   {
     "id": "dictation-2-022",
@@ -70494,7 +73682,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/rɪmˈeɪn/"
   },
   {
     "id": "dictation-2-023",
@@ -70516,7 +73705,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/rɪvˈil/"
   },
   {
     "id": "dictation-2-024",
@@ -70538,7 +73728,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɪkspˈoʊzd/"
   },
   {
     "id": "dictation-2-025",
@@ -70560,7 +73751,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈi ɪkspˈoʊzd tə/"
   },
   {
     "id": "dictation-2-026",
@@ -70582,7 +73774,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ʌdˈɪkt/"
   },
   {
     "id": "dictation-2-027",
@@ -70604,7 +73797,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ʌdˈɪktɪd/"
   },
   {
     "id": "dictation-2-028",
@@ -70626,7 +73820,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ʌdˈɪkt wˌʌnsˈɛlf tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-029",
@@ -70648,7 +73843,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bˈi ʌdˈɪktɪd tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-030",
@@ -70670,7 +73866,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/rˈɛlʌvʌnt/"
   },
   {
     "id": "dictation-2-031",
@@ -70692,7 +73889,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈɔɪʌl/"
   },
   {
     "id": "dictation-2-032",
@@ -70714,7 +73912,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prʌdˈus/"
   },
   {
     "id": "dictation-2-033",
@@ -70736,7 +73935,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prʌdˈʌkʃʌn/"
   },
   {
     "id": "dictation-2-034",
@@ -70758,7 +73958,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prˈɑdʌkt/"
   },
   {
     "id": "dictation-2-035",
@@ -70782,7 +73983,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容",
       "四级"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/flˈuʌnt/"
   },
   {
     "id": "dictation-2-036",
@@ -70804,7 +74006,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈaɪʌns ænd tɛknˈɑlʌdʒi/"
   },
   {
     "id": "dictation-2-037",
@@ -70826,7 +74029,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈɑdɝn/"
   },
   {
     "id": "dictation-2-038",
@@ -70848,7 +74052,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɪnvˌaɪrʌnmˈɛntʌl prʌtˈɛkʃʌn/"
   },
   {
     "id": "dictation-2-039",
@@ -70870,7 +74075,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/prʌtˈɛkt ðə ɪnvˈaɪrʌnmʌnt/"
   },
   {
     "id": "dictation-2-040",
@@ -70892,7 +74098,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ʌwˈɛrnʌs/"
   },
   {
     "id": "dictation-2-041",
@@ -70914,7 +74121,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/nˈɑlʌdʒ/"
   },
   {
     "id": "dictation-2-042",
@@ -70936,7 +74144,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈoʊ kˈɑrbʌn/"
   },
   {
     "id": "dictation-2-043",
@@ -70958,7 +74167,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/lˈaɪfstˌaɪl/"
   },
   {
     "id": "dictation-2-044",
@@ -70980,7 +74190,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kˈɑmʌn/"
   },
   {
     "id": "dictation-2-045",
@@ -71002,7 +74213,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/kʌnsˈumɪŋ hˈæbʌts/"
   },
   {
     "id": "dictation-2-046",
@@ -71024,7 +74236,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/tˈeɪk pˈɑrt ɪn/"
   },
   {
     "id": "dictation-2-047",
@@ -71046,7 +74259,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/pɑrtˈɪsʌpˌeɪt ɪn/"
   },
   {
     "id": "dictation-2-048",
@@ -71068,7 +74282,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dʒˈɔɪn ɪn/"
   },
   {
     "id": "dictation-2-049",
@@ -71090,7 +74305,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/wˈɝkɪŋ dˈeɪ/"
   },
   {
     "id": "dictation-2-050",
@@ -71112,7 +74328,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/vˈɑlʌntɛri æktˈɪvʌti/"
   },
   {
     "id": "dictation-2-051",
@@ -71134,7 +74351,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/vˌɑlʌntˈɪr/"
   },
   {
     "id": "dictation-2-052",
@@ -71156,7 +74374,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɡˈæðɝ ˈæt/"
   },
   {
     "id": "dictation-2-053",
@@ -71178,7 +74397,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/veɪkˈeɪʃʌn/"
   },
   {
     "id": "dictation-2-054",
@@ -71200,7 +74420,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/voʊkˈeɪʃʌn/"
   },
   {
     "id": "dictation-2-055",
@@ -71222,7 +74443,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/bɪlˈɔŋ tə / wɪð/"
   },
   {
     "id": "dictation-2-056",
@@ -71244,7 +74466,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/fˈeɪl tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-2-057",
@@ -71266,7 +74489,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪk ɡrˈeɪt prˈɑɡrˌɛs/"
   },
   {
     "id": "dictation-2-058",
@@ -71288,7 +74512,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈʌndi/"
   },
   {
     "id": "dictation-2-059",
@@ -71310,7 +74535,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/tˈuzdi/"
   },
   {
     "id": "dictation-2-060",
@@ -71332,7 +74558,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/wˈɛnzdi/"
   },
   {
     "id": "dictation-2-061",
@@ -71356,7 +74583,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容",
       "蓝色森林"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/θˈɝzdˌeɪ/"
   },
   {
     "id": "dictation-2-062",
@@ -71378,7 +74606,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/frˈaɪdi/"
   },
   {
     "id": "dictation-2-063",
@@ -71400,7 +74629,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈætɝdi/"
   },
   {
     "id": "dictation-2-064",
@@ -71422,7 +74652,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sˈʌndˌeɪ/"
   },
   {
     "id": "dictation-2-065",
@@ -71444,7 +74675,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dʒˈænjuˌɛri/"
   },
   {
     "id": "dictation-2-066",
@@ -71466,7 +74698,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/fˈɛbjʌwˌɛri/"
   },
   {
     "id": "dictation-2-067",
@@ -71488,7 +74721,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈɑrtʃ/"
   },
   {
     "id": "dictation-2-068",
@@ -71510,7 +74744,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈeɪprʌl/"
   },
   {
     "id": "dictation-2-069",
@@ -71534,7 +74769,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容",
       "蓝色森林"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/mˈeɪ/"
   },
   {
     "id": "dictation-2-070",
@@ -71556,7 +74792,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dʒˈun/"
   },
   {
     "id": "dictation-2-071",
@@ -71578,7 +74815,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dʒˌulˈaɪ/"
   },
   {
     "id": "dictation-2-072",
@@ -71600,7 +74838,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ˈɑɡʌst/"
   },
   {
     "id": "dictation-2-073",
@@ -71622,7 +74861,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/sɛptˈɛmbɝ/"
   },
   {
     "id": "dictation-2-074",
@@ -71646,7 +74886,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容",
       "蓝色森林"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/ɑktˈoʊbɝ/"
   },
   {
     "id": "dictation-2-075",
@@ -71668,7 +74909,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/noʊvˈɛmbɝ/"
   },
   {
     "id": "dictation-2-076",
@@ -71690,7 +74932,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "听写内容"
     ],
-    "source": "听写内容"
+    "source": "听写内容",
+    "phonetic": "/dɪsˈɛmbɝ/"
   },
   {
     "id": "blue-18-002",
@@ -71714,7 +74957,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/brˈɪŋ / pˈʊt ˈɪntu ɪfˈɛkt/"
   },
   {
     "id": "blue-18-007",
@@ -71738,7 +74982,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈaɪ wʌnz bˈɛst tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-18-008",
@@ -71762,7 +75007,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈaɪ ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-18-010",
@@ -71786,7 +75032,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈaɪ tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "blue-18-011",
@@ -71808,7 +75055,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɛtɝ/"
   },
   {
     "id": "blue-18-012",
@@ -71830,7 +75078,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈækɡrˌaʊnd/"
   },
   {
     "id": "blue-18-014",
@@ -71852,7 +75101,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈi/"
   },
   {
     "id": "blue-18-016",
@@ -71874,7 +75124,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɛnkˈɝɪdʒ/"
   },
   {
     "id": "blue-18-018",
@@ -71896,7 +75147,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/blˈɑnd/"
   },
   {
     "id": "blue-18-020",
@@ -71918,7 +75170,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sprˈɛd/"
   },
   {
     "id": "blue-18-021",
@@ -71940,7 +75193,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈaʊɝz/"
   },
   {
     "id": "blue-18-023",
@@ -71962,7 +75216,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈʌmbˌɑdi/"
   },
   {
     "id": "blue-18-024",
@@ -71986,7 +75241,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mɪsfˈɔrtʃʌn/"
   },
   {
     "id": "blue-18-025",
@@ -72008,7 +75264,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɪntɝfˈɪr/"
   },
   {
     "id": "blue-18-026",
@@ -72030,7 +75287,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈaɪʌlˌɛkt/"
   },
   {
     "id": "blue-18-029",
@@ -72052,7 +75310,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/vaɪʌlˈɪn/"
   },
   {
     "id": "blue-18-030",
@@ -72074,7 +75333,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌɡrˈi/"
   },
   {
     "id": "blue-18-031",
@@ -72096,7 +75356,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fˈæktɝi/"
   },
   {
     "id": "blue-18-035",
@@ -72118,7 +75379,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/smˈuð/"
   },
   {
     "id": "blue-18-036",
@@ -72140,7 +75402,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/snˈoʊ/"
   },
   {
     "id": "blue-18-037",
@@ -72162,7 +75425,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈoʊldʒɝ/"
   },
   {
     "id": "blue-18-038",
@@ -72184,7 +75448,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈoʊp/"
   },
   {
     "id": "blue-18-040",
@@ -72206,7 +75471,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈup/"
   },
   {
     "id": "blue-18-041",
@@ -72228,7 +75494,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈʌmwˌʌn/"
   },
   {
     "id": "blue-18-042",
@@ -72250,7 +75517,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈi/"
   },
   {
     "id": "blue-18-045",
@@ -72272,7 +75540,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈɛri/"
   },
   {
     "id": "blue-18-047",
@@ -72294,7 +75563,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈaʊɝ/"
   },
   {
     "id": "blue-18-048",
@@ -72318,7 +75588,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kʌntˈæmʌnˌeɪt/"
   },
   {
     "id": "blue-18-050",
@@ -72340,7 +75611,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɔl/"
   },
   {
     "id": "blue-18-051",
@@ -72362,7 +75634,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪns/"
   },
   {
     "id": "blue-18-052",
@@ -72384,7 +75657,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɪm/"
   },
   {
     "id": "blue-18-054",
@@ -72406,7 +75680,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/klˈæsʌfˌaɪ/"
   },
   {
     "id": "blue-18-055",
@@ -72428,7 +75703,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæksʌdʌnt/"
   },
   {
     "id": "blue-18-056",
@@ -72450,7 +75726,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈoʊld/"
   },
   {
     "id": "blue-18-059",
@@ -72472,7 +75749,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈoʊld/"
   },
   {
     "id": "blue-18-060",
@@ -72494,7 +75772,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈaʊɝ/"
   },
   {
     "id": "cet4-13-001",
@@ -72516,7 +75795,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mɪslˈid/"
   },
   {
     "id": "cet4-13-002",
@@ -72538,7 +75818,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mɪslˈidɪŋ/"
   },
   {
     "id": "cet4-13-003",
@@ -72560,7 +75841,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˌɪsʌndɝstˈænd/"
   },
   {
     "id": "cet4-13-004",
@@ -72582,7 +75864,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˌɪsʌndɝstˈændɪŋ/"
   },
   {
     "id": "cet4-13-006",
@@ -72604,7 +75887,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈum/"
   },
   {
     "id": "cet4-13-008",
@@ -72626,7 +75910,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈaɪd/"
   },
   {
     "id": "cet4-13-009",
@@ -72648,7 +75933,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈaɪdʌns/"
   },
   {
     "id": "cet4-13-010",
@@ -72670,7 +75956,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈaɪdlˌaɪn/"
   },
   {
     "id": "cet4-13-011",
@@ -72692,7 +75979,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈʌmpʌs/"
   },
   {
     "id": "cet4-13-012",
@@ -72714,7 +76002,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈaɪnʌs/"
   },
   {
     "id": "cet4-13-013",
@@ -72738,7 +76027,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈɛd/"
   },
   {
     "id": "cet4-13-014",
@@ -72760,7 +76050,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈidɝ/"
   },
   {
     "id": "cet4-13-015",
@@ -72782,7 +76073,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈidɝʃˌɪp/"
   },
   {
     "id": "cet4-13-016",
@@ -72804,7 +76096,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈidɪŋ/"
   },
   {
     "id": "cet4-13-017",
@@ -72826,7 +76119,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɪnʌstɝ/"
   },
   {
     "id": "cet4-13-018",
@@ -72848,7 +76142,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɪnʌstri/"
   },
   {
     "id": "cet4-13-019",
@@ -72870,7 +76165,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˌɪnɪstˈiriʌl/"
   },
   {
     "id": "cet4-13-022",
@@ -72892,7 +76188,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɛdɝʌl/"
   },
   {
     "id": "cet4-13-023",
@@ -72914,7 +76211,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˌɛdɝˈeɪʃʌn/"
   },
   {
     "id": "cet4-13-024",
@@ -72936,7 +76234,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈʌvɝn/"
   },
   {
     "id": "cet4-13-025",
@@ -72958,7 +76257,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈʌvɝmʌnt/"
   },
   {
     "id": "cet4-13-026",
@@ -72980,7 +76280,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈʌvɝnɝ/"
   },
   {
     "id": "cet4-13-027",
@@ -73002,7 +76303,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌdmˈɪnʌstɝ/"
   },
   {
     "id": "cet4-13-028",
@@ -73024,7 +76326,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ædmˌɪnɪstrˈeɪʃʌn/"
   },
   {
     "id": "cet4-13-029",
@@ -73046,7 +76349,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌdmˈɪnʌstrˌeɪtɪv/"
   },
   {
     "id": "cet4-13-031",
@@ -73068,7 +76372,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɔfʌsɝ/"
   },
   {
     "id": "cet4-13-032",
@@ -73090,7 +76395,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛnʌtɝ/"
   },
   {
     "id": "cet4-13-033",
@@ -73112,7 +76418,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛnʌt/"
   },
   {
     "id": "cet4-13-034",
@@ -73136,7 +76443,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈaʊnsʌl/"
   },
   {
     "id": "cet4-13-035",
@@ -73158,7 +76466,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈaʊnsʌlɝ/"
   },
   {
     "id": "cet4-13-036",
@@ -73180,7 +76489,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bjˈʊroʊ/"
   },
   {
     "id": "cet4-13-037",
@@ -73202,7 +76512,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˌɑrlʌmˈɛntɝi/"
   },
   {
     "id": "cet4-13-038",
@@ -73224,7 +76535,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɛlʌɡˌeɪt/"
   },
   {
     "id": "cet4-13-039",
@@ -73246,7 +76558,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˌɛlʌɡˈeɪʃʌn/"
   },
   {
     "id": "cet4-13-040",
@@ -73268,7 +76581,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪlˈit/"
   },
   {
     "id": "cet4-13-041",
@@ -73290,7 +76604,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪlˈiʃʌn/"
   },
   {
     "id": "cet4-13-042",
@@ -73312,7 +76627,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈænd/"
   },
   {
     "id": "cet4-13-045",
@@ -73334,7 +76650,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈɪrʌkʌl/"
   },
   {
     "id": "cet4-13-046",
@@ -73356,7 +76673,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mɝˈækjʌlʌs/"
   },
   {
     "id": "cet4-13-047",
@@ -73378,7 +76696,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈædʒɪk/"
   },
   {
     "id": "cet4-13-048",
@@ -73400,7 +76719,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈædʒɪkʌl/"
   },
   {
     "id": "cet4-13-049",
@@ -73422,7 +76742,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mæɡnˈɛtɪk/"
   },
   {
     "id": "cet4-13-050",
@@ -73444,7 +76765,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/mˈæɡnʌt/"
   },
   {
     "id": "cet4-13-051",
@@ -73466,7 +76788,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈɑrlʌmʌnt/"
   },
   {
     "id": "blue-19-004",
@@ -73490,7 +76813,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "短语练习"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈʌt dˈaʊn ɑn/"
   },
   {
     "id": "blue-19-012",
@@ -73512,7 +76836,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈæʃʌn/"
   },
   {
     "id": "blue-19-013",
@@ -73534,7 +76859,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈaɪk/"
   },
   {
     "id": "blue-19-014",
@@ -73556,7 +76882,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/brˈɪŋ/"
   },
   {
     "id": "blue-19-015",
@@ -73578,7 +76905,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɛlʌfˌoʊn/"
   },
   {
     "id": "blue-19-016",
@@ -73600,7 +76928,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ðˈɛrz/"
   },
   {
     "id": "blue-19-017",
@@ -73622,7 +76951,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈɝl/"
   },
   {
     "id": "blue-19-018",
@@ -73644,7 +76974,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɪft/"
   },
   {
     "id": "blue-19-019",
@@ -73666,7 +76997,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈi/"
   },
   {
     "id": "blue-19-021",
@@ -73688,7 +77020,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈʌtɝflˌaɪ/"
   },
   {
     "id": "blue-19-022",
@@ -73710,7 +77043,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/əv/"
   },
   {
     "id": "blue-19-023",
@@ -73732,7 +77066,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈʌn/"
   },
   {
     "id": "blue-19-025",
@@ -73754,7 +77089,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈæn/"
   },
   {
     "id": "blue-19-026",
@@ -73776,7 +77112,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈaɪp/"
   },
   {
     "id": "blue-19-027",
@@ -73798,7 +77135,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈaɪkʌl/"
   },
   {
     "id": "blue-19-028",
@@ -73820,7 +77158,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃˈʊɡɝ/"
   },
   {
     "id": "blue-19-030",
@@ -73842,7 +77181,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪmbʌl/"
   },
   {
     "id": "blue-19-032",
@@ -73864,7 +77204,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈɛvʌl/"
   },
   {
     "id": "blue-19-034",
@@ -73886,7 +77227,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/swˈɪŋ/"
   },
   {
     "id": "blue-19-035",
@@ -73908,7 +77250,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈænts/"
   },
   {
     "id": "blue-19-039",
@@ -73930,7 +77273,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈeɪdi/"
   },
   {
     "id": "blue-19-041",
@@ -73952,7 +77296,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈeɪʃʌn/"
   },
   {
     "id": "blue-19-042",
@@ -73974,7 +77319,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈɝd/"
   },
   {
     "id": "blue-19-043",
@@ -73996,7 +77342,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæmʌtˌɝ/"
   },
   {
     "id": "blue-19-044",
@@ -74020,7 +77367,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/blˈoʊ/"
   },
   {
     "id": "blue-19-046",
@@ -74042,7 +77390,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈɑnʌtɝ/"
   },
   {
     "id": "blue-19-047",
@@ -74064,7 +77413,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈaʊns/"
   },
   {
     "id": "blue-19-050",
@@ -74088,7 +77438,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/flˈæt/"
   },
   {
     "id": "blue-19-051",
@@ -74110,7 +77461,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈeɪkˌɔf/"
   },
   {
     "id": "blue-19-052",
@@ -74132,7 +77484,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈɪŋ/"
   },
   {
     "id": "blue-19-053",
@@ -74154,7 +77507,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈʌpɝ/"
   },
   {
     "id": "blue-19-054",
@@ -74176,7 +77530,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nʌɡlˈɛkt/"
   },
   {
     "id": "blue-19-055",
@@ -74198,7 +77553,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/strˈɔŋ/"
   },
   {
     "id": "blue-19-056",
@@ -74220,7 +77576,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɪkspˈɛl/"
   },
   {
     "id": "blue-19-057",
@@ -74234,15 +77591,17 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-24T08:00:00+08:00",
-    "updatedAt": "2026-07-24T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 19"
+      "蓝色森林 19",
+      "蓝色森林 27"
     ],
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈit/"
   },
   {
     "id": "blue-19-058",
@@ -74264,7 +77623,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈɪk/"
   },
   {
     "id": "blue-19-060",
@@ -74286,7 +77646,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈɑk/"
   },
   {
     "id": "cet4-14-001",
@@ -74308,7 +77669,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈʊrˈeɪʃʌn/"
   },
   {
     "id": "cet4-14-003",
@@ -74330,7 +77692,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/spˈæn/"
   },
   {
     "id": "cet4-14-004",
@@ -74352,7 +77715,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈʌfɝ/"
   },
   {
     "id": "cet4-14-005",
@@ -74374,7 +77738,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈʌfɝɪŋ/"
   },
   {
     "id": "cet4-14-006",
@@ -74397,7 +77762,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɪrd/"
   },
   {
     "id": "cet4-14-007",
@@ -74420,7 +77786,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnfˈɝ/"
   },
   {
     "id": "cet4-14-008",
@@ -74443,7 +77810,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɪnfɝʌns/"
   },
   {
     "id": "cet4-14-009",
@@ -74466,7 +77834,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɛfɝʌns/"
   },
   {
     "id": "cet4-14-010",
@@ -74488,7 +77857,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌtʌn/"
   },
   {
     "id": "cet4-14-011",
@@ -74510,7 +77880,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bɪnˈiθ/"
   },
   {
     "id": "cet4-14-012",
@@ -74532,7 +77903,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌʌndɝnˈiθ/"
   },
   {
     "id": "cet4-14-013",
@@ -74554,7 +77926,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌʌndɝɡˈoʊ/"
   },
   {
     "id": "cet4-14-015",
@@ -74576,7 +77949,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪkspˈɪriʌnst/"
   },
   {
     "id": "cet4-14-016",
@@ -74598,7 +77972,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛndjˈʊr/"
   },
   {
     "id": "cet4-14-017",
@@ -74620,7 +77995,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɛndɝʌns/"
   },
   {
     "id": "cet4-14-018",
@@ -74642,7 +78018,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈʊrʌbʌl/"
   },
   {
     "id": "cet4-14-019",
@@ -74664,7 +78041,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɝʌbˈɪlɪti/"
   },
   {
     "id": "cet4-14-021",
@@ -74686,7 +78064,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈæsp/"
   },
   {
     "id": "cet4-14-022",
@@ -74708,7 +78087,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈæb/"
   },
   {
     "id": "cet4-14-024",
@@ -74730,7 +78110,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɑtʌm/"
   },
   {
     "id": "cet4-14-025",
@@ -74752,7 +78133,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/flˈʌʃ/"
   },
   {
     "id": "cet4-14-026",
@@ -74774,7 +78156,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/splˈæʃ/"
   },
   {
     "id": "cet4-14-028",
@@ -74796,7 +78179,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/wˈid/"
   },
   {
     "id": "cet4-14-029",
@@ -74818,7 +78202,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/hˈeɪ/"
   },
   {
     "id": "cet4-14-030",
@@ -74840,7 +78225,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɛtɝ/"
   },
   {
     "id": "cet4-14-031",
@@ -74862,7 +78248,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈɔn/"
   },
   {
     "id": "cet4-14-032",
@@ -74884,7 +78271,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʊʃ/"
   },
   {
     "id": "cet4-14-033",
@@ -74906,7 +78294,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʊʃi/"
   },
   {
     "id": "cet4-14-034",
@@ -74928,7 +78317,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/brˈʌʃ/"
   },
   {
     "id": "cet4-14-035",
@@ -74952,7 +78342,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ripˈeɪ/"
   },
   {
     "id": "cet4-14-036",
@@ -74974,7 +78365,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ripˈeɪmʌnt/"
   },
   {
     "id": "cet4-14-037",
@@ -74996,7 +78388,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɪl/"
   },
   {
     "id": "cet4-14-038",
@@ -75018,7 +78411,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈoʊn/"
   },
   {
     "id": "cet4-14-039",
@@ -75040,7 +78434,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɛt/"
   },
   {
     "id": "cet4-14-040",
@@ -75062,7 +78457,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪnkˈaʊntɝ/"
   },
   {
     "id": "cet4-14-042",
@@ -75084,7 +78480,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈupˌɔn/"
   },
   {
     "id": "cet4-14-043",
@@ -75106,7 +78503,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈeɪmʌnt/"
   },
   {
     "id": "cet4-14-045",
@@ -75128,7 +78526,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈaʊntʌnt/"
   },
   {
     "id": "cet4-14-046",
@@ -75150,7 +78549,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈaʊntʌnsi/"
   },
   {
     "id": "cet4-14-047",
@@ -75172,7 +78572,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈaʊntʌbʌl/"
   },
   {
     "id": "cet4-14-048",
@@ -75194,7 +78595,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈaʊntʌbˌɪlɪti/"
   },
   {
     "id": "cet4-14-049",
@@ -75216,7 +78618,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈaʊntɝpˌɑrt/"
   },
   {
     "id": "cet4-14-050",
@@ -75238,7 +78641,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈaʊnt/"
   },
   {
     "id": "cet4-14-051",
@@ -75260,7 +78664,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈaʊntdˌaʊn/"
   },
   {
     "id": "cet4-14-052",
@@ -75282,7 +78687,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈaʊntɝ/"
   },
   {
     "id": "cet4-14-053",
@@ -75304,7 +78710,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈaʊnt/"
   },
   {
     "id": "cet4-14-054",
@@ -75326,7 +78733,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkˈaʊntɪŋ/"
   },
   {
     "id": "blueforest-20260725-20-003",
@@ -75348,7 +78756,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃˈip/"
   },
   {
     "id": "blueforest-20260725-20-004",
@@ -75370,7 +78779,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/twˈɛlv/"
   },
   {
     "id": "blueforest-20260725-20-005",
@@ -75392,7 +78802,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈæv/"
   },
   {
     "id": "blueforest-20260725-20-006",
@@ -75414,7 +78825,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/klˈoʊn/"
   },
   {
     "id": "blueforest-20260725-20-009",
@@ -75436,7 +78848,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/prˈɛzʌdˌɛnt/"
   },
   {
     "id": "blueforest-20260725-20-011",
@@ -75458,7 +78871,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈɪlk/"
   },
   {
     "id": "blueforest-20260725-20-012",
@@ -75480,7 +78894,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/vˈihɪkʌl/"
   },
   {
     "id": "blueforest-20260725-20-013",
@@ -75502,7 +78917,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tʌmˈeɪtˌoʊ/"
   },
   {
     "id": "blueforest-20260725-20-015",
@@ -75524,7 +78940,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈʌn/"
   },
   {
     "id": "blueforest-20260725-20-017",
@@ -75546,7 +78963,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈaɪnd/"
   },
   {
     "id": "blueforest-20260725-20-019",
@@ -75568,7 +78986,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɑl/"
   },
   {
     "id": "blueforest-20260725-20-020",
@@ -75590,7 +79009,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɔɪ/"
   },
   {
     "id": "blueforest-20260725-20-022",
@@ -75612,7 +79032,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈɪriʌd/"
   },
   {
     "id": "blueforest-20260725-20-023",
@@ -75634,7 +79055,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈaʊn/"
   },
   {
     "id": "blueforest-20260725-20-025",
@@ -75656,7 +79078,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈæŋ/"
   },
   {
     "id": "blueforest-20260725-20-026",
@@ -75678,7 +79101,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɛr/"
   },
   {
     "id": "blueforest-20260725-20-027",
@@ -75700,7 +79124,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɛnfˈɔrs/"
   },
   {
     "id": "blueforest-20260725-20-028",
@@ -75722,7 +79147,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/klˈæsmˌeɪt/"
   },
   {
     "id": "blueforest-20260725-20-031",
@@ -75744,7 +79170,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈul/"
   },
   {
     "id": "blueforest-20260725-20-032",
@@ -75766,7 +79193,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tʌwˈɔrd/"
   },
   {
     "id": "blueforest-20260725-20-033",
@@ -75788,7 +79216,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈi/"
   },
   {
     "id": "blueforest-20260725-20-034",
@@ -75810,7 +79239,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɪntʃ/"
   },
   {
     "id": "blueforest-20260725-20-035",
@@ -75832,7 +79262,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tʃˈɛst/"
   },
   {
     "id": "blueforest-20260725-20-036",
@@ -75854,7 +79285,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈɛr/"
   },
   {
     "id": "blueforest-20260725-20-037",
@@ -75876,7 +79308,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/prˈist/"
   },
   {
     "id": "blueforest-20260725-20-038",
@@ -75898,7 +79331,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/prˈɑbʌbʌl/"
   },
   {
     "id": "blueforest-20260725-20-040",
@@ -75920,7 +79354,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈaʊɝ/"
   },
   {
     "id": "blueforest-20260725-20-041",
@@ -75942,7 +79377,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/θˈɝd/"
   },
   {
     "id": "blueforest-20260725-20-042",
@@ -75964,7 +79400,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɛrɪtˌɔri/"
   },
   {
     "id": "blueforest-20260725-20-044",
@@ -75986,7 +79423,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈaɪ/"
   },
   {
     "id": "blueforest-20260725-20-048",
@@ -76008,7 +79446,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dʒˈin/"
   },
   {
     "id": "blueforest-20260725-20-049",
@@ -76030,7 +79469,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tʃˈɛrmʌn/"
   },
   {
     "id": "blueforest-20260725-20-050",
@@ -76052,7 +79492,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/trˈænskrˌɪpt/"
   },
   {
     "id": "blueforest-20260725-20-051",
@@ -76074,7 +79515,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dɪzˈaɪɝ/"
   },
   {
     "id": "cet4-20260725-15-001",
@@ -76096,7 +79538,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈaʊnlˌoʊd/"
   },
   {
     "id": "cet4-20260725-15-002",
@@ -76118,7 +79561,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈʌplˌoʊd/"
   },
   {
     "id": "cet4-20260725-15-003",
@@ -76140,7 +79584,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌnlˈoʊd/"
   },
   {
     "id": "cet4-20260725-15-004",
@@ -76162,7 +79607,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌnfˈoʊld/"
   },
   {
     "id": "cet4-20260725-15-006",
@@ -76184,7 +79630,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bɪtrˈeɪ/"
   },
   {
     "id": "cet4-20260725-15-007",
@@ -76206,7 +79653,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bɪtrˈeɪʌl/"
   },
   {
     "id": "cet4-20260725-15-008",
@@ -76228,7 +79676,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌnkˈʌvɝ/"
   },
   {
     "id": "cet4-20260725-15-009",
@@ -76250,7 +79699,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈoʊd/"
   },
   {
     "id": "cet4-20260725-15-010",
@@ -76272,7 +79722,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈil/"
   },
   {
     "id": "cet4-20260725-15-011",
@@ -76294,7 +79745,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnsˈil/"
   },
   {
     "id": "cet4-20260725-15-012",
@@ -76316,7 +79768,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnsˈilmʌnt/"
   },
   {
     "id": "cet4-20260725-15-014",
@@ -76338,7 +79791,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌɛvʌlˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260725-15-015",
@@ -76360,7 +79814,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɛkʌdʒ/"
   },
   {
     "id": "cet4-20260725-15-018",
@@ -76382,7 +79837,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌʃˈeɪmd/"
   },
   {
     "id": "cet4-20260725-15-019",
@@ -76404,7 +79860,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈæʃ/"
   },
   {
     "id": "cet4-20260725-15-021",
@@ -76426,7 +79883,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌbjˈusɪv/"
   },
   {
     "id": "cet4-20260725-15-022",
@@ -76448,7 +79906,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/klˈæʃ/"
   },
   {
     "id": "cet4-20260725-15-023",
@@ -76470,7 +79929,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/krˈæʃ/"
   },
   {
     "id": "cet4-20260725-15-024",
@@ -76492,7 +79952,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɛk/"
   },
   {
     "id": "cet4-20260725-15-025",
@@ -76514,7 +79975,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪskˈɑrd/"
   },
   {
     "id": "cet4-20260725-15-027",
@@ -76536,7 +79998,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/trˈæʃ/"
   },
   {
     "id": "cet4-20260725-15-029",
@@ -76558,7 +80021,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌæbʌlˈɪʃʌn/"
   },
   {
     "id": "cet4-20260725-15-030",
@@ -76580,7 +80044,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪzˈɝʃʌn/"
   },
   {
     "id": "cet4-20260725-15-031",
@@ -76602,7 +80067,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪzˈɝt/"
   },
   {
     "id": "cet4-20260725-15-032",
@@ -76624,7 +80090,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnsˈɝt/"
   },
   {
     "id": "cet4-20260725-15-033",
@@ -76646,7 +80113,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnsˈɝʃʌn/"
   },
   {
     "id": "cet4-20260725-15-034",
@@ -76668,7 +80136,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈʌmp/"
   },
   {
     "id": "cet4-20260725-15-035",
@@ -76690,7 +80159,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪsrˈʌptɪv/"
   },
   {
     "id": "cet4-20260725-15-036",
@@ -76712,7 +80182,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪsrˈʌpʃʌn/"
   },
   {
     "id": "cet4-20260725-15-037",
@@ -76734,7 +80205,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪntɝˈʌpt/"
   },
   {
     "id": "cet4-20260725-15-038",
@@ -76756,7 +80228,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪntɝˈʌpʃʌn/"
   },
   {
     "id": "cet4-20260725-15-039",
@@ -76778,7 +80251,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɛzɝt/"
   },
   {
     "id": "cet4-20260725-15-040",
@@ -76800,7 +80274,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/brˈaɪb/"
   },
   {
     "id": "cet4-20260725-15-041",
@@ -76822,7 +80297,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/brˈaɪbɝi/"
   },
   {
     "id": "cet4-20260725-15-042",
@@ -76844,7 +80320,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈæŋkrʌpt/"
   },
   {
     "id": "cet4-20260725-15-043",
@@ -76866,7 +80343,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈæŋkrʌpsi/"
   },
   {
     "id": "cet4-20260725-15-045",
@@ -76888,7 +80366,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪsrˈʌpt/"
   },
   {
     "id": "cet4-20260725-15-046",
@@ -76910,7 +80389,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bɪfˈɔrhˌænd/"
   },
   {
     "id": "cet4-20260725-15-047",
@@ -76934,7 +80414,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɛdi/"
   },
   {
     "id": "cet4-20260725-15-048",
@@ -76956,7 +80437,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈɛdʌli/"
   },
   {
     "id": "cet4-20260725-15-049",
@@ -76978,7 +80460,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈoʊ kˈɔld/"
   },
   {
     "id": "cet4-20260725-15-050",
@@ -77000,7 +80483,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kɝˈʌpt/"
   },
   {
     "id": "cet4-20260725-15-051",
@@ -77022,7 +80506,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kɝˈʌpʃʌn/"
   },
   {
     "id": "cet4-20260725-15-053",
@@ -77044,7 +80529,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡˈæðɝɪŋ/"
   },
   {
     "id": "cet4-20260725-15-054",
@@ -77066,7 +80552,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/hˈɛdkwˌɔrtɝz/"
   },
   {
     "id": "cet4-20260725-15-056",
@@ -77088,7 +80575,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kwˈɔrtɝli/"
   },
   {
     "id": "cet4-20260725-15-057",
@@ -77110,7 +80598,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌoʊvɝwˈɛlmɪŋli/"
   },
   {
     "id": "cet4-20260725-15-059",
@@ -77132,7 +80621,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈʌndɝtˌeɪkɪŋ/"
   },
   {
     "id": "cet4-20260725-15-062",
@@ -77154,7 +80644,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈoʊvɝtˌaɪm/"
   },
   {
     "id": "cet4-20260725-15-064",
@@ -77176,7 +80667,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈoʊvɝhˈir/"
   },
   {
     "id": "cet4-20260725-15-065",
@@ -77198,7 +80690,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌoʊvɝwˈɛlm/"
   },
   {
     "id": "cet4-20260725-15-066",
@@ -77220,7 +80713,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌoʊvɝwˈɛlmɪŋ/"
   },
   {
     "id": "cet4-20260725-15-068",
@@ -77242,7 +80736,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈoʊvɝkˌʌm/"
   },
   {
     "id": "cet4-20260725-15-069",
@@ -77264,7 +80759,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈoʊvɝlˌʊk/"
   },
   {
     "id": "cet4-20260725-15-070",
@@ -77286,7 +80782,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈoʊvɝnˈaɪt/"
   },
   {
     "id": "cet4-20260725-15-071",
@@ -77308,7 +80805,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈoʊvɝtˌeɪk/"
   },
   {
     "id": "cet4-20260725-15-072",
@@ -77330,7 +80828,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈaʊtkˌʌm/"
   },
   {
     "id": "cet4-20260725-15-073",
@@ -77352,7 +80851,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈaʊtbrˌeɪk/"
   },
   {
     "id": "cet4-20260725-15-074",
@@ -77374,7 +80874,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/brˈeɪkθrˌu/"
   },
   {
     "id": "cet4-20260725-15-075",
@@ -77396,7 +80897,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈaʊtlˌɛt/"
   },
   {
     "id": "cet4-20260725-15-076",
@@ -77418,7 +80920,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈaʊtlˌʊk/"
   },
   {
     "id": "cet4-20260725-15-077",
@@ -77440,7 +80943,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪstrˈɔɪ/"
   },
   {
     "id": "cet4-20260725-15-078",
@@ -77462,7 +80966,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪstrˈʌkʃʌn/"
   },
   {
     "id": "cet4-20260725-15-079",
@@ -77484,7 +80989,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪstrˈʌktɪv/"
   },
   {
     "id": "cet4-20260725-15-080",
@@ -77506,7 +81012,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪkˈeɪ/"
   },
   {
     "id": "cet4-20260725-15-082",
@@ -77528,7 +81035,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/spˈɔɪl/"
   },
   {
     "id": "cet4-20260725-15-083",
@@ -77550,7 +81058,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɔɪl/"
   },
   {
     "id": "cet4-20260725-15-084",
@@ -77572,7 +81081,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɔɪlɝ/"
   },
   {
     "id": "cet4-20260725-15-085",
@@ -77594,7 +81104,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈuʌn/"
   },
   {
     "id": "cet4-20260725-15-086",
@@ -77616,7 +81127,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˈuʌnʌs/"
   },
   {
     "id": "cet4-20260725-15-089",
@@ -77638,7 +81150,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/hˈɛdlˌaɪn/"
   },
   {
     "id": "cet4-20260725-15-090",
@@ -77660,7 +81173,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɛdlˌaɪn/"
   },
   {
     "id": "cet4-20260725-15-092",
@@ -77682,7 +81196,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈʌndɝmˌaɪn/"
   },
   {
     "id": "cet4-20260725-15-093",
@@ -77704,7 +81219,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dʌtˈɝmʌn/"
   },
   {
     "id": "cet4-20260725-15-094",
@@ -77726,7 +81242,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪtˌɝmʌnˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260725-15-095",
@@ -77748,7 +81265,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪtˈɝmʌnd/"
   },
   {
     "id": "cet4-20260725-15-096",
@@ -77770,7 +81288,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪtˈɪriɝˌeɪt/"
   },
   {
     "id": "cet4-20260725-15-097",
@@ -77792,7 +81311,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪtˈɪriɝˌeɪʃʌn/"
   },
   {
     "id": "cet4-20260725-15-098",
@@ -77814,7 +81334,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˌɛfɝˈɛnʃʌl/"
   },
   {
     "id": "cet4-20260725-15-099",
@@ -77836,7 +81357,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪndˈɪfrʌnt/"
   },
   {
     "id": "cet4-20260725-15-100",
@@ -77858,7 +81380,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪndˈɪfɝʌns/"
   },
   {
     "id": "cet4-20260725-15-101",
@@ -77880,7 +81403,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/skˈaɪlˌaɪn/"
   },
   {
     "id": "cet4-20260725-15-102",
@@ -77904,7 +81428,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈaʊtlˌaɪn/"
   },
   {
     "id": "cet4-20260725-15-103",
@@ -77926,7 +81451,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɝtʌlˌaɪzɝ/"
   },
   {
     "id": "cet4-20260725-15-104",
@@ -77948,7 +81474,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fɝtˈɪlʌti/"
   },
   {
     "id": "cet4-20260725-15-106",
@@ -77970,7 +81497,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɛfɝʌbʌl/"
   },
   {
     "id": "cet4-20260725-15-107",
@@ -77992,7 +81520,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɛfɝʌns/"
   },
   {
     "id": "cet4-20260725-15-109",
@@ -78014,7 +81543,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kʌnsˈɝnd/"
   },
   {
     "id": "cet4-20260725-15-112",
@@ -78036,7 +81566,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈɝtʌl/"
   },
   {
     "id": "cet4-20260725-15-116",
@@ -78058,7 +81589,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rʌfˈɝ/"
   },
   {
     "id": "phrase-practice-7-008",
@@ -78080,7 +81612,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/bˈi rɪlˈeɪtɪd tə/"
   },
   {
     "id": "phrase-practice-8-001",
@@ -78102,7 +81635,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/ˈæz fˈɑr ˈæz bˈi kʌnsˈɝnd/"
   },
   {
     "id": "phrase-practice-8-002",
@@ -78124,7 +81658,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/bɪlˈɔŋ tə / wɪð/"
   },
   {
     "id": "phrase-practice-8-003",
@@ -78146,7 +81681,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/nˈætʃɝʌl rˈisɔrsɪz/"
   },
   {
     "id": "phrase-practice-8-004",
@@ -78168,7 +81704,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/plˈeɪ æn ˌɪmpˈɔrtʌnt rˈoʊl ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-8-005",
@@ -78190,7 +81727,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/hˈæv ðə ʌbˈɪlʌtˌi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-8-006",
@@ -78212,7 +81750,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/bˈi ˈeɪbʌl tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-8-007",
@@ -78234,7 +81773,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/hˈæv ə rˈɛst/"
   },
   {
     "id": "phrase-practice-8-008",
@@ -78256,7 +81796,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/ɪn ə hˈɝi/"
   },
   {
     "id": "phrase-practice-8-009",
@@ -78278,7 +81819,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/ɪn ə wˈɝd/"
   },
   {
     "id": "phrase-practice-8-010",
@@ -78300,7 +81842,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "短语练习"
     ],
-    "source": "短语练习"
+    "source": "短语练习",
+    "phonetic": "/ˈæz ə rɪzˈʌlt/"
   },
   {
     "id": "blue-20260726-21-001",
@@ -78322,7 +81865,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈɑd/"
   },
   {
     "id": "blue-20260726-21-003",
@@ -78344,7 +81888,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɑntrʌprʌnˈɝ/"
   },
   {
     "id": "blue-20260726-21-004",
@@ -78366,7 +81911,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/eɪtˈin/"
   },
   {
     "id": "blue-20260726-21-005",
@@ -78388,7 +81934,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈaɪnd/"
   },
   {
     "id": "blue-20260726-21-006",
@@ -78410,7 +81957,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈaɪf/"
   },
   {
     "id": "blue-20260726-21-009",
@@ -78432,7 +81980,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃrˈɪmp/"
   },
   {
     "id": "blue-20260726-21-010",
@@ -78454,7 +82003,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/krˈeɪzi/"
   },
   {
     "id": "blue-20260726-21-011",
@@ -78476,7 +82026,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/skˈɑlɝ/"
   },
   {
     "id": "blue-20260726-21-013",
@@ -78498,7 +82049,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈɛd/"
   },
   {
     "id": "blue-20260726-21-014",
@@ -78520,7 +82072,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɪntɝ/"
   },
   {
     "id": "blue-20260726-21-016",
@@ -78542,7 +82095,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈʌns/"
   },
   {
     "id": "blue-20260726-21-018",
@@ -78564,7 +82118,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪstɝ/"
   },
   {
     "id": "blue-20260726-21-021",
@@ -78586,7 +82141,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈi/"
   },
   {
     "id": "blue-20260726-21-023",
@@ -78608,7 +82164,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kˈʊd/"
   },
   {
     "id": "blue-20260726-21-025",
@@ -78630,7 +82187,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɛvʌnti/"
   },
   {
     "id": "blue-20260726-21-026",
@@ -78652,7 +82210,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/nˈɔrmʌl/"
   },
   {
     "id": "blue-20260726-21-027",
@@ -78674,7 +82233,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɛɡ/"
   },
   {
     "id": "blue-20260726-21-028",
@@ -78696,7 +82256,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/blˈeɪd/"
   },
   {
     "id": "blue-20260726-21-029",
@@ -78718,7 +82279,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈɑt/"
   },
   {
     "id": "blue-20260726-21-030",
@@ -78740,7 +82302,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈeɪsbˈɔl/"
   },
   {
     "id": "blue-20260726-21-031",
@@ -78762,7 +82325,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈeɪdʒ/"
   },
   {
     "id": "blue-20260726-21-032",
@@ -78784,7 +82348,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪksti/"
   },
   {
     "id": "blue-20260726-21-033",
@@ -78806,7 +82371,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈæd/"
   },
   {
     "id": "blue-20260726-21-035",
@@ -78828,7 +82394,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈeɪk/"
   },
   {
     "id": "blue-20260726-21-039",
@@ -78850,7 +82417,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈu/"
   },
   {
     "id": "blue-20260726-21-041",
@@ -78872,7 +82440,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/vˈɪktɝi/"
   },
   {
     "id": "blue-20260726-21-043",
@@ -78894,7 +82463,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɔk/"
   },
   {
     "id": "blue-20260726-21-044",
@@ -78916,7 +82486,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/brˈaʊ/"
   },
   {
     "id": "blue-20260726-21-045",
@@ -78938,7 +82509,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɑnt/"
   },
   {
     "id": "blue-20260726-21-046",
@@ -78960,7 +82532,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɔrn/"
   },
   {
     "id": "blue-20260726-21-047",
@@ -78982,7 +82555,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/mˈʌðɝ/"
   },
   {
     "id": "blue-20260726-21-048",
@@ -79004,7 +82578,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˌɛkʌnˈɑmɪks/"
   },
   {
     "id": "blue-20260726-21-049",
@@ -79026,7 +82601,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sʌfˈɪstʌkˌeɪtɪd/"
   },
   {
     "id": "cet4-20260726-16-002",
@@ -79048,7 +82624,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌkjˈut/"
   },
   {
     "id": "cet4-20260726-16-003",
@@ -79070,7 +82647,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sʌvˈɪr/"
   },
   {
     "id": "cet4-20260726-16-004",
@@ -79092,7 +82670,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sɪvˈɛrɪti/"
   },
   {
     "id": "cet4-20260726-16-005",
@@ -79114,7 +82693,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈeɪv/"
   },
   {
     "id": "cet4-20260726-16-006",
@@ -79136,7 +82716,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈævʌti/"
   },
   {
     "id": "cet4-20260726-16-007",
@@ -79159,7 +82740,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈif/"
   },
   {
     "id": "cet4-20260726-16-008",
@@ -79181,7 +82763,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈaɪʌs/"
   },
   {
     "id": "cet4-20260726-16-009",
@@ -79203,7 +82786,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/nˈutrʌl/"
   },
   {
     "id": "cet4-20260726-16-010",
@@ -79225,7 +82809,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/nutrˈælʌti/"
   },
   {
     "id": "cet4-20260726-16-011",
@@ -79247,7 +82832,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/nˈutrʌlˌaɪz/"
   },
   {
     "id": "cet4-20260726-16-013",
@@ -79269,7 +82855,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈɑrʃʌl/"
   },
   {
     "id": "cet4-20260726-16-014",
@@ -79291,7 +82878,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈɑrʃʌli/"
   },
   {
     "id": "cet4-20260726-16-016",
@@ -79313,7 +82901,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɛdʒʌdɪs/"
   },
   {
     "id": "cet4-20260726-16-017",
@@ -79335,7 +82924,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʌpˈɑrt/"
   },
   {
     "id": "cet4-20260726-16-020",
@@ -79357,7 +82947,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈɑrtʌkʌl/"
   },
   {
     "id": "cet4-20260726-16-021",
@@ -79379,7 +82970,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪpˈɑrt/"
   },
   {
     "id": "cet4-20260726-16-022",
@@ -79401,7 +82993,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dɪpˈɑrtʃɝ/"
   },
   {
     "id": "cet4-20260726-16-023",
@@ -79423,7 +83016,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛkʃʌn/"
   },
   {
     "id": "cet4-20260726-16-024",
@@ -79445,7 +83039,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛɡmʌnt/"
   },
   {
     "id": "cet4-20260726-16-025",
@@ -79467,7 +83062,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/seɡˈmentəl/"
   },
   {
     "id": "cet4-20260726-16-026",
@@ -79489,7 +83085,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sʌmˈɛstɝ/"
   },
   {
     "id": "cet4-20260726-16-027",
@@ -79511,7 +83108,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tˈɝm/"
   },
   {
     "id": "cet4-20260726-16-028",
@@ -79533,7 +83131,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛpɝˌeɪt/"
   },
   {
     "id": "cet4-20260726-16-029",
@@ -79555,7 +83154,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˌɛpɝˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260726-16-030",
@@ -79577,7 +83177,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛpɝʌtɪst/"
   },
   {
     "id": "cet4-20260726-16-031",
@@ -79601,7 +83202,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈɛktɝ/"
   },
   {
     "id": "cet4-20260726-16-032",
@@ -79623,7 +83225,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˌʌbstɪtˈuʃʌn/"
   },
   {
     "id": "cet4-20260726-16-033",
@@ -79645,7 +83248,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rˌiplˈeɪs/"
   },
   {
     "id": "cet4-20260726-16-034",
@@ -79667,7 +83271,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪplˈeɪsmʌnt/"
   },
   {
     "id": "cet4-20260726-16-035",
@@ -79689,7 +83294,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɪnstʌtˌut/"
   },
   {
     "id": "cet4-20260726-16-036",
@@ -79711,7 +83317,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnstɪtˈuʃʌn/"
   },
   {
     "id": "cet4-20260726-16-037",
@@ -79733,7 +83340,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnstɪtˈuʃʌnʌl/"
   },
   {
     "id": "cet4-20260726-16-038",
@@ -79755,7 +83363,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈɑnstʌtˌut/"
   },
   {
     "id": "cet4-20260726-16-040",
@@ -79777,7 +83386,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˌɑnstʌtˈuʃʌnʌl/"
   },
   {
     "id": "cet4-20260726-16-041",
@@ -79799,7 +83409,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sˈʌbstʌtˌut/"
   },
   {
     "id": "cet4-20260726-16-042",
@@ -79821,7 +83432,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɪnstʌnt/"
   },
   {
     "id": "cet4-20260726-16-043",
@@ -79843,7 +83455,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪnstʌntˈæniʌs/"
   },
   {
     "id": "cet4-20260726-16-044",
@@ -79865,7 +83478,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɪmˈidˌiʌt/"
   },
   {
     "id": "cet4-20260726-16-046",
@@ -79887,7 +83501,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/prˈɑmpt/"
   },
   {
     "id": "cet4-20260726-16-048",
@@ -79909,7 +83524,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɪstʌnt/"
   },
   {
     "id": "cet4-20260726-16-049",
@@ -79931,7 +83547,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/dˈɪstʌns/"
   },
   {
     "id": "cet4-20260726-16-050",
@@ -79953,7 +83570,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kˈɑnstʌnt/"
   },
   {
     "id": "cet4-20260726-16-054",
@@ -79975,7 +83593,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/wɪðdrˈɔ/"
   },
   {
     "id": "cet4-20260726-16-055",
@@ -79997,7 +83616,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/wɪðdrˈɔʌl/"
   },
   {
     "id": "cet4-20260726-16-056",
@@ -80019,7 +83639,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/drˈɔr/"
   },
   {
     "id": "cet4-20260726-16-058",
@@ -80041,7 +83662,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/sʌbstˈænʃʌl/"
   },
   {
     "id": "cet4-20260726-16-060",
@@ -80063,7 +83685,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kwˈoʊt/"
   },
   {
     "id": "cet4-20260726-16-061",
@@ -80085,7 +83708,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/kwoʊtˈeɪʃʌn/"
   },
   {
     "id": "phrase-practice-9-001",
@@ -80109,7 +83733,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "My cat is sleeping in the bed.",
-    "contextTranslation": "我的猫正在床上睡觉。"
+    "contextTranslation": "我的猫正在床上睡觉。",
+    "phonetic": "/ɪn ðə bˈɛd/"
   },
   {
     "id": "phrase-practice-9-002",
@@ -80133,7 +83758,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "The doctors worked day and night to save the patient.",
-    "contextTranslation": "医生们日以继夜地工作以挽救病人。"
+    "contextTranslation": "医生们日以继夜地工作以挽救病人。",
+    "phonetic": "/dˈeɪ ænd nˈaɪt/"
   },
   {
     "id": "phrase-practice-9-003",
@@ -80157,7 +83783,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "We talked face to face after class.",
-    "contextTranslation": "课后我们面对面交谈。"
+    "contextTranslation": "课后我们面对面交谈。",
+    "phonetic": "/fˈeɪs tə fˈeɪs/"
   },
   {
     "id": "phrase-practice-9-004",
@@ -80181,7 +83808,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "We arrived at the station in time for the train.",
-    "contextTranslation": "我们及时赶到车站，赶上了火车。"
+    "contextTranslation": "我们及时赶到车站，赶上了火车。",
+    "phonetic": "/ɪn tˈaɪm/"
   },
   {
     "id": "phrase-practice-9-005",
@@ -80205,7 +83833,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Please arrive at school on time.",
-    "contextTranslation": "请准时到校。"
+    "contextTranslation": "请准时到校。",
+    "phonetic": "/ɑn tˈaɪm/"
   },
   {
     "id": "phrase-practice-9-006",
@@ -80229,7 +83858,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "She listens to English programs all the time.",
-    "contextTranslation": "她一直听英语节目。"
+    "contextTranslation": "她一直听英语节目。",
+    "phonetic": "/ˈɔl ðə tˈaɪm/"
   },
   {
     "id": "phrase-practice-9-007",
@@ -80253,7 +83883,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "She can study and work at the same time.",
-    "contextTranslation": "她可以同时学习和工作。"
+    "contextTranslation": "她可以同时学习和工作。",
+    "phonetic": "/ˈæt ðə sˈeɪm tˈaɪm/"
   },
   {
     "id": "phrase-practice-9-008",
@@ -80277,7 +83908,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "By the way, have you finished your application form?",
-    "contextTranslation": "顺便问一下，你填完申请表了吗？"
+    "contextTranslation": "顺便问一下，你填完申请表了吗？",
+    "phonetic": "/bˈaɪ ðə wˈeɪ/"
   },
   {
     "id": "phrase-practice-9-009",
@@ -80301,7 +83933,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "She started learning English at an early age.",
-    "contextTranslation": "她很小的时候就开始学习英语。"
+    "contextTranslation": "她很小的时候就开始学习英语。",
+    "phonetic": "/ˈæt æn ˈɝli ˈeɪdʒ/"
   },
   {
     "id": "phrase-practice-9-010",
@@ -80325,7 +83958,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Please call 120 in an emergency.",
-    "contextTranslation": "紧急情况下请拨打120。"
+    "contextTranslation": "紧急情况下请拨打120。",
+    "phonetic": "/ɪn æn ɪmˈɝdʒʌnsi/"
   },
   {
     "id": "blue-20260727-22-002",
@@ -80347,7 +83981,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/tˈɑrɡʌt/"
   },
   {
     "id": "blue-20260727-22-004",
@@ -80369,7 +84004,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʃˈaɪn/"
   },
   {
     "id": "blue-20260727-22-006",
@@ -80391,7 +84027,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɪnsʌdʌns/"
   },
   {
     "id": "blue-20260727-22-007",
@@ -80413,7 +84050,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pˈipʌl/"
   },
   {
     "id": "blue-20260727-22-008",
@@ -80435,7 +84073,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɑlʌm/"
   },
   {
     "id": "blue-20260727-22-009",
@@ -80459,7 +84098,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/θrˈaɪv/"
   },
   {
     "id": "blue-20260727-22-010",
@@ -80481,7 +84121,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/pɝfˈɛkt/"
   },
   {
     "id": "blue-20260727-22-011",
@@ -80503,7 +84144,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/klˈɪŋ/"
   },
   {
     "id": "blue-20260727-22-013",
@@ -80525,7 +84167,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɪmpʌθi/"
   },
   {
     "id": "blue-20260727-22-014",
@@ -80547,7 +84190,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/koʊhˈiʒʌn/"
   },
   {
     "id": "blue-20260727-22-015",
@@ -80569,7 +84213,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌnˈu/"
   },
   {
     "id": "blue-20260727-22-016",
@@ -80591,7 +84236,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/wˈɛd/"
   },
   {
     "id": "blue-20260727-22-018",
@@ -80613,7 +84259,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɔtʌm/"
   },
   {
     "id": "blue-20260727-22-019",
@@ -80635,7 +84282,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/strˈʌɡʌl/"
   },
   {
     "id": "blue-20260727-22-022",
@@ -80657,7 +84305,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/hˈɔrs/"
   },
   {
     "id": "blue-20260727-22-023",
@@ -80679,7 +84328,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bɪkˈɔz/"
   },
   {
     "id": "blue-20260727-22-024",
@@ -80701,7 +84351,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/bˈɪskʌt/"
   },
   {
     "id": "blue-20260727-22-025",
@@ -80723,7 +84374,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kwˈin/"
   },
   {
     "id": "blue-20260727-22-027",
@@ -80747,7 +84399,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林",
       "四级"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/sˈɛns/"
   },
   {
     "id": "blue-20260727-22-029",
@@ -80769,7 +84422,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/lˈæbrʌtˌɔri/"
   },
   {
     "id": "blue-20260727-22-030",
@@ -80791,7 +84445,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈʌðɝ/"
   },
   {
     "id": "blue-20260727-22-031",
@@ -80813,7 +84468,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ʌkrˈɔs/"
   },
   {
     "id": "blue-20260727-22-034",
@@ -80835,7 +84491,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ɔlrˈɛdi/"
   },
   {
     "id": "blue-20260727-22-035",
@@ -80857,7 +84514,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈɔlsoʊ/"
   },
   {
     "id": "blue-20260727-22-037",
@@ -80879,7 +84537,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/stˈul/"
   },
   {
     "id": "blue-20260727-22-038",
@@ -80901,7 +84560,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/fʊlfˈɪl/"
   },
   {
     "id": "blue-20260727-22-039",
@@ -80923,7 +84583,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ˈæt/"
   },
   {
     "id": "blue-20260727-22-041",
@@ -80945,7 +84606,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɛr/"
   },
   {
     "id": "blue-20260727-22-043",
@@ -80967,7 +84629,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɛf/"
   },
   {
     "id": "blue-20260727-22-044",
@@ -80989,7 +84652,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˈɛθ/"
   },
   {
     "id": "blue-20260727-22-045",
@@ -81011,7 +84675,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dˌɪsˈaɪd/"
   },
   {
     "id": "blue-20260727-22-047",
@@ -81033,7 +84698,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/dɪlˈɪʃʌs/"
   },
   {
     "id": "blue-20260727-22-049",
@@ -81055,7 +84721,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/ðɛmsˈɛlvz/"
   },
   {
     "id": "blue-20260727-22-050",
@@ -81077,7 +84744,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "蓝色森林"
     ],
-    "source": "蓝色森林"
+    "source": "蓝色森林",
+    "phonetic": "/kæʃˈɪr/"
   },
   {
     "id": "cet4-20260727-17-001",
@@ -81099,7 +84767,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/trˈɛʒɝ/"
   },
   {
     "id": "cet4-20260727-17-003",
@@ -81121,7 +84790,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bɪlˈʌvd/"
   },
   {
     "id": "cet4-20260727-17-004",
@@ -81143,7 +84813,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/tʃˈɛrɪʃ/"
   },
   {
     "id": "cet4-20260727-17-008",
@@ -81165,7 +84836,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛmplˈɔɪmʌnt/"
   },
   {
     "id": "cet4-20260727-17-009",
@@ -81187,7 +84859,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌʌnɪmplˈɔɪmʌnt/"
   },
   {
     "id": "cet4-20260727-17-010",
@@ -81209,7 +84882,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌʌnɛmplˈɔɪd/"
   },
   {
     "id": "cet4-20260727-17-011",
@@ -81231,7 +84905,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈʌɡʒɝi/"
   },
   {
     "id": "cet4-20260727-17-012",
@@ -81253,7 +84928,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lʌɡʒˈɝiʌs/"
   },
   {
     "id": "cet4-20260727-17-013",
@@ -81275,7 +84951,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ritˈaɪɝmʌnt/"
   },
   {
     "id": "cet4-20260727-17-014",
@@ -81297,7 +84974,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪtˈaɪrd/"
   },
   {
     "id": "cet4-20260727-17-015",
@@ -81319,7 +84997,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛmplˈɔɪ/"
   },
   {
     "id": "cet4-20260727-17-016",
@@ -81341,7 +85020,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛmplˈɔɪi/"
   },
   {
     "id": "cet4-20260727-17-017",
@@ -81363,7 +85043,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɛmplˈɔɪɝ/"
   },
   {
     "id": "cet4-20260727-17-018",
@@ -81385,7 +85066,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈaɪrmʌn/"
   },
   {
     "id": "cet4-20260727-17-019",
@@ -81407,7 +85089,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈaɪɝplˌeɪs/"
   },
   {
     "id": "cet4-20260727-17-020",
@@ -81429,7 +85112,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈaɪrwˌɝk/"
   },
   {
     "id": "cet4-20260727-17-021",
@@ -81453,7 +85137,8 @@ window.WORD_MEMORY_WORDS = [
       "四级",
       "蓝色森林"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/hˈaɪɝ/"
   },
   {
     "id": "cet4-20260727-17-022",
@@ -81475,7 +85160,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪtˈaɪr/"
   },
   {
     "id": "cet4-20260727-17-023",
@@ -81497,7 +85183,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌmpɝ/"
   },
   {
     "id": "cet4-20260727-17-024",
@@ -81519,7 +85206,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈʌmp/"
   },
   {
     "id": "cet4-20260727-17-025",
@@ -81541,7 +85229,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/lˈʌmp/"
   },
   {
     "id": "cet4-20260727-17-026",
@@ -81563,7 +85252,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ʃˈɑt/"
   },
   {
     "id": "cet4-20260727-17-027",
@@ -81585,7 +85275,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/fˈaɪɝ/"
   },
   {
     "id": "cet4-20260727-17-028",
@@ -81607,7 +85298,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɛksplɝˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260727-17-029",
@@ -81629,7 +85321,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˈɛksplˌɔɪt/"
   },
   {
     "id": "cet4-20260727-17-030",
@@ -81651,7 +85344,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ˌɛksplˌɔɪtˈeɪʃʌn/"
   },
   {
     "id": "cet4-20260727-17-031",
@@ -81673,7 +85367,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɑm/"
   },
   {
     "id": "cet4-20260727-17-032",
@@ -81695,7 +85390,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈʌmp/"
   },
   {
     "id": "cet4-20260727-17-034",
@@ -81717,7 +85413,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪksplˈoʊd/"
   },
   {
     "id": "cet4-20260727-17-035",
@@ -81739,7 +85436,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪksplˈoʊʒʌn/"
   },
   {
     "id": "cet4-20260727-17-036",
@@ -81761,7 +85459,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪksplˈoʊsɪv/"
   },
   {
     "id": "cet4-20260727-17-037",
@@ -81783,7 +85482,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɪksplˈɔr/"
   },
   {
     "id": "cet4-20260727-17-038",
@@ -81805,7 +85505,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈæntʌd/"
   },
   {
     "id": "cet4-20260727-17-039",
@@ -81827,7 +85528,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈaɪnd/"
   },
   {
     "id": "cet4-20260727-17-040",
@@ -81849,7 +85551,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/pˈɑlɪʃ/"
   },
   {
     "id": "cet4-20260727-17-041",
@@ -81871,7 +85574,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/bˈɝst/"
   },
   {
     "id": "cet4-20260727-17-042",
@@ -81893,7 +85597,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/blˈæst/"
   },
   {
     "id": "cet4-20260727-17-047",
@@ -81915,7 +85620,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈænt/"
   },
   {
     "id": "cet4-20260727-17-048",
@@ -81937,7 +85643,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈiv/"
   },
   {
     "id": "cet4-20260727-17-049",
@@ -81959,7 +85666,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/ɡrˈivʌs/"
   },
   {
     "id": "cet4-20260727-17-051",
@@ -81981,7 +85689,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪlˈiv/"
   },
   {
     "id": "cet4-20260727-17-052",
@@ -82003,7 +85712,8 @@ window.WORD_MEMORY_WORDS = [
     "sources": [
       "四级"
     ],
-    "source": "四级"
+    "source": "四级",
+    "phonetic": "/rɪlˈif/"
   },
   {
     "id": "dictation-3-001",
@@ -82027,7 +85737,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Regular exercise can have an effect on students' physical condition.",
-    "contextTranslation": "规律锻炼会影响学生的身体状况。"
+    "contextTranslation": "规律锻炼会影响学生的身体状况。",
+    "phonetic": "/hˈæv æn ɪfˈɛkt ɑn/"
   },
   {
     "id": "dictation-3-002",
@@ -82051,7 +85762,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Family education may have an influence on a child's future development.",
-    "contextTranslation": "家庭教育可能会影响孩子未来的发展。"
+    "contextTranslation": "家庭教育可能会影响孩子未来的发展。",
+    "phonetic": "/hˈæv æn ˈɪnfluʌns ɑn/"
   },
   {
     "id": "dictation-3-003",
@@ -82075,7 +85787,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Reading every day can have a positive effect on language learning.",
-    "contextTranslation": "每天阅读会对语言学习产生积极影响。"
+    "contextTranslation": "每天阅读会对语言学习产生积极影响。",
+    "phonetic": "/hˈæv ə pˈɑzʌtɪv ɪfˈɛkt ɑn/"
   },
   {
     "id": "dictation-3-004",
@@ -82099,7 +85812,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Staying up late may have a negative effect on your health.",
-    "contextTranslation": "熬夜可能对健康产生消极影响。"
+    "contextTranslation": "熬夜可能对健康产生消极影响。",
+    "phonetic": "/hˈæv ə nˈɛɡʌtɪv ɪfˈɛkt ɑn/"
   },
   {
     "id": "dictation-3-005",
@@ -82123,7 +85837,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The volunteer experience had a deep effect on her choice of career.",
-    "contextTranslation": "志愿服务经历对她的职业选择产生了深刻影响。"
+    "contextTranslation": "志愿服务经历对她的职业选择产生了深刻影响。",
+    "phonetic": "/hˈæv ə dˈip ɪfˈɛkt ɑn/"
   },
   {
     "id": "dictation-3-006",
@@ -82147,7 +85862,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "She succeeded in solving the problem after several attempts.",
-    "contextTranslation": "多次尝试后，她成功解决了这个问题。"
+    "contextTranslation": "多次尝试后，她成功解决了这个问题。",
+    "phonetic": "/sʌksˈid ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-007",
@@ -82171,7 +85887,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The student refused to copy the answer in the examination.",
-    "contextTranslation": "那名学生拒绝在考试中抄答案。"
+    "contextTranslation": "那名学生拒绝在考试中抄答案。",
+    "phonetic": "/rʌfjˈuz tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-008",
@@ -82195,7 +85912,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Many college students are interested in taking part in social practice.",
-    "contextTranslation": "许多大学生对参加社会实践感兴趣。"
+    "contextTranslation": "许多大学生对参加社会实践感兴趣。",
+    "phonetic": "/bˈi ˈɪntrʌstɪd ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-009",
@@ -82219,7 +85937,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "He did not realize the importance of time until he entered college.",
-    "contextTranslation": "直到进入大学，他才意识到时间的重要性。"
+    "contextTranslation": "直到进入大学，他才意识到时间的重要性。",
+    "phonetic": "/nˈɑt ʌntˈɪl/"
   },
   {
     "id": "dictation-3-010",
@@ -82243,7 +85962,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "It is necessary for students to review what they have learned in time.",
-    "contextTranslation": "学生及时复习所学内容是必要的。"
+    "contextTranslation": "学生及时复习所学内容是必要的。",
+    "phonetic": "/nˈɛsʌsˌɛri/"
   },
   {
     "id": "dictation-3-011",
@@ -82267,7 +85987,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The passage stresses the necessity of protecting personal information online.",
-    "contextTranslation": "文章强调了在网上保护个人信息的必要性。"
+    "contextTranslation": "文章强调了在网上保护个人信息的必要性。",
+    "phonetic": "/nʌsˈɛsʌti/"
   },
   {
     "id": "dictation-3-012",
@@ -82291,7 +86012,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The supermarket provides basic daily necessities for nearby residents.",
-    "contextTranslation": "这家超市为附近居民提供基本生活必需品。"
+    "contextTranslation": "这家超市为附近居民提供基本生活必需品。",
+    "phonetic": "/dˈeɪli nʌsˈɛsɪtiz/"
   },
   {
     "id": "dictation-3-013",
@@ -82315,7 +86037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Schools should set limits on the time students spend on mobile phones.",
-    "contextTranslation": "学校应限制学生使用手机的时间。"
+    "contextTranslation": "学校应限制学生使用手机的时间。",
+    "phonetic": "/sˈɛt lˈɪmʌts ɑn/"
   },
   {
     "id": "dictation-3-014",
@@ -82339,7 +86062,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "I waited for my classmate at the school gate after class.",
-    "contextTranslation": "下课后我在校门口等同学。"
+    "contextTranslation": "下课后我在校门口等同学。",
+    "phonetic": "/wˈeɪt fˈɔr ˌsʌmbədi/"
   },
   {
     "id": "dictation-3-015",
@@ -82363,7 +86087,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "He stood against the wall while waiting for the interview.",
-    "contextTranslation": "等候面试时，他靠墙站着。"
+    "contextTranslation": "等候面试时，他靠墙站着。",
+    "phonetic": "/stˈænd ʌɡˈɛnst/"
   },
   {
     "id": "dictation-3-016",
@@ -82387,7 +86112,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The bicycle was leaning against a tree outside the library.",
-    "contextTranslation": "自行车靠在图书馆外的一棵树上。"
+    "contextTranslation": "自行车靠在图书馆外的一棵树上。",
+    "phonetic": "/lˈin ʌɡˈɛnst/"
   },
   {
     "id": "dictation-3-017",
@@ -82411,7 +86137,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Students should learn to solve problems independently instead of depending on others.",
-    "contextTranslation": "学生应学会独立解决问题，而不是依赖他人。"
+    "contextTranslation": "学生应学会独立解决问题，而不是依赖他人。",
+    "phonetic": "/ˌɪnstˈɛd əv ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-018",
@@ -82435,7 +86162,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The writer suggests taking action rather than making empty promises.",
-    "contextTranslation": "作者建议采取行动，而不是只作空洞承诺。"
+    "contextTranslation": "作者建议采取行动，而不是只作空洞承诺。",
+    "phonetic": "/rˈæðɝ ðˈæn/"
   },
   {
     "id": "dictation-3-019",
@@ -82459,7 +86187,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "She devoted herself to improving education in rural areas.",
-    "contextTranslation": "她致力于改善农村地区的教育。"
+    "contextTranslation": "她致力于改善农村地区的教育。",
+    "phonetic": "/dɪvˈoʊt wˌʌnsˈɛlf tə ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-020",
@@ -82483,7 +86212,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "He devotes most of his spare time to preparing for the entrance examination.",
-    "contextTranslation": "他把大部分空闲时间用于准备升学考试。"
+    "contextTranslation": "他把大部分空闲时间用于准备升学考试。",
+    "phonetic": "/dɪvˈoʊt ˌsʌmθɪŋ tə ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-021",
@@ -82507,7 +86237,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The young teacher is devoted to helping students in need.",
-    "contextTranslation": "这位年轻教师致力于帮助有需要的学生。"
+    "contextTranslation": "这位年轻教师致力于帮助有需要的学生。",
+    "phonetic": "/bˈi dɪvˈoʊtɪd tə ˌsʌmθɪŋ / ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-022",
@@ -82531,7 +86262,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "In her spare time, she reads English newspapers to enlarge her vocabulary.",
-    "contextTranslation": "空闲时，她阅读英文报纸来扩大词汇量。"
+    "contextTranslation": "空闲时，她阅读英文报纸来扩大词汇量。",
+    "phonetic": "/ɪn wʌnz spˈɛr tˈaɪm/"
   },
   {
     "id": "dictation-3-023",
@@ -82555,7 +86287,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Many students exercise in their free time to keep healthy.",
-    "contextTranslation": "许多学生在空闲时间锻炼以保持健康。"
+    "contextTranslation": "许多学生在空闲时间锻炼以保持健康。",
+    "phonetic": "/ɪn wʌnz frˈi tˈaɪm/"
   },
   {
     "id": "dictation-3-024",
@@ -82579,7 +86312,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Do not put off today's work until tomorrow.",
-    "contextTranslation": "不要把今天的工作推到明天。"
+    "contextTranslation": "不要把今天的工作推到明天。",
+    "phonetic": "/pˈʊt ˈɔf/"
   },
   {
     "id": "dictation-3-025",
@@ -82603,7 +86337,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The meeting was deferred because several members were absent.",
-    "contextTranslation": "由于几名成员缺席，会议被推迟了。"
+    "contextTranslation": "由于几名成员缺席，会议被推迟了。",
+    "phonetic": "/dɪfˈɝ/"
   },
   {
     "id": "dictation-3-026",
@@ -82627,7 +86362,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Heavy rain delayed the start of the sports meeting.",
-    "contextTranslation": "大雨推迟了运动会的开始。"
+    "contextTranslation": "大雨推迟了运动会的开始。",
+    "phonetic": "/dɪlˈeɪ/"
   },
   {
     "id": "dictation-3-027",
@@ -82651,7 +86387,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The university decided to postpone the lecture until next week.",
-    "contextTranslation": "学校决定把讲座推迟到下周。"
+    "contextTranslation": "学校决定把讲座推迟到下周。",
+    "phonetic": "/poʊstpˈoʊn/"
   },
   {
     "id": "dictation-3-028",
@@ -82675,7 +86412,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "If you stick to practising every day, your English will improve.",
-    "contextTranslation": "如果你坚持每天练习，你的英语会提高。"
+    "contextTranslation": "如果你坚持每天练习，你的英语会提高。",
+    "phonetic": "/stˈɪk tə ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-029",
@@ -82699,7 +86437,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Traditional culture has great value in modern education.",
-    "contextTranslation": "传统文化在现代教育中具有重要价值。"
+    "contextTranslation": "传统文化在现代教育中具有重要价值。",
+    "phonetic": "/vˈælju/"
   },
   {
     "id": "dictation-3-030",
@@ -82723,7 +86462,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The teacher gave us valuable advice on how to prepare for the exam.",
-    "contextTranslation": "老师就如何备考给了我们宝贵建议。"
+    "contextTranslation": "老师就如何备考给了我们宝贵建议。",
+    "phonetic": "/vˈæljʌbʌl/"
   },
   {
     "id": "dictation-3-031",
@@ -82747,7 +86487,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The experience of working with others was invaluable to her growth.",
-    "contextTranslation": "与他人合作的经历对她的成长极其宝贵。"
+    "contextTranslation": "与他人合作的经历对她的成长极其宝贵。",
+    "phonetic": "/ˌɪnvˈæljʌbʌl/"
   },
   {
     "id": "dictation-3-032",
@@ -82771,7 +86512,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Many students feel under great pressure before an important examination.",
-    "contextTranslation": "许多学生在重要考试前感到压力很大。"
+    "contextTranslation": "许多学生在重要考试前感到压力很大。",
+    "phonetic": "/ˈʌndɝ ɡrˈeɪt prˈɛʃɝ/"
   },
   {
     "id": "dictation-3-033",
@@ -82795,7 +86537,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "People may make poor decisions when they are under great stress.",
-    "contextTranslation": "人在压力很大时可能会作出错误决定。"
+    "contextTranslation": "人在压力很大时可能会作出错误决定。",
+    "phonetic": "/ˈʌndɝ ɡrˈeɪt strˈɛs/"
   },
   {
     "id": "dictation-3-034",
@@ -82819,7 +86562,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Young people often face great pressure when choosing a career.",
-    "contextTranslation": "年轻人在选择职业时常常面临巨大压力。"
+    "contextTranslation": "年轻人在选择职业时常常面临巨大压力。",
+    "phonetic": "/fˈeɪs ɡrˈeɪt prˈɛʃɝ/"
   },
   {
     "id": "dictation-3-035",
@@ -82843,7 +86587,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "College students may face great stress during the final examination period.",
-    "contextTranslation": "大学生在期末考试期间可能面临很大压力。"
+    "contextTranslation": "大学生在期末考试期间可能面临很大压力。",
+    "phonetic": "/fˈeɪs ɡrˈeɪt strˈɛs/"
   },
   {
     "id": "dictation-3-036",
@@ -82867,7 +86612,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Young people should learn more about traditional culture and pass it on.",
-    "contextTranslation": "年轻人应更多了解传统文化并把它传承下去。"
+    "contextTranslation": "年轻人应更多了解传统文化并把它传承下去。",
+    "phonetic": "/trʌdˈɪʃʌnʌl kˈʌltʃɝ/"
   },
   {
     "id": "dictation-3-037",
@@ -82891,7 +86637,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Travelling and reading can broaden one's horizons.",
-    "contextTranslation": "旅行和阅读可以拓宽一个人的眼界。"
+    "contextTranslation": "旅行和阅读可以拓宽一个人的眼界。",
+    "phonetic": "/brˈɔdʌn wʌnz hɝˈaɪzʌnz/"
   },
   {
     "id": "dictation-3-038",
@@ -82915,7 +86662,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Social practice helps students expand their horizons beyond the classroom.",
-    "contextTranslation": "社会实践帮助学生拓宽课堂之外的眼界。"
+    "contextTranslation": "社会实践帮助学生拓宽课堂之外的眼界。",
+    "phonetic": "/ɪkspˈænd wʌnz hɝˈaɪzʌnz/"
   },
   {
     "id": "dictation-3-039",
@@ -82939,7 +86687,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Studying abroad may widen one's horizons and improve independence.",
-    "contextTranslation": "出国学习可能拓宽眼界并提高独立性。"
+    "contextTranslation": "出国学习可能拓宽眼界并提高独立性。",
+    "phonetic": "/wˈaɪdʌn wʌnz hɝˈaɪzʌnz/"
   },
   {
     "id": "dictation-3-040",
@@ -82963,7 +86712,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Teamwork is a source of strength when students face difficulties.",
-    "contextTranslation": "当学生面对困难时，团队合作是一种力量来源。"
+    "contextTranslation": "当学生面对困难时，团队合作是一种力量来源。",
+    "phonetic": "/strˈɛŋkθ/"
   },
   {
     "id": "dictation-3-041",
@@ -82987,7 +86737,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Regular communication can strengthen the relationship between teachers and students.",
-    "contextTranslation": "经常交流能加强师生关系。"
+    "contextTranslation": "经常交流能加强师生关系。",
+    "phonetic": "/strˈɛŋθʌn/"
   },
   {
     "id": "dictation-3-042",
@@ -83011,7 +86762,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "A weak foundation may make advanced learning more difficult.",
-    "contextTranslation": "薄弱的基础可能使进一步学习更加困难。"
+    "contextTranslation": "薄弱的基础可能使进一步学习更加困难。",
+    "phonetic": "/wˈik/"
   },
   {
     "id": "dictation-3-043",
@@ -83035,7 +86787,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Lack of sleep can weaken students' ability to concentrate.",
-    "contextTranslation": "睡眠不足会削弱学生的注意力。"
+    "contextTranslation": "睡眠不足会削弱学生的注意力。",
+    "phonetic": "/wˈikʌn/"
   },
   {
     "id": "dictation-3-044",
@@ -83059,7 +86812,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Students can save money by making a reasonable spending plan.",
-    "contextTranslation": "学生可以通过制定合理的消费计划来省钱。"
+    "contextTranslation": "学生可以通过制定合理的消费计划来省钱。",
+    "phonetic": "/sˈeɪv mˈʌni/"
   },
   {
     "id": "dictation-3-045",
@@ -83083,7 +86837,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Using electronic documents can save paper and protect the environment.",
-    "contextTranslation": "使用电子文件可以节约纸张并保护环境。"
+    "contextTranslation": "使用电子文件可以节约纸张并保护环境。",
+    "phonetic": "/sˈeɪv pˈeɪpɝ/"
   },
   {
     "id": "dictation-3-046",
@@ -83107,7 +86862,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Freshmen need time to adapt to college life.",
-    "contextTranslation": "大一新生需要时间适应大学生活。"
+    "contextTranslation": "大一新生需要时间适应大学生活。",
+    "phonetic": "/ʌdˈæpt tə/"
   },
   {
     "id": "dictation-3-047",
@@ -83131,7 +86887,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The school adopted a new method to improve teaching quality.",
-    "contextTranslation": "学校采用了一种新方法来提高教学质量。"
+    "contextTranslation": "学校采用了一种新方法来提高教学质量。",
+    "phonetic": "/ʌdˈɑpt/"
   },
   {
     "id": "dictation-3-048",
@@ -83155,7 +86912,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "She is good at organizing activities and communicating with others.",
-    "contextTranslation": "她擅长组织活动并与他人交流。"
+    "contextTranslation": "她擅长组织活动并与他人交流。",
+    "phonetic": "/bˈi ɡˈʊd ˈæt ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-049",
@@ -83179,7 +86937,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "He does well in solving practical problems.",
-    "contextTranslation": "他在解决实际问题方面做得很好。"
+    "contextTranslation": "他在解决实际问题方面做得很好。",
+    "phonetic": "/du wˈɛl ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-050",
@@ -83203,7 +86962,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "I used to be bad at speaking English in public.",
-    "contextTranslation": "我过去不擅长当众说英语。"
+    "contextTranslation": "我过去不擅长当众说英语。",
+    "phonetic": "/bˈi bˈæd ˈæt ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-051",
@@ -83227,7 +86987,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "More students are willing to volunteer in their communities.",
-    "contextTranslation": "越来越多学生愿意在社区做志愿服务。"
+    "contextTranslation": "越来越多学生愿意在社区做志愿服务。",
+    "phonetic": "/bˈi wˈɪlɪŋ tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-052",
@@ -83251,7 +87012,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "He was unwilling to admit that he had made a mistake.",
-    "contextTranslation": "他不愿承认自己犯了错误。"
+    "contextTranslation": "他不愿承认自己犯了错误。",
+    "phonetic": "/bˈi ʌnwˈɪlɪŋ tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-053",
@@ -83275,7 +87037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Students should communicate with their teachers when they meet difficulties.",
-    "contextTranslation": "学生遇到困难时应与老师交流。"
+    "contextTranslation": "学生遇到困难时应与老师交流。",
+    "phonetic": "/kʌmjˈunʌkˌeɪt wɪð ˌsʌmbədi/"
   },
   {
     "id": "dictation-3-054",
@@ -83299,7 +87062,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Applicants must submit all required materials before Friday.",
-    "contextTranslation": "申请者必须在周五前提交所有所需材料。"
+    "contextTranslation": "申请者必须在周五前提交所有所需材料。",
+    "phonetic": "/sʌbmˈɪt/"
   },
   {
     "id": "dictation-3-055",
@@ -83323,7 +87087,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Please hand in your application form before the deadline.",
-    "contextTranslation": "请在截止日期前提交申请表。"
+    "contextTranslation": "请在截止日期前提交申请表。",
+    "phonetic": "/hˈænd ɪn/"
   },
   {
     "id": "dictation-3-056",
@@ -83347,7 +87112,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Please complete the application form carefully and check it twice.",
-    "contextTranslation": "请认真填写申请表并检查两遍。"
+    "contextTranslation": "请认真填写申请表并检查两遍。",
+    "phonetic": "/ˌæplʌkˈeɪʃʌn fˈɔrm/"
   },
   {
     "id": "dictation-3-057",
@@ -83371,7 +87137,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "I'm writing to apply for the position advertised on your website.",
-    "contextTranslation": "我写信是为了申请贵网站上发布的职位。"
+    "contextTranslation": "我写信是为了申请贵网站上发布的职位。",
+    "phonetic": "/ˈaɪm rˈaɪtɪŋ tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-058",
@@ -83395,7 +87162,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "I'm writing for the purpose of asking for more information about the course.",
-    "contextTranslation": "我写信是为了询问更多课程信息。"
+    "contextTranslation": "我写信是为了询问更多课程信息。",
+    "phonetic": "/ˈaɪm rˈaɪtɪŋ fˈɔr ðə pˈɝpʌs əv ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-059",
@@ -83419,7 +87187,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "My purpose of writing this letter is to express my thanks for your help.",
-    "contextTranslation": "我写这封信的目的是感谢你的帮助。"
+    "contextTranslation": "我写这封信的目的是感谢你的帮助。",
+    "phonetic": "/mˈaɪ pˈɝpʌs əv rˈaɪtɪŋ ðˈɪs lˈɛtɝ ˈɪz tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-060",
@@ -83443,7 +87212,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The reason why I'm writing this letter is that I want to offer some suggestions.",
-    "contextTranslation": "我写这封信是因为我想提出一些建议。"
+    "contextTranslation": "我写这封信是因为我想提出一些建议。",
+    "phonetic": "/ðə rˈizʌn wˈaɪ ˈaɪm rˈaɪtɪŋ ðˈɪs lˈɛtɝ ˈɪz ðˈæt ˈaɪ wˈɑnt tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-061",
@@ -83467,7 +87237,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "She plans to apply for a scholarship next semester.",
-    "contextTranslation": "她计划下学期申请奖学金。"
+    "contextTranslation": "她计划下学期申请奖学金。",
+    "phonetic": "/ʌplˈaɪ fˈɔr/"
   },
   {
     "id": "dictation-3-062",
@@ -83491,7 +87262,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "He applied for the position of teaching assistant.",
-    "contextTranslation": "他申请了助教职位。"
+    "contextTranslation": "他申请了助教职位。",
+    "phonetic": "/ʌplˈaɪ fˈɔr ðə pʌzˈɪʃʌn əv/"
   },
   {
     "id": "dictation-3-063",
@@ -83515,7 +87287,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Many students apply to several universities at the same time.",
-    "contextTranslation": "许多学生同时申请多所大学。"
+    "contextTranslation": "许多学生同时申请多所大学。",
+    "phonetic": "/ʌplˈaɪ tə/"
   },
   {
     "id": "dictation-3-064",
@@ -83539,7 +87312,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "College students should take an active part in social practice.",
-    "contextTranslation": "大学生应积极参加社会实践。"
+    "contextTranslation": "大学生应积极参加社会实践。",
+    "phonetic": "/tˈeɪk æn ˈæktɪv pˈɑrt ɪn/"
   },
   {
     "id": "dictation-3-065",
@@ -83563,7 +87337,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The student union invited us to take part in the volunteer activity.",
-    "contextTranslation": "学生会邀请我们参加志愿活动。"
+    "contextTranslation": "学生会邀请我们参加志愿活动。",
+    "phonetic": "/ˌɪnvˈaɪt ˌsʌmbədi tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-066",
@@ -83587,7 +87362,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Students should make use of online resources to improve their learning efficiency.",
-    "contextTranslation": "学生应利用网络资源提高学习效率。"
+    "contextTranslation": "学生应利用网络资源提高学习效率。",
+    "phonetic": "/mˈeɪk jˈus əv/"
   },
   {
     "id": "dictation-3-067",
@@ -83611,7 +87387,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "We should make full use of our time before the entrance examination.",
-    "contextTranslation": "我们应充分利用升学考试前的时间。"
+    "contextTranslation": "我们应充分利用升学考试前的时间。",
+    "phonetic": "/mˈeɪk fˈʊl jˈus əv/"
   },
   {
     "id": "dictation-3-068",
@@ -83635,7 +87412,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "After a long discussion, the group agreed on a practical plan.",
-    "contextTranslation": "经过长时间讨论，小组就一个可行计划达成了一致。"
+    "contextTranslation": "经过长时间讨论，小组就一个可行计划达成了一致。",
+    "phonetic": "/ʌɡrˈi ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-069",
@@ -83659,7 +87437,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "I agree with the writer that reading is a lifelong habit.",
-    "contextTranslation": "我赞同作者关于阅读是终身习惯的观点。"
+    "contextTranslation": "我赞同作者关于阅读是终身习惯的观点。",
+    "phonetic": "/ʌɡrˈi wɪð ˌsʌmbədi/"
   },
   {
     "id": "dictation-3-070",
@@ -83683,7 +87462,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "The two sides reached an agreement on how to share the work.",
-    "contextTranslation": "双方就如何分工达成了协议。"
+    "contextTranslation": "双方就如何分工达成了协议。",
+    "phonetic": "/rˈitʃ æn ʌɡrˈimʌnt ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-071",
@@ -83707,7 +87487,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Students hold different opinions on whether mobile phones should be used in class.",
-    "contextTranslation": "学生们对课堂上是否应使用手机持不同意见。"
+    "contextTranslation": "学生们对课堂上是否应使用手机持不同意见。",
+    "phonetic": "/hˈoʊld dˈɪfɝʌnt ʌpˈɪnjʌnz ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-072",
@@ -83731,7 +87512,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "People may have different opinions on the same social issue.",
-    "contextTranslation": "人们对同一社会问题可能有不同看法。"
+    "contextTranslation": "人们对同一社会问题可能有不同看法。",
+    "phonetic": "/hˈæv dˈɪfɝʌnt ʌpˈɪnjʌnz ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-3-073",
@@ -83755,7 +87537,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "In spite of the heavy rain, the volunteers arrived on time.",
-    "contextTranslation": "尽管下着大雨，志愿者们还是准时到达。"
+    "contextTranslation": "尽管下着大雨，志愿者们还是准时到达。",
+    "phonetic": "/ɪn spˈaɪt əv/"
   },
   {
     "id": "dictation-3-074",
@@ -83779,7 +87562,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "听写内容",
     "contextSentence": "Despite many difficulties, she never gave up her goal.",
-    "contextTranslation": "尽管困难重重，她从未放弃目标。"
+    "contextTranslation": "尽管困难重重，她从未放弃目标。",
+    "phonetic": "/dɪspˈaɪt/"
   },
   {
     "id": "phrase-practice-10-001",
@@ -83803,7 +87587,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "She likes to review vocabulary in bed before going to sleep.",
-    "contextTranslation": "她喜欢在睡前躺在床上复习词汇。"
+    "contextTranslation": "她喜欢在睡前躺在床上复习词汇。",
+    "phonetic": "/ɪn bˈɛd/"
   },
   {
     "id": "phrase-practice-10-002",
@@ -83827,7 +87612,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Hundreds of students attended the campus job fair last Friday.",
-    "contextTranslation": "上周五，数百名学生参加了校园招聘会。"
+    "contextTranslation": "上周五，数百名学生参加了校园招聘会。",
+    "phonetic": "/hˈʌndrʌdz əv/"
   },
   {
     "id": "phrase-practice-10-003",
@@ -83851,7 +87637,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Thousands of visitors come to Chongqing each year to experience its unique landscape.",
-    "contextTranslation": "每年有成千上万的游客来到重庆体验其独特地貌。"
+    "contextTranslation": "每年有成千上万的游客来到重庆体验其独特地貌。",
+    "phonetic": "/θˈaʊzʌndz əv/"
   },
   {
     "id": "phrase-practice-10-004",
@@ -83875,7 +87662,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "We need to cooperate with our classmates to complete the social-practice report.",
-    "contextTranslation": "我们需要与同学合作完成社会实践报告。"
+    "contextTranslation": "我们需要与同学合作完成社会实践报告。",
+    "phonetic": "/koʊˈɑpɝˌeɪt wɪð ˌsʌmbədi/"
   },
   {
     "id": "phrase-practice-10-005",
@@ -83899,7 +87687,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "College students should learn how to deal with pressure in a healthy way.",
-    "contextTranslation": "大学生应学会以健康的方式应对压力。"
+    "contextTranslation": "大学生应学会以健康的方式应对压力。",
+    "phonetic": "/dˈil wɪð/"
   },
   {
     "id": "phrase-practice-10-006",
@@ -83923,7 +87712,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Taking part in volunteer work can broaden our horizons and deepen our understanding of society.",
-    "contextTranslation": "参加志愿服务可以拓宽我们的眼界，加深我们对社会的理解。"
+    "contextTranslation": "参加志愿服务可以拓宽我们的眼界，加深我们对社会的理解。",
+    "phonetic": "/brˈɔdʌn / ɪkspˈænd / wˈaɪdʌn wʌnz hɝˈaɪzʌn ˈɛs/"
   },
   {
     "id": "phrase-practice-10-007",
@@ -83947,7 +87737,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "It is important to develop the habit of reviewing mistakes after class.",
-    "contextTranslation": "养成课后复盘错题的习惯很重要。"
+    "contextTranslation": "养成课后复盘错题的习惯很重要。",
+    "phonetic": "/fˈɔrm / dɪvˈɛlʌp ə / ðə hˈæbʌt əv ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-10-008",
@@ -83971,7 +87762,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "He is trying to get out of the habit of staying up late before exams.",
-    "contextTranslation": "他正努力改掉考试前熬夜的习惯。"
+    "contextTranslation": "他正努力改掉考试前熬夜的习惯。",
+    "phonetic": "/ɡˈɛt ˈaʊt əv ðə hˈæbʌt əv ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-10-009",
@@ -83995,7 +87787,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "She keeps the habit of reading an English article every morning.",
-    "contextTranslation": "她保持着每天早晨阅读一篇英语文章的习惯。"
+    "contextTranslation": "她保持着每天早晨阅读一篇英语文章的习惯。",
+    "phonetic": "/kˈip ðə hˈæbʌt əv ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-10-010",
@@ -84019,7 +87812,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "After the evening class, I got a ride home with my roommate.",
-    "contextTranslation": "晚课结束后，我搭室友的顺风车回家。"
+    "contextTranslation": "晚课结束后，我搭室友的顺风车回家。",
+    "phonetic": "/ɡˈɛt ə rˈaɪd/"
   },
   {
     "id": "blueforest-20260728-23-001",
@@ -84043,7 +87837,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Before choosing a major, students should weigh their interests against future job opportunities.",
-    "contextTranslation": "选择专业前，学生应权衡个人兴趣与未来就业机会。"
+    "contextTranslation": "选择专业前，学生应权衡个人兴趣与未来就业机会。",
+    "phonetic": "/wˈeɪ/"
   },
   {
     "id": "blueforest-20260728-23-004",
@@ -84067,7 +87862,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Eleven volunteers were selected to guide visitors during the campus open day.",
-    "contextTranslation": "十一名志愿者被选中在校园开放日为参观者提供引导。"
+    "contextTranslation": "十一名志愿者被选中在校园开放日为参观者提供引导。",
+    "phonetic": "/ɪlˈɛvʌn/"
   },
   {
     "id": "blueforest-20260728-23-005",
@@ -84091,7 +87887,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The passage explains why wine should be kept away from direct sunlight.",
-    "contextTranslation": "文章解释了葡萄酒为什么应避开阳光直射保存。"
+    "contextTranslation": "文章解释了葡萄酒为什么应避开阳光直射保存。",
+    "phonetic": "/wˈaɪn/"
   },
   {
     "id": "blueforest-20260728-23-006",
@@ -84115,7 +87912,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Education can help young people understand the serious consequences of crime.",
-    "contextTranslation": "教育能帮助年轻人认识犯罪造成的严重后果。"
+    "contextTranslation": "教育能帮助年轻人认识犯罪造成的严重后果。",
+    "phonetic": "/krˈaɪm/"
   },
   {
     "id": "blueforest-20260728-23-007",
@@ -84139,7 +87937,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Please write your student number in the first column of the application form.",
-    "contextTranslation": "请把学号填写在申请表的第一栏。"
+    "contextTranslation": "请把学号填写在申请表的第一栏。",
+    "phonetic": "/kˈɑlʌm/"
   },
   {
     "id": "blueforest-20260728-23-009",
@@ -84163,7 +87962,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The reading room is cleaned twice a day to provide a comfortable environment.",
-    "contextTranslation": "阅览室每天清洁两次，以提供舒适的环境。"
+    "contextTranslation": "阅览室每天清洁两次，以提供舒适的环境。",
+    "phonetic": "/twˈaɪs/"
   },
   {
     "id": "blueforest-20260728-23-010",
@@ -84187,7 +87987,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "This year, the college launched a program to improve students’ practical skills.",
-    "contextTranslation": "今年，学校启动了一项提升学生实践技能的计划。"
+    "contextTranslation": "今年，学校启动了一项提升学生实践技能的计划。",
+    "phonetic": "/jˈɪr/"
   },
   {
     "id": "blueforest-20260728-23-011",
@@ -84211,7 +88012,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The victim received medical help soon after the accident was reported.",
-    "contextTranslation": "事故被报告后不久，受害者就得到了医疗救助。"
+    "contextTranslation": "事故被报告后不久，受害者就得到了医疗救助。",
+    "phonetic": "/vˈɪktʌm/"
   },
   {
     "id": "blueforest-20260728-23-012",
@@ -84235,7 +88037,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Sitting in the same position for hours may cause a dull ache in the lower back.",
-    "contextTranslation": "长时间保持同一姿势可能引起腰部隐痛。"
+    "contextTranslation": "长时间保持同一姿势可能引起腰部隐痛。",
+    "phonetic": "/ˈeɪk/"
   },
   {
     "id": "blueforest-20260728-23-013",
@@ -84259,7 +88062,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "In spite of limited time, the team completed the research report carefully.",
-    "contextTranslation": "尽管时间有限，团队仍认真完成了研究报告。"
+    "contextTranslation": "尽管时间有限，团队仍认真完成了研究报告。",
+    "phonetic": "/spˈaɪt/"
   },
   {
     "id": "blueforest-20260728-23-015",
@@ -84283,7 +88087,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Online payment has become a common part of everyday life.",
-    "contextTranslation": "线上支付已经成为日常生活中常见的一部分。"
+    "contextTranslation": "线上支付已经成为日常生活中常见的一部分。",
+    "phonetic": "/ˈɛvridˈeɪ/"
   },
   {
     "id": "blueforest-20260728-23-016",
@@ -84307,7 +88112,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Everyone should have equal access to educational resources.",
-    "contextTranslation": "每个人都应平等获得教育资源。"
+    "contextTranslation": "每个人都应平等获得教育资源。",
+    "phonetic": "/ˈɛvriwˌʌn/"
   },
   {
     "id": "blueforest-20260728-23-018",
@@ -84331,7 +88137,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Poor time management often prevents students from reaching their study goals.",
-    "contextTranslation": "糟糕的时间管理常常妨碍学生实现学习目标。"
+    "contextTranslation": "糟糕的时间管理常常妨碍学生实现学习目标。",
+    "phonetic": "/pˈur/"
   },
   {
     "id": "blueforest-20260728-23-019",
@@ -84355,7 +88162,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "A tidy desk can help learners concentrate on difficult tasks.",
-    "contextTranslation": "整洁的书桌有助于学习者专注于困难任务。"
+    "contextTranslation": "整洁的书桌有助于学习者专注于困难任务。",
+    "phonetic": "/tˈaɪdi/"
   },
   {
     "id": "blueforest-20260728-23-020",
@@ -84379,7 +88187,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Regular checkups can prevent a minor tooth problem from becoming serious.",
-    "contextTranslation": "定期检查可以防止轻微的牙齿问题恶化。"
+    "contextTranslation": "定期检查可以防止轻微的牙齿问题恶化。",
+    "phonetic": "/tˈuθ/"
   },
   {
     "id": "blueforest-20260728-23-022",
@@ -84403,7 +88212,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "After receiving feedback, she refined her argument and rewrote the conclusion.",
-    "contextTranslation": "收到反馈后，她完善了论点并重写了结论。"
+    "contextTranslation": "收到反馈后，她完善了论点并重写了结论。",
+    "phonetic": "/rʌfˈaɪn/"
   },
   {
     "id": "blueforest-20260728-23-023",
@@ -84427,7 +88237,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "She applied for a part-time position at the university library.",
-    "contextTranslation": "她申请了大学图书馆的一份兼职工作。"
+    "contextTranslation": "她申请了大学图书馆的一份兼职工作。",
+    "phonetic": "/pʌzˈɪʃʌn/"
   },
   {
     "id": "blueforest-20260728-23-026",
@@ -84451,7 +88262,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The seminar begins at eight, so participants should arrive ten minutes early.",
-    "contextTranslation": "讲座八点开始，因此参加者应提前十分钟到达。"
+    "contextTranslation": "讲座八点开始，因此参加者应提前十分钟到达。",
+    "phonetic": "/ˈeɪt/"
   },
   {
     "id": "blueforest-20260728-23-027",
@@ -84475,7 +88287,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The community nursery provides safe daytime care for young children.",
-    "contextTranslation": "社区托儿所为幼儿提供安全的日间照护。"
+    "contextTranslation": "社区托儿所为幼儿提供安全的日间照护。",
+    "phonetic": "/nˈɝsɝi/"
   },
   {
     "id": "blueforest-20260728-23-028",
@@ -84499,7 +88312,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "If the information is unavailable here, students can search elsewhere online.",
-    "contextTranslation": "如果这里找不到相关信息，学生可以到其他网站搜索。"
+    "contextTranslation": "如果这里找不到相关信息，学生可以到其他网站搜索。",
+    "phonetic": "/ˈɛlswˌɛr/"
   },
   {
     "id": "blueforest-20260728-23-029",
@@ -84523,7 +88337,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "My cousin chose computer science because she enjoys solving practical problems.",
-    "contextTranslation": "我的表姐选择计算机科学，因为她喜欢解决实际问题。"
+    "contextTranslation": "我的表姐选择计算机科学，因为她喜欢解决实际问题。",
+    "phonetic": "/kˈʌzʌn/"
   },
   {
     "id": "blueforest-20260728-23-031",
@@ -84547,7 +88362,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The novel turns a family tragedy into a lesson about courage and responsibility.",
-    "contextTranslation": "这部小说把一场家庭悲剧转化为关于勇气与责任的启示。"
+    "contextTranslation": "这部小说把一场家庭悲剧转化为关于勇气与责任的启示。",
+    "phonetic": "/trˈædʒʌdi/"
   },
   {
     "id": "blueforest-20260728-23-032",
@@ -84571,7 +88387,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "To make steady progress, learners should stick to a realistic review plan.",
-    "contextTranslation": "为了稳步进步，学习者应坚持切实可行的复习计划。"
+    "contextTranslation": "为了稳步进步，学习者应坚持切实可行的复习计划。",
+    "phonetic": "/stˈɪk/"
   },
   {
     "id": "blueforest-20260728-23-033",
@@ -84595,7 +88412,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Each item on the checklist must be completed before the form is submitted.",
-    "contextTranslation": "提交表格前，清单上的每一项都必须完成。"
+    "contextTranslation": "提交表格前，清单上的每一项都必须完成。",
+    "phonetic": "/ˈaɪtʌm/"
   },
   {
     "id": "blueforest-20260728-23-035",
@@ -84619,7 +88437,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Candidates were asked to describe a challenge they had overcome at school.",
-    "contextTranslation": "考生被要求描述一次自己在学校克服困难的经历。"
+    "contextTranslation": "考生被要求描述一次自己在学校克服困难的经历。",
+    "phonetic": "/dɪskrˈaɪb/"
   },
   {
     "id": "blueforest-20260728-23-036",
@@ -84643,7 +88462,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "He kept a small vocabulary notebook in his pocket for quick review.",
-    "contextTranslation": "他把一本小词汇本放在口袋里，方便随时复习。"
+    "contextTranslation": "他把一本小词汇本放在口袋里，方便随时复习。",
+    "phonetic": "/pˈɑkʌt/"
   },
   {
     "id": "blueforest-20260728-23-037",
@@ -84667,7 +88487,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The writer uses a real example to support the main point of the passage.",
-    "contextTranslation": "作者用一个真实例子来支持文章的主要观点。"
+    "contextTranslation": "作者用一个真实例子来支持文章的主要观点。",
+    "phonetic": "/pˈɔɪnt/"
   },
   {
     "id": "blueforest-20260728-23-039",
@@ -84693,7 +88514,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "According to the survey, most students prefer practical courses with clear goals.",
-    "contextTranslation": "根据调查，大多数学生更喜欢目标明确的实践课程。"
+    "contextTranslation": "根据调查，大多数学生更喜欢目标明确的实践课程。",
+    "phonetic": "/ʌkˈɔrdɪŋ tə/"
   },
   {
     "id": "blueforest-20260728-23-041",
@@ -84717,7 +88539,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "A lot of students improve their confidence through public speaking practice.",
-    "contextTranslation": "许多学生通过演讲练习提升了自信。"
+    "contextTranslation": "许多学生通过演讲练习提升了自信。",
+    "phonetic": "/lˈɑt/"
   },
   {
     "id": "blueforest-20260728-23-042",
@@ -84741,7 +88564,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "After hours of climbing, the mountain village finally came into sight.",
-    "contextTranslation": "爬了几个小时后，那座山村终于映入眼帘。"
+    "contextTranslation": "爬了几个小时后，那座山村终于映入眼帘。",
+    "phonetic": "/sˈaɪt/"
   },
   {
     "id": "blueforest-20260728-23-043",
@@ -84765,7 +88589,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The local government built barriers to reduce damage caused by the rising tide.",
-    "contextTranslation": "当地政府修建了防护设施，以减少涨潮造成的损失。"
+    "contextTranslation": "当地政府修建了防护设施，以减少涨潮造成的损失。",
+    "phonetic": "/tˈaɪd/"
   },
   {
     "id": "blueforest-20260728-23-045",
@@ -84789,7 +88614,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Sixteen students joined the final round of the English speech contest.",
-    "contextTranslation": "十六名学生进入了英语演讲比赛的决赛。"
+    "contextTranslation": "十六名学生进入了英语演讲比赛的决赛。",
+    "phonetic": "/sɪkstˈin/"
   },
   {
     "id": "blueforest-20260728-23-046",
@@ -84813,7 +88639,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "She wore a dark skirt and a simple shirt to the interview.",
-    "contextTranslation": "她穿着深色裙子和简洁的衬衫参加面试。"
+    "contextTranslation": "她穿着深色裙子和简洁的衬衫参加面试。",
+    "phonetic": "/skˈɝt/"
   },
   {
     "id": "blueforest-20260728-23-047",
@@ -84837,7 +88664,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "A short review at the end of each day can strengthen long-term memory.",
-    "contextTranslation": "每天结束时进行简短复习可以强化长期记忆。"
+    "contextTranslation": "每天结束时进行简短复习可以强化长期记忆。",
+    "phonetic": "/dˈeɪ/"
   },
   {
     "id": "blueforest-20260728-23-050",
@@ -84861,7 +88689,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The children were invited to sing a traditional song at the cultural festival.",
-    "contextTranslation": "孩子们受邀在文化节上演唱一首传统歌曲。"
+    "contextTranslation": "孩子们受邀在文化节上演唱一首传统歌曲。",
+    "phonetic": "/sˈɪŋ/"
   },
   {
     "id": "cet-20260728-18-001",
@@ -84885,7 +88714,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "False advertisements may rob consumers of both money and trust.",
-    "contextTranslation": "虚假广告可能使消费者既损失金钱又失去信任。"
+    "contextTranslation": "虚假广告可能使消费者既损失金钱又失去信任。",
+    "phonetic": "/rˈɑb/"
   },
   {
     "id": "cet-20260728-18-002",
@@ -84909,7 +88739,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The report shows that better street lighting can reduce the risk of robbery.",
-    "contextTranslation": "报告表明，更好的街道照明可以降低抢劫风险。"
+    "contextTranslation": "报告表明，更好的街道照明可以降低抢劫风险。",
+    "phonetic": "/rˈɑbɝi/"
   },
   {
     "id": "cet-20260728-18-003",
@@ -84933,7 +88764,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Do not rub your eyes after using a computer for a long time.",
-    "contextTranslation": "长时间使用电脑后不要揉眼睛。"
+    "contextTranslation": "长时间使用电脑后不要揉眼睛。",
+    "phonetic": "/rˈʌb/"
   },
   {
     "id": "cet-20260728-18-005",
@@ -84959,7 +88791,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Young people should strive to turn knowledge into practical ability.",
-    "contextTranslation": "年轻人应努力把知识转化为实践能力。"
+    "contextTranslation": "年轻人应努力把知识转化为实践能力。",
+    "phonetic": "/strˈaɪv/"
   },
   {
     "id": "cet-20260728-18-007",
@@ -84983,7 +88816,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Lack of sleep can deprive students of the energy needed for effective learning.",
-    "contextTranslation": "睡眠不足会使学生失去高效学习所需的精力。"
+    "contextTranslation": "睡眠不足会使学生失去高效学习所需的精力。",
+    "phonetic": "/dɪprˈaɪv/"
   },
   {
     "id": "cet-20260728-18-008",
@@ -85007,7 +88841,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Long-term sleep deprivation may affect both memory and emotional health.",
-    "contextTranslation": "长期睡眠不足可能影响记忆力和情绪健康。"
+    "contextTranslation": "长期睡眠不足可能影响记忆力和情绪健康。",
+    "phonetic": "/dˌɛprʌvˈeɪʃʌn/"
   },
   {
     "id": "cet-20260728-18-009",
@@ -85031,7 +88866,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Students should seize every opportunity to practise English in real situations.",
-    "contextTranslation": "学生应抓住每一个在真实情境中练习英语的机会。"
+    "contextTranslation": "学生应抓住每一个在真实情境中练习英语的机会。",
+    "phonetic": "/sˈiz/"
   },
   {
     "id": "cet-20260728-18-010",
@@ -85055,7 +88891,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The customs officer reported the seizure of several illegal products.",
-    "contextTranslation": "海关人员报告查获了数件非法产品。"
+    "contextTranslation": "海关人员报告查获了数件非法产品。",
+    "phonetic": "/sˈiʒɝ/"
   },
   {
     "id": "cet-20260728-18-012",
@@ -85079,7 +88916,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "A resourceful team can find practical solutions even with limited equipment.",
-    "contextTranslation": "即使设备有限，足智多谋的团队也能找到可行方案。"
+    "contextTranslation": "即使设备有限，足智多谋的团队也能找到可行方案。",
+    "phonetic": "/risˈɔrsfʌl/"
   },
   {
     "id": "cet-20260728-18-013",
@@ -85103,7 +88941,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Many English words derive from Latin or Greek roots.",
-    "contextTranslation": "许多英语单词源自拉丁语或希腊语词根。"
+    "contextTranslation": "许多英语单词源自拉丁语或希腊语词根。",
+    "phonetic": "/dɝˈaɪv/"
   },
   {
     "id": "cet-20260728-18-014",
@@ -85127,7 +88966,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The teacher asked students to identify the derivative forms in the word family.",
-    "contextTranslation": "老师要求学生辨认这个词族中的派生形式。"
+    "contextTranslation": "老师要求学生辨认这个词族中的派生形式。",
+    "phonetic": "/dɝˈɪvʌtɪv/"
   },
   {
     "id": "cet-20260728-18-015",
@@ -85151,7 +88991,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Understanding word derivation can make unfamiliar vocabulary easier to guess.",
-    "contextTranslation": "理解词语派生关系能让陌生词汇更容易推测。"
+    "contextTranslation": "理解词语派生关系能让陌生词汇更容易推测。",
+    "phonetic": "/dˌɛrʌvˈeɪʃʌn/"
   },
   {
     "id": "cet-20260728-18-016",
@@ -85175,7 +89016,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The article discusses the origin of the custom and its modern meaning.",
-    "contextTranslation": "文章讨论了这一习俗的起源及其现代意义。"
+    "contextTranslation": "文章讨论了这一习俗的起源及其现代意义。",
+    "phonetic": "/ˈɔrʌdʒʌn/"
   },
   {
     "id": "cet-20260728-18-017",
@@ -85199,7 +89041,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The original plan was revised after the team collected more data.",
-    "contextTranslation": "团队收集更多数据后修改了原来的计划。"
+    "contextTranslation": "团队收集更多数据后修改了原来的计划。",
+    "phonetic": "/ɝˈɪdʒʌnʌl/"
   },
   {
     "id": "cet-20260728-18-018",
@@ -85223,7 +89066,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The judges praised the originality of her solution to the environmental problem.",
-    "contextTranslation": "评委赞扬了她解决环境问题方案的独创性。"
+    "contextTranslation": "评委赞扬了她解决环境问题方案的独创性。",
+    "phonetic": "/ɝˌɪdʒʌnˈælɪti/"
   },
   {
     "id": "cet-20260728-18-019",
@@ -85247,7 +89091,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The idea may originate from a small observation in everyday life.",
-    "contextTranslation": "这个想法可能源自日常生活中的一个细小观察。"
+    "contextTranslation": "这个想法可能源自日常生活中的一个细小观察。",
+    "phonetic": "/ɝˈɪdʒʌnˌeɪt/"
   },
   {
     "id": "cet-20260728-18-020",
@@ -85271,7 +89116,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Students should check whether the source of online information is reliable.",
-    "contextTranslation": "学生应核实网络信息的来源是否可靠。"
+    "contextTranslation": "学生应核实网络信息的来源是否可靠。",
+    "phonetic": "/sˈɔrs/"
   },
   {
     "id": "cet-20260728-18-021",
@@ -85295,7 +89141,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The new farming method provides cattle with cleaner water and better shelter.",
-    "contextTranslation": "这种新型养殖方式为牛群提供更清洁的水和更好的棚舍。"
+    "contextTranslation": "这种新型养殖方式为牛群提供更清洁的水和更好的棚舍。",
+    "phonetic": "/kˈætʌl/"
   },
   {
     "id": "cet-20260728-18-022",
@@ -85319,7 +89166,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The engineer replaced a damaged wire before restarting the machine.",
-    "contextTranslation": "工程师更换了损坏的电线后才重新启动机器。"
+    "contextTranslation": "工程师更换了损坏的电线后才重新启动机器。",
+    "phonetic": "/wˈaɪɝ/"
   },
   {
     "id": "cet-20260728-18-023",
@@ -85343,7 +89191,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Wireless technology allows students to access learning materials anywhere on campus.",
-    "contextTranslation": "无线技术使学生能在校园任何地方获取学习资料。"
+    "contextTranslation": "无线技术使学生能在校园任何地方获取学习资料。",
+    "phonetic": "/wˈaɪrlɪs/"
   },
   {
     "id": "cet-20260728-18-024",
@@ -85367,7 +89216,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Tourism has created new jobs in this mountainous region.",
-    "contextTranslation": "旅游业为这个山区创造了新的就业机会。"
+    "contextTranslation": "旅游业为这个山区创造了新的就业机会。",
+    "phonetic": "/rˈidʒʌn/"
   },
   {
     "id": "cet-20260728-18-025",
@@ -85391,7 +89241,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Regional cooperation can improve transport and share educational resources.",
-    "contextTranslation": "区域合作能够改善交通并共享教育资源。"
+    "contextTranslation": "区域合作能够改善交通并共享教育资源。",
+    "phonetic": "/rˈidʒʌnʌl/"
   },
   {
     "id": "cet-20260728-18-026",
@@ -85415,7 +89266,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The training program aims to strengthen students’ capacity for independent learning.",
-    "contextTranslation": "该培训项目旨在增强学生自主学习的能力。"
+    "contextTranslation": "该培训项目旨在增强学生自主学习的能力。",
+    "phonetic": "/kʌpˈæsʌti/"
   },
   {
     "id": "cet-20260728-18-027",
@@ -85439,7 +89291,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The photograph captures a quiet moment in the lives of local residents.",
-    "contextTranslation": "这张照片捕捉到了当地居民生活中的一个宁静瞬间。"
+    "contextTranslation": "这张照片捕捉到了当地居民生活中的一个宁静瞬间。",
+    "phonetic": "/kˈæptʃɝ/"
   },
   {
     "id": "cet-20260728-18-028",
@@ -85463,7 +89316,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The passengers remained calm when smoke was noticed in the cabin.",
-    "contextTranslation": "客舱内发现烟雾时，乘客们保持了冷静。"
+    "contextTranslation": "客舱内发现烟雾时，乘客们保持了冷静。",
+    "phonetic": "/kˈæbʌn/"
   },
   {
     "id": "cet-20260728-18-029",
@@ -85487,7 +89341,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Important laboratory chemicals must be stored in a locked cabinet.",
-    "contextTranslation": "重要的实验室化学品必须存放在上锁的柜子里。"
+    "contextTranslation": "重要的实验室化学品必须存放在上锁的柜子里。",
+    "phonetic": "/kˈæbʌnʌt/"
   },
   {
     "id": "cet-20260728-18-030",
@@ -85511,7 +89366,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "A broken cable caused the classroom projector to stop working.",
-    "contextTranslation": "一根损坏的电缆导致教室投影仪停止工作。"
+    "contextTranslation": "一根损坏的电缆导致教室投影仪停止工作。",
+    "phonetic": "/kˈeɪbʌl/"
   },
   {
     "id": "cet-20260728-18-034",
@@ -85535,7 +89391,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "With proper guidance, every student is capable of making meaningful progress.",
-    "contextTranslation": "在适当指导下，每个学生都有能力取得有意义的进步。"
+    "contextTranslation": "在适当指导下，每个学生都有能力取得有意义的进步。",
+    "phonetic": "/kˈeɪpʌbʌl/"
   },
   {
     "id": "cet-20260728-18-035",
@@ -85559,7 +89416,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Digital capability has become increasingly important in the modern workplace.",
-    "contextTranslation": "数字能力在现代职场中变得越来越重要。"
+    "contextTranslation": "数字能力在现代职场中变得越来越重要。",
+    "phonetic": "/kˌeɪpʌbˈɪlʌti/"
   },
   {
     "id": "cet-20260728-18-041",
@@ -85583,7 +89441,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Open communication can build trust and intimacy between family members.",
-    "contextTranslation": "坦诚交流可以增进家庭成员之间的信任与亲密感。"
+    "contextTranslation": "坦诚交流可以增进家庭成员之间的信任与亲密感。",
+    "phonetic": "/ˈɪntʌmʌsi/"
   },
   {
     "id": "cet-20260728-18-042",
@@ -85607,7 +89466,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The guide gave us an approximate time for the start of the activity.",
-    "contextTranslation": "向导告诉了我们活动开始的大致时间。"
+    "contextTranslation": "向导告诉了我们活动开始的大致时间。",
+    "phonetic": "/ʌprˈɑksʌmʌt/"
   },
   {
     "id": "cet-20260728-18-043",
@@ -85631,7 +89491,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The figure is only an approximation because some data are still missing.",
-    "contextTranslation": "这个数字只是近似值，因为仍有部分数据缺失。"
+    "contextTranslation": "这个数字只是近似值，因为仍有部分数据缺失。",
+    "phonetic": "/ʌprˌɑksʌmˈeɪʃʌn/"
   },
   {
     "id": "cet-20260728-18-044",
@@ -85655,7 +89516,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Approximately two hundred students took part in the environmental campaign.",
-    "contextTranslation": "大约有两百名学生参加了环保宣传活动。"
+    "contextTranslation": "大约有两百名学生参加了环保宣传活动。",
+    "phonetic": "/ʌprˈɑksʌmʌtli/"
   },
   {
     "id": "cet-20260728-18-045",
@@ -85679,7 +89541,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The research team adopted a new approach to improving online education.",
-    "contextTranslation": "研究团队采用了一种改善在线教育的新方法。"
+    "contextTranslation": "研究团队采用了一种改善在线教育的新方法。",
+    "phonetic": "/ʌprˈoʊtʃ/"
   },
   {
     "id": "cet-20260728-18-046",
@@ -85703,7 +89566,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Do not underestimate the value of reviewing a small amount every day.",
-    "contextTranslation": "不要低估每天复习少量内容的价值。"
+    "contextTranslation": "不要低估每天复习少量内容的价值。",
+    "phonetic": "/ˈʌndɝˈɛstʌmˌeɪt/"
   },
   {
     "id": "cet-20260728-18-047",
@@ -85727,7 +89591,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Experts reckon that practical experience will play a larger role in future employment.",
-    "contextTranslation": "专家认为实践经验将在未来就业中发挥更大作用。"
+    "contextTranslation": "专家认为实践经验将在未来就业中发挥更大作用。",
+    "phonetic": "/rˈɛkʌn/"
   },
   {
     "id": "cet-20260728-18-048",
@@ -85751,7 +89616,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The ultimate goal of education is not only knowledge but also responsible action.",
-    "contextTranslation": "教育的最终目标不仅是知识，更是负责任的行动。"
+    "contextTranslation": "教育的最终目标不仅是知识，更是负责任的行动。",
+    "phonetic": "/ˈʌltʌmʌt/"
   },
   {
     "id": "cet-20260728-18-049",
@@ -85775,7 +89641,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "A good study plan is useful only if it is ultimately put into action.",
-    "contextTranslation": "一个好的学习计划只有最终付诸行动才有用。"
+    "contextTranslation": "一个好的学习计划只有最终付诸行动才有用。",
+    "phonetic": "/ˈʌltʌmʌtli/"
   },
   {
     "id": "cet-20260728-18-050",
@@ -85799,7 +89666,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The interview offers an intimate view of the artist’s daily working life.",
-    "contextTranslation": "这次访谈展现了这位艺术家日常工作生活中亲近而细致的一面。"
+    "contextTranslation": "这次访谈展现了这位艺术家日常工作生活中亲近而细致的一面。",
+    "phonetic": "/ˈɪntʌmʌt/"
   },
   {
     "id": "cet-20260728-18-052",
@@ -85823,7 +89691,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Teachers use several methods to evaluate students’ practical performance.",
-    "contextTranslation": "教师采用多种方法评价学生的实践表现。"
+    "contextTranslation": "教师采用多种方法评价学生的实践表现。",
+    "phonetic": "/ɪvˈæljuˌeɪt/"
   },
   {
     "id": "cet-20260728-18-053",
@@ -85847,7 +89716,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "A fair evaluation should consider both the final result and the learning process.",
-    "contextTranslation": "公平的评价应同时考虑最终结果和学习过程。"
+    "contextTranslation": "公平的评价应同时考虑最终结果和学习过程。",
+    "phonetic": "/ɪvˌæljuˈeɪʃʌn/"
   },
   {
     "id": "cet-20260728-18-054",
@@ -85871,7 +89741,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Researchers estimate that the project will benefit more than five hundred families.",
-    "contextTranslation": "研究人员估计该项目将惠及五百多个家庭。"
+    "contextTranslation": "研究人员估计该项目将惠及五百多个家庭。",
+    "phonetic": "/ˈɛstʌmʌt/"
   },
   {
     "id": "cet-20260728-18-055",
@@ -85895,7 +89766,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "In my estimation, the proposal is practical but still needs a clearer budget.",
-    "contextTranslation": "依我判断，这项提议可行，但仍需要更清晰的预算。"
+    "contextTranslation": "依我判断，这项提议可行，但仍需要更清晰的预算。",
+    "phonetic": "/ˌɛstʌmˈeɪʃʌn/"
   },
   {
     "id": "cet-20260728-18-057",
@@ -85919,7 +89791,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The villagers were appreciative of the volunteers who repaired the old bridge.",
-    "contextTranslation": "村民们十分感激修复旧桥的志愿者。"
+    "contextTranslation": "村民们十分感激修复旧桥的志愿者。",
+    "phonetic": "/ʌprˈiʃiˌeɪtɪv/"
   },
   {
     "id": "phrase-practice-11-001",
@@ -85943,7 +89816,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "It is common sense to check the source before sharing information online.",
-    "contextTranslation": "在网上分享信息前核实来源是常识。"
+    "contextTranslation": "在网上分享信息前核实来源是常识。",
+    "phonetic": "/kˈɑmʌn sˈɛns/"
   },
   {
     "id": "phrase-practice-11-002",
@@ -85967,7 +89841,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Many students spend time on reviewing their mistakes after class.",
-    "contextTranslation": "许多学生课后花时间复习错题。"
+    "contextTranslation": "许多学生课后花时间复习错题。",
+    "phonetic": "/spˈɛnd tˈaɪm / mˈʌni ɑn ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-11-003",
@@ -85991,7 +89866,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "She spends two hours preparing for the entrance examination every evening.",
-    "contextTranslation": "她每天晚上花两个小时准备专升本考试。"
+    "contextTranslation": "她每天晚上花两个小时准备专升本考试。",
+    "phonetic": "/ˌsʌmbədi spˈɛndz tˈaɪm / mˈʌni ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-11-004",
@@ -86015,7 +89891,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "It took us three days to complete the social-practice report.",
-    "contextTranslation": "我们花了三天完成社会实践报告。"
+    "contextTranslation": "我们花了三天完成社会实践报告。",
+    "phonetic": "/ˈɪt tˈeɪks / tˈʊk ˌsʌmbədi tˈaɪm / mˈʌni tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-11-005",
@@ -86039,7 +89916,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "The main reasons for the change are as follows: lower cost, higher speed, and easier access.",
-    "contextTranslation": "这一变化的主要原因如下：成本更低、速度更快、获取更方便。"
+    "contextTranslation": "这一变化的主要原因如下：成本更低、速度更快、获取更方便。",
+    "phonetic": "/ˈæz fˈɑloʊz/"
   },
   {
     "id": "phrase-practice-11-006",
@@ -86063,7 +89941,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "The research team met with several difficulties while collecting data in rural areas.",
-    "contextTranslation": "研究团队在农村地区收集数据时遇到了若干困难。"
+    "contextTranslation": "研究团队在农村地区收集数据时遇到了若干困难。",
+    "phonetic": "/mˈit wɪð/"
   },
   {
     "id": "phrase-practice-11-007",
@@ -86087,7 +89966,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Do not lose heart when your first attempt fails; analyze the cause and try again.",
-    "contextTranslation": "第一次尝试失败时不要灰心，要分析原因并再次尝试。"
+    "contextTranslation": "第一次尝试失败时不要灰心，要分析原因并再次尝试。",
+    "phonetic": "/lˈuz hˈɑrt/"
   },
   {
     "id": "phrase-practice-11-008",
@@ -86111,7 +89991,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Several useful ideas in the discussion came from students with practical experience.",
-    "contextTranslation": "讨论中的几个有用观点来自有实践经验的学生。"
+    "contextTranslation": "讨论中的几个有用观点来自有实践经验的学生。",
+    "phonetic": "/kˈʌm frˈʌm/"
   },
   {
     "id": "phrase-practice-11-009",
@@ -86135,7 +90016,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "Online courses give students in rural areas more access to high-quality education.",
-    "contextTranslation": "网络课程让农村地区的学生更容易获得优质教育。"
+    "contextTranslation": "网络课程让农村地区的学生更容易获得优质教育。",
+    "phonetic": "/rˈʊrʌl ˈɛriʌ ˈɛs/"
   },
   {
     "id": "phrase-practice-11-010",
@@ -86159,7 +90041,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "短语练习",
     "contextSentence": "My classmate offered to give me a ride to the examination center.",
-    "contextTranslation": "我的同学主动提出载我去考试中心。"
+    "contextTranslation": "我的同学主动提出载我去考试中心。",
+    "phonetic": "/ɡˈɪv ˌsʌmbədi ə rˈaɪd/"
   },
   {
     "id": "blueforest-20260729-24-001",
@@ -86183,7 +90066,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "During the experiment, Li raised her arm to ask the teacher a question.",
-    "contextTranslation": "实验过程中，李同学举起手臂向老师提问。"
+    "contextTranslation": "实验过程中，李同学举起手臂向老师提问。",
+    "phonetic": "/ˈɑrm/"
   },
   {
     "id": "blueforest-20260729-24-002",
@@ -86207,7 +90091,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Many young people learn traditional customs from a grandparent.",
-    "contextTranslation": "许多年轻人从祖父母那里学习传统习俗。"
+    "contextTranslation": "许多年轻人从祖父母那里学习传统习俗。",
+    "phonetic": "/ɡrˈændpˌɛrʌnt/"
   },
   {
     "id": "blueforest-20260729-24-004",
@@ -86231,7 +90116,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The library closes at nine during the winter term.",
-    "contextTranslation": "冬季学期图书馆九点关门。"
+    "contextTranslation": "冬季学期图书馆九点关门。",
+    "phonetic": "/nˈaɪn/"
   },
   {
     "id": "blueforest-20260729-24-005",
@@ -86255,7 +90141,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The chair of the student union announced the new volunteer program.",
-    "contextTranslation": "学生会主席宣布了新的志愿服务项目。"
+    "contextTranslation": "学生会主席宣布了新的志愿服务项目。",
+    "phonetic": "/tʃˈɛr/"
   },
   {
     "id": "blueforest-20260729-24-011",
@@ -86279,7 +90166,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "A simple hello can make a new classmate feel welcome.",
-    "contextTranslation": "一句简单的问候就能让新同学感到受欢迎。"
+    "contextTranslation": "一句简单的问候就能让新同学感到受欢迎。",
+    "phonetic": "/hʌlˈoʊ/"
   },
   {
     "id": "blueforest-20260729-24-012",
@@ -86303,7 +90191,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Joining the debate club improved her confidence in public speaking.",
-    "contextTranslation": "参加辩论社提高了她公开演讲的自信。"
+    "contextTranslation": "参加辩论社提高了她公开演讲的自信。",
+    "phonetic": "/klˈʌb/"
   },
   {
     "id": "blueforest-20260729-24-014",
@@ -86327,7 +90216,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The rural family keeps a hen in the yard for fresh eggs.",
-    "contextTranslation": "这个农村家庭在院子里养了一只母鸡以获得新鲜鸡蛋。"
+    "contextTranslation": "这个农村家庭在院子里养了一只母鸡以获得新鲜鸡蛋。",
+    "phonetic": "/hˈɛn/"
   },
   {
     "id": "blueforest-20260729-24-015",
@@ -86351,7 +90241,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "This dictionary is hers, while the blue one belongs to me.",
-    "contextTranslation": "这本词典是她的，而蓝色那本是我的。"
+    "contextTranslation": "这本词典是她的，而蓝色那本是我的。",
+    "phonetic": "/hɝz/"
   },
   {
     "id": "blueforest-20260729-24-016",
@@ -86375,7 +90266,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The report explains why the tiger population has declined in recent decades.",
-    "contextTranslation": "报告解释了近几十年来老虎数量下降的原因。"
+    "contextTranslation": "报告解释了近几十年来老虎数量下降的原因。",
+    "phonetic": "/tˈaɪɡɝ/"
   },
   {
     "id": "blueforest-20260729-24-017",
@@ -86399,7 +90291,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "He bought a hotdog before the basketball match began.",
-    "contextTranslation": "篮球比赛开始前，他买了一个热狗。"
+    "contextTranslation": "篮球比赛开始前，他买了一个热狗。",
+    "phonetic": "/hˈɑtdˌɔɡ/"
   },
   {
     "id": "blueforest-20260729-24-019",
@@ -86423,7 +90316,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The guide warned us not to touch a snake in the grass.",
-    "contextTranslation": "导游警告我们不要触碰草丛里的蛇。"
+    "contextTranslation": "导游警告我们不要触碰草丛里的蛇。",
+    "phonetic": "/snˈeɪk/"
   },
   {
     "id": "blueforest-20260729-24-020",
@@ -86447,7 +90341,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Studying local culture helps exchange students adapt more quickly.",
-    "contextTranslation": "了解当地文化有助于交换生更快适应。"
+    "contextTranslation": "了解当地文化有助于交换生更快适应。",
+    "phonetic": "/kˈʌltʃɝ/"
   },
   {
     "id": "blueforest-20260729-24-022",
@@ -86471,7 +90366,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "A bowl of noodle soup is a common breakfast in the town.",
-    "contextTranslation": "一碗面汤是这个小镇常见的早餐。"
+    "contextTranslation": "一碗面汤是这个小镇常见的早餐。",
+    "phonetic": "/nˈudʌl/"
   },
   {
     "id": "blueforest-20260729-24-024",
@@ -86495,7 +90391,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "If students manage their time well, they can reduce exam stress.",
-    "contextTranslation": "如果学生能合理管理时间，就能减轻考试压力。"
+    "contextTranslation": "如果学生能合理管理时间，就能减轻考试压力。",
+    "phonetic": "/ˈɪf/"
   },
   {
     "id": "blueforest-20260729-24-026",
@@ -86521,7 +90418,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The teacher asked us to remove any nonsense from the formal report.",
-    "contextTranslation": "老师要求我们删去正式报告中毫无意义的内容。"
+    "contextTranslation": "老师要求我们删去正式报告中毫无意义的内容。",
+    "phonetic": "/nˈɑnsɛns/"
   },
   {
     "id": "blueforest-20260729-24-027",
@@ -86545,7 +90443,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Please call the admissions office if you need more information.",
-    "contextTranslation": "如需更多信息，请致电招生办公室。"
+    "contextTranslation": "如需更多信息，请致电招生办公室。",
+    "phonetic": "/kˈɔl/"
   },
   {
     "id": "blueforest-20260729-24-028",
@@ -86569,7 +90468,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The university updated its online registration system last month.",
-    "contextTranslation": "这所大学上个月更新了它的在线报名系统。"
+    "contextTranslation": "这所大学上个月更新了它的在线报名系统。",
+    "phonetic": "/ˈɪts/"
   },
   {
     "id": "blueforest-20260729-24-030",
@@ -86593,7 +90493,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Eating too quickly may cause stomach discomfort.",
-    "contextTranslation": "吃得太快可能引起胃部不适。"
+    "contextTranslation": "吃得太快可能引起胃部不适。",
+    "phonetic": "/stˈʌmʌk/"
   },
   {
     "id": "blueforest-20260729-24-031",
@@ -86617,7 +90518,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Late submission may result in a penalty under the course rules.",
-    "contextTranslation": "根据课程规定，迟交作业可能受到处罚。"
+    "contextTranslation": "根据课程规定，迟交作业可能受到处罚。",
+    "phonetic": "/pˈɛnʌlti/"
   },
   {
     "id": "blueforest-20260729-24-033",
@@ -86641,7 +90543,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The researcher decided to add two questions to the survey.",
-    "contextTranslation": "研究人员决定在问卷中增加两个问题。"
+    "contextTranslation": "研究人员决定在问卷中增加两个问题。",
+    "phonetic": "/ˈæd/"
   },
   {
     "id": "blueforest-20260729-24-034",
@@ -86665,7 +90568,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "All applicants must provide a valid identification document.",
-    "contextTranslation": "所有申请人都必须提供有效身份证明。"
+    "contextTranslation": "所有申请人都必须提供有效身份证明。",
+    "phonetic": "/ˈɔl/"
   },
   {
     "id": "blueforest-20260729-24-036",
@@ -86689,7 +90593,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The cafeteria now offers less meat and more vegetables.",
-    "contextTranslation": "食堂现在提供更少的肉和更多的蔬菜。"
+    "contextTranslation": "食堂现在提供更少的肉和更多的蔬菜。",
+    "phonetic": "/mˈit/"
   },
   {
     "id": "blueforest-20260729-24-037",
@@ -86713,7 +90618,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The school team worked together to defeat a stronger opponent.",
-    "contextTranslation": "校队齐心协力击败了更强的对手。"
+    "contextTranslation": "校队齐心协力击败了更强的对手。",
+    "phonetic": "/dɪfˈit/"
   },
   {
     "id": "blueforest-20260729-24-038",
@@ -86737,7 +90643,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The final paragraph is very important because it summarizes the main idea.",
-    "contextTranslation": "最后一段非常重要，因为它概括了中心思想。"
+    "contextTranslation": "最后一段非常重要，因为它概括了中心思想。",
+    "phonetic": "/vˈɛri/"
   },
   {
     "id": "blueforest-20260729-24-043",
@@ -86761,7 +90668,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The dormitory furniture was replaced before the new term began.",
-    "contextTranslation": "新学期开始前，宿舍家具被更换了。"
+    "contextTranslation": "新学期开始前，宿舍家具被更换了。",
+    "phonetic": "/fˈɝnɪtʃɝ/"
   },
   {
     "id": "blueforest-20260729-24-044",
@@ -86785,7 +90693,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "A company spokesman explained the reason for the product recall.",
-    "contextTranslation": "公司发言人解释了产品召回的原因。"
+    "contextTranslation": "公司发言人解释了产品召回的原因。",
+    "phonetic": "/spˈoʊksmʌn/"
   },
   {
     "id": "blueforest-20260729-24-046",
@@ -86809,7 +90718,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Some residents complain that traffic noise affects their sleep.",
-    "contextTranslation": "一些居民抱怨交通噪声影响睡眠。"
+    "contextTranslation": "一些居民抱怨交通噪声影响睡眠。",
+    "phonetic": "/kʌmplˈeɪn/"
   },
   {
     "id": "blueforest-20260729-24-048",
@@ -86833,7 +90743,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "The article discusses how a traveling circus protects its animals.",
-    "contextTranslation": "文章讨论了巡回马戏团如何保护动物。"
+    "contextTranslation": "文章讨论了巡回马戏团如何保护动物。",
+    "phonetic": "/sˈɝkʌs/"
   },
   {
     "id": "blueforest-20260729-24-050",
@@ -86857,7 +90768,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "蓝色森林",
     "contextSentence": "Good grammar helps readers understand an academic essay clearly.",
-    "contextTranslation": "良好的语法有助于读者清楚理解学术文章。"
+    "contextTranslation": "良好的语法有助于读者清楚理解学术文章。",
+    "phonetic": "/ɡrˈæmɝ/"
   },
   {
     "id": "cet-20260729-19-001",
@@ -86881,7 +90793,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The two departments acted in accord with the new safety rules.",
-    "contextTranslation": "两个部门按照新的安全规定采取了行动。"
+    "contextTranslation": "两个部门按照新的安全规定采取了行动。",
+    "phonetic": "/ʌkˈɔrd/"
   },
   {
     "id": "cet-20260729-19-004",
@@ -86905,7 +90818,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The weather forecast changed, and the outdoor activity was adjusted accordingly.",
-    "contextTranslation": "天气预报发生变化，户外活动也相应作了调整。"
+    "contextTranslation": "天气预报发生变化，户外活动也相应作了调整。",
+    "phonetic": "/ʌkˈɔrdɪŋli/"
   },
   {
     "id": "cet-20260729-19-006",
@@ -86929,7 +90843,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The reporter placed a recorder on the table before the interview.",
-    "contextTranslation": "记者在采访前把录音机放在桌上。"
+    "contextTranslation": "记者在采访前把录音机放在桌上。",
+    "phonetic": "/rɪkˈɔrdɝ/"
   },
   {
     "id": "cet-20260729-19-007",
@@ -86953,7 +90868,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The listening teacher played the recording twice for the class.",
-    "contextTranslation": "听力老师给全班播放了两遍录音。"
+    "contextTranslation": "听力老师给全班播放了两遍录音。",
+    "phonetic": "/rʌkˈɔrdɪŋ/"
   },
   {
     "id": "cet-20260729-19-008",
@@ -86977,7 +90893,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The online course includes audio materials for pronunciation practice.",
-    "contextTranslation": "网络课程包含用于发音练习的音频材料。"
+    "contextTranslation": "网络课程包含用于发音练习的音频材料。",
+    "phonetic": "/ˈɑdiˌoʊ/"
   },
   {
     "id": "cet-20260729-19-010",
@@ -87001,7 +90918,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Her question seemed to echo through the empty lecture hall.",
-    "contextTranslation": "她的问题仿佛在空荡的报告厅里回响。"
+    "contextTranslation": "她的问题仿佛在空荡的报告厅里回响。",
+    "phonetic": "/ˈɛkoʊ/"
   },
   {
     "id": "cet-20260729-19-011",
@@ -87025,7 +90943,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Many employers regard communication skills as essential.",
-    "contextTranslation": "许多雇主认为沟通能力至关重要。"
+    "contextTranslation": "许多雇主认为沟通能力至关重要。",
+    "phonetic": "/rɪɡˈɑrd/"
   },
   {
     "id": "cet-20260729-19-013",
@@ -87049,7 +90968,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Students should respect others regardless of their background.",
-    "contextTranslation": "学生应尊重他人，不论其背景如何。"
+    "contextTranslation": "学生应尊重他人，不论其背景如何。",
+    "phonetic": "/rʌɡˈɑrdlʌs/"
   },
   {
     "id": "cet-20260729-19-014",
@@ -87073,7 +90993,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Readers must distinguish facts from opinions in the passage.",
-    "contextTranslation": "读者必须区分文章中的事实与观点。"
+    "contextTranslation": "读者必须区分文章中的事实与观点。",
+    "phonetic": "/dɪstˈɪŋɡwɪʃ/"
   },
   {
     "id": "cet-20260729-19-015",
@@ -87097,7 +91018,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The two solutions are distinguishable by their different costs.",
-    "contextTranslation": "这两种方案可以通过不同的成本加以区分。"
+    "contextTranslation": "这两种方案可以通过不同的成本加以区分。",
+    "phonetic": "/dɪstˈɪŋɡwɪʃʌbʌl/"
   },
   {
     "id": "cet-20260729-19-016",
@@ -87121,7 +91043,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The study identifies three distinct causes of the problem.",
-    "contextTranslation": "这项研究确定了该问题的三个不同原因。"
+    "contextTranslation": "这项研究确定了该问题的三个不同原因。",
+    "phonetic": "/dɪstˈɪŋkt/"
   },
   {
     "id": "cet-20260729-19-017",
@@ -87145,7 +91068,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "There is an important distinction between knowledge and wisdom.",
-    "contextTranslation": "知识与智慧之间存在重要区别。"
+    "contextTranslation": "知识与智慧之间存在重要区别。",
+    "phonetic": "/dɪstˈɪŋkʃʌn/"
   },
   {
     "id": "cet-20260729-19-018",
@@ -87169,7 +91093,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The ancient building has a distinctive wooden roof.",
-    "contextTranslation": "这座古建筑有一个很有特色的木制屋顶。"
+    "contextTranslation": "这座古建筑有一个很有特色的木制屋顶。",
+    "phonetic": "/dɪstˈɪŋktɪv/"
   },
   {
     "id": "cet-20260729-19-022",
@@ -87193,7 +91118,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Firefighters arrived quickly to extinguish the laboratory fire.",
-    "contextTranslation": "消防员迅速赶到，扑灭了实验室的火灾。"
+    "contextTranslation": "消防员迅速赶到，扑灭了实验室的火灾。",
+    "phonetic": "/ɪkstˈɪŋɡwɪʃ/"
   },
   {
     "id": "cet-20260729-19-023",
@@ -87217,7 +91143,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "His first instinct was to help the injured passenger.",
-    "contextTranslation": "他的第一反应是帮助受伤的乘客。"
+    "contextTranslation": "他的第一反应是帮助受伤的乘客。",
+    "phonetic": "/ˈɪnstɪŋkt/"
   },
   {
     "id": "cet-20260729-19-024",
@@ -87241,7 +91168,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Protecting a child in danger can be an instinctive reaction.",
-    "contextTranslation": "保护处于危险中的孩子可能是一种本能反应。"
+    "contextTranslation": "保护处于危险中的孩子可能是一种本能反应。",
+    "phonetic": "/ˌɪnstˈɪŋktɪv/"
   },
   {
     "id": "cet-20260729-19-025",
@@ -87265,7 +91193,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "A bee may sting when it feels threatened.",
-    "contextTranslation": "蜜蜂感到受威胁时可能会蜇人。"
+    "contextTranslation": "蜜蜂感到受威胁时可能会蜇人。",
+    "phonetic": "/stˈɪŋ/"
   },
   {
     "id": "cet-20260729-19-026",
@@ -87289,7 +91218,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Strong sunlight can pierce the thin clouds after rain.",
-    "contextTranslation": "雨后强烈的阳光能够穿透薄云。"
+    "contextTranslation": "雨后强烈的阳光能够穿透薄云。",
+    "phonetic": "/pˈɪrs/"
   },
   {
     "id": "cet-20260729-19-027",
@@ -87313,7 +91243,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The sudden crowd thrust him toward the station entrance.",
-    "contextTranslation": "突然涌来的人群把他推向车站入口。"
+    "contextTranslation": "突然涌来的人群把他推向车站入口。",
+    "phonetic": "/θrˈʌst/"
   },
   {
     "id": "cet-20260729-19-028",
@@ -87337,7 +91268,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Students were asked to observe how the plant changed each day.",
-    "contextTranslation": "老师要求学生观察植物每天的变化。"
+    "contextTranslation": "老师要求学生观察植物每天的变化。",
+    "phonetic": "/ʌbzˈɝv/"
   },
   {
     "id": "cet-20260729-19-029",
@@ -87361,7 +91293,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Careful observation is necessary before drawing a conclusion.",
-    "contextTranslation": "得出结论前必须进行仔细观察。"
+    "contextTranslation": "得出结论前必须进行仔细观察。",
+    "phonetic": "/ˌɑbzɝvˈeɪʃʌn/"
   },
   {
     "id": "cet-20260729-19-030",
@@ -87385,7 +91318,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "An independent observer attended the election meeting.",
-    "contextTranslation": "一名独立观察员参加了选举会议。"
+    "contextTranslation": "一名独立观察员参加了选举会议。",
+    "phonetic": "/ʌbzˈɝvɝ/"
   },
   {
     "id": "cet-20260729-19-031",
@@ -87409,7 +91343,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "An observant reader noticed the contradiction in the final paragraph.",
-    "contextTranslation": "一位细心的读者发现了最后一段中的矛盾。"
+    "contextTranslation": "一位细心的读者发现了最后一段中的矛盾。",
+    "phonetic": "/ʌbzˈɝvʌnt/"
   },
   {
     "id": "cet-20260729-19-032",
@@ -87433,7 +91368,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Students should reserve a seat online before attending the lecture.",
-    "contextTranslation": "学生参加讲座前应在网上预留座位。"
+    "contextTranslation": "学生参加讲座前应在网上预留座位。",
+    "phonetic": "/rɪzˈɝv/"
   },
   {
     "id": "cet-20260729-19-033",
@@ -87457,7 +91393,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "I made a reservation for the study room this afternoon.",
-    "contextTranslation": "我预订了今天下午的自习室。"
+    "contextTranslation": "我预订了今天下午的自习室。",
+    "phonetic": "/rˌɛzɝvˈeɪʃʌn/"
   },
   {
     "id": "cet-20260729-19-034",
@@ -87481,7 +91418,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Several seats are reserved for students with disabilities.",
-    "contextTranslation": "有几个座位专门预留给残障学生。"
+    "contextTranslation": "有几个座位专门预留给残障学生。",
+    "phonetic": "/rɪzˈɝvd/"
   },
   {
     "id": "cet-20260729-19-035",
@@ -87505,7 +91443,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Volunteers who serve the community deserve our respect.",
-    "contextTranslation": "服务社区的志愿者值得我们尊敬。"
+    "contextTranslation": "服务社区的志愿者值得我们尊敬。",
+    "phonetic": "/dɪzˈɝv/"
   },
   {
     "id": "cet-20260729-19-036",
@@ -87529,7 +91468,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The committee made a conservative estimate of the project cost.",
-    "contextTranslation": "委员会对项目成本作出了较为保守的估计。"
+    "contextTranslation": "委员会对项目成本作出了较为保守的估计。",
+    "phonetic": "/kʌnsˈɝvʌtɪv/"
   },
   {
     "id": "cet-20260729-19-037",
@@ -87553,7 +91493,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Turning off unused lights helps conserve energy.",
-    "contextTranslation": "关闭不用的灯有助于节约能源。"
+    "contextTranslation": "关闭不用的灯有助于节约能源。",
+    "phonetic": "/kʌnsˈɝv/"
   },
   {
     "id": "cet-20260729-19-041",
@@ -87577,7 +91518,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Strong passwords protect personal information from theft.",
-    "contextTranslation": "强密码能够保护个人信息不被盗取。"
+    "contextTranslation": "强密码能够保护个人信息不被盗取。",
+    "phonetic": "/prʌtˈɛkt/"
   },
   {
     "id": "cet-20260729-19-042",
@@ -87601,7 +91543,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The new law provides better protection for online consumers.",
-    "contextTranslation": "新法律为网络消费者提供了更好的保护。"
+    "contextTranslation": "新法律为网络消费者提供了更好的保护。",
+    "phonetic": "/prʌtˈɛkʃʌn/"
   },
   {
     "id": "cet-20260729-19-043",
@@ -87625,7 +91568,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Workers must wear protective clothing in the chemical laboratory.",
-    "contextTranslation": "工人在化学实验室必须穿防护服。"
+    "contextTranslation": "工人在化学实验室必须穿防护服。",
+    "phonetic": "/prʌtˈɛktɪv/"
   },
   {
     "id": "cet-20260729-19-045",
@@ -87649,7 +91593,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Early detection can greatly improve the chance of recovery.",
-    "contextTranslation": "早期发现可以大大提高康复机会。"
+    "contextTranslation": "早期发现可以大大提高康复机会。",
+    "phonetic": "/dɪtˈɛkʃʌn/"
   },
   {
     "id": "cet-20260729-19-047",
@@ -87673,7 +91618,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The coach sent a scout to watch the opposing team.",
-    "contextTranslation": "教练派出一名球探观察对方球队。"
+    "contextTranslation": "教练派出一名球探观察对方球队。",
+    "phonetic": "/skˈaʊt/"
   },
   {
     "id": "cet-20260729-19-049",
@@ -87697,7 +91643,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "Regular exercise plays an important role in disease prevention.",
-    "contextTranslation": "规律运动在疾病预防中发挥重要作用。"
+    "contextTranslation": "规律运动在疾病预防中发挥重要作用。",
+    "phonetic": "/privˈɛnʃʌn/"
   },
   {
     "id": "cet-20260729-19-050",
@@ -87721,7 +91668,8 @@ window.WORD_MEMORY_WORDS = [
     ],
     "source": "四级",
     "contextSentence": "The hospital offers preventive health checks to local residents.",
-    "contextTranslation": "这家医院为当地居民提供预防性健康检查。"
+    "contextTranslation": "这家医院为当地居民提供预防性健康检查。",
+    "phonetic": "/prɪvˈɛntɪv/"
   },
   {
     "id": "dictation-4-001",
@@ -87744,7 +91692,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈænt hˈɛlp ˈduɪŋ/"
   },
   {
     "id": "dictation-4-002",
@@ -87767,7 +91716,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈænt hˈɛlp bˈʌt du/"
   },
   {
     "id": "dictation-4-003",
@@ -87790,7 +91740,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈænt wˈeɪt tə du/"
   },
   {
     "id": "dictation-4-004",
@@ -87813,7 +91764,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈænt tˈu/"
   },
   {
     "id": "dictation-4-005",
@@ -87836,7 +91788,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈæv tə du/"
   },
   {
     "id": "dictation-4-006",
@@ -87859,7 +91812,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈoʊnt / dˈʌzʌnt hˈæv tə/"
   },
   {
     "id": "dictation-4-007",
@@ -87882,7 +91836,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊtdˌɔr æktˈɪvʌtiz/"
   },
   {
     "id": "dictation-4-008",
@@ -87905,7 +91860,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈi strˈɪkt wɪð ˌsʌmbədi/"
   },
   {
     "id": "dictation-4-009",
@@ -87928,7 +91884,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈir əv/"
   },
   {
     "id": "dictation-4-010",
@@ -87951,7 +91908,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈir frˈʌm/"
   },
   {
     "id": "dictation-4-011",
@@ -87974,7 +91932,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rʌsˈiv frˈʌm/"
   },
   {
     "id": "dictation-4-012",
@@ -87997,7 +91956,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kwˈɪt/"
   },
   {
     "id": "dictation-4-013",
@@ -88020,7 +91980,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kwˈɪt wʌnz dʒˈɑb/"
   },
   {
     "id": "dictation-4-014",
@@ -88043,7 +92004,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rɪzˈaɪn frˈʌm/"
   },
   {
     "id": "dictation-4-015",
@@ -88066,7 +92028,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɑpʃʌnʌl kˈɔrs/"
   },
   {
     "id": "dictation-4-016",
@@ -88089,7 +92052,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmpˈʌlsɝi kˈɔrs/"
   },
   {
     "id": "dictation-4-017",
@@ -88112,7 +92076,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈi wˈɝid ʌbˈaʊt/"
   },
   {
     "id": "dictation-4-018",
@@ -88135,7 +92100,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɝi ʌbˈaʊt/"
   },
   {
     "id": "dictation-4-019",
@@ -88158,7 +92124,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈaɪz/"
   },
   {
     "id": "dictation-4-020",
@@ -88181,7 +92148,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɝˈaɪz/"
   },
   {
     "id": "dictation-4-021",
@@ -88204,7 +92172,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈeɪz/"
   },
   {
     "id": "dictation-4-022",
@@ -88227,7 +92196,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɝˈaʊz/"
   },
   {
     "id": "dictation-4-023",
@@ -88250,7 +92220,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɝˈaʊz wʌnz ʌwˈɛrnʌs əv ˈduɪŋ/"
   },
   {
     "id": "dictation-4-024",
@@ -88273,7 +92244,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑntrˌækt/"
   },
   {
     "id": "dictation-4-025",
@@ -88296,7 +92268,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪlˈɪvɝ/"
   },
   {
     "id": "dictation-4-026",
@@ -88319,7 +92292,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈeɪ/"
   },
   {
     "id": "dictation-4-027",
@@ -88342,7 +92316,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈeɪ ðə prˈoʊz ænd kˈɑnz/"
   },
   {
     "id": "dictation-4-028",
@@ -88365,7 +92340,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈeɪk ə dˈeɪ ˈɔf/"
   },
   {
     "id": "dictation-4-029",
@@ -88388,7 +92364,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæsk fˈɔr lˈiv/"
   },
   {
     "id": "dictation-4-030",
@@ -88411,7 +92388,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɪk lˈiv/"
   },
   {
     "id": "dictation-4-031",
@@ -88434,7 +92412,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈænjuʌl lˈiv/"
   },
   {
     "id": "dictation-4-032",
@@ -88457,7 +92436,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɝsɪnʌl lˈiv/"
   },
   {
     "id": "dictation-4-033",
@@ -88480,7 +92460,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ðə rˈizʌnz ˈɑr ˈæz fˈɑloʊz/"
   },
   {
     "id": "dictation-4-034",
@@ -88503,7 +92484,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ðə dɪtˈeɪlz ˈɑr ˈæz fˈɑloʊz/"
   },
   {
     "id": "dictation-4-035",
@@ -88526,7 +92508,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ðə ɝˈeɪndʒmʌnts ˈɑr ˈæz fˈɑloʊz/"
   },
   {
     "id": "dictation-4-036",
@@ -88549,7 +92532,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ðə sʌdʒˈɛstʃʌnz ˈɑr ˈæz fˈɑloʊz/"
   },
   {
     "id": "dictation-4-037",
@@ -88572,7 +92556,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈoʊkʌs ɑn/"
   },
   {
     "id": "dictation-4-038",
@@ -88595,7 +92580,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑnsʌntrˌeɪt ɑn/"
   },
   {
     "id": "dictation-4-039",
@@ -88618,7 +92604,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔrm/"
   },
   {
     "id": "dictation-4-040",
@@ -88641,7 +92628,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔrmʌl/"
   },
   {
     "id": "dictation-4-041",
@@ -88664,7 +92652,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪnfˈɔrmʌl/"
   },
   {
     "id": "dictation-4-042",
@@ -88687,7 +92676,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔrm ə / ðə ɡˈʊd hˈæbʌt əv ˈduɪŋ/"
   },
   {
     "id": "dictation-4-043",
@@ -88710,7 +92700,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪvˈɛlʌp ə / ðə ɡˈʊd hˈæbʌt əv ˈduɪŋ/"
   },
   {
     "id": "dictation-4-044",
@@ -88733,7 +92724,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌspˈɪʃʌn/"
   },
   {
     "id": "dictation-4-045",
@@ -88756,7 +92748,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌspˈɪʃʌs/"
   },
   {
     "id": "dictation-4-046",
@@ -88779,7 +92772,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/strˈeɪndʒ/"
   },
   {
     "id": "dictation-4-047",
@@ -88802,7 +92796,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/strˈeɪndʒɝ/"
   },
   {
     "id": "dictation-4-048",
@@ -88825,7 +92820,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌwˈeɪk/"
   },
   {
     "id": "dictation-4-049",
@@ -88848,7 +92844,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌwˈɔrd/"
   },
   {
     "id": "dictation-4-050",
@@ -88871,7 +92868,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rɪwˈɔrd/"
   },
   {
     "id": "dictation-4-051",
@@ -88894,7 +92892,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæz ə rɪwˈɔrd fˈɔr/"
   },
   {
     "id": "dictation-4-052",
@@ -88917,7 +92916,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/trˈit/"
   },
   {
     "id": "dictation-4-053",
@@ -88940,7 +92940,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/trˈitmʌnt/"
   },
   {
     "id": "dictation-4-054",
@@ -88963,7 +92964,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛl ˈaʊt/"
   },
   {
     "id": "dictation-4-055",
@@ -88986,7 +92988,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈoʊ lˈɔŋɡɝ/"
   },
   {
     "id": "dictation-4-056",
@@ -89009,7 +93012,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪn dɪmˈænd/"
   },
   {
     "id": "dictation-4-057",
@@ -89032,7 +93036,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪn sʌplˈaɪ/"
   },
   {
     "id": "dictation-4-058",
@@ -89055,7 +93060,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪn jˈus/"
   },
   {
     "id": "dictation-4-059",
@@ -89078,7 +93084,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪn sˈaɪt/"
   },
   {
     "id": "dictation-4-060",
@@ -89101,7 +93108,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv sˈaɪt/"
   },
   {
     "id": "dictation-4-061",
@@ -89124,7 +93132,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv kʌntrˈoʊl/"
   },
   {
     "id": "dictation-4-062",
@@ -89147,7 +93156,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv ˈɔrdɝ/"
   },
   {
     "id": "dictation-4-063",
@@ -89170,7 +93180,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv brˈɛθ/"
   },
   {
     "id": "dictation-4-064",
@@ -89193,7 +93204,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv dˈeɪt/"
   },
   {
     "id": "dictation-4-065",
@@ -89216,7 +93228,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv rˈitʃ/"
   },
   {
     "id": "dictation-4-066",
@@ -89239,7 +93252,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv stˈɑk/"
   },
   {
     "id": "dictation-4-067",
@@ -89262,7 +93276,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv dˈeɪndʒɝ/"
   },
   {
     "id": "dictation-4-068",
@@ -89285,7 +93300,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊt əv kjˌʊriˈɑsʌti/"
   },
   {
     "id": "dictation-4-069",
@@ -89308,7 +93324,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɛmplˈɔɪ/"
   },
   {
     "id": "dictation-4-070",
@@ -89331,7 +93348,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɛmplˈɔɪi/"
   },
   {
     "id": "dictation-4-071",
@@ -89354,7 +93372,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɛmplˈɔɪɝ/"
   },
   {
     "id": "dictation-4-072",
@@ -89377,7 +93396,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɛmplˈɔɪmʌnt/"
   },
   {
     "id": "dictation-4-073",
@@ -89400,7 +93420,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌʌnɪmplˈɔɪmʌnt/"
   },
   {
     "id": "dictation-4-074",
@@ -89423,7 +93444,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɑrɡju/"
   },
   {
     "id": "dictation-4-075",
@@ -89446,7 +93468,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɑrɡjʌmʌnt/"
   },
   {
     "id": "dictation-4-076",
@@ -89471,7 +93494,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈɛns/"
   },
   {
     "id": "dictation-4-077",
@@ -89494,7 +93518,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪɡnˈɔr/"
   },
   {
     "id": "dictation-4-078",
@@ -89517,7 +93542,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɪɡnɝʌns/"
   },
   {
     "id": "dictation-4-079",
@@ -89540,7 +93566,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɪvɪŋ kʌndˈɪʃʌnz/"
   },
   {
     "id": "dictation-4-080",
@@ -89565,7 +93592,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈæk/"
   },
   {
     "id": "dictation-4-081",
@@ -89588,7 +93616,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈiʌlˌaɪz/"
   },
   {
     "id": "dictation-4-082",
@@ -89611,7 +93640,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌntˈɪnjuʌs ˈɛfɝts/"
   },
   {
     "id": "dictation-4-083",
@@ -89634,7 +93664,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɑloʊ ðə rˈulz/"
   },
   {
     "id": "dictation-4-084",
@@ -89657,7 +93688,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɪŋɡʌl jˈus plˈæstɪk prˈɑdʌkts/"
   },
   {
     "id": "dictation-4-085",
@@ -89680,7 +93712,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wɪð ðə θˈim əv/"
   },
   {
     "id": "dictation-4-086",
@@ -89703,7 +93736,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈeɪk ðə rispˌɑnsʌbˈɪlʌti tə du ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-4-087",
@@ -89726,7 +93760,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈeɪ ə rˈoʊl ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-4-088",
@@ -89749,7 +93784,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈeɪ ə vˈaɪtʌl rˈoʊl ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-4-089",
@@ -89772,7 +93808,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈeɪ æn ˌɪmpˈɔrtʌnt rˈoʊl ɪn ˈduɪŋ ˌsʌmθɪŋ/"
   },
   {
     "id": "dictation-4-090",
@@ -89795,7 +93832,8 @@ window.WORD_MEMORY_WORDS = [
       "听写内容"
     ],
     "source": "听写内容",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈeɪk ə dˈɪfɝʌns tə/"
   },
   {
     "id": "phrase-practice-12-001",
@@ -89818,7 +93856,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈeɪz mˈʌni/"
   },
   {
     "id": "phrase-practice-12-002",
@@ -89841,7 +93880,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌmjˈunʌkˌeɪt wɪð ˌsʌmbədi/"
   },
   {
     "id": "phrase-practice-12-003",
@@ -89864,7 +93904,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑz / ɝˈaʊz ə hˈitʌd / wˈaɪdsprˈɛd dɪskˈʌʃʌn/"
   },
   {
     "id": "phrase-practice-12-004",
@@ -89887,7 +93928,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈæv ə ɡˈʊd kʌmˈænd əv ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-12-005",
@@ -89910,7 +93952,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɡrˈædʒʌwʌt frˈʌm/"
   },
   {
     "id": "phrase-practice-12-006",
@@ -89933,7 +93976,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈæv mˈʌtʃ ə lˈɑt ɪn kˈɑmʌn/"
   },
   {
     "id": "phrase-practice-12-007",
@@ -89956,7 +94000,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɡˈɛt ʌlˈɔŋ wˈɛl wɪð ˌsʌmbədi/"
   },
   {
     "id": "phrase-practice-12-008",
@@ -89979,7 +94024,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈæv nˈʌθɪŋ ɪn kˈɑmʌn/"
   },
   {
     "id": "phrase-practice-12-009",
@@ -90002,7 +94048,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈæv ˌsʌmθɪŋ ɪn kˈɑmʌn/"
   },
   {
     "id": "phrase-practice-12-010",
@@ -90025,7 +94072,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪn kˈɑmʌn/"
   },
   {
     "id": "blueforest-20260730-25-002",
@@ -90048,7 +94096,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈʊtbˌɔl/"
   },
   {
     "id": "blueforest-20260730-25-003",
@@ -90071,7 +94120,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/frˈut/"
   },
   {
     "id": "blueforest-20260730-25-005",
@@ -90094,7 +94144,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/krˈuʌl/"
   },
   {
     "id": "blueforest-20260730-25-007",
@@ -90117,7 +94168,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈælbʌm/"
   },
   {
     "id": "blueforest-20260730-25-008",
@@ -90140,7 +94192,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɔθɝˌaɪz/"
   },
   {
     "id": "blueforest-20260730-25-010",
@@ -90163,7 +94216,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪprˈɛs/"
   },
   {
     "id": "blueforest-20260730-25-011",
@@ -90186,7 +94240,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛvʌntˈin/"
   },
   {
     "id": "blueforest-20260730-25-012",
@@ -90209,7 +94264,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈoʊl/"
   },
   {
     "id": "blueforest-20260730-25-013",
@@ -90232,7 +94288,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈʌnwˌeɪ/"
   },
   {
     "id": "blueforest-20260730-25-014",
@@ -90255,7 +94312,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rʌsˈaɪt/"
   },
   {
     "id": "blueforest-20260730-25-015",
@@ -90278,7 +94336,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈæðɝ/"
   },
   {
     "id": "blueforest-20260730-25-017",
@@ -90301,7 +94360,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈɛpʌn/"
   },
   {
     "id": "blueforest-20260730-25-020",
@@ -90324,7 +94384,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈoʊstkˌɑrd/"
   },
   {
     "id": "blueforest-20260730-25-023",
@@ -90347,7 +94408,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈʌnɪʃ/"
   },
   {
     "id": "blueforest-20260730-25-024",
@@ -90370,7 +94432,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈætʌs/"
   },
   {
     "id": "blueforest-20260730-25-028",
@@ -90393,7 +94456,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈeɪnkˌoʊt/"
   },
   {
     "id": "blueforest-20260730-25-029",
@@ -90416,7 +94480,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɛk/"
   },
   {
     "id": "blueforest-20260730-25-030",
@@ -90439,7 +94504,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈaʊɝ/"
   },
   {
     "id": "blueforest-20260730-25-031",
@@ -90462,7 +94528,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈoʊvɝkˌoʊt/"
   },
   {
     "id": "blueforest-20260730-25-032",
@@ -90485,7 +94552,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɔr/"
   },
   {
     "id": "blueforest-20260730-25-034",
@@ -90508,7 +94576,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/trˈʌŋk/"
   },
   {
     "id": "blueforest-20260730-25-035",
@@ -90531,7 +94600,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈɪdʌl/"
   },
   {
     "id": "blueforest-20260730-25-036",
@@ -90554,7 +94624,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pˈɔrk/"
   },
   {
     "id": "blueforest-20260730-25-037",
@@ -90577,7 +94648,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/pɝhˈæps/"
   },
   {
     "id": "blueforest-20260730-25-040",
@@ -90600,7 +94672,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈeɪd/"
   },
   {
     "id": "blueforest-20260730-25-042",
@@ -90623,7 +94696,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈʌnθ/"
   },
   {
     "id": "blueforest-20260730-25-045",
@@ -90646,7 +94720,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/drˈʌm/"
   },
   {
     "id": "blueforest-20260730-25-046",
@@ -90669,7 +94744,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈaɪnti/"
   },
   {
     "id": "blueforest-20260730-25-047",
@@ -90692,7 +94768,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈiðɝ/"
   },
   {
     "id": "blueforest-20260730-25-048",
@@ -90715,7 +94792,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈɛvɝ/"
   },
   {
     "id": "blueforest-20260730-25-049",
@@ -90738,7 +94816,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈɑt/"
   },
   {
     "id": "blueforest-20260730-25-050",
@@ -90761,7 +94840,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tʃˈæns/"
   },
   {
     "id": "cet-20260730-20-001",
@@ -90784,7 +94864,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/skˈɛrsli/"
   },
   {
     "id": "cet-20260730-20-003",
@@ -90807,7 +94888,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈɛrli/"
   },
   {
     "id": "cet-20260730-20-004",
@@ -90830,7 +94912,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rˈɛrʌti/"
   },
   {
     "id": "cet-20260730-20-006",
@@ -90853,7 +94936,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈædʌkwʌsi/"
   },
   {
     "id": "cet-20260730-20-007",
@@ -90876,7 +94960,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈædʌkwʌtli/"
   },
   {
     "id": "cet-20260730-20-008",
@@ -90899,7 +94984,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪkwˈɪvʌlʌnt/"
   },
   {
     "id": "cet-20260730-20-009",
@@ -90922,7 +95008,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪkwˈɪvʌlʌns/"
   },
   {
     "id": "cet-20260730-20-012",
@@ -90946,7 +95033,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪkwˈeɪʒʌn/"
   },
   {
     "id": "cet-20260730-20-013",
@@ -90969,7 +95057,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪnfluˈɛnzʌ/"
   },
   {
     "id": "cet-20260730-20-014",
@@ -90992,7 +95081,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪɡzˈɝt/"
   },
   {
     "id": "cet-20260730-20-015",
@@ -91015,7 +95105,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪɡzˈɝʃʌn/"
   },
   {
     "id": "cet-20260730-20-017",
@@ -91038,7 +95129,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/flˈuʌnsi/"
   },
   {
     "id": "cet-20260730-20-018",
@@ -91061,7 +95153,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæfluʌnt/"
   },
   {
     "id": "cet-20260730-20-019",
@@ -91084,7 +95177,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈæfluʌns/"
   },
   {
     "id": "cet-20260730-20-021",
@@ -91107,7 +95201,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/skˈɛrs/"
   },
   {
     "id": "cet-20260730-20-022",
@@ -91130,7 +95225,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/skˈɛrsɪti/"
   },
   {
     "id": "cet-20260730-20-023",
@@ -91153,7 +95249,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈeɪd/"
   },
   {
     "id": "cet-20260730-20-024",
@@ -91176,7 +95273,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑmpækt/"
   },
   {
     "id": "cet-20260730-20-028",
@@ -91199,7 +95297,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɛns/"
   },
   {
     "id": "cet-20260730-20-029",
@@ -91222,7 +95321,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɛnsʌti/"
   },
   {
     "id": "cet-20260730-20-031",
@@ -91245,7 +95345,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˌɑndʌnsˈeɪʃʌn/"
   },
   {
     "id": "cet-20260730-20-032",
@@ -91268,7 +95369,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʃrˈɪŋk/"
   },
   {
     "id": "cet-20260730-20-033",
@@ -91291,7 +95393,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/skwˈiz/"
   },
   {
     "id": "cet-20260730-20-034",
@@ -91314,7 +95417,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/plˈɑt/"
   },
   {
     "id": "cet-20260730-20-036",
@@ -91337,7 +95441,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪnflˈeɪt/"
   },
   {
     "id": "cet-20260730-20-038",
@@ -91360,7 +95465,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪsplˈeɪ/"
   },
   {
     "id": "cet-20260730-20-039",
@@ -91383,7 +95489,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/frˈiz/"
   },
   {
     "id": "cet-20260730-20-042",
@@ -91406,7 +95513,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/brˈiz/"
   },
   {
     "id": "cet-20260730-20-043",
@@ -91429,7 +95537,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/proʊhˈɪbʌt/"
   },
   {
     "id": "cet-20260730-20-044",
@@ -91452,7 +95561,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prˌoʊʌbˈɪʃʌn/"
   },
   {
     "id": "cet-20260730-20-045",
@@ -91475,7 +95585,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/proʊhˈɪbʌtɪv/"
   },
   {
     "id": "cet-20260730-20-046",
@@ -91498,7 +95609,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪɡzˈɪbɪt/"
   },
   {
     "id": "cet-20260730-20-047",
@@ -91521,7 +95633,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɛksʌbˈɪʃʌn/"
   },
   {
     "id": "cet-20260730-20-048",
@@ -91544,7 +95657,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fɝbˈɪd/"
   },
   {
     "id": "cet-20260730-20-049",
@@ -91567,7 +95681,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈɪd/"
   },
   {
     "id": "cet-20260730-20-050",
@@ -91590,7 +95705,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈɪdɪŋ/"
   },
   {
     "id": "cet-20260730-20-051",
@@ -91613,7 +95729,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈæn/"
   },
   {
     "id": "cet-20260730-20-052",
@@ -91636,7 +95753,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈænɝ/"
   },
   {
     "id": "phrase-practice-13-001",
@@ -91659,7 +95777,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌplˈaɪ ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-13-002",
@@ -91682,7 +95801,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prʌvˈaɪd ˌsʌmbədi wɪð ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-13-003",
@@ -91705,7 +95825,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/prʌvˈaɪd ˌsʌmθɪŋ fˈɔr ˌsʌmbədi/"
   },
   {
     "id": "phrase-practice-13-004",
@@ -91728,7 +95849,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɔfɝ ˌsʌmθɪŋ tə ˌsʌmbədi/"
   },
   {
     "id": "phrase-practice-13-005",
@@ -91751,7 +95873,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɔfɝ ˌsʌmbədi ˌsʌmθɪŋ/"
   },
   {
     "id": "phrase-practice-13-006",
@@ -91774,7 +95897,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/lˈɛs ðˈæn/"
   },
   {
     "id": "phrase-practice-13-007",
@@ -91797,7 +95921,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/nˈoʊ mˈɔr ðˈæn/"
   },
   {
     "id": "phrase-practice-13-008",
@@ -91820,7 +95945,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɔr ðˈæn/"
   },
   {
     "id": "phrase-practice-13-009",
@@ -91843,7 +95969,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈi fˈeɪmʌs / nˈoʊn ˈæz/"
   },
   {
     "id": "phrase-practice-13-010",
@@ -91866,7 +95993,8 @@ window.WORD_MEMORY_WORDS = [
       "短语练习"
     ],
     "source": "短语练习",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈi fˈeɪmʌs / nˈoʊn fˈɔr/"
   },
   {
     "id": "blueforest-20260731-26-001",
@@ -91889,7 +96017,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈɛr/"
   },
   {
     "id": "blueforest-20260731-26-002",
@@ -91912,7 +96041,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈeɪl/"
   },
   {
     "id": "blueforest-20260731-26-004",
@@ -91935,7 +96065,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈun/"
   },
   {
     "id": "blueforest-20260731-26-006",
@@ -91958,7 +96089,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈʌntri/"
   },
   {
     "id": "blueforest-20260731-26-007",
@@ -91981,7 +96113,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/wˈik/"
   },
   {
     "id": "blueforest-20260731-26-009",
@@ -92004,7 +96137,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛtbˌæk/"
   },
   {
     "id": "blueforest-20260731-26-010",
@@ -92027,7 +96161,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/hˈir/"
   },
   {
     "id": "blueforest-20260731-26-013",
@@ -92050,7 +96185,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bˈaɪbʌl/"
   },
   {
     "id": "blueforest-20260731-26-014",
@@ -92073,7 +96209,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈæns/"
   },
   {
     "id": "blueforest-20260731-26-016",
@@ -92096,7 +96233,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪɡrˈi/"
   },
   {
     "id": "blueforest-20260731-26-017",
@@ -92119,7 +96257,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈeɪt/"
   },
   {
     "id": "blueforest-20260731-26-018",
@@ -92142,7 +96281,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈɑfi/"
   },
   {
     "id": "blueforest-20260731-26-019",
@@ -92165,7 +96305,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈoʊl/"
   },
   {
     "id": "blueforest-20260731-26-020",
@@ -92188,7 +96329,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʃˈaʊɝ/"
   },
   {
     "id": "blueforest-20260731-26-021",
@@ -92202,16 +96344,19 @@ window.WORD_MEMORY_WORDS = [
     "nextReviewAt": "",
     "lastStudiedAt": "",
     "createdAt": "2026-07-31T08:00:00+08:00",
-    "updatedAt": "2026-07-31T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
     "history": [],
     "groups": [
-      "蓝色森林 26"
+      "蓝色森林 26",
+      "四级 22"
     ],
     "sources": [
-      "蓝色森林"
+      "蓝色森林",
+      "四级"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dɪvˈaɪd/"
   },
   {
     "id": "blueforest-20260731-26-023",
@@ -92234,7 +96379,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/brˈæɡ/"
   },
   {
     "id": "blueforest-20260731-26-024",
@@ -92257,7 +96403,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈi/"
   },
   {
     "id": "blueforest-20260731-26-026",
@@ -92280,7 +96427,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛnʌmi/"
   },
   {
     "id": "blueforest-20260731-26-028",
@@ -92303,7 +96451,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈæp/"
   },
   {
     "id": "blueforest-20260731-26-029",
@@ -92326,7 +96475,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/bʌnˈænʌ/"
   },
   {
     "id": "blueforest-20260731-26-030",
@@ -92349,7 +96499,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mˈɑnjumʌnt/"
   },
   {
     "id": "blueforest-20260731-26-031",
@@ -92372,7 +96523,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mjunˈɪsʌpʌl/"
   },
   {
     "id": "blueforest-20260731-26-033",
@@ -92395,7 +96547,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈæri/"
   },
   {
     "id": "blueforest-20260731-26-036",
@@ -92418,7 +96571,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/krˈɔs/"
   },
   {
     "id": "blueforest-20260731-26-037",
@@ -92441,7 +96595,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔr/"
   },
   {
     "id": "blueforest-20260731-26-038",
@@ -92464,7 +96619,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/klˈɑk/"
   },
   {
     "id": "blueforest-20260731-26-039",
@@ -92487,7 +96643,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/drˈʌɡ/"
   },
   {
     "id": "blueforest-20260731-26-040",
@@ -92510,7 +96667,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kˈeɪk/"
   },
   {
     "id": "blueforest-20260731-26-041",
@@ -92533,7 +96691,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈɔl/"
   },
   {
     "id": "blueforest-20260731-26-042",
@@ -92556,7 +96715,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/strˈeɪtfˈɔrwɝd/"
   },
   {
     "id": "blueforest-20260731-26-044",
@@ -92579,7 +96739,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˈɛks rˈeɪ/"
   },
   {
     "id": "blueforest-20260731-26-047",
@@ -92602,7 +96763,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/zˈu/"
   },
   {
     "id": "blueforest-20260731-26-048",
@@ -92625,7 +96787,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʃˈɛr/"
   },
   {
     "id": "blueforest-20260731-26-049",
@@ -92648,7 +96811,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/stˈɑkɪŋ/"
   },
   {
     "id": "blueforest-20260731-26-050",
@@ -92671,7 +96835,8 @@ window.WORD_MEMORY_WORDS = [
       "蓝色森林"
     ],
     "source": "蓝色森林",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈoʊfʌ/"
   },
   {
     "id": "cet-20260731-21-001",
@@ -92694,7 +96859,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɛntɝtˈeɪnmʌnt/"
   },
   {
     "id": "cet-20260731-21-002",
@@ -92717,7 +96883,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɛntɝtˈeɪnɪŋ/"
   },
   {
     "id": "cet-20260731-21-003",
@@ -92740,7 +96907,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌstˈeɪn/"
   },
   {
     "id": "cet-20260731-21-004",
@@ -92763,7 +96931,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌstˈeɪnʌbʌl/"
   },
   {
     "id": "cet-20260731-21-005",
@@ -92786,7 +96955,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sʌstˌeɪnʌbˈɪlɪti/"
   },
   {
     "id": "cet-20260731-21-007",
@@ -92809,7 +96979,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/əbˈteɪnmənt/"
   },
   {
     "id": "cet-20260731-21-008",
@@ -92832,7 +97003,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/rɪtˈeɪn/"
   },
   {
     "id": "cet-20260731-21-009",
@@ -92855,7 +97027,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ritˈɛnʃʌn/"
   },
   {
     "id": "cet-20260731-21-012",
@@ -92878,7 +97051,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɛntɝtˈeɪn/"
   },
   {
     "id": "cet-20260731-21-013",
@@ -92901,7 +97075,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɝti/"
   },
   {
     "id": "cet-20260731-21-014",
@@ -92924,7 +97099,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɝt/"
   },
   {
     "id": "cet-20260731-21-018",
@@ -92947,7 +97123,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌntˈeɪn/"
   },
   {
     "id": "cet-20260731-21-019",
@@ -92970,7 +97147,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌntˈeɪnɝ/"
   },
   {
     "id": "cet-20260731-21-020",
@@ -92993,7 +97171,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌntˈeɪnmʌnt/"
   },
   {
     "id": "cet-20260731-21-022",
@@ -93016,7 +97195,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/kʌntˌæmʌnˈeɪʃʌn/"
   },
   {
     "id": "cet-20260731-21-024",
@@ -93039,7 +97219,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/vaɪtˈælʌti/"
   },
   {
     "id": "cet-20260731-21-025",
@@ -93062,7 +97243,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/krˈuʃʌl/"
   },
   {
     "id": "cet-20260731-21-026",
@@ -93085,7 +97267,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌtˈeɪn/"
   },
   {
     "id": "cet-20260731-21-027",
@@ -93108,7 +97291,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ʌtˈeɪnmʌnt/"
   },
   {
     "id": "cet-20260731-21-029",
@@ -93131,7 +97315,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɪdʒʌtʌl/"
   },
   {
     "id": "cet-20260731-21-030",
@@ -93154,7 +97339,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/dˈɪdʒʌt/"
   },
   {
     "id": "cet-20260731-21-034",
@@ -93177,7 +97363,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/mɛntˈælʌti/"
   },
   {
     "id": "cet-20260731-21-036",
@@ -93200,7 +97387,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fˈeɪtʌl/"
   },
   {
     "id": "cet-20260731-21-037",
@@ -93223,7 +97411,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/fʌtˈælɪti/"
   },
   {
     "id": "cet-20260731-21-038",
@@ -93246,7 +97435,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛnsɝ/"
   },
   {
     "id": "cet-20260731-21-039",
@@ -93269,7 +97459,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛnsʌtɪv/"
   },
   {
     "id": "cet-20260731-21-040",
@@ -93292,7 +97483,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˌɛnsɪtˈɪvɪti/"
   },
   {
     "id": "cet-20260731-21-042",
@@ -93315,7 +97507,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/sˈɛnsʌbʌl/"
   },
   {
     "id": "cet-20260731-21-043",
@@ -93338,7 +97531,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪntˈɛnsɪv/"
   },
   {
     "id": "cet-20260731-21-044",
@@ -93361,7 +97555,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ˌɪntˈɛns/"
   },
   {
     "id": "cet-20260731-21-045",
@@ -93384,7 +97579,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪntˈɛnsʌti/"
   },
   {
     "id": "cet-20260731-21-046",
@@ -93407,7 +97603,8 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/ɪntˈɛnsʌfˌaɪ/"
   },
   {
     "id": "cet-20260731-21-052",
@@ -93430,6 +97627,1785 @@ window.WORD_MEMORY_WORDS = [
       "四级"
     ],
     "source": "四级",
-    "forms": {}
+    "forms": {},
+    "phonetic": "/tˈɛnʃʌn/"
+  },
+  {
+    "id": "phrase-practice-14-001",
+    "term": "prefer doing A to doing B",
+    "meaning": "相比做B更喜欢做A",
+    "phrase": "I prefer reading books to watching TV.｜我喜欢读书胜过看电视。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/prɪˈfɝ ˈduɪŋ eɪ tə ˈduɪŋ bi/"
+  },
+  {
+    "id": "phrase-practice-14-002",
+    "term": "economic growth",
+    "meaning": "经济增长",
+    "phrase": "New technology helps economic growth.｜新技术有助于经济增长。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/ˌɛkəˈnɑmɪk ɡroʊθ/"
+  },
+  {
+    "id": "phrase-practice-14-003",
+    "term": "prefer A to B",
+    "meaning": "相比B更喜欢A",
+    "phrase": "I prefer tea to coffee.｜比起咖啡，我更喜欢茶。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/prɪˈfɝ eɪ tə bi/"
+  },
+  {
+    "id": "phrase-practice-14-004",
+    "term": "economic development",
+    "meaning": "经济发展",
+    "phrase": "Good education is important for economic development.｜良好的教育对经济发展很重要。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/ˌɛkəˈnɑmɪk dɪˈvɛləpmənt/"
+  },
+  {
+    "id": "phrase-practice-14-005",
+    "term": "national economy",
+    "meaning": "国民经济",
+    "phrase": "Tourism is important to the national economy.｜旅游业对国民经济很重要。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/ˈnæʃənəl ɪˈkɑnəmi/"
+  },
+  {
+    "id": "phrase-practice-14-006",
+    "term": "make a difference (to sth.)",
+    "meaning": "对……产生影响；有作用",
+    "phrase": "Your help can make a big difference to the project.｜你的帮助能对这个项目产生很大影响。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/meɪk ə ˈdɪfrəns tə ˌsʌmθɪŋ/"
+  },
+  {
+    "id": "phrase-practice-14-007",
+    "term": "be different from",
+    "meaning": "和……不同",
+    "phrase": "My opinion is different from yours.｜我的观点和你的不同。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/bi ˈdɪfrənt frəm/"
+  },
+  {
+    "id": "phrase-practice-14-008",
+    "term": "to be honest",
+    "meaning": "坦白来说",
+    "phrase": "To be honest, I didn't like the movie.｜坦白说，我不喜欢这部电影。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/tə bi ˈɑnɪst/"
+  },
+  {
+    "id": "phrase-practice-14-009",
+    "term": "put into (use)",
+    "meaning": "投入（使用）；放入",
+    "phrase": "We should put this new method into use.｜我们应该把这种新方法投入使用。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/pʊt ˈɪntu jus/"
+  },
+  {
+    "id": "phrase-practice-14-010",
+    "term": "supply sth. to sb.",
+    "meaning": "给某人提供某物",
+    "phrase": "The school supplies books to students.｜学校给学生提供书籍。",
+    "note": "来源：2026-08-01 蓝色森林专升本短语例句卡片；保留原例句与独立学习进度。",
+    "tag": "短语练习 14 / 蓝色森林专升本短语",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "短语练习 14"
+    ],
+    "sources": [
+      "短语练习"
+    ],
+    "source": "短语练习",
+    "forms": {},
+    "phonetic": "/səˈplaɪ ˌsʌmθɪŋ tə ˌsʌmbədi/"
+  },
+  {
+    "id": "blueforest-20260801-27-001",
+    "term": "glove",
+    "meaning": "n. 手套；v. 给……戴手套",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ɡlˈʌv/"
+  },
+  {
+    "id": "blueforest-20260801-27-005",
+    "term": "cafe",
+    "meaning": "n. 咖啡馆；小餐馆",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/kəfˈeɪ/"
+  },
+  {
+    "id": "blueforest-20260801-27-006",
+    "term": "monkey",
+    "meaning": "n. 猴子；v. 胡闹",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/mˈʌŋki/"
+  },
+  {
+    "id": "blueforest-20260801-27-007",
+    "term": "nobody",
+    "meaning": "pron. 没有人；n. 无名小卒，小人物",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/nˈoʊbˌɑdˌi/"
+  },
+  {
+    "id": "blueforest-20260801-27-008",
+    "term": "kite",
+    "meaning": "n. 风筝；鸢；v. 骗取",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/kˈaɪt/"
+  },
+  {
+    "id": "blueforest-20260801-27-009",
+    "term": "on",
+    "meaning": "prep. 在……上；关于；通过；adv. 向前，开着",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ˈɑn/"
+  },
+  {
+    "id": "blueforest-20260801-27-010",
+    "term": "pardon",
+    "meaning": "vt./n. 原谅；宽恕",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/pˈɑrdən/"
+  },
+  {
+    "id": "blueforest-20260801-27-011",
+    "term": "passport",
+    "meaning": "n. 护照；获得成功的手段",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/pˈæspˌɔrt/"
+  },
+  {
+    "id": "blueforest-20260801-27-012",
+    "term": "physics",
+    "meaning": "n. 物理学",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/fˈɪzɪks/"
+  },
+  {
+    "id": "blueforest-20260801-27-013",
+    "term": "should",
+    "meaning": "modal v. 应该；应当；可能",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ʃˈʊd/"
+  },
+  {
+    "id": "blueforest-20260801-27-015",
+    "term": "possible",
+    "meaning": "adj. 可能的；可行的；n. 可能的人或事",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/pˈɑsəbəl/"
+  },
+  {
+    "id": "blueforest-20260801-27-016",
+    "term": "tail",
+    "meaning": "n. 尾巴；末端；v. 跟踪",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/tˈeɪl/"
+  },
+  {
+    "id": "blueforest-20260801-27-017",
+    "term": "inherit",
+    "meaning": "vt./vi. 继承；经遗传获得",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27",
+      "四级 22"
+    ],
+    "sources": [
+      "蓝色森林",
+      "四级"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ˌɪnhˈɛrət/"
+  },
+  {
+    "id": "blueforest-20260801-27-018",
+    "term": "silver",
+    "meaning": "n. 银；银器；银色；adj. 银色的",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/sˈɪlvɚ/"
+  },
+  {
+    "id": "blueforest-20260801-27-020",
+    "term": "dentist",
+    "meaning": "n. 牙医",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/dˈɛntəst/"
+  },
+  {
+    "id": "blueforest-20260801-27-024",
+    "term": "eat",
+    "meaning": "vt./vi. 吃；用餐",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ˈit/"
+  },
+  {
+    "id": "blueforest-20260801-27-026",
+    "term": "each",
+    "meaning": "det./pron. 每个；各自；adv. 每个地",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ˈitʃ/"
+  },
+  {
+    "id": "blueforest-20260801-27-027",
+    "term": "father",
+    "meaning": "n. 父亲；祖先；创始人",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/fˈɑðɚ/"
+  },
+  {
+    "id": "blueforest-20260801-27-028",
+    "term": "fifty",
+    "meaning": "num. 五十；五十个",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/fˈɪfti/"
+  },
+  {
+    "id": "blueforest-20260801-27-031",
+    "term": "subjective",
+    "meaning": "adj. 主观的；个人的",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/səbdʒˈɛktɪv/"
+  },
+  {
+    "id": "blueforest-20260801-27-032",
+    "term": "another",
+    "meaning": "det./pron. 另一个；又一个",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ənˈʌðɚ/"
+  },
+  {
+    "id": "blueforest-20260801-27-034",
+    "term": "undoubtedly",
+    "meaning": "adv. 毫无疑问地；肯定地",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/əndˈaʊtɪdli/"
+  },
+  {
+    "id": "blueforest-20260801-27-035",
+    "term": "chocolate",
+    "meaning": "n. 巧克力；巧克力糖；adj. 巧克力色的",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/tʃˈɔklət/"
+  },
+  {
+    "id": "blueforest-20260801-27-037",
+    "term": "school",
+    "meaning": "n. 学校；学派；v. 教育，训练",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/skˈul/"
+  },
+  {
+    "id": "blueforest-20260801-27-038",
+    "term": "await",
+    "meaning": "vt. 等待；期待",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/əwˈeɪt/"
+  },
+  {
+    "id": "blueforest-20260801-27-039",
+    "term": "five",
+    "meaning": "num. 五；五个",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/fˈaɪv/"
+  },
+  {
+    "id": "blueforest-20260801-27-040",
+    "term": "ever",
+    "meaning": "adv. 曾经；在任何时候；总是",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ˈɛvɚ/"
+  },
+  {
+    "id": "blueforest-20260801-27-041",
+    "term": "search",
+    "meaning": "v./n. 搜索；搜寻",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/sˈɝtʃ/"
+  },
+  {
+    "id": "blueforest-20260801-27-043",
+    "term": "beef",
+    "meaning": "n. 牛肉；抱怨；v. 抱怨",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/bˈif/"
+  },
+  {
+    "id": "blueforest-20260801-27-045",
+    "term": "candy",
+    "meaning": "n. 糖果；v. 用糖煮",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/kˈændi/"
+  },
+  {
+    "id": "blueforest-20260801-27-046",
+    "term": "celebrate",
+    "meaning": "v. 庆祝；赞美",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/sˈɛləbrˌeɪt/"
+  },
+  {
+    "id": "blueforest-20260801-27-047",
+    "term": "by",
+    "meaning": "prep. 在……旁；由；通过；不迟于；adv. 经过",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/bˈaɪ/"
+  },
+  {
+    "id": "blueforest-20260801-27-048",
+    "term": "cheese",
+    "meaning": "n. 奶酪；干酪",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/tʃˈiz/"
+  },
+  {
+    "id": "blueforest-20260801-27-049",
+    "term": "underground",
+    "meaning": "adj./adv. 地下的；秘密的；n. 地铁；地下组织",
+    "phrase": "",
+    "note": "来源：2026-08-01 蓝色森林词表截图；归入蓝色森林 27。",
+    "tag": "蓝色森林 27 / 蓝色森林词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "蓝色森林 27"
+    ],
+    "sources": [
+      "蓝色森林"
+    ],
+    "source": "蓝色森林",
+    "forms": {},
+    "phonetic": "/ˈʌndɚɡrˌaʊnd/"
+  },
+  {
+    "id": "cet-20260801-22-005",
+    "term": "remainder",
+    "meaning": "n. 剩余部分；剩余物；余数",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/rɪmˈeɪndɚ/"
+  },
+  {
+    "id": "cet-20260801-22-007",
+    "term": "inheritance",
+    "meaning": "n. 遗产；遗传特征；传承物",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/ˌɪnhˈɛrətəns/"
+  },
+  {
+    "id": "cet-20260801-22-008",
+    "term": "heritage",
+    "meaning": "n. （国家或社会的）遗产；传统",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/hˈɛrətədʒ/"
+  },
+  {
+    "id": "cet-20260801-22-012",
+    "term": "canal",
+    "meaning": "n. 运河；管道",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/kənˈæl/"
+  },
+  {
+    "id": "cet-20260801-22-014",
+    "term": "privacy",
+    "meaning": "n. 隐私；独处；清静",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/prˈaɪvəsi/"
+  },
+  {
+    "id": "cet-20260801-22-015",
+    "term": "privatize",
+    "meaning": "vt. 使私有化",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/prˈɪvətˌaɪz/"
+  },
+  {
+    "id": "cet-20260801-22-016",
+    "term": "privatization",
+    "meaning": "n. 私有化；私营化",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/prˈaɪvətəzˈeɪʃən/"
+  },
+  {
+    "id": "cet-20260801-22-018",
+    "term": "divisive",
+    "meaning": "adj. 造成不和的；引起分歧的",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/dɪvˈaɪsɪv/"
+  },
+  {
+    "id": "cet-20260801-22-023",
+    "term": "lodging",
+    "meaning": "n. 寄宿处；租住的房间",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/lˈɑdʒɪŋ/"
+  },
+  {
+    "id": "cet-20260801-22-025",
+    "term": "individualism",
+    "meaning": "n. 个人主义",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/ˌɪndɪvɪdˈuəlˌɪzəm/"
+  },
+  {
+    "id": "cet-20260801-22-027",
+    "term": "division",
+    "meaning": "n. 分开；分配；分歧；除法；部门",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/dɪvˈɪʒən/"
+  },
+  {
+    "id": "cet-20260801-22-028",
+    "term": "damp",
+    "meaning": "adj. 潮湿的；n. 潮湿；湿气；vt. 使潮湿；抑制",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/dˈæmp/"
+  },
+  {
+    "id": "cet-20260801-22-029",
+    "term": "dampen",
+    "meaning": "vt. 减弱；抑制；弄湿",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/dˈæmpən/"
+  },
+  {
+    "id": "cet-20260801-22-030",
+    "term": "damage",
+    "meaning": "n. 损害；损坏；损害赔偿金；vt. 损害；伤害",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/dˈæmədʒ/"
+  },
+  {
+    "id": "cet-20260801-22-031",
+    "term": "cottage",
+    "meaning": "n. 乡间小屋；村舍",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/kˈɑtədʒ/"
+  },
+  {
+    "id": "cet-20260801-22-032",
+    "term": "lodge",
+    "meaning": "n. 乡间小屋；门房；传达室；vi. 住宿；投宿；vt. 提供住宿；正式提出",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/lˈɑdʒ/"
+  },
+  {
+    "id": "cet-20260801-22-033",
+    "term": "moisture",
+    "meaning": "n. 潮气；湿气；水分",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/mˈɔɪstʃɚ/"
+  },
+  {
+    "id": "cet-20260801-22-034",
+    "term": "render",
+    "meaning": "vt. 使变得；给予；提供；表达；翻译",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/rˈɛndɚ/"
+  },
+  {
+    "id": "cet-20260801-22-035",
+    "term": "rendering",
+    "meaning": "n. 演绎；演奏；翻译；描述",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/rˈɛndɚɪŋ/"
+  },
+  {
+    "id": "cet-20260801-22-036",
+    "term": "chill",
+    "meaning": "n. 寒冷；寒意；vt. 使寒冷；使恐惧；vi. 冷却；放松；adj. 寒冷的；冷淡的",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/tʃˈɪl/"
+  },
+  {
+    "id": "cet-20260801-22-037",
+    "term": "chilly",
+    "meaning": "adj. 寒冷的；冷淡的；不友好的",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/tʃˈɪli/"
+  },
+  {
+    "id": "cet-20260801-22-038",
+    "term": "humble",
+    "meaning": "adj. 谦逊的；卑微的；不起眼的；vt. 使感到卑微",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/hˈʌmbəl/"
+  },
+  {
+    "id": "cet-20260801-22-039",
+    "term": "humbly",
+    "meaning": "adv. 谦逊地；谦恭地",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/hˈʌmbli/"
+  },
+  {
+    "id": "cet-20260801-22-040",
+    "term": "humor",
+    "meaning": "n. 幽默；心情；情绪；vt. 迎合；迁就",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/hjˈumɚ/"
+  },
+  {
+    "id": "cet-20260801-22-042",
+    "term": "moist",
+    "meaning": "adj. 湿润的；潮湿的",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/mˈɔɪst/"
+  },
+  {
+    "id": "cet-20260801-22-044",
+    "term": "concrete",
+    "meaning": "adj. 确实的；具体的；混凝土制的；n. 混凝土",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/kənkrˈit/"
+  },
+  {
+    "id": "cet-20260801-22-045",
+    "term": "clay",
+    "meaning": "n. 黏土；陶土",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/klˈeɪ/"
+  },
+  {
+    "id": "cet-20260801-22-047",
+    "term": "humanity",
+    "meaning": "n. 人类；人性；人道；人文学科",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/hjumˈænɪti/"
+  },
+  {
+    "id": "cet-20260801-22-050",
+    "term": "creation",
+    "meaning": "n. 创造；创立；创造物；创世",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/kriˈeɪʃən/"
+  },
+  {
+    "id": "cet-20260801-22-052",
+    "term": "creator",
+    "meaning": "n. 创造者；创作者；造物主",
+    "phrase": "",
+    "note": "来源：2026-08-01 明确标注“英语四级”的词表截图；归入四级 22。",
+    "tag": "四级 22 / 英语四级词表",
+    "status": "new",
+    "stage": -1,
+    "nextReviewAt": "",
+    "lastStudiedAt": "",
+    "createdAt": "2026-08-01T08:00:00+08:00",
+    "updatedAt": "2026-08-01T08:00:00+08:00",
+    "history": [],
+    "groups": [
+      "四级 22"
+    ],
+    "sources": [
+      "四级"
+    ],
+    "source": "四级",
+    "forms": {},
+    "phonetic": "/kriˈeɪtɚ/"
   }
 ];

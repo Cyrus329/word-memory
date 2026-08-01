@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=70b00920260731">
+  <link rel="stylesheet" href="./styles.css?v=70b01320260801">
 </head>
 <body>
   <div class="app-shell">
@@ -24,6 +24,14 @@
         <button class="secondary-button" id="weakOnlyButton"><span aria-hidden="true">★</span> 只背不会的</button>
       </div>
     </header>
+    <button class="mobile-focus-entry" id="mobileFocusEntry" type="button" aria-describedby="mobileFocusEntryHint">
+      <span class="mobile-focus-entry-copy">
+        <span class="mobile-focus-entry-kicker">专注模式</span>
+        <strong>手机背词</strong>
+        <small id="mobileFocusEntryHint">一屏一词，滑动切换，按记忆程度作答</small>
+      </span>
+      <span class="mobile-focus-entry-cta">开始 →</span>
+    </button>
     <div class="readonly-banner" id="readonlyBanner" hidden></div>
 
     <main class="workspace">
@@ -393,17 +401,53 @@
     <p id="gazeStatus">已关闭。当前版本恢复稳定按钮操作，避免乱识别。</p>
     <div class="gaze-zones"><span>已移除手指翻词</span><span>显示词义按钮已恢复</span><span>优先保证记忆记录稳定</span></div>
   </div>
+  <section class="mobile-focus-mode" id="mobileFocusMode" role="dialog" aria-modal="true" aria-label="手机背词专注模式" hidden>
+    <header class="mobile-focus-header">
+      <button class="mobile-focus-exit" id="mobileFocusExit" type="button" aria-label="退出手机背词模式">退出</button>
+      <div class="mobile-focus-heading">
+        <strong id="mobileFocusTitle">手机背词</strong>
+        <span id="mobileFocusSource">当前词库</span>
+      </div>
+      <strong class="mobile-focus-count" id="mobileFocusCount">0 / 0</strong>
+    </header>
+    <div class="mobile-focus-progress" id="mobileFocusProgress" role="progressbar" aria-label="背词进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <span id="mobileFocusProgressFill"></span>
+    </div>
+    <div class="mobile-focus-stage" id="mobileFocusStage">
+      <article class="mobile-focus-card" id="mobileFocusCard" role="button" aria-expanded="false" tabindex="0">
+        <button class="mobile-focus-audio" id="mobileFocusAudio" type="button" aria-label="朗读当前单词">🔊</button>
+        <p class="mobile-focus-kicker" id="mobileFocusKicker">看英文，回想中文</p>
+        <h2 class="mobile-focus-term" id="mobileFocusTerm">单词</h2>
+        <p class="mobile-focus-phonetic" id="mobileFocusPhonetic"></p>
+        <div class="mobile-focus-answer" id="mobileFocusAnswer" hidden>
+          <p class="mobile-focus-meaning" id="mobileFocusMeaning"></p>
+          <p class="mobile-focus-detail" id="mobileFocusDetail"></p>
+        </div>
+        <p class="mobile-focus-tip" id="mobileFocusTip">点击卡片看答案 · 左右滑动切换</p>
+      </article>
+      <div class="mobile-focus-empty" id="mobileFocusEmpty" hidden>
+        <strong>这一组已经背完了</strong>
+        <p>退出后可选择其他词库继续学习。</p>
+      </div>
+    </div>
+    <footer class="mobile-focus-actions" aria-label="记忆程度">
+      <button class="mobile-focus-rate forgot" type="button" data-mobile-focus-rate="forgot"><strong>忘了</strong><small>重新学习</small></button>
+      <button class="mobile-focus-rate fuzzy" type="button" data-mobile-focus-rate="fuzzy"><strong>模糊</strong><small>加强复习</small></button>
+      <button class="mobile-focus-rate remember" type="button" data-mobile-focus-rate="remember"><strong>记得</strong><small>继续前进</small></button>
+    </footer>
+  </section>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./library-folder-data.js?v=70b00920260731"></script>
-  <script src="./word-data.js?v=70b00920260731"></script>
-  <script src="./context-engine.js?v=70b00920260731"></script>
-  <script src="./context-data.js?v=70b00920260731"></script>
-  <script src="./context-id-data.js?v=70b00920260731"></script>
-  <script src="./context-presenter.js?v=70b00920260731"></script>
-  <script src="./context-study-engine.js?v=70b00920260731"></script>
-  <script src="./app.js?v=70b00920260731"></script>
-  <script src="./folder-view.js?v=70b00920260731"></script>
-  <script src="./smart-vocab.js?v=70b00920260731"></script>
+  <script src="./library-folder-data.js?v=70b01220260801"></script>
+  <script src="./word-data.js?v=70b01220260801"></script>
+  <script src="./context-engine.js?v=70b01220260801"></script>
+  <script src="./context-data.js?v=70b01220260801"></script>
+  <script src="./context-id-data.js?v=70b01220260801"></script>
+  <script src="./context-presenter.js?v=70b01220260801"></script>
+  <script src="./context-study-engine.js?v=70b01220260801"></script>
+  <script src="./mobile-focus.js?v=70b01320260801"></script>
+  <script src="./app.js?v=70b01320260801"></script>
+  <script src="./folder-view.js?v=70b01220260801"></script>
+  <script src="./smart-vocab.js?v=70b01220260801"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));
