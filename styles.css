@@ -1251,6 +1251,25 @@ textarea:focus {
   }
 }
 
+@media (max-width: 520px) {
+  .mobile-focus-previous {
+    width: min(52%, 210px);
+    padding: 8px 9px;
+  }
+
+  .mobile-focus-previous span {
+    font-size: 10px;
+  }
+
+  .mobile-focus-previous strong {
+    font-size: 13px;
+  }
+
+  .mobile-focus-previous p {
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 760px) {
   .app-shell {
     padding: 16px;
@@ -3415,13 +3434,40 @@ textarea:focus {
   overflow-wrap: anywhere;
 }
 
-/* v70 B013：手机一屏一词专注模式，仅在移动端提供首页入口。 */
+/* v70 B014：手机与电脑共用的一屏一词专注模式。 */
 .mobile-focus-mode[hidden] {
   display: none !important;
 }
 
 .mobile-focus-entry {
-  display: none;
+  width: min(100%, 860px);
+  margin: 0 auto 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(18, 107, 103, 0.25);
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  background: linear-gradient(135deg, #dcefed, #fff);
+  color: var(--ink);
+  text-align: left;
+}
+
+.mobile-focus-entry-copy {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.mobile-focus-entry small {
+  color: var(--muted);
+}
+
+.mobile-focus-entry-cta {
+  color: var(--teal);
+  font-weight: 900;
+  white-space: nowrap;
 }
 
 body.mobile-focus-active {
@@ -3436,7 +3482,7 @@ body.mobile-focus-active {
   height: 100dvh;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  grid-template-rows: auto auto minmax(0, 1fr) auto auto;
   background: #f7f4ef;
   color: var(--ink);
   overscroll-behavior: contain;
@@ -3516,12 +3562,13 @@ body.mobile-focus-active {
   min-height: 0;
   padding: clamp(12px, 4vw, 22px);
   display: grid;
-  place-items: stretch;
+  place-items: center;
   overflow: hidden;
 }
 
 .mobile-focus-card {
   position: relative;
+  width: min(100%, 920px);
   min-width: 0;
   min-height: 0;
   padding: clamp(24px, 7vw, 42px) clamp(18px, 6vw, 34px);
@@ -3540,6 +3587,60 @@ body.mobile-focus-active {
   overscroll-behavior: contain;
 }
 
+.mobile-focus-previous {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  width: min(46%, 280px);
+  min-width: 0;
+  padding: 9px 11px;
+  border: 1px solid rgba(18, 107, 103, 0.18);
+  border-radius: 13px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 2px 8px;
+  background: rgba(238, 248, 247, 0.96);
+  box-shadow: 0 8px 20px rgba(45, 39, 30, 0.08);
+  text-align: left;
+  pointer-events: none;
+}
+
+.mobile-focus-previous[hidden] {
+  display: none !important;
+}
+
+.mobile-focus-previous span {
+  grid-row: 1 / span 2;
+  align-self: center;
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.mobile-focus-previous strong {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mobile-focus-previous p {
+  min-width: 0;
+  margin: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.25;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .mobile-focus-audio {
   position: absolute;
   top: 14px;
@@ -3553,7 +3654,7 @@ body.mobile-focus-active {
 }
 
 .mobile-focus-kicker {
-  margin: 8px 52px 16px;
+  margin: 60px 52px 16px;
   color: var(--teal);
   font-size: 13px;
   font-weight: 850;
@@ -3620,7 +3721,21 @@ body.mobile-focus-active {
   line-height: 1.6;
 }
 
+
+.mobile-focus-shared-note {
+  width: min(100%, 920px);
+  margin: 0 auto;
+  padding: 8px 16px 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.96);
+}
+
 .mobile-focus-actions {
+  width: min(100%, 920px);
+  margin: 0 auto;
   padding: 12px 12px calc(12px + env(safe-area-inset-bottom));
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -3660,33 +3775,26 @@ body.mobile-focus-active {
 @media (max-width: 760px) {
   .mobile-focus-entry {
     width: 100%;
-    margin: 0 0 18px;
+    margin-bottom: 18px;
     padding: 16px;
-    border: 1px solid rgba(18, 107, 103, 0.25);
-    border-radius: 16px;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: center;
-    gap: 14px;
-    background: linear-gradient(135deg, #dcefed, #fff);
-    color: var(--ink);
-    text-align: left;
   }
 
-  .mobile-focus-entry-copy {
-    min-width: 0;
-    display: grid;
-    gap: 3px;
+  .mobile-focus-shared-note {
+    padding-inline: 12px;
+  }
+}
+
+@media (min-width: 761px) {
+  .mobile-focus-mode {
+    background: linear-gradient(135deg, #f7f4ef, #eaf3f2);
   }
 
-  .mobile-focus-entry small {
-    color: var(--muted);
+  .mobile-focus-header {
+    padding-inline: max(24px, calc((100vw - 1120px) / 2));
   }
 
-  .mobile-focus-entry-cta {
-    color: var(--teal);
-    font-weight: 900;
-    white-space: nowrap;
+  .mobile-focus-card {
+    max-height: calc(100dvh - 230px);
   }
 }
 
@@ -3723,4 +3831,140 @@ body.mobile-focus-active {
   margin: 0;
   color: var(--muted);
   line-height: 1.6;
+}
+
+
+/* v70 B016：一屏一词新增“看中文拼英文”，与普通卡片共用记住/忘了存档。 */
+.mobile-focus-mode-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: min(720px, calc(100% - 28px));
+  margin: 12px auto 0;
+  padding: 6px;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.mobile-focus-mode-switch button {
+  min-height: 48px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  background: transparent;
+  color: #334155;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.mobile-focus-mode-switch button.is-active {
+  border-color: rgba(15, 118, 110, 0.32);
+  background: #dff4f1;
+  color: #0f766e;
+  box-shadow: 0 6px 18px rgba(15, 118, 110, 0.10);
+}
+
+.mobile-focus-term.is-chinese-prompt {
+  max-width: min(760px, 92%);
+  font-size: clamp(2rem, 6vw, 4.2rem);
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.mobile-focus-spelling {
+  width: min(680px, 92%);
+  margin: 20px auto 0;
+  padding: 18px;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 20px;
+  background: rgba(248, 250, 252, 0.92);
+}
+
+.mobile-focus-spelling[hidden] {
+  display: none !important;
+}
+
+.mobile-focus-spelling label {
+  display: block;
+  margin-bottom: 10px;
+  color: #475569;
+  font-weight: 800;
+}
+
+.mobile-focus-spelling input {
+  width: 100%;
+  min-height: 58px;
+  padding: 10px 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  background: #fff;
+  color: #0f172a;
+  font: inherit;
+  font-size: clamp(1.2rem, 3.5vw, 1.8rem);
+  text-align: center;
+  outline: none;
+}
+
+.mobile-focus-spelling input:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.12);
+}
+
+.mobile-focus-spelling-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.mobile-focus-spelling-actions button {
+  min-height: 48px;
+  border: 1px solid #cbd5e1;
+  border-radius: 13px;
+  background: #fff;
+  color: #0f172a;
+  font: inherit;
+  font-weight: 800;
+}
+
+#mobileFocusSpellingCheck {
+  border-color: #0f766e;
+  background: #0f766e;
+  color: #fff;
+}
+
+.mobile-focus-spelling-feedback {
+  min-height: 28px;
+  margin: 12px 0 0;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.mobile-focus-spelling-feedback.is-correct {
+  color: #15803d;
+}
+
+.mobile-focus-spelling-feedback.is-wrong {
+  color: #c2410c;
+}
+
+@media (max-width: 760px) {
+  .mobile-focus-mode-switch {
+    width: calc(100% - 20px);
+    margin-top: 8px;
+  }
+
+  .mobile-focus-mode-switch button {
+    min-height: 44px;
+    padding: 6px 8px;
+    font-size: 0.92rem;
+  }
+
+  .mobile-focus-spelling {
+    width: 96%;
+    margin-top: 14px;
+    padding: 14px;
+  }
 }

@@ -215,11 +215,31 @@ const BUILTIN_WORDS = Array.isArray(window.WORD_MEMORY_WORDS) ? window.WORD_MEMO
 const ALL_BUILTIN_WORDS = BUILTIN_WORDS;
 const BUILTIN_ID_ALIASES = (window.WORD_MEMORY_ID_ALIASES && typeof window.WORD_MEMORY_ID_ALIASES === "object") ? window.WORD_MEMORY_ID_ALIASES : {};
 let shouldPersistBuiltinWords = false;
+let restoredStudySession = null;
+
+function normalizeStudySessionSnapshot(value = {}) {
+  const source = value && typeof value === "object" ? value : {};
+  const allowedModes = new Set(["due", "new", "all", "weak"]);
+  return {
+    mode: allowedModes.has(source.mode) ? source.mode : "due",
+    activeGroup: normalizeText(source.activeGroup || "all") || "all",
+    activeId: normalizeText(source.activeId || "") || null,
+    savedAt: normalizeText(source.savedAt || source.updatedAt || ""),
+  };
+}
 
 const els = {
   mobileFocusEntry: document.querySelector("#mobileFocusEntry"),
   mobileFocusEntryHint: document.querySelector("#mobileFocusEntryHint"),
   mobileFocusMode: document.querySelector("#mobileFocusMode"),
+  mobileFocusModeSwitch: document.querySelector("#mobileFocusModeSwitch"),
+  mobileFocusKicker: document.querySelector("#mobileFocusKicker"),
+  mobileFocusTip: document.querySelector("#mobileFocusTip"),
+  mobileFocusSpelling: document.querySelector("#mobileFocusSpelling"),
+  mobileFocusSpellingInput: document.querySelector("#mobileFocusSpellingInput"),
+  mobileFocusSpellingCheck: document.querySelector("#mobileFocusSpellingCheck"),
+  mobileFocusSpellingClear: document.querySelector("#mobileFocusSpellingClear"),
+  mobileFocusSpellingFeedback: document.querySelector("#mobileFocusSpellingFeedback"),
   totalCount: document.querySelector("#totalCount"),
   totalStudyTime: document.querySelector("#totalStudyTime"),
   todayStudyTime: document.querySelector("#todayStudyTime"),
@@ -312,22 +332,30 @@ function createPracticeSessions(initialMode = "due") {
   }, {});
 }
 
+const initialWords = loadWords();
+const initialStudySession = normalizeStudySessionSnapshot(restoredStudySession || {});
+const initialPracticeSessions = createPracticeSessions(initialStudySession.mode);
+initialPracticeSessions.card = {
+  mode: initialStudySession.mode,
+  activeId: initialStudySession.activeId,
+};
+
 const state = {
-  words: loadWords(),
+  words: initialWords,
   settings: loadSettings(),
   studyTime: loadStudyTime(),
-  mode: "due",
+  mode: initialStudySession.mode,
   practiceMode: "card",
-  practiceSessions: createPracticeSessions(),
+  practiceSessions: initialPracticeSessions,
   dictationOrder: "due",
-  activeGroup: "all",
+  activeGroup: initialStudySession.activeGroup,
   sprint: {
     active: false,
     startedAt: "",
     endsAt: "",
     completed: 0,
   },
-  activeId: null,
+  activeId: initialStudySession.activeId,
   answerVisible: false,
   spellingDraft: "",
   spellingResult: null,
@@ -419,6 +447,41 @@ function setActiveId(id) {
   }
   state.activeId = nextId;
   ensurePracticeSession().activeId = state.activeId;
+}
+
+function captureStudySessionSnapshot() {
+  const cardSession = ensurePracticeSession("card");
+  if (state.practiceMode === "card") {
+    cardSession.mode = state.mode;
+    cardSession.activeId = state.activeId;
+  }
+  return normalizeStudySessionSnapshot({
+    mode: cardSession.mode || state.mode,
+    activeGroup: state.activeGroup,
+    activeId: cardSession.activeId ?? (state.practiceMode === "card" ? state.activeId : null),
+    savedAt: new Date().toISOString(),
+  });
+}
+
+function applyStudySessionSnapshot(value, options = {}) {
+  const snapshot = normalizeStudySessionSnapshot(value || {});
+  state.practiceMode = "card";
+  state.mode = snapshot.mode;
+  state.activeGroup = snapshot.activeGroup;
+  state.practiceSessions = state.practiceSessions && typeof state.practiceSessions === "object"
+    ? state.practiceSessions
+    : createPracticeSessions(snapshot.mode);
+  state.practiceSessions.card = {
+    mode: snapshot.mode,
+    activeId: snapshot.activeId,
+  };
+  state.activeId = snapshot.activeId;
+  state.answerVisible = false;
+  state.reviewUndo = null;
+  resetTypingState();
+  state.lastAutoSpokenId = null;
+  if (options.ensureValid !== false) chooseActiveWord(false);
+  return snapshot;
 }
 
 function setStudyMode(mode) {
@@ -1495,9 +1558,10 @@ function compactPayloadForStorage(words, options = {}) {
   });
   return {
     app: "专升本单词记忆",
-    version: 29,
+    version: 30,
     compact: true,
     savedAt: new Date().toISOString(),
+    studySession: captureStudySessionSnapshot(),
     dailyCompleted: normalizeDailyCompletedStore(dailyCompletedStore),
     contextStudy: normalizeContextStudyStore(contextStudyStore),
     progress,
@@ -1505,7 +1569,10 @@ function compactPayloadForStorage(words, options = {}) {
   };
 }
 
-function loadCompactWords(parsed) {
+function loadCompactWords(parsed, options = {}) {
+  if (options.captureSession !== false && parsed?.studySession) {
+    restoredStudySession = normalizeStudySessionSnapshot(parsed.studySession);
+  }
   if (parsed?.contextStudy) {
     contextStudyStore = mergeContextStudyStores(contextStudyStore, parsed.contextStudy);
     saveContextStudyStore();
@@ -1719,10 +1786,13 @@ async function hydrateWordsFromMobileDatabase() {
       const restoredWords = wordsFromStoredPayload(dbPayload);
       if (Array.isArray(restoredWords) && restoredWords.length) {
         state.words = restoredWords;
-        state.activeId = null;
-        state.answerVisible = false;
-        state.reviewUndo = null;
-        resetTypingState();
+        if (dbPayload?.studySession) applyStudySessionSnapshot(dbPayload.studySession);
+        else {
+          state.activeId = null;
+          state.answerVisible = false;
+          state.reviewUndo = null;
+          resetTypingState();
+        }
         render();
         showToast("已从手机大容量存档恢复学习记录");
       }
@@ -2209,7 +2279,7 @@ function cloudIncomingWords(data) {
   const compactCloud = incoming.find((item) => item && item.id === CLOUD_COMPACT_PAYLOAD_ID && item.data?.compact);
   if (compactCloud) {
     return {
-      words: loadCompactWords(compactCloud.data),
+      words: loadCompactWords(compactCloud.data, { captureSession: false }),
       studyTime: compactCloud.studyTime || null,
       compactCloud,
       incoming,
@@ -2225,7 +2295,7 @@ function cloudIncomingWords(data) {
   };
 }
 
-function mergeCloudDataIntoLocal(data) {
+function mergeCloudDataIntoLocal(data, options = {}) {
   const remote = cloudIncomingWords(data);
   const localWords = Array.isArray(state.words) ? state.words.map(normalizeWord) : [];
   // 本机记录放前面、云端记录放后面；真正胜负由 mergeProgressRecord 的最后操作时间决定。
@@ -2233,6 +2303,10 @@ function mergeCloudDataIntoLocal(data) {
   if (remote.studyTime) {
     state.studyTime = mergeStudyTimeForCloud(state.studyTime, remote.studyTime);
     saveStudyTime();
+  }
+  const remoteSession = remote.compactCloud?.data?.studySession;
+  if (options.applyStudySession && remoteSession) {
+    applyStudySessionSnapshot(remoteSession);
   }
   return remote;
 }
@@ -2346,7 +2420,7 @@ async function loadCloudToLocal(options = {}) {
     });
     // 加载云端时不再整包替换本机，而是逐词按最后操作时间合并。
     // 这样手机“忘了”和电脑旧的“31天”发生冲突时，较新的操作会保留。
-    mergeCloudDataIntoLocal(data);
+    const remote = mergeCloudDataIntoLocal(data, { applyStudySession: true });
     suppressCloudSync = true;
     if (!publicView) {
       saveWords({ skipCloud: true, immediate: true });
@@ -2361,8 +2435,10 @@ async function loadCloudToLocal(options = {}) {
       saveCloudConfig(state.cloud.config);
     }
     suppressCloudSync = false;
-    setActiveId(null);
-    resetTypingState();
+    if (!remote.compactCloud?.data?.studySession) {
+      setActiveId(null);
+      resetTypingState();
+    }
     render();
     if (!options.silent) {
       setCloudStatus(`已连接并加载 ${state.words.length} 个词条，自动同步已开启。`, "ok");
@@ -3548,20 +3624,40 @@ function sprintQueue(words = state.words.filter(wordMatchesActiveGroup)) {
   });
 }
 
+function withCardPracticeMode(callback) {
+  const previousMode = state.practiceMode;
+  state.practiceMode = "card";
+  ensurePracticeSession("card");
+  try {
+    return callback();
+  } finally {
+    state.practiceMode = previousMode;
+  }
+}
+
 function mobileFocusQueue() {
-  const queue = getQueue();
-  if (queue.length) return queue;
-  return sprintQueue(practiceEligibleWords(state.words.filter(wordMatchesActiveGroup)));
+  // 一屏一词就是普通卡片的另一种显示方式：严格使用当前卡片队列。
+  // 当前模式没有到期词时直接显示完成，不再退回全词库从头开始。
+  return withCardPracticeMode(() => getQueue());
 }
 
 function mobileFocusView(word) {
-  const view = practiceView(word);
   return {
     term: word.term,
     phonetic: extractWordPhonetic(word),
-    answer: view.answer,
-    example: view.extra || word.phrase,
+    answer: word.meaning || "未填中文",
+    example: word.phrase || word.note || "",
   };
+}
+
+function applySharedCardRating(id, result) {
+  const word = state.words.find((item) => item.id === id);
+  if (!word || !["remember", "fuzzy", "forgot"].includes(result)) return;
+
+  // 直接复用普通卡片的动作入口：同一 progress.card、同一 history、同一每日完成、同一云存档。
+  if (state.practiceMode !== "card") switchPracticeMode("card");
+  setActiveId(id);
+  handleCardAction(result);
 }
 
 let mobileFocusController = null;
@@ -3582,6 +3678,9 @@ function initializeMobileFocus() {
       exit: root.querySelector("#mobileFocusExit"),
       card: root.querySelector("#mobileFocusCard"),
       audio: root.querySelector("#mobileFocusAudio"),
+      previous: root.querySelector("#mobileFocusPrevious"),
+      previousTerm: root.querySelector("#mobileFocusPreviousTerm"),
+      previousMeaning: root.querySelector("#mobileFocusPreviousMeaning"),
       ratingButtons: Array.from(root.querySelectorAll("[data-mobile-focus-rate]")),
       count: root.querySelector("#mobileFocusCount"),
       progress: root.querySelector("#mobileFocusProgress"),
@@ -3595,8 +3694,23 @@ function initializeMobileFocus() {
       title: root.querySelector("#mobileFocusTitle"),
       empty: root.querySelector("#mobileFocusEmpty"),
       actions: root.querySelector(".mobile-focus-actions"),
+      modeButtons: Array.from(root.querySelectorAll("[data-mobile-focus-mode]")),
+      kicker: root.querySelector("#mobileFocusKicker"),
+      tip: root.querySelector("#mobileFocusTip"),
+      spelling: root.querySelector("#mobileFocusSpelling"),
+      spellingInput: root.querySelector("#mobileFocusSpellingInput"),
+      spellingCheck: root.querySelector("#mobileFocusSpellingCheck"),
+      spellingClear: root.querySelector("#mobileFocusSpellingClear"),
+      spellingFeedback: root.querySelector("#mobileFocusSpellingFeedback"),
     },
     queue: mobileFocusQueue,
+    activeId: () => ensurePracticeSession("card").activeId || state.activeId,
+    select: (id) => {
+      if (!id) return;
+      state.practiceMode = "card";
+      setActiveId(id);
+      saveWords();
+    },
     getWord: (id) => state.words.find((word) => word.id === id),
     view: mobileFocusView,
     renderAnswer: (view, answerElements) => {
@@ -3604,13 +3718,10 @@ function initializeMobileFocus() {
       if (answerElements.detail) answerElements.detail.textContent = view.example || "";
     },
     speak: (word) => speakTerm(word.term, { accent: "us" }),
-    rate: (id, result) => {
-      if (state.practiceMode !== "card") switchPracticeMode("card");
-      setActiveId(id);
-      handleCardAction(result);
-    },
-    source: () => state.activeGroup === "all" ? "全部词库" : state.activeGroup,
-    title: () => "手机背词",
+    rate: applySharedCardRating,
+    checkSpelling: (input, word) => isSpellingCorrect(input, word),
+    source: () => state.activeGroup === "all" ? "全部词库 · 与当前卡片完全同进度" : `${state.activeGroup} · 与当前卡片完全同进度`,
+    title: () => "一屏一词",
   });
 }
 
@@ -3969,8 +4080,8 @@ function renderDashboard() {
   if (els.mobileFocusEntryHint) {
     const focusCount = mobileFocusQueue().length;
     els.mobileFocusEntryHint.textContent = focusCount
-      ? `当前可背 ${focusCount} 词，一屏一词，滑动切换`
-      : "当前分组暂无待背词，进入后可查看完成状态";
+      ? `当前卡片队列 ${focusCount} 词；手机电脑恢复后停在同一进度`
+      : "当前分组暂无待背词；本模式与普通卡片共用存档";
   }
 }
 
@@ -5415,6 +5526,7 @@ function exportWords() {
     reviewSteps: REVIEW_STEPS.map((step) => step.label),
     exportedAt: new Date().toISOString(),
     studyTime: state.studyTime,
+    studySession: captureStudySessionSnapshot(),
     dailyCompleted: normalizeDailyCompletedStore(dailyCompletedStore),
     contextStudy: normalizeContextStudyStore(contextStudyStore),
     words: state.words,
@@ -5539,10 +5651,11 @@ async function importWords(event) {
       saveContextStudyStore();
     }
     syncTodayCompletedFromHistories();
+    if (parsed.studySession) applyStudySessionSnapshot(parsed.studySession);
+    else setActiveId(null);
     saveWords({ immediate: true });
-    setActiveId(null);
     render();
-    showToast(`备份恢复完成：恢复进度 ${restored} 条，新增 ${added} 条；听写内容不会重置`);
+    showToast(`备份恢复完成：恢复进度 ${restored} 条，新增 ${added} 条；当前卡片位置也已恢复`);
   } catch (error) {
     console.error("Import failed", error);
     showToast("导入失败，请选择正确的词库备份文件");
@@ -5947,9 +6060,10 @@ function registerServiceWorker() {
   }
 }
 
-// v68：打开页面默认回到卡片模式；专项训练升级为五类语法训练。
+// 打开页面默认使用卡片模式；同时恢复上次保存的卡片筛选、分组和当前位置。
 state.practiceMode = "card";
-ensurePracticeSession("card");
+ensurePracticeSession("card").mode = state.mode;
+ensurePracticeSession("card").activeId = state.activeId;
 
 wireEvents();
 initializeMobileFocus();

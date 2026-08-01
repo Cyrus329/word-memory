@@ -63,6 +63,10 @@
       locked: false,
       pointer: null,
       suppressClickUntil: 0,
+      previous: null,
+      mode: 'recall',
+      spellingDraft: '',
+      spellingResult: null,
     };
     let historyPushed = false;
     let bound = false;
@@ -101,6 +105,70 @@
       return null;
     }
 
+    function refreshQueue(preferredId = null) {
+      const oldId = currentId();
+      const queued = typeof adapter.queue === 'function' ? adapter.queue() : [];
+      session.ids = Array.isArray(queued)
+        ? queued.map((item) => (typeof item === 'string' ? item : item?.id)).filter(Boolean)
+        : [];
+      const targetId = preferredId || (typeof adapter.activeId === 'function' ? adapter.activeId() : null) || oldId;
+      const targetIndex = targetId ? session.ids.indexOf(targetId) : -1;
+      session.index = targetIndex >= 0
+        ? targetIndex
+        : Math.min(Math.max(session.index, 0), Math.max(0, session.ids.length - 1));
+      const selectedId = currentId();
+      if (selectedId && typeof adapter.select === 'function') adapter.select(selectedId);
+      return selectedId;
+    }
+
+    function resetSpellingState(options = {}) {
+      session.spellingDraft = '';
+      session.spellingResult = null;
+      if (elements.spellingInput) elements.spellingInput.value = '';
+      if (elements.spellingFeedback) {
+        elements.spellingFeedback.textContent = '';
+        elements.spellingFeedback.classList?.remove?.('is-correct', 'is-wrong');
+      }
+      if (!options.keepReveal) setExpanded(false);
+    }
+
+    function setMode(mode) {
+      const nextMode = mode === 'spelling' ? 'spelling' : 'recall';
+      if (session.mode === nextMode) return;
+      session.mode = nextMode;
+      resetSpellingState();
+      render();
+      if (session.mode === 'spelling' && currentWord()) {
+        timers.setTimeout?.(() => elements.spellingInput?.focus?.(), 0);
+      } else {
+        elements.card?.focus?.();
+      }
+    }
+
+    function normalizedSpelling(value) {
+      return String(value || '')
+        .toLowerCase()
+        .replace(/[’‘`]/g, "'")
+        .replace(/[^a-z0-9'\s-]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function checkSpelling() {
+      if (!session.active || session.locked || session.mode !== 'spelling') return;
+      const word = currentWord();
+      if (!word) return;
+      const input = elements.spellingInput?.value ?? session.spellingDraft;
+      session.spellingDraft = String(input || '');
+      const correct = typeof adapter.checkSpelling === 'function'
+        ? Boolean(adapter.checkSpelling(session.spellingDraft, word))
+        : normalizedSpelling(session.spellingDraft) === normalizedSpelling(word.term);
+      session.spellingResult = { correct };
+      setExpanded(true);
+      render();
+      elements.spellingInput?.focus?.();
+    }
+
     function setExpanded(revealed) {
       session.revealed = Boolean(revealed);
       if (elements.answer) elements.answer.hidden = !session.revealed;
@@ -116,12 +184,27 @@
       if (elements.progressFill?.style) elements.progressFill.style.width = `${percent}%`;
     }
 
+    function renderPrevious() {
+      const previous = session.previous;
+      if (!previous) {
+        if (elements.previous) elements.previous.hidden = true;
+        if (elements.previousTerm) elements.previousTerm.textContent = '';
+        if (elements.previousMeaning) elements.previousMeaning.textContent = '';
+        return;
+      }
+
+      if (elements.previousTerm) elements.previousTerm.textContent = previous.term;
+      if (elements.previousMeaning) elements.previousMeaning.textContent = previous.meaning;
+      if (elements.previous) elements.previous.hidden = false;
+    }
+
     function renderEmpty(total) {
       const completed = total > 0 ? total : 0;
       setProgress(completed, total);
       if (elements.card) elements.card.hidden = true;
       if (elements.actions) elements.actions.hidden = true;
       if (elements.empty) elements.empty.hidden = false;
+      if (elements.spelling) elements.spelling.hidden = true;
       setExpanded(false);
     }
 
@@ -135,6 +218,7 @@
       if (elements.source && typeof adapter.source === 'function') {
         elements.source.textContent = String(adapter.source() || '');
       }
+      renderPrevious();
 
       if (!word) {
         renderEmpty(total);
@@ -147,37 +231,93 @@
       if (elements.empty) elements.empty.hidden = true;
       setProgress(session.index + 1, total);
 
-      const term = String(view.term || word.term || '');
-      if (elements.term) {
-        elements.term.textContent = term;
-        elements.term.classList?.remove?.('normal', 'medium', 'long');
-        elements.term.classList?.add?.(termSizeClass(term));
+      const englishTerm = String(view.term || word.term || '');
+      const chineseMeaning = String(view.answer || word.meaning || '未填中文');
+      const spellingMode = session.mode === 'spelling';
+      const displayTerm = spellingMode ? chineseMeaning : englishTerm;
+
+      elements.modeButtons?.forEach?.((button) => {
+        const active = button.dataset?.mobileFocusMode === session.mode;
+        button.classList?.toggle?.('is-active', active);
+        button.setAttribute?.('aria-pressed', String(active));
+      });
+      if (elements.kicker) {
+        elements.kicker.textContent = spellingMode ? '看中文，拼写英文' : '看英文，回想中文';
       }
-      if (elements.phonetic) {
-        elements.phonetic.textContent = String(view.phonetic || '点击发音按钮听读');
+      if (elements.tip) {
+        elements.tip.textContent = spellingMode
+          ? '第一次 Enter 检查；拼对后再按一次记住，拼错后再按一次忘了'
+          : '点击卡片看答案 · 手机滑动切换 · 电脑可直接点击按钮';
       }
 
-      if (typeof adapter.renderAnswer === 'function') {
-        adapter.renderAnswer(view, {
-          answer: elements.answer,
-          meaning: elements.meaning,
-          detail: elements.detail,
-        }, word);
-      } else {
-        if (elements.meaning) elements.meaning.textContent = String(view.answer || '');
-        if (elements.detail) elements.detail.textContent = String(view.example || '');
+      if (elements.term) {
+        elements.term.textContent = displayTerm;
+        elements.term.classList?.remove?.('normal', 'medium', 'long', 'is-chinese-prompt');
+        elements.term.classList?.add?.(termSizeClass(displayTerm));
+        if (spellingMode) elements.term.classList?.add?.('is-chinese-prompt');
       }
-      setExpanded(session.revealed);
+      if (elements.phonetic) {
+        elements.phonetic.hidden = spellingMode && !session.spellingResult;
+        elements.phonetic.textContent = String(view.phonetic || '点击发音按钮听读');
+      }
+      if (elements.audio) {
+        elements.audio.hidden = spellingMode && !session.spellingResult;
+      }
+      if (elements.spelling) {
+        elements.spelling.hidden = !spellingMode;
+      }
+      if (elements.spellingInput && spellingMode && elements.spellingInput.value !== session.spellingDraft) {
+        elements.spellingInput.value = session.spellingDraft;
+      }
+
+      if (spellingMode) {
+        const result = session.spellingResult;
+        if (elements.spellingFeedback) {
+          elements.spellingFeedback.classList?.remove?.('is-correct', 'is-wrong');
+          if (!result) {
+            elements.spellingFeedback.textContent = '';
+          } else if (result.correct) {
+            elements.spellingFeedback.textContent = '拼写正确。再按一次 Enter，直接记住并进入下一个。';
+            elements.spellingFeedback.classList?.add?.('is-correct');
+          } else {
+            elements.spellingFeedback.textContent = `拼写错误。正确答案：${englishTerm}。再按一次 Enter，记为忘了。`;
+            elements.spellingFeedback.classList?.add?.('is-wrong');
+          }
+        }
+        if (elements.meaning) {
+          elements.meaning.textContent = session.spellingResult ? `正确拼写：${englishTerm}` : '';
+        }
+        if (elements.detail) {
+          elements.detail.textContent = session.spellingResult
+            ? [view.phonetic, view.example].filter(Boolean).join(' · ')
+            : '';
+        }
+        setExpanded(Boolean(session.spellingResult));
+      } else {
+        if (typeof adapter.renderAnswer === 'function') {
+          adapter.renderAnswer(view, {
+            answer: elements.answer,
+            meaning: elements.meaning,
+            detail: elements.detail,
+          }, word);
+        } else {
+          if (elements.meaning) elements.meaning.textContent = chineseMeaning;
+          if (elements.detail) elements.detail.textContent = String(view.example || '');
+        }
+        setExpanded(session.revealed);
+      }
     }
 
     function toggleReveal() {
-      if (!session.active || !currentWord() || session.locked) return;
+      if (!session.active || !currentWord() || session.locked || session.mode === 'spelling') return;
       setExpanded(!session.revealed);
     }
 
     function move(delta) {
       if (!session.active || session.locked || !session.ids.length) return;
       session.index = moveIndex(session.index, delta, session.ids.length);
+      if (currentId() && typeof adapter.select === 'function') adapter.select(currentId());
+      resetSpellingState();
       setExpanded(false);
       render();
     }
@@ -189,7 +329,16 @@
         || !['forgot', 'fuzzy', 'remember'].includes(result)
       ) return;
       const id = currentId();
-      if (!id || !currentWord()) return;
+      const word = currentWord();
+      if (!id || !word) return;
+
+      const view = typeof adapter.view === 'function' ? (adapter.view(word) || {}) : word;
+      session.previous = {
+        id,
+        term: String(view.term || word.term || ''),
+        meaning: String(view.answer || word.meaning || '未填释义'),
+      };
+      renderPrevious();
 
       setRatingLocked(true);
       try {
@@ -200,11 +349,15 @@
       }
 
       const generation = sessionGeneration;
+      resetSpellingState({ keepReveal: true });
       pendingAdvanceTimer = timers.setTimeout(() => {
         if (!session.active || generation !== sessionGeneration) return;
         pendingAdvanceTimer = null;
-        session.index = Math.min(session.index + 1, session.ids.length);
+        const sharedActiveId = typeof adapter.activeId === 'function' ? adapter.activeId() : null;
+        if (sharedActiveId) refreshQueue(sharedActiveId);
+        else session.index = Math.min(session.index + 1, session.ids.length);
         setRatingLocked(false);
+        resetSpellingState();
         setExpanded(false);
         render();
       }, 220);
@@ -213,14 +366,15 @@
     function open() {
       if (session.active) return;
       cancelPendingAdvance();
-      const queued = typeof adapter.queue === 'function' ? adapter.queue() : [];
-      session.ids = Array.isArray(queued)
-        ? queued.map((item) => (typeof item === 'string' ? item : item?.id)).filter(Boolean)
-        : [];
       session.active = true;
       session.index = 0;
+      refreshQueue(typeof adapter.activeId === 'function' ? adapter.activeId() : null);
       session.pointer = null;
       session.suppressClickUntil = 0;
+      session.previous = null;
+      session.mode = 'recall';
+      resetSpellingState();
+      renderPrevious();
       setExpanded(false);
       if (elements.root) elements.root.hidden = false;
       documentObject?.body?.classList?.add?.('mobile-focus-active');
@@ -242,8 +396,10 @@
       const fromPopState = Boolean(options.fromPopState);
       if (!session.active) return;
       cancelPendingAdvance();
+      if (currentId() && typeof adapter.select === 'function') adapter.select(currentId());
       session.active = false;
       session.pointer = null;
+      resetSpellingState();
       setExpanded(false);
       if (elements.root) elements.root.hidden = true;
       documentObject?.body?.classList?.remove?.('mobile-focus-active');
@@ -262,7 +418,7 @@
       listen(elements.entry, 'click', open);
       listen(elements.exit, 'click', () => close());
       listen(elements.card, 'click', (event) => {
-        if (event?.target === elements.audio || now() <= session.suppressClickUntil) return;
+        if (session.mode === 'spelling' || event?.target === elements.audio || now() <= session.suppressClickUntil) return;
         toggleReveal();
       });
       listen(elements.card, 'keydown', (event) => {
@@ -282,8 +438,46 @@
           rate(button.dataset?.mobileFocusRate);
         });
       });
+      elements.modeButtons?.forEach?.((button) => {
+        listen(button, 'click', () => setMode(button.dataset?.mobileFocusMode));
+      });
+      listen(elements.spellingInput, 'input', (event) => {
+        session.spellingDraft = String(event?.target?.value || '');
+        if (session.spellingResult) {
+          session.spellingResult = null;
+          setExpanded(false);
+          render();
+          elements.spellingInput?.focus?.();
+        }
+      });
+      listen(elements.spellingInput, 'keydown', (event) => {
+        if (event.key !== 'Enter') return;
+        event.preventDefault?.();
+        if (session.spellingResult) {
+          rate(session.spellingResult.correct ? 'remember' : 'forgot');
+        } else {
+          checkSpelling();
+        }
+      });
+      listen(elements.spellingCheck, 'click', (event) => {
+        event.stopPropagation?.();
+        checkSpelling();
+      });
+      listen(elements.spellingClear, 'click', (event) => {
+        event.stopPropagation?.();
+        resetSpellingState();
+        render();
+        elements.spellingInput?.focus?.();
+      });
       listen(elements.card, 'pointerdown', (event) => {
-        if (!session.active || session.locked || (event.button != null && event.button !== 0)) return;
+        if (
+          !session.active
+          || session.locked
+          || (elements.spellingInput && event.target === elements.spellingInput)
+          || (elements.spellingCheck && event.target === elements.spellingCheck)
+          || (elements.spellingClear && event.target === elements.spellingClear)
+          || (event.button != null && event.button !== 0)
+        ) return;
         session.pointer = {
           id: event.pointerId,
           x: event.clientX,
@@ -305,6 +499,29 @@
         move(gesture === 'next' ? 1 : -1);
       });
       listen(elements.card, 'pointercancel', () => { session.pointer = null; });
+      listen(windowObject, 'keydown', (event) => {
+        if (!session.active || session.locked) return;
+        const typingSpelling = session.mode === 'spelling' && event.target === elements.spellingInput;
+        if (event.key === 'Escape') {
+          event.preventDefault?.();
+          close();
+          return;
+        }
+        if (event.key === 'Shift' && !typingSpelling) {
+          event.preventDefault?.();
+          toggleReveal();
+          return;
+        }
+        if (event.key === 'ArrowLeft' && !typingSpelling) {
+          event.preventDefault?.();
+          rate('remember');
+          return;
+        }
+        if (event.key === 'ArrowRight' && !typingSpelling) {
+          event.preventDefault?.();
+          rate('forgot');
+        }
+      });
       listen(windowObject, 'popstate', () => close({ fromPopState: true }));
     }
 
@@ -317,6 +534,8 @@
       rate,
       move,
       toggleReveal,
+      setMode,
+      checkSpelling,
       session,
     };
   }
