@@ -3650,6 +3650,57 @@ function mobileFocusView(word) {
   };
 }
 
+function mobileFocusChoiceHash(seed = "") {
+  let hash = 2166136261;
+  for (const char of String(seed)) {
+    hash ^= char.charCodeAt(0);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function mobileFocusChoiceOptions(word) {
+  const correct = normalizeText(word?.meaning || "未填中文") || "未填中文";
+  const correctKey = correct.toLowerCase();
+  const phraseLike = /\s/.test(normalizeText(word?.term));
+  const candidates = [];
+  const seen = new Set([correctKey]);
+
+  const collect = (items) => {
+    items.forEach((item) => {
+      if (!item || item.id === word.id) return;
+      const meaning = normalizeText(item.meaning || "");
+      const key = meaning.toLowerCase();
+      if (!meaning || meaning === "未填中文" || seen.has(key)) return;
+      seen.add(key);
+      const sameShape = /\s/.test(normalizeText(item.term)) === phraseLike;
+      candidates.push({
+        meaning,
+        score: Math.abs(meaning.length - correct.length) + (sameShape ? 0 : 10),
+        rank: mobileFocusChoiceHash(`${word.id}|${item.id}|${meaning}`),
+      });
+    });
+  };
+
+  collect(state.words.filter(wordMatchesActiveGroup));
+  if (candidates.length < 3) collect(state.words);
+
+  const distractors = candidates
+    .sort((a, b) => a.score - b.score || a.rank - b.rank)
+    .slice(0, 3)
+    .map((item) => item.meaning);
+
+  const fallback = ["未掌握该词义", "与本词无关的释义", "暂无对应释义"];
+  fallback.forEach((item) => {
+    if (distractors.length < 3 && item.toLowerCase() !== correctKey && !distractors.includes(item)) distractors.push(item);
+  });
+
+  return [correct, ...distractors.slice(0, 3)]
+    .map((meaning) => ({ meaning, rank: mobileFocusChoiceHash(`${word.id}|choice|${meaning}`) }))
+    .sort((a, b) => a.rank - b.rank)
+    .map((item) => item.meaning);
+}
+
 function applySharedCardRating(id, result) {
   const word = state.words.find((item) => item.id === id);
   if (!word || !["remember", "fuzzy", "forgot"].includes(result)) return;
@@ -3702,6 +3753,9 @@ function initializeMobileFocus() {
       spellingCheck: root.querySelector("#mobileFocusSpellingCheck"),
       spellingClear: root.querySelector("#mobileFocusSpellingClear"),
       spellingFeedback: root.querySelector("#mobileFocusSpellingFeedback"),
+      choice: root.querySelector("#mobileFocusChoice"),
+      choiceButtons: Array.from(root.querySelectorAll("[data-mobile-focus-choice]")),
+      choiceFeedback: root.querySelector("#mobileFocusChoiceFeedback"),
     },
     queue: mobileFocusQueue,
     activeId: () => ensurePracticeSession("card").activeId || state.activeId,
@@ -3720,6 +3774,7 @@ function initializeMobileFocus() {
     speak: (word) => speakTerm(word.term, { accent: "us" }),
     rate: applySharedCardRating,
     checkSpelling: (input, word) => isSpellingCorrect(input, word),
+    choiceOptions: mobileFocusChoiceOptions,
     source: () => state.activeGroup === "all" ? "全部词库 · 与当前卡片完全同进度" : `${state.activeGroup} · 与当前卡片完全同进度`,
     title: () => "一屏一词",
   });

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>专升本单词记忆</title>
-  <link rel="stylesheet" href="./styles.css?v=70b01820260802">
+  <link rel="stylesheet" href="./styles.css?v=70b02020260803">
 </head>
 <body>
   <div class="app-shell">
@@ -28,7 +28,7 @@
       <span class="mobile-focus-entry-copy">
         <span class="mobile-focus-entry-kicker">手机 / 电脑共用</span>
         <strong>一屏一词专注背词</strong>
-        <small id="mobileFocusEntryHint">支持看英文想中文、看中文拼英文；记住、模糊、忘了共用同一份存档</small>
+        <small id="mobileFocusEntryHint">支持看英文想中文、看英文选中文、看中文拼英文；三种方式共用同一份进度</small>
       </span>
       <span class="mobile-focus-entry-cta">开始 →</span>
     </button>
@@ -416,6 +416,7 @@
 
     <div class="mobile-focus-mode-switch" id="mobileFocusModeSwitch" role="group" aria-label="专注背词方式">
       <button class="is-active" type="button" data-mobile-focus-mode="recall">看英文想中文</button>
+      <button type="button" data-mobile-focus-mode="choice">看英文选中文</button>
       <button type="button" data-mobile-focus-mode="spelling">看中文拼英文</button>
     </div>
     <div class="mobile-focus-stage" id="mobileFocusStage">
@@ -434,6 +435,16 @@
           <p class="mobile-focus-detail" id="mobileFocusDetail"></p>
         </div>
 
+        <div class="mobile-focus-choice" id="mobileFocusChoice" hidden aria-label="中文释义四选一">
+          <div class="mobile-focus-choice-grid">
+            <button type="button" data-mobile-focus-choice="0"></button>
+            <button type="button" data-mobile-focus-choice="1"></button>
+            <button type="button" data-mobile-focus-choice="2"></button>
+            <button type="button" data-mobile-focus-choice="3"></button>
+          </div>
+          <p class="mobile-focus-choice-feedback" id="mobileFocusChoiceFeedback" aria-live="polite"></p>
+        </div>
+
         <div class="mobile-focus-spelling" id="mobileFocusSpelling" hidden>
           <label for="mobileFocusSpellingInput">请输入英文</label>
           <input id="mobileFocusSpellingInput" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="done" placeholder="看中文拼写英文">
@@ -450,7 +461,7 @@
         <p>退出后可选择其他词库继续学习。</p>
       </div>
     </div>
-    <div class="mobile-focus-shared-note" id="mobileFocusSharedNote">本模式和普通卡片共用同一份“记住 / 忘了”学习记录；云同步后手机、电脑一致。</div>
+    <div class="mobile-focus-shared-note" id="mobileFocusSharedNote">四选一、拼写和普通卡片共用同一份“记住 / 模糊 / 忘了”学习记录；云同步后手机、电脑一致。</div>
     <footer class="mobile-focus-actions" aria-label="记忆程度">
       <button class="mobile-focus-rate forgot" type="button" data-mobile-focus-rate="forgot"><strong>忘了</strong><small>与普通卡片共用进度</small></button>
       <button class="mobile-focus-rate fuzzy" type="button" data-mobile-focus-rate="fuzzy"><strong>模糊</strong><small>加强复习</small></button>
@@ -458,17 +469,17 @@
     </footer>
   </section>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="./library-folder-data.js?v=70b01820260802"></script>
-  <script src="./word-data.js?v=70b01820260802"></script>
-  <script src="./context-engine.js?v=70b01820260802"></script>
-  <script src="./context-data.js?v=70b01820260802"></script>
-  <script src="./context-id-data.js?v=70b01820260802"></script>
-  <script src="./context-presenter.js?v=70b01820260802"></script>
-  <script src="./context-study-engine.js?v=70b01820260802"></script>
-  <script src="./mobile-focus.js?v=70b01820260802"></script>
-  <script src="./app.js?v=70b01820260802"></script>
-  <script src="./folder-view.js?v=70b01820260802"></script>
-  <script src="./smart-vocab.js?v=70b01820260802"></script>
+  <script src="./library-folder-data.js?v=70b02020260803"></script>
+  <script src="./word-data.js?v=70b02020260803"></script>
+  <script src="./context-engine.js?v=70b02020260803"></script>
+  <script src="./context-data.js?v=70b02020260803"></script>
+  <script src="./context-id-data.js?v=70b02020260803"></script>
+  <script src="./context-presenter.js?v=70b02020260803"></script>
+  <script src="./context-study-engine.js?v=70b02020260803"></script>
+  <script src="./mobile-focus.js?v=70b02020260803"></script>
+  <script src="./app.js?v=70b02020260803"></script>
+  <script src="./folder-view.js?v=70b02020260803"></script>
+  <script src="./smart-vocab.js?v=70b02020260803"></script>
   <script>
     (function(){
       const buttons = Array.from(document.querySelectorAll('[data-module-target]'));

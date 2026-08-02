@@ -130,7 +130,7 @@ button {
 
 .metric-split {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   margin-top: 12px;
 }
@@ -3966,5 +3966,111 @@ body.mobile-focus-active {
     width: 96%;
     margin-top: 14px;
     padding: 14px;
+  }
+}
+
+
+/* v70 B019：一屏一词“看英文选中文”四选一，与普通卡片共用同一 progress.card。 */
+.mobile-focus-choice {
+  width: min(780px, 96%);
+  margin: 20px auto 0;
+  padding: 16px;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 20px;
+  background: rgba(248, 250, 252, 0.94);
+}
+
+.mobile-focus-choice[hidden] {
+  display: none !important;
+}
+
+.mobile-focus-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.mobile-focus-choice-grid button {
+  min-height: 78px;
+  padding: 14px 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 16px;
+  background: #fff;
+  color: #0f172a;
+  font: inherit;
+  font-size: clamp(0.96rem, 2.4vw, 1.12rem);
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: left;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.mobile-focus-choice-grid button:hover:not(:disabled),
+.mobile-focus-choice-grid button:focus-visible {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.10);
+}
+
+.mobile-focus-choice-grid button.is-correct {
+  border-color: #16a34a;
+  background: #dcfce7;
+  color: #166534;
+}
+
+.mobile-focus-choice-grid button.is-wrong {
+  border-color: #ea580c;
+  background: #ffedd5;
+  color: #9a3412;
+}
+
+.mobile-focus-choice-grid button:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.mobile-focus-choice-feedback {
+  min-height: 28px;
+  margin: 12px 0 0;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.mobile-focus-choice-feedback.is-correct {
+  color: #15803d;
+}
+
+.mobile-focus-choice-feedback.is-wrong {
+  color: #c2410c;
+}
+
+@media (max-width: 760px) {
+  .mobile-focus-mode-switch {
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .mobile-focus-mode-switch button {
+    min-height: 46px;
+    padding: 6px 4px;
+    font-size: 0.82rem;
+    line-height: 1.25;
+  }
+
+  .mobile-focus-choice {
+    width: 98%;
+    margin-top: 12px;
+    padding: 10px;
+  }
+
+  .mobile-focus-choice-grid {
+    gap: 8px;
+  }
+
+  .mobile-focus-choice-grid button {
+    min-height: 72px;
+    padding: 10px;
+    font-size: 0.91rem;
   }
 }
