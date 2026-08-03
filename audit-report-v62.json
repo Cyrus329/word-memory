@@ -1,0 +1,27 @@
+{
+  "version": "v62",
+  "base": "v61-summer-english-50-group",
+  "sourceDocx": "c01fd56f-33e6-4ac4-87d0-3e352008e81e.docx",
+  "embeddedImages": 54,
+  "archivedPages": 54,
+  "newCompleteSets": 14,
+  "pageArchiveQuestions": 54,
+  "subjects": {
+    "高等数学": 15,
+    "英语": 20,
+    "计算机": 19
+  },
+  "pageRanges": {
+    "高等数学": "138-152",
+    "英语": "91-110",
+    "计算机": "12-30"
+  },
+  "mode": "source_page_archive",
+  "ordinaryQuestionCountUnchanged": 1202,
+  "notes": [
+    "页面按教材真实页码重排",
+    "原页卡片仅在完整题组模式显示",
+    "不计入普通题库统计",
+    "低清公式未强行转写"
+  ]
+}

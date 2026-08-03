@@ -1,0 +1,119 @@
+{
+  "version": "v51",
+  "practiceSetId": "bf-math-function-ch1-sec1-complete-20260726",
+  "count": 64,
+  "sequenceValid": true,
+  "sections": {
+    "一、选择题": 29,
+    "二、填空题": 16,
+    "三、计算题": 19
+  },
+  "firstFive": [
+    {
+      "order": 1,
+      "section": "一、选择题",
+      "originalNo": "1",
+      "id": "D11-BF-MATH-FUNC-SEL-1-01"
+    },
+    {
+      "order": 2,
+      "section": "一、选择题",
+      "originalNo": "2",
+      "id": "D11-BF-MATH-FUNC-SEL-2-02"
+    },
+    {
+      "order": 3,
+      "section": "一、选择题",
+      "originalNo": "3",
+      "id": "D11-BF-MATH-FUNC-SEL-3-03"
+    },
+    {
+      "order": 4,
+      "section": "一、选择题",
+      "originalNo": "4",
+      "id": "D11-BF-MATH-FUNC-SEL-4-04"
+    },
+    {
+      "order": 5,
+      "section": "一、选择题",
+      "originalNo": "5",
+      "id": "D11-BF-MATH-FUNC-SEL-5-05"
+    }
+  ],
+  "aroundTransition": [
+    {
+      "order": 27,
+      "section": "一、选择题",
+      "originalNo": "27",
+      "id": "D11-BF-MATH-FUNC-SEL-27-20"
+    },
+    {
+      "order": 28,
+      "section": "一、选择题",
+      "originalNo": "28",
+      "id": "D11-BF-MATH-FUNC-SEL-28-21"
+    },
+    {
+      "order": 29,
+      "section": "一、选择题",
+      "originalNo": "29",
+      "id": "D11-BF-MATH-FUNC-SEL-29-22"
+    },
+    {
+      "order": 30,
+      "section": "二、填空题",
+      "originalNo": "1",
+      "id": "D01-088-BF-MATH-1"
+    },
+    {
+      "order": 31,
+      "section": "二、填空题",
+      "originalNo": "2",
+      "id": "D01-089-BF-MATH-2"
+    },
+    {
+      "order": 32,
+      "section": "二、填空题",
+      "originalNo": "3",
+      "id": "D11-BF-MATH-FUNC-FILL-3-23"
+    },
+    {
+      "order": 33,
+      "section": "二、填空题",
+      "originalNo": "4",
+      "id": "D11-BF-MATH-FUNC-FILL-4-24"
+    }
+  ],
+  "lastFive": [
+    {
+      "order": 60,
+      "section": "三、计算题",
+      "originalNo": "5",
+      "id": "D11-BF-MATH-FUNC-CALC-5-51"
+    },
+    {
+      "order": 61,
+      "section": "三、计算题",
+      "originalNo": "6",
+      "id": "D11-BF-MATH-FUNC-CALC-6-52"
+    },
+    {
+      "order": 62,
+      "section": "三、计算题",
+      "originalNo": "7",
+      "id": "D11-BF-MATH-FUNC-CALC-7-53"
+    },
+    {
+      "order": 63,
+      "section": "三、计算题",
+      "originalNo": "8",
+      "id": "D11-BF-MATH-FUNC-CALC-8-54"
+    },
+    {
+      "order": 64,
+      "section": "三、计算题",
+      "originalNo": "9",
+      "id": "D11-BF-MATH-FUNC-CALC-9-55"
+    }
+  ]
+}

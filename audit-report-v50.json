@@ -1,0 +1,28 @@
+{
+  "version": "v50-mobile-math-compact",
+  "questions": 980,
+  "questionOrderPreserved": true,
+  "imageReferences": 1566,
+  "uniqueImageReferences": 948,
+  "missingImages": [],
+  "prerenderedMathExpressions": 909,
+  "mathRenderFailures": [],
+  "mobileVisibleActions": [
+    "答案解析",
+    "做对了",
+    "做错了"
+  ],
+  "mobileHiddenClutter": [
+    "公式提示",
+    "加入错题本",
+    "自动出类似题",
+    "标记解析问题",
+    "打开校对台",
+    "公式原式核对图"
+  ],
+  "notes": [
+    "数学公式使用本地静态CHTML，不依赖手机端运行时MathJax。",
+    "19个答案字段补齐数学定界符。",
+    "11个残缺titleLabel改为安全题组标题，题干与原图未改变。"
+  ]
+}

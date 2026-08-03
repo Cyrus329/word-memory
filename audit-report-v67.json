@@ -1,0 +1,14 @@
+{
+  "version": "v67",
+  "base": "v66",
+  "features": [
+    "complete_text_reader",
+    "paper_layout",
+    "type_tabs",
+    "toc",
+    "search",
+    "print",
+    "structured_single_question_text"
+  ],
+  "note": "page-only archives retain images until verified text exists"
+}

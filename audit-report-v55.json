@@ -1,0 +1,46 @@
+{
+  "version": "v55",
+  "totalQuestions": 1186,
+  "batchQuestions": 18,
+  "newQuestions": 9,
+  "movedDuplicates": 9,
+  "practiceSetId": "bf-homework-20260728-binary-427-complete",
+  "sequence": [
+    "选择题1-15",
+    "判断题16-18"
+  ],
+  "pageImages": [
+    "question-images/day-13-0728-homework-binary-427/binary-427-page-01.jpg",
+    "question-images/day-13-0728-homework-binary-427/binary-427-page-02.jpg",
+    "question-images/day-13-0728-homework-binary-427/binary-427-page-03.jpg",
+    "question-images/day-13-0728-homework-binary-427/binary-427-page-04.jpg",
+    "question-images/day-13-0728-homework-binary-427/binary-427-page-05.jpg"
+  ],
+  "countsByGroup": {
+    "课后作业": 414,
+    "暑假集训的作业": 226,
+    "额外题库": 546
+  },
+  "countsBySubject": {
+    "计算机": 611,
+    "英语": 349,
+    "高等数学": 226
+  },
+  "countsByStudyDay": {
+    "1": 115,
+    "6": 226,
+    "7": 279,
+    "9": 174,
+    "10": 93,
+    "11": 64,
+    "13": 235
+  },
+  "quickBrowseFeatures": [
+    "题组下拉选择",
+    "题型分组",
+    "序号按钮",
+    "关键词查题",
+    "一键跳转",
+    "题型筛选"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v61-summer-english-50-group",
+  "base": "v60-summer-complete-answers",
+  "correction": "基础句子汉译英不是独立题组，合并到名词与代词后面",
+  "removedStandaloneSet": "bf-summer-20260721-english-translation",
+  "mergedSet": "bf-summer-20260721-english-noun-pronoun",
+  "mergedTitle": "暑假集训｜名词与代词综合练习（完整5页·50题）",
+  "mergedQuestionCount": 50,
+  "mergedPageCount": 5,
+  "questionDatabaseCountChanged": false
+}

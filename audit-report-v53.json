@@ -1,0 +1,17 @@
+{
+  "version": "v53-mobile-backup-fix",
+  "baseVersion": "v52-correct-once-complete",
+  "checks": {
+    "appSyntaxChecked": true,
+    "singleActiveDownloadHelper": true,
+    "webShareFileFallback": true,
+    "delayedBlobRevoke": true,
+    "mobileButtonsPresent": true,
+    "cacheBustedAppScript": true
+  },
+  "notes": [
+    "Mobile browsers use the system share sheet when file sharing is supported.",
+    "Unsupported in-app browsers receive a fallback panel with download/open/copy options.",
+    "Question data and study behavior are unchanged from v52."
+  ]
+}

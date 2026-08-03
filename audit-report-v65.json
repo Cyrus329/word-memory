@@ -1,0 +1,28 @@
+{
+  "version": "v65-homework-official-answers",
+  "base": "v64-homework-corrected-sets",
+  "uniqueUnits": 1275,
+  "setsUpdated": 3,
+  "answerPages": 31,
+  "sources": [
+    {
+      "setId": "bf-homework-v64-math-limit-pages-7-15",
+      "answerPages": 14,
+      "coverage": "选择题1-31、填空题1-22、计算题1-41"
+    },
+    {
+      "setId": "bf-homework-v64-math-continuity-pages-16-21",
+      "answerPages": 9,
+      "coverage": "选择题1-14、填空题1-10、计算题1-6、证明题1-9"
+    },
+    {
+      "setId": "bf-homework-v64-english-adjective-adverb-pages-118-121",
+      "answerPages": 8,
+      "coverage": "选择题1-20、汉译英21-30、英译汉26-30"
+    }
+  ],
+  "answerImages": 31,
+  "answerPdfs": 3,
+  "assignmentGroup": "课后作业",
+  "summerZoneChanged": false
+}

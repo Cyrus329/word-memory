@@ -1,0 +1,41 @@
+{
+  "version": "v59",
+  "builtAt": "2026-07-30T08:15:00+08:00",
+  "baseUniqueQuestions": 1199,
+  "reusedAndMovedQuestions": 12,
+  "newUniqueQuestions": 3,
+  "finalUniqueQuestions": 1202,
+  "completeSets": 9,
+  "completeSetSourcePages": 51,
+  "completeSetQuestionUnits": 392,
+  "newSet": {
+    "id": "bf-homework-20260730-hanzi-encoding-complete",
+    "title": "汉字编码与字符编码补充题（完整4页·15题）",
+    "sourceCountLabel": "4页文档 · 15张原题截图",
+    "questionCount": 15,
+    "sections": [
+      "单选题1—10",
+      "判断题11—14",
+      "单选题15"
+    ],
+    "questionIds": [
+      "D10-EXTRA-041-B4-IMG045",
+      "D10-EXTRA-064-B4-IMG068",
+      "D10-EXTRA-052-B4-IMG056",
+      "D10-EXTRA-055-B4-IMG059",
+      "D15-HW-BF-ENC-005",
+      "D10-EXTRA-037-B4-IMG040",
+      "D10-EXTRA-016-B4-IMG017",
+      "D10-EXTRA-018-B4-IMG019",
+      "D10-EXTRA-028-B4-IMG030",
+      "D10-EXTRA-019-B4-IMG020",
+      "D15-HW-BF-ENC-011",
+      "D10-EXTRA-011-B4-IMG012",
+      "D10-EXTRA-004-B4-IMG004",
+      "D10-EXTRA-026-B4-IMG027",
+      "D15-HW-BF-ENC-015"
+    ]
+  },
+  "imageFiles": 15,
+  "missingImages": []
+}

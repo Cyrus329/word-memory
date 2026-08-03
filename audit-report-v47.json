@@ -1,0 +1,43 @@
+{
+  "version": "v47-full-audit",
+  "questionCount": 925,
+  "countsByGroup": {
+    "课后作业": 136,
+    "暑假集训的作业": 228,
+    "额外题库": 561
+  },
+  "countsBySubject": {
+    "计算机": 474,
+    "英语": 280,
+    "高等数学": 171
+  },
+  "uniqueReferencedImages": 941,
+  "imageReferences": 1441,
+  "missingImages": [],
+  "corruptImages": [],
+  "missingTextFields": [],
+  "invalidAnswerOptionMappings": [],
+  "suspiciousTextMarkers": [],
+  "exactDuplicateGroupsInExtra": [],
+  "removedDuplicateIds": [
+    "D07-EXTRA-008-FUTURE-08",
+    "D07-EXTRA-023-STAGE-24",
+    "D07-EXTRA-053-OVERVIEW-56",
+    "D07-EXTRA-054-OVERVIEW-57",
+    "D09-EXTRA-115-B3-IMG120",
+    "D09-EXTRA-169-B3-IMG174",
+    "D09-EXTRA-187-B3-IMG193"
+  ],
+  "sourceIncompleteQuestionIds": [
+    "D01-085-BF-COMP-10",
+    "D06-SUMMER-055",
+    "D06-SUMMER-069",
+    "D06-SUMMER-097",
+    "D06-SUMMER-111",
+    "D06-SUMMER-153",
+    "D06-SUMMER-164"
+  ],
+  "sourceAnswerConflictQuestionIds": [
+    "D09-EXTRA-061-B3-IMG63"
+  ]
+}

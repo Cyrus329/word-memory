@@ -1,0 +1,22 @@
+{
+  "version": "v48",
+  "totalQuestions": 980,
+  "added": 55,
+  "matchedExisting": 9,
+  "sourceQuestionUnits": 64,
+  "countsByGroup": {
+    "课后作业": 191,
+    "暑假集训的作业": 228,
+    "额外题库": 561
+  },
+  "countsBySubject": {
+    "计算机": 474,
+    "英语": 280,
+    "高等数学": 226
+  },
+  "answerSource": "数学基础精讲第一章第一节习题详解.pdf",
+  "questionSource": "蓝色森林",
+  "assignmentGroup": "课后作业",
+  "imageFilesAdded": 16,
+  "embeddedFallbackPack": "image-pack-bf-math-function.js"
+}

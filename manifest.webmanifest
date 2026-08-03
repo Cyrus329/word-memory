@@ -1,31 +1,22 @@
 {
-  "name": "专升本单词记忆",
-  "short_name": "单词记忆",
-  "description": "专升本英语单词、拼写、听写和间隔复习工具",
+  "name": "专升本题库训练中心 v68",
+  "short_name": "题库v68",
+  "description": "完整题组逐题纯文字重构版：19套原页题组已拆分为763道独立题目，原题图仅作辅助核对。",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#f7f4ef",
-  "theme_color": "#126b67",
+  "background_color": "#f7f8f5",
+  "theme_color": "#147a7e",
   "icons": [
     {
-      "src": "./icons/icon-180.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icons/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "./icons/icon-512.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }

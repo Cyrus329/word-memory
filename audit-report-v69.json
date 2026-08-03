@@ -1,0 +1,17 @@
+{
+  "version": "v69-garbled-text-safety-fix",
+  "baseVersion": "v68-complete-question-text-rebuild",
+  "originalBaseline": "v67-pure-text-rebuild",
+  "builtAt": "2026-08-03T09:18:00+08:00",
+  "rejectedUnreliableOcrRecords": 763,
+  "affectedCompleteSets": 19,
+  "questionOrderPreserved": true,
+  "progressIdsPreserved": true,
+  "badOcrShownAsText": false,
+  "pendingReliableManualTranscription": 763,
+  "notes": [
+    "All v68 OCR stems/options are suppressed.",
+    "Source page images remain available for question answering and verification.",
+    "No claim is made that pending items are complete pure text."
+  ]
+}

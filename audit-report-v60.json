@@ -1,0 +1,101 @@
+{
+  "version": "v60-summer-complete-answers",
+  "baseUniqueQuestions": 1202,
+  "completeSetsBefore": 9,
+  "completeSetsAdded": 7,
+  "completeSetsAfter": 16,
+  "summerQuestionUnits": 228,
+  "generatedAnswers": 224,
+  "officialReused": 2,
+  "sourceIncomplete": 2,
+  "sets": [
+    {
+      "id": "bf-summer-20260721-computer-set-a",
+      "title": "暑假集训｜计算机基础综合练习（一）（完整5页）",
+      "subject": "计算机",
+      "pages": 5,
+      "questions": 49,
+      "sections": [
+        "一、单选题",
+        "二、判断题",
+        "三、填空题",
+        "四、简答题"
+      ]
+    },
+    {
+      "id": "bf-summer-20260721-computer-set-b",
+      "title": "暑假集训｜进制转换与存储单位练习（二）（完整4页）",
+      "subject": "计算机",
+      "pages": 4,
+      "questions": 40,
+      "sections": [
+        "一、单选题",
+        "二、判断题",
+        "三、填空题",
+        "四、简答题"
+      ]
+    },
+    {
+      "id": "bf-summer-20260721-computer-set-c",
+      "title": "暑假集训｜编码、补码与汉字字模练习（三）（完整4页）",
+      "subject": "计算机",
+      "pages": 4,
+      "questions": 48,
+      "sections": [
+        "一、单选题",
+        "二、判断题",
+        "三、填空题",
+        "四、简答题"
+      ]
+    },
+    {
+      "id": "bf-summer-20260721-english-translation",
+      "title": "暑假集训｜英语基础句子汉译英（完整1页）",
+      "subject": "英语",
+      "pages": 1,
+      "questions": 5,
+      "sections": [
+        "汉译英"
+      ]
+    },
+    {
+      "id": "bf-summer-20260721-english-noun-pronoun",
+      "title": "暑假集训｜名词与代词综合练习（完整4页）",
+      "subject": "英语",
+      "pages": 4,
+      "questions": 45,
+      "sections": [
+        "一、选择题（第一组）",
+        "二、选择题（第二组）",
+        "三、英译汉"
+      ]
+    },
+    {
+      "id": "bf-summer-20260721-english-sentence-structure",
+      "title": "暑假集训｜句子结构与成分分析（完整2页）",
+      "subject": "英语",
+      "pages": 2,
+      "questions": 30,
+      "sections": [
+        "一、选择题",
+        "二、句子成分分析"
+      ]
+    },
+    {
+      "id": "bf-summer-20260721-math-function",
+      "title": "暑假集训｜函数基础练习（完整2页）",
+      "subject": "高等数学",
+      "pages": 2,
+      "questions": 11,
+      "sections": [
+        "一、选择题",
+        "二、填空题",
+        "三、计算题"
+      ]
+    }
+  ],
+  "validation": {
+    "allSummerIdsPresent": true,
+    "uniqueQuestionCountUnchanged": true
+  }
+}

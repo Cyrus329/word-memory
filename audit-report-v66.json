@@ -1,0 +1,21 @@
+{
+  "version": "v66",
+  "base": "v65-homework-official-answers",
+  "source": "全方位",
+  "newPageUnits": 16,
+  "newCompleteSets": 2,
+  "expectedUniqueUnits": 1291,
+  "expectedCompleteSets": 34,
+  "english": {
+    "pages": 9,
+    "sourceUnits": 62,
+    "answers": "未收到正式答案，保持空白"
+  },
+  "computer": {
+    "pages": 7,
+    "questions": 47,
+    "officialAnswerPages": 21,
+    "answerPdf": "answer-documents/day-17-0801-qfw/computer-overview-answers.pdf"
+  },
+  "mobileImagePackEntries": 16
+}

@@ -1,0 +1,21 @@
+{
+  "version": "v52",
+  "feature": "做对一次即完成",
+  "questionCount": 980,
+  "defaultEnabled": true,
+  "rules": {
+    "completedWhen": "累计正确次数 >= 1",
+    "hideFromNormalQuiz": true,
+    "hideFromDueReview": true,
+    "removeFromWrongBookAfterCorrect": true,
+    "clearNextReviewAfterCorrect": true,
+    "canReopen": true,
+    "completedFilterValue": "mastered"
+  },
+  "checks": {
+    "javascriptSyntax": "passed",
+    "questionDataChanged": false,
+    "progressPreserved": true,
+    "orderPreservedForRemainingQuestions": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": "v68-complete-question-text-rebuild",
+  "baseVersion": "v67-pure-text-rebuild",
+  "builtAt": "2026-08-03T07:24:00+08:00",
+  "baseQuestionRecords": 1291,
+  "newQuestionRecords": 763,
+  "totalQuestionRecords": 2054,
+  "completeSets": 34,
+  "rebuiltCompleteSets": 19,
+  "rebuiltBySubject": {
+    "高等数学": 216,
+    "英语": 297,
+    "计算机": 250
+  },
+  "rebuiltBySource": {
+    "蓝色森林": 654,
+    "全方位": 109
+  },
+  "legacyPageArchiveRecordsRetained": 89,
+  "legacyArchivesReferencedByRebuiltSets": 0,
+  "pageModeRebuiltSetsRemaining": 0,
+  "registryMissingReferences": 0,
+  "duplicateQuestionIds": 0,
+  "placeholderCards": 0,
+  "mathQuestionCropImages": 216,
+  "checks": [
+    "complete-text-v68.js syntax passed",
+    "app.js syntax passed",
+    "19 rebuilt registries resolve to 763 questions",
+    "all rebuilt sets pageMode=false",
+    "no 待校对题目/尚未拆分 placeholders"
+  ]
+}

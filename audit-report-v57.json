@@ -1,0 +1,108 @@
+{
+  "version": "v57",
+  "questions": 1199,
+  "physicalAdded": 13,
+  "reusedExisting": 25,
+  "completeSets": [
+    {
+      "id": "bf-math-function-ch1-sec1-complete-20260726",
+      "title": "第一章第一节 函数课后练习（完整6页）",
+      "pages": 6,
+      "questions": 64,
+      "sections": [
+        "一、选择题",
+        "二、填空题",
+        "三、计算题"
+      ]
+    },
+    {
+      "id": "bf-homework-20260728-comp-complete",
+      "title": "第一章 计算机基础知识同步练习（完整11页）",
+      "pages": 11,
+      "questions": 147,
+      "sections": [
+        "选择题",
+        "填空题",
+        "判断题"
+      ]
+    },
+    {
+      "id": "bf-homework-20260728-noun-complete",
+      "title": "第一章第二节 名词与代词（完整4页）",
+      "pages": 4,
+      "questions": 35,
+      "sections": [
+        "选择题",
+        "英译汉"
+      ]
+    },
+    {
+      "id": "bf-homework-20260728-article-complete",
+      "title": "第一章第三节 数词与冠词（完整4页）",
+      "pages": 4,
+      "questions": 35,
+      "sections": [
+        "选择题",
+        "英译汉"
+      ]
+    },
+    {
+      "id": "bf-homework-20260728-binary-427-complete",
+      "title": "4.27课后作业｜进制的基础概念+算术逻辑运算（完整5页）",
+      "pages": 5,
+      "questions": 18,
+      "sections": [
+        "选择题",
+        "判断题"
+      ]
+    },
+    {
+      "id": "bf-homework-20260729-convert-storage-58-complete",
+      "title": "5.8课后作业｜进制转换+信息存储单位（完整5页）",
+      "pages": 5,
+      "questions": 28,
+      "sections": [
+        "练习册选择题",
+        "练习册计算题",
+        "选择题",
+        "判断题",
+        "填空题"
+      ]
+    },
+    {
+      "id": "bf-homework-20260729-ascii-code-supplement-complete",
+      "title": "补充题目｜ASCII、原码与补码（完整9页）",
+      "pages": 9,
+      "questions": 10,
+      "sections": [
+        "单选题",
+        "判断题",
+        "填空题"
+      ]
+    }
+  ],
+  "newImages": [
+    "question-images/day-14-0729-homework-58/homework-58-page-01.jpg",
+    "question-images/day-14-0729-homework-58/homework-58-page-02.jpg",
+    "question-images/day-14-0729-homework-58/homework-58-page-03.jpg",
+    "question-images/day-14-0729-homework-58/homework-58-page-04.jpg",
+    "question-images/day-14-0729-homework-58/homework-58-page-05.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-01.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-02.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-03.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-04.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-05.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-06.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-07.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-08.jpg",
+    "question-images/day-14-0729-homework-supplement/supplement-page-09.jpg"
+  ],
+  "allRefsExist": true,
+  "checks": [
+    "question-bank-data parse",
+    "all complete-set refs exist",
+    "new image files exist",
+    "mobile image pack generated",
+    "v57 buttons and modal inserted"
+  ]
+}

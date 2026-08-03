@@ -1,0 +1,25 @@
+{
+  "version": "v63",
+  "base": "v62",
+  "uniqueUnitsExpected": 1256,
+  "zones": {
+    "课后练习": 461,
+    "暑假作业": 282,
+    "额外题库": 534
+  },
+  "summerBreakdown": {
+    "individualQuestions": 228,
+    "pageArchiveUnits": 54
+  },
+  "sharedAcrossHomeworkAndSummer": 2,
+  "changes": [
+    "main assignment zone tabs",
+    "complete set assignment tabs",
+    "page archive included in total and normal filtering",
+    "friendly labels"
+  ],
+  "sharedAcrossZones": {
+    "课后练习-暑假作业": 2,
+    "课后练习-额外题库": 19
+  }
+}
