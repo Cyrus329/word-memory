@@ -1,4 +1,4 @@
-// Generated 2026-08-03. v70 B020 专升本题型语境；资料原句优先，新词采用独立校正语境。
+// Generated 2026-08-04. v70 B021 专升本题型语境；资料原句优先，新增词使用逐条校正语境。
 window.WORD_MEMORY_CONTEXTS = {
   "-able": {
     "primary": {
@@ -59596,6 +59596,907 @@ window.WORD_MEMORY_CONTEXTS = {
       "templateFamily": "individually-reviewed",
       "contextId": "cet-20260803-24-050:primary",
       "batch": "v70-b020"
+    },
+    "extra": []
+  },
+  "look down upon/on sth.": {
+    "primary": {
+      "sentence": "We should never look down upon others.",
+      "target": "look down upon/on sth.",
+      "translation": "我们绝不应该看不起别人。",
+      "sense": "看不起；蔑视",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "source-example",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-17-003:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "look forward to doing sth.": {
+    "primary": {
+      "sentence": "I look forward to seeing you next week.",
+      "target": "look forward to doing sth.",
+      "translation": "我期待下周见到你。",
+      "sense": "期待做某事",
+      "pos": "phrase",
+      "level": "advanced",
+      "source": "source-example",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "phrase-practice-17-006:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "hostile": {
+    "primary": {
+      "sentence": "A hostile attitude can prevent classmates from solving a disagreement calmly.",
+      "target": "hostile",
+      "translation": "敌对的态度会妨碍同学们冷静解决分歧。",
+      "sense": "adj. 敌对的；敌意的；强烈反对的；n. 敌对分子；敌对方",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-002:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "alphabet": {
+    "primary": {
+      "sentence": "Children usually learn the alphabet before they begin to read simple English words.",
+      "target": "alphabet",
+      "translation": "孩子们通常先学习字母表，然后才开始阅读简单的英语单词。",
+      "sense": "n. 字母表；全部字母；入门知识",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-005:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "hectare": {
+    "primary": {
+      "sentence": "One hectare equals ten thousand square metres.",
+      "target": "hectare",
+      "translation": "一公顷等于一万平方米。",
+      "sense": "n. 公顷（面积单位，等于10,000平方米或2.471英亩）",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-007:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "adventure": {
+    "primary": {
+      "sentence": "For many students, studying in another city is both a challenge and an adventure.",
+      "target": "adventure",
+      "translation": "对许多学生来说，去另一座城市求学既是挑战也是一次冒险。",
+      "sense": "n. 冒险（经历）；奇遇；冒险精神；v. 冒险去做；大胆进行",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-009:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "pub": {
+    "primary": {
+      "sentence": "The old pub has become a small museum of local history.",
+      "target": "pub",
+      "translation": "那家老酒馆已经变成了一座当地历史小博物馆。",
+      "sense": "n. 酒馆；酒吧（尤指英国传统风格）",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-012:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "publish": {
+    "primary": {
+      "sentence": "The university plans to publish the research results next month.",
+      "target": "publish",
+      "translation": "这所大学计划下个月公布研究结果。",
+      "sense": "vt. 出版；发表；公布",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-013:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "punch": {
+    "primary": {
+      "sentence": "The machine can punch a neat hole in each answer sheet.",
+      "target": "punch",
+      "translation": "这台机器可以在每张答题卡上打出整齐的孔。",
+      "sense": "vt. 用拳猛击；打孔；n. 重击；打孔机；力量",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-014:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "quake": {
+    "primary": {
+      "sentence": "The windows began to quake when the heavy truck passed the building.",
+      "target": "quake",
+      "translation": "重型卡车经过大楼时，窗户开始震动。",
+      "sense": "v. 颤抖；震动；n. 地震；震动",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-016:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "quarrel": {
+    "primary": {
+      "sentence": "A minor quarrel should not destroy a long friendship.",
+      "target": "quarrel",
+      "translation": "一次小争吵不应该毁掉长久的友谊。",
+      "sense": "v. 争吵；争论；不同意；n. 争吵；吵架；争执",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-017:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "Marxism": {
+    "primary": {
+      "sentence": "The course introduces the basic principles and historical development of Marxism.",
+      "target": "Marxism",
+      "translation": "这门课程介绍马克思主义的基本原理和历史发展。",
+      "sense": "n. 马克思主义（马克思和恩格斯创立的社会政治经济理论体系，强调阶级斗争和社会主义革命）",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-018:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "disorder": {
+    "primary": {
+      "sentence": "Regular sleep can reduce the risk of a common sleep disorder.",
+      "target": "disorder",
+      "translation": "规律睡眠可以降低常见睡眠障碍的风险。",
+      "sense": "n. 混乱；失调；疾病；vt. 使混乱；扰乱",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-020:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "theme": {
+    "primary": {
+      "sentence": "Environmental protection is the central theme of the speech.",
+      "target": "theme",
+      "translation": "环境保护是这篇演讲的中心主题。",
+      "sense": "n. 主题；主旋律",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-021:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "hook": {
+    "primary": {
+      "sentence": "The opening question acts as a hook that draws readers into the article.",
+      "target": "hook",
+      "translation": "开头的问题像一个引子，把读者带入文章。",
+      "sense": "v. 钩住；连接；使上瘾；n. 钩子；挂钩；吸引人的部分",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-022:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "volt": {
+    "primary": {
+      "sentence": "A volt is a unit used to measure electrical potential difference.",
+      "target": "volt",
+      "translation": "伏特是用于测量电势差的单位。",
+      "sense": "n. 伏特（电压单位）",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-023:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "homosexual": {
+    "primary": {
+      "sentence": "The article argues that no homosexual person should face discrimination.",
+      "target": "homosexual",
+      "translation": "这篇文章主张任何同性恋者都不应遭受歧视。",
+      "sense": "adj. 同性恋的；n. 同性恋者",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-025:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "horn": {
+    "primary": {
+      "sentence": "The driver sounded the horn to warn the cyclist.",
+      "target": "horn",
+      "translation": "司机按响喇叭提醒骑车人。",
+      "sense": "n. （动物）角；号角；喇叭；v. 按喇叭；用角抵撞",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-027:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "myself": {
+    "primary": {
+      "sentence": "I completed the application form by myself.",
+      "target": "myself",
+      "translation": "我独自填写完了申请表。",
+      "sense": "pron.（反身代词）我自己；（强调）亲自",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-029:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "digest": {
+    "primary": {
+      "sentence": "Students need time to digest the information in a difficult lecture.",
+      "target": "digest",
+      "translation": "学生需要时间理解吸收一堂高难度讲座中的信息。",
+      "sense": "v. 消化（食物）；理解吸收（信息）；n. 摘要；文摘",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-030:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "lass": {
+    "primary": {
+      "sentence": "The novel tells the story of a young lass from northern England.",
+      "target": "lass",
+      "translation": "这部小说讲述了一位来自英格兰北部的年轻姑娘的故事。",
+      "sense": "n. 少女；小姑娘（尤用于苏格兰或英格兰北部）",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-031:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "dine": {
+    "primary": {
+      "sentence": "The exchange students were invited to dine with a local family.",
+      "target": "dine",
+      "translation": "交换生受邀与一个当地家庭共进晚餐。",
+      "sense": "vi. 进餐；用膳；vt. 宴请（某人）",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-034:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "fable": {
+    "primary": {
+      "sentence": "The fable teaches readers not to judge others by appearance.",
+      "target": "fable",
+      "translation": "这则寓言告诫读者不要以貌取人。",
+      "sense": "n. 寓言；神话；虚构的故事",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-036:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "hint": {
+    "primary": {
+      "sentence": "The teacher gave us a hint instead of revealing the answer.",
+      "target": "hint",
+      "translation": "老师给了我们一个提示，而没有直接公布答案。",
+      "sense": "n. 暗示；线索；微量；v. 暗示；示意",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "blueforest-20260804-30-039:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "scheme": {
+    "primary": {
+      "sentence": "The city introduced a recycling scheme to reduce household waste.",
+      "target": "scheme",
+      "translation": "这座城市推出了一项回收计划，以减少生活垃圾。",
+      "sense": "n. 计划；方案；阴谋；诡计；vi. vt. 密谋；秘密策划",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-002:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "route": {
+    "primary": {
+      "sentence": "This bus route connects the university with the railway station.",
+      "target": "route",
+      "translation": "这条公交路线连接大学和火车站。",
+      "sense": "n. 路线；路途；途径；渠道；vt. 按某路线发送",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-005:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "interior": {
+    "primary": {
+      "sentence": "The interior of the library was redesigned to provide more study space.",
+      "target": "interior",
+      "translation": "图书馆内部经过重新设计，以提供更多学习空间。",
+      "sense": "n. 内部；内地；内陆；内政；adj. 内部的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-008:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "intermediary": {
+    "primary": {
+      "sentence": "An intermediary helped the two sides reach an agreement.",
+      "target": "intermediary",
+      "translation": "一名中间人帮助双方达成了协议。",
+      "sense": "n. 调解人；中间人；adj. 中间的；调解的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-009:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "exterior": {
+    "primary": {
+      "sentence": "Although the building has an old exterior, its classrooms are modern.",
+      "target": "exterior",
+      "translation": "虽然这栋楼外观陈旧，但教室很现代化。",
+      "sense": "n. 外部；外观；外表；外貌；adj. 外面的；外部的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-010:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "external": {
+    "primary": {
+      "sentence": "External factors such as weather can affect the experiment.",
+      "target": "external",
+      "translation": "天气等外部因素会影响实验。",
+      "sense": "adj. 外部的；对外的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-011:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "internal": {
+    "primary": {
+      "sentence": "The company carried out an internal review of its safety rules.",
+      "target": "internal",
+      "translation": "公司对其安全规定进行了内部审查。",
+      "sense": "adj. 国内的；内部的；体内的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-012:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "inner": {
+    "primary": {
+      "sentence": "Regular reflection can help students understand their inner goals.",
+      "target": "inner",
+      "translation": "定期反思能帮助学生了解自己内心的目标。",
+      "sense": "adj. 里面的；内部的；内心的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-013:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "medium": {
+    "primary": {
+      "sentence": "Online video has become an important medium for public education.",
+      "target": "medium",
+      "translation": "在线视频已经成为公共教育的重要媒介。",
+      "sense": "adj. 中等的；中号的；n. 传播媒介；手段；工具；培养基",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-015:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "intermediate": {
+    "primary": {
+      "sentence": "This course is designed for students at an intermediate level.",
+      "target": "intermediate",
+      "translation": "这门课程面向中级水平的学生。",
+      "sense": "adj. 中级的；居中的；中间的；n. 中级水平者",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-016:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "locality": {
+    "primary": {
+      "sentence": "The survey records the plants found in each locality.",
+      "target": "locality",
+      "translation": "这项调查记录了每个地区发现的植物。",
+      "sense": "n. 地区；区域",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-018:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "locate": {
+    "primary": {
+      "sentence": "Researchers used satellite data to locate the missing vessel.",
+      "target": "locate",
+      "translation": "研究人员利用卫星数据确定失踪船只的位置。",
+      "sense": "vt. 确定……的位置；使位于；vi.（公司）落户于",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-019:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "location": {
+    "primary": {
+      "sentence": "The library's central location makes it easy to reach.",
+      "target": "location",
+      "translation": "图书馆位于中心地带，因此很容易到达。",
+      "sense": "n. 地点；位置；外景拍摄地；定位",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-020:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "situate": {
+    "primary": {
+      "sentence": "The school plans to situate the new laboratory beside the science building.",
+      "target": "situate",
+      "translation": "学校计划把新实验室设在科学楼旁边。",
+      "sense": "vt. 使坐落于；使位于；将……置于",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-022:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "citation": {
+    "primary": {
+      "sentence": "Every direct quotation in an academic paper needs a proper citation.",
+      "target": "citation",
+      "translation": "学术论文中的每处直接引语都需要规范的引文标注。",
+      "sense": "n. 引文；嘉奖令；传票；罚单",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-025:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "web": {
+    "primary": {
+      "sentence": "The spider repaired its web after the rain.",
+      "target": "web",
+      "translation": "雨后，蜘蛛修补了它的网。",
+      "sense": "n. 蜘蛛网；网状物；万维网；蹼",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-028:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "click": {
+    "primary": {
+      "sentence": "Click the submit button only after checking every answer.",
+      "target": "click",
+      "translation": "检查完所有答案后再点击提交按钮。",
+      "sense": "vi. vt. 发出咔嗒声；点击；vi. 恍然大悟；（与某人）合得来；n. 咔嗒声；点击",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-029:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "rid": {
+    "primary": {
+      "sentence": "The new filter helps rid the water of harmful substances.",
+      "target": "rid",
+      "translation": "这种新过滤器有助于去除水中的有害物质。",
+      "sense": "vt. 使摆脱；使消除；使丢弃；adj. 摆脱了的；丢弃了的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-030:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "suppose": {
+    "primary": {
+      "sentence": "Suppose the price rises by ten percent; how will demand change?",
+      "target": "suppose",
+      "translation": "假设价格上涨百分之十，需求会如何变化？",
+      "sense": "vi. vt. 认为；猜想；（婉转表达）要不；vt. 假定；假设",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-031:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "supposedly": {
+    "primary": {
+      "sentence": "The supposedly simple task required careful calculation.",
+      "target": "supposedly",
+      "translation": "这项据说很简单的任务却需要仔细计算。",
+      "sense": "adv. 据传；据说",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-032:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "supposition": {
+    "primary": {
+      "sentence": "The conclusion is based on evidence rather than supposition.",
+      "target": "supposition",
+      "translation": "这一结论以证据为依据，而不是建立在猜想之上。",
+      "sense": "n. 假定；设想",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-033:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "composer": {
+    "primary": {
+      "sentence": "The composer combined traditional instruments with modern rhythms.",
+      "target": "composer",
+      "translation": "这位作曲家把传统乐器与现代节奏结合起来。",
+      "sense": "n. 作曲家",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-037:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "composition": {
+    "primary": {
+      "sentence": "The teacher praised the clear structure of her English composition.",
+      "target": "composition",
+      "translation": "老师表扬了她英语作文清晰的结构。",
+      "sense": "n. 构成；成分；构图；作品；创作；作文",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-038:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "component": {
+    "primary": {
+      "sentence": "Communication is an essential component of effective teamwork.",
+      "target": "component",
+      "translation": "沟通是高效团队合作的重要组成部分。",
+      "sense": "n. 成分；部件；组成部分；adj. 组成的；构成的",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-039:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "pose": {
+    "primary": {
+      "sentence": "Excessive screen time may pose a risk to students' sleep quality.",
+      "target": "pose",
+      "translation": "屏幕使用时间过长可能会对学生的睡眠质量构成风险。",
+      "sense": "vt. 造成（威胁、问题等）；提出；vi. 摆姿势；佯装；假扮；n.（为拍照等摆的）姿势",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-040:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "posture": {
+    "primary": {
+      "sentence": "Good posture can reduce neck pain during long study sessions.",
+      "target": "posture",
+      "translation": "良好的姿势可以减轻长时间学习造成的颈部疼痛。",
+      "sense": "n. 姿态；姿势；态度；立场；vi. 装腔作势",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-041:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "exposure": {
+    "primary": {
+      "sentence": "Regular exposure to English news can improve listening ability.",
+      "target": "exposure",
+      "translation": "经常接触英语新闻可以提高听力。",
+      "sense": "n. 暴露；揭露；接触；曝光",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-043:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "dispose": {
+    "primary": {
+      "sentence": "Students should dispose of laboratory waste according to the rules.",
+      "target": "dispose",
+      "translation": "学生应按照规定处理实验室废弃物。",
+      "sense": "vi. 丢掉；处理；vt. 布置；安排；使倾向于",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-044:primary",
+      "batch": "v70-b021"
+    },
+    "extra": []
+  },
+  "disposal": {
+    "primary": {
+      "sentence": "Safe disposal of electronic waste protects the environment.",
+      "target": "disposal",
+      "translation": "安全处理电子垃圾有助于保护环境。",
+      "sense": "n. 丢掉；处理；（财产等）处置；变卖",
+      "pos": "other",
+      "level": "advanced",
+      "source": "reviewed-exam-context",
+      "contextKind": "exam-authored",
+      "generatedBy": "human-review-v70-b021",
+      "templateFamily": "individually-reviewed",
+      "contextId": "cet-20260804-25-045:primary",
+      "batch": "v70-b021"
     },
     "extra": []
   }
